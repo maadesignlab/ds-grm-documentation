@@ -1,0 +1,43 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as BadgeStories from "./badge.stories"
+import badgeSource from "./badge.tsx?raw"
+import { BadgeSizeOverview, BadgeSpecifications, BadgeVariantOverview } from "./badge-docs"
+
+<Meta of={BadgeStories} />
+<Title of={BadgeStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma</summary>
+
+  - Nueve estilos y dos tratamientos visuales sincronizados con el nodo 186:141.
+  - Cuatro tamaños con tipografía, espaciado e iconografía propios.
+  - Contenido opcional a izquierda y derecha mediante composición.
+
+  <Source language="tsx" code={badgeSource} />
+</details>
+
+## Variantes de estilo
+
+Cada muestra responde a los tokens de la marca activa.
+
+<div style={{ marginBottom: 48 }}>
+  <BadgeVariantOverview />
+</div>
+
+## Escala y forma
+
+<div style={{ marginBottom: 48 }}>
+  <BadgeSizeOverview />
+</div>
+
+## Especificaciones
+
+<div style={{ marginBottom: 48 }}>
+  <BadgeSpecifications />
+</div>
+
+## Código
+
+<Source language="tsx" code={badgeSource} />

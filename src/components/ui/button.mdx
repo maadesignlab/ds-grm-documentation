@@ -1,0 +1,43 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as ButtonStories from "./button.stories"
+import buttonSource from "./button.tsx?raw"
+import { ButtonSizeOverview, ButtonSpecifications, ButtonVariantOverview } from "./button-docs"
+
+<Meta of={ButtonStories} />
+<Title of={ButtonStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
+  <summary><strong>v1.1.0</strong> · Alineación con Figma</summary>
+
+  - Tamaños, espaciado, radio, sombra y variantes sincronizados con el nodo `1:24`.
+  - Button e Icon Button conservan propiedades independientes en Storybook.
+  - Icon Button admite forma semicuadrada o circular.
+
+  <Source language="tsx" code={buttonSource} />
+</details>
+
+## Variantes de estilo
+
+Cada muestra utiliza los tokens de la marca activa.
+
+<div style={{ marginBottom: 48 }}>
+  <ButtonVariantOverview />
+</div>
+
+## Escala y forma
+
+<div style={{ marginBottom: 48 }}>
+  <ButtonSizeOverview />
+</div>
+
+## Especificaciones
+
+<div style={{ marginBottom: 48 }}>
+  <ButtonSpecifications />
+</div>
+
+## Código
+
+<Source language="tsx" code={buttonSource} />

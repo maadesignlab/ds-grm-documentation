@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "reina-madre",
+  "homepage": "https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1",
+  "items": [
+    {
+      "name": "badge",
+      "type": "registry:ui",
+      "title": "Badge",
+      "description": "Badge GRM basado en shadcn/ui y tokens de Figma",
+      "files": [{ "path": "src/components/ui/badge.tsx", "type": "registry:ui" }]
+    },
+    {
+      "name": "spinner",
+      "type": "registry:ui",
+      "title": "Spinner",
+      "description": "Spinner GRM con tamaños definidos en Figma",
+      "files": [{ "path": "src/components/ui/spinner.tsx", "type": "registry:ui" }]
+    }
+  ]
+}

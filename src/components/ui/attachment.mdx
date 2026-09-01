@@ -1,0 +1,58 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as AttachmentStories from "./attachment.stories"
+import attachmentSource from "./attachment.tsx?raw"
+import { AttachmentGroupOverview, AttachmentPatternOverview, AttachmentSizeOverview, AttachmentSpecifications, AttachmentStateOverview, AttachmentTokenSpecifications } from "./attachment-docs"
+
+<Meta of={AttachmentStories} />
+<Title of={AttachmentStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma</summary>
+
+  - Componente compuesto basado en el patrón Attachment de shadcn/ui.
+  - Estados `idle`, `uploading`, `processing`, `error` y `done`.
+  - Tamaños `default`, `sm` y `xs`; orientaciones horizontal y vertical.
+  - Media, acciones, trigger y grupos desplazables componibles.
+
+  <Source language="tsx" code={attachmentSource} />
+</details>
+
+## Anatomía y orientación
+
+<div style={{ marginBottom: 48 }}>
+  <AttachmentPatternOverview />
+</div>
+
+## Estados
+
+<div style={{ marginBottom: 48 }}>
+  <AttachmentStateOverview />
+</div>
+
+## Escala y forma
+
+<div style={{ marginBottom: 48 }}>
+  <AttachmentSizeOverview />
+</div>
+
+## Grupo de adjuntos
+
+<div style={{ marginBottom: 48 }}>
+  <AttachmentGroupOverview />
+</div>
+
+## Especificaciones
+
+<div style={{ marginBottom: 24 }}>
+  <AttachmentSpecifications />
+</div>
+
+<div style={{ marginBottom: 48 }}>
+  <AttachmentTokenSpecifications />
+</div>
+
+## Código
+
+<Source language="tsx" code={attachmentSource} />

@@ -1,0 +1,17 @@
+{
+  "typescript.tsserver.exclude": [
+    "**/node_modules/**",
+    "**/.next/**",
+    "**/storybook-static/**"
+  ],
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/.next/**": true,
+    "**/storybook-static/**": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/storybook-static": true
+  }
+}
