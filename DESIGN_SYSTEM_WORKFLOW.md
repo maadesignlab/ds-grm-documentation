@@ -32,6 +32,20 @@ Figma es la fuente de verdad para:
 
 shadcn/ui proporciona el código base del componente. El Design System GRM adapta ese código mediante tokens y variantes propias, conservando el patrón de componentes abiertos y copiables de shadcn/ui.
 
+### Regla de fidelidad a shadcn/ui
+
+Para cada componente se preservan, siempre que exista un equivalente:
+
+- La composición pública y los nombres de sus subcomponentes.
+- El primitive accesible de Radix/Base UI utilizado por shadcn/ui.
+- `asChild` y la semántica estricta de Slot, sin fallbacks que cambien el elemento renderizado.
+- Las propiedades base existentes; las propiedades de Figma se agregan como extensiones o aliases compatibles.
+- Los atributos `data-slot`, estados de foco, teclado, disabled y ARIA.
+
+Figma puede modificar tokens, geometría, tipografía, variantes y estados visuales, pero no debe reemplazar el comportamiento accesible del componente base. Las utilidades exclusivas de documentación, como `inline` en Alert Dialog, no representan el modo de producción predeterminado.
+
+Cuando shadcn/ui no ofrece un equivalente —como Attachment— el componente se considera propio del Design System y reutiliza primitivas existentes como Button y Slot.
+
 ## 2. Fuente de Figma
 
 Archivo principal:
@@ -363,6 +377,23 @@ La diagramación documental de componentes debe reutilizar el patrón de Button:
 - Escala presentada en filas con divisor.
 - Especificaciones en tablas con encabezado, alturas y alineación consistentes.
 
+### Revisión editorial obligatoria
+
+Cada componente nuevo o actualizado debe pasar una revisión de consonancia visual en Docs. Button es la referencia canónica y se deben comprobar estas medidas, no solo que el contenido compile:
+
+| Elemento | Criterio |
+| --- | --- |
+| Separación entre secciones principales | 48 px después del contenido de cada sección |
+| Tarjetas y tablas | `rounded-lg`, borde `--border` y fondo `--card` |
+| Encabezado interno | 20 px laterales; título 14/20 o 16/24 según jerarquía; descripción 12/18 o 13/20 |
+| Área de muestra | Contenido centrado, fondo `--background` y padding de 20 px |
+| Grupos de tarjetas | 12 px para matrices compactas y 24 px entre bloques técnicos |
+| Encabezado de tabla | 11 px, peso 600, `0.04em`, uppercase y padding 11 × 16 px |
+| Filas de tabla | 52 px mínimo, texto 12 px/1.4, padding 10 × 16 px y divisor `--border` |
+| Código corto | JetBrains Mono a 10 px, alto mínimo de 24 px |
+
+La revisión debe ejecutarse en el navegador con las cuatro marcas. Se debe medir `font-family`, color, tamaño, line-height, márgenes, padding, gap, radio y altura de fila. Storybook no puede aportar colores o tipografías editoriales fijas a la vista final; el texto común usa `--brand-font-sans` y `--foreground`, mientras el código conserva `--brand-font-mono`.
+
 ### Diferencias entre Canvas y Docs
 
 Canvas y Docs son contextos CSS distintos. Que ambos utilicen el mismo componente React no garantiza por sí solo que tengan los mismos estilos computados.
@@ -451,6 +482,42 @@ En Attachment se deben validar como propiedades independientes:
 - Grupo horizontal de 1 a 10 adjuntos.
 
 Las dimensiones de `error` son 24 px mayores en horizontal porque incorpora Retry y Remove. Esto pertenece a la geometría de Figma, no debe compensarse ocultando una acción ni comprimiendo el texto. `AttachmentGroup` conserva `gap-3`, desplazamiento horizontal y snapping; cada hijo sigue siendo una instancia real de Attachment.
+
+### Caso Alert
+
+El nodo `1178:530` define dos variantes de estado (`default` y `destructive`) y dos propiedades de composición independientes: icono y acción. Docs y Playground deben usar siempre `Alert`, `AlertTitle`, `AlertDescription` y `AlertAction`; la acción renderiza el `Button` XS público del sistema.
+
+La muestra de referencia mide 448 × 80 px. El borde de Figma es interior, por lo que se representa con `outline` negativo para no añadir 2 px a la geometría. Título y descripción usan 14/20 y deben proteger la familia `--brand-font-sans` frente al CSS editorial de Storybook Docs.
+
+### Caso Alert Dialog
+
+El nodo `1187:612` define tamaños `basic` (384 × 148 px) y `sm` (320 × 148 px), estados `default` y `destructive`, y media opcional. La implementación conserva Root, Trigger, Content, Header, Media, Title, Description, Footer, Cancel y Action de Alert Dialog de Radix/shadcn.
+
+Docs utiliza el modo `inline` de `AlertDialogContent` para renderizar la misma superficie real sin crear overlays o portales superpuestos. Este modo es documental; el Playground conserva Portal, Overlay, foco modal y cierre accesible. Las acciones siempre reutilizan Button del sistema.
+
+### Caso Card
+
+El nodo `1798:3431` define tamaños `default` (384 px) y `sm` (320 px), estilos `body` e `image`, y espaciados estructurales de 12, 16, 20, 24 y 32 px. La API mantiene los subcomponentes públicos de shadcn/ui: Card, Header, Title, Description, Action, Content y Footer.
+
+Card Body sigue siendo un slot flexible. CardFooter expone `layout="column|row|wrap"` y las acciones reutilizan Button. Las muestras de Docs deben componer el componente público real; no deben recrear la tarjeta con HTML visual paralelo.
+
+En `variant="image"`, la imagen ocupa el slot Card Body y aparece antes del Header; no se debe renderizar un segundo CardContent. Header y Footer son regiones `shrink-0`, mientras la imagen absorbe el espacio flexible dentro de los 361 px. El padding del Footer usa el mismo `--card-spacing`: en layout column mide 107, 115 y 123 px para spacing 16, 20 y 24 respectivamente.
+
+### Caso Carousel
+
+El nodo `2782:1341` amplía el Carousel de shadcn/ui con escalas `full`, `large`, `medium` y `small`, equivalentes a 1, 2, 3 y 4 ítems visibles. Se preservan Embla, CarouselContext, `opts`, `plugins`, `setApi`, los subcomponentes Content/Item/Previous/Next y la semántica `region`, `carousel`, `group` y `slide`.
+
+Position y Status no son props visuales manuales: se derivan de `api.canScrollPrev()`, `api.canScrollNext()` y la selección real de Embla. La orientación vertical usa ArrowUp/ArrowDown por teclado y la horizontal ArrowLeft/ArrowRight.
+
+La documentación también debe conservar las vías oficiales de personalización de shadcn/ui: `basis-*` en CarouselItem, spacing mediante margen negativo en CarouselContent y padding en CarouselItem, opciones mediante `opts`, acceso con `setApi`, eventos, plugins y dirección RTL. Los tamaños del DS son atajos y no sustituyen estas APIs.
+
+### Caso Sidebar
+
+El nodo `3114:1373` define anchos de 256 px expandido y 56 px colapsado, header de 56 px, ítems de navegación de 40 px, iconos de 16 px, padding horizontal de 12 px y grupos separados por 20 px. Los labels usan 11 px, uppercase y tracking de `0.1em` con divisor flexible.
+
+La adaptación conserva el contrato compuesto de shadcn/ui: `SidebarProvider`, `Sidebar`, `SidebarHeader`, `SidebarContent`, `SidebarGroup`, `SidebarMenu`, submenús, rail, inset, tooltips y responsive Sheet. También mantiene `side`, `variant`, `collapsible`, estado controlado y no controlado, cookie y shortcut `Ctrl/Cmd + B`. Las dimensiones GRM se aplican sobre estas primitivas; no se crea una implementación paralela.
+
+Las muestras de Docs renderizan el Sidebar real en un contenedor editorial acotado. El CSS de Docs solo convierte el contenedor desktop fijo en una instancia relativa para mostrarla dentro de las cards; no cambia la API ni el comportamiento de producción.
 
 ```text
 src/components/ui/
@@ -565,6 +632,7 @@ Si un valor difiere, primero se debe identificar la regla CSS que gana en el nav
 - [ ] Separar stories cuando existan APIs diferentes.
 - [ ] Mantener un único Playground por tipo de componente.
 - [ ] Crear documentación MDX depurada.
+- [ ] Revisar jerarquía tipográfica, ritmo vertical, radios, tablas y separación entre secciones contra el patrón de Button.
 - [ ] Mostrar variantes y especificaciones de manera visual.
 - [ ] Importar el código real con `?raw`.
 - [ ] Probar el selector de las cuatro marcas.

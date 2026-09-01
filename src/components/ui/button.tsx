@@ -58,23 +58,6 @@ function Button({
   }) {
   const Comp = asChild ? Slot.Root : "button"
 
-  if (
-    asChild &&
-    (React.Children.count(children) !== 1 || !React.isValidElement(children))
-  ) {
-    return (
-      <button
-        data-slot="button"
-        data-variant={variant}
-        data-size={size}
-        className={cn(buttonVariants({ variant, size, className }))}
-        {...props}
-      >
-        {children}
-      </button>
-    )
-  }
-
   return (
     <Comp
       data-slot="button"

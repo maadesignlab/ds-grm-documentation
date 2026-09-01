@@ -4,7 +4,7 @@ import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/lib/utils"
 
 const alertVariants = cva(
-  "group/alert relative grid w-full gap-0.5 rounded-lg border px-2.5 py-2 text-left text-sm has-data-[slot=alert-action]:relative has-data-[slot=alert-action]:pr-18 has-[>svg]:grid-cols-[auto_1fr] has-[>svg]:gap-x-2 *:[svg]:row-span-2 *:[svg]:translate-y-0.5 *:[svg]:text-current *:[svg:not([class*='size-'])]:size-4",
+  "group/alert relative grid min-h-20 w-[448px] max-w-full gap-y-0.5 rounded-[10px] bg-card px-[11px] py-[9px] text-left font-sans text-[14px] leading-5 outline -outline-offset-1 outline-border has-data-[slot=alert-action]:pr-[105px] has-[>svg]:grid-cols-[auto_minmax(0,1fr)] has-[>svg]:gap-x-2 *:[svg]:row-span-2 *:[svg]:mt-0.5 *:[svg]:size-4 *:[svg]:shrink-0 *:[svg]:text-current",
   {
     variants: {
       variant: {
@@ -21,7 +21,7 @@ const alertVariants = cva(
 
 function Alert({
   className,
-  variant,
+  variant = "default",
   ...props
 }: React.ComponentProps<"div"> & VariantProps<typeof alertVariants>) {
   return (
@@ -34,14 +34,15 @@ function Alert({
   )
 }
 
-function AlertTitle({ className, ...props }: React.ComponentProps<"div">) {
+function AlertTitle({ className, style, ...props }: React.ComponentProps<"div">) {
   return (
     <div
       data-slot="alert-title"
       className={cn(
-        "font-medium group-has-[>svg]/alert:col-start-2 [&_a]:underline [&_a]:underline-offset-3 [&_a]:hover:text-foreground",
+        "min-w-0 font-medium leading-5 group-has-[>svg]/alert:col-start-2 [&_a]:underline [&_a]:underline-offset-3 [&_a]:hover:text-foreground",
         className
       )}
+      style={{ fontFamily: "var(--brand-font-sans)", fontSize: 14, fontWeight: "var(--font-weight-medium)", letterSpacing: 0, lineHeight: "20px", ...style }}
       {...props}
     />
   )
@@ -49,15 +50,17 @@ function AlertTitle({ className, ...props }: React.ComponentProps<"div">) {
 
 function AlertDescription({
   className,
+  style,
   ...props
 }: React.ComponentProps<"div">) {
   return (
     <div
       data-slot="alert-description"
       className={cn(
-        "text-sm text-balance text-muted-foreground md:text-pretty [&_a]:underline [&_a]:underline-offset-3 [&_a]:hover:text-foreground [&_p:not(:last-child)]:mb-4",
+        "min-w-0 text-[14px] leading-5 text-muted-foreground group-has-[>svg]/alert:col-start-2 [&_a]:underline [&_a]:underline-offset-3 [&_a]:hover:text-foreground",
         className
       )}
+      style={{ fontFamily: "var(--brand-font-sans)", fontSize: 14, fontWeight: 400, letterSpacing: 0, lineHeight: "20px", ...style }}
       {...props}
     />
   )
@@ -67,7 +70,7 @@ function AlertAction({ className, ...props }: React.ComponentProps<"div">) {
   return (
     <div
       data-slot="alert-action"
-      className={cn("absolute top-2 right-2", className)}
+      className={cn("absolute top-[9px] right-[11px]", className)}
       {...props}
     />
   )

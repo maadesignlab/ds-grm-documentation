@@ -1,0 +1,39 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as CardStories from "./card.stories"
+import cardSource from "./card.tsx?raw"
+import { CardFooterOverview, CardScaleOverview, CardSpecifications, CardStyleOverview } from "./card-docs"
+
+<Meta of={CardStories} />
+<Title of={CardStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma</summary>
+
+  - Tamaños, estilos y espaciados sincronizados con el nodo `1798:3431`.
+  - Header, body y footer conservan la composición pública de Card de shadcn/ui.
+  - Footer admite distribución en columna, fila o wrap.
+
+  <Source language="tsx" code={cardSource} />
+</details>
+
+## Escala y forma
+
+<div style={{ marginBottom: 48 }}><CardScaleOverview /></div>
+
+## Estilos
+
+<div style={{ marginBottom: 48 }}><CardStyleOverview /></div>
+
+## Footer
+
+<div style={{ marginBottom: 48 }}><CardFooterOverview /></div>
+
+## Especificaciones
+
+<div style={{ marginBottom: 48 }}><CardSpecifications /></div>
+
+## Código
+
+<Source language="tsx" code={cardSource} />

@@ -1,0 +1,39 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as AlertDialogStories from "./alert-dialog.stories"
+import alertDialogSource from "./alert-dialog.tsx?raw"
+import { AlertDialogMediaOverview, AlertDialogSizeOverview, AlertDialogSpecifications, AlertDialogStatusOverview } from "./alert-dialog-docs"
+
+<Meta of={AlertDialogStories} />
+<Title of={AlertDialogStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma</summary>
+
+  - Tamaños `basic` y `sm` sincronizados con el nodo 1187:612.
+  - Estados `default` y `destructive` aplicados a media y acción principal.
+  - Media opcional y composición accesible sobre Alert Dialog de Radix incluido por shadcn/ui.
+
+  <Source language="tsx" code={alertDialogSource} />
+</details>
+
+## Escala y forma
+
+<div style={{ marginBottom: 48 }}><AlertDialogSizeOverview /></div>
+
+## Estados
+
+<div style={{ marginBottom: 48 }}><AlertDialogStatusOverview /></div>
+
+## Media
+
+<div style={{ marginBottom: 48 }}><AlertDialogMediaOverview /></div>
+
+## Especificaciones
+
+<div style={{ marginBottom: 48 }}><AlertDialogSpecifications /></div>
+
+## Código
+
+<Source language="tsx" code={alertDialogSource} />

@@ -39,7 +39,15 @@ function AccordionTrigger({
   ...props
 }: React.ComponentProps<typeof AccordionPrimitive.Trigger>) {
   return (
-    <AccordionPrimitive.Header className="flex" style={{ margin: 0 }}>
+    <AccordionPrimitive.Header
+      className="flex"
+      style={{
+        margin: 0,
+        fontFamily: "var(--brand-font-sans)",
+        fontSize: 14,
+        lineHeight: "20px",
+      }}
+    >
       <AccordionPrimitive.Trigger
         data-slot="accordion-trigger"
         className={cn(

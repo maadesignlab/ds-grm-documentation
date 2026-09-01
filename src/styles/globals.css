@@ -79,10 +79,15 @@
   font-family: var(--brand-font-sans) !important;
 }
 
-.sbdocs-wrapper :where(h1, h2, h3, h4, h5, h6, p, button, table, th, td, dt, dd, strong, summary) {
+.sbdocs-wrapper :where(h1, h2, h3, h4, h5, h6, p, ul, ol, li, blockquote, details, summary, button, table, thead, tbody, tr, th, td, dt, dd, strong, em, small, label, div, span) {
   font-family: var(--brand-font-sans) !important;
 }
 
-.sbdocs-wrapper :where(code, pre, kbd, samp) {
+.sbdocs-wrapper :where(.sbdocs-title, .sbdocs-subtitle, li) {
+  color: var(--foreground) !important;
+}
+
+.sbdocs-wrapper :where(code, pre, kbd, samp),
+.sbdocs-wrapper :where(code, pre, kbd, samp) * {
   font-family: var(--brand-font-mono) !important;
 }

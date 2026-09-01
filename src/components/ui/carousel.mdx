@@ -1,0 +1,43 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as CarouselStories from "./carousel.stories"
+import carouselSource from "./carousel.tsx?raw"
+import { CarouselAnatomy, CarouselBehaviorOverview, CarouselOrientationOverview, CarouselSizeOverview, CarouselSpecifications } from "./carousel-docs"
+
+<Meta of={CarouselStories} />
+<Title of={CarouselStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma</summary>
+
+  - Escalas `full`, `large`, `medium` y `small` sincronizadas con el nodo `2782:1341`.
+  - Orientación horizontal y vertical sobre Embla Carousel.
+  - Navegación, estado disabled, teclado y posición derivados de la API real de shadcn/ui.
+
+  <Source language="tsx" code={carouselSource} />
+</details>
+
+## Anatomía y composición
+
+<div style={{ marginBottom: 48 }}><CarouselAnatomy /></div>
+
+## Escala y forma
+
+<div style={{ marginBottom: 48 }}><CarouselSizeOverview /></div>
+
+## Orientación
+
+<div style={{ marginBottom: 48 }}><CarouselOrientationOverview /></div>
+
+## Comportamiento shadcn/ui
+
+<div style={{ marginBottom: 48 }}><CarouselBehaviorOverview /></div>
+
+## Especificaciones
+
+<div style={{ marginBottom: 48 }}><CarouselSpecifications /></div>
+
+## Código
+
+<Source language="tsx" code={carouselSource} />

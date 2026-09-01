@@ -18,6 +18,7 @@ type CarouselProps = {
   opts?: CarouselOptions
   plugins?: CarouselPlugin
   orientation?: "horizontal" | "vertical"
+  size?: "full" | "large" | "medium" | "small"
   setApi?: (api: CarouselApi) => void
 }
 
@@ -44,6 +45,7 @@ function useCarousel() {
 
 function Carousel({
   orientation = "horizontal",
+  size = "full",
   opts,
   setApi,
   plugins,
@@ -77,15 +79,18 @@ function Carousel({
 
   const handleKeyDown = React.useCallback(
     (event: React.KeyboardEvent<HTMLDivElement>) => {
-      if (event.key === "ArrowLeft") {
+      const previousKey = orientation === "horizontal" ? "ArrowLeft" : "ArrowUp"
+      const nextKey = orientation === "horizontal" ? "ArrowRight" : "ArrowDown"
+
+      if (event.key === previousKey) {
         event.preventDefault()
         scrollPrev()
-      } else if (event.key === "ArrowRight") {
+      } else if (event.key === nextKey) {
         event.preventDefault()
         scrollNext()
       }
     },
-    [scrollPrev, scrollNext]
+    [orientation, scrollPrev, scrollNext]
   )
 
   React.useEffect(() => {
@@ -112,6 +117,7 @@ function Carousel({
         carouselRef,
         api: api,
         opts,
+        size,
         orientation:
           orientation || (opts?.axis === "y" ? "vertical" : "horizontal"),
         scrollPrev,
@@ -122,10 +128,16 @@ function Carousel({
     >
       <div
         onKeyDownCapture={handleKeyDown}
-        className={cn("relative", className)}
+        className={cn(
+          "group/carousel relative p-3",
+          orientation === "horizontal" ? "h-[220px] w-[min(520px,calc(100vw-32px))]" : "h-[320px] w-[min(424px,calc(100vw-32px))]",
+          className
+        )}
         role="region"
         aria-roledescription="carousel"
         data-slot="carousel"
+        data-orientation={orientation}
+        data-size={size}
         {...props}
       >
         {children}
@@ -140,12 +152,15 @@ function CarouselContent({ className, ...props }: React.ComponentProps<"div">) {
   return (
     <div
       ref={carouselRef}
-      className="overflow-hidden"
+      className={cn(
+        "overflow-hidden",
+        orientation === "horizontal" ? "mx-10 h-full" : "my-10 h-[216px] w-full"
+      )}
       data-slot="carousel-content"
     >
       <div
         className={cn(
-          "flex",
+          "flex h-full",
           orientation === "horizontal" ? "-ml-4" : "-mt-4 flex-col",
           className
         )}
@@ -156,7 +171,14 @@ function CarouselContent({ className, ...props }: React.ComponentProps<"div">) {
 }
 
 function CarouselItem({ className, ...props }: React.ComponentProps<"div">) {
-  const { orientation } = useCarousel()
+  const { orientation, size } = useCarousel()
+
+  const basis = {
+    full: "basis-full",
+    large: "basis-1/2",
+    medium: "basis-1/3",
+    small: "basis-1/4",
+  }[size ?? "full"]
 
   return (
     <div
@@ -164,7 +186,8 @@ function CarouselItem({ className, ...props }: React.ComponentProps<"div">) {
       aria-roledescription="slide"
       data-slot="carousel-item"
       className={cn(
-        "min-w-0 shrink-0 grow-0 basis-full",
+        "h-full min-w-0 shrink-0 grow-0",
+        basis,
         orientation === "horizontal" ? "pl-4" : "pt-4",
         className
       )}
@@ -176,7 +199,7 @@ function CarouselItem({ className, ...props }: React.ComponentProps<"div">) {
 function CarouselPrevious({
   className,
   variant = "outline",
-  size = "icon-sm",
+  size = "icon",
   ...props
 }: React.ComponentProps<typeof Button>) {
   const { orientation, scrollPrev, canScrollPrev } = useCarousel()
@@ -189,8 +212,8 @@ function CarouselPrevious({
       className={cn(
         "absolute touch-manipulation rounded-full",
         orientation === "horizontal"
-          ? "inset-y-0 -left-12 my-auto"
-          : "-top-12 left-1/2 -translate-x-1/2 rotate-90",
+          ? "inset-y-0 left-3 my-auto"
+          : "top-3 left-1/2 -translate-x-1/2 rotate-90",
         className
       )}
       disabled={!canScrollPrev}
@@ -206,7 +229,7 @@ function CarouselPrevious({
 function CarouselNext({
   className,
   variant = "outline",
-  size = "icon-sm",
+  size = "icon",
   ...props
 }: React.ComponentProps<typeof Button>) {
   const { orientation, scrollNext, canScrollNext } = useCarousel()
@@ -219,8 +242,8 @@ function CarouselNext({
       className={cn(
         "absolute touch-manipulation rounded-full",
         orientation === "horizontal"
-          ? "inset-y-0 -right-12 my-auto"
-          : "-bottom-12 left-1/2 -translate-x-1/2 rotate-90",
+          ? "inset-y-0 right-3 my-auto"
+          : "bottom-3 left-1/2 -translate-x-1/2 rotate-90",
         className
       )}
       disabled={!canScrollNext}

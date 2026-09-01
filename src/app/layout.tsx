@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import type { ReactNode } from "react";
 import "@fontsource-variable/inter";
 import "@fontsource-variable/jetbrains-mono";
 import "@fontsource-variable/kantumruy-pro";
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   description: "Documentación y componentes del Design System GRM",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="es" className="h-full font-sans antialiased">
       <body className="min-h-full flex flex-col">{children}</body>

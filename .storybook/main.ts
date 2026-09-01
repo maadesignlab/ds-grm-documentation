@@ -1,4 +1,5 @@
 import type { StorybookConfig } from '@storybook/nextjs-vite';
+import { mergeConfig } from 'vite';
 
 const config: StorybookConfig = {
   "stories": [
@@ -15,6 +16,13 @@ const config: StorybookConfig = {
   "framework": "@storybook/nextjs-vite",
   "staticDirs": [
     "../public"
-  ]
+  ],
+  async viteFinal(config) {
+    return mergeConfig(config, {
+      optimizeDeps: {
+        include: ["embla-carousel-react"]
+      }
+    });
+  }
 };
 export default config;

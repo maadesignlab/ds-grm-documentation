@@ -39,7 +39,7 @@ export function AccordionModeOverview() {
   return (
     <div className="not-prose grid grid-cols-1 gap-3 lg:grid-cols-2">
       <article className="overflow-hidden rounded-lg border border-border bg-card">
-        <div className="flex min-h-[260px] items-start justify-center bg-background p-6">
+        <div className="flex min-h-[260px] items-start justify-center bg-background p-5">
           <Accordion type="multiple" defaultValue={["item-1", "item-2"]} className="w-full max-w-[404px]">
             <ExampleItems />
           </Accordion>
@@ -53,7 +53,7 @@ export function AccordionModeOverview() {
         </div>
       </article>
       <article className="overflow-hidden rounded-lg border border-border bg-card">
-        <div className="flex min-h-[260px] items-start justify-center bg-background p-6">
+        <div className="flex min-h-[260px] items-start justify-center bg-background p-5">
           <Accordion type="single" collapsible defaultValue="item-1" className="w-full max-w-[404px]">
             <ExampleItems />
           </Accordion>
