@@ -1,0 +1,40 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as HoverCardStories from "./hover-card.stories"
+import hoverCardSource from "./hover-card.tsx?raw"
+import exampleSource from "./hover-card-example.tsx?raw"
+import { HoverCardSides, HoverCardSpecifications, HoverCardVariants } from "./hover-card-docs"
+
+<Meta of={HoverCardStories} />
+<Title of={HoverCardStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva Root, Trigger, Content, Portal, delays, colisiones y navegación accesible de Radix/shadcn.
+  - Adapta la superficie de Figma de 276 × 104 px con tokens semánticos y tipografía por marca.
+  - Resuelve Button y texto mediante `asChild`, sin ampliar artificialmente la API pública.
+</details>
+
+## Variantes de trigger
+
+<div style={{ marginBottom: 48 }}><HoverCardVariants /></div>
+
+## Posición
+
+<div style={{ marginBottom: 48 }}><HoverCardSides /></div>
+
+## Especificaciones
+
+<div style={{ marginBottom: 48 }}><HoverCardSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={hoverCardSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

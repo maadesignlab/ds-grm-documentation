@@ -75,6 +75,8 @@
   --card-foreground: #484145;
   --popover: #f7f6f8;
   --popover-foreground: #342f32;
+  --tooltip: #0a0a0a;
+  --tooltip-foreground: #ffffff;
   --muted: #ece8ea;
   --muted-foreground: #9b9196;
   --accent: #ddd8e3;

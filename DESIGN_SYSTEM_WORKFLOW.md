@@ -86,6 +86,11 @@ Archivo principal:
 - Página de Context Menu: `1675:339` (set principal `1677:397`, base `1703:22653`)
 - Página de Empty: `2173:21188` (set principal `2173:21437`, EmptyContent `2173:21211`, EmptyMedia `2173:21262`)
 - Página de Spinner: `2206:19380` (set principal `2206:19610`, base animada `2213:25220`)
+- Página de Hover Card: `1650:2013` (set principal `1650:2069`, base `1650:2122`)
+- Página de Tooltip: `1:30` (set principal `1136:1739`, base `1140:23`)
+- Página de Toggle: `3267:2627` (set principal `3279:53814`)
+- Página de Toggle Group: `3331:60517` (tipos `single` y `multiple`, de 1 a 10 ítems)
+- Página de Button Group: `3355:1262` (orientación, 1 a 10 ítems y último slot compuesto)
 
 Antes de modificar un componente se debe inspeccionar en Figma:
 
@@ -572,6 +577,38 @@ El nodo `2173:21188` define contenedor sin borde o outlined, medios icon/avatar/
 El nodo `2206:19380` define una escala pública de 12, 16, 24 y 32 px, con rotación horaria lineal de 800 ms. La implementación conserva el SVG accesible, `role=status`, `aria-label=Loading`, `currentColor` y la personalización mediante `className` del Spinner oficial de shadcn/ui.
 
 `size` es la única extensión de API y existe para representar explícitamente la escala de Figma. Docs y Playground renderizan `SpinnerExample`; la paridad debe comprobar tamaño, color y duración mediante estilos computados.
+
+### Caso Hover Card
+
+El nodo `1650:2069` define triggers compuestos con Button o texto, posiciones `top`, `right`, `bottom` y `left`, y una superficie de 276 × 104 px. La implementación conserva la API oficial de shadcn/ui sobre Radix: HoverCard, HoverCardTrigger, HoverCardContent, Portal, `openDelay`, `closeDelay`, `side`, `align`, colisiones y foco accesible.
+
+Los tipos de trigger no son variantes del primitive: se componen mediante `HoverCardTrigger asChild` y Button o un botón de texto. La superficie usa `--popover`, `--popover-foreground`, `--border`, `--muted-foreground` y `--brand-font-sans`. Docs y Playground renderizan `HoverCardExample`; no recrean el contenido ni el trigger con HTML documental paralelo.
+
+### Caso Tooltip
+
+El nodo `1136:1739` define triggers de contenido o texto, posiciones `top`, `right`, `bottom` y `left`, shortcut opcional y una superficie oscura de 36 px con flecha de 10 × 5 px. La implementación conserva la API oficial de shadcn/ui sobre Radix: TooltipProvider, Tooltip, TooltipTrigger, TooltipContent, Portal, Arrow, demora, colisiones, hover y foco accesible.
+
+Button, Icon Button, Badge y texto son composiciones mediante `TooltipTrigger asChild`; el shortcut reutiliza Kbd y KbdGroup. Los colores se exponen como `--tooltip` y `--tooltip-foreground`, y la fuente consume `--brand-font-sans`. Docs y Playground renderizan `TooltipExample` sin reconstrucciones paralelas.
+
+### Caso Toggle
+
+El nodo `3279:53814` define variantes `default` y `outline`, tamaños `sm` (32 px), `default` (36 px) y `lg` (40 px), estados pressed/off, hover, focus y disabled, icono de 16 px, gap de 8 px y texto 14/20 Medium. La implementación conserva el primitive oficial de shadcn/ui sobre Radix, `aria-pressed`, estado controlado y no controlado, teclado, `variant`, `size`, `disabled` y composición mediante `children`.
+
+Icono, texto o ambos son composiciones y no propiedades añadidas al primitive. Toggle Group se mantiene como componente independiente porque shadcn/ui le asigna otra API; no se mezclan sus controles con Toggle. Docs y Playground renderizan `ToggleExample` y consumen los mismos estados y tokens por marca.
+
+### Caso Toggle Group
+
+El nodo `3331:60517` define selección `single` y `multiple`, composiciones de 1 a 10 ítems, botones de 36 px y separación de 8 px. La implementación conserva el contrato oficial de shadcn/ui sobre Radix: `ToggleGroup`, `ToggleGroupItem`, `type`, valores controlados o no controlados, `variant`, `size`, `spacing`, `orientation`, disabled y navegación por teclado.
+
+La cantidad de ítems y su contenido pertenecen a la composición del ejemplo y no se añaden como propiedades del primitive. `ToggleGroupItem` reutiliza `toggleVariants` y acepta `children` igual que Toggle: icono, texto o ambos; por ello tamaños, tipografía, estados y tokens permanecen alineados. Docs y Playground renderizan `ToggleGroupExample`; los controles de selección única y múltiple se muestran de forma condicional para no mezclar propiedades incompatibles.
+
+### Caso Button Group
+
+El nodo `3355:1262` define orientación horizontal y vertical, de 1 a 10 elementos y último slot `Button`, `Icon Button`, `Dropdown` o `Popover`. Todos los controles usan Button `variant=outline`, tamaño `default` de 32 px y radio exterior de 6 px dependiente de la posición. Un argumento nunca debe limitarse silenciosamente: la cantidad elegida en Playground debe coincidir con la cantidad renderizada en ambas orientaciones.
+
+La implementación conserva la composición oficial de shadcn/ui: `ButtonGroup`, `ButtonGroupSeparator`, `ButtonGroupText`, `role=group` y navegación mediante Tab. El grupo no duplica Button ni transforma acciones en toggles; sus hijos son instancias públicas reales de Button, Dropdown Menu y Popover. El contenido y tamaño se configuran en cada Button, mientras orientación es la única variante del contenedor. Todas las muestras, incluidas Separator y Text, se configuran mediante `ButtonGroupExample` tanto en Docs como en el único Playground.
+
+El ancho fijo de 69 px corresponde exclusivamente a la variante textual documentada en la matriz de Figma. Las composiciones con icono y texto deben conservar el ancho intrínseco de Button para respetar icono de 16 px, gap de 12 px, padding horizontal de 12 px y texto sin recorte.
 
 ```text
 src/components/ui/

@@ -1,0 +1,49 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as ButtonGroupStories from "./button-group.stories"
+import buttonGroupSource from "./button-group.tsx?raw"
+import exampleSource from "./button-group-example.tsx?raw"
+import { ButtonGroupContent, ButtonGroupOfficialComposition, ButtonGroupOrientation, ButtonGroupSlots, ButtonGroupSpecifications } from "./button-group-docs"
+
+<Meta of={ButtonGroupStories} />
+<Title of={ButtonGroupStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva `ButtonGroup`, `ButtonGroupSeparator`, `ButtonGroupText`, `role=group` y navegación Tab oficiales.
+  - Compone Button, Icon Button, Dropdown y Popover reales con bordes y radios dependientes de su posición.
+  - Adapta orientación horizontal/vertical y composiciones de 1 a 10 elementos del set de Figma.
+  - Mantiene 6 px de radio exterior y alturas consistentes entre botones de texto e icono en toda la escala.
+</details>
+
+## Último slot
+
+<div style={{ marginBottom: 48 }}><ButtonGroupSlots /></div>
+
+## Contenido
+
+<div style={{ marginBottom: 48 }}><ButtonGroupContent /></div>
+
+## Orientación
+
+<div style={{ marginBottom: 48 }}><ButtonGroupOrientation /></div>
+
+## Composición oficial
+
+<div style={{ marginBottom: 48 }}><ButtonGroupOfficialComposition /></div>
+
+## Especificaciones
+
+<div style={{ marginBottom: 48 }}><ButtonGroupSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={buttonGroupSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

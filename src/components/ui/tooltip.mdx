@@ -1,0 +1,44 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as TooltipStories from "./tooltip.stories"
+import tooltipSource from "./tooltip.tsx?raw"
+import exampleSource from "./tooltip-example.tsx?raw"
+import { TooltipContentOptions, TooltipSides, TooltipSpecifications, TooltipTriggers } from "./tooltip-docs"
+
+<Meta of={TooltipStories} />
+<Title of={TooltipStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva Provider, Root, Trigger, Content, Portal y Arrow de Radix/shadcn.
+  - Mantiene apertura por hover y foco, demora configurable, colisiones, lados y alineación.
+  - Adapta geometría, flecha, color y tipografía mediante tokens del Design System.
+</details>
+
+## Tipos de trigger
+
+<div style={{ marginBottom: 48 }}><TooltipTriggers /></div>
+
+## Posición
+
+<div style={{ marginBottom: 48 }}><TooltipSides /></div>
+
+## Contenido
+
+<div style={{ marginBottom: 48 }}><TooltipContentOptions /></div>
+
+## Especificaciones
+
+<div style={{ marginBottom: 48 }}><TooltipSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={tooltipSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

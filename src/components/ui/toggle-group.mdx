@@ -1,0 +1,48 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as ToggleGroupStories from "./toggle-group.stories"
+import toggleGroupSource from "./toggle-group.tsx?raw"
+import exampleSource from "./toggle-group-example.tsx?raw"
+import { ToggleGroupContent, ToggleGroupLayouts, ToggleGroupSpecifications, ToggleGroupTypes, ToggleGroupVariants } from "./toggle-group-docs"
+
+<Meta of={ToggleGroupStories} />
+<Title of={ToggleGroupStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva selección única y múltiple, navegación por teclado, orientación y estado disabled del primitive oficial.
+  - Adapta la escala visual de Toggle y el gap predeterminado de 8 px del set de Figma.
+  - Permite composiciones de 1 a 10 ítems con icono, texto o ambos, sin crear una API paralela.
+</details>
+
+## Tipo de selección
+
+<div style={{ marginBottom: 48 }}><ToggleGroupTypes /></div>
+
+## Variantes de estilo
+
+<div style={{ marginBottom: 48 }}><ToggleGroupVariants /></div>
+
+## Contenido
+
+<div style={{ marginBottom: 48 }}><ToggleGroupContent /></div>
+
+## Disposición
+
+<div style={{ marginBottom: 48 }}><ToggleGroupLayouts /></div>
+
+## Especificaciones
+
+<div style={{ marginBottom: 48 }}><ToggleGroupSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={toggleGroupSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />
