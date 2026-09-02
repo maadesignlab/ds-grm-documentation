@@ -1,6 +1,7 @@
 "use client"
 
 import type { Meta, StoryObj } from "@storybook/nextjs-vite"
+import { expect, userEvent, waitFor, within } from "storybook/test"
 import { SidebarExample } from "./sidebar-example"
 
 type SidebarStoryArgs = {
@@ -32,4 +33,37 @@ const meta = {
 
 export default meta
 type Story = StoryObj<typeof meta>
-export const Playground: Story = {}
+export const Playground: Story = {
+  play: async ({ canvasElement }) => {
+    const canvas = within(canvasElement)
+    const menu = canvasElement.querySelector<HTMLElement>('[data-slot="sidebar-menu"]')
+    const trigger = canvas.getByRole("button", { name: "Toggle Sidebar" })
+    const firstItemText = canvas.getByText("Inicio")
+    const collapsibleItem = canvas.getByRole("button", { name: /Pacientes/ })
+
+    expect(menu).not.toBeNull()
+    expect(getComputedStyle(menu!).listStyleType).toBe("none")
+    expect(getComputedStyle(firstItemText).fontSize).toBe("14px")
+    expect(getComputedStyle(firstItemText).lineHeight).toBe("20px")
+    expect(trigger.getBoundingClientRect().width).toBe(32)
+    expect(trigger.getBoundingClientRect().height).toBe(32)
+
+    await userEvent.click(collapsibleItem)
+    const subItem = await canvas.findByRole("link", { name: "Directorio" })
+    expect(getComputedStyle(subItem).fontSize).toBe("14px")
+    expect(getComputedStyle(subItem).lineHeight).toBe("20px")
+    expect(getComputedStyle(subItem).fontWeight).toBe("400")
+    await userEvent.click(collapsibleItem)
+
+    await userEvent.click(trigger)
+    await waitFor(() => {
+      expect(canvasElement.querySelector('[data-slot="sidebar"]')?.getAttribute("data-state")).toBe("collapsed")
+    })
+
+    const groupLabel = canvasElement.querySelector<HTMLElement>('[data-slot="sidebar-group-label"]')
+    expect(groupLabel).not.toBeNull()
+    expect(getComputedStyle(groupLabel!, "::after").width).toBe("16px")
+
+    await userEvent.click(trigger)
+  },
+}

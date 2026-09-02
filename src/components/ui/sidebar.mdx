@@ -1,6 +1,7 @@
 import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
 import * as SidebarStories from "./sidebar.stories"
 import sidebarSource from "./sidebar.tsx?raw"
+import sidebarExampleSource from "./sidebar-example.tsx?raw"
 import { SidebarItemOverview, SidebarSpecifications, SidebarStateOverview, SidebarSubnavigationOverview } from "./sidebar-docs"
 
 <Meta of={SidebarStories} />
@@ -9,16 +10,19 @@ import { SidebarItemOverview, SidebarSpecifications, SidebarStateOverview, Sideb
 ## Versión
 
 <details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
-  <summary><strong>v1.1.0</strong> · Subnavegación diferenciada por estado</summary>
+  <summary><strong>v1.3.0</strong> · Paridad entre Canvas, Docs y contrato del componente</summary>
 
+  - Trigger circular de 32 px superpuesto al borde derecho en ambos estados.
+  - Logos vigentes de Figma: muestra completa de 191 × 26 px y símbolo colapsado de 15 × 26 px.
+  - Separadores de sección de 16 px preservados en estado colapsado.
+  - Tooltips individuales disponibles para cada subopción icon-only.
   - Subnavegación expandida de 240 px con ítems de 40 px, iconos de 14 px y sangría de 36 px.
   - Subnavegación colapsada de 40 × 90 px con borde, ítems icon-only de 32 px y tooltip en el trigger.
   - Estado abierto colapsado con `--sidebar-accent` y chevron inferior orientado hacia arriba.
   - Estados expandido y colapsado sincronizados con el nodo `3114:1373`.
   - Regiones de header, navegación primaria, contenido desplazable, grupos, menú y submenú.
-  - API, responsive Sheet, shortcut, rail, tooltips y composición oficial de shadcn/ui preservados.
+  - API, responsive Sheet, shortcut, tooltips y composición oficial de shadcn/ui preservados; `SidebarRail` continúa disponible en la API pública.
 
-  <Source language="tsx" code={sidebarSource} />
 </details>
 
 ## Estados
@@ -39,4 +43,10 @@ import { SidebarItemOverview, SidebarSpecifications, SidebarStateOverview, Sideb
 
 ## Código
 
+### Primitive
+
 <Source language="tsx" code={sidebarSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={sidebarExampleSource} />

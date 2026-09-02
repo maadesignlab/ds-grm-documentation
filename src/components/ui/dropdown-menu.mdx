@@ -1,0 +1,41 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as DropdownStories from "./dropdown-menu.stories"
+import dropdownSource from "./dropdown-menu.tsx?raw"
+import exampleSource from "./dropdown-menu-example.tsx?raw"
+import { DropdownAlignment, DropdownPatterns, DropdownSpecifications } from "./dropdown-menu-docs"
+
+<Meta of={DropdownStories} />
+<Title of={DropdownStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Trigger Button o Icon Button.
+  - Alineación `start` y `end` con offset vertical de 4 px.
+  - Labels, grupos, separadores, estados, iconos y submenús.
+  - Navegación por teclado, foco y semántica conservados desde Radix UI.
+</details>
+
+## Trigger
+
+<div style={{ marginBottom: 48 }}><DropdownPatterns /></div>
+
+## Alineación
+
+<div style={{ marginBottom: 48 }}><DropdownAlignment /></div>
+
+## Especificaciones
+
+<div style={{ marginBottom: 48 }}><DropdownSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={dropdownSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

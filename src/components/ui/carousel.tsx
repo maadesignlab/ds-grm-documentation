@@ -1,6 +1,7 @@
 "use client"
 
 import * as React from "react"
+import { cva } from "class-variance-authority"
 import useEmblaCarousel, {
   type UseEmblaCarouselType,
 } from "embla-carousel-react"
@@ -21,6 +22,50 @@ type CarouselProps = {
   size?: "full" | "large" | "medium" | "small"
   setApi?: (api: CarouselApi) => void
 }
+
+const carouselContainer = cva("group/carousel relative p-3", {
+  variants: {
+    orientation: {
+      horizontal: "h-[220px] w-[min(520px,calc(100vw-32px))]",
+      vertical: "h-[320px] w-[min(424px,calc(100vw-32px))]",
+    },
+  },
+  defaultVariants: {
+    orientation: "horizontal",
+  },
+})
+
+const carouselContent = cva("overflow-hidden", {
+  variants: {
+    orientation: {
+      horizontal: "mx-10 h-full",
+      vertical: "my-10 h-[216px] w-full",
+    },
+  },
+  defaultVariants: {
+    orientation: "horizontal",
+  },
+})
+
+const carouselItem = cva("h-full min-w-0 shrink-0 grow-0", {
+  variants: {
+    orientation: {
+      horizontal: "pl-4",
+      vertical: "pt-4",
+    },
+    size: {
+      full: "basis-full",
+      large: "basis-1/2",
+      medium: "basis-1/3",
+      small: "basis-1/4",
+    },
+  },
+  compoundVariants: [{ orientation: "horizontal", size: "full", class: "basis-full" }],
+  defaultVariants: {
+    orientation: "horizontal",
+    size: "full",
+  },
+})
 
 type CarouselContextProps = {
   carouselRef: ReturnType<typeof useEmblaCarousel>[0]
@@ -129,8 +174,7 @@ function Carousel({
       <div
         onKeyDownCapture={handleKeyDown}
         className={cn(
-          "group/carousel relative p-3",
-          orientation === "horizontal" ? "h-[220px] w-[min(520px,calc(100vw-32px))]" : "h-[320px] w-[min(424px,calc(100vw-32px))]",
+          carouselContainer({ orientation: orientation || "horizontal" }),
           className
         )}
         role="region"
@@ -153,8 +197,7 @@ function CarouselContent({ className, ...props }: React.ComponentProps<"div">) {
     <div
       ref={carouselRef}
       className={cn(
-        "overflow-hidden",
-        orientation === "horizontal" ? "mx-10 h-full" : "my-10 h-[216px] w-full"
+        carouselContent({ orientation })
       )}
       data-slot="carousel-content"
     >
@@ -173,22 +216,13 @@ function CarouselContent({ className, ...props }: React.ComponentProps<"div">) {
 function CarouselItem({ className, ...props }: React.ComponentProps<"div">) {
   const { orientation, size } = useCarousel()
 
-  const basis = {
-    full: "basis-full",
-    large: "basis-1/2",
-    medium: "basis-1/3",
-    small: "basis-1/4",
-  }[size ?? "full"]
-
   return (
     <div
       role="group"
       aria-roledescription="slide"
       data-slot="carousel-item"
       className={cn(
-        "h-full min-w-0 shrink-0 grow-0",
-        basis,
-        orientation === "horizontal" ? "pl-4" : "pt-4",
+        carouselItem({ orientation, size: size || "full" }),
         className
       )}
       {...props}

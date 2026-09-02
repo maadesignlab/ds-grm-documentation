@@ -7,7 +7,7 @@ import { playwright } from '@vitest/browser-playwright';
 // More info at: https://storybook.js.org/docs/next/writing-tests/integrations/vitest-addon
 const config = {
   optimizeDeps: {
-    include: ['aria-query', 'lz-string', 'pretty-format'],
+    include: ['aria-query', 'lz-string', 'pretty-format', 'storybook/test'],
   },
   test: {
     projects: [

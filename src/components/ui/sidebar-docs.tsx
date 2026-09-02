@@ -8,29 +8,19 @@ function Code({ children }: { children: string }) {
 
 function Sample({ expanded = true, active = "", submenu = false }: { expanded?: boolean; active?: string; submenu?: boolean }) {
   return (
-    <div data-docs-sidebar className="relative h-[520px] overflow-hidden rounded-md border border-border bg-background">
-      <style>{`
-        [data-docs-sidebar] [data-slot="sidebar-wrapper"] { min-height: 520px !important; }
-        [data-docs-sidebar] [data-slot="sidebar-gap"] { display: none !important; }
-        [data-docs-sidebar] [data-slot="sidebar-container"] { position: relative !important; inset: auto !important; display: flex !important; height: 520px !important; }
-        [data-docs-sidebar] :where(ul, li) { margin: 0 !important; padding-block: 0 !important; list-style: none !important; }
-        [data-docs-sidebar] [data-slot="sidebar-menu"] { margin: 0 !important; padding: 0 !important; }
-        [data-docs-sidebar] [data-slot="sidebar-menu-sub"] { margin: 0 !important; padding: 5px 0 !important; }
-      `}</style>
-      <SidebarExample
-        key={`${expanded}-${active}-${submenu}`}
-        state={expanded ? "expanded" : "collapsed"}
-        activeItem={active}
-        expandedGroups={submenu}
-        showInset={false}
-        className="min-h-0"
-      />
-    </div>
+    <SidebarExample
+      key={`${expanded}-${active}-${submenu}`}
+      state={expanded ? "expanded" : "collapsed"}
+      activeItem={active}
+      expandedGroups={submenu}
+      contained
+      className="min-h-[902px]"
+    />
   )
 }
 
 function Card({ title, value, children }: { title: string; value: string; children: React.ReactNode }) {
-  return <article className="overflow-hidden rounded-lg border border-border bg-card"><div className="flex min-h-[560px] items-center justify-center overflow-auto bg-background p-5">{children}</div><div className="flex min-h-14 items-center justify-between gap-3 border-t border-border px-4"><strong className="truncate text-card-foreground" style={{ fontSize: 14, lineHeight: "20px" }}>{title}</strong><Code>{value}</Code></div></article>
+  return <article className="overflow-hidden rounded-lg border border-border bg-card"><div className="flex min-h-[942px] items-start justify-start overflow-auto bg-background p-5">{children}</div><div className="flex min-h-14 items-center justify-between gap-3 border-t border-border px-4"><strong className="truncate text-card-foreground" style={{ fontSize: 14, lineHeight: "20px" }}>{title}</strong><Code>{value}</Code></div></article>
 }
 
 export function SidebarStateOverview() {
@@ -53,7 +43,7 @@ const geometry = [
   ["Icon", "16px", "16px", "—", "—", "--sidebar-foreground"],
   ["Group", "240 / 40px", "Variable", "20px 8px 0", "8px", "—"],
   ["Group label", "216 / 16px", "16px", "0 12px", "8px", "11px · uppercase"],
-  ["Sub item", "240px", "40px", "0 12px", "12px", "radius-md · 6px"],
+  ["Sub item", "240px", "40px", "0 12px 0 36px", "12px", "radius-md · 6px"],
   ["Sub item collapsed", "32px", "32px", "10px", "—", "icon 14px"],
   ["Subnavigation collapsed", "40px", "90px / 2 items", "5px 4px", "—", "border + radius-md"],
 ] as const

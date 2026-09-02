@@ -1,0 +1,44 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as EmptyStories from "./empty.stories"
+import emptySource from "./empty.tsx?raw"
+import exampleSource from "./empty-example.tsx?raw"
+import { EmptyActionsOverview, EmptyContainerOverview, EmptyMediaOverview, EmptySpecifications } from "./empty-docs"
+
+<Meta of={EmptyStories} />
+<Title of={EmptyStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - API oficial: `Empty`, `EmptyHeader`, `EmptyMedia`, `EmptyTitle`, `EmptyDescription` y `EmptyContent`.
+  - Contenedor, medios y acciones se construyen por composición, sin ampliar artificialmente la API del primitive.
+  - Tipografía, color y espaciado responden a los tokens de la marca activa.
+</details>
+
+## Contenedor
+
+<div style={{ marginBottom: 48 }}><EmptyContainerOverview /></div>
+
+## Media
+
+<div style={{ marginBottom: 48 }}><EmptyMediaOverview /></div>
+
+## Acciones
+
+<div style={{ marginBottom: 48 }}><EmptyActionsOverview /></div>
+
+## Especificaciones
+
+<div style={{ marginBottom: 48 }}><EmptySpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={emptySource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

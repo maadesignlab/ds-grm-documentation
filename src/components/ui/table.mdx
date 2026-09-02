@@ -1,0 +1,42 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as TableStories from "./table.stories"
+import tableSource from "./table.tsx?raw"
+import tableExampleSource from "./table-example.tsx?raw"
+import { TableBorderOverview, TableLeadingOverview, TableSpecifications } from "./table-docs"
+
+<Meta of={TableStories} />
+<Title of={TableStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Bordes `normal` y `rounded`.
+  - Columnas iniciales `none`, `checkbox`, `switch` y `chevron`.
+  - Filas alternas y contenido expandible.
+  - Tabla semántica, responsive y componible basada en shadcn/ui.
+  - Tipografía, fondos y bordes conectados con los tokens de marca.
+</details>
+
+## Borde
+
+<div style={{ marginBottom: 48 }}><TableBorderOverview /></div>
+
+## Columna inicial
+
+<div style={{ marginBottom: 48 }}><TableLeadingOverview /></div>
+
+## Especificaciones
+
+<div style={{ marginBottom: 48 }}><TableSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={tableSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={tableExampleSource} />

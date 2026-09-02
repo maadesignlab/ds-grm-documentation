@@ -34,6 +34,16 @@ shadcn/ui proporciona el código base del componente. El Design System GRM adapt
 
 ### Regla de fidelidad a shadcn/ui
 
+#### Orden obligatorio de prioridad
+
+Cuando exista un componente oficial equivalente, la implementación debe resolver decisiones en este orden:
+
+1. **shadcn/ui es la base técnica y contractual.** Se parte del componente oficial vigente, su primitive, API pública, composición, comportamiento, accesibilidad y estados.
+2. **Figma adapta la expresión del Design System.** Sus tokens, geometría, tipografía y variantes se aplican sin sustituir ni duplicar innecesariamente la API oficial.
+3. **El proyecto solo añade extensiones justificadas.** Una propiedad nueva se incorpora únicamente cuando Figma exige una capacidad que no puede expresarse mediante la composición oficial, `className` o componentes públicos existentes.
+
+No se deben inventar subcomponentes, variantes, estados o propiedades por conveniencia documental. Antes de extender la API se debe comprobar la documentación oficial de shadcn/ui. Avatar, spinner, fondos, bordes y disposiciones construibles mediante composición deben permanecer como composición.
+
 Para cada componente se preservan, siempre que exista un equivalente:
 
 - La composición pública y los nombres de sus subcomponentes.
@@ -46,6 +56,23 @@ Figma puede modificar tokens, geometría, tipografía, variantes y estados visua
 
 Cuando shadcn/ui no ofrece un equivalente —como Attachment— el componente se considera propio del Design System y reutiliza primitivas existentes como Button y Slot.
 
+### Contrato de correspondencia Docs ↔ Playground
+
+La representación de un componente en Docs y Playground debe ser **1:1**. Playground es la instancia canónica de ejecución y Docs debe renderizar esa misma composición pública, importada desde un archivo compartido como `component-example.tsx`.
+
+Esto exige igualdad en:
+
+- Árbol de componentes y contenido visible.
+- Variante, tamaño, estado y propiedades.
+- Ancho, alto, padding, gap, borde, radio y alineación.
+- Familia, tamaño, peso y altura de línea tipográfica.
+- Colores, tokens y respuesta al selector de marca.
+- Iconos, subnavegación, acciones y comportamiento aplicable al ejemplo.
+
+Docs puede cambiar únicamente el contenedor editorial externo necesario para diagramar cards, tablas o secciones. No puede recrear el componente con HTML paralelo, aplicar estilos internos distintos ni usar valores visuales aproximados. Si se necesita mostrar otra configuración, se reutiliza la misma instancia compartida con argumentos explícitos.
+
+La igualdad debe comprobarse en el navegador mediante estilos computados; que ambas vistas importen el mismo React component o que Storybook compile no constituye evidencia suficiente.
+
 ## 2. Fuente de Figma
 
 Archivo principal:
@@ -54,6 +81,11 @@ Archivo principal:
 - Nodo de Button: `1:24`
 - Nodo de Badge: `186:141`
 - Nodo de Accordion: `1771:909`
+- Página de Dropdown: `1521:4708` (set principal `1638:5110`)
+- Página de Breadcrumb: `1760:597` (set principal `1763:1562`, base `1763:1339`)
+- Página de Context Menu: `1675:339` (set principal `1677:397`, base `1703:22653`)
+- Página de Empty: `2173:21188` (set principal `2173:21437`, EmptyContent `2173:21211`, EmptyMedia `2173:21262`)
+- Página de Spinner: `2206:19380` (set principal `2206:19610`, base animada `2213:25220`)
 
 Antes de modificar un componente se debe inspeccionar en Figma:
 
@@ -65,6 +97,8 @@ Antes de modificar un componente se debe inspeccionar en Figma:
 6. Tipografía y contenido interno.
 
 El código generado por herramientas de Figma se utiliza como referencia técnica. No se copia literalmente: se traduce al componente, los tokens y las convenciones existentes en el proyecto.
+
+Cuando el enlace apunta a una página, se deben inventariar sus hijos y seleccionar el set real del componente. Para Dropdown se contrastaron el set principal, la base del menú, los items y el frame de documentación; no se tomó la página completa como una única capa visual.
 
 ## 3. Marcas y tokens
 
@@ -519,6 +553,26 @@ La adaptación conserva el contrato compuesto de shadcn/ui: `SidebarProvider`, `
 
 Las muestras de Docs renderizan el Sidebar real en un contenedor editorial acotado. El CSS de Docs solo convierte el contenedor desktop fijo en una instancia relativa para mostrarla dentro de las cards; no cambia la API ni el comportamiento de producción.
 
+### Caso Table
+
+El nodo `2530:39991` define los tratamientos de borde `normal` y `rounded`, tablas de 2 a 10 columnas y cuatro configuraciones de columna inicial: `none`, `checkbox`, `switch` y `chevron`. La implementación conserva la estructura semántica de shadcn/ui: Table, Header, Body, Footer, Row, Head, Cell y Caption.
+
+Checkbox y Switch se componen con los componentes públicos del sistema. Chevron controla una región expandida accesible mediante `aria-expanded`; la fila cerrada mide 49 px y la referencia abierta 113 px. La alternancia visual de filas se controla en TableBody y consume `--muted` al 40 %.
+
+El header usa padding de 10 px, texto de 12/16, peso semibold, uppercase, `--muted-foreground` e icono de orden de 12 px. Las celdas usan padding de 10 px y texto de 12/16. Docs y Playground renderizan `TableExample`; no se recrean tablas documentales para representar el componente.
+
+### Caso Empty
+
+El nodo `2173:21188` define contenedor sin borde o outlined, medios icon/avatar/spinner y disposiciones de contenido horizontal, vertical y wrap. La implementación mantiene la API pública oficial de shadcn/ui: Empty, EmptyHeader, EmptyMedia, EmptyTitle, EmptyDescription y EmptyContent.
+
+`EmptyMedia` conserva únicamente sus variantes oficiales `default` e `icon`. Avatar, spinner, borde y orientación de acciones son composiciones mediante los componentes públicos y `className`; no se añaden variantes artificiales al primitive. Docs y Playground renderizan la misma instancia `EmptyExample` para impedir discrepancias visuales.
+
+### Caso Spinner
+
+El nodo `2206:19380` define una escala pública de 12, 16, 24 y 32 px, con rotación horaria lineal de 800 ms. La implementación conserva el SVG accesible, `role=status`, `aria-label=Loading`, `currentColor` y la personalización mediante `className` del Spinner oficial de shadcn/ui.
+
+`size` es la única extensión de API y existe para representar explícitamente la escala de Figma. Docs y Playground renderizan `SpinnerExample`; la paridad debe comprobar tamaño, color y duración mediante estilos computados.
+
 ```text
 src/components/ui/
 ├── component.tsx
@@ -621,6 +675,8 @@ Ejemplo de resultado validado para Badge LG Primary Solid:
 
 Si un valor difiere, primero se debe identificar la regla CSS que gana en el navegador. No se deben compensar diferencias mediante ajustes visuales aproximados.
 
+La corrección debe realizarse en la capa responsable. Cuando Storybook Docs sobrescriba una propiedad pública del componente, se protege esa propiedad en el componente compartido; no se maquilla únicamente la muestra de Docs. Después del ajuste se vuelven a medir ambas vistas hasta obtener los mismos valores.
+
 ## 12. Checklist para nuevos componentes
 
 - [ ] Leer el nodo específico en Figma.
@@ -628,7 +684,8 @@ Si un valor difiere, primero se debe identificar la regla CSS que gana en el nav
 - [ ] Mapear colores a tokens semánticos.
 - [ ] Mapear medidas a TailwindCSS o variables.
 - [ ] Instalar el componente base desde shadcn/ui.
-- [ ] Adaptar el componente sin romper su API base innecesariamente.
+- [ ] Revisar la documentación oficial vigente y preservar primero la API, composición, comportamiento y accesibilidad de shadcn/ui.
+- [ ] Adaptar el componente sin romper su API base ni inventar propiedades que puedan resolverse por composición.
 - [ ] Separar stories cuando existan APIs diferentes.
 - [ ] Mantener un único Playground por tipo de componente.
 - [ ] Crear documentación MDX depurada.
@@ -638,7 +695,8 @@ Si un valor difiere, primero se debe identificar la regla CSS que gana en el nav
 - [ ] Probar el selector de las cuatro marcas.
 - [ ] Verificar colores, fuentes, estados y accesibilidad.
 - [ ] Confirmar que las muestras de Docs renderizan el componente público.
-- [ ] Comparar estilos computados entre Playground y Docs.
+- [ ] Confirmar que Docs reutiliza la misma instancia compartida del Playground, sin una reconstrucción visual paralela.
+- [ ] Comparar estilos computados entre Playground y Docs y exigir correspondencia 1:1.
 - [ ] Verificar que Storybook Docs no sobrescribe tipografía o geometría.
 - [ ] Comprobar si los bordes de Figma son interiores antes de usar `border`.
 - [ ] Evitar combinaciones de variantes que no existan en Figma.
@@ -647,4 +705,4 @@ Si un valor difiere, primero se debe identificar la regla CSS que gana en el nav
 
 ## Principio final
 
-Figma define la intención y los valores del sistema. Los tokens CSS hacen posible el cambio de marca. shadcn/ui proporciona la base técnica. Storybook presenta, prueba y explica el resultado. Ninguna de estas capas debe duplicar manualmente información que pueda obtener de la capa anterior.
+shadcn/ui define primero el contrato técnico, la composición y el comportamiento accesible. Figma define la intención visual y los valores del sistema sobre esa base. Los tokens CSS hacen posible el cambio de marca. Playground ejecuta la instancia canónica y Docs debe representarla 1:1. Ninguna capa debe duplicar, reconstruir o inventar información que pueda obtener de la capa anterior.

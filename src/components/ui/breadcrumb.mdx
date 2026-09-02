@@ -1,0 +1,41 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as BreadcrumbStories from "./breadcrumb.stories"
+import breadcrumbSource from "./breadcrumb.tsx?raw"
+import exampleSource from "./breadcrumb-example.tsx?raw"
+import { BreadcrumbLevels, BreadcrumbReduction, BreadcrumbSpecifications } from "./breadcrumb-docs"
+
+<Meta of={BreadcrumbStories} />
+<Title of={BreadcrumbStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Rutas de 2, 3 y 4 niveles mediante composición.
+  - Links, ubicación actual, separadores y patrones de reducción.
+  - Elipsis estática o interactiva con Dropdown Menu.
+  - Navegación semántica con `aria-label` y `aria-current`.
+</details>
+
+## Niveles
+
+<div style={{ marginBottom: 48 }}><BreadcrumbLevels /></div>
+
+## Reducción
+
+<div style={{ marginBottom: 48 }}><BreadcrumbReduction /></div>
+
+## Especificaciones
+
+<div style={{ marginBottom: 48 }}><BreadcrumbSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={breadcrumbSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

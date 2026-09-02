@@ -28,7 +28,7 @@ import {
 } from "lucide-react"
 
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "./collapsible"
-import { TooltipProvider } from "./tooltip"
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./tooltip"
 import {
   Sidebar,
   SidebarContent,
@@ -45,6 +45,7 @@ import {
   SidebarMenuSubItem,
   SidebarProvider,
   SidebarTrigger,
+  useSidebar,
 } from "./sidebar"
 
 type NavigationItem = {
@@ -70,6 +71,7 @@ export type SidebarExampleProps = {
   activeItem?: string
   expandedGroups?: boolean
   showInset?: boolean
+  contained?: boolean
   className?: string
 }
 
@@ -97,15 +99,26 @@ function NavigationButton({ item, activeItem, expandedGroups }: { item: Navigati
         </CollapsibleTrigger>
         <CollapsibleContent>
           <SidebarMenuSub>
-            {item.children.map(({ label, icon: ChildIcon }) => (
-              <SidebarMenuSubItem key={label}>
-                <SidebarMenuSubButton href="#"><ChildIcon /><span>{label}</span></SidebarMenuSubButton>
-              </SidebarMenuSubItem>
-            ))}
+            {item.children.map(({ label, icon: ChildIcon }) => <SubnavigationItem key={label} label={label} icon={ChildIcon} />)}
           </SidebarMenuSub>
         </CollapsibleContent>
       </SidebarMenuItem>
     </Collapsible>
+  )
+}
+
+function SubnavigationItem({ label, icon: Icon }: { label: string; icon: React.ComponentType<{ className?: string }> }) {
+  const { isMobile, state } = useSidebar()
+
+  return (
+    <SidebarMenuSubItem>
+      <Tooltip>
+        <TooltipTrigger asChild>
+          <SidebarMenuSubButton href="#"><Icon /><span>{label}</span></SidebarMenuSubButton>
+        </TooltipTrigger>
+        <TooltipContent side="right" align="center" hidden={state !== "collapsed" || isMobile}>{label}</TooltipContent>
+      </Tooltip>
+    </SidebarMenuSubItem>
   )
 }
 
@@ -117,25 +130,36 @@ export function SidebarExample({
   activeItem = "",
   expandedGroups = false,
   showInset = true,
+  contained = false,
   className,
 }: SidebarExampleProps) {
   const [open, setOpen] = React.useState(state === "expanded")
 
-  return (
+  const sidebar = (
     <TooltipProvider>
       <SidebarProvider open={open} onOpenChange={setOpen} className={className}>
         <Sidebar side={side} variant={variant} collapsible={collapsible}>
           <SidebarHeader>
-            <div className="flex min-w-0 items-center justify-between">
+            <div className="relative flex min-w-0 items-center justify-center group-data-[collapsible=icon]:justify-start">
+              <div className="h-[26px] w-[191px] shrink-0 overflow-hidden group-data-[collapsible=icon]:hidden">
+                <Image
+                  src="/grm-sidebar-logo.svg"
+                  alt="Grupo Reina Madre"
+                  width={192}
+                  height={26}
+                  priority
+                  className="h-[26px] w-[192px] max-w-none"
+                />
+              </div>
               <Image
-                src="/grm-sidebar-logo.svg"
+                src="/grm-sidebar-logo-collapsed.svg"
                 alt="Grupo Reina Madre"
-                width={193}
+                width={15}
                 height={26}
                 priority
-                className="h-[26px] w-[193px] shrink-0 group-data-[collapsible=icon]:hidden"
+                className="hidden h-[26px] w-[15px] shrink-0 group-data-[collapsible=icon]:block"
               />
-              <SidebarTrigger className="shrink-0 border border-border bg-background shadow-xs hover:bg-[var(--background-hover)]" />
+              <SidebarTrigger className="absolute left-[calc(100%+1px)] z-20 size-8 shrink-0 rounded-full border border-border bg-background shadow-xs hover:bg-[var(--background-hover)]" />
             </div>
           </SidebarHeader>
 
@@ -162,5 +186,23 @@ export function SidebarExample({
         {showInset && <SidebarInset className="items-center justify-center p-8 text-center text-muted-foreground"><p>Contenido principal</p></SidebarInset>}
       </SidebarProvider>
     </TooltipProvider>
+  )
+
+  if (!contained) return sidebar
+
+  return (
+    <div data-sidebar-contained className="relative h-[902px] w-full overflow-visible">
+      <style>{`
+        [data-sidebar-contained] [data-slot="sidebar-wrapper"] { min-height: 902px !important; }
+        [data-sidebar-contained] [data-slot="sidebar-gap"] { display: none !important; }
+        [data-sidebar-contained] [data-slot="sidebar-container"] {
+          position: relative !important;
+          inset: auto !important;
+          display: flex !important;
+          height: 902px !important;
+        }
+      `}</style>
+      {sidebar}
+    </div>
   )
 }

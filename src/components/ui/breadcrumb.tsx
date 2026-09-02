@@ -9,30 +9,33 @@ function Breadcrumb({ className, ...props }: React.ComponentProps<"nav">) {
     <nav
       aria-label="breadcrumb"
       data-slot="breadcrumb"
+      style={{ fontFamily: "var(--brand-font-sans)" }}
       className={cn(className)}
       {...props}
     />
   )
 }
 
-function BreadcrumbList({ className, ...props }: React.ComponentProps<"ol">) {
+function BreadcrumbList({ className, style, ...props }: React.ComponentProps<"ol">) {
   return (
     <ol
       data-slot="breadcrumb-list"
       className={cn(
-        "flex flex-wrap items-center gap-1.5 text-sm wrap-break-word text-muted-foreground",
+        "!m-0 flex !list-none flex-wrap items-center gap-1.5 !p-0 !font-sans !text-sm !leading-5 wrap-break-word !text-muted-foreground",
         className
       )}
+      style={style}
       {...props}
     />
   )
 }
 
-function BreadcrumbItem({ className, ...props }: React.ComponentProps<"li">) {
+function BreadcrumbItem({ className, style, ...props }: React.ComponentProps<"li">) {
   return (
     <li
       data-slot="breadcrumb-item"
-      className={cn("inline-flex items-center gap-1", className)}
+      className={cn("!m-0 inline-flex min-h-5 items-center gap-1 !p-0 !leading-5", className)}
+      style={style}
       {...props}
     />
   )
@@ -41,6 +44,7 @@ function BreadcrumbItem({ className, ...props }: React.ComponentProps<"li">) {
 function BreadcrumbLink({
   asChild,
   className,
+  style,
   ...props
 }: React.ComponentProps<"a"> & {
   asChild?: boolean
@@ -50,20 +54,22 @@ function BreadcrumbLink({
   return (
     <Comp
       data-slot="breadcrumb-link"
-      className={cn("transition-colors hover:text-foreground", className)}
+      style={style}
+      className={cn("!font-sans !text-sm !leading-5 !font-normal !text-muted-foreground !no-underline transition-colors hover:!text-foreground focus-visible:!text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/50", className)}
       {...props}
     />
   )
 }
 
-function BreadcrumbPage({ className, ...props }: React.ComponentProps<"span">) {
+function BreadcrumbPage({ className, style, ...props }: React.ComponentProps<"span">) {
   return (
     <span
       data-slot="breadcrumb-page"
       role="link"
       aria-disabled="true"
       aria-current="page"
-      className={cn("font-normal text-foreground", className)}
+      className={cn("!font-sans !text-sm !leading-5 !font-normal !text-foreground", className)}
+      style={style}
       {...props}
     />
   )
@@ -72,6 +78,7 @@ function BreadcrumbPage({ className, ...props }: React.ComponentProps<"span">) {
 function BreadcrumbSeparator({
   children,
   className,
+  style,
   ...props
 }: React.ComponentProps<"li">) {
   return (
@@ -79,7 +86,8 @@ function BreadcrumbSeparator({
       data-slot="breadcrumb-separator"
       role="presentation"
       aria-hidden="true"
-      className={cn("[&>svg]:size-3.5", className)}
+      className={cn("!m-0 flex size-3.5 shrink-0 items-center justify-center !p-0 !leading-none !text-muted-foreground [&>svg]:block [&>svg]:size-3.5", className)}
+      style={style}
       {...props}
     >
       {children ?? (
@@ -91,6 +99,7 @@ function BreadcrumbSeparator({
 
 function BreadcrumbEllipsis({
   className,
+  style,
   ...props
 }: React.ComponentProps<"span">) {
   return (
@@ -99,9 +108,10 @@ function BreadcrumbEllipsis({
       role="presentation"
       aria-hidden="true"
       className={cn(
-        "flex size-5 items-center justify-center [&>svg]:size-4",
+        "flex size-4 items-center justify-center !text-muted-foreground [&>svg]:size-4",
         className
       )}
+      style={style}
       {...props}
     >
       <MoreHorizontalIcon
