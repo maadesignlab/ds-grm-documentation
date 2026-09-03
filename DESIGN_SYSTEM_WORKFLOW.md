@@ -79,6 +79,7 @@ Archivo principal:
 
 - [Design System GRM v1](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1)
 - Nodo de Button: `1:24`
+- Página de Input: `1:34` (set público `412:11`, InputBase `394:13573`, composición lateral mediante Input Group)
 - Nodo de Badge: `186:141`
 - Nodo de Accordion: `1771:909`
 - Página de Dropdown: `1521:4708` (set principal `1638:5110`)
@@ -603,6 +604,18 @@ Button, Icon Button, Badge y texto son composiciones mediante `TooltipTrigger as
 El nodo `726:6350` define los estados abierto y cerrado para alineaciones `start`, `center` y `end`, separación de 4 px respecto al trigger y Button outline de 69 × 36 px. La superficie vacía de 384 × 212 px representa el slot disponible en Figma y no debe convertirse en dimensiones fijas del componente. El contenedor conserva el ancho, altura intrínseca, padding, radio, sombra y ring oficiales de shadcn/ui, consumiendo `--popover`, `--popover-foreground` y `--brand-font-sans` para responder a la marca activa.
 
 La implementación conserva la API oficial vigente de shadcn/ui sobre Base UI: Root, Trigger, Portal, Positioner, Popup, Header, Title y Description, junto con estado controlado/no controlado, foco, teclado, dismiss y posicionamiento con colisiones. La superficie vacía de Figma no se implementa como variante: los ejemplos `basic` y `form` son composiciones reales mediante `children` y no amplían el primitive. Docs y el único Playground renderizan exclusivamente `PopoverExample` para garantizar correspondencia 1:1.
+
+### Caso Label
+
+El nodo `1:38` define Label en 14/20 Medium con estados default, error, disabled y required; además incluye los patrones Legend en 16/24 Medium y Description en 14/20 Regular. Todos consumen `--brand-font-sans`; Default usa `--foreground`, Error y el indicador requerido usan `--error`, Description usa `--muted-foreground` y Disabled aplica opacidad 50 %. `--error` es obligatorio para texto sobre fondo normal; `--error-default-foreground` queda reservado para contenido sobre una superficie sólida de error.
+
+La implementación de Label conserva estrictamente el elemento HTML `label`, su API nativa y las clases públicas oficiales de shadcn/ui. Label no expone variantes de patrón ni de estado. Se compone con `Field` y con controles reales —Input, Checkbox o Textarea— siguiendo la referencia oficial: invalid se expresa con `Field[data-invalid]` y `aria-invalid`, disabled con `Field[data-disabled]` y el atributo `disabled`, y required con el atributo nativo más un indicador dentro de `children`. Legend y Description pertenecen a la documentación de Field, no se presentan como variantes de Label. Docs y el único Playground renderizan `LabelExample`.
+
+### Caso Field
+
+El nodo `553:2675` organiza Field con Input, Input Time, Textarea, Checkbox, Radio Group, Switch, Native Select, Select e Input OTP; cada ruta contempla default, error y disabled, descripciones antes o después del control y un ancho de referencia de 300 px. Estos controles son composiciones y nunca variantes añadidas al primitive.
+
+La implementación conserva sin modificaciones la API oficial vigente de shadcn/ui: `Field`, `FieldSet`, `FieldLegend`, `FieldGroup`, `FieldLabel`, `FieldContent`, `FieldTitle`, `FieldDescription`, `FieldError` y `FieldSeparator`. También preserva `orientation=vertical|horizontal|responsive`, `role=group`, semántica fieldset/legend, deduplicación de errores y estilos mediante data attributes. Playground añade Slider y FieldGroup porque forman parte de las composiciones oficiales aunque no aparezcan en la matriz principal de Figma. Docs y el único Playground renderizan exclusivamente `FieldExample`.
 
 ### Caso Toggle
 

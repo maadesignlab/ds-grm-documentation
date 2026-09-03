@@ -20,7 +20,7 @@ const config: StorybookConfig = {
   async viteFinal(config) {
     return mergeConfig(config, {
       optimizeDeps: {
-        include: ["embla-carousel-react"]
+        include: ["embla-carousel-react", "input-otp"]
       }
     });
   }
