@@ -48,7 +48,7 @@ Para cada componente se preservan, siempre que exista un equivalente:
 
 - La composición pública y los nombres de sus subcomponentes.
 - El primitive accesible de Radix/Base UI utilizado por shadcn/ui.
-- `asChild` y la semántica estricta de Slot, sin fallbacks que cambien el elemento renderizado.
+- La API de composición del primitive vigente: `asChild` cuando shadcn/ui usa Radix/Slot y `render` cuando usa Base UI, sin fallbacks que cambien el elemento renderizado.
 - Las propiedades base existentes; las propiedades de Figma se agregan como extensiones o aliases compatibles.
 - Los atributos `data-slot`, estados de foco, teclado, disabled y ARIA.
 
@@ -91,6 +91,14 @@ Archivo principal:
 - Página de Toggle: `3267:2627` (set principal `3279:53814`)
 - Página de Toggle Group: `3331:60517` (tipos `single` y `multiple`, de 1 a 10 ítems)
 - Página de Button Group: `3355:1262` (orientación, 1 a 10 ítems y último slot compuesto)
+- Página de Drawer: `1290:302` (side 384/480 px, bottom full y una/dos acciones)
+- Página de Sheet: `1295:386` (set principal `1295:1240`, cuatro posiciones y footer en fila/columna)
+- Página de Tabs: `1:33` (TabBase `1812:2936`, Contained `1812:3148`, Underline `1844:6734`)
+- Página de Toast: `1:45` (set principal `288:336`, estados success, warning, error, info, brand-neutral y neutral)
+
+Para Drawer, el contrato técnico vigente es la variante Base UI de shadcn/ui. Se usa `@base-ui/react/drawer`, `swipeDirection` (`up`, `right`, `down`, `left`) y composición mediante `render`; no se conserva la API obsoleta de Vaul (`direction`, `asChild`). `DrawerContent` mantiene la composición oficial `Portal → Backdrop → Viewport → Popup → Content` y expone `DrawerPortal`, `DrawerOverlay` y `DrawerSwipeHandle`.
+
+Las capacidades oficiales Nested, Non-modal (`modal={false}` junto con `disablePointerDismissal`) y Snap Points (`snapPoints`, `snapPoint`, `onSnapPointChange`, `snapToSequentialPoints`) deben estar disponibles aunque Figma todavía no las represente. La expresión GRM añade `--drawer-inset: 16px` en la composición de referencia para el comportamiento flotante. Cuando el inset es mayor que cero, `--drawer-bleed-background` debe ser transparente para que el relleno de overshoot de Base UI no una visualmente el panel con el borde de origen; con inset cero conserva `var(--color-popover)`. `--drawer-overlay-min-opacity` permanece configurable. Docs y Playground usan siempre `DrawerExample` para estas variantes.
 
 Antes de modificar un componente se debe inspeccionar en Figma:
 
@@ -590,6 +598,12 @@ El nodo `1136:1739` define triggers de contenido o texto, posiciones `top`, `rig
 
 Button, Icon Button, Badge y texto son composiciones mediante `TooltipTrigger asChild`; el shortcut reutiliza Kbd y KbdGroup. Los colores se exponen como `--tooltip` y `--tooltip-foreground`, y la fuente consume `--brand-font-sans`. Docs y Playground renderizan `TooltipExample` sin reconstrucciones paralelas.
 
+### Caso Popover
+
+El nodo `726:6350` define los estados abierto y cerrado para alineaciones `start`, `center` y `end`, separación de 4 px respecto al trigger y Button outline de 69 × 36 px. La superficie vacía de 384 × 212 px representa el slot disponible en Figma y no debe convertirse en dimensiones fijas del componente. El contenedor conserva el ancho, altura intrínseca, padding, radio, sombra y ring oficiales de shadcn/ui, consumiendo `--popover`, `--popover-foreground` y `--brand-font-sans` para responder a la marca activa.
+
+La implementación conserva la API oficial vigente de shadcn/ui sobre Base UI: Root, Trigger, Portal, Positioner, Popup, Header, Title y Description, junto con estado controlado/no controlado, foco, teclado, dismiss y posicionamiento con colisiones. La superficie vacía de Figma no se implementa como variante: los ejemplos `basic` y `form` son composiciones reales mediante `children` y no amplían el primitive. Docs y el único Playground renderizan exclusivamente `PopoverExample` para garantizar correspondencia 1:1.
+
 ### Caso Toggle
 
 El nodo `3279:53814` define variantes `default` y `outline`, tamaños `sm` (32 px), `default` (36 px) y `lg` (40 px), estados pressed/off, hover, focus y disabled, icono de 16 px, gap de 8 px y texto 14/20 Medium. La implementación conserva el primitive oficial de shadcn/ui sobre Radix, `aria-pressed`, estado controlado y no controlado, teclado, `variant`, `size`, `disabled` y composición mediante `children`.
@@ -609,6 +623,24 @@ El nodo `3355:1262` define orientación horizontal y vertical, de 1 a 10 element
 La implementación conserva la composición oficial de shadcn/ui: `ButtonGroup`, `ButtonGroupSeparator`, `ButtonGroupText`, `role=group` y navegación mediante Tab. El grupo no duplica Button ni transforma acciones en toggles; sus hijos son instancias públicas reales de Button, Dropdown Menu y Popover. El contenido y tamaño se configuran en cada Button, mientras orientación es la única variante del contenedor. Todas las muestras, incluidas Separator y Text, se configuran mediante `ButtonGroupExample` tanto en Docs como en el único Playground.
 
 El ancho fijo de 69 px corresponde exclusivamente a la variante textual documentada en la matriz de Figma. Las composiciones con icono y texto deben conservar el ancho intrínseco de Button para respetar icono de 16 px, gap de 12 px, padding horizontal de 12 px y texto sin recorte.
+
+### Caso Drawer
+
+El nodo `1290:302` define la ruta lateral en 384 y 480 px, la ruta bottom full-width de hasta 680 px, radio de 24 px, header/body/footer con padding de 16 px y barras de una o dos acciones. El swipe handle de 100 × 6 px pertenece a la variante bottom.
+
+La implementación conserva el Drawer oficial vigente de shadcn/ui sobre Base UI: Root, Trigger, Portal, Backdrop, Viewport, Popup, Content, Close, SwipeHandle, Header, Footer, Title y Description. Mantiene `swipeDirection`, gesto swipe, dismiss, foco, estado controlado/no controlado, nesting, modo no modal y snap points. `showSwipeHandle` pertenece al wrapper oficial de shadcn/ui. El body desplazable usa `flex-1 overflow-y-auto` para mantener acciones visibles. Docs y Playground renderizan exclusivamente `DrawerExample`; Docs muestra triggers reales y nunca recrea una superficie estática paralela.
+
+### Caso Sheet
+
+El nodo `1295:386` define Sheet en `left`, `right`, `top` y `bottom`; las rutas laterales ocupan el alto del viewport y aceptan 384 o 480 px, mientras las verticales ocupan el ancho y alcanzan 512 px. Header, body y footer usan padding de 16 px; el footer alterna columna de 106 px y fila de 64 px, ambos con gap de 10 px. El cierre mide 28 px y se separa 12 px de top/right.
+
+La implementación conserva el Sheet oficial de shadcn/ui sobre Dialog de Radix: Root, Trigger, Portal, Overlay, Content, Close, Header, Footer, Title y Description, junto con foco, teclado, dismiss, estado controlado/no controlado y animaciones por lado. Los anchos, contenido desplazable y alineación de acciones pertenecen a `SheetExample`, no amplían el primitive. `showCloseButton` y `side` mantienen la API pública oficial. Docs y Playground renderizan exclusivamente `SheetExample`.
+
+### Caso Tabs
+
+El nodo `1:33` define los estilos Contained y Underline, triggers de 25 px dentro de listas de 32 px, padding de 3 px en la lista, padding `3px 7px` y gap de 6 px en cada trigger, radio 10/8 px, iconos de 16 px y texto 14/20 Medium. Las matrices admiten de 2 a 9 tabs y cualquier tab válida como activa.
+
+La implementación conserva la API oficial de shadcn/ui sobre Radix: `Tabs`, `TabsList`, `TabsTrigger`, `TabsContent`, `orientation`, estado controlado/no controlado, navegación por teclado, disabled e iconos mediante `children`. Contained se expresa con `variant="default"` y Underline con `variant="line"`; los nombres de Figma no generan aliases. `tabAmount`, `activeTab`, posición de iconos y visibilidad del panel pertenecen únicamente a `TabsExample`. Docs y Playground renderizan esa misma composición compartida.
 
 ```text
 src/components/ui/

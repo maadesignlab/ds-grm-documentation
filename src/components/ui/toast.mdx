@@ -1,0 +1,44 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as ToastStories from "./toast.stories"
+import toastSource from "./toast.tsx?raw"
+import exampleSource from "./toast-example.tsx?raw"
+import { ToastBehaviors, ToastCompositions, ToastSpecifications, ToastStatuses } from "./toast-docs"
+
+<Meta of={ToastStories} />
+<Title of={ToastStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y Toast de Base UI</summary>
+
+  - Conserva manager, Provider, Portal, Viewport, Root, Content, Title, Description, Action y Close del Toast oficial de shadcn/ui.
+  - Incluye tipos, promesas, stacking y swipe dismissal de Base UI.
+  - Mapea los seis estados de Figma mediante `type`, composición pública y tokens semánticos por marca.
+</details>
+
+## Estados
+
+<div style={{ marginBottom: 48 }}><ToastStatuses /></div>
+
+## Composición
+
+<div style={{ marginBottom: 48 }}><ToastCompositions /></div>
+
+## Comportamientos oficiales
+
+<div style={{ marginBottom: 48 }}><ToastBehaviors /></div>
+
+## Especificaciones
+
+<div style={{ marginBottom: 48 }}><ToastSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={toastSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

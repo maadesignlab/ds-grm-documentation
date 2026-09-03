@@ -102,8 +102,8 @@ function LastSlot({
   if (slot === "popover") {
     return (
       <Popover>
-        <PopoverTrigger asChild>
-          <Button variant="outline" size={size} className="w-[69px]" disabled={disabled}>Button</Button>
+        <PopoverTrigger render={<Button variant="outline" size={size} className="w-[69px]" disabled={disabled} />}>
+          Button
         </PopoverTrigger>
         <PopoverContent align="end">Contenido del popover</PopoverContent>
       </Popover>

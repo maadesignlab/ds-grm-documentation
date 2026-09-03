@@ -1,0 +1,40 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as TabsStories from "./tabs.stories"
+import tabsSource from "./tabs.tsx?raw"
+import exampleSource from "./tabs-example.tsx?raw"
+import { TabsOfficialBehaviors, TabsSpecifications, TabsStyles } from "./tabs-docs"
+
+<Meta of={TabsStories} />
+<Title of={TabsStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva Root, List, Trigger y Content sobre el primitive accesible de Radix utilizado por shadcn/ui.
+  - Mapea Contained a `variant="default"` y Underline a `variant="line"`, sin crear aliases públicos.
+  - Integra orientación vertical, disabled e iconos oficiales además de las composiciones de 2 a 9 tabs de Figma.
+</details>
+
+## Variantes de estilo
+
+<div style={{ marginBottom: 48 }}><TabsStyles /></div>
+
+## Comportamientos oficiales
+
+<div style={{ marginBottom: 48 }}><TabsOfficialBehaviors /></div>
+
+## Especificaciones
+
+<div style={{ marginBottom: 48 }}><TabsSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={tabsSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

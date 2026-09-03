@@ -1,0 +1,48 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as SheetStories from "./sheet.stories"
+import sheetSource from "./sheet.tsx?raw"
+import exampleSource from "./sheet-example.tsx?raw"
+import { SheetCloseButtons, SheetFooterAlignments, SheetPositions, SheetSpecifications, SheetWidths } from "./sheet-docs"
+
+<Meta of={SheetStories} />
+<Title of={SheetStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva Dialog de Radix, portal, overlay, foco, teclado, dismiss y composición oficial de shadcn/ui.
+  - Adapta las cuatro posiciones, anchos laterales de 384/480 px y altura vertical de hasta 512 px.
+  - Integra cierre opcional, footer en fila/columna y contenido desplazable según Figma.
+</details>
+
+## Posición
+
+<div style={{ marginBottom: 48 }}><SheetPositions /></div>
+
+## Ancho lateral
+
+<div style={{ marginBottom: 48 }}><SheetWidths /></div>
+
+## Botón de cierre
+
+<div style={{ marginBottom: 48 }}><SheetCloseButtons /></div>
+
+## Disposición de acciones
+
+<div style={{ marginBottom: 48 }}><SheetFooterAlignments /></div>
+
+## Especificaciones
+
+<div style={{ marginBottom: 48 }}><SheetSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={sheetSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />
