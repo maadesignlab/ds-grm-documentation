@@ -1,0 +1,36 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as RadioGroupStories from "./radio-group.stories"
+import radioGroupSource from "./radio-group.tsx?raw"
+import exampleSource from "./radio-group-example.tsx?raw"
+import { RadioGroupPatterns, RadioGroupPlacement, RadioGroupSpecifications, RadioGroupStates } from "./radio-group-docs"
+
+<Meta of={RadioGroupStories} />
+<Title of={RadioGroupStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
+  <summary><strong>v1.0.0</strong> · Implementación desde Figma y shadcn/ui</summary>
+
+- Conserva Root, Item, Indicator, selección exclusiva, teclado, orientación, disabled y ARIA del primitive oficial.
+- Description, Choice Cards y Fieldset se resuelven mediante composición con Field.
+- Adapta geometría, estados y tokens del nodo de Figma sin duplicar Radio Group.
+</details>
+
+## Patrones
+<div style={{ marginBottom: 48 }}><RadioGroupPatterns /></div>
+
+## Posición del texto
+<div style={{ marginBottom: 48 }}><RadioGroupPlacement /></div>
+
+## Estados
+<div style={{ marginBottom: 48 }}><RadioGroupStates /></div>
+
+## Especificaciones
+<div style={{ marginBottom: 48 }}><RadioGroupSpecifications /></div>
+
+## Código
+### Primitive
+<Source language="tsx" code={radioGroupSource} />
+### Composición de referencia
+<Source language="tsx" code={exampleSource} />

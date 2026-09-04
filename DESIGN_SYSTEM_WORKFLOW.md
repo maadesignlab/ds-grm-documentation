@@ -80,6 +80,7 @@ Archivo principal:
 - [Design System GRM v1](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1)
 - Nodo de Button: `1:24`
 - Página de Input: `1:34` (set público `412:11`, InputBase `394:13573`, composición lateral mediante Input Group)
+- Página de Calendar: `1521:3069` (Single `1691:5297`, Range `1551:11970`, Date & Time `1551:11969`, Presets `1696:5801`)
 - Nodo de Badge: `186:141`
 - Nodo de Accordion: `1771:909`
 - Página de Dropdown: `1521:4708` (set principal `1638:5110`)
@@ -96,6 +97,11 @@ Archivo principal:
 - Página de Sheet: `1295:386` (set principal `1295:1240`, cuatro posiciones y footer en fila/columna)
 - Página de Tabs: `1:33` (TabBase `1812:2936`, Contained `1812:3148`, Underline `1844:6734`)
 - Página de Toast: `1:45` (set principal `288:336`, estados success, warning, error, info, brand-neutral y neutral)
+- Página de Checks / Radios / Switches: `1:41` (Checkbox base `446:397`, Switch base `429:99` y composiciones Radio Group)
+- Página de Native Select: `553:7952` (Simple `570:3815`, With Groups `614:1182`; apertura administrada por el navegador)
+- Página de Select: `614:4917` (Simple `614:6056`, Scrollable `614:6085`; composición oficial Radix de shadcn/ui)
+- Página de Combobox: `1:39` (Simple `1313:2747`, Clear Button `1339:831`, Groups `1339:3900`, Popup `1341:903`; composición oficial Base UI de shadcn/ui)
+- Página de Date Picker: `1:35` (Single empty `1684:2957`, Single filled `1687:4881`, Range `1686:2959`, Date-time `1687:4260`; composición oficial Popover + Calendar)
 
 Para Drawer, el contrato técnico vigente es la variante Base UI de shadcn/ui. Se usa `@base-ui/react/drawer`, `swipeDirection` (`up`, `right`, `down`, `left`) y composición mediante `render`; no se conserva la API obsoleta de Vaul (`direction`, `asChild`). `DrawerContent` mantiene la composición oficial `Portal → Backdrop → Viewport → Popup → Content` y expone `DrawerPortal`, `DrawerOverlay` y `DrawerSwipeHandle`.
 
@@ -616,6 +622,24 @@ La implementación de Label conserva estrictamente el elemento HTML `label`, su 
 El nodo `553:2675` organiza Field con Input, Input Time, Textarea, Checkbox, Radio Group, Switch, Native Select, Select e Input OTP; cada ruta contempla default, error y disabled, descripciones antes o después del control y un ancho de referencia de 300 px. Estos controles son composiciones y nunca variantes añadidas al primitive.
 
 La implementación conserva sin modificaciones la API oficial vigente de shadcn/ui: `Field`, `FieldSet`, `FieldLegend`, `FieldGroup`, `FieldLabel`, `FieldContent`, `FieldTitle`, `FieldDescription`, `FieldError` y `FieldSeparator`. También preserva `orientation=vertical|horizontal|responsive`, `role=group`, semántica fieldset/legend, deduplicación de errores y estilos mediante data attributes. Playground añade Slider y FieldGroup porque forman parte de las composiciones oficiales aunque no aparezcan en la matriz principal de Figma. Docs y el único Playground renderizan exclusivamente `FieldExample`.
+
+### Caso Combobox
+
+El nodo `1:39` aporta las referencias Simple, Clear Button, Groups y Popup. La implementación usa el Combobox oficial vigente de shadcn/ui sobre Base UI y conserva Root, Input, Trigger, Content, List, Item, Group, Collection, Empty, Separator, Value y la selección múltiple mediante Chips. No se sustituye por la receta histórica de Command + Popover ni se agregan props para representar iconos: estos se componen como hijos de `ComboboxItem`.
+
+El ancho de 300 px pertenece exclusivamente a `ComboboxExample`; el primitive conserva sus medidas, tipografía, posicionamiento, filtrado, teclado y estados oficiales. `comboboxExamplePresets` es la única matriz de configuraciones para Playground y Docs. La clase `sb-unstyled` solo puede vivir en el contenedor editorial externo, nunca dentro de Combobox, para que placeholder, valores e items hereden exactamente los estilos de shadcn/ui y la fuente de la marca seleccionada.
+
+### Caso Date Picker
+
+Date Picker no introduce un primitive ni un Root nuevo: conserva el patrón oficial vigente de shadcn/ui `Popover → PopoverTrigger render={<Button />} → PopoverContent → Calendar`. Las variantes del nodo `1:35` son composiciones de esa API: Single, Range con dos meses y Date-time con `InputGroup` de tipo `time`. La disponibilidad utiliza exclusivamente `disabled`, `modifiers`, `modifiersClassNames` y una leyenda externa; no amplía Calendar.
+
+Los anchos de 195, 240 y 353 px pertenecen a `DatePickerExample`, no a Button, Popover o Calendar. Range fuerza `captionLayout=label` y `numberOfMonths=2` conforme al contrato vigente de Calendar. Empty y Filled son estados de la selección, no variantes visuales del primitive. Disabled y Error no se añaden mientras Figma no tenga referencias aprobadas. Docs y Playground solo consumen `datePickerExamplePresets` y deben comprobarse con el popover cerrado y abierto.
+
+### Caso Checkbox, Radio Group y Switch
+
+El nodo `1:41` define Checkbox y Radio de 16 × 16 px, Switch `sm` de 24 × 14 px y `default` de 32 × 18.4 px, label 14/20 Medium, texto a izquierda o derecha y estados default, selected/on, error y disabled. La presentación contained no amplía los primitives: se implementa con el patrón oficial Choice Card mediante `FieldLabel` envolviendo `Field`.
+
+Checkbox conserva Root e Indicator, incluyendo estado controlado/no controlado e indeterminate. Radio Group conserva Root, Item e Indicator, selección exclusiva y navegación por teclado. Switch conserva Root, Thumb y la propiedad pública `size`. Label, Description, Choice Card, grupos y cantidades pertenecen exclusivamente a las composiciones compartidas `CheckboxExample`, `RadioGroupExample` y `SwitchExample`. Cada componente tiene un único Playground y Docs renderiza esas mismas instancias; las pruebas de interacción deben restaurar el estado inicial y retirar el foco para no crear discrepancias visuales después de ejecutarse.
 
 ### Caso Toggle
 

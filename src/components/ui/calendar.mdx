@@ -1,0 +1,46 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as CalendarStories from "./calendar.stories"
+import calendarSource from "./calendar.tsx?raw"
+import exampleSource from "./calendar-example.tsx?raw"
+import { CalendarCompositions, CalendarHeaders, CalendarModes, CalendarSpecifications } from "./calendar-docs"
+
+<Meta of={CalendarStories} />
+<Title of={CalendarStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Mantiene la API de `react-day-picker` y el primitive vigente de shadcn/ui `radix-nova`.
+  - Traduce single, range, encabezados, hora y presets mediante propiedades y composición oficial; el rango de dos meses replica la ventana de 30 días del ejemplo oficial.
+  - Añade disponibilidad desde Figma mediante `modifiers`, `modifiersClassNames` y una leyenda externa, sin alterar el primitive.
+  - Presenta siempre dos meses cuando `mode="range"`.
+  - Docs y Playground renderizan exclusivamente `CalendarExample`.
+</details>
+
+## Selección
+
+<div style={{ marginBottom: 48 }}><CalendarModes /></div>
+
+## Encabezado
+
+<div style={{ marginBottom: 48 }}><CalendarHeaders /></div>
+
+## Composiciones oficiales
+
+<div style={{ marginBottom: 48 }}><CalendarCompositions /></div>
+
+## Especificaciones
+
+<div style={{ marginBottom: 48 }}><CalendarSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={calendarSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

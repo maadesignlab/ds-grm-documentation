@@ -1,0 +1,45 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as NativeSelectStories from "./native-select.stories"
+import primitiveSource from "./native-select.tsx?raw"
+import exampleSource from "./native-select-example.tsx?raw"
+import { NativeSelectComposition, NativeSelectSizes, NativeSelectSpecifications, NativeSelectStates } from "./native-select-docs"
+
+<Meta of={NativeSelectStories} />
+<Title of={NativeSelectStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva el elemento HTML `select` y la API oficial de shadcn/ui.
+  - Implementa opciones simples y agrupadas mediante `NativeSelectOption` y `NativeSelectOptGroup`.
+  - Los estados invalid y disabled usan `aria-invalid` y `disabled` nativos.
+  - La geometría, superficie, tamaños y estados visuales pertenecen al componente oficial de shadcn/ui.
+</details>
+
+## Composición
+
+<div style={{ marginBottom: 48 }}><NativeSelectComposition /></div>
+
+## Estados
+
+<div style={{ marginBottom: 48 }}><NativeSelectStates /></div>
+
+## Tamaños oficiales
+
+<div style={{ marginBottom: 48 }}><NativeSelectSizes /></div>
+
+## Especificaciones
+
+<div style={{ marginBottom: 48 }}><NativeSelectSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={primitiveSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

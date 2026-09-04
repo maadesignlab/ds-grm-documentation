@@ -20,7 +20,7 @@ const config: StorybookConfig = {
   async viteFinal(config) {
     return mergeConfig(config, {
       optimizeDeps: {
-        include: ["embla-carousel-react", "input-otp"]
+        include: ["date-fns", "embla-carousel-react", "input-otp", "react-day-picker", "react-day-picker/locale"]
       }
     });
   }

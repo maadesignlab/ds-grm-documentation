@@ -1,0 +1,41 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as ComboboxStories from "./combobox.stories"
+import primitiveSource from "./combobox.tsx?raw"
+import exampleSource from "./combobox-example.tsx?raw"
+import { ComboboxComposition, ComboboxSpecifications, ComboboxStates } from "./combobox-docs"
+
+<Meta of={ComboboxStories} />
+<Title of={ComboboxStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva el primitive, la composición pública, el filtrado, el teclado y la accesibilidad oficiales de Combobox sobre Base UI.
+  - Incluye Simple, Clear Button, Groups, Multiple con Chips y Popup mediante la API pública de shadcn/ui.
+  - Los iconos se componen como hijos de `ComboboxItem`; no se añaden propiedades privadas al primitive.
+  - Playground y Docs consumen la misma matriz `comboboxExamplePresets`; Docs no recrea ni estiliza internamente el componente.
+</details>
+
+## Composición
+
+<div style={{ marginBottom: 48 }}><ComboboxComposition /></div>
+
+## Estados
+
+<div style={{ marginBottom: 48 }}><ComboboxStates /></div>
+
+## Especificaciones
+
+<div style={{ marginBottom: 48 }}><ComboboxSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={primitiveSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />
