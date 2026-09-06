@@ -102,6 +102,7 @@ Archivo principal:
 - Página de Select: `614:4917` (Simple `614:6056`, Scrollable `614:6085`; composición oficial Radix de shadcn/ui)
 - Página de Combobox: `1:39` (Simple `1313:2747`, Clear Button `1339:831`, Groups `1339:3900`, Popup `1341:903`; composición oficial Base UI de shadcn/ui)
 - Página de Date Picker: `1:35` (Single empty `1684:2957`, Single filled `1687:4881`, Range `1686:2959`, Date-time `1687:4260`; composición oficial Popover + Calendar)
+- Página de Kbd: `2793:2325` (set `2945:46122`; Single de texto o icono y Group en contextos default o Tooltip)
 
 Para Drawer, el contrato técnico vigente es la variante Base UI de shadcn/ui. Se usa `@base-ui/react/drawer`, `swipeDirection` (`up`, `right`, `down`, `left`) y composición mediante `render`; no se conserva la API obsoleta de Vaul (`direction`, `asChild`). `DrawerContent` mantiene la composición oficial `Portal → Backdrop → Viewport → Popup → Content` y expone `DrawerPortal`, `DrawerOverlay` y `DrawerSwipeHandle`.
 
@@ -634,6 +635,12 @@ El ancho de 300 px pertenece exclusivamente a `ComboboxExample`; el primitive co
 Date Picker no introduce un primitive ni un Root nuevo: conserva el patrón oficial vigente de shadcn/ui `Popover → PopoverTrigger render={<Button />} → PopoverContent → Calendar`. Las variantes del nodo `1:35` son composiciones de esa API: Single, Range con dos meses y Date-time con `InputGroup` de tipo `time`. La disponibilidad utiliza exclusivamente `disabled`, `modifiers`, `modifiersClassNames` y una leyenda externa; no amplía Calendar.
 
 Los anchos de 195, 240 y 353 px pertenecen a `DatePickerExample`, no a Button, Popover o Calendar. Range fuerza `captionLayout=label` y `numberOfMonths=2` conforme al contrato vigente de Calendar. Empty y Filled son estados de la selección, no variantes visuales del primitive. Disabled y Error no se añaden mientras Figma no tenga referencias aprobadas. Docs y Playground solo consumen `datePickerExamplePresets` y deben comprobarse con el popover cerrado y abierto.
+
+### Caso Kbd
+
+El nodo `2945:46122` define teclas individuales con texto o icono, y agrupaciones de teclas en contexto claro u oscuro. La implementación conserva literalmente la API pública oficial `Kbd` y `KbdGroup`; `type`, `content`, `style` y `text` son propiedades de organización de Figma y no se trasladan al primitive. Texto e iconos se pasan como `children`, y una combinación se construye con instancias de `Kbd` dentro de `KbdGroup`.
+
+El contexto oscuro no constituye una variante: debe producirse mediante una instancia real dentro de `TooltipContent`, aprovechando los selectores contextuales oficiales. Las integraciones con Button, Tooltip e Input Group permanecen como composiciones públicas. Docs y Playground consumen `kbdExamplePresets` y `KbdExample`; ningún ejemplo puede recrear visualmente una tecla con HTML paralelo.
 
 ### Caso Checkbox, Radio Group y Switch
 

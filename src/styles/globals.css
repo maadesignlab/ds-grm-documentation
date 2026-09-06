@@ -150,7 +150,7 @@
   line-height: 20px !important;
 }
 
-.sbdocs-wrapper :where(code, pre, kbd, samp),
-.sbdocs-wrapper :where(code, pre, kbd, samp) * {
+.sbdocs-wrapper :where(code, pre, samp, kbd:not([data-slot="kbd"])),
+.sbdocs-wrapper :where(code, pre, samp, kbd:not([data-slot="kbd"])) * {
   font-family: var(--brand-font-mono) !important;
 }
