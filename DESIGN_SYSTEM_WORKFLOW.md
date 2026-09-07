@@ -103,6 +103,7 @@ Archivo principal:
 - Página de Combobox: `1:39` (Simple `1313:2747`, Clear Button `1339:831`, Groups `1339:3900`, Popup `1341:903`; composición oficial Base UI de shadcn/ui)
 - Página de Date Picker: `1:35` (Single empty `1684:2957`, Single filled `1687:4881`, Range `1686:2959`, Date-time `1687:4260`; composición oficial Popover + Calendar)
 - Página de Kbd: `2793:2325` (set `2945:46122`; Single de texto o icono y Group en contextos default o Tooltip)
+- Página de Resizable: `2882:453` (set `2886:46488`; orientación horizontal/vertical, distribuciones 25/75, 50/50 y 75/25, con o sin grip)
 
 Para Drawer, el contrato técnico vigente es la variante Base UI de shadcn/ui. Se usa `@base-ui/react/drawer`, `swipeDirection` (`up`, `right`, `down`, `left`) y composición mediante `render`; no se conserva la API obsoleta de Vaul (`direction`, `asChild`). `DrawerContent` mantiene la composición oficial `Portal → Backdrop → Viewport → Popup → Content` y expone `DrawerPortal`, `DrawerOverlay` y `DrawerSwipeHandle`.
 
@@ -641,6 +642,12 @@ Los anchos de 195, 240 y 353 px pertenecen a `DatePickerExample`, no a Button, P
 El nodo `2945:46122` define teclas individuales con texto o icono, y agrupaciones de teclas en contexto claro u oscuro. La implementación conserva literalmente la API pública oficial `Kbd` y `KbdGroup`; `type`, `content`, `style` y `text` son propiedades de organización de Figma y no se trasladan al primitive. Texto e iconos se pasan como `children`, y una combinación se construye con instancias de `Kbd` dentro de `KbdGroup`.
 
 El contexto oscuro no constituye una variante: debe producirse mediante una instancia real dentro de `TooltipContent`, aprovechando los selectores contextuales oficiales. Las integraciones con Button, Tooltip e Input Group permanecen como composiciones públicas. Docs y Playground consumen `kbdExamplePresets` y `KbdExample`; ningún ejemplo puede recrear visualmente una tecla con HTML paralelo.
+
+### Caso Resizable
+
+El nodo `2886:46488` define grupos horizontales y verticales con distribuciones iniciales 25/75, 50/50 y 75/25, con o sin grip visible. La implementación conserva sin modificaciones el wrapper oficial `radix-nova` de shadcn/ui sobre `react-resizable-panels` v4: `ResizablePanelGroup` envuelve `Group`, `ResizablePanel` envuelve `Panel` y `ResizableHandle` envuelve `Separator`. Se usa `orientation`, nunca la propiedad v3 `direction`, y `defaultSize` recibe porcentajes como strings.
+
+La geometría de muestra 450 × 200 px y sus contenidos pertenecen únicamente a `ResizableExample`; el primitive sigue siendo responsivo y sin estilos de contenido. El grip oficial tipo píldora prevalece sobre representaciones antiguas o aproximadas de Figma. Arrastre, touch, teclado, foco, ARIA y paneles anidados dependen de la API pública. Docs y Playground consumen exclusivamente `resizableExamplePresets` y la misma instancia `ResizableExample`.
 
 ### Caso Checkbox, Radio Group y Switch
 
