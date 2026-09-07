@@ -1,0 +1,50 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as ItemStories from "./item.stories"
+import primitiveSource from "./item.tsx?raw"
+import exampleSource from "./item-example.tsx?raw"
+import { ItemAppearances, ItemCompositions, ItemGroups, ItemLayouts, ItemSpecifications } from "./item-docs"
+
+<Meta of={ItemStories} />
+<Title of={ItemStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva sin modificaciones el primitive Base UI y la API pública oficial de Item de shadcn/ui.
+  - Conserva las variantes, tamaños y composiciones oficiales relevantes: Icon, Avatar, Image, Group, Header, Link y Dropdown.
+  - Traduce por composición las apariencias, contenidos laterales, layouts y agrupaciones de Figma.
+  - Reutiliza Button y Avatar públicos; no agrega propiedades privadas al primitive.
+  - Playground y Docs consumen `itemExamplePresets` y la misma instancia `ItemExample`.
+</details>
+
+## Variantes de estilo
+
+<div style={{ marginBottom: 48 }}><ItemAppearances /></div>
+
+## Contenido y composición
+
+<div style={{ marginBottom: 48 }}><ItemCompositions /></div>
+
+## Escala y forma
+
+<div style={{ marginBottom: 48 }}><ItemLayouts /></div>
+
+## Item Group
+
+<div style={{ marginBottom: 48 }}><ItemGroups /></div>
+
+## Especificaciones
+
+<div style={{ marginBottom: 48 }}><ItemSpecifications /></div>
+
+## Código
+
+### Primitive oficial
+
+<Source language="tsx" code={primitiveSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

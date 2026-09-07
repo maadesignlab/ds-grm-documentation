@@ -83,6 +83,7 @@ Archivo principal:
 - Página de Calendar: `1521:3069` (Single `1691:5297`, Range `1551:11970`, Date & Time `1551:11969`, Presets `1696:5801`)
 - Nodo de Badge: `186:141`
 - Nodo de Accordion: `1771:909`
+- Página de Collapsible: `1771:929` (FixedTrigger de 78/210 px y ExpandableTrigger de 30/114 px; composición oficial Radix de shadcn/ui)
 - Página de Dropdown: `1521:4708` (set principal `1638:5110`)
 - Página de Breadcrumb: `1760:597` (set principal `1763:1562`, base `1763:1339`)
 - Página de Context Menu: `1675:339` (set principal `1677:397`, base `1703:22653`)
@@ -104,6 +105,23 @@ Archivo principal:
 - Página de Date Picker: `1:35` (Single empty `1684:2957`, Single filled `1687:4881`, Range `1686:2959`, Date-time `1687:4260`; composición oficial Popover + Calendar)
 - Página de Kbd: `2793:2325` (set `2945:46122`; Single de texto o icono y Group en contextos default o Tooltip)
 - Página de Resizable: `2882:453` (set `2886:46488`; orientación horizontal/vertical, distribuciones 25/75, 50/50 y 75/25, con o sin grip)
+- Página de Progress: `2206:16412` (set `2206:16431`; valores de 0 a 100, label y porcentaje compuestos)
+- Página de Pagination: `1763:1260` (set `1938:7400`; navegación, filas por página, 3–5 ítems, estados activos, elipsis y controles laterales)
+- Página de Scroll Area: `1800:1860` (set `1801:2786`; orientación vertical de 190 × 286 px y horizontal de 382 × 256 px)
+- Página de Avatar: `246:2681` (set `247:3787`; contenido image/text/icon, estilos primary/secondary/muted/gradient, formas full/semiSquared, escala de 32 a 120 px, grupos, estados y badges)
+- Página de Item: `2190:1413` (set principal `2190:2109`; apariencias default/outline/muted, contenido inicial y final compuesto, layouts default/compact/stacked e Item Group list/grid de 2 a 5 ítems)
+- Página de Menubar: `2938:11449` (set principal `2984:4900`; de 1 a 10 opciones, estado closed/open y opción activa)
+- Página de Navigation Menu: `2938:12924` (set principal `2997:803`; 1–10 ítems, dropdown/link, Viewport true/false y contenidos list/featured)
+
+Item conserva la estructura pública oficial Base UI vigente de shadcn/ui: variantes `default`, `outline` y `muted`; tamaños `default`, `sm` y `xs`; composición polimórfica mediante `render`; y los subcomponentes ItemGroup, ItemSeparator, ItemMedia, ItemContent, ItemTitle, ItemDescription, ItemActions, ItemHeader e ItemFooter. Icon, Avatar, Image, Group, Header y Link se resuelven por composición en `ItemExample`; no se convierten en variantes privadas del primitive. Las composiciones oficiales conservan sus escalas: acción textual `sm` de 28 px, acción circular de Avatar `icon-sm` de 28 px, Avatar default de 32 px y acción `icon` de 32 px dentro de Group. En el mapeo GRM, Header corresponde al layout stacked: el ejemplo oficial se representa como un `ItemGroup` grid de tres Items de 182 px, donde cada `ItemHeader` contiene el placeholder superior y `ItemContent` se ubica debajo. Stacked también puede mostrarse como una instancia individual. El ejemplo Dropdown reutiliza el componente público `DropdownMenu` del proyecto y mantiene la composición oficial `DropdownMenuItem > Item`; el nodo específico de Figma `2191:11472` define la adaptación visual de esa instancia: trigger Button primario default “Ajustes”, content `w-44` de 176 px alineado al final, padding de menú de 4 px, fila `Item size="sm"` con `gap-2 px-1.5 py-1`, Avatar de 28 px, título de 14/20 y descripción de 12/16. Estos ajustes pertenecen al ejemplo y no alteran las APIs públicas de Dropdown, Item, Button o Avatar. Los controles incompatibles de size/appearance se ocultan. Los patrones de Figma compact, stacked, list y grid se mantienen como composición del ejemplo. RTL se excluye de esta documentación por alcance del Design System.
+
+La composición Image debe usar siempre un recurso visible y verificable dentro de `ItemMedia variant="image"`; no se deben utilizar placeholders transparentes que hagan parecer que la variante no fue renderizada. Docs y Playground consumen la misma ruta y respetan las escalas automáticas de media definidas por `Item` (`40px`, `32px` y `24px`).
+
+La sección Item Group en Docs muestra únicamente las composiciones List y Grid. La muestra redundante titulada “Grupo oficial” no forma parte de la documentación visible.
+
+Menubar conserva estrictamente la estructura pública oficial de shadcn/ui sobre Radix: Root, Menu, Trigger, Portal, Content, Group, Item, Label, Separator, Shortcut, CheckboxItem, RadioGroup, RadioItem, Sub, SubTrigger y SubContent. El nodo `2984:4900` adapta únicamente la expresión GRM: raíz de 32 px con gap de 4 px y padding de 3 px, triggers de 24 px con padding `8px 4px`, content de 176 px y tipografía 14/20 que hereda la fuente de cada marca. Cantidad, apertura inicial, opción activa y opción disabled pertenecen a `MenubarExample`; no amplían el primitive. Docs y el único Playground consumen los mismos presets y la misma instancia compartida. El indicador de RadioItem debe ser circular, conforme a shadcn/ui, y no reutilizar el check de CheckboxItem.
+
+Navigation Menu conserva estrictamente la implementación oficial vigente de shadcn/ui sobre Radix: Root con `viewport`, List, Item, Trigger, Content, Link, Viewport, Indicator y `navigationMenuTriggerStyle`. El nodo `2997:803` coincide con la geometría oficial: trigger de 36 px, padding `16px 8px`, chevron de 12 px y gap de 4 px. Los contenidos de Figma se resuelven por composición en `NavigationMenuExample`: `list` de 400 × 268 px y `featured` de 520 × 196 px, ambos mediante links públicos reales de Navigation Menu. Cantidad de 1–10, apertura inicial, ítem activo, último ítem dropdown/link y disabled son argumentos exclusivos del ejemplo; no amplían el primitive. `viewport=false` usa el comportamiento y posicionamiento oficial, no un popover paralelo. Docs y Playground renderizan la misma instancia compartida.
 
 Para Drawer, el contrato técnico vigente es la variante Base UI de shadcn/ui. Se usa `@base-ui/react/drawer`, `swipeDirection` (`up`, `right`, `down`, `left`) y composición mediante `render`; no se conserva la API obsoleta de Vaul (`direction`, `asChild`). `DrawerContent` mantiene la composición oficial `Portal → Backdrop → Viewport → Popup → Content` y expone `DrawerPortal`, `DrawerOverlay` y `DrawerSwipeHandle`.
 
@@ -648,6 +666,24 @@ El contexto oscuro no constituye una variante: debe producirse mediante una inst
 El nodo `2886:46488` define grupos horizontales y verticales con distribuciones iniciales 25/75, 50/50 y 75/25, con o sin grip visible. La implementación conserva sin modificaciones el wrapper oficial `radix-nova` de shadcn/ui sobre `react-resizable-panels` v4: `ResizablePanelGroup` envuelve `Group`, `ResizablePanel` envuelve `Panel` y `ResizableHandle` envuelve `Separator`. Se usa `orientation`, nunca la propiedad v3 `direction`, y `defaultSize` recibe porcentajes como strings.
 
 La geometría de muestra 450 × 200 px y sus contenidos pertenecen únicamente a `ResizableExample`; el primitive sigue siendo responsivo y sin estilos de contenido. El grip oficial tipo píldora prevalece sobre representaciones antiguas o aproximadas de Figma. Arrastre, touch, teclado, foco, ARIA y paneles anidados dependen de la API pública. Docs y Playground consumen exclusivamente `resizableExamplePresets` y la misma instancia `ResizableExample`.
+
+### Caso Progress
+
+El nodo `2206:16431` define valores de 0 a 100, track de 4 px y una composición opcional con label y porcentaje en 14/20. La implementación conserva el wrapper oficial `radix-nova` de shadcn/ui sobre Radix: `Progress` envuelve `Root`, `Indicator` permanece interno y el avance se expresa mediante la prop pública `value` y su transformación oficial. El wrapper debe reenviar `value` al `Root`; usarlo solo en el transform del indicador produce una barra visualmente determinada pero semánticamente indeterminada y elimina `aria-valuenow`.
+
+Label, porcentaje, separación de 12 px y ancho de referencia de 433 px pertenecen exclusivamente a `ProgressExample`; no amplían el primitive. Cuando el label es visible, la barra se vincula mediante `aria-labelledby`; sin label visual usa `aria-label`. Docs y el único Playground consumen `progressExamplePresets` y la misma instancia `ProgressExample`.
+
+### Caso Pagination
+
+El nodo `1938:7400` define una navegación paginada con botones anterior/siguiente, elipsis, entre 3 y 5 páginas y una ruta compuesta para seleccionar filas por página. La implementación conserva sin extensiones el contrato oficial de shadcn/ui: `Pagination`, `PaginationContent`, `PaginationItem`, `PaginationLink`, `PaginationPrevious`, `PaginationNext` y `PaginationEllipsis`, con Button como base visual y links como semántica navegable.
+
+Cantidad de páginas, página activa, visibilidad de elipsis y controles laterales pertenecen a `PaginationExample`; no se añaden al primitive. La ruta de filas por página compone el Select público y no reconstruye su trigger. En los extremos, Previous y Next expresan indisponibilidad mediante `aria-disabled`, `tabIndex=-1` y estilos de estado en la composición. Docs y el único Playground consumen `paginationExamplePresets` y la misma instancia `PaginationExample`.
+
+### Caso Scroll Area
+
+El nodo `1801:2786` define dos composiciones: una lista vertical de 190 × 286 px y una galería horizontal de 382 × 256 px. La implementación conserva literalmente el wrapper oficial `radix-nova` de shadcn/ui sobre Radix: `ScrollArea` contiene Viewport, scrollbar vertical y Corner; `ScrollBar` expone `orientation` y contiene Thumb. Mouse, touch, rueda, teclado, foco y visibilidad del scrollbar dependen del primitive.
+
+Dimensiones, padding de 16 px, lista, separadores, imágenes y captions pertenecen exclusivamente a `ScrollAreaExample`; no amplían el primitive. La ruta horizontal sigue la receta oficial añadiendo `ScrollBar orientation="horizontal"` mediante composición y usa los recursos originales de Figma guardados localmente. Docs y el único Playground consumen `scrollAreaExamplePresets` y la misma instancia `ScrollAreaExample`.
 
 ### Caso Checkbox, Radio Group y Switch
 

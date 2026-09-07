@@ -1,0 +1,38 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as ScrollAreaStories from "./scroll-area.stories"
+import primitiveSource from "./scroll-area.tsx?raw"
+import exampleSource from "./scroll-area-example.tsx?raw"
+import { ScrollAreaOrientations, ScrollAreaSpecifications } from "./scroll-area-docs"
+
+<Meta of={ScrollAreaStories} />
+<Title of={ScrollAreaStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva sin modificaciones `ScrollArea` y `ScrollBar` del registro oficial de shadcn/ui sobre Radix.
+  - Mantiene Viewport, Scrollbar, Thumb, Corner, foco, mouse, touch y teclado del primitive.
+  - Incluye las composiciones oficiales vertical y horizontal con contenido de referencia de Figma.
+  - Las dimensiones y el contenido viven en el ejemplo; no amplían ni fijan el primitive.
+  - Playground y Docs consumen `scrollAreaExamplePresets` y la misma instancia `ScrollAreaExample`.
+</details>
+
+## Orientación
+
+<div style={{ marginBottom: 48 }}><ScrollAreaOrientations /></div>
+
+## Especificaciones
+
+<div style={{ marginBottom: 48 }}><ScrollAreaSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={primitiveSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

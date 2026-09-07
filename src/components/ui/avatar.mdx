@@ -1,0 +1,54 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as AvatarStories from "./avatar.stories"
+import primitiveSource from "./avatar.tsx?raw"
+import exampleSource from "./avatar-example.tsx?raw"
+import { AvatarBorders, AvatarContents, AvatarIndicators, AvatarShapes, AvatarSpecifications, AvatarStyles } from "./avatar-docs"
+
+<Meta of={AvatarStories} />
+<Title of={AvatarStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva sin modificaciones la API oficial `Avatar`, `AvatarImage`, `AvatarFallback`, `AvatarBadge`, `AvatarGroup` y `AvatarGroupCount`.
+  - Traduce por composición los contenidos image, text e icon; las formas full y semiSquared; la escala, bordes y estados de Figma.
+  - Los status badges, badges de servicio, textos, iconos y radios responden a la matriz de tamaños definida en Figma.
+  - Usa la imagen original del nodo y tokens semánticos sensibles a la marca.
+  - Playground y Docs consumen `avatarExamplePresets` y la misma instancia `AvatarExample`.
+</details>
+
+## Contenido y composición
+
+<div style={{ marginBottom: 48 }}><AvatarContents /></div>
+
+## Variantes de estilo
+
+<div style={{ marginBottom: 48 }}><AvatarStyles /></div>
+
+## Forma
+
+<div style={{ marginBottom: 48 }}><AvatarShapes /></div>
+
+## Estados y badges
+
+<div style={{ marginBottom: 48 }}><AvatarIndicators /></div>
+
+## Bordes de estado
+
+<div style={{ marginBottom: 48 }}><AvatarBorders /></div>
+
+## Especificaciones
+
+<div style={{ marginBottom: 48 }}><AvatarSpecifications /></div>
+
+## Código
+
+### Primitive oficial
+
+<Source language="tsx" code={primitiveSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />
