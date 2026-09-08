@@ -37,15 +37,16 @@ export function SidebarSubnavigationOverview() {
 
 const geometry = [
   ["Sidebar expanded", "256px", "902px de referencia", "—", "—", "--sidebar"],
-  ["Sidebar collapsed", "56px", "902px de referencia", "—", "—", "--sidebar"],
+  ["Sidebar collapsed", "64px", "902px de referencia", "—", "—", "--sidebar"],
   ["Header", "100%", "56px", "0 16px", "8px", "--sidebar-border"],
-  ["Menu item", "240 / 40px", "40px", "0 12px", "12px", "radius-md · 6px"],
+  ["Menu item", "240 / 48px", "40px", "0 12px", "12px", "radius-md · 6px"],
   ["Icon", "16px", "16px", "—", "—", "--sidebar-foreground"],
-  ["Group", "240 / 40px", "Variable", "20px 8px 0", "8px", "—"],
-  ["Group label", "216 / 16px", "16px", "0 12px", "8px", "11px · uppercase"],
+  ["Group", "240 / 48px", "Variable", "20px 8px 0", "8px", "—"],
+  ["Group label", "216 / 24px", "16px", "0 12px", "8px", "11px · uppercase"],
   ["Sub item", "240px", "40px", "0 12px 0 36px", "12px", "radius-md · 6px"],
-  ["Sub item collapsed", "32px", "32px", "10px", "—", "icon 14px"],
-  ["Subnavigation collapsed", "40px", "90px / 2 items", "5px 4px", "—", "border + radius-md"],
+  ["Sub item collapsed", "40px", "32px", "10px", "—", "icon 14px"],
+  ["Subnavigation collapsed", "48px", "90px / 2 items", "5px 4px", "—", "border + radius-md"],
+  ["Collapsible open · collapsed", "48px", "134px total", "0 0 4px", "—", "trigger 40px + panel 90px"],
 ] as const
 
 const api = [

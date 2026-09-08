@@ -62,7 +62,24 @@ export const Playground: Story = {
 
     const groupLabel = canvasElement.querySelector<HTMLElement>('[data-slot="sidebar-group-label"]')
     expect(groupLabel).not.toBeNull()
-    expect(getComputedStyle(groupLabel!, "::after").width).toBe("16px")
+    expect(getComputedStyle(groupLabel!, "::after").width).toBe("24px")
+
+    const collapsedSidebar = canvasElement.querySelector<HTMLElement>('[data-slot="sidebar-container"]')
+    await waitFor(() => {
+      expect(collapsedSidebar?.getBoundingClientRect().width).toBe(64)
+      expect(collapsibleItem.getBoundingClientRect().width).toBe(48)
+    })
+
+    const collapsedCollapsibleItem = canvasElement.querySelector<HTMLElement>('[data-slot="collapsible-trigger"]')
+    expect(collapsedCollapsibleItem).not.toBeNull()
+    await userEvent.click(collapsedCollapsibleItem!)
+    await waitFor(() => {
+      const collapsedCollapsible = canvasElement.querySelector<HTMLElement>('[data-slot="collapsible"][data-state="open"]')
+      expect(collapsedCollapsible).not.toBeNull()
+      expect(getComputedStyle(collapsedCollapsible!).paddingBottom).toBe("4px")
+      expect(collapsedCollapsible?.getBoundingClientRect().height).toBe(134)
+    })
+    await userEvent.click(collapsedCollapsibleItem!)
 
     await userEvent.click(trigger)
   },

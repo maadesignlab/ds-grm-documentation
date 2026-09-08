@@ -1,8 +1,8 @@
 "use client"
 
 import {
-  NavigationMenu, NavigationMenuContent, NavigationMenuIndicator,
-  NavigationMenuItem, NavigationMenuLink, NavigationMenuList,
+  NavigationMenu, NavigationMenuContent, NavigationMenuItem,
+  NavigationMenuLink, NavigationMenuList,
   NavigationMenuTrigger, navigationMenuTriggerStyle,
 } from "./navigation-menu"
 
@@ -104,7 +104,6 @@ export function NavigationMenuExample({
             </NavigationMenuContent>
           </NavigationMenuItem>
         })}
-        <NavigationMenuIndicator />
       </NavigationMenuList>
     </NavigationMenu>
   )

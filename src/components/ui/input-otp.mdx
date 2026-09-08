@@ -1,0 +1,50 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as InputOTPStories from "./input-otp.stories"
+import primitiveSource from "./input-otp.tsx?raw"
+import exampleSource from "./input-otp-example.tsx?raw"
+import { InputOTPProgress, InputOTPSlots, InputOTPSpecifications, InputOTPStates, InputOTPStyles } from "./input-otp-docs"
+
+<Meta of={InputOTPStories} />
+<Title of={InputOTPStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva la composición oficial de shadcn/ui sobre `input-otp` y `OTPInputContext`.
+  - Mantiene entrada real, caret, foco, teclado, paste, patrón, disabled y semántica ARIA.
+  - Adapta los slots a la escala de 36 px y tokens de las cuatro marcas definidos en Figma.
+  - Cantidad, separadores, estado y progreso pertenecen exclusivamente a `InputOTPExample`; Error propaga `aria-invalid` a la entrada y sus slots para mantener una señal visual inequívoca.
+  - Playground y Docs renderizan la misma composición compartida.
+</details>
+
+## Estilo
+
+<div style={{ marginBottom: 48 }}><InputOTPStyles /></div>
+
+## Cantidad y distribución
+
+<div style={{ marginBottom: 48 }}><InputOTPSlots /></div>
+
+## Estados
+
+<div style={{ marginBottom: 48 }}><InputOTPStates /></div>
+
+## Progreso
+
+<div style={{ marginBottom: 48 }}><InputOTPProgress /></div>
+
+## Especificaciones
+
+<div style={{ marginBottom: 48 }}><InputOTPSpecifications /></div>
+
+## Código
+
+### Primitive oficial adaptado
+
+<Source language="tsx" code={primitiveSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

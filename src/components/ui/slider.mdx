@@ -1,0 +1,47 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as SliderStories from "./slider.stories"
+import primitiveSource from "./slider.tsx?raw"
+import exampleSource from "./slider-example.tsx?raw"
+import { SliderOrientations, SliderSpecifications, SliderStates, SliderTypes } from "./slider-docs"
+
+<Meta of={SliderStories} />
+<Title of={SliderStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3" style={{ marginBottom: 48 }}>
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva literalmente el wrapper oficial `radix-nova` de shadcn/ui sobre Radix.
+  - Single, Range y Multiple se expresan mediante uno, dos o tres valores; Range integra la receta Controlled oficial.
+  - Mantiene orientación, disabled, teclado, gestos, foco y atributos ARIA oficiales.
+  - Incluye la receta Controlled oficial mediante `Label`, estado React y valor visible.
+  - La geometría de 240 × 20 px y los presets Low, Medium y High pertenecen a `SliderExample`.
+  - Playground y Docs renderizan exclusivamente la misma composición compartida.
+</details>
+
+## Tipo
+
+<div style={{ marginBottom: 48 }}><SliderTypes /></div>
+
+## Orientación
+
+<div style={{ marginBottom: 48 }}><SliderOrientations /></div>
+
+## Valores y estados
+
+<div style={{ marginBottom: 48 }}><SliderStates /></div>
+
+## Especificaciones
+
+<div style={{ marginBottom: 48 }}><SliderSpecifications /></div>
+
+## Código
+
+### Primitive oficial
+
+<Source language="tsx" code={primitiveSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

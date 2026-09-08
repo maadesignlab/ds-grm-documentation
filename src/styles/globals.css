@@ -154,3 +154,9 @@
 .sbdocs-wrapper :where(code, pre, samp, kbd:not([data-slot="kbd"])) * {
   font-family: var(--brand-font-mono) !important;
 }
+
+/* Component samples keep their explicit numeric typography inside Docs. */
+.sbdocs-wrapper [data-slot="table-cell-content-text"][data-font="mono"],
+.sbdocs-wrapper [data-slot="table-cell-content-text"][data-font="mono"] * {
+  font-family: var(--brand-font-mono) !important;
+}

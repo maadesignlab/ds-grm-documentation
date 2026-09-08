@@ -77,6 +77,8 @@ export type SidebarExampleProps = {
 
 function NavigationButton({ item, activeItem, expandedGroups }: { item: NavigationItem; activeItem: string; expandedGroups: boolean }) {
   const Icon = item.icon
+  const { state } = useSidebar()
+  const [open, setOpen] = React.useState(expandedGroups)
 
   if (!item.children) {
     return (
@@ -89,10 +91,10 @@ function NavigationButton({ item, activeItem, expandedGroups }: { item: Navigati
   }
 
   return (
-    <Collapsible asChild defaultOpen={expandedGroups} className="group/collapsible">
+    <Collapsible asChild open={open} onOpenChange={setOpen} className={`group/collapsible ${state === "collapsed" && open ? "pb-1!" : ""}`}>
       <SidebarMenuItem>
         <CollapsibleTrigger asChild>
-          <SidebarMenuButton tooltip={item.label} isActive={activeItem === item.label} className="group-data-[collapsible=icon]:group-data-[state=open]/collapsible:rounded-b-none group-data-[collapsible=icon]:group-data-[state=open]/collapsible:bg-sidebar-accent">
+          <SidebarMenuButton tooltip={item.label} isActive={activeItem === item.label} className="group-data-[collapsible=icon]:justify-start group-data-[collapsible=icon]:px-3! group-data-[collapsible=icon]:group-data-[state=open]/collapsible:rounded-b-none group-data-[collapsible=icon]:group-data-[state=open]/collapsible:bg-sidebar-accent">
             <Icon /><span>{item.label}</span>
             <ChevronDown className="ml-auto size-3.5 transition-transform group-data-[state=open]/collapsible:rotate-180" />
           </SidebarMenuButton>
@@ -159,7 +161,7 @@ export function SidebarExample({
                 priority
                 className="hidden h-[26px] w-[15px] shrink-0 group-data-[collapsible=icon]:block"
               />
-              <SidebarTrigger className="absolute left-[calc(100%+1px)] z-20 size-8 shrink-0 rounded-full border border-border bg-background shadow-xs hover:bg-[var(--background-hover)]" />
+              <SidebarTrigger className="absolute left-[calc(100%+1px)] z-20 size-8 shrink-0 rounded-full border border-border bg-background shadow-xs hover:bg-[var(--background-hover)] group-data-[collapsible=icon]:left-7" />
             </div>
           </SidebarHeader>
 
