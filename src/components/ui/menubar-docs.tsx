@@ -39,5 +39,5 @@ const tokens = [
 ] as const
 
 export function MenubarSpecifications() {
-  return <div className="not-prose grid gap-6"><section><h3 style={{ margin: "0 0 12px", fontSize: 16, fontWeight: 600, lineHeight: "24px" }}>API y geometría</h3><Table columns={["Parte", "Primitive", "Tailwind / API", "Valor"]} rows={anatomy} /></section><section><h3 style={{ margin: "0 0 12px", fontSize: 16, fontWeight: 600, lineHeight: "24px" }}>Tipografía y color</h3><Table columns={["Elemento", "Tailwind", "Token / valor"]} rows={tokens} /></section></div>
+  return <div className="not-prose grid gap-6"><section><h3 className="mb-3 text-base leading-6 font-semibold text-foreground">API y geometría</h3><Table columns={["Parte", "Primitive", "Tailwind / API", "Valor"]} rows={anatomy} /></section><section><h3 className="mb-3 text-base leading-6 font-semibold text-foreground">Tipografía y color</h3><Table columns={["Elemento", "Tailwind", "Token / valor"]} rows={tokens} /></section></div>
 }

@@ -79,13 +79,17 @@ const iconClasses: Record<AvatarDisplaySize, string> = {
   32: "size-3.5", 36: "size-4", 40: "size-4", 48: "size-5", 56: "size-6",
   64: "size-6", 72: "size-7", 80: "size-8", 96: "size-10", 120: "size-12",
 }
-const statusBadgePixels: Record<AvatarDisplaySize, number> = {
-  16: 6, 20: 6, 24: 6, 28: 10, 32: 10, 36: 10, 40: 12,
-  48: 16, 56: 16, 64: 20, 72: 20, 80: 20, 96: 28, 120: 28,
+const statusBadgeClasses: Record<AvatarDisplaySize, string> = {
+  16: "size-1.5", 20: "size-1.5", 24: "size-1.5", 28: "size-2.5", 32: "size-2.5", 36: "size-2.5", 40: "size-3",
+  48: "size-4", 56: "size-4", 64: "size-5", 72: "size-5", 80: "size-5", 96: "size-7", 120: "size-7",
 }
-const serviceBadgePixels: Record<AvatarDisplaySize, number | null> = {
-  16: null, 20: null, 24: null, 28: null, 32: null, 36: 16, 40: 16,
-  48: 16, 56: 20, 64: 20, 72: 20, 80: 28, 96: 28, 120: 28,
+const serviceBadgeClasses: Record<AvatarDisplaySize, string | null> = {
+  16: null, 20: null, 24: null, 28: null, 32: null, 36: "size-4", 40: "size-4",
+  48: "size-4", 56: "size-5", 64: "size-5", 72: "size-5", 80: "size-7", 96: "size-7", 120: "size-7",
+}
+const serviceIconClasses: Record<AvatarDisplaySize, string> = {
+  16: "size-2.5", 20: "size-2.5", 24: "size-2.5", 28: "size-2.5", 32: "size-2.5", 36: "size-2.5", 40: "size-2.5",
+  48: "size-2.5", 56: "size-3", 64: "size-3", 72: "size-3", 80: "size-4", 96: "size-4", 120: "size-4",
 }
 const squaredRadiusClasses: Record<AvatarDisplaySize, { root: string; child: string }> = {
   16: { root: "rounded-[4px] after:rounded-[4px]", child: "rounded-[4px]" }, 20: { root: "rounded-[4px] after:rounded-[4px]", child: "rounded-[4px]" },
@@ -125,7 +129,7 @@ function SingleAvatar({
 }: Omit<AvatarExampleProps, "composition" | "groupQuantity">) {
   const squared = roundness === "semiSquared"
   const radius = squared ? squaredRadiusClasses[size] : { root: "rounded-full after:rounded-full", child: "rounded-full" }
-  const serviceSize = serviceBadgePixels[size]
+  const serviceSizeClass = serviceBadgeClasses[size]
 
   return (
     <Avatar className={cn(sizeClasses[size], radius.root, borderStyles[border])}>
@@ -140,13 +144,13 @@ function SingleAvatar({
         </AvatarFallback>
       )}
       {status !== "none" ? (
-        <AvatarBadge aria-label={`Estado: ${status}`} className={statusStyles[status]} style={{ width: statusBadgePixels[size], height: statusBadgePixels[size] }} />
+        <AvatarBadge aria-label={`Estado: ${status}`} className={cn(statusStyles[status], statusBadgeClasses[size])} />
       ) : null}
-      {services && serviceSize ? (
+      {services && serviceSizeClass ? (
         <span className="absolute bottom-0 left-1/2 z-10 flex -translate-x-1/2 -space-x-2.5" aria-label="Servicios asociados">
-          <AvatarBadge className="bg-accent text-accent-foreground" style={{ position: "static", width: serviceSize, height: serviceSize }}><Crown aria-hidden style={{ width: serviceSize >= 28 ? 16 : serviceSize >= 20 ? 12 : 10, height: serviceSize >= 28 ? 16 : serviceSize >= 20 ? 12 : 10 }} /></AvatarBadge>
-          <AvatarBadge className="bg-accent text-accent-foreground" style={{ position: "static", width: serviceSize, height: serviceSize }}><Crown aria-hidden style={{ width: serviceSize >= 28 ? 16 : serviceSize >= 20 ? 12 : 10, height: serviceSize >= 28 ? 16 : serviceSize >= 20 ? 12 : 10 }} /></AvatarBadge>
-          <AvatarBadge className="bg-secondary text-secondary-foreground" style={{ position: "static", width: serviceSize, height: serviceSize }}><span className="text-[9px] font-semibold leading-none">+6</span></AvatarBadge>
+          <AvatarBadge className={cn("static bg-accent text-accent-foreground", serviceSizeClass)}><Crown aria-hidden className={serviceIconClasses[size]} /></AvatarBadge>
+          <AvatarBadge className={cn("static bg-accent text-accent-foreground", serviceSizeClass)}><Crown aria-hidden className={serviceIconClasses[size]} /></AvatarBadge>
+          <AvatarBadge className={cn("static bg-secondary text-secondary-foreground", serviceSizeClass)}><span className="text-[9px] leading-none font-semibold">+6</span></AvatarBadge>
         </span>
       ) : null}
     </Avatar>
@@ -161,7 +165,7 @@ export function AvatarExample({
       <AvatarGroup className="-space-x-1.5">
         {Array.from({ length: Math.min(groupQuantity, 3) }, (_, index) => (
           <Avatar key={index} size="sm">
-            <AvatarFallback className="!text-[9px] font-semibold leading-none">{["FJ", "AM", "LC"][index]}</AvatarFallback>
+            <AvatarFallback className="text-[9px] font-semibold leading-none">{["FJ", "AM", "LC"][index]}</AvatarFallback>
           </Avatar>
         ))}
         {groupQuantity === 4 ? <AvatarGroupCount className="size-6 bg-secondary text-[9px] font-semibold leading-none text-secondary-foreground">+6</AvatarGroupCount> : null}

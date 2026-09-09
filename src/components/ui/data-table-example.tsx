@@ -186,7 +186,7 @@ function DataTableToolbar({ table, mode }: { table: DataTableInstance<Patient>; 
         <InputGroupAddon><SearchIcon /></InputGroupAddon>
         <InputGroupInput
           aria-label="Buscar pacientes"
-          className="h-full!"
+          className="h-full"
           placeholder="Buscar paciente"
           value={(table.getColumn("name")?.getFilterValue() as string) ?? ""}
           onChange={event => table.getColumn("name")?.setFilterValue(event.target.value)}
@@ -196,7 +196,7 @@ function DataTableToolbar({ table, mode }: { table: DataTableInstance<Patient>; 
       {mode === "full" ? <>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <Button variant="outline" size="sm" className="h-9! shrink-0 font-sans text-sm leading-5">Estado <ChevronDownIcon /></Button>
+            <Button variant="outline" size="lg" className="shrink-0 font-sans text-sm leading-5">Estado <ChevronDownIcon /></Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end">
             <DropdownMenuItem onSelect={() => table.getColumn("status")?.setFilterValue(undefined)}>Todos</DropdownMenuItem>
@@ -207,7 +207,7 @@ function DataTableToolbar({ table, mode }: { table: DataTableInstance<Patient>; 
         </DropdownMenu>
         <DataTableViewOptions table={table} />
         <Select value={String(table.state.pagination.pageSize)} onValueChange={value => table.setPageSize(Number(value))}>
-          <SelectTrigger aria-label="Filas por página" className="h-9! w-[180px] shrink-0 font-sans text-sm leading-5"><SelectValue /></SelectTrigger>
+          <SelectTrigger aria-label="Filas por página" size="lg" className="w-[180px] shrink-0 font-sans text-sm leading-5"><SelectValue /></SelectTrigger>
           <SelectContent>
             <SelectItem value="4">4 filas por página</SelectItem>
             <SelectItem value="5">5 filas por página</SelectItem>

@@ -127,17 +127,15 @@ function AlertDialogMedia({
 
 function AlertDialogTitle({
   className,
-  style,
   ...props
 }: React.ComponentProps<typeof AlertDialogPrimitive.Title>) {
   return (
     <AlertDialogPrimitive.Title
       data-slot="alert-dialog-title"
       className={cn(
-        "w-full text-base leading-6 font-medium group-data-[size=basic]/alert-dialog-content:group-has-data-[slot=alert-dialog-media]/alert-dialog-content:col-start-2",
+        "m-0 w-full border-0 p-0 font-sans text-base leading-6 font-medium tracking-normal group-data-[size=basic]/alert-dialog-content:group-has-data-[slot=alert-dialog-media]/alert-dialog-content:col-start-2",
         className
       )}
-      style={{ margin: 0, border: 0, padding: 0, fontFamily: "var(--brand-font-sans)", fontSize: 16, fontWeight: "var(--font-weight-medium)", letterSpacing: 0, lineHeight: "24px", ...style }}
       {...props}
     />
   )
@@ -145,17 +143,15 @@ function AlertDialogTitle({
 
 function AlertDialogDescription({
   className,
-  style,
   ...props
 }: React.ComponentProps<typeof AlertDialogPrimitive.Description>) {
   return (
     <AlertDialogPrimitive.Description
       data-slot="alert-dialog-description"
       className={cn(
-        "w-full text-sm leading-5 text-muted-foreground group-data-[size=basic]/alert-dialog-content:group-has-data-[slot=alert-dialog-media]/alert-dialog-content:col-start-2 *:[a]:underline *:[a]:underline-offset-3 *:[a]:hover:text-foreground",
+        "m-0 w-full p-0 font-sans text-sm leading-5 font-normal tracking-normal text-muted-foreground group-data-[size=basic]/alert-dialog-content:group-has-data-[slot=alert-dialog-media]/alert-dialog-content:col-start-2 *:[a]:underline *:[a]:underline-offset-3 *:[a]:hover:text-foreground",
         className
       )}
-      style={{ margin: 0, padding: 0, fontFamily: "var(--brand-font-sans)", fontSize: 14, fontWeight: 400, letterSpacing: 0, lineHeight: "20px", ...style }}
       {...props}
     />
   )

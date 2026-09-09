@@ -18,10 +18,10 @@ function CheckboxOption({ id, appearance, text, textSide, state, checked, index 
   const disabled = state === "disabled"
   const invalid = state === "error"
   const control = <Checkbox id={id} defaultChecked={checked && index === 0} disabled={disabled} aria-invalid={invalid || undefined} />
-  const content = appearance === "contained" || text === "description" ? <FieldContent className="min-w-0"><FieldTitle className="whitespace-nowrap text-sm leading-5">Opción {index + 1}</FieldTitle>{text === "description" && <FieldDescription className="!m-0 whitespace-nowrap text-sm leading-5">Descripción de la opción.</FieldDescription>}</FieldContent> : <FieldLabel htmlFor={id} className="whitespace-nowrap leading-5">Opción {index + 1}</FieldLabel>
-  const field = <Field orientation="horizontal" data-invalid={invalid || undefined} data-disabled={disabled || undefined} className={appearance === "contained" ? "!w-full items-start" : "!w-[200px] gap-3"}>{textSide === "left" ? <>{content}{control}</> : <>{control}{content}</>}</Field>
+  const content = appearance === "contained" || text === "description" ? <FieldContent className="min-w-0"><FieldTitle className="whitespace-nowrap text-sm leading-5">Opción {index + 1}</FieldTitle>{text === "description" && <FieldDescription className="m-0 whitespace-nowrap text-sm leading-5">Descripción de la opción.</FieldDescription>}</FieldContent> : <FieldLabel htmlFor={id} className="whitespace-nowrap leading-5">Opción {index + 1}</FieldLabel>
+  const field = <Field orientation="horizontal" data-invalid={invalid || undefined} data-disabled={disabled || undefined} className={appearance === "contained" ? "w-full items-start" : "w-[200px] gap-3"}>{textSide === "left" ? <>{content}{control}</> : <>{control}{content}</>}</Field>
 
-  return appearance === "contained" ? <FieldLabel className="!w-[230px]" data-disabled={disabled || undefined}>{field}</FieldLabel> : field
+  return appearance === "contained" ? <FieldLabel className="w-[230px]" data-disabled={disabled || undefined}>{field}</FieldLabel> : field
 }
 
 export function CheckboxExample({ appearance = "default", text = "label", textSide = "right", state = "default", checked = false, amount = 1 }: CheckboxExampleProps) {

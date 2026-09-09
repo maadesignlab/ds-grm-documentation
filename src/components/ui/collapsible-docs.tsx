@@ -1,7 +1,7 @@
 "use client"
 
 import { CollapsibleExample, collapsibleExamplePresets, type CollapsibleExampleProps } from "./collapsible-example"
-import { SelectableCard as Card, SelectableTable as Table } from "./selectable-docs-shared"
+import { DocsSection, SelectableCard as Card, SelectableTable as Table } from "./selectable-docs-shared"
 
 type Preset = keyof typeof collapsibleExamplePresets
 function Example({ preset }: { preset: Preset }) { return <CollapsibleExample {...collapsibleExamplePresets[preset] as CollapsibleExampleProps} /> }
@@ -38,5 +38,5 @@ const behavior = [
 ] as const
 
 export function CollapsibleSpecifications() {
-  return <div className="not-prose grid gap-6"><section><h3 style={{margin:"0 0 12px",fontSize:16,fontWeight:600,lineHeight:"24px"}}>API y anatomía</h3><Table columns={["Parte","Primitive","API","Función"]} rows={anatomy} /></section><section><h3 style={{margin:"0 0 12px",fontSize:16,fontWeight:600,lineHeight:"24px"}}>Tamaño y espaciado</h3><Table columns={["Propiedad","Tailwind","Valor","Origen"]} rows={geometry} /></section><section><h3 style={{margin:"0 0 12px",fontSize:16,fontWeight:600,lineHeight:"24px"}}>Tipografía</h3><Table columns={["Parte","Tailwind","Valor","Origen"]} rows={typography} /></section><section><h3 style={{margin:"0 0 12px",fontSize:16,fontWeight:600,lineHeight:"24px"}}>Comportamiento y accesibilidad</h3><Table columns={["Capacidad","API","Valor","Origen"]} rows={behavior} /></section></div>
+  return <div className="not-prose grid gap-6"><DocsSection title="API y anatomía"><Table columns={["Parte","Primitive","API","Función"]} rows={anatomy} /></DocsSection><DocsSection title="Tamaño y espaciado"><Table columns={["Propiedad","Tailwind","Valor","Origen"]} rows={geometry} /></DocsSection><DocsSection title="Tipografía"><Table columns={["Parte","Tailwind","Valor","Origen"]} rows={typography} /></DocsSection><DocsSection title="Comportamiento y accesibilidad"><Table columns={["Capacidad","API","Valor","Origen"]} rows={behavior} /></DocsSection></div>
 }

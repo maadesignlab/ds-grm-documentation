@@ -3,6 +3,35 @@
  * Figma variable paths are preserved in comments and mapped to CSS-safe names.
  */
 :root {
+  /* Documentation/component preview primitives. */
+  --docs-sidebar-preview-height: 56.375rem;
+  --docs-calendar-font-size: 0.875rem;
+  --docs-calendar-line-height: 1.25rem;
+  --docs-calendar-weekday-font-size: 0.8rem;
+  --docs-calendar-weekday-line-height: 1.14285625rem;
+  --docs-calendar-week-gap: 0.5rem;
+  --docs-compact-font-size: 0.75rem;
+  --docs-compact-line-height: 1rem;
+  --docs-code-font-size: 0.625rem;
+  --docs-caption-line-height: 1.125rem;
+  --docs-description-font-size: 0.8125rem;
+  --docs-table-header-font-size: 0.6875rem;
+  --docs-table-header-padding-block: 0.6875rem;
+  --docs-table-line-height: 1.4;
+  --docs-table-letter-spacing: 0.04em;
+  --overlay-panel-viewport-width: 75vw;
+  --overlay-panel-width-default: 24rem;
+  --overlay-panel-width-wide: 30rem;
+  --accordion-width: 25.25rem;
+  --spinner-duration: 0.8s;
+  /* Toast / Figma 1:45 */
+  --toast-width: 22.25rem;
+  --toast-compact-height: 3.375rem;
+  --toast-preview-height: 4.75rem;
+  --toast-title-font-size: 0.8125rem;
+  --toast-title-line-height: 1.21875rem;
+  --toast-description-line-height: 1.125rem;
+  --toast-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 10%);
   /* Foundations / color */
   --background: #f8f7f9;
   --background-hover: #f5f3ef;

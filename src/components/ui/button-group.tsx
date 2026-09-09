@@ -10,9 +10,9 @@ const buttonGroupVariants = cva(
     variants: {
       orientation: {
         horizontal:
-          "[&>*:first-child]:rounded-l-[6px]! [&>*:not(:first-child)]:rounded-l-none [&>*:not(:first-child)]:border-l-0 [&>*:not(:last-child)]:rounded-r-none [&>*:last-child]:rounded-r-[6px]! [&>[data-slot]:not(:has(~[data-slot]))]:rounded-r-[6px]!",
+          "[&>*:first-child]:rounded-l-[6px] [&>*:not(:first-child)]:rounded-l-none [&>*:not(:first-child)]:border-l-0 [&>*:not(:last-child)]:rounded-r-none [&>*:last-child]:rounded-r-[6px] [&>[data-slot]:not(:has(~[data-slot]))]:rounded-r-[6px]",
         vertical:
-          "flex-col [&>*:first-child]:rounded-t-[6px]! [&>*:not(:first-child)]:rounded-t-none [&>*:not(:first-child)]:border-t-0 [&>*:not(:last-child)]:rounded-b-none [&>*:last-child]:rounded-b-[6px]! [&>[data-slot]:not(:has(~[data-slot]))]:rounded-b-[6px]!",
+          "flex-col [&>*:first-child]:rounded-t-[6px] [&>*:not(:first-child)]:rounded-t-none [&>*:not(:first-child)]:border-t-0 [&>*:not(:last-child)]:rounded-b-none [&>*:last-child]:rounded-b-[6px] [&>[data-slot]:not(:has(~[data-slot]))]:rounded-b-[6px]",
       },
     },
     defaultVariants: {
@@ -40,7 +40,6 @@ function ButtonGroup({
 function ButtonGroupText({
   className,
   asChild = false,
-  style,
   ...props
 }: React.ComponentProps<"div"> & {
   asChild?: boolean
@@ -51,15 +50,9 @@ function ButtonGroupText({
     <Comp
       data-slot="button-group-text"
       className={cn(
-        "flex items-center gap-2 rounded-lg border bg-muted px-2.5 font-sans text-sm font-medium [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4",
+        "flex items-center gap-2 rounded-lg border bg-muted px-2.5 font-sans text-sm leading-5 font-medium [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4",
         className
       )}
-      style={{
-        fontFamily: "var(--brand-font-sans)",
-        fontSize: 14,
-        lineHeight: "20px",
-        ...style,
-      }}
       {...props}
     />
   )

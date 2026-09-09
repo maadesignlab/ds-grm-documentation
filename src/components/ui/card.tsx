@@ -14,7 +14,14 @@ function Card({
   variant?: "body" | "image"
   spacing?: 12 | 16 | 20 | 24 | 32
 }) {
-  const resolvedSpacing = spacing ?? (size === "sm" ? 12 : 16)
+const resolvedSpacing = spacing ?? (size === "sm" ? 12 : 16)
+  const spacingClass = {
+    12: "[--card-spacing:0.75rem]",
+    16: "[--card-spacing:1rem]",
+    20: "[--card-spacing:1.25rem]",
+    24: "[--card-spacing:1.5rem]",
+    32: "[--card-spacing:2rem]",
+  }[resolvedSpacing]
 
   return (
     <div
@@ -24,9 +31,10 @@ function Card({
       data-spacing={resolvedSpacing}
       className={cn(
         "group/card flex w-[calc(100vw-32px)] flex-col gap-(--card-spacing) overflow-hidden rounded-[14px] bg-card pt-(--card-spacing) font-sans text-sm text-card-foreground outline -outline-offset-1 outline-border has-data-[slot=card-footer]:pb-0 data-[size=default]:max-w-96 data-[size=sm]:max-w-80 data-[variant=image]:pt-0 *:[img:first-child]:rounded-t-[14px] *:[img:last-child]:rounded-b-[14px]",
+        spacingClass,
         className
       )}
-      style={{ "--card-spacing": `${resolvedSpacing}px`, ...style } as React.CSSProperties}
+      style={style}
       {...props}
     />
   )
@@ -45,26 +53,24 @@ function CardHeader({ className, ...props }: React.ComponentProps<"div">) {
   )
 }
 
-function CardTitle({ className, style, ...props }: React.ComponentProps<"div">) {
+function CardTitle({ className, ...props }: React.ComponentProps<"div">) {
   return (
     <div
       data-slot="card-title"
       className={cn(
-        "text-base leading-6 font-medium text-foreground",
+        "m-0 p-0 font-sans text-base leading-6 font-medium text-foreground",
         className
       )}
-      style={{ margin: 0, padding: 0, fontFamily: "var(--brand-font-sans)", fontSize: 16, fontWeight: "var(--font-weight-medium)", lineHeight: "24px", ...style }}
       {...props}
     />
   )
 }
 
-function CardDescription({ className, style, ...props }: React.ComponentProps<"div">) {
+function CardDescription({ className, ...props }: React.ComponentProps<"div">) {
   return (
     <div
       data-slot="card-description"
-      className={cn("text-sm leading-5 text-muted-foreground", className)}
-      style={{ margin: 0, padding: 0, fontFamily: "var(--brand-font-sans)", fontSize: 14, fontWeight: 400, lineHeight: "20px", ...style }}
+      className={cn("m-0 p-0 font-sans text-sm leading-5 font-normal text-muted-foreground", className)}
       {...props}
     />
   )

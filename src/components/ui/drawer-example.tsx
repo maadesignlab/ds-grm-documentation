@@ -32,15 +32,15 @@ function DrawerPanel({ swipeDirection = "right", sideWidth = 480, buttonAmount =
         : "[--drawer-inset:0px]",
     horizontal
       ? sideWidth === 480
-        ? "data-[swipe-axis=x]:[--drawer-content-width:min(75vw,480px)]!"
-        : "data-[swipe-axis=x]:[--drawer-content-width:min(75vw,384px)]!"
-      : "data-[swipe-axis=y]:[--drawer-height:min(680px,calc(100dvh-32px))]!",
+        ? "[--drawer-requested-width:var(--overlay-panel-width-wide)]"
+        : "[--drawer-requested-width:var(--overlay-panel-width-default)]"
+      : "data-[swipe-axis=y]:[--drawer-height:min(680px,calc(100dvh-32px))]",
     hasSnapPoints
       ? inset === 16
-        ? "data-snap-points:[--drawer-content-height:calc(100dvh-32px)]!"
+        ? "data-snap-points:[--drawer-content-height:calc(100dvh-32px)]"
         : inset === 8
-          ? "data-snap-points:[--drawer-content-height:calc(100dvh-16px)]!"
-          : "data-snap-points:[--drawer-content-height:100dvh]!"
+          ? "data-snap-points:[--drawer-content-height:calc(100dvh-16px)]"
+          : "data-snap-points:[--drawer-content-height:100dvh]"
       : "",
   ].join(" ")
 

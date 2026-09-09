@@ -34,7 +34,15 @@ const meta = {
 export default meta
 type Story = StoryObj<typeof meta>
 export const Playground: Story = {
-  play: async ({ canvasElement }) => {
+  play: async ({ canvasElement, args }) => {
+    if (
+      args.state !== "expanded" ||
+      args.side !== "left" ||
+      args.variant !== "sidebar" ||
+      args.collapsible !== "icon" ||
+      args.expandedGroups
+    ) return
+
     const canvas = within(canvasElement)
     const menu = canvasElement.querySelector<HTMLElement>('[data-slot="sidebar-menu"]')
     const trigger = canvas.getByRole("button", { name: "Toggle Sidebar" })

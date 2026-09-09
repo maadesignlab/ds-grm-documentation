@@ -1,6 +1,7 @@
-import { Plus } from "lucide-react"
+import { cn } from "@/lib/utils"
 
-import { Button } from "./button"
+import { ButtonIconExample, ButtonTextExample } from "./button-example"
+import { DocsCode, DocsSpecificationTable } from "./selectable-docs-shared"
 
 const variants = [
   { value: "default", label: "Primary", surface: "--primary", text: "--primary-foreground", border: "—" },
@@ -41,22 +42,7 @@ const iconSpecifications = [
 ] as const
 
 function TokenValue({ children }: { children: string }) {
-  return (
-    <code
-      className="rounded bg-muted text-foreground"
-      style={{
-        display: "inline-flex",
-        minHeight: 24,
-        maxWidth: "100%",
-        alignItems: "center",
-        padding: "4px 6px",
-        fontSize: 10,
-        lineHeight: 1,
-      }}
-    >
-      {children}
-    </code>
-  )
+  return <DocsCode>{children}</DocsCode>
 }
 
 function PropertyRow({
@@ -69,40 +55,11 @@ function PropertyRow({
   divided?: boolean
 }) {
   return (
-    <div
-      style={{
-        display: "grid",
-        gridTemplateColumns: "72px minmax(0, 1fr)",
-        alignItems: "center",
-        minHeight: 44,
-        gap: 12,
-        padding: "8px 0",
-        borderTop: divided ? "1px solid var(--border)" : undefined,
-      }}
-    >
-      <dt
-        className="text-muted-foreground"
-        style={{
-          display: "flex",
-          height: "100%",
-          alignItems: "center",
-          margin: 0,
-          fontStyle: "normal",
-        }}
-      >
+    <div className={cn("grid min-h-11 grid-cols-[72px_minmax(0,1fr)] items-center gap-3 py-2", divided && "border-t border-border")}>
+      <dt className="m-0 flex h-full items-center not-italic text-muted-foreground">
         {label}
       </dt>
-      <dd
-        style={{
-          display: "flex",
-          minWidth: 0,
-          height: "100%",
-          alignItems: "center",
-          justifyContent: "flex-end",
-          margin: 0,
-          textAlign: "right",
-        }}
-      >
+      <dd className="m-0 flex h-full min-w-0 items-center justify-end text-right">
         <TokenValue>{value}</TokenValue>
       </dd>
     </div>
@@ -114,43 +71,19 @@ export function ButtonVariantOverview() {
     <div className="not-prose grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
       {variants.map((variant) => (
         <article key={variant.value} className="overflow-hidden rounded-lg border border-border bg-card">
-          <div className="flex min-h-24 items-center justify-center bg-background p-5">
-            <Button variant={variant.value}>Button</Button>
+          <div className="sb-unstyled flex min-h-24 items-center justify-center bg-background p-5">
+            <ButtonTextExample variant={variant.value}>Button</ButtonTextExample>
           </div>
           <div className="border-t border-border p-4">
-            <div
-              style={{
-                display: "grid",
-                gridTemplateColumns: "minmax(0, 1fr) auto",
-                alignItems: "center",
-                minHeight: 44,
-                gap: 12,
-                padding: "8px 0",
-                borderBottom: "1px solid var(--border)",
-              }}
-            >
-              <strong
-                className="text-sm text-card-foreground"
-                style={{
-                  display: "flex",
-                  height: "100%",
-                  alignItems: "center",
-                  whiteSpace: "nowrap",
-                }}
-              >
+            <div className="grid min-h-11 grid-cols-[minmax(0,1fr)_auto] items-center gap-3 border-b border-border py-2">
+              <strong className="flex h-full items-center whitespace-nowrap text-sm text-card-foreground">
                 {variant.label}
               </strong>
-              <div style={{ display: "flex", minWidth: 0, alignItems: "center", justifyContent: "flex-end" }}>
+              <div className="flex min-w-0 items-center justify-end">
                 <TokenValue>{variant.value}</TokenValue>
               </div>
             </div>
-            <dl
-              className="text-xs"
-              style={{
-                margin: 0,
-                borderBottom: "1px solid var(--border)",
-              }}
-            >
+            <dl className="m-0 border-b border-border text-xs">
               <PropertyRow label="Fondo" value={variant.surface} />
               <PropertyRow label="Texto" value={variant.text} divided />
               <PropertyRow label="Borde" value={variant.border} divided />
@@ -166,43 +99,23 @@ export function ButtonSizeOverview() {
   return (
     <div className="not-prose grid grid-cols-1 gap-6 lg:grid-cols-2">
       <section className="overflow-hidden rounded-lg border border-border bg-card">
-        <header
-          className="border-b border-border"
-          style={{ display: "flex", flexDirection: "column", gap: 4, padding: "16px 20px" }}
-        >
-          <h3
-            className="text-base font-semibold text-card-foreground"
-            style={{ margin: 0, fontSize: 16, lineHeight: "24px" }}
-          >
+        <header className="flex flex-col gap-1 border-b border-border px-5 py-4">
+          <h3 className="m-0 text-base leading-6 font-semibold text-card-foreground">
             Button
           </h3>
-          <p
-            className="text-sm text-muted-foreground"
-            style={{ margin: 0, fontSize: 13, lineHeight: "20px" }}
-          >
+          <p className="m-0 text-(length:--docs-description-font-size) leading-5 text-muted-foreground">
             Contenido horizontal con texto.
           </p>
         </header>
         <div>
           {textSizes.map((size) => (
-            <div
-              key={size.value}
-              style={{
-                display: "grid",
-                gridTemplateColumns: "minmax(116px, 0.8fr) minmax(150px, 1.2fr)",
-                alignItems: "center",
-                gap: 16,
-                minHeight: 72,
-                padding: "10px 20px",
-                borderBottom: size.value === "xs" ? 0 : "1px solid var(--border)",
-              }}
-            >
-              <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
-                <div className="text-xs font-medium text-foreground" style={{ lineHeight: "18px" }}>{size.label}</div>
-                <div className="text-[11px] text-muted-foreground" style={{ lineHeight: "16px" }}>{size.height} · px {size.padding}</div>
+            <div key={size.value} className={cn("grid min-h-18 grid-cols-[minmax(116px,0.8fr)_minmax(150px,1.2fr)] items-center gap-4 px-5 py-2.5", size.value !== "xs" && "border-b border-border")}>
+              <div className="flex flex-col gap-1">
+                <div className="text-xs leading-(--docs-caption-line-height) font-medium text-foreground">{size.label}</div>
+                <div className="text-(length:--docs-table-header-font-size) leading-4 text-muted-foreground">{size.height} · px {size.padding}</div>
               </div>
-              <div className="flex min-h-12 items-center justify-center rounded-md bg-background px-4">
-                <Button size={size.value}>Button</Button>
+              <div className="sb-unstyled flex min-h-12 items-center justify-center rounded-md bg-background px-4">
+                <ButtonTextExample size={size.value}>Button</ButtonTextExample>
               </div>
             </div>
           ))}
@@ -210,44 +123,24 @@ export function ButtonSizeOverview() {
       </section>
 
       <section className="overflow-hidden rounded-lg border border-border bg-card">
-        <header
-          className="border-b border-border"
-          style={{ display: "flex", flexDirection: "column", gap: 4, padding: "16px 20px" }}
-        >
-          <h3
-            className="text-base font-semibold text-card-foreground"
-            style={{ margin: 0, fontSize: 16, lineHeight: "24px" }}
-          >
+        <header className="flex flex-col gap-1 border-b border-border px-5 py-4">
+          <h3 className="m-0 text-base leading-6 font-semibold text-card-foreground">
             Icon Button
           </h3>
-          <p
-            className="text-sm text-muted-foreground"
-            style={{ margin: 0, fontSize: 13, lineHeight: "20px" }}
-          >
+          <p className="m-0 text-(length:--docs-description-font-size) leading-5 text-muted-foreground">
             Contenedor cuadrado con icono fijo de 16px.
           </p>
         </header>
         <div>
           {iconSizes.map((size) => (
-            <div
-              key={size.value}
-              style={{
-                display: "grid",
-                gridTemplateColumns: "minmax(116px, 0.8fr) minmax(150px, 1.2fr)",
-                alignItems: "center",
-                gap: 16,
-                minHeight: 72,
-                padding: "10px 20px",
-                borderBottom: size.value === "icon-xs" ? 0 : "1px solid var(--border)",
-              }}
-            >
-              <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
-                <div className="text-xs font-medium text-foreground" style={{ lineHeight: "18px" }}>{size.label}</div>
-                <div className="text-[11px] text-muted-foreground" style={{ lineHeight: "16px" }}>{size.dimension} · p {size.padding}</div>
+            <div key={size.value} className={cn("grid min-h-18 grid-cols-[minmax(116px,0.8fr)_minmax(150px,1.2fr)] items-center gap-4 px-5 py-2.5", size.value !== "icon-xs" && "border-b border-border")}>
+              <div className="flex flex-col gap-1">
+                <div className="text-xs leading-(--docs-caption-line-height) font-medium text-foreground">{size.label}</div>
+                <div className="text-(length:--docs-table-header-font-size) leading-4 text-muted-foreground">{size.dimension} · p {size.padding}</div>
               </div>
-              <div className="flex min-h-12 items-center justify-center gap-3 rounded-md bg-background px-4">
-                <Button size={size.value} aria-label={size.label}><Plus /></Button>
-                <Button size={size.value} className="rounded-full" aria-label={`${size.label} circular`}><Plus /></Button>
+              <div className="sb-unstyled flex min-h-12 items-center justify-center gap-3 rounded-md bg-background px-4">
+                <ButtonIconExample size={size.value} aria-label={size.label} />
+                <ButtonIconExample size={size.value} roundness="full" aria-label={`${size.label} circular`} />
               </div>
             </div>
           ))}
@@ -257,119 +150,22 @@ export function ButtonSizeOverview() {
   )
 }
 
-function SpecificationTable({
-  title,
-  description,
-  columns,
-  rows,
-}: {
-  title: string
-  description: string
-  columns: readonly string[]
-  rows: ReadonlyArray<readonly string[]>
-}) {
-  return (
-    <section className="not-prose overflow-hidden rounded-lg border border-border bg-card">
-      <header
-        className="border-b border-border"
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          gap: 4,
-          padding: "16px 20px",
-        }}
-      >
-        <h3
-          className="text-base font-semibold text-card-foreground"
-          style={{ margin: 0, fontSize: 16, lineHeight: "24px" }}
-        >
-          {title}
-        </h3>
-        <p
-          className="text-sm text-muted-foreground"
-          style={{ margin: 0, fontSize: 13, lineHeight: "20px" }}
-        >
-          {description}
-        </p>
-      </header>
-      <div style={{ overflowX: "auto" }}>
-        <table
-          style={{
-            width: "100%",
-            minWidth: 680,
-            borderCollapse: "collapse",
-            tableLayout: "fixed",
-          }}
-        >
-          <thead>
-            <tr style={{ background: "var(--muted)" }}>
-              {columns.map((column) => (
-                <th
-                  key={column}
-                  style={{
-                    padding: "11px 16px",
-                    border: 0,
-                    borderBottom: "1px solid var(--border)",
-                    color: "var(--muted-foreground)",
-                    fontSize: 11,
-                    fontStyle: "normal",
-                    fontWeight: 600,
-                    letterSpacing: "0.04em",
-                    lineHeight: 1.4,
-                    textAlign: "left",
-                    textTransform: "uppercase",
-                    verticalAlign: "middle",
-                  }}
-                >
-                  {column}
-                </th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {rows.map((row, rowIndex) => (
-              <tr key={row[0]} style={{ background: rowIndex % 2 ? "color-mix(in srgb, var(--muted) 30%, transparent)" : "transparent" }}>
-                {row.map((value, columnIndex) => (
-                  <td
-                    key={`${row[0]}-${columns[columnIndex]}`}
-                    style={{
-                      height: 52,
-                      padding: "10px 16px",
-                      border: 0,
-                      borderBottom: rowIndex === rows.length - 1 ? 0 : "1px solid var(--border)",
-                      color: "var(--foreground)",
-                      fontSize: 12,
-                      lineHeight: 1.4,
-                      textAlign: "left",
-                      verticalAlign: "middle",
-                    }}
-                  >
-                    {columnIndex === 0 ? <TokenValue>{value}</TokenValue> : value}
-                  </td>
-                ))}
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-    </section>
-  )
-}
-
 export function ButtonSpecifications() {
   return (
-    <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
-      <SpecificationTable
+    <div className="flex flex-col gap-6">
+      <DocsSpecificationTable
         title="Button"
         description="Escala para botones con texto, icono o spinner opcional."
         columns={["Tamaño", "Altura", "Padding X", "Gap", "Tipografía"]}
         rows={textSpecifications}
+        minWidthClassName="min-w-[680px]"
       />
-      <SpecificationTable
+      <DocsSpecificationTable
         title="Icon Button"
         description="Escala cuadrada con icono interno constante."
         columns={["Tamaño", "Dimensiones", "Padding", "Icono", "Formas"]}
         rows={iconSpecifications}
+        minWidthClassName="min-w-[680px]"
       />
       <div className="not-prose rounded-lg border border-border bg-muted/40 px-4 py-3 text-sm text-foreground">
         <strong>Propiedades separadas:</strong> Button utiliza <code>children</code> y <code>contentPlacement</code>. Icon Button utiliza <code>roundness</code> y no expone controles de texto o posición.

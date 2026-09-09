@@ -23,8 +23,8 @@ export function RadioGroupExample({ appearance = "default", text = "label", text
     const value = `option-${index + 1}`
     const id = `${uid}-${value}`
     const control = <RadioGroupItem id={id} value={value} aria-invalid={invalid || undefined} />
-    const content = appearance === "contained" || text === "description" ? <FieldContent className="min-w-0"><FieldTitle className="whitespace-nowrap text-sm leading-5">Opción {index + 1}</FieldTitle>{text === "description" && <FieldDescription className="!m-0 whitespace-nowrap text-sm leading-5">Descripción de la opción.</FieldDescription>}</FieldContent> : <FieldLabel htmlFor={id} className="whitespace-nowrap leading-5">Opción {index + 1}</FieldLabel>
-    const field = <Field orientation="horizontal" data-invalid={invalid || undefined} data-disabled={disabled || undefined} className={appearance === "contained" ? "!w-full items-start" : "!w-[200px] gap-3"}>{textSide === "left" ? <>{content}{control}</> : <>{control}{content}</>}</Field>
-    return appearance === "contained" ? <FieldLabel key={value} className="!w-[230px]" data-disabled={disabled || undefined}>{field}</FieldLabel> : <React.Fragment key={value}>{field}</React.Fragment>
+    const content = appearance === "contained" || text === "description" ? <FieldContent className="min-w-0"><FieldTitle className="whitespace-nowrap text-sm leading-5">Opción {index + 1}</FieldTitle>{text === "description" && <FieldDescription className="m-0 whitespace-nowrap text-sm leading-5">Descripción de la opción.</FieldDescription>}</FieldContent> : <FieldLabel htmlFor={id} className="whitespace-nowrap leading-5">Opción {index + 1}</FieldLabel>
+    const field = <Field orientation="horizontal" data-invalid={invalid || undefined} data-disabled={disabled || undefined} className={appearance === "contained" ? "w-full items-start" : "w-[200px] gap-3"}>{textSide === "left" ? <>{content}{control}</> : <>{control}{content}</>}</Field>
+    return appearance === "contained" ? <FieldLabel key={value} className="w-[230px]" data-disabled={disabled || undefined}>{field}</FieldLabel> : <React.Fragment key={value}>{field}</React.Fragment>
   })}</RadioGroup></div>
 }

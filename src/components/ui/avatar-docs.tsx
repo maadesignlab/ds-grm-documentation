@@ -1,7 +1,7 @@
 "use client"
 
 import { AvatarExample, avatarExamplePresets, type AvatarExampleProps } from "./avatar-example"
-import { SelectableCard as Card, SelectableTable as Table } from "./selectable-docs-shared"
+import { DocsSection, SelectableCard as Card, SelectableTable as Table } from "./selectable-docs-shared"
 
 type Preset = keyof typeof avatarExamplePresets
 function Example({ preset }: { preset: Preset }) { return <AvatarExample {...avatarExamplePresets[preset] as AvatarExampleProps} /> }
@@ -41,8 +41,8 @@ const geometry = [
   ["Semi squared 24–36", "rounded-[6px]", "6px", "Figma"], ["Semi squared 40–56", "rounded-[8px]", "8px", "Figma"],
   ["Semi squared 64–120", "rounded-[12px]", "12px", "Figma"],
   ["Grupo", "size-6 / -space-x-1.5", "24px / -6px", "Figma + AvatarGroup"], ["Borde de estado", "after:border-2", "2px", "Figma / composición"],
-  ["Status badge", "style width / height", "6, 10, 12, 16, 20 o 28px", "Figma / AvatarBadge"],
-  ["Badge de servicio", "style width / height", "16, 20 o 28px desde Avatar 36", "Figma / AvatarBadge"],
+  ["Status badge", "size-* según Avatar", "6, 10, 12, 16, 20 o 28px", "Figma / AvatarBadge"],
+  ["Badge de servicio", "size-4 / size-5 / size-7", "16, 20 o 28px desde Avatar 36", "Figma / AvatarBadge"],
 ] as const
 const colors = [
   ["Primary", "bg-primary/10", "--primary", "Figma / marca"], ["Secondary", "bg-secondary", "--secondary", "Figma / marca"],
@@ -51,5 +51,5 @@ const colors = [
 ] as const
 
 export function AvatarSpecifications() {
-  return <div className="not-prose grid gap-6"><section><h3 style={{margin:"0 0 12px",fontSize:16,fontWeight:600,lineHeight:"24px"}}>API y anatomía</h3><Table columns={["Parte","Primitive","API","Función"]} rows={anatomy} /></section><section><h3 style={{margin:"0 0 12px",fontSize:16,fontWeight:600,lineHeight:"24px"}}>Escala</h3><Table columns={["Tamaño","Tailwind","Valor","Origen"]} rows={sizes} /></section><section><h3 style={{margin:"0 0 12px",fontSize:16,fontWeight:600,lineHeight:"24px"}}>Forma y espaciado</h3><Table columns={["Propiedad","Tailwind","Valor","Origen"]} rows={geometry} /></section><section><h3 style={{margin:"0 0 12px",fontSize:16,fontWeight:600,lineHeight:"24px"}}>Color</h3><Table columns={["Variante","Tailwind","Variable","Origen"]} rows={colors} /></section></div>
+  return <div className="not-prose grid gap-6"><DocsSection title="API y anatomía"><Table columns={["Parte","Primitive","API","Función"]} rows={anatomy} /></DocsSection><DocsSection title="Escala"><Table columns={["Tamaño","Tailwind","Valor","Origen"]} rows={sizes} /></DocsSection><DocsSection title="Forma y espaciado"><Table columns={["Propiedad","Tailwind","Valor","Origen"]} rows={geometry} /></DocsSection><DocsSection title="Color"><Table columns={["Variante","Tailwind","Variable","Origen"]} rows={colors} /></DocsSection></div>
 }

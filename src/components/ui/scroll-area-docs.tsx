@@ -39,5 +39,5 @@ const behavior = [
 ] as const
 
 export function ScrollAreaSpecifications() {
-  return <div className="not-prose grid gap-6"><section><h3 style={{ margin: "0 0 12px", fontSize: 16, fontWeight: 600, lineHeight: "24px" }}>API y anatomía</h3><Table columns={["Parte", "Primitive", "API", "Función"]} rows={anatomy} /></section><section><h3 style={{ margin: "0 0 12px", fontSize: 16, fontWeight: 600, lineHeight: "24px" }}>Tamaño y espaciado</h3><Table columns={["Propiedad", "Tailwind", "Valor", "Origen"]} rows={geometry} /></section><section><h3 style={{ margin: "0 0 12px", fontSize: 16, fontWeight: 600, lineHeight: "24px" }}>Comportamiento y tokens</h3><Table columns={["Capacidad", "API", "Valor", "Origen"]} rows={behavior} /></section></div>
+  return <div className="not-prose grid gap-6"><section><h3 className="mb-3 text-base leading-6 font-semibold text-foreground">API y anatomía</h3><Table columns={["Parte", "Primitive", "API", "Función"]} rows={anatomy} /></section><section><h3 className="mb-3 text-base leading-6 font-semibold text-foreground">Tamaño y espaciado</h3><Table columns={["Propiedad", "Tailwind", "Valor", "Origen"]} rows={geometry} /></section><section><h3 className="mb-3 text-base leading-6 font-semibold text-foreground">Comportamiento y tokens</h3><Table columns={["Capacidad", "API", "Valor", "Origen"]} rows={behavior} /></section></div>
 }

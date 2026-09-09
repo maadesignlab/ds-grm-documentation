@@ -1,13 +1,14 @@
 "use client"
 
 import { TableExample, tableExampleDefaults } from "./table-example"
+import { DocsTable } from "./selectable-docs-shared"
 
 function Code({ children }: { children: string }) {
-  return <code className="inline-flex min-h-6 items-center rounded bg-muted px-1.5 py-1 text-foreground" style={{ fontSize: 10, lineHeight: 1 }}>{children}</code>
+  return <code className="inline-flex min-h-6 items-center rounded bg-muted px-1.5 py-1 text-foreground text-(length:--docs-code-font-size) leading-none">{children}</code>
 }
 
 function Card({ title, value, children }: { title: string; value: string; children: React.ReactNode }) {
-  return <article className="overflow-hidden rounded-lg border border-border bg-card"><div className="sb-unstyled flex min-h-52 items-center justify-center overflow-auto bg-background p-5">{children}</div><div className="flex min-h-14 items-center justify-between gap-3 border-t border-border px-4"><strong className="truncate text-card-foreground" style={{ fontSize: 14, lineHeight: "20px" }}>{title}</strong><Code>{value}</Code></div></article>
+  return <article className="overflow-hidden rounded-lg border border-border bg-card"><div className="sb-unstyled flex min-h-52 items-center justify-center overflow-auto bg-background p-5">{children}</div><div className="flex min-h-14 items-center justify-between gap-3 border-t border-border px-4"><strong className="truncate text-card-foreground text-sm leading-5">{title}</strong><Code>{value}</Code></div></article>
 }
 
 export function TableBorderOverview() {
@@ -62,9 +63,9 @@ const rows = [
 
 function SpecsTable() {
   const columns = ["Parte", "Ancho", "Alto", "Padding", "Token", "Detalle"]
-  return <div className="not-prose overflow-x-auto rounded-lg border border-border bg-card"><table style={{ width: "100%", minWidth: 720, borderCollapse: "collapse", tableLayout: "fixed" }}><thead><tr style={{ background: "color-mix(in srgb, var(--muted) 40%, transparent)" }}>{columns.map(column => <th key={column} style={{ height: 36, padding: "0 10px", border: 0, borderBottom: "1px solid var(--border)", color: "var(--muted-foreground)", fontSize: 12, fontWeight: 600, letterSpacing: 0, lineHeight: "16px", textAlign: "left", textTransform: "uppercase", verticalAlign: "middle" }}>{column}</th>)}</tr></thead><tbody>{rows.map((row, index) => <tr key={row[0]} style={{ background: index % 2 ? "color-mix(in srgb, var(--muted) 30%, transparent)" : "transparent" }}>{row.map((value, cellIndex) => <td key={`${row[0]}-${cellIndex}`} style={{ height: 52, padding: "10px 16px", border: 0, borderBottom: index === rows.length - 1 ? 0 : "1px solid var(--border)", color: "var(--foreground)", fontSize: 12, lineHeight: 1.4, verticalAlign: "middle" }}>{cellIndex === 0 ? <Code>{value}</Code> : value}</td>)}</tr>)}</tbody></table></div>
+  return <DocsTable columns={columns} rows={rows} codeWhen={(_value, _row, column) => column === 0} />
 }
 
 export function TableSpecifications() {
-  return <div className="not-prose grid gap-6 text-foreground"><section><h3 style={{ margin: "0 0 12px", fontSize: 16, fontWeight: 600, lineHeight: "24px" }}>Geometría y tokens</h3><SpecsTable /></section></div>
+  return <div className="not-prose grid gap-6 text-foreground"><section><h3 className="mb-3 text-base leading-6 font-semibold text-foreground">Geometría y tokens</h3><SpecsTable /></section></div>
 }

@@ -15,9 +15,9 @@ export function SheetExample({ side = "right", sideWidth = 480, showCloseButton 
   const lateral = side === "left" || side === "right"
   const contentClassName = lateral
     ? sideWidth === 480
-      ? "w-[min(75vw,480px)]! sm:max-w-[480px]!"
-      : "w-[min(75vw,384px)]! sm:max-w-96!"
-    : "h-[min(512px,100dvh)]!"
+      ? "[--sheet-requested-width:var(--overlay-panel-width-wide)]"
+      : "[--sheet-requested-width:var(--overlay-panel-width-default)]"
+    : "h-[min(512px,100dvh)]"
 
   return (
     <Sheet>

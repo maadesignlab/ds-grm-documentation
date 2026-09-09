@@ -91,10 +91,10 @@ function NavigationButton({ item, activeItem, expandedGroups }: { item: Navigati
   }
 
   return (
-    <Collapsible asChild open={open} onOpenChange={setOpen} className={`group/collapsible ${state === "collapsed" && open ? "pb-1!" : ""}`}>
+    <Collapsible asChild open={open} onOpenChange={setOpen} className={`group/collapsible ${state === "collapsed" && open ? "pb-1" : ""}`}>
       <SidebarMenuItem>
         <CollapsibleTrigger asChild>
-          <SidebarMenuButton tooltip={item.label} isActive={activeItem === item.label} className="group-data-[collapsible=icon]:justify-start group-data-[collapsible=icon]:px-3! group-data-[collapsible=icon]:group-data-[state=open]/collapsible:rounded-b-none group-data-[collapsible=icon]:group-data-[state=open]/collapsible:bg-sidebar-accent">
+          <SidebarMenuButton tooltip={item.label} isActive={activeItem === item.label} className="group-data-[collapsible=icon]:justify-start group-data-[collapsible=icon]:px-3 group-data-[collapsible=icon]:group-data-[state=open]/collapsible:rounded-b-none group-data-[collapsible=icon]:group-data-[state=open]/collapsible:bg-sidebar-accent">
             <Icon /><span>{item.label}</span>
             <ChevronDown className="ml-auto size-3.5 transition-transform group-data-[state=open]/collapsible:rotate-180" />
           </SidebarMenuButton>
@@ -193,17 +193,10 @@ export function SidebarExample({
   if (!contained) return sidebar
 
   return (
-    <div data-sidebar-contained className="relative h-[902px] w-full overflow-visible">
-      <style>{`
-        [data-sidebar-contained] [data-slot="sidebar-wrapper"] { min-height: 902px !important; }
-        [data-sidebar-contained] [data-slot="sidebar-gap"] { display: none !important; }
-        [data-sidebar-contained] [data-slot="sidebar-container"] {
-          position: relative !important;
-          inset: auto !important;
-          display: flex !important;
-          height: 902px !important;
-        }
-      `}</style>
+    <div
+      data-sidebar-contained
+      className="sb-unstyled relative h-(--docs-sidebar-preview-height) w-full overflow-visible [&_[data-slot=sidebar-wrapper]]:min-h-(--docs-sidebar-preview-height) [&_[data-slot=sidebar-gap]]:hidden [&_[data-slot=sidebar-container]]:relative [&_[data-slot=sidebar-container]]:inset-auto [&_[data-slot=sidebar-container]]:flex [&_[data-slot=sidebar-container]]:h-(--docs-sidebar-preview-height)"
+    >
       {sidebar}
     </div>
   )

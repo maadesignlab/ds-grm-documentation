@@ -31,7 +31,6 @@ function Toggle({
   className,
   variant = "default",
   size = "default",
-  style,
   ...props
 }: React.ComponentProps<typeof TogglePrimitive.Root> &
   VariantProps<typeof toggleVariants>) {
@@ -41,7 +40,6 @@ function Toggle({
       data-variant={variant}
       data-size={size}
       className={cn(toggleVariants({ variant, size, className }))}
-      style={{ fontFamily: "var(--brand-font-sans)", ...style }}
       {...props}
     />
   )

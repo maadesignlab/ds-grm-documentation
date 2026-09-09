@@ -1,24 +1,9 @@
-import type { ComponentProps, ReactNode } from "react"
 import type { Meta, StoryObj } from "@storybook/nextjs-vite"
-import { ArrowDown, Loader2 } from "lucide-react"
-
-import { Badge } from "./badge"
-
-type Content = "none" | "icon" | "spinner"
-type BadgeStoryArgs = ComponentProps<typeof Badge> & {
-  leftContent: Content
-  rightContent: Content
-}
-
-const content = {
-  none: null,
-  icon: <ArrowDown aria-hidden />,
-  spinner: <Loader2 className="animate-spin" aria-hidden />,
-} satisfies Record<Content, ReactNode>
+import { BadgeExample, type BadgeExampleProps } from "./badge-example"
 
 const meta = {
   title: "Components/Badge",
-  component: Badge,
+  component: BadgeExample,
   args: {
     children: "Badge",
     variant: "primary",
@@ -73,17 +58,8 @@ const meta = {
     asChild: { table: { disable: true } },
     className: { table: { disable: true } },
   },
-  render: ({ leftContent, rightContent, children, ...args }) => (
-    <Badge
-      {...args}
-      appearance={args.variant === "transparent" ? "outline" : args.appearance}
-    >
-      {content[leftContent]}
-      {children}
-      {content[rightContent]}
-    </Badge>
-  ),
-} satisfies Meta<BadgeStoryArgs>
+  render: args => <BadgeExample {...args} />,
+} satisfies Meta<BadgeExampleProps>
 
 export default meta
 type Story = StoryObj<typeof meta>

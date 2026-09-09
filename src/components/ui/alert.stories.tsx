@@ -1,21 +1,9 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite"
-import { FilePenLine } from "lucide-react"
-
-import { Alert, AlertAction, AlertDescription, AlertTitle } from "./alert"
-import { Button } from "./button"
-
-type AlertStoryArgs = {
-  variant: "default" | "destructive"
-  title: string
-  description: string
-  showIcon: boolean
-  showAction: boolean
-  actionLabel: string
-}
+import { AlertExample, type AlertExampleProps } from "./alert-example"
 
 const meta = {
   title: "Components/Alert",
-  component: Alert,
+  component: AlertExample,
   args: {
     variant: "default",
     title: "Nueva cita asignada",
@@ -36,15 +24,8 @@ const meta = {
     layout: "centered",
     design: { type: "figma", url: "https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1178-530" },
   },
-  render: ({ variant, title, description, showIcon, showAction, actionLabel }) => (
-    <Alert variant={variant}>
-      {showIcon && <FilePenLine aria-hidden />}
-      <AlertTitle>{title}</AlertTitle>
-      <AlertDescription>{description}</AlertDescription>
-      {showAction && <AlertAction><Button size="xs">{actionLabel}</Button></AlertAction>}
-    </Alert>
-  ),
-} satisfies Meta<AlertStoryArgs>
+  render: args => <AlertExample {...args} />,
+} satisfies Meta<AlertExampleProps>
 
 export default meta
 type Story = StoryObj<typeof meta>

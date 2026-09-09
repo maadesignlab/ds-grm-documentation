@@ -30,11 +30,14 @@ Después de instalar, adapta el componente a los tokens semánticos de Figma. Co
 
 ## Versionado
 
-El paquete usa SemVer y Changesets. Todo cambio visible debe incluir:
+El proyecto privado usa SemVer y Changesets. Todo cambio visible debe incluir:
 
 ```bash
 npm run changeset
 ```
 
-El resumen comienza con el componente afectado. `npm run version-packages` actualiza la versión y el changelog antes de publicar.
-# ds-grm-documentation
+El resumen comienza con el componente afectado. `npm run version-packages` actualiza la versión y el changelog.
+
+## Despliegue
+
+Vercel ejecuta `npm run build-storybook` y publica `storybook-static`. El comando `npm run release` ejecuta el gate completo de calidad y genera el mismo artefacto localmente; no publica el paquete en npm.

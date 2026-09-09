@@ -2,6 +2,8 @@ import { useEffect, useMemo, useState } from 'react';
 import { addons } from 'storybook/preview-api';
 import { GLOBALS_UPDATED } from 'storybook/internal/core-events';
 
+import { cn } from '@/lib/utils';
+
 type BrandValue = 'grm-global' | 'reina-madre' | 'maria-linda' | 'piel-sana';
 type CssTokenMap = Record<string, string>;
 type GlobalsUpdatedPayload = { globals?: { brandTheme?: unknown } };
@@ -120,25 +122,25 @@ export function BrandTokensTable() {
   const tokenNames = useMemo(() => sortTokens(Object.keys(tokens)), [tokens]);
 
   return (
-    <div style={{ display: 'grid', gap: 24 }}>
-      <section style={{ padding: 16, border: '1px solid var(--border)', borderRadius: 14, background: 'var(--card)', color: 'var(--foreground)' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 16 }}>
-          <span aria-hidden="true" style={{ width: 36, height: 36, display: 'grid', placeItems: 'center', borderRadius: 11, background: 'var(--secondary)', color: 'var(--primary)', fontSize: 20 }}>◉</span>
+    <div className="grid gap-6">
+      <section className="rounded-[14px] border border-border bg-card p-4 text-foreground">
+        <div className="mb-4 flex items-center gap-3">
+          <span aria-hidden="true" className="grid size-9 place-items-center rounded-[11px] bg-secondary text-xl text-primary">◉</span>
           <div>
-            <h2 style={{ margin: 0, fontSize: 16 }}>Tokens de color</h2>
-            <p style={{ margin: '3px 0 0', color: 'var(--muted-foreground)', fontSize: 13 }}>
+            <h2 className="m-0 text-base">Tokens de color</h2>
+            <p className="mt-[3px] mb-0 text-(length:--docs-description-font-size) text-muted-foreground">
               Modo activo del selector de la franja: <strong>{BRAND_LABELS[activeBrand]}</strong>. Ningún hex vive fuera del bloque <code>:root</code>.
             </p>
           </div>
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(128px, 1fr))', gap: 8 }}>
+        <div className="grid grid-cols-[repeat(auto-fit,minmax(128px,1fr))] gap-2">
           {MAIN_COLORS.map(({ token, label }) => (
-            <article key={token} style={{ minWidth: 0, overflow: 'hidden', border: '1px solid var(--border)', borderRadius: 10, background: 'var(--card)' }}>
-              <div style={{ height: 38, background: `var(${token})` }} />
-              <div style={{ minHeight: 38, padding: '7px 9px' }}>
-                <strong style={{ display: 'block', fontSize: 11, lineHeight: 1.2 }}>{label}</strong>
-                <code style={{ color: 'var(--muted-foreground)', fontSize: 10 }}>{token}</code>
+            <article key={token} className="min-w-0 overflow-hidden rounded-[10px] border border-border bg-card">
+              <div className="h-[38px]" style={{ background: `var(${token})` }} />
+              <div className="min-h-[38px] px-[9px] py-[7px]">
+                <strong className="block text-(length:--docs-table-header-font-size) leading-[1.2]">{label}</strong>
+                <code className="text-(length:--docs-code-font-size) text-muted-foreground">{token}</code>
               </div>
             </article>
           ))}
@@ -146,17 +148,17 @@ export function BrandTokensTable() {
       </section>
 
       <section>
-        <h2 style={{ marginBottom: 4 }}>Lista global de tokens</h2>
-        <p style={{ marginTop: 0, color: 'var(--muted-foreground)' }}>
+        <h2 className="mb-1">Lista global de tokens</h2>
+        <p className="mt-0 text-muted-foreground">
           Los nombres son compartidos por todas las marcas; los valores corresponden a {BRAND_LABELS[activeBrand]}.
         </p>
-        <div style={{ overflow: 'hidden', border: '1px solid var(--border)', borderRadius: 12, background: 'var(--card)' }}>
+        <div className="overflow-hidden rounded-xl border border-border bg-card">
           {tokenNames.map((token, index) => (
-            <div key={token} style={{ display: 'grid', gridTemplateColumns: 'minmax(190px, 1fr) minmax(180px, 1fr)', gap: 16, alignItems: 'center', padding: '10px 12px', borderBottom: index < tokenNames.length - 1 ? '1px solid var(--border)' : undefined, background: index % 2 ? 'var(--background)' : 'var(--card)', fontSize: 13 }}>
-              <code style={{ overflowWrap: 'anywhere' }}>{token}</code>
-              <div style={{ display: 'grid', gridTemplateColumns: '28px minmax(0, 1fr)', gap: 10, alignItems: 'center' }}>
-                <span aria-hidden="true" style={{ width: 28, height: 28, border: '1px solid var(--border)', borderRadius: 6, background: `var(${token})` }} />
-                <code style={{ overflowWrap: 'anywhere' }}>{tokens[token]}</code>
+            <div key={token} className={cn("grid grid-cols-[minmax(190px,1fr)_minmax(180px,1fr)] items-center gap-4 px-3 py-2.5 text-(length:--docs-description-font-size) even:bg-background", index < tokenNames.length - 1 && "border-b border-border")}>
+              <code className="[overflow-wrap:anywhere]">{token}</code>
+              <div className="grid grid-cols-[28px_minmax(0,1fr)] items-center gap-2.5">
+                <span aria-hidden="true" className="size-7 rounded-md border border-border" style={{ background: `var(${token})` }} />
+                <code className="[overflow-wrap:anywhere]">{tokens[token]}</code>
               </div>
             </div>
           ))}

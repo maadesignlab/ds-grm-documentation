@@ -79,84 +79,118 @@
  * active brand font while preserving monospace for code blocks. */
 .sbdocs-wrapper,
 .sbdocs-content {
-  font-family: var(--brand-font-sans) !important;
+  @apply font-sans;
 }
 
-.sbdocs-wrapper :where(h1, h2, h3, h4, h5, h6, p, ul, ol, li, blockquote, details, summary, button, table, thead, tbody, tr, th, td, dt, dd, strong, em, small, label, div, span) {
-  font-family: var(--brand-font-sans) !important;
+.sbdocs-wrapper.sbdocs-wrapper :where(h1, h2, h3, h4, h5, h6, p, ul, ol, li, blockquote, details, summary, button, table, thead, tbody, tr, th, td, dt, dd, strong, em, small, label, div, span) {
+  @apply font-sans;
 }
 
-.sbdocs-wrapper :where(.sbdocs-title, .sbdocs-subtitle, li) {
-  color: var(--foreground) !important;
+.sbdocs-wrapper.sbdocs-wrapper :where(.sbdocs-title, .sbdocs-subtitle, li) {
+  @apply text-foreground;
+}
+
+/* Canonical vertical rhythm between top-level component documentation sections. */
+.sbdocs-wrapper.sbdocs-wrapper .sbdocs-content > h2 {
+  @apply mt-16 mb-6;
 }
 
 /* Keep the product Calendar isolated from Storybook's prose table rules. */
-.calendar-docs-preview [data-slot="calendar"] table {
-  margin: 0 !important;
-  border: 0 !important;
-  font-size: 14px !important;
-  line-height: 20px !important;
+.calendar-docs-preview.calendar-docs-preview [data-slot="calendar"] table {
+  @apply m-0 border-0;
+  font-size: var(--docs-calendar-font-size);
+  line-height: var(--docs-calendar-line-height);
 }
 
-.calendar-docs-preview [data-slot="calendar"] th {
-  border: 0 !important;
-  padding: 0 !important;
-  background: transparent !important;
-  color: var(--muted-foreground) !important;
-  font-size: 12.8px !important;
-  line-height: 18.2857px !important;
+.calendar-docs-preview.calendar-docs-preview [data-slot="calendar"] th {
+  @apply border-0 bg-transparent p-0 text-muted-foreground;
+  font-size: var(--docs-calendar-weekday-font-size);
+  line-height: var(--docs-calendar-weekday-line-height);
 }
 
-.calendar-docs-preview [data-slot="calendar"] td {
-  border: 0 !important;
-  padding: 0 !important;
-  background: transparent !important;
-  font-size: 14px !important;
-  line-height: 20px !important;
+.calendar-docs-preview.calendar-docs-preview [data-slot="calendar"] td {
+  @apply border-0 bg-transparent p-0;
+  font-size: var(--docs-calendar-font-size);
+  line-height: var(--docs-calendar-line-height);
 }
 
-.calendar-docs-preview [data-slot="calendar"] tr.rdp-week {
-  height: var(--cell-size) !important;
-  margin-top: 8px !important;
-  border: 0 !important;
-  background: transparent !important;
+.calendar-docs-preview.calendar-docs-preview [data-slot="calendar"] tr.rdp-week {
+  @apply h-(--cell-size) border-0 bg-transparent;
+  margin-top: var(--docs-calendar-week-gap);
 }
 
-.calendar-docs-preview [data-slot="calendar"] tr.rdp-weekdays {
-  border: 0 !important;
-  background: transparent !important;
+.calendar-docs-preview.calendar-docs-preview [data-slot="calendar"] tr.rdp-weekdays {
+  @apply border-0 bg-transparent;
 }
 
-.calendar-docs-preview [data-slot="calendar"] button[data-day] {
-  font-size: 14px !important;
-  line-height: 14px !important;
+.calendar-docs-preview.calendar-docs-preview [data-slot="calendar"] button[data-day] {
+  @apply text-sm leading-none;
 }
 
-.calendar-docs-preview [data-slot="calendar"] :is(.rdp-month_caption, .rdp-caption_label) {
-  font-size: 14px !important;
-  line-height: 20px !important;
+.calendar-docs-preview.calendar-docs-preview [data-slot="calendar"] :is(.rdp-month_caption, .rdp-caption_label) {
+  font-size: var(--docs-calendar-font-size);
+  line-height: var(--docs-calendar-line-height);
 }
 
 /* Storybook Docs applies prose typography directly to nested spans. */
-.calendar-docs-preview .calendar-availability-legend,
-.calendar-docs-preview .calendar-availability-legend span {
-  font-size: 12px !important;
-  line-height: 16px !important;
+.calendar-docs-preview.calendar-docs-preview .calendar-availability-legend,
+.calendar-docs-preview.calendar-docs-preview .calendar-availability-legend span {
+  font-size: var(--docs-compact-font-size);
+  line-height: var(--docs-compact-line-height);
 }
 
 /* Preserve selectable component typography inside Storybook prose. */
-.sbdocs-wrapper .selectable-example :is([data-slot="field-label"], [data-slot="field-title"], [data-slot="field-description"]) {
-  font-size: 14px !important;
-  line-height: 20px !important;
+.sbdocs-wrapper.sbdocs-wrapper .selectable-example :is([data-slot="field-label"], [data-slot="field-title"], [data-slot="field-description"]) {
+  @apply text-sm leading-5;
 }
 
 .sbdocs-wrapper :where(code, pre, samp, kbd:not([data-slot="kbd"])),
 .sbdocs-wrapper :where(code, pre, samp, kbd:not([data-slot="kbd"])) * {
-  font-family: var(--brand-font-mono) !important;
+  @apply font-mono;
 }
 
 /* Component samples keep their explicit numeric typography inside Docs. */
 .sbdocs-wrapper [data-slot="table-cell-content-text"][data-font="mono"],
 .sbdocs-wrapper [data-slot="table-cell-content-text"][data-font="mono"] * {
-  font-family: var(--brand-font-mono) !important;
+  @apply font-mono;
+}
+
+/* Keep internal documentation categories subordinate to the MDX section title. */
+.sbdocs-wrapper.sbdocs-wrapper .not-prose :where(h3):not(.sb-unstyled *) {
+  @apply m-0 text-sm leading-5 font-medium;
+}
+
+/* Storybook prose margins must not expand documentation container headers. */
+.sbdocs-wrapper.sbdocs-wrapper .not-prose :where(header):not(.sb-unstyled *) > :where(h3, p) {
+  @apply m-0;
+}
+
+/* Canonical specification tables used by component documentation. */
+.docs-spec-table {
+  @apply w-full table-fixed border-collapse;
+}
+
+.docs-spec-table thead tr {
+  @apply bg-muted;
+}
+
+.docs-spec-table th {
+  @apply border-0 border-b border-border px-4 text-left align-middle font-semibold text-muted-foreground uppercase;
+  padding-block: var(--docs-table-header-padding-block);
+  font-size: var(--docs-table-header-font-size);
+  line-height: var(--docs-table-line-height);
+  letter-spacing: var(--docs-table-letter-spacing);
+}
+
+.docs-spec-table tbody tr:nth-child(even) {
+  @apply bg-muted/30;
+}
+
+.docs-spec-table td {
+  @apply h-13 border-0 border-b border-border px-4 py-2.5 align-middle text-xs text-foreground;
+  line-height: var(--docs-table-line-height);
+}
+
+.docs-spec-table tbody tr:last-child td {
+  @apply border-b-0;
 }

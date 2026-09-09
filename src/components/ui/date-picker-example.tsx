@@ -57,14 +57,14 @@ const availabilityClasses = {
   full: "opacity-100 [&>button]:border [&>button]:border-border [&>button]:bg-muted [&>button]:text-muted-foreground",
 } as const
 const legend = [
-  ["Baja", "var(--success-light)", "var(--success-light-border)"],
-  ["Media", "var(--warning-light)", "var(--warning-light-border)"],
-  ["Alta", "var(--error-light)", "var(--error-light-border)"],
-  ["Llena", "var(--muted)", "var(--border)"],
+  ["Baja", "border-[var(--success-light-border)] bg-[var(--success-light)]"],
+  ["Media", "border-[var(--warning-light-border)] bg-[var(--warning-light)]"],
+  ["Alta", "border-[var(--error-light-border)] bg-[var(--error-light)]"],
+  ["Llena", "border-border bg-muted"],
 ] as const
 
 function AvailabilityLegend() {
-  return <div className="flex flex-nowrap items-center justify-center gap-1.5 px-2 py-2.5 text-xs leading-4 text-foreground">{legend.map(([label, background, border]) => <span key={label} className="flex items-center gap-1 whitespace-nowrap"><span className="size-3 rounded-full border" style={{ background, borderColor: border }} />{label}</span>)}</div>
+  return <div className="flex flex-nowrap items-center justify-center gap-1.5 px-2 py-2.5 text-xs leading-4 text-foreground">{legend.map(([label, className]) => <span key={label} className="flex items-center gap-1 whitespace-nowrap"><span className={`size-3 rounded-full border ${className}`} />{label}</span>)}</div>
 }
 
 function TriggerLabel({ type, date, range }: { type: DatePickerExampleProps["type"]; date?: Date; range?: DateRange }) {

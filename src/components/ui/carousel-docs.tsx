@@ -2,47 +2,29 @@
 
 import * as React from "react"
 
-import { type CarouselApi, Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "./carousel"
+import type { CarouselApi } from "./carousel"
+import { CarouselExample } from "./carousel-example"
 
 type Size = "full" | "large" | "medium" | "small"
 
-function Slide({ index }: { index: number }) {
-  return <div className="flex h-full items-center justify-center rounded-md border border-border bg-muted text-lg font-medium text-muted-foreground">{index}</div>
-}
-
 function Sample({ size = "full", orientation = "horizontal", loop = false, setApi, contentClassName, itemClassName, docsSpacing = "default" }: { size?: Size; orientation?: "horizontal" | "vertical"; loop?: boolean; setApi?: (api: CarouselApi) => void; contentClassName?: string; itemClassName?: string; docsSpacing?: "default" | "compact" }) {
-  return <div className="carousel-docs-sample font-sans text-foreground" data-docs-spacing={docsSpacing}>
-    <Carousel size={size} orientation={orientation} opts={{ align: "start", loop }} setApi={setApi}>
-    <CarouselContent className={contentClassName}>{Array.from({ length: 5 }, (_, index) => <CarouselItem className={itemClassName} key={index}><Slide index={index + 1} /></CarouselItem>)}</CarouselContent>
-    <CarouselPrevious /><CarouselNext />
-    </Carousel>
+  return <div className="sb-unstyled carousel-docs-sample font-sans text-foreground" data-docs-spacing={docsSpacing}>
+    <CarouselExample size={size} orientation={orientation} items={5} loop={loop} setApi={setApi} contentClassName={contentClassName} itemClassName={itemClassName} />
   </div>
 }
 
-function DocsLayoutReset() {
-  return <style>{`
-    .carousel-docs-sample,
-    .carousel-docs-sample :where(div, button, span, p) { font-family: var(--brand-font-sans) !important; }
-    .carousel-docs-sample [data-slot="carousel-content"] { margin-inline: 40px !important; }
-    .carousel-docs-sample [data-slot="carousel-content"] > div { margin-left: -16px !important; }
-    .carousel-docs-sample [data-orientation="vertical"] [data-slot="carousel-content"] { margin: 40px 0 !important; }
-    .carousel-docs-sample [data-orientation="vertical"] [data-slot="carousel-content"] > div { margin-top: -16px !important; margin-left: 0 !important; }
-    .carousel-docs-sample[data-docs-spacing="compact"] [data-slot="carousel-content"] > div { margin-left: -8px !important; }
-    .carousel-docs-sample[data-docs-spacing="compact"] [data-slot="carousel-item"] { padding-left: 8px !important; }
-  `}</style>
-}
-
-function Code({ children }: { children: string }) { return <code className="inline-flex min-h-6 max-w-full items-center rounded bg-muted px-1.5 py-1 text-foreground" style={{ fontSize: 10, lineHeight: 1 }}>{children}</code> }
+function Code({ children }: { children: string }) { return <code className="inline-flex min-h-6 max-w-full items-center rounded bg-muted px-1.5 py-1 text-foreground text-(length:--docs-code-font-size) leading-none">{children}</code> }
 
 function ShowcaseRow({ title, description, value, height = 268, children }: { title: string; description: string; value: string; height?: number; children: React.ReactNode }) {
-  return <section className="border-b border-border last:border-b-0"><header className="grid min-h-16 grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 py-3"><div className="min-w-0"><strong className="block text-foreground" style={{ fontSize: 14, lineHeight: "20px" }}>{title}</strong><span className="block text-muted-foreground" style={{ fontSize: 12, lineHeight: "18px" }}>{description}</span></div><Code>{value}</Code></header><div className="flex items-center justify-center overflow-auto border-t border-border bg-background p-5" style={{ minHeight: height }}>{children}</div></section>
+  const heightClassName = height === 380 ? "min-h-[380px]" : height === 310 ? "min-h-[310px]" : "min-h-[268px]"
+  return <section className="border-b border-border last:border-b-0"><header className="grid min-h-16 grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 py-3"><div className="min-w-0"><strong className="block text-foreground text-sm leading-5">{title}</strong><span className="block text-xs leading-(--docs-caption-line-height) text-muted-foreground">{description}</span></div><Code>{value}</Code></header><div className={`flex items-center justify-center overflow-auto border-t border-border bg-background p-5 ${heightClassName}`}>{children}</div></section>
 }
 
-function Showcase({ children }: { children: React.ReactNode }) { return <div className="not-prose overflow-hidden rounded-lg border border-border bg-card text-card-foreground"><DocsLayoutReset />{children}</div> }
+function Showcase({ children }: { children: React.ReactNode }) { return <div className="not-prose overflow-hidden rounded-lg border border-border bg-card font-sans text-card-foreground">{children}</div> }
 
 export function CarouselAnatomy() {
   const parts = [["Carousel", "Contexto, opciones de Embla y región accesible"], ["CarouselContent", "Viewport y track desplazable"], ["CarouselItem", "Grupo accesible con roledescription slide"], ["CarouselPrevious / Next", "Button outline conectado al estado real de Embla"]] as const
-  return <div className="not-prose grid gap-6"><Showcase><ShowcaseRow title="Composición base" description="La misma composición pública de shadcn/ui." value="Carousel"><Sample size="medium" /></ShowcaseRow></Showcase><div className="overflow-hidden rounded-lg border border-border bg-card text-card-foreground">{parts.map(([part, description]) => <div className="grid min-h-[52px] grid-cols-[180px_minmax(0,1fr)] items-center gap-4 border-b border-border px-4 last:border-b-0" key={part}><Code>{part}</Code><span className="text-muted-foreground" style={{ fontSize: 12, lineHeight: "18px" }}>{description}</span></div>)}</div></div>
+  return <div className="not-prose grid gap-6"><Showcase><ShowcaseRow title="Composición base" description="La misma composición pública de shadcn/ui." value="Carousel"><Sample size="medium" /></ShowcaseRow></Showcase><div className="overflow-hidden rounded-lg border border-border bg-card text-card-foreground">{parts.map(([part, description]) => <div className="grid min-h-[52px] grid-cols-[180px_minmax(0,1fr)] items-center gap-4 border-b border-border px-4 last:border-b-0" key={part}><Code>{part}</Code><span className="text-xs leading-(--docs-caption-line-height) text-muted-foreground">{description}</span></div>)}</div></div>
 }
 
 export function CarouselSizeOverview() { return <Showcase><ShowcaseRow title="Full" description="Un ítem visible." value='size="full"'><Sample /></ShowcaseRow><ShowcaseRow title="Large" description="Dos ítems visibles." value='size="large"'><Sample size="large" /></ShowcaseRow><ShowcaseRow title="Medium" description="Tres ítems visibles." value='size="medium"'><Sample size="medium" /></ShowcaseRow><ShowcaseRow title="Small" description="Cuatro ítems visibles." value='size="small"'><Sample size="small" /></ShowcaseRow></Showcase> }
@@ -63,7 +45,7 @@ const geometry = [["Carousel horizontal", "520 × 220px", "12px", "8px", "region
 const apiRows = [["orientation", "horizontal | vertical", "Prop oficial", "Define axis y teclado"], ["opts", "CarouselOptions", "Prop oficial", "Opciones nativas de Embla"], ["plugins", "CarouselPlugin", "Prop oficial", "Plugins como Autoplay"], ["setApi", "(api) => void", "Prop oficial", "API, posición y eventos"], ["dir + opts.direction", "ltr | rtl", "Patrón oficial", "Soporte RTL"], ["size", "full | large | medium | small", "Extensión GRM", "1, 2, 3 o 4 visibles"]] as const
 
 function Table({ columns, rows }: { columns: readonly string[]; rows: readonly (readonly string[])[] }) {
-  return <div data-docs-table="carousel" className="not-prose overflow-x-auto rounded-lg border border-border bg-card text-card-foreground"><table style={{ width: "100%", minWidth: 680, borderCollapse: "collapse", tableLayout: "fixed" }}><thead><tr style={{ background: "var(--muted)" }}>{columns.map(column => <th key={column} style={{ padding: "11px 16px", border: 0, borderBottom: "1px solid var(--border)", color: "var(--muted-foreground)", fontSize: 11, fontWeight: 600, letterSpacing: "0.04em", lineHeight: 1.4, textAlign: "left", textTransform: "uppercase", verticalAlign: "middle" }}>{column}</th>)}</tr></thead><tbody>{rows.map((row, rowIndex) => <tr key={row[0]} style={{ background: rowIndex % 2 ? "color-mix(in srgb, var(--muted) 30%, transparent)" : "transparent" }}>{row.map((value, columnIndex) => <td key={`${row[0]}-${columns[columnIndex]}`} style={{ height: 52, padding: "10px 16px", border: 0, borderBottom: rowIndex === rows.length - 1 ? 0 : "1px solid var(--border)", color: "var(--foreground)", fontSize: 12, lineHeight: 1.4, textAlign: "left", verticalAlign: "middle" }}>{columnIndex === 0 ? <Code>{value}</Code> : value}</td>)}</tr>)}</tbody></table></div>
+  return <div data-docs-table="carousel" className="not-prose overflow-x-auto rounded-lg border border-border bg-card text-card-foreground"><table className="docs-spec-table min-w-[680px]"><thead><tr>{columns.map(column => <th key={column}>{column}</th>)}</tr></thead><tbody>{rows.map((row) => <tr key={row[0]}>{row.map((value, columnIndex) => <td key={`${row[0]}-${columns[columnIndex]}`}>{columnIndex === 0 ? <Code>{value}</Code> : value}</td>)}</tr>)}</tbody></table></div>
 }
 
-export function CarouselSpecifications() { return <div className="not-prose grid gap-6 text-foreground"><section><h3 className="text-foreground" style={{ margin: "0 0 12px", fontSize: 16, fontWeight: 600, lineHeight: "24px" }}>Geometría</h3><Table columns={["Parte", "Dimensiones", "Padding", "Gap", "Base"]} rows={geometry} /></section><section><h3 className="text-foreground" style={{ margin: "0 0 12px", fontSize: 16, fontWeight: 600, lineHeight: "24px" }}>API y extensiones</h3><Table columns={["Propiedad", "Valor", "Origen", "Uso"]} rows={apiRows} /></section></div> }
+export function CarouselSpecifications() { return <div className="not-prose grid gap-6 text-foreground"><section><h3 className="text-foreground mb-3 text-base leading-6 font-semibold">Geometría</h3><Table columns={["Parte", "Dimensiones", "Padding", "Gap", "Base"]} rows={geometry} /></section><section><h3 className="text-foreground mb-3 text-base leading-6 font-semibold">API y extensiones</h3><Table columns={["Propiedad", "Valor", "Origen", "Uso"]} rows={apiRows} /></section></div> }

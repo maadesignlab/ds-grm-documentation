@@ -52,7 +52,7 @@ function Attachment({
 }
 
 const attachmentMediaVariants = cva(
-  "relative flex size-10 shrink-0 items-center justify-center overflow-hidden rounded-lg bg-muted text-foreground group-data-[size=sm]/attachment:size-8 group-data-[size=xs]/attachment:size-7 group-data-[size=xs]/attachment:rounded-md group-data-[orientation=vertical]/attachment:size-[102px]! group-data-[state=error]/attachment:bg-destructive/10 group-data-[state=error]/attachment:text-destructive [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 group-data-[size=xs]/attachment:[&_svg:not([class*='size-'])]:size-3.5 group-data-[orientation=vertical]/attachment:[&_svg:not([class*='size-'])]:size-6!",
+  "relative flex size-10 shrink-0 items-center justify-center overflow-hidden rounded-lg bg-muted text-foreground group-data-[size=sm]/attachment:size-8 group-data-[size=xs]/attachment:size-7 group-data-[size=xs]/attachment:rounded-md group-data-[orientation=vertical]/attachment:size-[102px] group-data-[state=error]/attachment:bg-destructive/10 group-data-[state=error]/attachment:text-destructive [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 group-data-[size=xs]/attachment:[&_svg:not([class*='size-'])]:size-3.5 group-data-[orientation=vertical]/attachment:[&_svg:not([class*='size-'])]:size-6",
   {
     variants: {
       variant: {
@@ -99,22 +99,15 @@ function AttachmentContent({
 
 function AttachmentTitle({
   className,
-  style,
   ...props
 }: React.ComponentProps<"span">) {
   return (
     <span
       data-slot="attachment-title"
       className={cn(
-        "block h-5 max-w-full min-w-0 truncate text-[14px]! font-medium leading-5 group-data-[size=sm]/attachment:h-4 group-data-[size=sm]/attachment:text-xs! group-data-[size=sm]/attachment:leading-4 group-data-[size=xs]/attachment:h-4 group-data-[size=xs]/attachment:text-xs! group-data-[size=xs]/attachment:leading-4",
+        "block h-5 max-w-full min-w-0 truncate font-sans text-sm leading-5 font-medium tracking-normal group-data-[size=sm]/attachment:h-4 group-data-[size=sm]/attachment:text-xs group-data-[size=sm]/attachment:leading-4 group-data-[size=xs]/attachment:h-4 group-data-[size=xs]/attachment:text-xs group-data-[size=xs]/attachment:leading-4",
         className
       )}
-      style={{
-        fontFamily: "var(--brand-font-sans)",
-        fontWeight: "var(--font-weight-medium)",
-        letterSpacing: 0,
-        ...style,
-      }}
       {...props}
     />
   )
@@ -122,23 +115,15 @@ function AttachmentTitle({
 
 function AttachmentDescription({
   className,
-  style,
   ...props
 }: React.ComponentProps<"span">) {
   return (
     <span
       data-slot="attachment-description"
       className={cn(
-        "block h-4 max-w-full min-w-0 truncate text-xs leading-4 text-muted-foreground group-data-[state=error]/attachment:text-destructive",
+        "block h-4 max-w-full min-w-0 truncate font-sans text-xs leading-4 font-normal tracking-normal text-muted-foreground group-data-[state=error]/attachment:text-destructive",
         className
       )}
-      style={{
-        fontFamily: "var(--brand-font-sans)",
-        fontSize: 12,
-        fontWeight: 400,
-        letterSpacing: 0,
-        ...style,
-      }}
       {...props}
     />
   )

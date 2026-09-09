@@ -35,39 +35,23 @@ function AccordionItem({
 function AccordionTrigger({
   className,
   children,
-  style,
   ...props
 }: React.ComponentProps<typeof AccordionPrimitive.Trigger>) {
   return (
     <AccordionPrimitive.Header
-      className="flex"
-      style={{
-        margin: 0,
-        fontFamily: "var(--brand-font-sans)",
-        fontSize: 14,
-        lineHeight: "20px",
-      }}
+      className="m-0 flex font-sans text-sm leading-5"
     >
       <AccordionPrimitive.Trigger
         data-slot="accordion-trigger"
         className={cn(
-          "group/accordion-trigger relative flex w-full min-w-0 flex-1 items-start gap-1.5 rounded-[10px] py-2.5 text-left font-sans text-[14px] font-medium leading-[20px] tracking-normal text-foreground transition-all outline-none hover:underline focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-foreground",
+          "group/accordion-trigger relative flex w-full min-w-0 flex-1 items-start gap-1.5 rounded-lg py-2.5 text-left font-sans text-sm leading-5 font-medium tracking-normal text-foreground transition-all outline-none hover:underline focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-foreground",
           className
         )}
-        style={{
-          fontFamily: "var(--brand-font-sans)",
-          fontSize: 14,
-          fontWeight: "var(--font-weight-medium)",
-          lineHeight: "20px",
-          letterSpacing: 0,
-          ...style,
-        }}
         {...props}
       >
         <span
           data-slot="accordion-trigger-text"
           className="min-w-0 flex-1"
-          style={{ font: "inherit", letterSpacing: "inherit" }}
         >
           {children}
         </span>
@@ -81,21 +65,12 @@ function AccordionTrigger({
 function AccordionContent({
   className,
   children,
-  style,
   ...props
 }: React.ComponentProps<typeof AccordionPrimitive.Content>) {
   return (
     <AccordionPrimitive.Content
       data-slot="accordion-content"
-      className="overflow-hidden font-sans text-[14px] leading-[20px] tracking-normal text-foreground data-open:animate-accordion-down data-closed:animate-accordion-up"
-      style={{
-        fontFamily: "var(--brand-font-sans)",
-        fontSize: 14,
-        fontWeight: 400,
-        lineHeight: "20px",
-        letterSpacing: 0,
-        ...style,
-      }}
+      className="overflow-hidden font-sans text-sm leading-5 font-normal tracking-normal text-foreground data-open:animate-accordion-down data-closed:animate-accordion-up"
       {...props}
     >
       <div
@@ -104,13 +79,6 @@ function AccordionContent({
           "h-(--radix-accordion-content-height) w-full min-w-0 pt-0 pb-2.5 [&_a]:underline [&_a]:underline-offset-3 [&_a]:hover:text-foreground [&_p:not(:last-child)]:mb-4",
           className
         )}
-        style={{
-          fontFamily: "var(--brand-font-sans)",
-          fontSize: 14,
-          fontWeight: 400,
-          lineHeight: "20px",
-          letterSpacing: 0,
-        }}
       >
         {children}
       </div>

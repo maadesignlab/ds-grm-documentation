@@ -34,15 +34,14 @@ function Alert({
   )
 }
 
-function AlertTitle({ className, style, ...props }: React.ComponentProps<"div">) {
+function AlertTitle({ className, ...props }: React.ComponentProps<"div">) {
   return (
     <div
       data-slot="alert-title"
       className={cn(
-        "min-w-0 font-medium leading-5 group-has-[>svg]/alert:col-start-2 [&_a]:underline [&_a]:underline-offset-3 [&_a]:hover:text-foreground",
+        "min-w-0 font-sans text-sm leading-5 font-medium tracking-normal group-has-[>svg]/alert:col-start-2 [&_a]:underline [&_a]:underline-offset-3 [&_a]:hover:text-foreground",
         className
       )}
-      style={{ fontFamily: "var(--brand-font-sans)", fontSize: 14, fontWeight: "var(--font-weight-medium)", letterSpacing: 0, lineHeight: "20px", ...style }}
       {...props}
     />
   )
@@ -50,17 +49,15 @@ function AlertTitle({ className, style, ...props }: React.ComponentProps<"div">)
 
 function AlertDescription({
   className,
-  style,
   ...props
 }: React.ComponentProps<"div">) {
   return (
     <div
       data-slot="alert-description"
       className={cn(
-        "min-w-0 text-[14px] leading-5 text-muted-foreground group-has-[>svg]/alert:col-start-2 [&_a]:underline [&_a]:underline-offset-3 [&_a]:hover:text-foreground",
+        "min-w-0 font-sans text-sm leading-5 font-normal tracking-normal text-muted-foreground group-has-[>svg]/alert:col-start-2 [&_a]:underline [&_a]:underline-offset-3 [&_a]:hover:text-foreground",
         className
       )}
-      style={{ fontFamily: "var(--brand-font-sans)", fontSize: 14, fontWeight: 400, letterSpacing: 0, lineHeight: "20px", ...style }}
       {...props}
     />
   )

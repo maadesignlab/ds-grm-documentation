@@ -1,29 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite"
-import { Trash2 } from "lucide-react"
-
-import {
-  AlertDialog,
-  AlertDialogAction,
-  AlertDialogCancel,
-  AlertDialogContent,
-  AlertDialogDescription,
-  AlertDialogFooter,
-  AlertDialogHeader,
-  AlertDialogMedia,
-  AlertDialogTitle,
-  AlertDialogTrigger,
-} from "./alert-dialog"
-import { Button } from "./button"
-
-type AlertDialogStoryArgs = {
-  size: "basic" | "sm"
-  status: "default" | "destructive"
-  showMedia: boolean
-  title: string
-  description: string
-  cancelLabel: string
-  actionLabel: string
-}
+import { AlertDialogExample, type AlertDialogExampleProps } from "./alert-dialog-example"
 
 const meta = {
   title: "Components/Alert Dialog",
@@ -49,23 +25,8 @@ const meta = {
     layout: "centered",
     design: { type: "figma", url: "https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1187-612" },
   },
-  render: ({ size, status, showMedia, title, description, cancelLabel, actionLabel }) => (
-    <AlertDialog defaultOpen>
-      <AlertDialogTrigger asChild><Button variant="outline">Abrir Alert Dialog</Button></AlertDialogTrigger>
-      <AlertDialogContent size={size} status={status}>
-        <AlertDialogHeader>
-          {showMedia && <AlertDialogMedia><Trash2 aria-hidden /></AlertDialogMedia>}
-          <AlertDialogTitle>{title}</AlertDialogTitle>
-          <AlertDialogDescription>{description}</AlertDialogDescription>
-        </AlertDialogHeader>
-        <AlertDialogFooter>
-          <AlertDialogCancel className={size === "basic" ? "w-[84px]" : undefined}>{cancelLabel}</AlertDialogCancel>
-          <AlertDialogAction variant={status === "destructive" ? "destructive" : "default"}>{actionLabel}</AlertDialogAction>
-        </AlertDialogFooter>
-      </AlertDialogContent>
-    </AlertDialog>
-  ),
-} satisfies Meta<AlertDialogStoryArgs>
+  render: args => <AlertDialogExample {...args} />,
+} satisfies Meta<AlertDialogExampleProps>
 
 export default meta
 type Story = StoryObj<typeof meta>

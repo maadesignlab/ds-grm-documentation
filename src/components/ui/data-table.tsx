@@ -224,7 +224,7 @@ function DataTableViewOptions<TData extends RowData>({ table }: { table: DataTab
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline" size="sm" className="h-9! shrink-0 font-sans text-sm leading-5">
+        <Button variant="outline" size="lg" className="shrink-0 font-sans text-sm leading-5">
           <SlidersHorizontalIcon /> Columnas <ChevronDownIcon />
         </Button>
       </DropdownMenuTrigger>

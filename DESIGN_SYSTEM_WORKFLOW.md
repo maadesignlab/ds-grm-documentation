@@ -247,6 +247,31 @@ ds-brand-theme
 
 ## 6. Implementación sobre shadcn/ui
 
+### Excepciones técnicas heredadas de shadcn/ui
+
+La regla general continúa siendo: no usar `!important`, colores literales ni estilos visuales inline. Solo se admiten las siguientes asignaciones dinámicas porque forman parte de la implementación oficial de shadcn/ui o conectan una propiedad pública con un valor calculado en tiempo de ejecución.
+
+| Componente | Asignación dinámica admitida | Motivo |
+| --- | --- | --- |
+| `Chart` | Variables `--color-bg` y `--color-border`, además de `backgroundColor` procedente del payload de Recharts | El color lo entrega la configuración o el payload de la serie; no puede conocerse durante la compilación de TailwindCSS. |
+| `Progress` | `transform: translateX(...)` en `ProgressPrimitive.Indicator` | Traduce la propiedad pública `value` a la posición continua del indicador, siguiendo la implementación oficial. |
+| `ToggleGroup` | Variable `--gap` en `ToggleGroupPrimitive.Root` | Convierte la propiedad pública numérica `spacing` en la utilidad TailwindCSS `gap-[--spacing(var(--gap))]`. |
+| `Sidebar` | Variables `--sidebar-width`, `--sidebar-width-icon`, `--sidebar-width` móvil y `--skeleton-width` | La implementación oficial comunica anchos configurables y el ancho calculado del Skeleton mediante custom properties consumidas por TailwindCSS. |
+
+También se conservan los selectores de Chart que identifican los valores SVG predeterminados `#ccc` y `#fff` emitidos por Recharts. Estos literales solo seleccionan nodos de terceros para sustituir su presentación por tokens (`--border`, `--muted` o transparente); no aplican esos colores al Design System.
+
+Condiciones obligatorias para estas excepciones:
+
+- El valor debe proceder de una prop, estado, configuración o payload en tiempo de ejecución.
+- La presentación final debe resolverse mediante una utilidad TailwindCSS o un token semántico cuando sea posible.
+- No se permite introducir un color de marca, medida editorial o corrección de Docs dentro de `style`.
+- Docs y Playground deben recibir la misma asignación desde la instancia compartida.
+- Cualquier nueva excepción requiere aprobación expresa y debe añadirse a esta tabla antes de integrarse.
+
+El simple reenvío de la prop nativa `style` recibida por un componente —por ejemplo `style={style}`— no es un hardcodeo interno: preserva la API del elemento subyacente. No autoriza a las stories o a Docs a enviar overrides visuales.
+
+`BrandTokensTable` utiliza `var(nombre-del-token)` para pintar swatches descubiertos en tiempo de ejecución. Es infraestructura de Foundations y no una excepción heredada de shadcn/ui; por tanto permanece fuera de esta lista y debe auditarse por separado.
+
 El componente Button vive en:
 
 - `src/components/ui/button.tsx`
@@ -497,23 +522,23 @@ Esta regla llegó a sobrescribir el tamaño LG de Badge en Docs:
 | Playground | 12 px / 16 px |
 | Docs | 16 px / 16 px |
 
-Las propiedades críticas que puedan ser sobrescritas por Storybook deben quedar protegidas en el componente. Para Badge se resuelven por `size` y se aplican directamente:
+Las propiedades críticas que puedan ser sobrescritas por Storybook deben quedar protegidas mediante utilidades TailwindCSS en el componente. Para Badge, cada `size` resuelve tipografía y geometría dentro de `badgeVariants`; no se permiten objetos `style` paralelos ni correcciones con `!important`.
 
 ```tsx
-const badgeTypography = {
-  xl: { fontSize: 14, lineHeight: "20px" },
-  lg: { fontSize: 12, lineHeight: "16px" },
-  md: { fontSize: 10, lineHeight: "15px" },
-  sm: { fontSize: 10, lineHeight: "15px" },
+size: {
+  xl: "... text-sm leading-5",
+  lg: "... text-xs leading-4",
+  md: "... text-[0.625rem] leading-[0.9375rem]",
+  sm: "... text-[0.625rem] leading-[0.9375rem]",
 }
 ```
 
-Esto no sustituye los tokens ni TailwindCSS: protege los valores tipográficos que forman parte de la geometría pública del componente frente al CSS editorial de Docs.
+El contenido renderizado se aísla de los estilos editoriales de Storybook con un contenedor externo `sb-unstyled`. Esta clase pertenece a la muestra de Docs, nunca al componente público.
 
 En componentes Radix también se deben medir los elementos semánticos internos. `AccordionPrimitive.Header` renderiza un `h3`; Storybook Docs puede añadirle margen aunque el trigger y el contenido sean correctos. El encabezado debe neutralizarlo:
 
 ```tsx
-<AccordionPrimitive.Header className="flex" style={{ margin: 0 }}>
+<AccordionPrimitive.Header className="m-0 flex">
 ```
 
 En Accordion también se retiró el borde transparente heredado de shadcn porque añadía 2 px al trigger. El resultado validado debe ser:
@@ -537,8 +562,7 @@ El texto del trigger necesita una región flex explícita. No debe quedar como n
 ```tsx
 <span
   data-slot="accordion-trigger-text"
-  className="min-w-0 flex-1"
-  style={{ font: "inherit", letterSpacing: "inherit" }}
+  className="min-w-0 flex-1 font-sans tracking-normal"
 >
   {children}
 </span>
@@ -755,6 +779,78 @@ El nodo `1:33` define los estilos Contained y Underline, triggers de 25 px dentr
 
 La implementación conserva la API oficial de shadcn/ui sobre Radix: `Tabs`, `TabsList`, `TabsTrigger`, `TabsContent`, `orientation`, estado controlado/no controlado, navegación por teclado, disabled e iconos mediante `children`. Contained se expresa con `variant="default"` y Underline con `variant="line"`; los nombres de Figma no generan aliases. `tabAmount`, `activeTab`, posición de iconos y visibilidad del panel pertenecen únicamente a `TabsExample`. Docs y Playground renderizan esa misma composición compartida.
 
+### Caso Accordion
+
+El nodo `1771:909` define la geometría, tipografía y estados del Accordion. La implementación conserva la composición oficial de shadcn/ui sobre Radix: `Accordion`, `AccordionItem`, `AccordionTrigger` y `AccordionContent`, junto con los modos `single` y `multiple`, teclado, estado controlado/no controlado y animaciones. Cantidad, apertura inicial y ancho de muestra pertenecen a `AccordionExample`; Docs y Playground renderizan esa misma instancia.
+
+### Caso Avatar
+
+El nodo `246:2681` define contenido image/text/icon, tratamientos primary/secondary/muted/gradient, formas full/semiSquared y escala de 32 a 120 px. La implementación conserva `Avatar`, `AvatarImage`, `AvatarFallback`, `AvatarBadge` y `AvatarGroup` de shadcn/ui. Estados, badges y servicios se componen sobre la escala pública del Avatar y no se dibujan mediante HTML documental. Docs y Playground consumen `AvatarExample`.
+
+### Caso Breadcrumb
+
+El nodo `1760:597` define ítems, separadores, página actual y colapso con elipsis. La implementación conserva la API oficial `Breadcrumb`, `BreadcrumbList`, `BreadcrumbItem`, `BreadcrumbLink`, `BreadcrumbPage`, `BreadcrumbSeparator` y `BreadcrumbEllipsis`. Los enlaces de las muestras no navegan, pero mantienen semántica y composición. Docs y Playground consumen `BreadcrumbExample`.
+
+### Caso Button
+
+El nodo `1:24` define variantes visuales, escala textual, escala de Icon Button, contenido lateral, loading y disabled. La implementación conserva Button y `buttonVariants` de shadcn/ui sobre Slot; las extensiones de marca viven en variantes CVA y tokens semánticos. Button textual e Icon Button mantienen propiedades separadas mediante `ButtonTextExample` y `ButtonIconExample`; Docs reutiliza ambas instancias y nunca reconstruye los botones.
+
+### Caso Calendar
+
+El nodo `1521:3069` y sus sets Single, Range, Date & Time y Presets se implementan sobre Calendar de shadcn/ui y React DayPicker. Single conserva la configuración oficial; Range usa siempre dos meses y caption label; Availability añade spacing y modifiers únicamente en esa composición. Navegación, días externos, selección y estados siguen la API pública. Docs y Playground consumen `CalendarExample` y los mismos presets.
+
+### Caso Collapsible
+
+El nodo `1771:929` define triggers fixed/expandable y estados abiertos/cerrados. La implementación conserva `Collapsible`, `CollapsibleTrigger` y `CollapsibleContent` oficiales sobre Radix. Tamaño del trigger, contenido y apertura inicial pertenecen a `CollapsibleExample`; no amplían el primitive. Docs y Playground renderizan la misma instancia.
+
+### Caso Context Menu
+
+El nodo `1675:339` define la superficie, ítems y submenús del menú contextual. La implementación conserva la API oficial completa de shadcn/ui sobre Radix y usa todo el recuadro de muestra como trigger. El menú permanece cerrado al entrar al Playground y se abre mediante la interacción contextual nativa. Docs y Playground consumen `ContextMenuExample`.
+
+### Caso Dropdown Menu
+
+El nodo `1521:4708` define trigger, content, ítems, checks, radios, shortcuts y submenús. La implementación conserva la API oficial de shadcn/ui sobre Radix; los patrones del Design System se obtienen por composición, no mediante un menú paralelo. Docs y Playground consumen `DropdownMenuExample`, por lo que tamaño, spacing y tipografía proceden de la misma instancia.
+
+### Caso Input
+
+El nodo `1:34` define InputBase y composiciones con contenido lateral, estados y tipos nativos. La implementación conserva el elemento `input` y la API oficial de shadcn/ui; iconos, acciones y addons se componen mediante Input Group. Placeholder, valor y estados heredan tipografía y tokens del componente sin overrides documentales. Docs y Playground consumen `InputExample`.
+
+### Caso Input OTP
+
+El nodo `561:4282` define grupos de 4 a 6 slots, separadores, estados y pasos de llenado. La implementación conserva `InputOTP`, `InputOTPGroup`, `InputOTPSlot` e `InputOTPSeparator` oficiales sobre `input-otp`, incluida la entrada accesible real. Error usa `aria-invalid` y tokens destructivos. Docs y Playground consumen `InputOTPExample`.
+
+### Caso Item
+
+El nodo `2190:1413` define apariencias default/outline/muted, tamaños y layouts compuestos. La implementación conserva la API oficial Base UI de shadcn/ui: `Item`, `ItemGroup`, `ItemSeparator`, `ItemMedia`, `ItemContent`, `ItemTitle`, `ItemDescription`, `ItemActions`, `ItemHeader` e `ItemFooter`. Image, Dropdown, stacked, list y grid son composiciones de `ItemExample`. Docs y Playground comparten esa instancia.
+
+### Caso Menubar
+
+El nodo `2938:11449` define cantidad de opciones, apertura y opción activa. La implementación conserva Root, Menu, Trigger, Content, Item, CheckboxItem, RadioGroup, RadioItem, Sub y el resto de la API oficial de shadcn/ui sobre Radix. Las decisiones de Figma se limitan a tokens y geometría. Docs y Playground consumen `MenubarExample`.
+
+### Caso Native Select
+
+El nodo `553:7952` define Simple y With Groups. La implementación conserva `NativeSelect`, `NativeSelectOption` y `NativeSelectOptGroup` de shadcn/ui y el comportamiento propio del navegador. Estado, icono y sizing se resuelven con la API pública, sin sustituirlo por Select. Docs y Playground consumen `NativeSelectExample`.
+
+### Caso Navigation Menu
+
+El nodo `2938:12924` define cantidad de ítems, dropdown/link, viewport y contenidos list/featured. La implementación conserva Root, List, Item, Trigger, Content, Link y Viewport oficiales de shadcn/ui sobre Radix. El indicador opcional no se renderiza porque no aparece en Figma. Docs y Playground consumen `NavigationMenuExample`.
+
+### Caso Select
+
+El nodo `614:4917` define Simple y Scrollable, además de soporte de iconos mediante composición. La implementación conserva `Select`, `SelectTrigger`, `SelectValue`, `SelectContent`, `SelectGroup`, `SelectLabel`, `SelectItem`, `SelectSeparator` y controles de scroll oficiales sobre Radix. Placeholder y contenido heredan estilos del componente. Docs y Playground consumen `SelectExample`.
+
+### Caso Separator
+
+El nodo `589:983` define referencias horizontal y vertical. La implementación conserva `orientation`, `decorative`, data attributes y semántica del Separator oficial de shadcn/ui sobre Radix. Las longitudes pertenecen a `SeparatorExample`, no al primitive. Docs y Playground renderizan esa misma instancia.
+
+### Caso Slider
+
+El nodo `2772:1030` define Single, Range y Multiple, orientación y estados. La implementación conserva Root, Track, Range y Thumb oficiales de shadcn/ui sobre Radix. Range incorpora el patrón controlled con Label y valor visible dentro de `SliderExample`; no existe una variante Controlled separada. Docs y Playground comparten la instancia y presets.
+
+### Caso Toast
+
+El nodo `1:45` define tratamientos success, warning, error, info, brand-neutral y neutral. La implementación usa Toast de Base UI conforme a shadcn/ui, no Sonner, y conserva Provider/Portal/Viewport, foco, dismiss, swipe y temporización. Icono, título, descripción y acciones se componen dentro de `ToastExample`; Docs y Playground renderizan exactamente esa instancia.
+
 ```text
 src/components/ui/
 ├── component.tsx
@@ -774,7 +870,7 @@ Responsabilidades:
 
 ## 10. Versionado
 
-El paquete utiliza Changesets.
+El proyecto privado utiliza SemVer y Changesets. En esta etapa la distribución se limita al Storybook desplegado en Vercel; no se publica un paquete npm.
 
 Crear un registro de cambio:
 
@@ -788,11 +884,13 @@ Actualizar versiones:
 npm run version-packages
 ```
 
-Publicar:
+Validar la release y generar el artefacto de Vercel:
 
 ```bash
 npm run release
 ```
+
+Vercel ejecuta `npm run build-storybook` y sirve el directorio `storybook-static`. El comando `release` no ejecuta `changeset publish`. Los changesets futuros actualizan la versión y `CHANGELOG.md` mediante `npm run version-packages`.
 
 Cada cambio de componente debe documentar:
 

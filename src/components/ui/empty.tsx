@@ -43,21 +43,19 @@ const emptyMediaVariants = cva(
 function EmptyMedia({
   className,
   variant = "default",
-  style,
   ...props
 }: React.ComponentProps<"div"> & VariantProps<typeof emptyMediaVariants>) {
   return (
     <div
       data-slot="empty-icon"
       data-variant={variant}
-      className={cn(emptyMediaVariants({ variant, className }))}
-      style={{ marginBottom: 8, ...style }}
+      className={cn("mb-2", emptyMediaVariants({ variant, className }))}
       {...props}
     />
   )
 }
 
-function EmptyTitle({ className, style, ...props }: React.ComponentProps<"div">) {
+function EmptyTitle({ className, ...props }: React.ComponentProps<"div">) {
   return (
     <div
       data-slot="empty-title"
@@ -65,19 +63,12 @@ function EmptyTitle({ className, style, ...props }: React.ComponentProps<"div">)
         "font-sans text-sm leading-5 font-medium tracking-tight",
         className
       )}
-      style={{
-        fontFamily: "var(--brand-font-sans)",
-        fontSize: 14,
-        lineHeight: "20px",
-        fontWeight: "var(--font-weight-medium)",
-        ...style,
-      }}
       {...props}
     />
   )
 }
 
-function EmptyDescription({ className, style, ...props }: React.ComponentProps<"p">) {
+function EmptyDescription({ className, ...props }: React.ComponentProps<"p">) {
   return (
     <div
       data-slot="empty-description"
@@ -85,19 +76,12 @@ function EmptyDescription({ className, style, ...props }: React.ComponentProps<"
         "font-sans text-sm leading-5 text-muted-foreground [&>a]:underline [&>a]:underline-offset-4 [&>a:hover]:text-primary",
         className
       )}
-      style={{
-        fontFamily: "var(--brand-font-sans)",
-        fontSize: 14,
-        lineHeight: "20px",
-        fontWeight: "var(--font-weight-regular)",
-        ...style,
-      }}
       {...props}
     />
   )
 }
 
-function EmptyContent({ className, style, ...props }: React.ComponentProps<"div">) {
+function EmptyContent({ className, ...props }: React.ComponentProps<"div">) {
   return (
     <div
       data-slot="empty-content"
@@ -105,12 +89,6 @@ function EmptyContent({ className, style, ...props }: React.ComponentProps<"div"
         "flex w-full max-w-sm min-w-0 flex-col items-center gap-2.5 text-sm text-balance",
         className
       )}
-      style={{
-        fontFamily: "var(--brand-font-sans)",
-        fontSize: 14,
-        lineHeight: "20px",
-        ...style,
-      }}
       {...props}
     />
   )

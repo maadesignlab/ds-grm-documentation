@@ -1,7 +1,7 @@
 "use client"
 
 import { ItemExample, itemExamplePresets, type ItemExampleProps } from "./item-example"
-import { SelectableCard as Card, SelectableTable as Table } from "./selectable-docs-shared"
+import { DocsSection, SelectableCard as Card, SelectableTable as Table } from "./selectable-docs-shared"
 
 type Preset = keyof typeof itemExamplePresets
 function Example({ preset }: { preset: Preset }) { return <ItemExample {...itemExamplePresets[preset] as ItemExampleProps} /> }
@@ -55,5 +55,5 @@ const colors = [
 ] as const
 
 export function ItemSpecifications() {
-  return <div className="not-prose grid gap-6"><section><h3 style={{margin:"0 0 12px",fontSize:16,fontWeight:600,lineHeight:"24px"}}>API y anatomía</h3><Table columns={["Parte","Primitive","API","Función"]} rows={anatomy} /></section><section><h3 style={{margin:"0 0 12px",fontSize:16,fontWeight:600,lineHeight:"24px"}}>Tamaño y espaciado</h3><Table columns={["Propiedad","Tailwind","Valor","Origen"]} rows={geometry} /></section><section><h3 style={{margin:"0 0 12px",fontSize:16,fontWeight:600,lineHeight:"24px"}}>Tipografía</h3><Table columns={["Elemento","Tailwind","Valor","Origen"]} rows={typography} /></section><section><h3 style={{margin:"0 0 12px",fontSize:16,fontWeight:600,lineHeight:"24px"}}>Color</h3><Table columns={["Variante","Tailwind","Variable","Origen"]} rows={colors} /></section></div>
+  return <div className="not-prose grid gap-6"><DocsSection title="API y anatomía"><Table columns={["Parte","Primitive","API","Función"]} rows={anatomy} /></DocsSection><DocsSection title="Tamaño y espaciado"><Table columns={["Propiedad","Tailwind","Valor","Origen"]} rows={geometry} /></DocsSection><DocsSection title="Tipografía"><Table columns={["Elemento","Tailwind","Valor","Origen"]} rows={typography} /></DocsSection><DocsSection title="Color"><Table columns={["Variante","Tailwind","Variable","Origen"]} rows={colors} /></DocsSection></div>
 }

@@ -58,20 +58,12 @@ const badgeVariants = cva(
   }
 )
 
-const badgeTypography = {
-  xl: { fontSize: 14, lineHeight: "20px" },
-  lg: { fontSize: 12, lineHeight: "16px" },
-  md: { fontSize: 10, lineHeight: "15px" },
-  sm: { fontSize: 10, lineHeight: "15px" },
-} as const
-
 function Badge({
   className,
   variant = "primary",
   appearance = "solid",
   size = "lg",
   asChild = false,
-  style,
   ...props
 }: React.ComponentProps<"span"> &
   VariantProps<typeof badgeVariants> & { asChild?: boolean }) {
@@ -85,14 +77,6 @@ function Badge({
       data-appearance={appearance}
       data-size={resolvedSize}
       className={cn(badgeVariants({ variant, appearance, size: resolvedSize }), className)}
-      style={{
-        fontFamily: "var(--brand-font-sans)",
-        fontWeight: "var(--font-weight-medium)",
-        fontSize: badgeTypography[resolvedSize].fontSize,
-        lineHeight: badgeTypography[resolvedSize].lineHeight,
-        letterSpacing: 0,
-        ...style,
-      }}
       {...props}
     />
   )

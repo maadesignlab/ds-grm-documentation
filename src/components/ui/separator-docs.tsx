@@ -25,5 +25,5 @@ const api = [
 ] as const
 
 export function SeparatorSpecifications() {
-  return <div className="not-prose grid gap-6"><section><h3 style={{ margin: "0 0 12px", fontSize: 16, fontWeight: 600, lineHeight: "24px" }}>Tamaño y color</h3><Table columns={["Orientación", "Tailwind", "Medida de referencia", "Token"]} rows={geometry} /></section><section><h3 style={{ margin: "0 0 12px", fontSize: 16, fontWeight: 600, lineHeight: "24px" }}>API y accesibilidad</h3><Table columns={["Propiedad", "Tipo", "Default", "Función"]} rows={api} /></section></div>
+  return <div className="not-prose grid gap-6"><section><h3 className="mb-3 text-base leading-6 font-semibold text-foreground">Tamaño y color</h3><Table columns={["Orientación", "Tailwind", "Medida de referencia", "Token"]} rows={geometry} /></section><section><h3 className="mb-3 text-base leading-6 font-semibold text-foreground">API y accesibilidad</h3><Table columns={["Propiedad", "Tipo", "Default", "Función"]} rows={api} /></section></div>
 }

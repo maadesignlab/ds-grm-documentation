@@ -67,9 +67,9 @@ export function ToastExample({ status = "success", text = "Datos actualizados", 
 
   if (preview) {
     return (
-      <div className="relative h-28 w-full min-w-[356px] overflow-hidden">
+      <div className="relative h-28 w-full min-w-(--toast-width) overflow-hidden">
         <ToastProvider toastManager={manager} timeout={0}>
-          <ToastViewport className="!absolute !top-1/2 !right-auto !bottom-auto !left-1/2 !m-0 !h-[76px] !w-[356px] !max-w-none -translate-x-1/2 -translate-y-1/2">
+          <ToastViewport className="absolute inset-x-auto top-1/2 right-auto bottom-auto left-1/2 m-0 h-(--toast-preview-height) w-(--toast-width) max-w-none -translate-x-1/2 -translate-y-1/2 sm:right-auto sm:left-1/2 sm:w-(--toast-width)">
             <ToastList />
           </ToastViewport>
         </ToastProvider>
