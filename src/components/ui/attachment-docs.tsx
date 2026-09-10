@@ -59,7 +59,7 @@ export function AttachmentGroupOverview() {
         <h3 className="m-0 text-base leading-6 font-semibold text-card-foreground">AttachmentGroup</h3>
         <p className="m-0 text-(length:--docs-description-font-size) leading-5 text-muted-foreground">Fila desplazable con separación de 12px y snapping visual para 1 a 10 archivos.</p>
       </header>
-      <div className="bg-background p-5">
+      <div className="sb-unstyled bg-background p-5">
         <AttachmentGroup>{["orden-medica.pdf", "resultado-laboratorio.pdf", "imagen-diagnostica.jpg"].map((title) => <AttachmentExample key={title} title={title} showAction={false} />)}</AttachmentGroup>
       </div>
     </section>

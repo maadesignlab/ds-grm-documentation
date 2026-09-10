@@ -1,12 +1,16 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState, type ReactNode } from 'react';
 import { addons } from 'storybook/preview-api';
 import { GLOBALS_UPDATED } from 'storybook/internal/core-events';
 
 import { cn } from '@/lib/utils';
 
-type BrandValue = 'grm-global' | 'reina-madre' | 'maria-linda' | 'piel-sana';
-type CssTokenMap = Record<string, string>;
+import { extraColorTokenValues } from './extra-color-token-values';
+import { semanticBrandTokenValues } from './semantic-brand-token-values';
+
+type BrandValue = keyof typeof semanticBrandTokenValues;
 type GlobalsUpdatedPayload = { globals?: { brandTheme?: unknown } };
+type TokenEntry = readonly [name: string, value: string];
+type SemanticGroup = { title: string; prefixes: readonly string[] };
 
 const BRAND_LABELS: Record<BrandValue, string> = {
   'grm-global': 'GRM Global',
@@ -15,37 +19,62 @@ const BRAND_LABELS: Record<BrandValue, string> = {
   'piel-sana': 'Piel Sana',
 };
 
-const MAIN_COLORS = [
-  { token: '--primary', label: 'primary' },
-  { token: '--primary-active', label: 'primary-active' },
-  { token: '--secondary', label: 'secondary' },
-  { token: '--accent', label: 'accent' },
-  { token: '--background', label: 'background' },
-  { token: '--muted', label: 'muted' },
-  { token: '--sidebar-accent', label: 'sidebar/accent' },
-  { token: '--success', label: 'success' },
-  { token: '--warning', label: 'warning' },
-  { token: '--error', label: 'error · validación' },
-  { token: '--destructive', label: 'destructive · irreversible' },
-  { token: '--info', label: 'info' },
+const COLOR_VALUE_RE = /^(#|rgb\(|rgba\(|hsl\(|hsla\(|oklch\(|oklab\(|lab\(|hwb\(|color\(|transparent$|currentColor$)/i;
+
+const SEMANTIC_GROUPS: readonly SemanticGroup[] = [
+  { title: 'Background', prefixes: ['--background'] },
+  { title: 'Foreground', prefixes: ['--foreground'] },
+  { title: 'Card', prefixes: ['--card'] },
+  { title: 'Popover', prefixes: ['--popover'] },
+  { title: 'Primary', prefixes: ['--primary'] },
+  { title: 'Secondary', prefixes: ['--secondary'] },
+  { title: 'Muted', prefixes: ['--muted'] },
+  { title: 'Accent', prefixes: ['--accent'] },
+  { title: 'Success', prefixes: ['--success'] },
+  { title: 'Warning', prefixes: ['--warning'] },
+  { title: 'Error', prefixes: ['--error'] },
+  { title: 'Destructive', prefixes: ['--destructive'] },
+  { title: 'Info', prefixes: ['--info'] },
+  { title: 'Ring', prefixes: ['--ring'] },
+  { title: 'Input', prefixes: ['--input'] },
+  { title: 'Chart', prefixes: ['--chart'] },
+  { title: 'Sidebar', prefixes: ['--sidebar'] },
+  { title: 'Typography', prefixes: ['--brand-font', '--font-weight'] },
+  { title: 'Table', prefixes: ['--table'] },
 ] as const;
 
-const PREFERRED_ORDER = [
-  '--background', '--foreground', '--border', '--card', '--card-foreground',
-  '--popover', '--popover-foreground', '--muted', '--muted-foreground',
-  '--accent', '--accent-foreground', '--input', '--ring', '--sidebar',
-  '--sidebar-foreground', '--sidebar-accent', '--sidebar-accent-foreground',
-  '--sidebar-border', '--sidebar-ring', '--primary', '--primary-foreground',
-  '--primary-hover', '--primary-active', '--secondary', '--secondary-foreground',
-  '--secondary-hover', '--secondary-active', '--success', '--success-foreground',
-  '--success-hover', '--success-active', '--warning', '--warning-foreground',
-  '--warning-hover', '--warning-active', '--error', '--error-foreground',
-  '--error-hover', '--error-active', '--destructive', '--destructive-foreground',
-  '--destructive-hover', '--destructive-active', '--info', '--info-foreground',
-  '--info-hover', '--info-active',
-] as const;
+const APPOINTMENT_EXTRA_COLOR_FAMILIES = {
+  scheduled: 'Slate Gray',
+  confirmed: 'Clear Blue',
+  reception: 'Golden Yellow',
+  vitals: 'Berry Pink',
+  consultation: 'Amber Orange',
+  completed: 'Nature Green',
+  'no-show': 'Warm Red',
+  cancelled: 'Soft Coral',
+  rescheduled: 'Lavender Purple',
+} as const;
 
-const COLOR_VALUE_RE = /^(#|rgb\(|rgba\(|hsl\(|hsla\(|oklch\(|oklab\(|lab\(|hwb\(|color\(|var\(|transparent$|currentColor$)/i;
+const APPOINTMENT_LEVELS = {
+  light: '50',
+  'light-border': '200',
+  default: '500',
+  foreground: '700',
+} as const;
+
+const extraColorEntries = Object.values(extraColorTokenValues).flat() as TokenEntry[];
+
+function getAppointmentReference(name: string): TokenEntry | undefined {
+  for (const [status, family] of Object.entries(APPOINTMENT_EXTRA_COLOR_FAMILIES)) {
+    const prefix = `--appointment-${status}-`;
+    if (!name.startsWith(prefix)) continue;
+    const level = APPOINTMENT_LEVELS[name.slice(prefix.length) as keyof typeof APPOINTMENT_LEVELS];
+    if (!level) return undefined;
+    const familyName = family.replaceAll(' ', '').replace(/^./, (letter) => letter.toLowerCase());
+    return extraColorEntries.find(([extraName]) => extraName === `${familyName}/${level}`);
+  }
+  return undefined;
+}
 
 const getActiveBrand = (): BrandValue => {
   if (typeof document === 'undefined') return 'grm-global';
@@ -56,32 +85,87 @@ const getActiveBrand = (): BrandValue => {
 const isBrandValue = (value: unknown): value is BrandValue =>
   typeof value === 'string' && value in BRAND_LABELS;
 
-const readActiveColorTokens = (): CssTokenMap => {
-  if (typeof document === 'undefined') return {};
-  const computed = getComputedStyle(document.documentElement);
-  const tokens: CssTokenMap = {};
+function CollectionSection({ title, description, modes, count, children }: { title: string; description: string; modes: string; count: string; children: ReactNode }) {
+  return (
+    <section className="grid gap-8">
+      <header className="grid gap-4 border-b border-border pb-5 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-end">
+        <div className="grid gap-2">
+          <h2 className="m-0 text-2xl leading-8 font-semibold text-foreground">{title}</h2>
+          <p className="m-0 max-w-3xl text-(length:--docs-description-font-size) leading-5 text-muted-foreground">{description}</p>
+        </div>
+        <div className="flex flex-wrap gap-2 text-xs text-muted-foreground sm:justify-end">
+          <span className="rounded-full border border-border bg-card px-3 py-1">{modes}</span>
+          <span className="rounded-full border border-border bg-card px-3 py-1">{count}</span>
+        </div>
+      </header>
+      {children}
+    </section>
+  );
+}
 
-  for (let index = 0; index < computed.length; index += 1) {
-    const token = computed[index];
-    if (!token.startsWith('--')) continue;
-    const value = computed.getPropertyValue(token).trim();
-    if (value && COLOR_VALUE_RE.test(value)) tokens[token] = value;
-  }
-  return tokens;
-};
+function TokenTable({ title, entries }: { title: string; entries: readonly TokenEntry[] }) {
+  return (
+    <article className="mb-6 inline-block w-full break-inside-avoid overflow-hidden rounded-lg border border-border bg-card align-top">
+      <header className="flex min-h-11 items-center justify-between gap-3 border-b border-border bg-muted px-4 py-2.5">
+        <h3 className="m-0 text-sm leading-5 font-medium text-card-foreground">{title}</h3>
+        <span className="shrink-0 text-xs text-muted-foreground">{entries.length}</span>
+      </header>
+      {entries.map(([name, value], index) => {
+        const isColor = COLOR_VALUE_RE.test(value);
+        return (
+          <div key={name} className={cn('grid min-h-13 grid-cols-[minmax(0,1fr)_minmax(0,1fr)] items-center gap-4 px-4 py-2.5 text-xs leading-(--docs-table-line-height)', index < entries.length - 1 && 'border-b border-border')}>
+            <code className="[overflow-wrap:anywhere] text-xs leading-4 text-foreground">{name}</code>
+            <div className="grid min-w-0 grid-cols-[auto_minmax(0,1fr)] items-center gap-2.5">
+              {isColor ? <span aria-hidden="true" className="size-7 rounded-md border border-border" style={{ background: value }} /> : null}
+              <code className={cn('[overflow-wrap:anywhere] text-xs leading-4 text-muted-foreground', !isColor && 'col-span-2')}>{value}</code>
+            </div>
+          </div>
+        );
+      })}
+    </article>
+  );
+}
 
-const sortTokens = (tokens: string[]): string[] => {
-  const preferred = PREFERRED_ORDER.filter((token) => tokens.includes(token));
-  const preferredSet = new Set<string>(preferred);
-  const remaining = tokens
-    .filter((token) => !preferredSet.has(token))
-    .sort((a, b) => a.localeCompare(b));
-  return [...preferred, ...remaining];
-};
+function TokenColumns({ children }: { children: ReactNode }) {
+  return <div className="columns-1 gap-6 lg:columns-2">{children}</div>;
+}
+
+function AppointmentTable({ entries }: { entries: readonly TokenEntry[] }) {
+  return (
+    <div className="grid gap-3">
+      <div>
+        <h3 className="m-0 text-sm leading-5 font-medium text-foreground">Appointment</h3>
+        <p className="mb-0 mt-1 text-(length:--docs-description-font-size) leading-5 text-muted-foreground">Cada estado semántico referencia una familia de Extra Colors.</p>
+      </div>
+      <div className="overflow-x-auto rounded-lg border border-border bg-card">
+        <table className="w-full min-w-[760px] table-fixed border-collapse">
+          <thead>
+            <tr className="bg-muted">
+              {['Semantic Brand', 'Extra Colors', 'Valor compartido'].map((column) => (
+                <th key={column} className="border-0 border-b border-border px-4 py-(--docs-table-header-padding-block) text-left align-middle text-(length:--docs-table-header-font-size) leading-(--docs-table-line-height) font-semibold tracking-(--docs-table-letter-spacing) text-muted-foreground uppercase">{column}</th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {entries.map(([name, value]) => {
+              const reference = getAppointmentReference(name);
+              return (
+                <tr key={name} className="even:bg-muted/30 last:[&>td]:border-b-0">
+                  <td className="h-13 border-0 border-b border-border px-4 py-2.5 align-middle text-xs"><code className="[overflow-wrap:anywhere] text-xs leading-4 text-foreground">{name}</code></td>
+                  <td className="h-13 border-0 border-b border-border px-4 py-2.5 align-middle text-xs"><code className="text-xs leading-4 text-foreground">{reference?.[0] ?? '—'}</code></td>
+                  <td className="h-13 border-0 border-b border-border px-4 py-2.5 align-middle text-xs"><div className="flex items-center gap-2.5"><span aria-hidden="true" className="size-7 shrink-0 rounded-md border border-border" style={{ background: value }} /><code className="text-xs leading-4 text-muted-foreground">{value}</code></div></td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+}
 
 export function BrandTokensTable() {
   const [activeBrand, setActiveBrand] = useState<BrandValue>(getActiveBrand);
-  const [tokens, setTokens] = useState<CssTokenMap>(readActiveColorTokens);
 
   useEffect(() => {
     const root = document.documentElement;
@@ -89,27 +173,16 @@ export function BrandTokensTable() {
     let frame = 0;
     const updateTheme = () => {
       cancelAnimationFrame(frame);
-      frame = requestAnimationFrame(() => {
-        setActiveBrand(getActiveBrand());
-        setTokens(readActiveColorTokens());
-      });
+      frame = requestAnimationFrame(() => setActiveBrand(getActiveBrand()));
     };
     const observer = new MutationObserver(updateTheme);
     observer.observe(root, { attributes: true, attributeFilter: ['data-theme'] });
-
     const handleGlobalsUpdated = ({ globals }: GlobalsUpdatedPayload) => {
       const selectedBrand = globals?.brandTheme;
       if (!isBrandValue(selectedBrand)) return;
-
       root.setAttribute('data-theme', selectedBrand);
-      try {
-        localStorage.setItem('ds-brand-theme', selectedBrand);
-      } catch {
-        // Storage can be unavailable in private or restricted browser contexts.
-      }
       updateTheme();
     };
-
     channel.on(GLOBALS_UPDATED, handleGlobalsUpdated);
     updateTheme();
     return () => {
@@ -119,51 +192,42 @@ export function BrandTokensTable() {
     };
   }, []);
 
-  const tokenNames = useMemo(() => sortTokens(Object.keys(tokens)), [tokens]);
+  const activeBrandLabel = BRAND_LABELS[activeBrand];
+  const semanticEntries = useMemo(
+    () => Object.entries(semanticBrandTokenValues[activeBrand]) as TokenEntry[],
+    [activeBrand],
+  );
+
+  const semanticCount = semanticEntries.length;
+  const appointmentEntries = semanticEntries.filter(([name]) => name.startsWith('--appointment'));
 
   return (
-    <div className="grid gap-6">
-      <section className="rounded-[14px] border border-border bg-card p-4 text-foreground">
-        <div className="mb-4 flex items-center gap-3">
-          <span aria-hidden="true" className="grid size-9 place-items-center rounded-[11px] bg-secondary text-xl text-primary">◉</span>
-          <div>
-            <h2 className="m-0 text-base">Tokens de color</h2>
-            <p className="mt-[3px] mb-0 text-(length:--docs-description-font-size) text-muted-foreground">
-              Modo activo del selector de la franja: <strong>{BRAND_LABELS[activeBrand]}</strong>. Ningún hex vive fuera del bloque <code>:root</code>.
-            </p>
-          </div>
-        </div>
+    <div className="sb-unstyled not-prose mt-12 grid gap-20 text-foreground">
+      <CollectionSection
+        title="Semantic Brand"
+        description={`Tokens semánticos consumidos por los componentes. Los valores visibles corresponden a ${activeBrandLabel} y cambian desde el selector global de Storybook.`}
+        modes={activeBrandLabel}
+        count={`${semanticCount} variables`}
+      >
+        <TokenColumns>
+          {SEMANTIC_GROUPS.map((group) => {
+            const entries = semanticEntries.filter(([name]) => group.prefixes.some((prefix) => name.startsWith(prefix)));
+            return entries.length ? <TokenTable key={group.title} title={group.title} entries={entries} /> : null;
+          })}
+        </TokenColumns>
+        <AppointmentTable entries={appointmentEntries} />
+      </CollectionSection>
 
-        <div className="grid grid-cols-[repeat(auto-fit,minmax(128px,1fr))] gap-2">
-          {MAIN_COLORS.map(({ token, label }) => (
-            <article key={token} className="min-w-0 overflow-hidden rounded-[10px] border border-border bg-card">
-              <div className="h-[38px]" style={{ background: `var(${token})` }} />
-              <div className="min-h-[38px] px-[9px] py-[7px]">
-                <strong className="block text-(length:--docs-table-header-font-size) leading-[1.2]">{label}</strong>
-                <code className="text-(length:--docs-code-font-size) text-muted-foreground">{token}</code>
-              </div>
-            </article>
-          ))}
-        </div>
-      </section>
-
-      <section>
-        <h2 className="mb-1">Lista global de tokens</h2>
-        <p className="mt-0 text-muted-foreground">
-          Los nombres son compartidos por todas las marcas; los valores corresponden a {BRAND_LABELS[activeBrand]}.
-        </p>
-        <div className="overflow-hidden rounded-xl border border-border bg-card">
-          {tokenNames.map((token, index) => (
-            <div key={token} className={cn("grid grid-cols-[minmax(190px,1fr)_minmax(180px,1fr)] items-center gap-4 px-3 py-2.5 text-(length:--docs-description-font-size) even:bg-background", index < tokenNames.length - 1 && "border-b border-border")}>
-              <code className="[overflow-wrap:anywhere]">{token}</code>
-              <div className="grid grid-cols-[28px_minmax(0,1fr)] items-center gap-2.5">
-                <span aria-hidden="true" className="size-7 rounded-md border border-border" style={{ background: `var(${token})` }} />
-                <code className="[overflow-wrap:anywhere]">{tokens[token]}</code>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
+      <CollectionSection
+        title="Extra Colors"
+        description="Paletas auxiliares organizadas como en la colección Extra Colors de Variables de Figma. Cada familia conserva sus cuatro niveles originales."
+        modes="Mode 1"
+        count="36 variables"
+      >
+        <TokenColumns>
+          {Object.entries(extraColorTokenValues).map(([title, entries]) => <TokenTable key={title} title={title} entries={entries} />)}
+        </TokenColumns>
+      </CollectionSection>
     </div>
   );
 }

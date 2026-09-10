@@ -25,8 +25,8 @@ export type CalendarExampleProps = {
 }
 
 const initialDate = new Date(2026, 0, 20)
-const presetInitialDate = new Date(new Date().getFullYear(), 1, 12)
-const currentMonth = new Date(new Date().getFullYear(), new Date().getMonth(), 1)
+const presetInitialDate = new Date()
+const currentMonth = new Date(presetInitialDate.getFullYear(), presetInitialDate.getMonth(), 1)
 const initialRangeStart = new Date(2026, 0, 12)
 const initialRange = { from: initialRangeStart, to: addDays(initialRangeStart, 30) }
 const unavailable = Array.from({ length: 5 }, (_, index) => new Date(2026, 0, 24 + index))
@@ -108,11 +108,11 @@ export function CalendarExample({ mode = "single", composition = "calendar", cap
   const [month, setMonth] = React.useState(composition === "presets" ? currentMonth : initialDate)
   const props = { mode, composition, captionLayout, numberOfMonths, showOutsideDays, showWeekNumber, fixedWeeks, bookedDates, date, setDate, dates, setDates, range, setRange, month, setMonth }
 
-  if (composition === "time") return <Card size="sm" className="w-fit max-w-none"><CardContent><CalendarControl {...props} /></CardContent><CardFooter className="border-t bg-card"><FieldGroup><Field><FieldLabel htmlFor="calendar-time-from">Hora inicial</FieldLabel><InputGroup><InputGroupInput id="calendar-time-from" type="time" step="1" defaultValue="10:30:00" className="appearance-none [&::-webkit-calendar-picker-indicator]:hidden" /><InputGroupAddon><Clock2Icon /></InputGroupAddon></InputGroup></Field><Field><FieldLabel htmlFor="calendar-time-to">Hora final</FieldLabel><InputGroup><InputGroupInput id="calendar-time-to" type="time" step="1" defaultValue="12:30:00" className="appearance-none [&::-webkit-calendar-picker-indicator]:hidden" /><InputGroupAddon><Clock2Icon /></InputGroupAddon></InputGroup></Field></FieldGroup></CardFooter></Card>
+  if (composition === "time") return <Card size="sm" className="w-fit data-[size=sm]:max-w-none"><CardContent><CalendarControl {...props} /></CardContent><CardFooter className="border-t bg-card"><FieldGroup><Field><FieldLabel htmlFor="calendar-time-from">Hora inicial</FieldLabel><InputGroup><InputGroupInput id="calendar-time-from" type="time" step="1" defaultValue="10:30:00" className="appearance-none [&::-webkit-calendar-picker-indicator]:hidden" /><InputGroupAddon><Clock2Icon /></InputGroupAddon></InputGroup></Field><Field><FieldLabel htmlFor="calendar-time-to">Hora final</FieldLabel><InputGroup><InputGroupInput id="calendar-time-to" type="time" step="1" defaultValue="12:30:00" className="appearance-none [&::-webkit-calendar-picker-indicator]:hidden" /><InputGroupAddon><Clock2Icon /></InputGroupAddon></InputGroup></Field></FieldGroup></CardFooter></Card>
 
-  if (composition === "presets") return <Card size="sm" className="mx-auto w-fit max-w-[300px]"><CardContent><CalendarControl {...props} /></CardContent><CardFooter className="flex flex-wrap gap-2 border-t">{[["Hoy", 0], ["Mañana", 1], ["En 3 días", 3], ["En una semana", 7], ["En 2 semanas", 14]].map(([label, value]) => <Button key={value} variant="outline" size="sm" className="flex-auto" onClick={() => { const next = addDays(new Date(), Number(value)); setDate(next); setMonth(new Date(next.getFullYear(), next.getMonth(), 1)) }}>{label}</Button>)}</CardFooter></Card>
+  if (composition === "presets") return <Card size="sm" className="mx-auto w-fit data-[size=sm]:max-w-[300px]"><CardContent><CalendarControl {...props} /></CardContent><CardFooter className="flex flex-wrap gap-2 border-t">{[["Hoy", 0], ["Mañana", 1], ["En 3 días", 3], ["En una semana", 7], ["En 2 semanas", 14]].map(([label, value]) => <Button key={value} variant="outline" size="sm" className="flex-auto" onClick={() => { const next = addDays(new Date(), Number(value)); setDate(next); setMonth(new Date(next.getFullYear(), next.getMonth(), 1)) }}>{label}</Button>)}</CardFooter></Card>
 
-  if (composition === "availability") return <Card className="w-fit max-w-none gap-0 p-0"><CardContent className="p-0"><CalendarControl {...props} /></CardContent><div><Separator /><AvailabilityLegend /></div></Card>
+  if (composition === "availability") return <Card className="w-fit gap-0 p-0 data-[size=default]:max-w-none"><CardContent className="p-0"><CalendarControl {...props} /></CardContent><div><Separator /><AvailabilityLegend /></div></Card>
 
-  return <Card className="w-fit max-w-none p-0"><CardContent className="p-0"><CalendarControl {...props} /></CardContent></Card>
+  return <Card className="w-fit p-0 data-[size=default]:max-w-none"><CardContent className="p-0"><CalendarControl {...props} /></CardContent></Card>
 }

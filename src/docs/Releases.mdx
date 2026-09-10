@@ -1,27 +1,11 @@
 import { Meta } from '@storybook/addon-docs/blocks';
+import { DocumentationHeader } from './DocumentationHeader';
+import { ReleasesHistory } from './ReleasesHistory';
 
 <Meta title="Design System/Releases" />
 
-# Releases
+<DocumentationHeader title="Releases">
+  Historial de versiones publicadas del Design System, ordenado cronológicamente y respaldado por el registro técnico del proyecto.
+</DocumentationHeader>
 
-## 1.0.0
-
-Primera versión estable de la documentación del Design System GRM, alineada con V1 en Figma y distribuida como Storybook privado mediante Vercel.
-
-- 50 componentes documentados.
-- Cuatro temas de marca basados en tokens semánticos.
-- Playground como instancia canónica y Docs construida con las mismas composiciones compartidas.
-- Componentes basados prioritariamente en shadcn/ui.
-- Validación de TypeScript, ESLint, tests y build de Storybook.
-
-Consulta el registro completo en `CHANGELOG.md`.
-
-## Versiones futuras
-
-| Cambio | Versión | Ejemplo |
-| --- | --- | --- |
-| Corrección compatible | patch | Ajustar contraste de Badge |
-| Nueva capacidad compatible | minor | Añadir variante a Spinner |
-| Cambio incompatible | major | Renombrar una prop pública |
-
-Ejecuta `npm run changeset` por cada cambio visible. El resumen debe identificar su alcance: `Badge: agrega variante info outline`. `npm run release` valida y genera el Storybook que Vercel publica; no realiza una publicación npm.
+<ReleasesHistory />

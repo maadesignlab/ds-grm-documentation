@@ -165,6 +165,29 @@
   @apply m-0;
 }
 
+/* Typography catalog: keep property blocks aligned and readable inside Docs. */
+.typography-style-table {
+  @apply w-full min-w-4xl table-fixed border-collapse;
+}
+
+.typography-style-table col:nth-child(1),
+.typography-style-table col:nth-child(5) {
+  @apply w-1/5;
+}
+
+.typography-style-table col:nth-child(2),
+.typography-style-table col:nth-child(3) {
+  @apply w-1/6;
+}
+
+.typography-style-table col:nth-child(4) {
+  @apply w-1/8;
+}
+
+.sbdocs-wrapper.sbdocs-wrapper .typography-property > span {
+  @apply text-xs leading-4;
+}
+
 /* Canonical specification tables used by component documentation. */
 .docs-spec-table {
   @apply w-full table-fixed border-collapse;
