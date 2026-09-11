@@ -1,21 +1,1286 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "reina-madre",
-  "homepage": "https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1",
+  "name": "grm",
+  "homepage": "https://github.com/maadesignlab/ds-grm-documentation",
   "items": [
+    {
+      "name": "grm-base",
+      "type": "registry:style",
+      "title": "GRM Base",
+      "description": "Tokens, tipografías, marcas y utilidades compartidas del Design System GRM.",
+      "dependencies": [
+        "@fontsource-variable/inter@^5.3.0",
+        "@fontsource-variable/jetbrains-mono@^5.3.0",
+        "@fontsource-variable/kantumruy-pro@^5.3.0",
+        "@fontsource-variable/plus-jakarta-sans@^5.3.0",
+        "clsx@^2.1.1",
+        "tailwind-merge@^3.6.0",
+        "tw-animate-css@^1.4.0",
+        "shadcn@^4.19.1"
+      ],
+      "files": [
+        {
+          "path": "src/styles/grm.css",
+          "type": "registry:style",
+          "target": "src/styles/grm.css"
+        },
+        {
+          "path": "src/styles/tokens.css",
+          "type": "registry:style",
+          "target": "src/styles/tokens.css"
+        },
+        {
+          "path": "src/lib/utils.ts",
+          "type": "registry:lib",
+          "target": "src/lib/utils.ts"
+        },
+        {
+          "path": "src/lib/brand-theme.ts",
+          "type": "registry:lib",
+          "target": "src/lib/brand-theme.ts"
+        }
+      ]
+    },
+    {
+      "name": "accordion",
+      "type": "registry:ui",
+      "title": "Accordion",
+      "description": "Accordion GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "lucide-react@^1.38.0",
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/accordion.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "alert",
+      "type": "registry:ui",
+      "title": "Alert",
+      "description": "Alert GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/alert.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "alert-dialog",
+      "type": "registry:ui",
+      "title": "Alert Dialog",
+      "description": "Alert Dialog GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/button",
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/alert-dialog.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "attachment",
+      "type": "registry:ui",
+      "title": "Attachment",
+      "description": "Attachment GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/button",
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1",
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/attachment.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "avatar",
+      "type": "registry:ui",
+      "title": "Avatar",
+      "description": "Avatar GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/avatar.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
     {
       "name": "badge",
       "type": "registry:ui",
       "title": "Badge",
-      "description": "Badge GRM basado en shadcn/ui y tokens de Figma",
-      "files": [{ "path": "src/components/ui/badge.tsx", "type": "registry:ui" }]
+      "description": "Badge GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1",
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/badge.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "breadcrumb",
+      "type": "registry:ui",
+      "title": "Breadcrumb",
+      "description": "Breadcrumb GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "lucide-react@^1.38.0",
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/breadcrumb.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "button",
+      "type": "registry:ui",
+      "title": "Button",
+      "description": "Button GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1",
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/button.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "button-group",
+      "type": "registry:ui",
+      "title": "Button Group",
+      "description": "Button Group GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base",
+        "@grm/separator"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1",
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/button-group.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "calendar",
+      "type": "registry:ui",
+      "title": "Calendar",
+      "description": "Calendar GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/button",
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "lucide-react@^1.38.0",
+        "react-day-picker@^10.0.1"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/calendar.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "card",
+      "type": "registry:ui",
+      "title": "Card",
+      "description": "Card GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/card.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "carousel",
+      "type": "registry:ui",
+      "title": "Carousel",
+      "description": "Carousel GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/button",
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1",
+        "embla-carousel-react@^8.6.0",
+        "lucide-react@^1.38.0"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/carousel.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "checkbox",
+      "type": "registry:ui",
+      "title": "Checkbox",
+      "description": "Checkbox GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "lucide-react@^1.38.0",
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/checkbox.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "collapsible",
+      "type": "registry:ui",
+      "title": "Collapsible",
+      "description": "Collapsible GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/collapsible.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "combobox",
+      "type": "registry:ui",
+      "title": "Combobox",
+      "description": "Combobox GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/button",
+        "@grm/grm-base",
+        "@grm/input-group"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.7.0",
+        "lucide-react@^1.38.0"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/combobox.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "context-menu",
+      "type": "registry:ui",
+      "title": "Context Menu",
+      "description": "Context Menu GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "lucide-react@^1.38.0",
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/context-menu.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "data-table",
+      "type": "registry:ui",
+      "title": "Data Table",
+      "description": "Data Table GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/button",
+        "@grm/data-table-features",
+        "@grm/dropdown-menu",
+        "@grm/grm-base",
+        "@grm/skeleton",
+        "@grm/table"
+      ],
+      "dependencies": [
+        "@tanstack/react-table@^9.2.4",
+        "lucide-react@^1.38.0"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/data-table.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "date-picker",
+      "type": "registry:block",
+      "title": "Date Picker",
+      "description": "Date Picker GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/button",
+        "@grm/calendar",
+        "@grm/grm-base",
+        "@grm/input-group",
+        "@grm/popover",
+        "@grm/separator"
+      ],
+      "dependencies": [
+        "date-fns@^4.4.0",
+        "lucide-react@^1.38.0",
+        "react-day-picker@^10.0.1"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/date-picker-example.tsx",
+          "type": "registry:block"
+        }
+      ]
+    },
+    {
+      "name": "drawer",
+      "type": "registry:ui",
+      "title": "Drawer",
+      "description": "Drawer GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.7.0"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/drawer.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "dropdown-menu",
+      "type": "registry:ui",
+      "title": "Dropdown Menu",
+      "description": "Dropdown Menu GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "lucide-react@^1.38.0",
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/dropdown-menu.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "empty",
+      "type": "registry:ui",
+      "title": "Empty",
+      "description": "Empty GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/empty.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "field",
+      "type": "registry:ui",
+      "title": "Field",
+      "description": "Field GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base",
+        "@grm/label",
+        "@grm/separator"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/field.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "hover-card",
+      "type": "registry:ui",
+      "title": "Hover Card",
+      "description": "Hover Card GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/hover-card.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "input",
+      "type": "registry:ui",
+      "title": "Input",
+      "description": "Input GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/input.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "input-otp",
+      "type": "registry:ui",
+      "title": "Input OTP",
+      "description": "Input OTP GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "input-otp@^1.5.0",
+        "lucide-react@^1.38.0"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/input-otp.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "item",
+      "type": "registry:ui",
+      "title": "Item",
+      "description": "Item GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base",
+        "@grm/separator"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.7.0",
+        "class-variance-authority@^0.7.1"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/item.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "kbd",
+      "type": "registry:ui",
+      "title": "Kbd",
+      "description": "Kbd GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/kbd.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "label",
+      "type": "registry:ui",
+      "title": "Label",
+      "description": "Label GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/label.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "menubar",
+      "type": "registry:ui",
+      "title": "Menubar",
+      "description": "Menubar GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "lucide-react@^1.38.0",
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/menubar.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "native-select",
+      "type": "registry:ui",
+      "title": "Native Select",
+      "description": "Native Select GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "lucide-react@^1.38.0"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/native-select.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "navigation-menu",
+      "type": "registry:ui",
+      "title": "Navigation Menu",
+      "description": "Navigation Menu GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1",
+        "lucide-react@^1.38.0",
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/navigation-menu.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "pagination",
+      "type": "registry:ui",
+      "title": "Pagination",
+      "description": "Pagination GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/button",
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "lucide-react@^1.38.0"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/pagination.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "popover",
+      "type": "registry:ui",
+      "title": "Popover",
+      "description": "Popover GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.7.0"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/popover.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "progress",
+      "type": "registry:ui",
+      "title": "Progress",
+      "description": "Progress GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/progress.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "radio-group",
+      "type": "registry:ui",
+      "title": "Radio Group",
+      "description": "Radio Group GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/radio-group.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "resizable",
+      "type": "registry:ui",
+      "title": "Resizable",
+      "description": "Resizable GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "react-resizable-panels@^4.12.3"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/resizable.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "scroll-area",
+      "type": "registry:ui",
+      "title": "Scroll Area",
+      "description": "Scroll Area GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/scroll-area.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "select",
+      "type": "registry:ui",
+      "title": "Select",
+      "description": "Select GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "lucide-react@^1.38.0",
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/select.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "separator",
+      "type": "registry:ui",
+      "title": "Separator",
+      "description": "Separator GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/separator.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "sheet",
+      "type": "registry:ui",
+      "title": "Sheet",
+      "description": "Sheet GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/button",
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "lucide-react@^1.38.0",
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/sheet.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "sidebar",
+      "type": "registry:ui",
+      "title": "Sidebar",
+      "description": "Sidebar GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/button",
+        "@grm/grm-base",
+        "@grm/input",
+        "@grm/separator",
+        "@grm/sheet",
+        "@grm/skeleton",
+        "@grm/tooltip",
+        "@grm/use-mobile"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1",
+        "lucide-react@^1.38.0",
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/sidebar.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "slider",
+      "type": "registry:ui",
+      "title": "Slider",
+      "description": "Slider GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/slider.tsx",
+          "type": "registry:ui"
+        }
+      ]
     },
     {
       "name": "spinner",
       "type": "registry:ui",
       "title": "Spinner",
-      "description": "Spinner GRM con tamaños definidos en Figma",
-      "files": [{ "path": "src/components/ui/spinner.tsx", "type": "registry:ui" }]
+      "description": "Spinner GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1",
+        "lucide-react@^1.38.0"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/spinner.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "switch",
+      "type": "registry:ui",
+      "title": "Switch",
+      "description": "Switch GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/switch.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "table",
+      "type": "registry:ui",
+      "title": "Table",
+      "description": "Table GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/table.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "tabs",
+      "type": "registry:ui",
+      "title": "Tabs",
+      "description": "Tabs GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1",
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/tabs.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "toast",
+      "type": "registry:ui",
+      "title": "Toast",
+      "description": "Toast GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/button",
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.7.0",
+        "lucide-react@^1.38.0"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/toast.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "toggle",
+      "type": "registry:ui",
+      "title": "Toggle",
+      "description": "Toggle GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1",
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/toggle.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "toggle-group",
+      "type": "registry:ui",
+      "title": "Toggle Group",
+      "description": "Toggle Group GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base",
+        "@grm/toggle"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1",
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/toggle-group.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "tooltip",
+      "type": "registry:ui",
+      "title": "Tooltip",
+      "description": "Tooltip GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/tooltip.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "aspect-ratio",
+      "type": "registry:ui",
+      "title": "Aspect Ratio",
+      "description": "Aspect Ratio requerido como soporte por los componentes públicos GRM.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/aspect-ratio.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "bubble",
+      "type": "registry:ui",
+      "title": "Bubble",
+      "description": "Bubble requerido como soporte por los componentes públicos GRM.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1",
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/bubble.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "chart",
+      "type": "registry:ui",
+      "title": "Chart",
+      "description": "Chart requerido como soporte por los componentes públicos GRM.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "recharts@^3.8.0"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/chart.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "command",
+      "type": "registry:ui",
+      "title": "Command",
+      "description": "Command requerido como soporte por los componentes públicos GRM.",
+      "registryDependencies": [
+        "@grm/dialog",
+        "@grm/grm-base",
+        "@grm/input-group"
+      ],
+      "dependencies": [
+        "cmdk@^1.1.1",
+        "lucide-react@^1.38.0"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/command.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "data-table-features",
+      "type": "registry:lib",
+      "title": "Data Table Features",
+      "description": "Data Table Features requerido como soporte por los componentes públicos GRM.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "@tanstack/react-table@^9.2.4"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/data-table-features.ts",
+          "type": "registry:lib",
+          "target": "src/components/ui/data-table-features.ts"
+        }
+      ]
+    },
+    {
+      "name": "dialog",
+      "type": "registry:ui",
+      "title": "Dialog",
+      "description": "Dialog requerido como soporte por los componentes públicos GRM.",
+      "registryDependencies": [
+        "@grm/button",
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "lucide-react@^1.38.0",
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/dialog.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "direction",
+      "type": "registry:ui",
+      "title": "Direction",
+      "description": "Direction requerido como soporte por los componentes públicos GRM.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/direction.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "input-group",
+      "type": "registry:ui",
+      "title": "Input Group",
+      "description": "Input Group requerido como soporte por los componentes públicos GRM.",
+      "registryDependencies": [
+        "@grm/button",
+        "@grm/grm-base",
+        "@grm/input",
+        "@grm/textarea"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/input-group.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "marker",
+      "type": "registry:ui",
+      "title": "Marker",
+      "description": "Marker requerido como soporte por los componentes públicos GRM.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1",
+        "radix-ui@^1.6.7"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/marker.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "message",
+      "type": "registry:ui",
+      "title": "Message",
+      "description": "Message requerido como soporte por los componentes públicos GRM.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/message.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "message-scroller",
+      "type": "registry:ui",
+      "title": "Message Scroller",
+      "description": "Message Scroller requerido como soporte por los componentes públicos GRM.",
+      "registryDependencies": [
+        "@grm/button",
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "@shadcn/react@^0.3.1",
+        "lucide-react@^1.38.0"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/message-scroller.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "questionnaire",
+      "type": "registry:ui",
+      "title": "Questionnaire",
+      "description": "Questionnaire requerido como soporte por los componentes públicos GRM.",
+      "registryDependencies": [
+        "@grm/button",
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "@shadcn/react@^0.3.1",
+        "lucide-react@^1.38.0"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/questionnaire.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "skeleton",
+      "type": "registry:ui",
+      "title": "Skeleton",
+      "description": "Skeleton requerido como soporte por los componentes públicos GRM.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/skeleton.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "table-cell-content",
+      "type": "registry:ui",
+      "title": "Table Cell Content",
+      "description": "Table Cell Content requerido como soporte por los componentes públicos GRM.",
+      "registryDependencies": [
+        "@grm/avatar",
+        "@grm/button",
+        "@grm/button-group",
+        "@grm/grm-base",
+        "@grm/progress"
+      ],
+      "dependencies": [
+        "lucide-react@^1.38.0"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/table-cell-content.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "textarea",
+      "type": "registry:ui",
+      "title": "Textarea",
+      "description": "Textarea requerido como soporte por los componentes públicos GRM.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/textarea.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "use-mobile",
+      "type": "registry:hook",
+      "title": "Use Mobile",
+      "description": "Hook responsive requerido por Sidebar.",
+      "files": [
+        {
+          "path": "src/hooks/use-mobile.ts",
+          "type": "registry:hook"
+        }
+      ]
     }
   ]
 }

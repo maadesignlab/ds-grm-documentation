@@ -892,6 +892,32 @@ npm run release
 
 Vercel ejecuta `npm run build-storybook` y sirve el directorio `storybook-static`. El comando `release` no ejecuta `changeset publish`. Los changesets futuros actualizan la versión y `CHANGELOG.md` mediante `npm run version-packages`.
 
+## 12. Consumo por Claude
+
+La generación de wireframes y prototipos navegables utiliza una aplicación React/Tailwind como destino y Claude como consumidor técnico del Design System. El diseñador opera mediante requerimientos en lenguaje natural; no instala paquetes ni copia código desde Storybook.
+
+El agente debe consumir:
+
+- Storybook MCP para descubrir stories, argumentos, estados y comportamiento.
+- `public/r/ai-manifest.json` para relacionar cada componente con Figma, Playground, Docs, implementación y Registry.
+- El Registry de shadcn/ui publicado en `/r/{name}.json` para instalar código real.
+- `AGENTS.md` y `AI_WIREFRAME_WORKFLOW.md` como reglas de generación.
+
+El orden de ejecución es obligatorio:
+
+1. Instalar `@grm/grm-base`.
+2. Aplicar la marca mediante `data-theme`.
+3. Instalar únicamente los componentes requeridos desde `@grm`.
+4. Componer la pantalla con primitives públicos y patrones aprobados.
+5. Renderizar el resultado como HTML desde React.
+6. Validar responsive, accesibilidad, tipos, interacciones y ausencia de estilos prohibidos.
+
+El Registry se genera antes de Storybook mediante `npm run registry:build`. Como `public` es un directorio estático de Storybook, Vercel publica el catálogo en `/r/registry.json`, el manifiesto en `/r/ai-manifest.json` y cada componente en `/r/{name}.json`.
+
+Claude no puede recrear componentes existentes con HTML paralelo, usar las cards editoriales de Docs como implementación, introducir lógica de negocio en primitives ni inventar componentes ausentes. Un faltante debe reportarse como gap del Design System.
+
+El HTML entregable es el resultado compilado de esa aplicación, incluso cuando se publique como un prototipo autónomo. No constituye autorización para mantener una segunda librería de componentes en CSS o JavaScript vanilla. La configuración compartida de Claude vive en `CLAUDE.md` y `.mcp.json`; el formato operativo del brief está documentado en `AI_WIREFRAME_WORKFLOW.md`.
+
 Cada cambio de componente debe documentar:
 
 - Versión.
