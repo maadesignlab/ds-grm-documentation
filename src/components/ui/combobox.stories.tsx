@@ -25,7 +25,8 @@ type Story = StoryObj<typeof meta>
 export const Playground: Story = {
   play: async ({ canvasElement, args }) => {
     const canvas = within(canvasElement)
-    const combobox = canvas.getByRole("combobox")
+    const accessibleName = args.type === "multiple" ? "Añadir opción" : "Selecciona una opción"
+    const combobox = canvas.getByRole("combobox", { name: accessibleName })
     await expect(combobox).toBeVisible()
     if (args.state === "disabled") await expect(combobox).toBeDisabled()
     if (args.state === "invalid" && args.type !== "popup") await expect(combobox).toHaveAttribute("aria-invalid", "true")

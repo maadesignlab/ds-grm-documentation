@@ -121,11 +121,12 @@ export function ComboboxExample({
         key={key}
       >
         {type === "popup" ? (
-          <ComboboxTrigger className="w-full justify-between" render={<Button variant="outline" />}>
+          <ComboboxTrigger aria-label="Selecciona una opción" className="w-full justify-between" render={<Button variant="outline" />}>
             <ComboboxValue>{(value: string | null) => value ?? "Selecciona una opción"}</ComboboxValue>
           </ComboboxTrigger>
         ) : (
           <ComboboxInput
+            aria-label="Selecciona una opción"
             aria-invalid={invalid}
             className="w-full"
             placeholder="Selecciona una opción"
@@ -134,7 +135,7 @@ export function ComboboxExample({
         )}
         <ComboboxContent>
           {type === "popup" && (
-            <ComboboxInput aria-invalid={invalid} placeholder="Buscar opción..." showTrigger={false} />
+            <ComboboxInput aria-label="Buscar opción" aria-invalid={invalid} placeholder="Buscar opción..." showTrigger={false} />
           )}
           <ComboboxEmpty>Sin resultados.</ComboboxEmpty>
           <ComboboxList>
