@@ -1,6 +1,6 @@
 export const typographyStyles = [
   {
-    "name": "display/one/extrabold",
+    "name": "Legacy/display/one/extrabold",
     "family": "Inter",
     "fontStyle": "Extra Bold",
     "size": 30,
@@ -11,10 +11,13 @@ export const typographyStyles = [
     "familyToken": "typography/heading",
     "sizeToken": "text/display-1",
     "weightToken": "typography/style/extrabold",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:e25cd8c01f3a30627bbf3b9f868846578d669d70,",
+    "figmaStyleKey": "e25cd8c01f3a30627bbf3b9f868846578d669d70",
+    "status": "legacy"
   },
   {
-    "name": "heading/one/semibold",
+    "name": "heading/lg/semibold",
     "family": "Inter",
     "fontStyle": "Semi Bold",
     "size": 24,
@@ -23,12 +26,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/heading",
-    "sizeToken": "text/heading-1",
+    "sizeToken": "text/heading-lg",
     "weightToken": "typography/style/semibold",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:b9544cd0a7bd467902c99120a5a8a74f09b69642,",
+    "figmaStyleKey": "b9544cd0a7bd467902c99120a5a8a74f09b69642",
+    "status": "active"
   },
   {
-    "name": "heading/one/bold",
+    "name": "Legacy/heading/one/bold",
     "family": "Inter",
     "fontStyle": "Bold",
     "size": 24,
@@ -37,12 +43,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/heading",
-    "sizeToken": "text/heading-1",
+    "sizeToken": "text/heading-lg",
     "weightToken": "typography/style/bold",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:d884567b3217d4a972a9ad95bbf9318046ffc4d5,",
+    "figmaStyleKey": "d884567b3217d4a972a9ad95bbf9318046ffc4d5",
+    "status": "legacy"
   },
   {
-    "name": "heading/two/semibold",
+    "name": "heading/md/semibold",
     "family": "Inter",
     "fontStyle": "Semi Bold",
     "size": 20,
@@ -51,12 +60,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/heading",
-    "sizeToken": "text/heading-2",
+    "sizeToken": "text/heading-md",
     "weightToken": "typography/style/semibold",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:ee344b01427585606db29cc7c4aac2c81abb3789,",
+    "figmaStyleKey": "ee344b01427585606db29cc7c4aac2c81abb3789",
+    "status": "active"
   },
   {
-    "name": "heading/two/bold",
+    "name": "Legacy/heading/two/bold",
     "family": "Inter",
     "fontStyle": "Bold",
     "size": 20,
@@ -65,12 +77,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/heading",
-    "sizeToken": "text/heading-2",
+    "sizeToken": "text/heading-md",
     "weightToken": "typography/style/bold",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:9ffc4953a00da6f116687f06ea4a0dfb11fe310a,",
+    "figmaStyleKey": "9ffc4953a00da6f116687f06ea4a0dfb11fe310a",
+    "status": "legacy"
   },
   {
-    "name": "heading/three/semibold",
+    "name": "heading/sm/semibold",
     "family": "Inter",
     "fontStyle": "Semi Bold",
     "size": 18,
@@ -79,12 +94,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/heading",
-    "sizeToken": "text/heading-3",
+    "sizeToken": "text/heading-sm",
     "weightToken": "typography/style/semibold",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:868d3b9e94d774dbe00e80acc8a77bb286b11632,",
+    "figmaStyleKey": "868d3b9e94d774dbe00e80acc8a77bb286b11632",
+    "status": "active"
   },
   {
-    "name": "heading/three/bold",
+    "name": "Legacy/heading/three/bold",
     "family": "Inter",
     "fontStyle": "Bold",
     "size": 18,
@@ -93,12 +111,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/heading",
-    "sizeToken": "text/heading-3",
+    "sizeToken": "text/heading-sm",
     "weightToken": "typography/style/bold",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:234051f1c3819bcca33cb0a37946c78b0e68782a,",
+    "figmaStyleKey": "234051f1c3819bcca33cb0a37946c78b0e68782a",
+    "status": "legacy"
   },
   {
-    "name": "body/base/regular",
+    "name": "Legacy/body/base/regular",
     "family": "Inter",
     "fontStyle": "Regular",
     "size": 16,
@@ -107,12 +128,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/body-base",
+    "sizeToken": "text/body-lg",
     "weightToken": "typography/style/normal",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:78c127957fae63f8ff70efadd2f7066fe886e435,",
+    "figmaStyleKey": "78c127957fae63f8ff70efadd2f7066fe886e435",
+    "status": "legacy"
   },
   {
-    "name": "body/base/medium",
+    "name": "body/lg/sans/medium",
     "family": "Inter",
     "fontStyle": "Medium",
     "size": 16,
@@ -121,12 +145,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/body-base",
+    "sizeToken": "text/body-lg",
     "weightToken": "typography/style/medium",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:781eaf6f680951d4f89acd6c5285b40210dae108,",
+    "figmaStyleKey": "781eaf6f680951d4f89acd6c5285b40210dae108",
+    "status": "active"
   },
   {
-    "name": "body/base/semibold",
+    "name": "body/lg/sans/semibold",
     "family": "Inter",
     "fontStyle": "Semi Bold",
     "size": 16,
@@ -135,12 +162,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/body-base",
+    "sizeToken": "text/body-lg",
     "weightToken": "typography/style/semibold",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:23c0d86881bf571a2aa04f8d8f6bccb6347aaa8e,",
+    "figmaStyleKey": "23c0d86881bf571a2aa04f8d8f6bccb6347aaa8e",
+    "status": "active"
   },
   {
-    "name": "body/two/regular",
+    "name": "body/md/sans/regular",
     "family": "Inter",
     "fontStyle": "Regular",
     "size": 14,
@@ -149,12 +179,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/body-1",
+    "sizeToken": "text/body-md",
     "weightToken": "typography/style/normal",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:1d452614e679106aeb9f64166fd66fd5df9751c7,",
+    "figmaStyleKey": "1d452614e679106aeb9f64166fd66fd5df9751c7",
+    "status": "active"
   },
   {
-    "name": "body/two/regular uppercase",
+    "name": "Legacy/body/two/regular uppercase",
     "family": "Inter",
     "fontStyle": "Regular",
     "size": 14,
@@ -163,12 +196,15 @@ export const typographyStyles = [
     "textCase": "UPPER",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/body-1",
+    "sizeToken": "text/body-md",
     "weightToken": "typography/style/normal",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:71f225a71a68beea0150eed0b7111bd1265177b8,",
+    "figmaStyleKey": "71f225a71a68beea0150eed0b7111bd1265177b8",
+    "status": "legacy"
   },
   {
-    "name": "body/two/mono-regular",
+    "name": "body/md/mono/regular",
     "family": "JetBrains Mono",
     "fontStyle": "Regular",
     "size": 14,
@@ -177,12 +213,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/mono",
-    "sizeToken": "text/body-1",
+    "sizeToken": "text/body-md",
     "weightToken": "typography/style/normal",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:3f4faa9e06e50966c5180f01adb3da74f1e59f2e,",
+    "figmaStyleKey": "3f4faa9e06e50966c5180f01adb3da74f1e59f2e",
+    "status": "active"
   },
   {
-    "name": "body/three/regular",
+    "name": "body/sm/sans/regular",
     "family": "Inter",
     "fontStyle": "Regular",
     "size": 12,
@@ -191,12 +230,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/body-2",
+    "sizeToken": "text/body-sm",
     "weightToken": "typography/style/normal",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:144dfbf9f37e6190e40a757d07ef56d8e7e1aae3,",
+    "figmaStyleKey": "144dfbf9f37e6190e40a757d07ef56d8e7e1aae3",
+    "status": "active"
   },
   {
-    "name": "body/three/regular uppercase",
+    "name": "body/sm/sans/regular uppercase",
     "family": "Inter",
     "fontStyle": "Regular",
     "size": 12,
@@ -205,12 +247,15 @@ export const typographyStyles = [
     "textCase": "UPPER",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/body-2",
+    "sizeToken": "text/body-sm",
     "weightToken": "typography/style/normal",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:8a4d33ae0726dbdbae367a69d41d3ee41f5c73c6,",
+    "figmaStyleKey": "8a4d33ae0726dbdbae367a69d41d3ee41f5c73c6",
+    "status": "active"
   },
   {
-    "name": "body/three/medium",
+    "name": "body/sm/sans/medium",
     "family": "Inter",
     "fontStyle": "Medium",
     "size": 12,
@@ -219,12 +264,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/body-2",
+    "sizeToken": "text/body-sm",
     "weightToken": "typography/style/medium",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:3c3dd1b52b19dd0f2bbf02cf78cbd6622b31988f,",
+    "figmaStyleKey": "3c3dd1b52b19dd0f2bbf02cf78cbd6622b31988f",
+    "status": "active"
   },
   {
-    "name": "body/three/semibold",
+    "name": "body/sm/sans/semibold",
     "family": "Inter",
     "fontStyle": "Semi Bold",
     "size": 12,
@@ -233,12 +281,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/body-2",
+    "sizeToken": "text/body-sm",
     "weightToken": "typography/style/semibold",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:bc9ebc4cef6fed716c04a241ef590f1d34aab748,",
+    "figmaStyleKey": "bc9ebc4cef6fed716c04a241ef590f1d34aab748",
+    "status": "active"
   },
   {
-    "name": "body/three/semibold uppercase",
+    "name": "body/sm/sans/semibold uppercase",
     "family": "Inter",
     "fontStyle": "Semi Bold",
     "size": 12,
@@ -247,12 +298,15 @@ export const typographyStyles = [
     "textCase": "UPPER",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/body-2",
+    "sizeToken": "text/body-sm",
     "weightToken": "typography/style/semibold",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:65b559e58d8e1f036639e403d21c3bb30027893f,",
+    "figmaStyleKey": "65b559e58d8e1f036639e403d21c3bb30027893f",
+    "status": "active"
   },
   {
-    "name": "body/three/medium uppercase",
+    "name": "Legacy/body/three/medium uppercase",
     "family": "Inter",
     "fontStyle": "Medium",
     "size": 12,
@@ -261,12 +315,15 @@ export const typographyStyles = [
     "textCase": "UPPER",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/body-2",
+    "sizeToken": "text/body-sm",
     "weightToken": "typography/style/medium",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:f21c03411c853a835f5fe917ce71961dbc32484f,",
+    "figmaStyleKey": "f21c03411c853a835f5fe917ce71961dbc32484f",
+    "status": "legacy"
   },
   {
-    "name": "caption/one/regular",
+    "name": "Legacy/caption/one/regular",
     "family": "Inter",
     "fontStyle": "Regular",
     "size": 11,
@@ -275,12 +332,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/caption-1",
+    "sizeToken": "text/caption-md",
     "weightToken": "typography/style/normal",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:5cdfbb53beb6fe9d179282e4506acd84789b2671,",
+    "figmaStyleKey": "5cdfbb53beb6fe9d179282e4506acd84789b2671",
+    "status": "legacy"
   },
   {
-    "name": "caption/one/medium",
+    "name": "Legacy/caption/one/medium",
     "family": "Inter",
     "fontStyle": "Medium",
     "size": 11,
@@ -289,12 +349,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/caption-1",
+    "sizeToken": "text/caption-md",
     "weightToken": "typography/style/medium",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:8f13ba671827a54bcb70e58137dde351e25f8466,",
+    "figmaStyleKey": "8f13ba671827a54bcb70e58137dde351e25f8466",
+    "status": "legacy"
   },
   {
-    "name": "caption/one/semibold",
+    "name": "caption/md/semibold",
     "family": "Inter",
     "fontStyle": "Semi Bold",
     "size": 11,
@@ -303,12 +366,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/caption-1",
+    "sizeToken": "text/caption-md",
     "weightToken": "typography/style/semibold",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:f0fb58b47bebd4d218c52143f7bea309a80172a7,",
+    "figmaStyleKey": "f0fb58b47bebd4d218c52143f7bea309a80172a7",
+    "status": "active"
   },
   {
-    "name": "caption/one/bold uppercase",
+    "name": "caption/md/bold uppercase",
     "family": "Inter",
     "fontStyle": "Bold",
     "size": 11,
@@ -317,12 +383,15 @@ export const typographyStyles = [
     "textCase": "UPPER",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/caption-1",
+    "sizeToken": "text/caption-md",
     "weightToken": "typography/style/bold",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:87c963b2265c8beb3009b083ff14e8716961fba8,",
+    "figmaStyleKey": "87c963b2265c8beb3009b083ff14e8716961fba8",
+    "status": "active"
   },
   {
-    "name": "caption/two/regular",
+    "name": "caption/sm/regular",
     "family": "Inter",
     "fontStyle": "Regular",
     "size": 10,
@@ -331,12 +400,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/caption-2",
+    "sizeToken": "text/caption-sm",
     "weightToken": "typography/style/normal",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:16a5c60fe1852372d4dbea3de4a48aa9141bced2,",
+    "figmaStyleKey": "16a5c60fe1852372d4dbea3de4a48aa9141bced2",
+    "status": "active"
   },
   {
-    "name": "caption/two/medium",
+    "name": "caption/sm/medium",
     "family": "Inter",
     "fontStyle": "Medium",
     "size": 10,
@@ -345,12 +417,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/caption-2",
+    "sizeToken": "text/caption-sm",
     "weightToken": "typography/style/medium",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:7732a51e82795bfae9a2ab02bdeeeda205616c2f,",
+    "figmaStyleKey": "7732a51e82795bfae9a2ab02bdeeeda205616c2f",
+    "status": "active"
   },
   {
-    "name": "caption/two/medium uppercase",
+    "name": "Legacy/caption/two/medium uppercase",
     "family": "Inter",
     "fontStyle": "Medium",
     "size": 10,
@@ -359,12 +434,15 @@ export const typographyStyles = [
     "textCase": "UPPER",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/caption-2",
+    "sizeToken": "text/caption-sm",
     "weightToken": "typography/style/medium",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:b23504c08b3dafe9a803a7beb2091ad85e099fae,",
+    "figmaStyleKey": "b23504c08b3dafe9a803a7beb2091ad85e099fae",
+    "status": "legacy"
   },
   {
-    "name": "caption/two/semibold",
+    "name": "caption/sm/semibold",
     "family": "Inter",
     "fontStyle": "Semi Bold",
     "size": 10,
@@ -373,12 +451,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/caption-2",
+    "sizeToken": "text/caption-sm",
     "weightToken": "typography/style/semibold",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:8a78309358cdee88bcf6a530e913f308e6649f83,",
+    "figmaStyleKey": "8a78309358cdee88bcf6a530e913f308e6649f83",
+    "status": "active"
   },
   {
-    "name": "caption/three/regular",
+    "name": "Legacy/caption/three/regular",
     "family": "Inter",
     "fontStyle": "Regular",
     "size": 9,
@@ -387,12 +468,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/caption-3",
+    "sizeToken": "text/caption-xs",
     "weightToken": "typography/style/normal",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:2a5fe0bfbdfad176188f6db4b034307bb14512f0,",
+    "figmaStyleKey": "2a5fe0bfbdfad176188f6db4b034307bb14512f0",
+    "status": "legacy"
   },
   {
-    "name": "caption/three/semibold",
+    "name": "caption/xs/semibold",
     "family": "Inter",
     "fontStyle": "Semi Bold",
     "size": 9,
@@ -401,12 +485,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/caption-3",
+    "sizeToken": "text/caption-xs",
     "weightToken": "typography/style/semibold",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:1656a708140615ccfd4f520ca085318fb49e7241,",
+    "figmaStyleKey": "1656a708140615ccfd4f520ca085318fb49e7241",
+    "status": "active"
   },
   {
-    "name": "caption/four/regular",
+    "name": "Legacy/caption/four/regular",
     "family": "Inter",
     "fontStyle": "Regular",
     "size": 8,
@@ -417,10 +504,13 @@ export const typographyStyles = [
     "familyToken": "typography/sans",
     "sizeToken": "text/caption-4",
     "weightToken": "typography/style/normal",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:46f72d4624a9afe8a6a1c9bab5b217c11a832a45,",
+    "figmaStyleKey": "46f72d4624a9afe8a6a1c9bab5b217c11a832a45",
+    "status": "legacy"
   },
   {
-    "name": "caption/four/semibold",
+    "name": "components/avatar/micro/semibold",
     "family": "Inter",
     "fontStyle": "Semi Bold",
     "size": 8,
@@ -431,10 +521,13 @@ export const typographyStyles = [
     "familyToken": "typography/sans",
     "sizeToken": "text/caption-4",
     "weightToken": "typography/style/semibold",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:a870bd9916bbe5c8d9347175baa2c3df5f60e352,",
+    "figmaStyleKey": "a870bd9916bbe5c8d9347175baa2c3df5f60e352",
+    "status": "active"
   },
   {
-    "name": "caption/five/semibold",
+    "name": "components/avatar/tiny/semibold",
     "family": "Inter",
     "fontStyle": "Semi Bold",
     "size": 6,
@@ -445,10 +538,13 @@ export const typographyStyles = [
     "familyToken": "typography/sans",
     "sizeToken": "text/caption-5",
     "weightToken": "typography/style/semibold",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:3ed8ad18fdd83cf61a02240c7acb74e95cc04733,",
+    "figmaStyleKey": "3ed8ad18fdd83cf61a02240c7acb74e95cc04733",
+    "status": "active"
   },
   {
-    "name": "mono/one/regular",
+    "name": "Legacy/mono/one/regular",
     "family": "JetBrains Mono",
     "fontStyle": "Regular",
     "size": 14,
@@ -457,12 +553,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/mono",
-    "sizeToken": "text/body-1",
+    "sizeToken": "text/body-md",
     "weightToken": "typography/style/normal",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:63cdb9466f43673688cae49557dfb2d737934ce8,",
+    "figmaStyleKey": "63cdb9466f43673688cae49557dfb2d737934ce8",
+    "status": "legacy"
   },
   {
-    "name": "mono/two/regular",
+    "name": "Legacy/mono/two/regular",
     "family": "JetBrains Mono",
     "fontStyle": "Regular",
     "size": 12,
@@ -471,12 +570,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/mono",
-    "sizeToken": "text/body-2",
+    "sizeToken": "text/body-sm",
     "weightToken": "typography/style/normal",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:b3ba7351e6829cc942a83e527d3b0d2f54966536,",
+    "figmaStyleKey": "b3ba7351e6829cc942a83e527d3b0d2f54966536",
+    "status": "legacy"
   },
   {
-    "name": "mono/two/medium",
+    "name": "Legacy/mono/two/medium",
     "family": "JetBrains Mono",
     "fontStyle": "Medium",
     "size": 12,
@@ -485,12 +587,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/mono",
-    "sizeToken": "text/body-2",
+    "sizeToken": "text/body-sm",
     "weightToken": "typography/style/medium",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:4ebd1ed0d74a04b0ca7da5be5d0fb804150db0d0,",
+    "figmaStyleKey": "4ebd1ed0d74a04b0ca7da5be5d0fb804150db0d0",
+    "status": "legacy"
   },
   {
-    "name": "mono/three/regular",
+    "name": "body/xs/mono/regular",
     "family": "JetBrains Mono",
     "fontStyle": "Regular",
     "size": 11,
@@ -499,12 +604,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/mono",
-    "sizeToken": "text/caption-1",
+    "sizeToken": "text/caption-md",
     "weightToken": "typography/style/normal",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:ac5510d149859cc0a78ca8fb93f63e8b2911997b,",
+    "figmaStyleKey": "ac5510d149859cc0a78ca8fb93f63e8b2911997b",
+    "status": "active"
   },
   {
-    "name": "body/two/medium",
+    "name": "body/md/sans/medium",
     "family": "Inter",
     "fontStyle": "Medium",
     "size": 14,
@@ -513,12 +621,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/body-1",
+    "sizeToken": "text/body-md",
     "weightToken": "typography/style/medium",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:b9200b5971cf3f84adc1475861c0b20e11d4e15e,",
+    "figmaStyleKey": "b9200b5971cf3f84adc1475861c0b20e11d4e15e",
+    "status": "active"
   },
   {
-    "name": "body/two/medium uppercase",
+    "name": "Legacy/body/two/medium uppercase",
     "family": "Inter",
     "fontStyle": "Medium",
     "size": 14,
@@ -527,12 +638,15 @@ export const typographyStyles = [
     "textCase": "UPPER",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/body-1",
+    "sizeToken": "text/body-md",
     "weightToken": "typography/style/medium",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:61cc934149d2d4c74ae9394e65dcbb115416c925,",
+    "figmaStyleKey": "61cc934149d2d4c74ae9394e65dcbb115416c925",
+    "status": "legacy"
   },
   {
-    "name": "body/two/mono-medium",
+    "name": "body/md/mono/medium",
     "family": "JetBrains Mono",
     "fontStyle": "Medium",
     "size": 14,
@@ -541,12 +655,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/mono",
-    "sizeToken": "text/body-1",
+    "sizeToken": "text/body-md",
     "weightToken": "typography/style/medium",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:51d7fcb8196414f9433a80a651378361c8c21e2f,",
+    "figmaStyleKey": "51d7fcb8196414f9433a80a651378361c8c21e2f",
+    "status": "active"
   },
   {
-    "name": "body/two/medium underline",
+    "name": "body/md/sans/medium underline",
     "family": "Inter",
     "fontStyle": "Medium",
     "size": 14,
@@ -555,12 +672,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "UNDERLINE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/body-1",
+    "sizeToken": "text/body-md",
     "weightToken": "typography/style/medium",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:14995935682beb5ca4a19dd71efefcae86469637,",
+    "figmaStyleKey": "14995935682beb5ca4a19dd71efefcae86469637",
+    "status": "active"
   },
   {
-    "name": "body/two/mono-medium underline",
+    "name": "body/md/mono/medium underline",
     "family": "JetBrains Mono",
     "fontStyle": "Medium",
     "size": 14,
@@ -569,12 +689,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "UNDERLINE",
     "familyToken": "typography/mono",
-    "sizeToken": "text/body-1",
+    "sizeToken": "text/body-md",
     "weightToken": "typography/style/medium",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:b9980b829285fc251155cb0e19524054d5099379,",
+    "figmaStyleKey": "b9980b829285fc251155cb0e19524054d5099379",
+    "status": "active"
   },
   {
-    "name": "body/two/medium italic",
+    "name": "Legacy/body/two/medium italic",
     "family": "Inter",
     "fontStyle": "Medium Italic",
     "size": 14,
@@ -583,12 +706,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/body-1",
+    "sizeToken": "text/body-md",
     "weightToken": "",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:e272ae35207e39a304c49b5caa8be92275909a61,",
+    "figmaStyleKey": "e272ae35207e39a304c49b5caa8be92275909a61",
+    "status": "legacy"
   },
   {
-    "name": "body/two/semibold",
+    "name": "body/md/sans/semibold",
     "family": "Inter",
     "fontStyle": "Semi Bold",
     "size": 14,
@@ -597,12 +723,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/body-1",
+    "sizeToken": "text/body-md",
     "weightToken": "typography/style/semibold",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:a652e3f14d671105454c3f2ba846e458c20c9a27,",
+    "figmaStyleKey": "a652e3f14d671105454c3f2ba846e458c20c9a27",
+    "status": "active"
   },
   {
-    "name": "body/two/semibold uppercase",
+    "name": "Legacy/body/two/semibold uppercase",
     "family": "Inter",
     "fontStyle": "Semi Bold",
     "size": 14,
@@ -611,12 +740,15 @@ export const typographyStyles = [
     "textCase": "UPPER",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/body-1",
+    "sizeToken": "text/body-md",
     "weightToken": "typography/style/semibold",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:9966e1fdfb86a8b2bea4adc9d989ae15c7fa3934,",
+    "figmaStyleKey": "9966e1fdfb86a8b2bea4adc9d989ae15c7fa3934",
+    "status": "legacy"
   },
   {
-    "name": "body/three/bold uppercase",
+    "name": "Legacy/body/three/bold uppercase",
     "family": "Inter",
     "fontStyle": "Bold",
     "size": 12,
@@ -625,12 +757,15 @@ export const typographyStyles = [
     "textCase": "UPPER",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/body-2",
+    "sizeToken": "text/body-sm",
     "weightToken": "typography/style/bold",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:2a1dd1286c6c8963555d1d3543879fa6eaa3993f,",
+    "figmaStyleKey": "2a1dd1286c6c8963555d1d3543879fa6eaa3993f",
+    "status": "legacy"
   },
   {
-    "name": "components/button/lg",
+    "name": "components/button/base",
     "family": "Inter",
     "fontStyle": "Medium",
     "size": 14,
@@ -641,10 +776,13 @@ export const typographyStyles = [
     "familyToken": "typography/sans",
     "sizeToken": "typography/size/tailwind/sm",
     "weightToken": "typography/style/medium",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:592db2195316334a05d7f58ef0fced7f0ff0cfb0,",
+    "figmaStyleKey": "592db2195316334a05d7f58ef0fced7f0ff0cfb0",
+    "status": "active"
   },
   {
-    "name": "components/button/lg underline",
+    "name": "components/button/base underline",
     "family": "Inter",
     "fontStyle": "Medium",
     "size": 14,
@@ -655,10 +793,13 @@ export const typographyStyles = [
     "familyToken": "typography/sans",
     "sizeToken": "typography/size/tailwind/sm",
     "weightToken": "typography/style/medium",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:1bd8add0fe5b9782b6c277dc7aa8ef6b7bd7c0fa,",
+    "figmaStyleKey": "1bd8add0fe5b9782b6c277dc7aa8ef6b7bd7c0fa",
+    "status": "active"
   },
   {
-    "name": "components/button/default",
+    "name": "Legacy/components/button/default",
     "family": "Inter",
     "fontStyle": "Medium",
     "size": 14,
@@ -669,10 +810,13 @@ export const typographyStyles = [
     "familyToken": "typography/sans",
     "sizeToken": "typography/size/tailwind/sm",
     "weightToken": "typography/style/medium",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:6be05787b8a9475f66a43b9b39b415a570b84316,",
+    "figmaStyleKey": "6be05787b8a9475f66a43b9b39b415a570b84316",
+    "status": "legacy"
   },
   {
-    "name": "components/button/default underline",
+    "name": "Legacy/components/button/default underline",
     "family": "Inter",
     "fontStyle": "Medium",
     "size": 14,
@@ -683,7 +827,10 @@ export const typographyStyles = [
     "familyToken": "typography/sans",
     "sizeToken": "typography/size/tailwind/sm",
     "weightToken": "typography/style/medium",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:6714b1988c6df0f393bd27f39d64b859b9ed488b,",
+    "figmaStyleKey": "6714b1988c6df0f393bd27f39d64b859b9ed488b",
+    "status": "legacy"
   },
   {
     "name": "components/button/sm",
@@ -697,7 +844,10 @@ export const typographyStyles = [
     "familyToken": "typography/sans",
     "sizeToken": "typography/size/rem/0,8",
     "weightToken": "typography/style/medium",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:fc73b7145c7efdd9b23b63286700e52075797c31,",
+    "figmaStyleKey": "fc73b7145c7efdd9b23b63286700e52075797c31",
+    "status": "active"
   },
   {
     "name": "components/button/sm underline",
@@ -711,7 +861,10 @@ export const typographyStyles = [
     "familyToken": "typography/sans",
     "sizeToken": "typography/size/rem/0,8",
     "weightToken": "typography/style/medium",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:0e516aa853ace7ce16da327e3045bf69e86465f4,",
+    "figmaStyleKey": "0e516aa853ace7ce16da327e3045bf69e86465f4",
+    "status": "active"
   },
   {
     "name": "components/button/xs",
@@ -725,7 +878,10 @@ export const typographyStyles = [
     "familyToken": "typography/sans",
     "sizeToken": "typography/size/tailwind/xs",
     "weightToken": "typography/style/medium",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:362d32771c7af0e89df304f202df397487c29605,",
+    "figmaStyleKey": "362d32771c7af0e89df304f202df397487c29605",
+    "status": "active"
   },
   {
     "name": "components/button/xs underline",
@@ -739,7 +895,10 @@ export const typographyStyles = [
     "familyToken": "typography/sans",
     "sizeToken": "typography/size/tailwind/xs",
     "weightToken": "typography/style/medium",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:f3c2bb997231aa5bc5851043f4ccbf59e1a23e70,",
+    "figmaStyleKey": "f3c2bb997231aa5bc5851043f4ccbf59e1a23e70",
+    "status": "active"
   },
   {
     "name": "components/badge/xl/medium",
@@ -753,7 +912,10 @@ export const typographyStyles = [
     "familyToken": "typography/sans",
     "sizeToken": "",
     "weightToken": "typography/style/medium",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:60fd2457e505972251cac0b2880b18d26f85cf3d,",
+    "figmaStyleKey": "60fd2457e505972251cac0b2880b18d26f85cf3d",
+    "status": "active"
   },
   {
     "name": "components/badge/lg/medium",
@@ -767,10 +929,13 @@ export const typographyStyles = [
     "familyToken": "typography/sans",
     "sizeToken": "",
     "weightToken": "typography/style/medium",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:828b1ddbbf92bea4b8d3e4350d37defe4cfcbfb2,",
+    "figmaStyleKey": "828b1ddbbf92bea4b8d3e4350d37defe4cfcbfb2",
+    "status": "active"
   },
   {
-    "name": "components/badge/md/medium",
+    "name": "Legacy/components/badge/md/medium",
     "family": "Inter",
     "fontStyle": "Medium",
     "size": 10,
@@ -781,10 +946,13 @@ export const typographyStyles = [
     "familyToken": "typography/sans",
     "sizeToken": "",
     "weightToken": "typography/style/medium",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:5b4fd7da8cac8bee3235863ded6c38fc204cad80,",
+    "figmaStyleKey": "5b4fd7da8cac8bee3235863ded6c38fc204cad80",
+    "status": "legacy"
   },
   {
-    "name": "components/badge/sm/medium",
+    "name": "components/badge/compact/medium",
     "family": "Inter",
     "fontStyle": "Medium",
     "size": 10,
@@ -795,10 +963,13 @@ export const typographyStyles = [
     "familyToken": "typography/sans",
     "sizeToken": "",
     "weightToken": "typography/style/medium",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:757f773fd9377530fccfc852cb515519ff556f17,",
+    "figmaStyleKey": "757f773fd9377530fccfc852cb515519ff556f17",
+    "status": "active"
   },
   {
-    "name": "components/sonner/default",
+    "name": "components/toast/medium",
     "family": "Inter",
     "fontStyle": "Medium",
     "size": 13,
@@ -809,10 +980,13 @@ export const typographyStyles = [
     "familyToken": "typography/sans",
     "sizeToken": "",
     "weightToken": "typography/style/medium",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:af9438857525091232a0869b586aabdc64378c88,",
+    "figmaStyleKey": "af9438857525091232a0869b586aabdc64378c88",
+    "status": "active"
   },
   {
-    "name": "components/calendar/regular line-through",
+    "name": "Legacy/components/calendar/regular line-through",
     "family": "Inter",
     "fontStyle": "Regular",
     "size": 14,
@@ -821,9 +995,12 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "STRIKETHROUGH",
     "familyToken": "typography/sans",
-    "sizeToken": "text/body-1",
+    "sizeToken": "text/body-md",
     "weightToken": "typography/style/normal",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:056bb704fe7d947f5db775c41cc7670e782aa782,",
+    "figmaStyleKey": "056bb704fe7d947f5db775c41cc7670e782aa782",
+    "status": "legacy"
   },
   {
     "name": "components/calendar/regular",
@@ -835,9 +1012,12 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/body-1",
+    "sizeToken": "text/body-md",
     "weightToken": "typography/style/normal",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:2b0d861a957c13c51dc97af70793b711d876a429,",
+    "figmaStyleKey": "2b0d861a957c13c51dc97af70793b711d876a429",
+    "status": "active"
   },
   {
     "name": "components/calendar/bold",
@@ -849,12 +1029,15 @@ export const typographyStyles = [
     "textCase": "ORIGINAL",
     "textDecoration": "NONE",
     "familyToken": "typography/sans",
-    "sizeToken": "text/body-1",
+    "sizeToken": "text/body-md",
     "weightToken": "typography/style/bold",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:ae9b6eab7aad4b5078f8cb6e91b4c4a6e69803bd,",
+    "figmaStyleKey": "ae9b6eab7aad4b5078f8cb6e91b4c4a6e69803bd",
+    "status": "active"
   },
   {
-    "name": "body/base/mono-regular",
+    "name": "Legacy/body/base/mono-regular",
     "family": "JetBrains Mono",
     "fontStyle": "Regular",
     "size": 16,
@@ -865,9 +1048,11 @@ export const typographyStyles = [
     "familyToken": "typography/mono",
     "sizeToken": "typography/size/tailwind/base",
     "weightToken": "",
-    "lineHeightToken": ""
+    "lineHeightToken": "",
+    "figmaStyleId": "S:63e0ba12068896ee0930ddec74c27274242e61ee,",
+    "figmaStyleKey": "63e0ba12068896ee0930ddec74c27274242e61ee",
+    "status": "legacy"
   }
 ] as const;
 
 export type TypographyStyle = (typeof typographyStyles)[number];
-

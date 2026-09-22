@@ -914,6 +914,20 @@ El orden de ejecución es obligatorio:
 
 El Registry se genera antes de Storybook mediante `npm run registry:build`. Como `public` es un directorio estático de Storybook, Vercel publica el catálogo en `/r/registry.json`, el manifiesto en `/r/ai-manifest.json` y cada componente en `/r/{name}.json`.
 
+### Catálogo exhaustivo para UX/UI e IA
+
+`STORYBOOK_UX_UI_CATALOG.md` es el snapshot versionado y autocontenido de la release vigente. Consolida marcas, tokens, tipografía, inventario, nodos de Figma, enlaces a Docs y Playground, contratos de props, controles, stories, presets, especificaciones y reglas de uso de todos los componentes documentados.
+
+El archivo se genera mediante:
+
+```bash
+npm run catalog:generate
+```
+
+No debe editarse manualmente. Las correcciones se realizan en las fuentes canónicas —Figma, Foundations, Registry, primitive, `*-example.tsx`, stories, `*-docs.tsx` o MDX— y después se regenera. `npm run registry:build` ejecuta esta generación automáticamente, por lo que cada build y release debe incluir su diff cuando cambie el sistema.
+
+La versión del frontmatter proviene de `package.json`. En cada release, el catálogo generado debe formar parte del mismo commit y tag que el código. Su consumidor debe cargar primero las secciones generales y únicamente los capítulos de componentes necesarios para la pantalla, evitando enviar las 50 fichas completas cuando no sean requeridas.
+
 Claude no puede recrear componentes existentes con HTML paralelo, usar las cards editoriales de Docs como implementación, introducir lógica de negocio en primitives ni inventar componentes ausentes. Un faltante debe reportarse como gap del Design System.
 
 El HTML entregable es el resultado compilado de esa aplicación, incluso cuando se publique como un prototipo autónomo. No constituye autorización para mantener una segunda librería de componentes en CSS o JavaScript vanilla. La configuración compartida de Claude vive en `CLAUDE.md` y `.mcp.json`; el formato operativo del brief está documentado en `AI_WIREFRAME_WORKFLOW.md`.
@@ -1007,6 +1021,7 @@ La corrección debe realizarse en la capa responsable. Cuando Storybook Docs sob
 - [ ] Comprobar si los bordes de Figma son interiores antes de usar `border`.
 - [ ] Evitar combinaciones de variantes que no existan en Figma.
 - [ ] Ejecutar lint, typecheck, pruebas y build de Storybook.
+- [ ] Regenerar `STORYBOOK_UX_UI_CATALOG.md` y revisar que su versión, inventario y enlaces correspondan a la release.
 - [ ] Crear el changeset correspondiente.
 
 ## Principio final

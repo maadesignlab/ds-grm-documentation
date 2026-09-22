@@ -18,9 +18,10 @@ La referencia no debe copiarse como arquitectura. Un HTML autónomo que recrea `
 La IA debe consultar, en este orden:
 
 1. `DESIGN_SYSTEM_WORKFLOW.md`, como contrato del proyecto.
-2. Storybook y su MCP, para descubrir componentes, argumentos, estados y comportamiento real.
-3. `public/r/ai-manifest.json`, para relacionar Registry, Figma, implementación, ejemplo y Docs.
-4. El Registry `/r/{component}.json`, para incorporar el código real.
+2. `STORYBOOK_UX_UI_CATALOG.md`, cargando las reglas generales y solo las fichas de los componentes requeridos.
+3. Storybook y su MCP, para confirmar componentes, argumentos, estados y comportamiento real.
+4. `public/r/ai-manifest.json`, para relacionar Registry, Figma, implementación, ejemplo y Docs.
+5. El Registry `/r/{component}.json`, para incorporar el código real.
 
 Playground es la referencia canónica de renderizado. Figma determina la expresión GRM y shadcn/ui conserva la estructura y el comportamiento.
 
@@ -129,7 +130,7 @@ La hoja de entrada de la aplicación debe importar `src/styles/grm.css` y las fu
 
 ## Configuración de Claude Code
 
-El repositorio incluye `.mcp.json`, que registra Storybook en `http://localhost:6006/mcp`, y `CLAUDE.md`, que carga este flujo y el contrato del Design System.
+El repositorio incluye `.mcp.json`, que registra dos accesos: `grm-storybook` para autoría y pruebas contra Storybook local, y `grm-storybook-docs` para consultar la documentación compartida publicada en Chromatic. `CLAUDE.md` carga este flujo y el contrato del Design System.
 
 Antes de iniciar Claude Code:
 
@@ -161,4 +162,10 @@ vacío, cargando y error. No recrees componentes con HTML paralelo y reporta
 cualquier gap del Design System.
 ```
 
-ChatGPT web no puede acceder al Storybook servido únicamente en `localhost`. Para usarlo desde la web se necesita publicar un endpoint MCP remoto; la publicación estática actual en Vercel sí distribuye Docs y Registry, pero no sustituye un servidor MCP remoto.
+Para el equipo, la documentación y el MCP remoto están publicados en Chromatic:
+
+- Storybook: `https://6aa378ea63d7e5f79e6c2845-ctflbyijzl.chromatic.com/`
+- MCP de documentación: `https://6aa378ea63d7e5f79e6c2845-ctflbyijzl.chromatic.com/mcp`
+- Registry: `https://ds-grm-documentation.vercel.app/r/{name}.json`
+
+Los consumidores no necesitan ejecutar Storybook localmente. El servidor local se conserva únicamente para desarrollar, probar y documentar componentes dentro de este repositorio.

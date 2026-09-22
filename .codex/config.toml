@@ -4,3 +4,11 @@ enabled = true
 required = false
 startup_timeout_sec = 10
 tool_timeout_sec = 60
+
+[mcp_servers.grm_storybook_docs]
+url = "https://6aa378ea63d7e5f79e6c2845-ctflbyijzl.chromatic.com/mcp"
+http_headers = { "X-MCP-Toolsets" = "docs" }
+enabled = true
+required = false
+startup_timeout_sec = 10
+tool_timeout_sec = 60

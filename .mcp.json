@@ -3,6 +3,13 @@
     "grm-storybook": {
       "type": "http",
       "url": "http://localhost:6006/mcp"
+    },
+    "grm-storybook-docs": {
+      "type": "http",
+      "url": "https://6aa378ea63d7e5f79e6c2845-ctflbyijzl.chromatic.com/mcp",
+      "headers": {
+        "X-MCP-Toolsets": "docs"
+      }
     }
   }
 }

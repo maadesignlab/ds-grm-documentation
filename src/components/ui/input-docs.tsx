@@ -36,7 +36,7 @@ const geometry = [
   ["Altura", "h-8", "32px", "Oficial shadcn/ui · radix-nova"],
   ["Radio", "rounded-lg", "var(--radius) · 10px", "Token global"],
   ["Padding horizontal", "px-2.5", "10px", "Oficial shadcn/ui · radix-nova"],
-  ["Texto", "text-sm / leading-5", "14px / 20px", "body/two/regular"],
+  ["Texto", "text-sm / leading-5", "14px / 20px", "body/md/sans/regular"],
 ] as const
 const colors = [
   ["Fondo", "bg-transparent", "transparent", "Superficie heredada"],

@@ -21,6 +21,7 @@ const GROUP_LABELS: Record<string, string> = {
   caption: 'Caption',
   mono: 'Mono',
   components: 'Components',
+  Legacy: 'Legacy · compatibilidad',
 };
 
 const getActiveBrand = (): BrandValue => {
@@ -168,7 +169,7 @@ export function TypographyTable() {
       const group = style.name.split('/')[0];
       result.set(group, [...(result.get(group) ?? []), style]);
     }
-    return [...result.entries()];
+    return [...result.entries()].sort(([a], [b]) => Number(a === 'Legacy') - Number(b === 'Legacy'));
   }, []);
 
   return (
@@ -178,7 +179,7 @@ export function TypographyTable() {
           <p className="m-0 text-sm leading-5 font-medium">Escala tipográfica</p>
           <p className="mb-0 mt-1 text-(length:--docs-description-font-size) leading-5 text-muted-foreground">Las muestras usan la familia activa de {BRAND_LABELS[activeBrand]}.</p>
         </div>
-        <span className="rounded-full border border-border px-3 py-1 text-xs text-muted-foreground">{typographyStyles.length} estilos</span>
+        <span className="rounded-full border border-border px-3 py-1 text-xs text-muted-foreground">{typographyStyles.filter((style) => style.status === 'active').length} activos · {typographyStyles.filter((style) => style.status === 'legacy').length} Legacy</span>
       </header>
 
       {groups.map(([group, styles]) => (

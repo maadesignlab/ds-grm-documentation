@@ -11,13 +11,15 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "registry:generate": "node scripts/generate-registry.mjs",
-    "registry:build": "npm run registry:generate && shadcn build src/components/registry.json",
+    "catalog:generate": "node scripts/generate-ux-ui-catalog.mjs",
+    "registry:build": "npm run registry:generate && npm run catalog:generate && shadcn build src/components/registry.json",
     "prestorybook": "npm run registry:build",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "npm run registry:build && storybook build",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "npm run lint && npm run typecheck && npm run test && npm run build-storybook"
+    "release": "npm run lint && npm run typecheck && npm run test && npm run build-storybook",
+    "chromatic": "npx chromatic --project-token=chpt_56aed8600e63eda"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",
