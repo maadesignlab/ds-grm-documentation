@@ -1,7 +1,7 @@
 ---
 title: "Catálogo UX/UI del Storybook GRM"
 designSystem: "Design System GRM"
-version: "1.1.0"
+version: "1.1.1"
 catalogSchemaVersion: 1
 status: "current"
 canonicalRendering: "Playground"
@@ -10,14 +10,14 @@ generatedFrom: "Storybook source"
 
 # Catálogo UX/UI del Storybook GRM
 
-> Snapshot exhaustivo de **Design System GRM v1.1.0**. Este archivo está orientado a diseñadores UX/UI y agentes de IA que necesiten construir wireframes fieles al Storybook sin recorrer todo el repositorio.
+> Snapshot exhaustivo de **Design System GRM v1.1.1**. Este archivo está orientado a diseñadores UX/UI y agentes de IA que necesiten construir wireframes fieles al Storybook sin recorrer todo el repositorio.
 > **Archivo generado:** no editar manualmente. Actualizar las fuentes canónicas y ejecutar `npm run catalog:generate`.
 
 ## Estado y alcance de esta versión
 
 | Campo | Valor |
 | --- | --- |
-| Versión del Design System | `1.1.0` |
+| Versión del Design System | `1.1.1` |
 | Componentes documentados | 50 |
 | Marcas | GRM Global, Reina Madre, María Linda, Piel Sana |
 | Base técnica | shadcn/ui; Radix UI o Base UI según el componente oficial vigente |
@@ -3350,7 +3350,7 @@ Panel flotante deslizable con posiciones, tamaños, nesting, non-modal y snap po
 | Categoría | Overlay |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Base UI |
-| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
+| Versión documentada | `v1.0.2` — Fondo conciliado con Figma · DS v1.1.1 |
 | Figma | [nodo 1290:302](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1290-302) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-drawer--docs) |
 | Registry | [drawer.json](https://ds-grm-documentation.vercel.app/r/drawer.json) |
@@ -3361,7 +3361,9 @@ Panel flotante deslizable con posiciones, tamaños, nesting, non-modal y snap po
 
 ### Cambios declarados en la versión del componente
 
-- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
+- Sustituye el fondo `popover` por `sheet-drawer`, blanco en las cuatro marcas.
+- Conserva texto, overlay, variantes y comportamiento existentes.
+- Drawer aplica el mismo token a la extensión del fondo durante el arrastre.
 
 ### Contrato técnico y composición
 
@@ -6169,7 +6171,7 @@ Panel superpuesto desde un borde con anchuras y disposiciones de footer document
 | Categoría | Overlay |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
+| Versión documentada | `v1.0.2` — Fondo conciliado con Figma · DS v1.1.1 |
 | Figma | [nodo 1295:386](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1295-386) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-sheet--docs) |
 | Registry | [sheet.json](https://ds-grm-documentation.vercel.app/r/sheet.json) |
@@ -6180,7 +6182,8 @@ Panel superpuesto desde un borde con anchuras y disposiciones de footer document
 
 ### Cambios declarados en la versión del componente
 
-- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
+- Sustituye el fondo `popover` por `sheet-drawer`, blanco en las cuatro marcas.
+- Conserva texto, overlay, variantes y comportamiento existentes.
 
 ### Contrato técnico y composición
 

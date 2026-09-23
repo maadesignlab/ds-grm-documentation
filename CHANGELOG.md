@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.1 — 2026-09-23
+
+- Sheet y Drawer v1.0.2: fondo `popover` → `sheet-drawer`, conciliado con las siete variantes de Figma.
+- Drawer: extensión del fondo durante swipe usa el mismo token.
+- Variables y paletas sin cambios; se mantienen las excepciones documentadas de v1.1.0.
+
 ## 1.1.0 — 2026-09-23
 
 ### Trayectoria

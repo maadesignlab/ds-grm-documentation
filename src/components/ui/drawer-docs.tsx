@@ -34,7 +34,7 @@ const geometry = [
 
 const variables = [
   ["--drawer-inset", "0px oficial · 16px GRM", "Separación flotante respecto al viewport"],
-  ["--drawer-bleed-background", "transparent con inset · var(--color-popover) sin inset", "Evita unir visualmente el drawer flotante al borde"],
+  ["--drawer-bleed-background", "transparent con inset · var(--sheet-drawer) sin inset", "Evita unir visualmente el drawer flotante al borde"],
   ["--drawer-overlay-min-opacity", "0 · 0.5 con snap points", "Opacidad mínima del overlay"],
 ] as const
 

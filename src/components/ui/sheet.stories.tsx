@@ -27,6 +27,7 @@ export const Playground: Story = {
     const content = document.querySelector<HTMLElement>("[data-slot=sheet-content]")
     const footer = document.querySelector<HTMLElement>("[data-slot=sheet-footer]")
     await expect(content).toBeTruthy()
+    await expect(getComputedStyle(content!).backgroundColor).toBe("rgb(255, 255, 255)")
     await expect(content).toHaveAttribute("data-side", args.side ?? "right")
     await expect(footer).toBeTruthy()
     await expect(getComputedStyle(footer!).flexDirection).toBe(args.footerAlignment === "row" ? "row" : "column")

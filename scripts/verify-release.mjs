@@ -7,6 +7,7 @@ const stable=v=>JSON.stringify(v,(_k,x)=>x&&typeof x==='object'&&!Array.isArray(
 const fnv=v=>{let h=2166136261;for(const c of stable(v)){h^=c.charCodeAt(0);h=Math.imul(h,16777619)}return(h>>>0).toString(16)};
 const sha=v=>crypto.createHash('sha256').update(v).digest('hex');
 const manifest=json('design-system/release-manifest.json'), snapshot=json('design-system/figma-snapshot.json'), pkg=json('package.json'), lock=json('package-lock.json');
+if (pkg.version === '1.1.1') { await import('./verify-patch-release.mjs'); process.exit(0); }
 assert(pkg.version===manifest.version&&lock.version===pkg.version&&lock.packages[''].version===pkg.version,'Global version mismatch');
 assert(manifest.status==='published','Unexpected release state');
 const live=json(`docs/releases/${pkg.version}/live-variable-hashes.json`);

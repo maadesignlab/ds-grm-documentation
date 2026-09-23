@@ -1,0 +1,254 @@
+[
+  {
+    "brand": "grm-global",
+    "component": "sheet",
+    "direction": "left",
+    "width": 480,
+    "background": "rgb(255, 255, 255)",
+    "bleed": null,
+    "token": "#ffffff"
+  },
+  {
+    "brand": "grm-global",
+    "component": "sheet",
+    "direction": "right",
+    "width": 480,
+    "background": "rgb(255, 255, 255)",
+    "bleed": null,
+    "token": "#ffffff"
+  },
+  {
+    "brand": "grm-global",
+    "component": "sheet",
+    "direction": "top",
+    "width": 480,
+    "background": "rgb(255, 255, 255)",
+    "bleed": null,
+    "token": "#ffffff"
+  },
+  {
+    "brand": "grm-global",
+    "component": "sheet",
+    "direction": "bottom",
+    "width": 480,
+    "background": "rgb(255, 255, 255)",
+    "bleed": null,
+    "token": "#ffffff"
+  },
+  {
+    "brand": "grm-global",
+    "component": "drawer",
+    "direction": "right",
+    "width": 480,
+    "background": "rgb(255, 255, 255)",
+    "bleed": "rgb(255, 255, 255)",
+    "token": "#ffffff"
+  },
+  {
+    "brand": "grm-global",
+    "component": "drawer",
+    "direction": "right",
+    "width": 384,
+    "background": "rgb(255, 255, 255)",
+    "bleed": "rgb(255, 255, 255)",
+    "token": "#ffffff"
+  },
+  {
+    "brand": "grm-global",
+    "component": "drawer",
+    "direction": "down",
+    "width": 480,
+    "background": "rgb(255, 255, 255)",
+    "bleed": "rgb(255, 255, 255)",
+    "token": "#ffffff"
+  },
+  {
+    "brand": "reina-madre",
+    "component": "sheet",
+    "direction": "left",
+    "width": 480,
+    "background": "rgb(255, 255, 255)",
+    "bleed": null,
+    "token": "#ffffff"
+  },
+  {
+    "brand": "reina-madre",
+    "component": "sheet",
+    "direction": "right",
+    "width": 480,
+    "background": "rgb(255, 255, 255)",
+    "bleed": null,
+    "token": "#ffffff"
+  },
+  {
+    "brand": "reina-madre",
+    "component": "sheet",
+    "direction": "top",
+    "width": 480,
+    "background": "rgb(255, 255, 255)",
+    "bleed": null,
+    "token": "#ffffff"
+  },
+  {
+    "brand": "reina-madre",
+    "component": "sheet",
+    "direction": "bottom",
+    "width": 480,
+    "background": "rgb(255, 255, 255)",
+    "bleed": null,
+    "token": "#ffffff"
+  },
+  {
+    "brand": "reina-madre",
+    "component": "drawer",
+    "direction": "right",
+    "width": 480,
+    "background": "rgb(255, 255, 255)",
+    "bleed": "rgb(255, 255, 255)",
+    "token": "#ffffff"
+  },
+  {
+    "brand": "reina-madre",
+    "component": "drawer",
+    "direction": "right",
+    "width": 384,
+    "background": "rgb(255, 255, 255)",
+    "bleed": "rgb(255, 255, 255)",
+    "token": "#ffffff"
+  },
+  {
+    "brand": "reina-madre",
+    "component": "drawer",
+    "direction": "down",
+    "width": 480,
+    "background": "rgb(255, 255, 255)",
+    "bleed": "rgb(255, 255, 255)",
+    "token": "#ffffff"
+  },
+  {
+    "brand": "maria-linda",
+    "component": "sheet",
+    "direction": "left",
+    "width": 480,
+    "background": "rgb(255, 255, 255)",
+    "bleed": null,
+    "token": "#ffffff"
+  },
+  {
+    "brand": "maria-linda",
+    "component": "sheet",
+    "direction": "right",
+    "width": 480,
+    "background": "rgb(255, 255, 255)",
+    "bleed": null,
+    "token": "#ffffff"
+  },
+  {
+    "brand": "maria-linda",
+    "component": "sheet",
+    "direction": "top",
+    "width": 480,
+    "background": "rgb(255, 255, 255)",
+    "bleed": null,
+    "token": "#ffffff"
+  },
+  {
+    "brand": "maria-linda",
+    "component": "sheet",
+    "direction": "bottom",
+    "width": 480,
+    "background": "rgb(255, 255, 255)",
+    "bleed": null,
+    "token": "#ffffff"
+  },
+  {
+    "brand": "maria-linda",
+    "component": "drawer",
+    "direction": "right",
+    "width": 480,
+    "background": "rgb(255, 255, 255)",
+    "bleed": "rgb(255, 255, 255)",
+    "token": "#ffffff"
+  },
+  {
+    "brand": "maria-linda",
+    "component": "drawer",
+    "direction": "right",
+    "width": 384,
+    "background": "rgb(255, 255, 255)",
+    "bleed": "rgb(255, 255, 255)",
+    "token": "#ffffff"
+  },
+  {
+    "brand": "maria-linda",
+    "component": "drawer",
+    "direction": "down",
+    "width": 480,
+    "background": "rgb(255, 255, 255)",
+    "bleed": "rgb(255, 255, 255)",
+    "token": "#ffffff"
+  },
+  {
+    "brand": "piel-sana",
+    "component": "sheet",
+    "direction": "left",
+    "width": 480,
+    "background": "rgb(255, 255, 255)",
+    "bleed": null,
+    "token": "#ffffff"
+  },
+  {
+    "brand": "piel-sana",
+    "component": "sheet",
+    "direction": "right",
+    "width": 480,
+    "background": "rgb(255, 255, 255)",
+    "bleed": null,
+    "token": "#ffffff"
+  },
+  {
+    "brand": "piel-sana",
+    "component": "sheet",
+    "direction": "top",
+    "width": 480,
+    "background": "rgb(255, 255, 255)",
+    "bleed": null,
+    "token": "#ffffff"
+  },
+  {
+    "brand": "piel-sana",
+    "component": "sheet",
+    "direction": "bottom",
+    "width": 480,
+    "background": "rgb(255, 255, 255)",
+    "bleed": null,
+    "token": "#ffffff"
+  },
+  {
+    "brand": "piel-sana",
+    "component": "drawer",
+    "direction": "right",
+    "width": 480,
+    "background": "rgb(255, 255, 255)",
+    "bleed": "rgb(255, 255, 255)",
+    "token": "#ffffff"
+  },
+  {
+    "brand": "piel-sana",
+    "component": "drawer",
+    "direction": "right",
+    "width": 384,
+    "background": "rgb(255, 255, 255)",
+    "bleed": "rgb(255, 255, 255)",
+    "token": "#ffffff"
+  },
+  {
+    "brand": "piel-sana",
+    "component": "drawer",
+    "direction": "down",
+    "width": 480,
+    "background": "rgb(255, 255, 255)",
+    "bleed": "rgb(255, 255, 255)",
+    "token": "#ffffff"
+  }
+]

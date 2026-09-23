@@ -45,6 +45,7 @@ export const Playground: Story = {
     const body = document.querySelector<HTMLElement>("[data-slot=drawer-body]")
     const buttons = [...document.querySelectorAll<HTMLButtonElement>("[data-slot=drawer-footer] button")]
     await expect(popup).toBeTruthy()
+    await expect(getComputedStyle(popup!).backgroundColor).toBe("rgb(255, 255, 255)")
     await expect(content).toBeTruthy()
     await expect(body).toBeTruthy()
     await expect(buttons).toHaveLength(args.buttonAmount ?? 2)

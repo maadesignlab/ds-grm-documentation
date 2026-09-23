@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.1.1",
+  "version": "1.1.0",
   "status": "published",
-  "baselineCommit": "b94d2ec",
+  "baselineCommit": "d47da42",
   "figmaFileKey": "X33xAJBT7ty8FWYDFVvo3m",
   "versionPolicy": "Components preserve independent documented SemVer histories. Variables/styles receive their first recorded object version at 1.1.0; previousVersion=null does not assert a historical change. Future object changes increment independently.",
   "components": [
@@ -701,27 +701,27 @@
     {
       "id": "drawer",
       "name": "Drawer",
-      "previousVersion": "1.0.1",
-      "version": "1.0.2",
-      "release": "1.1.1",
+      "previousVersion": "1.0.0",
+      "version": "1.0.1",
+      "release": "1.1.0",
       "figmaNode": "1290:302",
       "page": "1290:302",
-      "change": "Corrige el fondo de popover a sheet-drawer según Figma.",
+      "change": "Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.",
       "affectedSemanticRoles": [
-        "sheet-drawer"
+        "popover",
+        "popover/foreground",
+        "muted/foreground",
+        "primary",
+        "border",
+        "foreground",
+        "muted"
       ],
       "newVariants": [],
       "newCompositions": [],
       "updates": [
-        "Fondo del panel: popover → sheet-drawer (#ffffff en las cuatro marcas).",
-        "La extensión de fondo durante el arrastre usa también sheet-drawer."
+        "Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas."
       ],
       "history": [
-        {
-          "version": "1.0.2",
-          "source": "src/components/ui/drawer.mdx",
-          "release": "1.1.1"
-        },
         {
           "version": "1.0.1",
           "source": "src/components/ui/drawer.mdx",
@@ -1425,26 +1425,29 @@
     {
       "id": "sheet",
       "name": "Sheet",
-      "previousVersion": "1.0.1",
-      "version": "1.0.2",
-      "release": "1.1.1",
+      "previousVersion": "1.0.0",
+      "version": "1.0.1",
+      "release": "1.1.0",
       "figmaNode": "1295:386",
       "page": "1295:386",
-      "change": "Corrige el fondo de popover a sheet-drawer según Figma.",
+      "change": "Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.",
       "affectedSemanticRoles": [
-        "sheet-drawer"
+        "border",
+        "primary",
+        "foreground",
+        "input",
+        "muted/foreground",
+        "primary/default-border",
+        "background",
+        "popover",
+        "popover/foreground"
       ],
       "newVariants": [],
       "newCompositions": [],
       "updates": [
-        "Fondo del panel: popover → sheet-drawer (#ffffff en las cuatro marcas)."
+        "Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas."
       ],
       "history": [
-        {
-          "version": "1.0.2",
-          "source": "src/components/ui/sheet.mdx",
-          "release": "1.1.1"
-        },
         {
           "version": "1.0.1",
           "source": "src/components/ui/sheet.mdx",
@@ -9980,13 +9983,17 @@
       "sha256": "9503e3f578cb67e5a07ab861b1e4918e4242ff63f2407d42fcf629678e94bb3c"
     }
   ],
-  "evidenceDirectory": "docs/releases/1.1.1",
+  "evidenceDirectory": "docs/releases/1.1.0",
   "checks": {
-    "figmaVariableCount": 769,
-    "figmaVariableHash": "b0ca9a2f",
-    "renderedBackgrounds": 28,
-    "componentTestsAcrossBrands": 8,
-    "inheritedEvidence": "docs/releases/1.1.0/validation.json"
+    "figmaVariables": 769,
+    "semanticModePairs": 632,
+    "textStyles": 40,
+    "protectedVariablesUnchanged": null,
+    "storyTests": 204,
+    "browserBrandViews": 204,
+    "nonSemanticVariables": 611,
+    "visualStyles": 12,
+    "foundationTests": 5
   },
   "removedEntities": [
     {

@@ -1,0 +1,27 @@
+{
+  "fileKey": "X33xAJBT7ty8FWYDFVvo3m",
+  "variableCount": 769,
+  "variableHash": "b0ca9a2f",
+  "token": "sheet-drawer",
+  "variableId": "VariableID:5354:24962",
+  "alias": "VariableID:50:300",
+  "value": "#ffffff",
+  "brands": [
+    "grm-global",
+    "reina-madre",
+    "maria-linda",
+    "piel-sana"
+  ],
+  "sheetNodes": [
+    "1295:649",
+    "1295:1367",
+    "1295:1241",
+    "1295:1400"
+  ],
+  "drawerNodes": [
+    "1295:1239",
+    "4472:8137",
+    "1295:1452"
+  ],
+  "variablesChanged": false
+}

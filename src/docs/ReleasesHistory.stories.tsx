@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { expect, userEvent, within } from 'storybook/test';
 import { ReleasesHistory } from './ReleasesHistory';
-import manifest from '../../design-system/release-manifest.json';
+import manifest from '../../docs/releases/1.1.0/published-manifest.json';
 
 const meta = {
   title: 'Design System/Releases',
@@ -16,6 +16,8 @@ export const LocalReview: Story = {
   name: 'Revisión local',
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement);
+    await expect(canvas.getByText('Versión 1.1.1')).toBeVisible();
+    await userEvent.click(canvas.getByText('Versión 1.1.0'));
     await userEvent.click(canvas.getAllByText('Componentes incluidos', { exact: true })[0]);
     for (const component of manifest.components) {
       const button = canvas.getByRole('button', { name: `Ver cambios de ${component.name}` });
@@ -27,7 +29,7 @@ export const LocalReview: Story = {
     }
     await userEvent.click(canvas.getByRole('button', { name: 'Ver cambios de Toast' }));
     await expect(canvas.getByRole('region', { name: 'Cambios de Toast' })).toHaveTextContent('72 % →');
-    await userEvent.click(canvas.getAllByText('Validación de cierre', { exact: true })[0]);
+    await userEvent.click(canvas.getAllByText('Validación de cierre', { exact: true })[1]);
     await expect(canvas.getByText('Excepciones de marca pendientes · 28 casos')).toBeVisible();
     await expect(canvas.getAllByText('23 sep 2026', { exact: true }).find(element => !element.className.includes('sm:hidden'))!).toBeVisible();
   },
