@@ -8,12 +8,12 @@ import manifest from '../../docs/releases/1.1.0/published-manifest.json';
 type ComponentChange = typeof manifest.components[number];
 const summaryClass = 'flex cursor-pointer list-none items-center justify-between gap-4 px-5 py-4 text-sm font-medium text-card-foreground md:px-6';
 
-export function ComponentDetail({ component }: { component: ComponentChange }) {
+export function ComponentDetail({ component, release = manifest.version }: { component: ComponentChange; release?: string }) {
   return <section aria-label={`Cambios de ${component.name}`} className="mt-5 grid gap-5 rounded-lg border border-border bg-card p-5">
     <header><h5 className="m-0 text-base font-semibold">{component.name} · v{component.previousVersion} → v{component.version}</h5><p className="mb-0 mt-2 text-sm">{component.change}</p></header>
     <div className="grid gap-4 sm:grid-cols-2"><div><strong className="text-sm">Variantes nuevas</strong><p className="mb-0 mt-1 text-sm">{component.newVariants.join(', ') || 'Ninguna.'}</p></div><div><strong className="text-sm">Composiciones nuevas</strong><p className="mb-0 mt-1 text-sm">{component.newCompositions.join(', ') || 'Ninguna.'}</p></div></div>
     <ul className="m-0 list-disc pl-5 text-sm">{component.updates.map(update => <li key={update}>{update}</li>)}</ul>
-    <p className="m-0 text-xs text-muted-foreground">Trayectoria documentada: {[...component.history].reverse().map(item => `v${item.version}`).join(' → ')}. Versión global de esta actualización: v{manifest.version}.</p>
+    <p className="m-0 text-xs text-muted-foreground">Trayectoria documentada: {[...component.history].reverse().map(item => `v${item.version}`).join(' → ')}. Versión global de esta actualización: v{release}.</p>
     <a className="text-sm underline underline-offset-4" target="_top" href={`/?path=/docs/components-${component.id}--docs`}>Ver documentación e historial de {component.name}</a>
     <div className="grid gap-3">
       <h6 className="m-0 text-sm font-semibold">Tokens afectados</h6>
