@@ -1,3 +1,4 @@
+import { formatReleaseDate } from './release-date';
 import { ReleaseCandidate } from './ReleaseCandidate';
 
 import { Blocks, BookOpen, Check, CheckCircle2, ChevronDown, Cloud, Palette } from 'lucide-react';
@@ -85,14 +86,14 @@ export function ReleasesHistory() {
                 <p className="m-0 text-sm leading-5 text-muted-foreground">Primera versión pública de la documentación del Design System GRM.</p>
               </div>
               <div className="flex shrink-0 items-center gap-3">
-                <time dateTime="2026-09-08" className="hidden text-sm leading-5 text-muted-foreground sm:block">8 sep 2026</time>
+                <time dateTime="2026-09-08" className="hidden text-sm leading-5 text-muted-foreground sm:block">{formatReleaseDate('2026-09-08')}</time>
                 <ChevronDown className="mt-0.5 size-4 text-muted-foreground transition-transform group-open/release:rotate-180" aria-hidden="true" />
               </div>
             </summary>
 
             <div className="border-t border-border">
               <div className="grid gap-7 px-5 py-6 md:px-6">
-                <time dateTime="2026-09-08" className="text-xs leading-4 text-muted-foreground sm:hidden">8 sep 2026</time>
+                <time dateTime="2026-09-08" className="text-xs leading-4 text-muted-foreground sm:hidden">{formatReleaseDate('2026-09-08')}</time>
 
                 <div className="grid gap-5 sm:grid-cols-3">
                   <Metric icon={Blocks} value="50" label="Componentes" />

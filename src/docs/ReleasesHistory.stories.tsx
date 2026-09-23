@@ -29,6 +29,6 @@ export const LocalReview: Story = {
     await expect(canvas.getByRole('region', { name: 'Cambios de Toast' })).toHaveTextContent('72 % →');
     await userEvent.click(canvas.getAllByText('Validación de cierre', { exact: true })[0]);
     await expect(canvas.getByText('Excepciones de marca pendientes · 28 casos')).toBeVisible();
-    await expect(canvas.getByText('23 de septiembre de 2026', { exact: true })).toBeVisible();
+    await expect(canvas.getAllByText('23 sep 2026', { exact: true }).find(element => !element.className.includes('sm:hidden'))!).toBeVisible();
   },
 };
