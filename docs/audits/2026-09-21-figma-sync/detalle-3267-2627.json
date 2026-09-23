@@ -1,0 +1,257 @@
+{
+  "id": "3267:2627",
+  "name": "Toggle",
+  "total": 125,
+  "nodes": 3335,
+  "refs": {
+    "VariableID:50:526": {
+      "count": 1640,
+      "example": "3279:93"
+    },
+    "VariableID:50:534": {
+      "count": 2172,
+      "example": "3279:93"
+    },
+    "VariableID:44:184": {
+      "count": 952,
+      "example": "I3279:94;212:2018;212:1817"
+    },
+    "VariableID:99:17": {
+      "count": 48,
+      "example": "3279:99"
+    },
+    "VariableID:132:811": {
+      "count": 48,
+      "example": "3279:99"
+    },
+    "VariableID:50:639": {
+      "count": 48,
+      "example": "3279:99"
+    },
+    "VariableID:44:188": {
+      "count": 6,
+      "example": "3279:100"
+    },
+    "VariableID:71:2": {
+      "count": 12,
+      "example": "I3279:101;212:2018;212:1817"
+    },
+    "VariableID:51:23": {
+      "count": 24,
+      "example": "3279:107"
+    },
+    "VariableID:248:511": {
+      "count": 12,
+      "example": "3279:107"
+    },
+    "VariableID:44:187": {
+      "count": 164,
+      "example": "3279:121"
+    },
+    "VariableID:71:3": {
+      "count": 218,
+      "example": "I3279:122;212:2018;212:1817"
+    },
+    "VariableID:186:174": {
+      "count": 32,
+      "example": "3279:149"
+    },
+    "VariableID:429:249": {
+      "count": 32,
+      "example": "3279:205"
+    },
+    "VariableID:51:22": {
+      "count": 36,
+      "example": "3279:261"
+    }
+  },
+  "texts": {
+    "S:b9200b5971cf3f84adc1475861c0b20e11d4e15e,": {
+      "count": 48,
+      "example": "3279:99"
+    }
+  },
+  "styles": {
+    "S:b8adb059f130b7f80c3daff5ccaceb3c9104f4ef,": {
+      "count": 18,
+      "example": "3279:261"
+    }
+  },
+  "sets": [
+    {
+      "id": "3279:53814",
+      "name": "Toggle",
+      "count": 48,
+      "props": {
+        "Label#3279:0": {
+          "type": "TEXT",
+          "defaultValue": "Toggle"
+        },
+        "Label visible#3279:49": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Icon visible#3279:98": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Variant": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "outline"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "sm",
+            "lg"
+          ]
+        },
+        "Pressed": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        }
+      },
+      "default": {
+        "id": "3279:93",
+        "name": "Variant=default, Size=default, Pressed=off, Status=default",
+        "w": 86,
+        "h": 36,
+        "layout": "HORIZONTAL",
+        "gap": 8,
+        "padding": [
+          0,
+          8,
+          0,
+          8
+        ],
+        "radius": 6,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          }
+        }
+      }
+    },
+    {
+      "id": "3331:60517",
+      "name": "Toggle Group",
+      "count": 75,
+      "props": {
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "single",
+          "variantOptions": [
+            "single",
+            "multiple"
+          ]
+        },
+        "Items": {
+          "type": "VARIANT",
+          "defaultValue": "1",
+          "variantOptions": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+          ]
+        },
+        "Selected": {
+          "type": "VARIANT",
+          "defaultValue": "none",
+          "variantOptions": [
+            "none",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+          ]
+        }
+      },
+      "default": {
+        "id": "3331:2657",
+        "name": "Type=single, Items=1, Selected=none",
+        "w": 36,
+        "h": 36,
+        "layout": "HORIZONTAL",
+        "gap": 8,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          }
+        }
+      }
+    }
+  ],
+  "errors": []
+}

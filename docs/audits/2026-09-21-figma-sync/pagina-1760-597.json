@@ -1,0 +1,92 @@
+{
+  "id": "1760:597",
+  "name": "Breadcrumb",
+  "total": 10,
+  "sets": [
+    {
+      "id": "1763:1339",
+      "name": "_components/Breadcrumb/Breadcrumb Base",
+      "type": "COMPONENT_SET",
+      "count": 5,
+      "props": {
+        "Breadcrumb Type": {
+          "type": "VARIANT",
+          "defaultValue": "text",
+          "variantOptions": [
+            "dropdown-button",
+            "text",
+            "dropdown-ellipsis",
+            "ellipsis-muted"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "onHover"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1763:1562",
+      "name": "Breadcrumb",
+      "type": "COMPONENT_SET",
+      "count": 3,
+      "props": {
+        "Levels": {
+          "type": "VARIANT",
+          "defaultValue": "2",
+          "variantOptions": [
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "1763:1338",
+      "1763:1339",
+      "Breadcrumb Type=text, Status=default"
+    ],
+    [
+      "1763:1340",
+      "1763:1339",
+      "Breadcrumb Type=text, Status=onHover"
+    ],
+    [
+      "1766:13924",
+      "1763:1339",
+      "Breadcrumb Type=dropdown-ellipsis, Status=default"
+    ],
+    [
+      "1923:18620",
+      "1763:1339",
+      "Breadcrumb Type=ellipsis-muted, Status=default"
+    ],
+    [
+      "1923:18473",
+      "1763:1339",
+      "Breadcrumb Type=dropdown-button, Status=default"
+    ],
+    [
+      "1763:1561",
+      "1763:1562",
+      "Levels=2"
+    ],
+    [
+      "1763:1563",
+      "1763:1562",
+      "Levels=3"
+    ],
+    [
+      "1763:1584",
+      "1763:1562",
+      "Levels=4"
+    ]
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "id": "553:2675",
+  "name": "Field",
+  "total": 46,
+  "sets": [
+    {
+      "id": "553:3053",
+      "name": "Field/Input",
+      "type": "COMPONENT_SET",
+      "count": 3,
+      "props": {
+        "Upper Description#885:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Lower Description#885:4": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "error",
+            "disabled"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1551:11609",
+      "name": "Field/InputTime",
+      "type": "COMPONENT_SET",
+      "count": 3,
+      "props": {
+        "Upper Description#885:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Lower Description#885:4": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "error",
+            "disabled"
+          ]
+        }
+      }
+    },
+    {
+      "id": "553:6615",
+      "name": "Field/TextArea",
+      "type": "COMPONENT_SET",
+      "count": 3,
+      "props": {
+        "Upper Description#885:78": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Lower Description#885:82": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "error",
+            "disabled"
+          ]
+        }
+      }
+    },
+    {
+      "id": "553:6641",
+      "name": "Field/Checkbox",
+      "type": "COMPONENT_SET",
+      "count": 3,
+      "props": {
+        "Lower Description#885:12": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Upper Description#885:24": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "error",
+            "disabled"
+          ]
+        }
+      }
+    },
+    {
+      "id": "553:6667",
+      "name": "Field/Radio Group",
+      "type": "COMPONENT_SET",
+      "count": 3,
+      "props": {
+        "Lower Description#885:16": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Upper Description#885:28": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "error",
+          "variantOptions": [
+            "error",
+            "disabled",
+            "Status3"
+          ]
+        }
+      }
+    },
+    {
+      "id": "553:7900",
+      "name": "Field/Switch",
+      "type": "COMPONENT_SET",
+      "count": 3,
+      "props": {
+        "Lower Description#885:20": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Upper Description#885:32": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "error",
+            "disabled"
+          ]
+        }
+      }
+    },
+    {
+      "id": "561:4269",
+      "name": "Field/NativeSelect",
+      "type": "COMPONENT_SET",
+      "count": 6,
+      "props": {
+        "Upper Description#885:36": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Lower Description#885:57": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Native Select Style": {
+          "type": "VARIANT",
+          "defaultValue": "simple",
+          "variantOptions": [
+            "with groups",
+            "simple"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "error",
+            "disabled"
+          ]
+        }
+      }
+    },
+    {
+      "id": "647:3472",
+      "name": "Field/Select",
+      "type": "COMPONENT_SET",
+      "count": 6,
+      "props": {
+        "Upper Description#885:43": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Lower Description#885:64": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Select Type": {
+          "type": "VARIANT",
+          "defaultValue": "simple",
+          "variantOptions": [
+            "scrollable",
+            "simple"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "error",
+            "disabled"
+          ]
+        }
+      }
+    },
+    {
+      "id": "566:5243",
+      "name": "Field/InputOTP",
+      "type": "COMPONENT_SET",
+      "count": 6,
+      "props": {
+        "Upper Description#885:50": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Lower Description#885:71": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "InputOTP Type": {
+          "type": "VARIANT",
+          "defaultValue": "Predeterminado",
+          "variantOptions": [
+            "Predeterminado"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "Predeterminado",
+          "variantOptions": [
+            "Predeterminado",
+            "Variante 2",
+            "Variante 3",
+            "Status4",
+            "Status5",
+            "Status6"
+          ]
+        }
+      }
+    },
+    {
+      "id": "553:6668",
+      "name": "Field/Radio/default",
+      "type": "COMPONENT",
+      "count": 3,
+      "props": {
+        "Lower Description#885:17": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Upper Description#885:29": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "553:3054",
+      "553:3053",
+      "Status=default"
+    ],
+    [
+      "553:7488",
+      "553:3053",
+      "Status=error"
+    ],
+    [
+      "553:7680",
+      "553:3053",
+      "Status=disabled"
+    ],
+    [
+      "1551:11610",
+      "1551:11609",
+      "Status=default"
+    ],
+    [
+      "1551:11616",
+      "1551:11609",
+      "Status=error"
+    ],
+    [
+      "1551:11622",
+      "1551:11609",
+      "Status=disabled"
+    ],
+    [
+      "553:6616",
+      "553:6615",
+      "Status=default"
+    ],
+    [
+      "553:7846",
+      "553:6615",
+      "Status=error"
+    ],
+    [
+      "553:7855",
+      "553:6615",
+      "Status=disabled"
+    ],
+    [
+      "553:6642",
+      "553:6641",
+      "Status=default"
+    ],
+    [
+      "836:33612",
+      "553:6641",
+      "Status=error"
+    ],
+    [
+      "836:33626",
+      "553:6641",
+      "Status=disabled"
+    ],
+    [
+      "836:33660",
+      "553:6667",
+      "Status=error"
+    ],
+    [
+      "1027:10173",
+      "553:6667",
+      "Status=Status3"
+    ],
+    [
+      "836:33680",
+      "553:6667",
+      "Status=disabled"
+    ],
+    [
+      "553:7901",
+      "553:7900",
+      "Status=default"
+    ],
+    [
+      "836:33700",
+      "553:7900",
+      "Status=error"
+    ],
+    [
+      "836:33712",
+      "553:7900",
+      "Status=disabled"
+    ],
+    [
+      "561:4270",
+      "561:4269",
+      "Native Select Style=simple, Status=default"
+    ],
+    [
+      "885:5911",
+      "561:4269",
+      "Native Select Style=with groups, Status=default"
+    ],
+    [
+      "836:33784",
+      "561:4269",
+      "Native Select Style=simple, Status=error"
+    ],
+    [
+      "885:5916",
+      "561:4269",
+      "Native Select Style=with groups, Status=error"
+    ],
+    [
+      "836:33796",
+      "561:4269",
+      "Native Select Style=simple, Status=disabled"
+    ],
+    [
+      "885:5921",
+      "561:4269",
+      "Native Select Style=with groups, Status=disabled"
+    ],
+    [
+      "647:3473",
+      "647:3472",
+      "Select Type=simple, Status=default"
+    ],
+    [
+      "885:6043",
+      "647:3472",
+      "Select Type=scrollable, Status=default"
+    ],
+    [
+      "836:33808",
+      "647:3472",
+      "Select Type=simple, Status=error"
+    ],
+    [
+      "885:6048",
+      "647:3472",
+      "Select Type=scrollable, Status=error"
+    ],
+    [
+      "836:33823",
+      "647:3472",
+      "Select Type=simple, Status=disabled"
+    ],
+    [
+      "885:6053",
+      "647:3472",
+      "Select Type=scrollable, Status=disabled"
+    ],
+    [
+      "566:5244",
+      "566:5243",
+      "InputOTP Type=Predeterminado, Status=Predeterminado"
+    ],
+    [
+      "885:6166",
+      "566:5243",
+      "InputOTP Type=Predeterminado, Status=Status6"
+    ],
+    [
+      "836:33838",
+      "566:5243",
+      "InputOTP Type=Predeterminado, Status=Variante 2"
+    ],
+    [
+      "885:6171",
+      "566:5243",
+      "InputOTP Type=Predeterminado, Status=Status5"
+    ],
+    [
+      "836:33849",
+      "566:5243",
+      "InputOTP Type=Predeterminado, Status=Variante 3"
+    ],
+    [
+      "885:6176",
+      "566:5243",
+      "InputOTP Type=Predeterminado, Status=Status4"
+    ]
+  ]
+}

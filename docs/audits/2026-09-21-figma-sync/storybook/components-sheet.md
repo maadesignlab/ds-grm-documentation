@@ -1,0 +1,74 @@
+# Sheet
+
+ID: components-sheet
+
+## Stories
+
+### Playground
+
+Story ID: components-sheet--playground
+
+```
+import { SheetExample } from "@reina-madre/design-system";
+
+const Playground = () => <SheetExample
+    key={JSON.stringify(args)}
+    side="right"
+    sideWidth={480}
+    showCloseButton
+    footerAlignment="column"
+    scrollable={false} />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as SheetStories from "./sheet.stories"
+import sheetSource from "./sheet.tsx?raw"
+import exampleSource from "./sheet-example.tsx?raw"
+import { SheetCloseButtons, SheetFooterAlignments, SheetPositions, SheetSpecifications, SheetWidths } from "./sheet-docs"
+
+<Meta of={SheetStories} />
+<Title of={SheetStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva Dialog de Radix, portal, overlay, foco, teclado, dismiss y composición oficial de shadcn/ui.
+  - Adapta las cuatro posiciones, anchos laterales de 384/480 px y altura vertical de hasta 512 px.
+  - Integra cierre opcional, footer en fila/columna y contenido desplazable según Figma.
+</details>
+
+## Posición
+
+<div className="mb-12"><SheetPositions /></div>
+
+## Ancho lateral
+
+<div className="mb-12"><SheetWidths /></div>
+
+## Botón de cierre
+
+<div className="mb-12"><SheetCloseButtons /></div>
+
+## Disposición de acciones
+
+<div className="mb-12"><SheetFooterAlignments /></div>
+
+## Especificaciones
+
+<div className="mb-12"><SheetSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={sheetSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

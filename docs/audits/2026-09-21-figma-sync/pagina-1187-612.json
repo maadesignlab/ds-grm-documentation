@@ -1,0 +1,65 @@
+{
+  "id": "1187:612",
+  "name": "Alert Dialog",
+  "total": 5,
+  "sets": [
+    {
+      "id": "1194:651",
+      "name": "Alert Dialog",
+      "type": "COMPONENT_SET",
+      "count": 4,
+      "props": {
+        "Media#1365:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Dialog Title#1407:0": {
+          "type": "TEXT",
+          "defaultValue": "¿Deseas eliminar este registro?"
+        },
+        "Dialog Description#1407:5": {
+          "type": "TEXT",
+          "defaultValue": "Estas acción no se puede deshacer"
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "basic",
+          "variantOptions": [
+            "basic",
+            "sm"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "destructive",
+            "default"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "1194:650",
+      "1194:651",
+      "Size=basic, Status=default"
+    ],
+    [
+      "1194:727",
+      "1194:651",
+      "Size=basic, Status=destructive"
+    ],
+    [
+      "1194:652",
+      "1194:651",
+      "Size=sm, Status=default"
+    ],
+    [
+      "1194:746",
+      "1194:651",
+      "Size=sm, Status=destructive"
+    ]
+  ]
+}

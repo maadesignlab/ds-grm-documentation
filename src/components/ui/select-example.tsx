@@ -82,7 +82,7 @@ export function SelectExample({
         disabled={state === "disabled"}
         key={`${type}-${state}-${size}-${position}-${filled}-${initiallyOpen}-${icons}`}
       >
-        <SelectTrigger aria-invalid={state === "invalid" || undefined} className={width} size={size}>
+        <SelectTrigger aria-label="Seleccionar opción" aria-invalid={state === "invalid" || undefined} className={width} size={size}>
           <SelectValue placeholder={type === "scrollable" ? "Selecciona una zona horaria" : "Selecciona una opción"} />
         </SelectTrigger>
         <SelectContent position={position}>

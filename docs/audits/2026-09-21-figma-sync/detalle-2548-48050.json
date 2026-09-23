@@ -1,0 +1,67 @@
+{
+  "id": "2548:48050",
+  "name": "Skeleton",
+  "total": 1,
+  "nodes": 53,
+  "refs": {
+    "VariableID:50:526": {
+      "count": 4,
+      "example": "2646:2"
+    },
+    "VariableID:50:533": {
+      "count": 164,
+      "example": "2646:5"
+    },
+    "VariableID:1194:649": {
+      "count": 82,
+      "example": "2646:5"
+    }
+  },
+  "texts": {},
+  "styles": {},
+  "sets": [
+    {
+      "id": "2646:2",
+      "name": "Skeleton",
+      "count": 2,
+      "props": {},
+      "default": {
+        "id": "2646:2",
+        "name": "Skeleton",
+        "w": 1144,
+        "h": 250,
+        "layout": "VERTICAL",
+        "gap": 8,
+        "padding": [
+          8,
+          8,
+          24,
+          8
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          }
+        }
+      }
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,182 @@
+{
+  "id": "2793:2325",
+  "name": "Kbd",
+  "total": 7,
+  "nodes": 29,
+  "refs": {
+    "VariableID:50:530": {
+      "count": 28,
+      "example": "2879:46261"
+    },
+    "VariableID:50:528": {
+      "count": 16,
+      "example": "2879:46261"
+    },
+    "VariableID:50:532": {
+      "count": 32,
+      "example": "2879:46261"
+    },
+    "VariableID:44:188": {
+      "count": 8,
+      "example": "2879:46261"
+    },
+    "VariableID:71:2": {
+      "count": 8,
+      "example": "2879:46262"
+    },
+    "VariableID:3758:13875": {
+      "count": 8,
+      "example": "3758:13913"
+    },
+    "VariableID:51:172": {
+      "count": 10,
+      "example": "3758:13914"
+    },
+    "VariableID:100:19": {
+      "count": 6,
+      "example": "2945:15"
+    },
+    "VariableID:132:811": {
+      "count": 6,
+      "example": "2945:15"
+    },
+    "VariableID:50:639": {
+      "count": 6,
+      "example": "2945:15"
+    },
+    "VariableID:44:184": {
+      "count": 2,
+      "example": "3758:13639"
+    }
+  },
+  "texts": {
+    "UNSTYLED": {
+      "count": 2,
+      "example": "2879:46262"
+    },
+    "S:3c3dd1b52b19dd0f2bbf02cf78cbd6622b31988f,": {
+      "count": 6,
+      "example": "2945:15"
+    }
+  },
+  "styles": {},
+  "sets": [
+    {
+      "id": "2945:46122",
+      "name": "Kbd",
+      "count": 6,
+      "props": {
+        "Text#2945:7": {
+          "type": "TEXT",
+          "defaultValue": "Ctrl"
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Single",
+          "variantOptions": [
+            "Group",
+            "Single"
+          ]
+        },
+        "Content": {
+          "type": "VARIANT",
+          "defaultValue": "Text",
+          "variantOptions": [
+            "Text",
+            "Icon",
+            "Group"
+          ]
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "light",
+          "variantOptions": [
+            "light",
+            "dark"
+          ]
+        }
+      },
+      "default": {
+        "id": "2879:46261",
+        "name": "Type=Single, Content=Text, Style=light",
+        "w": 30,
+        "h": 20,
+        "layout": "HORIZONTAL",
+        "gap": 4,
+        "padding": [
+          0,
+          4,
+          0,
+          4
+        ],
+        "radius": 2,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9647058844566345,
+              "g": 0.9490196108818054,
+              "b": 0.95686274766922
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:44:188"
+              }
+            }
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:530"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:530"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:530"
+          },
+          "height": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:528"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:532"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:532"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:532"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:532"
+          },
+          "minWidth": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:528"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:44:188"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "errors": []
+}

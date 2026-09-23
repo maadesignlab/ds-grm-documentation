@@ -1,0 +1,590 @@
+{
+  "id": "1:33",
+  "name": "Tabs",
+  "total": 97,
+  "sets": [
+    {
+      "id": "1812:2936",
+      "name": "_components/Tabs/TabBase",
+      "type": "COMPONENT_SET",
+      "count": 6,
+      "props": {
+        "Right Icon#1815:9": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Left Icon#1815:16": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Tab Text#1815:23": {
+          "type": "TEXT",
+          "defaultValue": "Analytics"
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "underline",
+          "variantOptions": [
+            "underline",
+            "contained"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "active",
+            "default",
+            "onhover"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1812:3148",
+      "name": "Tabs/Contained",
+      "type": "COMPONENT_SET",
+      "count": 44,
+      "props": {
+        "Tab Amount": {
+          "type": "VARIANT",
+          "defaultValue": "2",
+          "variantOptions": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        "Active Tab": {
+          "type": "VARIANT",
+          "defaultValue": "1",
+          "variantOptions": [
+            "9",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1844:6734",
+      "name": "Tabs/Underline",
+      "type": "COMPONENT_SET",
+      "count": 44,
+      "props": {
+        "Tab Amount": {
+          "type": "VARIANT",
+          "defaultValue": "2",
+          "variantOptions": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        },
+        "Active Tab": {
+          "type": "VARIANT",
+          "defaultValue": "1",
+          "variantOptions": [
+            "9",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "1812:2935",
+      "1812:2936",
+      "Type=underline, Status=default"
+    ],
+    [
+      "1812:2952",
+      "1812:2936",
+      "Type=contained, Status=default"
+    ],
+    [
+      "1812:2937",
+      "1812:2936",
+      "Type=underline, Status=onhover"
+    ],
+    [
+      "1812:2955",
+      "1812:2936",
+      "Type=contained, Status=onhover"
+    ],
+    [
+      "1812:2940",
+      "1812:2936",
+      "Type=underline, Status=active"
+    ],
+    [
+      "1812:2958",
+      "1812:2936",
+      "Type=contained, Status=active"
+    ],
+    [
+      "1812:3086",
+      "1812:3148",
+      "Tab Amount=2, Active Tab=1"
+    ],
+    [
+      "1815:3561",
+      "1812:3148",
+      "Tab Amount=2, Active Tab=2"
+    ],
+    [
+      "1812:3149",
+      "1812:3148",
+      "Tab Amount=3, Active Tab=1"
+    ],
+    [
+      "1815:3588",
+      "1812:3148",
+      "Tab Amount=3, Active Tab=2"
+    ],
+    [
+      "1815:3620",
+      "1812:3148",
+      "Tab Amount=3, Active Tab=3"
+    ],
+    [
+      "1812:3217",
+      "1812:3148",
+      "Tab Amount=4, Active Tab=1"
+    ],
+    [
+      "1815:3720",
+      "1812:3148",
+      "Tab Amount=4, Active Tab=3"
+    ],
+    [
+      "1815:3657",
+      "1812:3148",
+      "Tab Amount=4, Active Tab=2"
+    ],
+    [
+      "1815:3725",
+      "1812:3148",
+      "Tab Amount=4, Active Tab=4"
+    ],
+    [
+      "1814:3262",
+      "1812:3148",
+      "Tab Amount=5, Active Tab=1"
+    ],
+    [
+      "1815:3866",
+      "1812:3148",
+      "Tab Amount=5, Active Tab=3"
+    ],
+    [
+      "1815:3788",
+      "1812:3148",
+      "Tab Amount=5, Active Tab=2"
+    ],
+    [
+      "1815:3872",
+      "1812:3148",
+      "Tab Amount=5, Active Tab=4"
+    ],
+    [
+      "1815:3944",
+      "1812:3148",
+      "Tab Amount=5, Active Tab=5"
+    ],
+    [
+      "1815:3318",
+      "1812:3148",
+      "Tab Amount=6, Active Tab=1"
+    ],
+    [
+      "1815:4187",
+      "1812:3148",
+      "Tab Amount=6, Active Tab=4"
+    ],
+    [
+      "1815:4001",
+      "1812:3148",
+      "Tab Amount=6, Active Tab=2"
+    ],
+    [
+      "1815:4194",
+      "1812:3148",
+      "Tab Amount=6, Active Tab=5"
+    ],
+    [
+      "1815:4063",
+      "1812:3148",
+      "Tab Amount=6, Active Tab=3"
+    ],
+    [
+      "1815:4201",
+      "1812:3148",
+      "Tab Amount=6, Active Tab=6"
+    ],
+    [
+      "1815:3385",
+      "1812:3148",
+      "Tab Amount=7, Active Tab=1"
+    ],
+    [
+      "1815:4532",
+      "1812:3148",
+      "Tab Amount=7, Active Tab=4"
+    ],
+    [
+      "1815:4316",
+      "1812:3148",
+      "Tab Amount=7, Active Tab=2"
+    ],
+    [
+      "1815:4540",
+      "1812:3148",
+      "Tab Amount=7, Active Tab=5"
+    ],
+    [
+      "1815:4388",
+      "1812:3148",
+      "Tab Amount=7, Active Tab=3"
+    ],
+    [
+      "1815:4548",
+      "1812:3148",
+      "Tab Amount=7, Active Tab=6"
+    ],
+    [
+      "1815:4676",
+      "1812:3148",
+      "Tab Amount=7, Active Tab=7"
+    ],
+    [
+      "1815:3463",
+      "1812:3148",
+      "Tab Amount=8, Active Tab=1"
+    ],
+    [
+      "1815:5122",
+      "1812:3148",
+      "Tab Amount=8, Active Tab=5"
+    ],
+    [
+      "1815:4753",
+      "1812:3148",
+      "Tab Amount=8, Active Tab=2"
+    ],
+    [
+      "1815:5131",
+      "1812:3148",
+      "Tab Amount=8, Active Tab=6"
+    ],
+    [
+      "1815:4835",
+      "1812:3148",
+      "Tab Amount=8, Active Tab=3"
+    ],
+    [
+      "1815:5140",
+      "1812:3148",
+      "Tab Amount=8, Active Tab=7"
+    ],
+    [
+      "1815:4917",
+      "1812:3148",
+      "Tab Amount=8, Active Tab=4"
+    ],
+    [
+      "1815:5149",
+      "1812:3148",
+      "Tab Amount=8, Active Tab=8"
+    ],
+    [
+      "1815:3504",
+      "1812:3148",
+      "Tab Amount=9, Active Tab=1"
+    ],
+    [
+      "1815:5884",
+      "1812:3148",
+      "Tab Amount=9, Active Tab=6"
+    ],
+    [
+      "1815:5332",
+      "1812:3148",
+      "Tab Amount=9, Active Tab=2"
+    ],
+    [
+      "1815:5894",
+      "1812:3148",
+      "Tab Amount=9, Active Tab=7"
+    ],
+    [
+      "1815:5424",
+      "1812:3148",
+      "Tab Amount=9, Active Tab=3"
+    ],
+    [
+      "1815:5904",
+      "1812:3148",
+      "Tab Amount=9, Active Tab=8"
+    ],
+    [
+      "1815:5516",
+      "1812:3148",
+      "Tab Amount=9, Active Tab=4"
+    ],
+    [
+      "1815:5914",
+      "1812:3148",
+      "Tab Amount=9, Active Tab=9"
+    ],
+    [
+      "1815:5608",
+      "1812:3148",
+      "Tab Amount=9, Active Tab=5"
+    ],
+    [
+      "1844:6735",
+      "1844:6734",
+      "Tab Amount=2, Active Tab=1"
+    ],
+    [
+      "1844:6738",
+      "1844:6734",
+      "Tab Amount=2, Active Tab=2"
+    ],
+    [
+      "1844:6741",
+      "1844:6734",
+      "Tab Amount=3, Active Tab=1"
+    ],
+    [
+      "1844:6745",
+      "1844:6734",
+      "Tab Amount=3, Active Tab=2"
+    ],
+    [
+      "1844:6749",
+      "1844:6734",
+      "Tab Amount=3, Active Tab=3"
+    ],
+    [
+      "1844:6753",
+      "1844:6734",
+      "Tab Amount=4, Active Tab=1"
+    ],
+    [
+      "1844:6758",
+      "1844:6734",
+      "Tab Amount=4, Active Tab=3"
+    ],
+    [
+      "1844:6763",
+      "1844:6734",
+      "Tab Amount=4, Active Tab=2"
+    ],
+    [
+      "1844:6768",
+      "1844:6734",
+      "Tab Amount=4, Active Tab=4"
+    ],
+    [
+      "1844:6773",
+      "1844:6734",
+      "Tab Amount=5, Active Tab=1"
+    ],
+    [
+      "1844:6779",
+      "1844:6734",
+      "Tab Amount=5, Active Tab=3"
+    ],
+    [
+      "1844:6785",
+      "1844:6734",
+      "Tab Amount=5, Active Tab=2"
+    ],
+    [
+      "1844:6791",
+      "1844:6734",
+      "Tab Amount=5, Active Tab=4"
+    ],
+    [
+      "1844:6797",
+      "1844:6734",
+      "Tab Amount=5, Active Tab=5"
+    ],
+    [
+      "1844:6803",
+      "1844:6734",
+      "Tab Amount=6, Active Tab=1"
+    ],
+    [
+      "1844:6810",
+      "1844:6734",
+      "Tab Amount=6, Active Tab=4"
+    ],
+    [
+      "1844:6817",
+      "1844:6734",
+      "Tab Amount=6, Active Tab=2"
+    ],
+    [
+      "1844:6824",
+      "1844:6734",
+      "Tab Amount=6, Active Tab=5"
+    ],
+    [
+      "1844:6831",
+      "1844:6734",
+      "Tab Amount=6, Active Tab=3"
+    ],
+    [
+      "1844:6838",
+      "1844:6734",
+      "Tab Amount=6, Active Tab=6"
+    ],
+    [
+      "1844:6845",
+      "1844:6734",
+      "Tab Amount=7, Active Tab=1"
+    ],
+    [
+      "1844:6853",
+      "1844:6734",
+      "Tab Amount=7, Active Tab=4"
+    ],
+    [
+      "1844:6861",
+      "1844:6734",
+      "Tab Amount=7, Active Tab=2"
+    ],
+    [
+      "1844:6869",
+      "1844:6734",
+      "Tab Amount=7, Active Tab=5"
+    ],
+    [
+      "1844:6877",
+      "1844:6734",
+      "Tab Amount=7, Active Tab=3"
+    ],
+    [
+      "1844:6885",
+      "1844:6734",
+      "Tab Amount=7, Active Tab=6"
+    ],
+    [
+      "1844:6893",
+      "1844:6734",
+      "Tab Amount=7, Active Tab=7"
+    ],
+    [
+      "1844:6901",
+      "1844:6734",
+      "Tab Amount=8, Active Tab=1"
+    ],
+    [
+      "1844:6910",
+      "1844:6734",
+      "Tab Amount=8, Active Tab=5"
+    ],
+    [
+      "1844:6919",
+      "1844:6734",
+      "Tab Amount=8, Active Tab=2"
+    ],
+    [
+      "1844:6928",
+      "1844:6734",
+      "Tab Amount=8, Active Tab=6"
+    ],
+    [
+      "1844:6937",
+      "1844:6734",
+      "Tab Amount=8, Active Tab=3"
+    ],
+    [
+      "1844:6946",
+      "1844:6734",
+      "Tab Amount=8, Active Tab=7"
+    ],
+    [
+      "1844:6955",
+      "1844:6734",
+      "Tab Amount=8, Active Tab=4"
+    ],
+    [
+      "1844:6964",
+      "1844:6734",
+      "Tab Amount=8, Active Tab=8"
+    ],
+    [
+      "1844:6973",
+      "1844:6734",
+      "Tab Amount=9, Active Tab=1"
+    ],
+    [
+      "1844:6983",
+      "1844:6734",
+      "Tab Amount=9, Active Tab=6"
+    ],
+    [
+      "1844:6993",
+      "1844:6734",
+      "Tab Amount=9, Active Tab=2"
+    ],
+    [
+      "1844:7003",
+      "1844:6734",
+      "Tab Amount=9, Active Tab=7"
+    ],
+    [
+      "1844:7013",
+      "1844:6734",
+      "Tab Amount=9, Active Tab=3"
+    ],
+    [
+      "1844:7023",
+      "1844:6734",
+      "Tab Amount=9, Active Tab=8"
+    ],
+    [
+      "1844:7033",
+      "1844:6734",
+      "Tab Amount=9, Active Tab=4"
+    ],
+    [
+      "1844:7043",
+      "1844:6734",
+      "Tab Amount=9, Active Tab=9"
+    ],
+    [
+      "1844:7053",
+      "1844:6734",
+      "Tab Amount=9, Active Tab=5"
+    ]
+  ]
+}

@@ -1,0 +1,62 @@
+# Separator
+
+ID: components-separator
+
+## Stories
+
+### Playground
+
+Story ID: components-separator--playground
+
+```
+import { SeparatorExample } from "@reina-madre/design-system";
+
+const Playground = () => <SeparatorExample />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as SeparatorStories from "./separator.stories"
+import primitiveSource from "./separator.tsx?raw"
+import exampleSource from "./separator-example.tsx?raw"
+import { SeparatorAccessibility, SeparatorOrientations, SeparatorSpecifications } from "./separator-docs"
+
+<Meta of={SeparatorStories} />
+<Title of={SeparatorStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva el primitive Radix y la API pública oficial de Separator.
+  - Implementa las orientaciones horizontal y vertical.
+  - Mantiene el modo decorativo predeterminado y el modo semántico.
+  - La longitud pertenece al contenedor; no se añade una propiedad privada al primitive.
+  - Playground y Docs renderizan exclusivamente `SeparatorExample`.
+</details>
+
+## Orientación
+
+<div className="mb-12"><SeparatorOrientations /></div>
+
+## Accesibilidad
+
+<div className="mb-12"><SeparatorAccessibility /></div>
+
+## Especificaciones
+
+<div className="mb-12"><SeparatorSpecifications /></div>
+
+## Código
+
+### Primitive oficial
+
+<Source language="tsx" code={primitiveSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

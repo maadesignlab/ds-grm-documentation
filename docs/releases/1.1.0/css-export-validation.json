@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-09-22T21:53:28.753991+00:00",
+  "figmaVariables": 768,
+  "variableDifferencesSincePreviousSync": 0,
+  "semanticColorsPerBrand": 154,
+  "extraColors": 36,
+  "typographyStyles": 39,
+  "lint": "passed",
+  "typecheck": "passed",
+  "storybookBuild": "passed",
+  "browserCopyColors": "passed",
+  "browserCopyTypography": "passed",
+  "browserDownloadTypography": "passed",
+  "beforeAfterSwatches": "passed",
+  "exportSyntax": {
+    "colors.css": {
+      "rules": 1,
+      "declarations": 154,
+      "variables": 154,
+      "unresolved": []
+    },
+    "extra.css": {
+      "rules": 1,
+      "declarations": 36,
+      "variables": 36,
+      "unresolved": []
+    },
+    "typography.css": {
+      "rules": 40,
+      "declarations": 627,
+      "variables": 315,
+      "unresolved": []
+    }
+  },
+  "storybookMcp": "pending"
+}

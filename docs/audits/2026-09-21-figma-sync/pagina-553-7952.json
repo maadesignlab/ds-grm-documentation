@@ -1,0 +1,380 @@
+{
+  "id": "553:7952",
+  "name": "Native Select",
+  "total": 41,
+  "sets": [
+    {
+      "id": "605:1135",
+      "name": "_components/Native Select/Dropdown Options/With Groups/Group",
+      "type": "COMPONENT",
+      "count": 21,
+      "props": {}
+    },
+    {
+      "id": "570:3815",
+      "name": "Native Select/Simple",
+      "type": "COMPONENT_SET",
+      "count": 18,
+      "props": {
+        "Placeholder#605:0": {
+          "type": "TEXT",
+          "defaultValue": "Select an option"
+        },
+        "Filled Text#605:4": {
+          "type": "TEXT",
+          "defaultValue": "Item"
+        },
+        "Menu Content#2404:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "590:3832",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "72acd6e19f87dd27f9e1ee5d80525a066b8046f9"
+            }
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "disabled",
+            "default",
+            "error"
+          ]
+        },
+        "Opened": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "false",
+            "true"
+          ]
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "closed",
+          "variantOptions": [
+            "filled-selected",
+            "filled",
+            "closed",
+            "expanded"
+          ]
+        },
+        "Appearance": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Transparent"
+          ]
+        }
+      }
+    },
+    {
+      "id": "614:1182",
+      "name": "Native Select/With Groups",
+      "type": "COMPONENT_SET",
+      "count": 9,
+      "props": {
+        "Placeholder#605:0": {
+          "type": "TEXT",
+          "defaultValue": "Select an option"
+        },
+        "Filled Text#605:4": {
+          "type": "TEXT",
+          "defaultValue": "Item"
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "disabled",
+            "error"
+          ]
+        },
+        "Opened": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "false",
+            "true"
+          ]
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "closed",
+          "variantOptions": [
+            "closed",
+            "filled-selected",
+            "filled",
+            "expanded"
+          ]
+        }
+      }
+    },
+    {
+      "id": "590:3832",
+      "name": "_components/Native Select/Dropdown Options/Simple",
+      "type": "COMPONENT",
+      "count": 20,
+      "props": {}
+    },
+    {
+      "id": "601:313",
+      "name": "_components/Native Select/Dropdown Options/With Groups",
+      "type": "COMPONENT",
+      "count": 20,
+      "props": {}
+    },
+    {
+      "id": "593:426",
+      "name": "_components/Native Select/Dropdown Options/Item",
+      "type": "COMPONENT_SET",
+      "count": 6,
+      "props": {
+        "Item Text#593:0": {
+          "type": "TEXT",
+          "defaultValue": "Item"
+        },
+        "Show Left Content#593:3": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Left Content#2399:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "212:180",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "d03ecca302986e68eaefa6e760bff6fba3d87462"
+            }
+          ]
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "Simple",
+          "variantOptions": [
+            "With groups",
+            "Simple"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "active",
+            "default",
+            "hover"
+          ]
+        }
+      }
+    },
+    {
+      "id": "601:1089",
+      "name": "_components/Native Select/Dropdown Options/Label",
+      "type": "COMPONENT_SET",
+      "count": 1,
+      "props": {
+        "Label Text#593:0": {
+          "type": "TEXT",
+          "defaultValue": "Section Text"
+        },
+        "Show Left Content#593:3": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Left Content#2399:7": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "212:180",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "d03ecca302986e68eaefa6e760bff6fba3d87462"
+            }
+          ]
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Label",
+          "variantOptions": [
+            "Label"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "570:3816",
+      "570:3815",
+      "Status=default, Opened=false, Style=closed, Appearance=Default"
+    ],
+    [
+      "611:787",
+      "570:3815",
+      "Status=error, Opened=false, Style=closed, Appearance=Default"
+    ],
+    [
+      "614:961",
+      "570:3815",
+      "Status=disabled, Opened=false, Style=closed, Appearance=Default"
+    ],
+    [
+      "605:6233",
+      "570:3815",
+      "Status=default, Opened=false, Style=filled-selected, Appearance=Default"
+    ],
+    [
+      "611:790",
+      "570:3815",
+      "Status=error, Opened=false, Style=filled-selected, Appearance=Default"
+    ],
+    [
+      "605:6287",
+      "570:3815",
+      "Status=default, Opened=false, Style=filled, Appearance=Default"
+    ],
+    [
+      "611:793",
+      "570:3815",
+      "Status=error, Opened=false, Style=filled, Appearance=Default"
+    ],
+    [
+      "570:3821",
+      "570:3815",
+      "Status=default, Opened=true, Style=expanded, Appearance=Default"
+    ],
+    [
+      "611:796",
+      "570:3815",
+      "Status=error, Opened=true, Style=expanded, Appearance=Default"
+    ],
+    [
+      "2412:1400",
+      "570:3815",
+      "Status=default, Opened=false, Style=closed, Appearance=Transparent"
+    ],
+    [
+      "2412:1405",
+      "570:3815",
+      "Status=error, Opened=false, Style=closed, Appearance=Transparent"
+    ],
+    [
+      "2412:1409",
+      "570:3815",
+      "Status=disabled, Opened=false, Style=closed, Appearance=Transparent"
+    ],
+    [
+      "2412:1413",
+      "570:3815",
+      "Status=default, Opened=false, Style=filled-selected, Appearance=Transparent"
+    ],
+    [
+      "2412:1417",
+      "570:3815",
+      "Status=error, Opened=false, Style=filled-selected, Appearance=Transparent"
+    ],
+    [
+      "2412:1421",
+      "570:3815",
+      "Status=default, Opened=false, Style=filled, Appearance=Transparent"
+    ],
+    [
+      "2412:1425",
+      "570:3815",
+      "Status=error, Opened=false, Style=filled, Appearance=Transparent"
+    ],
+    [
+      "2412:1429",
+      "570:3815",
+      "Status=default, Opened=true, Style=expanded, Appearance=Transparent"
+    ],
+    [
+      "2412:1434",
+      "570:3815",
+      "Status=error, Opened=true, Style=expanded, Appearance=Transparent"
+    ],
+    [
+      "614:1183",
+      "614:1182",
+      "State=default, Opened=false, Style=closed"
+    ],
+    [
+      "614:1186",
+      "614:1182",
+      "State=error, Opened=false, Style=closed"
+    ],
+    [
+      "614:1189",
+      "614:1182",
+      "State=disabled, Opened=false, Style=closed"
+    ],
+    [
+      "614:1192",
+      "614:1182",
+      "State=default, Opened=false, Style=filled-selected"
+    ],
+    [
+      "614:1195",
+      "614:1182",
+      "State=error, Opened=false, Style=filled-selected"
+    ],
+    [
+      "614:1198",
+      "614:1182",
+      "State=default, Opened=false, Style=filled"
+    ],
+    [
+      "614:1201",
+      "614:1182",
+      "State=error, Opened=false, Style=filled"
+    ],
+    [
+      "614:1204",
+      "614:1182",
+      "State=default, Opened=true, Style=expanded"
+    ],
+    [
+      "614:1209",
+      "614:1182",
+      "State=error, Opened=true, Style=expanded"
+    ],
+    [
+      "593:424",
+      "593:426",
+      "Style=Simple, Status=default"
+    ],
+    [
+      "836:9210",
+      "593:426",
+      "Style=With groups, Status=default"
+    ],
+    [
+      "593:427",
+      "593:426",
+      "Style=Simple, Status=hover"
+    ],
+    [
+      "836:9215",
+      "593:426",
+      "Style=With groups, Status=hover"
+    ],
+    [
+      "593:473",
+      "593:426",
+      "Style=Simple, Status=active"
+    ],
+    [
+      "836:9220",
+      "593:426",
+      "Style=With groups, Status=active"
+    ],
+    [
+      "601:1090",
+      "601:1089",
+      "Type=Label"
+    ]
+  ]
+}

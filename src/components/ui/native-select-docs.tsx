@@ -22,13 +22,13 @@ const anatomy = [
 ] as const
 const geometry = [
   ["Ancho de muestra", "w-[180px]", "180px", "Composición oficial de ejemplo"],
-  ["Altura default", "h-8", "32px", "shadcn/ui"],
+  ["Altura default", "h-9", "36px", "Figma GRM"],
   ["Altura small", "data-[size=sm]:h-7", "28px", "shadcn/ui"],
   ["Padding izquierdo", "pl-2.5", "10px", "shadcn/ui"],
   ["Padding derecho", "pr-8", "32px", "shadcn/ui"],
   ["Icono", "size-4 / right-2.5", "16px / 10px", "shadcn/ui"],
   ["Texto", "text-sm", "14px", "shadcn/ui / token de marca"],
-  ["Radio", "rounded-lg", "var(--radius)", "Token global"],
+  ["Radio", "rounded-md", "var(--radius-md) · 8px", "Figma GRM"],
 ] as const
 const colors = [
   ["Superficie", "bg-transparent", "transparent", "shadcn/ui"],

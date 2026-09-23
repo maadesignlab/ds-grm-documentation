@@ -1,0 +1,430 @@
+{
+  "id": "2938:11449",
+  "name": "Menubar",
+  "total": 71,
+  "sets": [
+    {
+      "id": "2953:10",
+      "name": "_components/Menubar/Trigger",
+      "type": "COMPONENT_SET",
+      "count": 4,
+      "props": {
+        "Trigger Text#2953:0": {
+          "type": "TEXT",
+          "defaultValue": "Archivo"
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "onHover",
+            "active",
+            "disabled"
+          ]
+        }
+      }
+    },
+    {
+      "id": "2984:4900",
+      "name": "Menubar",
+      "type": "COMPONENT_SET",
+      "count": 65,
+      "props": {
+        "Menu Content#2984:1": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "1637:3373",
+          "preferredValues": []
+        },
+        "Options Amount": {
+          "type": "VARIANT",
+          "defaultValue": "1",
+          "variantOptions": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Closed",
+          "variantOptions": [
+            "Closed",
+            "Open"
+          ]
+        },
+        "Active Option": {
+          "type": "VARIANT",
+          "defaultValue": "None",
+          "variantOptions": [
+            "None",
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08",
+            "09",
+            "10"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "2953:2",
+      "2953:10",
+      "Status=default"
+    ],
+    [
+      "2953:4",
+      "2953:10",
+      "Status=onHover"
+    ],
+    [
+      "2953:6",
+      "2953:10",
+      "Status=active"
+    ],
+    [
+      "2953:8",
+      "2953:10",
+      "Status=disabled"
+    ],
+    [
+      "2974:331",
+      "2984:4900",
+      "Options Amount=1, State=Closed, Active Option=None"
+    ],
+    [
+      "2974:334",
+      "2984:4900",
+      "Options Amount=1, State=Open, Active Option=01"
+    ],
+    [
+      "2975:411",
+      "2984:4900",
+      "Options Amount=2, State=Closed, Active Option=None"
+    ],
+    [
+      "2975:416",
+      "2984:4900",
+      "Options Amount=2, State=Open, Active Option=01"
+    ],
+    [
+      "2975:525",
+      "2984:4900",
+      "Options Amount=2, State=Open, Active Option=02"
+    ],
+    [
+      "2975:46755",
+      "2984:4900",
+      "Options Amount=3, State=Closed, Active Option=None"
+    ],
+    [
+      "2975:46762",
+      "2984:4900",
+      "Options Amount=3, State=Open, Active Option=01"
+    ],
+    [
+      "2975:46873",
+      "2984:4900",
+      "Options Amount=3, State=Open, Active Option=02"
+    ],
+    [
+      "2975:46984",
+      "2984:4900",
+      "Options Amount=3, State=Open, Active Option=03"
+    ],
+    [
+      "2975:47144",
+      "2984:4900",
+      "Options Amount=4, State=Closed, Active Option=None"
+    ],
+    [
+      "2975:47153",
+      "2984:4900",
+      "Options Amount=4, State=Open, Active Option=01"
+    ],
+    [
+      "2975:47266",
+      "2984:4900",
+      "Options Amount=4, State=Open, Active Option=02"
+    ],
+    [
+      "2975:47379",
+      "2984:4900",
+      "Options Amount=4, State=Open, Active Option=03"
+    ],
+    [
+      "2975:47492",
+      "2984:4900",
+      "Options Amount=4, State=Open, Active Option=04"
+    ],
+    [
+      "2975:47690",
+      "2984:4900",
+      "Options Amount=5, State=Closed, Active Option=None"
+    ],
+    [
+      "2975:47701",
+      "2984:4900",
+      "Options Amount=5, State=Open, Active Option=01"
+    ],
+    [
+      "2975:47816",
+      "2984:4900",
+      "Options Amount=5, State=Open, Active Option=02"
+    ],
+    [
+      "2975:47931",
+      "2984:4900",
+      "Options Amount=5, State=Open, Active Option=03"
+    ],
+    [
+      "2975:48046",
+      "2984:4900",
+      "Options Amount=5, State=Open, Active Option=04"
+    ],
+    [
+      "2975:48161",
+      "2984:4900",
+      "Options Amount=5, State=Open, Active Option=05"
+    ],
+    [
+      "2976:1571",
+      "2984:4900",
+      "Options Amount=6, State=Closed, Active Option=None"
+    ],
+    [
+      "2976:1584",
+      "2984:4900",
+      "Options Amount=6, State=Open, Active Option=01"
+    ],
+    [
+      "2976:1701",
+      "2984:4900",
+      "Options Amount=6, State=Open, Active Option=02"
+    ],
+    [
+      "2976:1818",
+      "2984:4900",
+      "Options Amount=6, State=Open, Active Option=03"
+    ],
+    [
+      "2976:1935",
+      "2984:4900",
+      "Options Amount=6, State=Open, Active Option=04"
+    ],
+    [
+      "2976:2052",
+      "2984:4900",
+      "Options Amount=6, State=Open, Active Option=05"
+    ],
+    [
+      "2976:2169",
+      "2984:4900",
+      "Options Amount=6, State=Open, Active Option=06"
+    ],
+    [
+      "2976:48571",
+      "2984:4900",
+      "Options Amount=7, State=Closed, Active Option=None"
+    ],
+    [
+      "2976:48586",
+      "2984:4900",
+      "Options Amount=7, State=Open, Active Option=01"
+    ],
+    [
+      "2976:48705",
+      "2984:4900",
+      "Options Amount=7, State=Open, Active Option=02"
+    ],
+    [
+      "2976:48824",
+      "2984:4900",
+      "Options Amount=7, State=Open, Active Option=03"
+    ],
+    [
+      "2976:48943",
+      "2984:4900",
+      "Options Amount=7, State=Open, Active Option=04"
+    ],
+    [
+      "2976:49062",
+      "2984:4900",
+      "Options Amount=7, State=Open, Active Option=05"
+    ],
+    [
+      "2976:49181",
+      "2984:4900",
+      "Options Amount=7, State=Open, Active Option=06"
+    ],
+    [
+      "2976:49300",
+      "2984:4900",
+      "Options Amount=7, State=Open, Active Option=07"
+    ],
+    [
+      "2976:49672",
+      "2984:4900",
+      "Options Amount=8, State=Closed, Active Option=None"
+    ],
+    [
+      "2976:49689",
+      "2984:4900",
+      "Options Amount=8, State=Open, Active Option=01"
+    ],
+    [
+      "2976:49810",
+      "2984:4900",
+      "Options Amount=8, State=Open, Active Option=02"
+    ],
+    [
+      "2976:49931",
+      "2984:4900",
+      "Options Amount=8, State=Open, Active Option=03"
+    ],
+    [
+      "2976:50052",
+      "2984:4900",
+      "Options Amount=8, State=Open, Active Option=04"
+    ],
+    [
+      "2976:50173",
+      "2984:4900",
+      "Options Amount=8, State=Open, Active Option=05"
+    ],
+    [
+      "2976:50294",
+      "2984:4900",
+      "Options Amount=8, State=Open, Active Option=06"
+    ],
+    [
+      "2976:50415",
+      "2984:4900",
+      "Options Amount=8, State=Open, Active Option=07"
+    ],
+    [
+      "2976:50536",
+      "2984:4900",
+      "Options Amount=8, State=Open, Active Option=08"
+    ],
+    [
+      "2979:3379",
+      "2984:4900",
+      "Options Amount=9, State=Closed, Active Option=None"
+    ],
+    [
+      "2979:3398",
+      "2984:4900",
+      "Options Amount=9, State=Open, Active Option=01"
+    ],
+    [
+      "2979:3521",
+      "2984:4900",
+      "Options Amount=9, State=Open, Active Option=02"
+    ],
+    [
+      "2979:3644",
+      "2984:4900",
+      "Options Amount=9, State=Open, Active Option=03"
+    ],
+    [
+      "2979:3767",
+      "2984:4900",
+      "Options Amount=9, State=Open, Active Option=04"
+    ],
+    [
+      "2979:3890",
+      "2984:4900",
+      "Options Amount=9, State=Open, Active Option=05"
+    ],
+    [
+      "2979:4013",
+      "2984:4900",
+      "Options Amount=9, State=Open, Active Option=06"
+    ],
+    [
+      "2979:4136",
+      "2984:4900",
+      "Options Amount=9, State=Open, Active Option=07"
+    ],
+    [
+      "2979:4259",
+      "2984:4900",
+      "Options Amount=9, State=Open, Active Option=08"
+    ],
+    [
+      "2979:4382",
+      "2984:4900",
+      "Options Amount=9, State=Open, Active Option=09"
+    ],
+    [
+      "2979:51018",
+      "2984:4900",
+      "Options Amount=10, State=Closed, Active Option=None"
+    ],
+    [
+      "2979:51039",
+      "2984:4900",
+      "Options Amount=10, State=Open, Active Option=01"
+    ],
+    [
+      "2979:51164",
+      "2984:4900",
+      "Options Amount=10, State=Open, Active Option=02"
+    ],
+    [
+      "2979:51289",
+      "2984:4900",
+      "Options Amount=10, State=Open, Active Option=03"
+    ],
+    [
+      "2979:51414",
+      "2984:4900",
+      "Options Amount=10, State=Open, Active Option=04"
+    ],
+    [
+      "2979:51539",
+      "2984:4900",
+      "Options Amount=10, State=Open, Active Option=05"
+    ],
+    [
+      "2979:51664",
+      "2984:4900",
+      "Options Amount=10, State=Open, Active Option=06"
+    ],
+    [
+      "2979:51789",
+      "2984:4900",
+      "Options Amount=10, State=Open, Active Option=07"
+    ],
+    [
+      "2979:51914",
+      "2984:4900",
+      "Options Amount=10, State=Open, Active Option=08"
+    ],
+    [
+      "2979:52039",
+      "2984:4900",
+      "Options Amount=10, State=Open, Active Option=09"
+    ],
+    [
+      "2979:52164",
+      "2984:4900",
+      "Options Amount=10, State=Open, Active Option=10"
+    ]
+  ]
+}

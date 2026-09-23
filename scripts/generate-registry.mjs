@@ -6,6 +6,7 @@ const uiDirectory = path.join(root, "src/components/ui")
 const registryPath = path.join(root, "src/components/registry.json")
 const publicDirectory = path.join(root, "public/r")
 const packageJson = JSON.parse(await readFile(path.join(root, "package.json"), "utf8"))
+const releaseManifest = JSON.parse(await readFile(path.join(root, "design-system/release-manifest.json"), "utf8"))
 const packageVersions = { ...packageJson.dependencies, ...packageJson.devDependencies }
 
 const figmaNodes = {
@@ -208,6 +209,8 @@ const manifest = {
     figma: figmaBase,
     registry: "/r/registry.json",
     storybookIndex: "/index.json",
+    releaseManifest: "/r/release-manifest.json",
+    figmaSnapshot: "/r/figma-snapshot.json",
   },
   priority: ["shadcn/ui", "Figma", "GRM extensions"],
   canonicalRendering: "Playground",
@@ -222,6 +225,7 @@ const manifest = {
   components: documented.map((name) => ({
     name: storyTitles[name],
     slug: name,
+    version: releaseManifest.components.find(component => component.id === name)?.version,
     kind: files.includes(`${name}.tsx`) ? "component" : "block",
     registry: `/r/${name}.json`,
     figmaNode: figmaNodes[name],
@@ -238,3 +242,7 @@ await writeFile(registryPath, `${JSON.stringify(registry, null, 2)}\n`)
 await writeFile(path.join(publicDirectory, "ai-manifest.json"), `${JSON.stringify(manifest, null, 2)}\n`)
 
 console.log(`Registry source generated with ${documented.length} documented components and ${supporting.length + 1} support items.`)
+
+await writeFile(path.join(publicDirectory, "release-manifest.json"), `${JSON.stringify(releaseManifest, null, 2)}\n`)
+await writeFile(path.join(publicDirectory, "figma-snapshot.json"), await readFile(path.join(root, "design-system/figma-snapshot.json")))
+await writeFile(path.join(publicDirectory, "release-history.json"), await readFile(path.join(root, "design-system/release-history.json")))

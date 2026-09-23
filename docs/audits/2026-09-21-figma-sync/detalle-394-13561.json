@@ -1,0 +1,178 @@
+{
+  "id": "394:13561",
+  "name": "Text Area",
+  "total": 4,
+  "nodes": 14,
+  "refs": {
+    "VariableID:429:250": {
+      "count": 12,
+      "example": "468:2111"
+    },
+    "VariableID:51:19": {
+      "count": 4,
+      "example": "468:2111"
+    },
+    "VariableID:51:21": {
+      "count": 4,
+      "example": "468:2111"
+    },
+    "VariableID:71:2": {
+      "count": 6,
+      "example": "I1063:1152;553:3042"
+    },
+    "VariableID:99:17": {
+      "count": 3,
+      "example": "I1063:1152;553:3042"
+    },
+    "VariableID:132:811": {
+      "count": 3,
+      "example": "I1063:1152;553:3042"
+    },
+    "VariableID:50:641": {
+      "count": 3,
+      "example": "I1063:1152;553:3042"
+    },
+    "VariableID:332:2323": {
+      "count": 2,
+      "example": "479:72"
+    },
+    "VariableID:424:1864": {
+      "count": 2,
+      "example": "479:84"
+    },
+    "VariableID:479:83": {
+      "count": 2,
+      "example": "479:76"
+    }
+  },
+  "texts": {
+    "S:1d452614e679106aeb9f64166fd66fd5df9751c7,": {
+      "count": 3,
+      "example": "I1063:1152;553:3042"
+    }
+  },
+  "styles": {},
+  "sets": [
+    {
+      "id": "479:71",
+      "name": "TextArea",
+      "count": 3,
+      "props": {
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "disabled",
+            "default",
+            "error"
+          ]
+        }
+      },
+      "default": {
+        "id": "468:2111",
+        "name": "Status=default",
+        "w": 304,
+        "h": 161,
+        "layout": "VERTICAL",
+        "gap": 10,
+        "padding": [
+          9,
+          8,
+          9,
+          8
+        ],
+        "radius": 10,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:19"
+              }
+            }
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8549019694328308,
+              "g": 0.8313725590705872,
+              "b": 0.843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:21"
+              }
+            }
+          }
+        ],
+        "effects": [
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 2,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.05000000074505806
+            },
+            "offset": {
+              "x": 0,
+              "y": 1
+            },
+            "spread": 0,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": false
+          }
+        ],
+        "bound": {
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:19"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:21"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "errors": []
+}

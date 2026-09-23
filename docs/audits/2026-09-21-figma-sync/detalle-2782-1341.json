@@ -1,0 +1,342 @@
+{
+  "id": "2782:1341",
+  "name": "Carousel",
+  "total": 318,
+  "nodes": 7193,
+  "refs": {
+    "VariableID:50:534": {
+      "count": 3348,
+      "example": "2794:3"
+    },
+    "VariableID:44:188": {
+      "count": 1062,
+      "example": "2794:3"
+    },
+    "VariableID:51:21": {
+      "count": 2286,
+      "example": "2794:3"
+    },
+    "VariableID:50:513": {
+      "count": 314,
+      "example": "2794:39079"
+    },
+    "VariableID:50:526": {
+      "count": 306,
+      "example": "2818:3071"
+    },
+    "VariableID:50:514": {
+      "count": 1836,
+      "example": "2818:3071"
+    },
+    "VariableID:50:537": {
+      "count": 2448,
+      "example": "I2818:3071;3381:5989"
+    },
+    "VariableID:44:184": {
+      "count": 1224,
+      "example": "I2818:3071;3381:5989;315:3319;212:2018;212:1662"
+    }
+  },
+  "texts": {},
+  "styles": {},
+  "sets": [
+    {
+      "id": "2794:2",
+      "name": "_components/Carousel/Item",
+      "count": 1,
+      "props": {
+        "Content#2794:0": {
+          "type": "SLOT",
+          "description": null,
+          "preferredValues": []
+        }
+      },
+      "default": {
+        "id": "2794:2",
+        "name": "_components/Carousel/Item",
+        "w": 400,
+        "h": 200,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "2795:39221",
+      "name": "_components/Carousel/Legacy/Content booleans",
+      "count": 8,
+      "props": {
+        "Show Item 03#2795:16": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Show Item 04#2795:17": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Show Item 05#2795:18": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Show Item 06#2795:19": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Show Item 07#2795:20": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Show Item 08#2795:21": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Show Item 09#2795:22": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Show Item 10#2795:23": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Orientation": {
+          "type": "VARIANT",
+          "defaultValue": "Horizontal",
+          "variantOptions": [
+            "Horizontal",
+            "Vertical"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Full",
+          "variantOptions": [
+            "Full",
+            "Large",
+            "Medium",
+            "Small"
+          ]
+        }
+      },
+      "default": {
+        "id": "2794:4",
+        "name": "Orientation=Horizontal, Size=Full",
+        "w": 400,
+        "h": 200,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "2819:4798",
+      "name": "Carousel",
+      "count": 72,
+      "props": {
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Full",
+          "variantOptions": [
+            "Full",
+            "Large",
+            "Medium",
+            "Small"
+          ]
+        },
+        "Orientation": {
+          "type": "VARIANT",
+          "defaultValue": "Horizontal",
+          "variantOptions": [
+            "Horizontal",
+            "Vertical"
+          ]
+        },
+        "Items": {
+          "type": "VARIANT",
+          "defaultValue": "02",
+          "variantOptions": [
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08",
+            "09",
+            "10"
+          ]
+        }
+      },
+      "default": {
+        "id": "2818:3070",
+        "name": "Size=Full, Orientation=Horizontal, Items=02",
+        "w": 520,
+        "h": 220,
+        "layout": "HORIZONTAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": false,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "3381:9498",
+      "name": "_components/Carousel/Full-Large",
+      "count": 234,
+      "props": {
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Full",
+          "variantOptions": [
+            "Full",
+            "Large"
+          ]
+        },
+        "Orientation": {
+          "type": "VARIANT",
+          "defaultValue": "Horizontal",
+          "variantOptions": [
+            "Horizontal",
+            "Vertical"
+          ]
+        },
+        "Items": {
+          "type": "VARIANT",
+          "defaultValue": "02",
+          "variantOptions": [
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08",
+            "09",
+            "10"
+          ]
+        },
+        "Position": {
+          "type": "VARIANT",
+          "defaultValue": "01",
+          "variantOptions": [
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08",
+            "09",
+            "10"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Disabled"
+          ]
+        }
+      },
+      "default": {
+        "id": "3381:5988",
+        "name": "Size=Full, Orientation=Horizontal, Items=02, Position=01, Status=Default",
+        "w": 520,
+        "h": 220,
+        "layout": "HORIZONTAL",
+        "gap": 8,
+        "padding": [
+          12,
+          12,
+          12,
+          12
+        ],
+        "radius": 6,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:514"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:514"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:514"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:514"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          }
+        }
+      }
+    }
+  ],
+  "errors": []
+}

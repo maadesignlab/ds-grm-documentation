@@ -1,0 +1,882 @@
+{
+  "id": "3114:1373",
+  "name": "Sidebar",
+  "total": 48,
+  "nodes": 773,
+  "refs": {
+    "VariableID:51:24": {
+      "count": 128,
+      "example": "3152:812"
+    },
+    "VariableID:50:513": {
+      "count": 8,
+      "example": "I3213:52895;3139:311"
+    },
+    "VariableID:50:514": {
+      "count": 58,
+      "example": "I3213:52895;3213:907"
+    },
+    "VariableID:50:537": {
+      "count": 16,
+      "example": "I3213:52895;3213:907"
+    },
+    "VariableID:44:183": {
+      "count": 8,
+      "example": "I3213:52895;3213:907"
+    },
+    "VariableID:51:21": {
+      "count": 64,
+      "example": "I3213:52895;3213:907"
+    },
+    "VariableID:44:184": {
+      "count": 62,
+      "example": "I3213:52895;3213:907;315:3219;212:2018;212:1662"
+    },
+    "VariableID:50:534": {
+      "count": 244,
+      "example": "3207:1233"
+    },
+    "VariableID:71:6": {
+      "count": 72,
+      "example": "I3207:1233;3184:52686;3184:1189"
+    },
+    "VariableID:99:17": {
+      "count": 39,
+      "example": "I3207:1233;3184:52686;3184:1189"
+    },
+    "VariableID:132:811": {
+      "count": 54,
+      "example": "I3207:1233;3184:52686;3184:1189"
+    },
+    "VariableID:50:639": {
+      "count": 32,
+      "example": "I3207:1233;3184:52686;3184:1189"
+    },
+    "VariableID:1f9858237351df263a3383100f5dee066992a506/2119:2": {
+      "count": 16,
+      "example": "I3207:1247;3184:52686;3209:2;212:2018;3207:1228"
+    },
+    "VariableID:50:526": {
+      "count": 50,
+      "example": "4189:66637"
+    },
+    "VariableID:50:528": {
+      "count": 24,
+      "example": "4189:66637"
+    },
+    "VariableID:71:2": {
+      "count": 30,
+      "example": "I4189:66637;3140:311;4226:950;3137:175;3134:137"
+    },
+    "VariableID:100:21": {
+      "count": 15,
+      "example": "I4189:66637;3140:311;4226:950;3137:175;3134:137"
+    },
+    "VariableID:50:638": {
+      "count": 15,
+      "example": "I4189:66637;3140:311;4226:950;3137:175;3134:137"
+    },
+    "VariableID:1f9858237351df263a3383100f5dee066992a506/4022:0": {
+      "count": 72,
+      "example": "I4189:66637;3140:311;4226:950;3137:179;4226:946;3129:110;3184:53124;3209:2;212:2018;212:379"
+    },
+    "VariableID:71:14": {
+      "count": 4,
+      "example": "4270:6006"
+    },
+    "VariableID:50:531": {
+      "count": 18,
+      "example": "I4189:66855;3998:7432;4233:65260;4197:12271;4233:65258;3998:7676"
+    },
+    "VariableID:71:13": {
+      "count": 22,
+      "example": "I4189:66855;3998:7432;4233:65260;4197:12271;4233:65258;3998:7676;3998:7520;212:2015;212:1665"
+    },
+    "VariableID:74:4": {
+      "count": 24,
+      "example": "3122:5"
+    },
+    "VariableID:44:185": {
+      "count": 18,
+      "example": "I3184:52704;3209:2;212:2018;212:1190"
+    },
+    "VariableID:50:640": {
+      "count": 3,
+      "example": "I3184:52704;3184:1189"
+    },
+    "VariableID:91d67f20fa160867d2fe6d31398bdbab6fe3d57a/1046:5870": {
+      "count": 4,
+      "example": "I3994:4109;1140:33"
+    },
+    "VariableID:50:289": {
+      "count": 16,
+      "example": "I3994:4109;1140:33"
+    },
+    "VariableID:f5431091848a6eecfc42fded5a6049c66b2feecc/1046:4092": {
+      "count": 4,
+      "example": "I3994:4109;1140:30"
+    },
+    "VariableID:32de368de64cf2a0c09cecf2c2f67b977ebbdf03/1088:654": {
+      "count": 8,
+      "example": "I3994:4109;1140:30"
+    },
+    "VariableID:d807cd2c55aa956d7951c7137f79e14b22a8aa1f/1088:536": {
+      "count": 8,
+      "example": "I3994:4109;1140:30"
+    },
+    "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14": {
+      "count": 16,
+      "example": "I3994:4109;1140:30"
+    },
+    "VariableID:51:172": {
+      "count": 8,
+      "example": "I3994:4109;1140:32"
+    },
+    "VariableID:50:641": {
+      "count": 4,
+      "example": "I3994:4109;1140:32"
+    },
+    "VariableID:74:3": {
+      "count": 2,
+      "example": "I4588:2509;212:2015;212:1665"
+    },
+    "VariableID:50:520": {
+      "count": 5,
+      "example": "3127:80"
+    },
+    "VariableID:429:249": {
+      "count": 18,
+      "example": "3127:80"
+    },
+    "VariableID:71:15": {
+      "count": 2,
+      "example": "3127:103"
+    },
+    "VariableID:186:183": {
+      "count": 2,
+      "example": "4197:12895"
+    },
+    "VariableID:50:530": {
+      "count": 7,
+      "example": "4197:12895"
+    }
+  },
+  "texts": {
+    "S:b9200b5971cf3f84adc1475861c0b20e11d4e15e,": {
+      "count": 32,
+      "example": "I3207:1233;3184:52686;3184:1189"
+    },
+    "S:fbda438304ca6918486ca947fe1229b45c69af15,": {
+      "count": 15,
+      "example": "I4189:66637;3140:311;4226:950;3137:175;3134:137"
+    },
+    "S:a652e3f14d671105454c3f2ba846e458c20c9a27,": {
+      "count": 3,
+      "example": "I3184:52704;3184:1189"
+    },
+    "S:1d452614e679106aeb9f64166fd66fd5df9751c7,": {
+      "count": 4,
+      "example": "I3994:4109;1140:32"
+    }
+  },
+  "styles": {
+    "S:b8adb059f130b7f80c3daff5ccaceb3c9104f4ef,": {
+      "count": 4,
+      "example": "I3213:52895;3213:907"
+    }
+  },
+  "sets": [
+    {
+      "id": "3152:1014",
+      "name": "Sidebar",
+      "count": 2,
+      "props": {
+        "Header#3152:6": {
+          "type": "SLOT",
+          "description": null,
+          "preferredValues": []
+        },
+        "Scroll content#3152:7": {
+          "type": "SLOT",
+          "description": null,
+          "preferredValues": []
+        },
+        "Primary navigation#3152:8": {
+          "type": "SLOT",
+          "description": null,
+          "preferredValues": []
+        },
+        "Sidebar state": {
+          "type": "VARIANT",
+          "defaultValue": "expanded",
+          "variantOptions": [
+            "expanded",
+            "collapsed"
+          ]
+        }
+      },
+      "default": {
+        "id": "3152:812",
+        "name": "Sidebar state=expanded",
+        "w": 256,
+        "h": 902,
+        "layout": "HORIZONTAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:24"
+              }
+            }
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:24"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "3122:51749",
+      "name": "_components/Sidebar/Menu Item",
+      "count": 16,
+      "props": {
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "link",
+          "variantOptions": [
+            "link",
+            "trigger"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "hover",
+            "active",
+            "disabled"
+          ]
+        },
+        "Sidebar state": {
+          "type": "VARIANT",
+          "defaultValue": "expanded",
+          "variantOptions": [
+            "expanded",
+            "collapsed"
+          ]
+        }
+      },
+      "default": {
+        "id": "3121:87",
+        "name": "Type=link, State=default, Sidebar state=expanded",
+        "w": 240,
+        "h": 40,
+        "layout": "HORIZONTAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 6,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:24"
+              }
+            }
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:24"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "3184:1186",
+      "name": "_components/Sidebar/Menu Item Content",
+      "count": 3,
+      "props": {
+        "Label#3184:4": {
+          "type": "TEXT",
+          "defaultValue": "Inicio"
+        },
+        "Leading icon#3184:5": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Trailing content#3184:7": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Label visible#3184:8": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        }
+      },
+      "default": {
+        "id": "3184:1186",
+        "name": "_components/Sidebar/Menu Item Content",
+        "w": 240,
+        "h": 40,
+        "layout": "HORIZONTAL",
+        "gap": 12,
+        "padding": [
+          0,
+          12,
+          0,
+          12
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "3127:112",
+      "name": "_components/Sidebar/Menu Sub Item",
+      "count": 7,
+      "props": {
+        "Label#3127:2": {
+          "type": "TEXT",
+          "defaultValue": "Subopción"
+        },
+        "Leading icon#3127:3": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled"
+          ]
+        },
+        "Sidebar state": {
+          "type": "VARIANT",
+          "defaultValue": "expanded",
+          "variantOptions": [
+            "expanded",
+            "collapsed"
+          ]
+        }
+      },
+      "default": {
+        "id": "3127:80",
+        "name": "State=default, Sidebar state=expanded",
+        "w": 240,
+        "h": 40,
+        "layout": "HORIZONTAL",
+        "gap": 12,
+        "padding": [
+          10,
+          12,
+          10,
+          36
+        ],
+        "radius": 6,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:24"
+              }
+            }
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:514"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:520"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:249"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:514"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:249"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:24"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "3129:122",
+      "name": "_components/Sidebar/Collapsible Menu Item",
+      "count": 4,
+      "props": {
+        "Items#4197:3": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "470919b6894fbe832ac36d6ec93264965ea3f784"
+            }
+          ]
+        },
+        "Sidebar state": {
+          "type": "VARIANT",
+          "defaultValue": "expanded",
+          "variantOptions": [
+            "expanded",
+            "collapsed"
+          ]
+        },
+        "Collapsible status": {
+          "type": "VARIANT",
+          "defaultValue": "closed",
+          "variantOptions": [
+            "open",
+            "closed"
+          ]
+        }
+      },
+      "default": {
+        "id": "3129:109",
+        "name": "Sidebar state=expanded, Collapsible status=closed",
+        "w": 240,
+        "h": 40,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "3896:2782",
+      "name": "_components/Sidebar/Header/HeaderLogos",
+      "count": 2,
+      "props": {
+        "Logo": {
+          "type": "VARIANT",
+          "defaultValue": "GRM Default",
+          "variantOptions": [
+            "GRM Default",
+            "GRM Collapsed"
+          ]
+        }
+      },
+      "default": {
+        "id": "3896:2781",
+        "name": "Logo=GRM Default",
+        "w": 191,
+        "h": 26,
+        "layout": "VERTICAL",
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "3994:4754",
+      "name": "_components/Sidebar/Header",
+      "count": 2,
+      "props": {
+        "Content#3994:1": {
+          "type": "SLOT",
+          "description": null,
+          "preferredValues": []
+        },
+        "Sidebar state": {
+          "type": "VARIANT",
+          "defaultValue": "expanded",
+          "variantOptions": [
+            "expanded",
+            "collapsed"
+          ]
+        }
+      },
+      "default": {
+        "id": "3139:310",
+        "name": "Sidebar state=expanded",
+        "w": 256,
+        "h": 56,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:24"
+              }
+            }
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:24"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "3994:4804",
+      "name": "_components/Sidebar/Group Label",
+      "count": 2,
+      "props": {
+        "Label#3994:2": {
+          "type": "TEXT",
+          "defaultValue": "OPERACIÓN"
+        },
+        "Separator#3994:3": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Sidebar state": {
+          "type": "VARIANT",
+          "defaultValue": "expanded",
+          "variantOptions": [
+            "expanded",
+            "collapsed"
+          ]
+        }
+      },
+      "default": {
+        "id": "3134:136",
+        "name": "Sidebar state=expanded",
+        "w": 214,
+        "h": 16,
+        "layout": "HORIZONTAL",
+        "gap": 8,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          }
+        }
+      }
+    },
+    {
+      "id": "3998:7430",
+      "name": "_components/Sidebar/Content",
+      "count": 1,
+      "props": {
+        "Groups#3998:7": {
+          "type": "SLOT",
+          "description": null,
+          "preferredValues": []
+        },
+        "Sidebar state": {
+          "type": "VARIANT",
+          "defaultValue": "expanded",
+          "variantOptions": [
+            "expanded"
+          ]
+        }
+      },
+      "default": {
+        "id": "3140:310",
+        "name": "Sidebar state=expanded",
+        "w": 256,
+        "h": 1168,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          0,
+          8,
+          20,
+          8
+        ],
+        "radius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:24"
+              }
+            }
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:528"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:24"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "4022:8455",
+      "name": "_components/Sidebar/Group",
+      "count": 2,
+      "props": {
+        "Label visible#4022:15": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Content#4022:16": {
+          "type": "SLOT",
+          "description": null,
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "a302c544ab34a4c52f80bb904ead40bc53f5571c"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "086622e12f60fd73ef798668bd41e9e75568c453"
+            }
+          ]
+        },
+        "Content2#4197:0": {
+          "type": "SLOT",
+          "description": null,
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "a302c544ab34a4c52f80bb904ead40bc53f5571c"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "086622e12f60fd73ef798668bd41e9e75568c453"
+            }
+          ]
+        },
+        "Sidebar state": {
+          "type": "VARIANT",
+          "defaultValue": "expanded",
+          "variantOptions": [
+            "collapsed",
+            "expanded"
+          ]
+        }
+      },
+      "default": {
+        "id": "3137:173",
+        "name": "Sidebar state=expanded",
+        "w": 240,
+        "h": 164,
+        "layout": "VERTICAL",
+        "gap": 8,
+        "padding": [
+          20,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:528"
+          }
+        }
+      }
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,64 @@
+{
+  "id": "589:983",
+  "name": "Separator",
+  "total": 3,
+  "nodes": 5,
+  "refs": {
+    "VariableID:51:21": {
+      "count": 4,
+      "example": "590:3459"
+    }
+  },
+  "texts": {},
+  "styles": {},
+  "sets": [
+    {
+      "id": "590:3436",
+      "name": "Separator",
+      "count": 2,
+      "props": {
+        "Orientation": {
+          "type": "VARIANT",
+          "defaultValue": "horizontal",
+          "variantOptions": [
+            "horizontal",
+            "vertical"
+          ]
+        }
+      },
+      "default": {
+        "id": "590:3435",
+        "name": "Orientation=horizontal",
+        "w": 193,
+        "h": 1,
+        "layout": "VERTICAL",
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": false,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,65 @@
+# Card
+
+ID: components-card
+
+## Stories
+
+### Playground
+
+Story ID: components-card--playground
+
+```
+import { CardExample } from "@reina-madre/design-system";
+
+const Playground = () => <CardExample
+    size="default"
+    variant="body"
+    spacing={16}
+    footer="column"
+    showAction
+    title="Login to your account"
+    description="Enter your email below to login to your account" />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as CardStories from "./card.stories"
+import cardSource from "./card.tsx?raw"
+import { CardFooterOverview, CardScaleOverview, CardSpecifications, CardStyleOverview } from "./card-docs"
+
+<Meta of={CardStories} />
+<Title of={CardStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma</summary>
+
+  - Tamaños, estilos y espaciados sincronizados con el nodo `1798:3431`.
+  - Header, body y footer conservan la composición pública de Card de shadcn/ui.
+  - Footer admite distribución en columna, fila o wrap.
+
+</details>
+
+## Escala y forma
+
+<div className="mb-12"><CardScaleOverview /></div>
+
+## Estilos
+
+<div className="mb-12"><CardStyleOverview /></div>
+
+## Footer
+
+<div className="mb-12"><CardFooterOverview /></div>
+
+## Especificaciones
+
+<div className="mb-12"><CardSpecifications /></div>
+
+## Código
+
+<Source language="tsx" code={cardSource} />

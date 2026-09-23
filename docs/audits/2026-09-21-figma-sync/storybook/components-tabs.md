@@ -1,0 +1,68 @@
+# Tabs
+
+ID: components-tabs
+
+## Stories
+
+### Playground
+
+Story ID: components-tabs--playground
+
+```
+import { TabsExample } from "@reina-madre/design-system";
+
+const Playground = () => <TabsExample
+    key={JSON.stringify(args)}
+    variant="default"
+    orientation="horizontal"
+    tabAmount={4}
+    activeTab={1}
+    iconPosition="none"
+    disabledTab={false}
+    showContent />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as TabsStories from "./tabs.stories"
+import tabsSource from "./tabs.tsx?raw"
+import exampleSource from "./tabs-example.tsx?raw"
+import { TabsOfficialBehaviors, TabsSpecifications, TabsStyles } from "./tabs-docs"
+
+<Meta of={TabsStories} />
+<Title of={TabsStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva Root, List, Trigger y Content sobre el primitive accesible de Radix utilizado por shadcn/ui.
+  - Mapea Contained a `variant="default"` y Underline a `variant="line"`, sin crear aliases públicos.
+  - Integra orientación vertical, disabled e iconos oficiales además de las composiciones de 2 a 9 tabs de Figma.
+</details>
+
+## Variantes de estilo
+
+<div className="mb-12"><TabsStyles /></div>
+
+## Comportamientos oficiales
+
+<div className="mb-12"><TabsOfficialBehaviors /></div>
+
+## Especificaciones
+
+<div className="mb-12"><TabsSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={tabsSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

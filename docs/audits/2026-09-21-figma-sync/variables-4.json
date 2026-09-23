@@ -1,0 +1,1402 @@
+[
+  [
+    "VariableID:3453:18",
+    "Reina Madre/status/warning/500",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9803921580314636,
+        "g": 0.7568627595901489,
+        "b": 0.5254902243614197,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:19",
+    "Reina Madre/status/warning/600",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.8392156958580017,
+        "g": 0.6392157077789307,
+        "b": 0.4156862795352936,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:20",
+    "Reina Madre/status/warning/700",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.7019608020782471,
+        "g": 0.5215686559677124,
+        "b": 0.30980393290519714,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:21",
+    "Reina Madre/status/warning/800",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.5490196347236633,
+        "g": 0.4000000059604645,
+        "b": 0.23529411852359772,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:22",
+    "Reina Madre/status/warning/900",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.3960784375667572,
+        "g": 0.2862745225429535,
+        "b": 0.16862745583057404,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:23",
+    "Reina Madre/status/warning/950",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.23137255012989044,
+        "g": 0.16078431904315948,
+        "b": 0.0941176488995552,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:24",
+    "Reina Madre/status/error/50",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9960784316062927,
+        "g": 0.9490196108818054,
+        "b": 0.9490196108818054,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:25",
+    "Reina Madre/status/error/100",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9960784316062927,
+        "g": 0.886274516582489,
+        "b": 0.886274516582489,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:26",
+    "Reina Madre/status/error/200",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9960784316062927,
+        "g": 0.7921568751335144,
+        "b": 0.7921568751335144,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:27",
+    "Reina Madre/status/error/300",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9882352948188782,
+        "g": 0.6470588445663452,
+        "b": 0.6470588445663452,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:28",
+    "Reina Madre/status/error/400",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9725490212440491,
+        "g": 0.4431372582912445,
+        "b": 0.4431372582912445,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:29",
+    "Reina Madre/status/error/500",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9372549057006836,
+        "g": 0.2666666805744171,
+        "b": 0.2666666805744171,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:30",
+    "Reina Madre/status/error/600",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.8627451062202454,
+        "g": 0.14901961386203766,
+        "b": 0.14901961386203766,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:31",
+    "Reina Madre/status/error/700",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.7254902124404907,
+        "g": 0.10980392247438431,
+        "b": 0.10980392247438431,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:32",
+    "Reina Madre/status/error/800",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.6000000238418579,
+        "g": 0.10588235408067703,
+        "b": 0.10588235408067703,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:33",
+    "Reina Madre/status/error/900",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.49803921580314636,
+        "g": 0.11372549086809158,
+        "b": 0.11372549086809158,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:34",
+    "Reina Madre/status/error/950",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.2705882489681244,
+        "g": 0.03921568766236305,
+        "b": 0.03921568766236305,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:35",
+    "Reina Madre/status/destructive/50",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9998121857643127,
+        "g": 0.9558500647544861,
+        "b": 0.9542416930198669,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:36",
+    "Reina Madre/status/destructive/100",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.99957674741745,
+        "g": 0.8932293653488159,
+        "b": 0.8897811770439148,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:37",
+    "Reina Madre/status/destructive/200",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9985862970352173,
+        "g": 0.7641385197639465,
+        "b": 0.7593164443969727,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:38",
+    "Reina Madre/status/destructive/300",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9881662130355835,
+        "g": 0.5895424485206604,
+        "b": 0.5914188623428345,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:39",
+    "Reina Madre/status/destructive/400",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9539738893508911,
+        "g": 0.404284805059433,
+        "b": 0.43055662512779236,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:40",
+    "Reina Madre/status/destructive/500",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9019607901573181,
+        "g": 0.11764705926179886,
+        "b": 0.25882354378700256,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:41",
+    "Reina Madre/status/destructive/600",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.7490196228027344,
+        "g": 0.08627451211214066,
+        "b": 0.21176470816135406,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:42",
+    "Reina Madre/status/destructive/700",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.5803921818733215,
+        "g": 0.06666667014360428,
+        "b": 0.16470588743686676,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:43",
+    "Reina Madre/status/destructive/800",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.4117647111415863,
+        "g": 0.0470588244497776,
+        "b": 0.11764705926179886,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:44",
+    "Reina Madre/status/destructive/900",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.239215686917305,
+        "g": 0.0235294122248888,
+        "b": 0.062745101749897,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:45",
+    "Reina Madre/status/destructive/950",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.16760161519050598,
+        "g": 0.012047058902680874,
+        "b": 0.03427594155073166,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:46",
+    "Reina Madre/status/info/50",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9411764740943909,
+        "g": 0.9764705896377563,
+        "b": 1,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:47",
+    "Reina Madre/status/info/100",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.8784313797950745,
+        "g": 0.9490196108818054,
+        "b": 0.9960784316062927,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:48",
+    "Reina Madre/status/info/200",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.729411780834198,
+        "g": 0.9019607901573181,
+        "b": 0.9921568632125854,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:49",
+    "Reina Madre/status/info/300",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.4901960790157318,
+        "g": 0.8274509906768799,
+        "b": 0.9882352948188782,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:50",
+    "Reina Madre/status/info/400",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.21960784494876862,
+        "g": 0.7411764860153198,
+        "b": 0.9725490212440491,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:51",
+    "Reina Madre/status/info/500",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.054901961237192154,
+        "g": 0.6470588445663452,
+        "b": 0.9137254953384399,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:52",
+    "Reina Madre/status/info/600",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.007843137718737125,
+        "g": 0.5176470875740051,
+        "b": 0.7803921699523926,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:53",
+    "Reina Madre/status/info/700",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.0117647061124444,
+        "g": 0.4117647111415863,
+        "b": 0.6313725709915161,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:54",
+    "Reina Madre/status/info/800",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.027450980618596077,
+        "g": 0.3490196168422699,
+        "b": 0.5215686559677124,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:55",
+    "Reina Madre/status/info/900",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.0470588244497776,
+        "g": 0.29019609093666077,
+        "b": 0.4313725531101227,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3453:56",
+    "Reina Madre/status/info/950",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.0313725508749485,
+        "g": 0.18431372940540314,
+        "b": 0.2862745225429535,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3454:7",
+    "Reina Madre/status/error/500-20%",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9372549057006836,
+        "g": 0.2666666805744171,
+        "b": 0.2666666805744171,
+        "a": 0.20000000298023224
+      }
+    }
+  ],
+  [
+    "VariableID:3454:8",
+    "Reina Madre/status/destructive/500-10%",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9019607901573181,
+        "g": 0.11764705926179886,
+        "b": 0.25882354378700256,
+        "a": 0.10000000149011612
+      }
+    }
+  ],
+  [
+    "VariableID:3454:9",
+    "Reina Madre/status/destructive/500-30%",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9019607901573181,
+        "g": 0.11764705926179886,
+        "b": 0.25882354378700256,
+        "a": 0.30000001192092896
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37775",
+    "Maria Linda/status/success/50",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9162484407424927,
+        "g": 0.9722241759300232,
+        "b": 0.935326874256134,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37776",
+    "Maria Linda/status/success/100",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.8059239387512207,
+        "g": 0.9345521926879883,
+        "b": 0.8516804575920105,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37777",
+    "Maria Linda/status/success/200",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.6567890644073486,
+        "g": 0.8858372569084167,
+        "b": 0.7440875172615051,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37778",
+    "Maria Linda/status/success/300",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.4997188150882721,
+        "g": 0.8294925689697266,
+        "b": 0.6365818381309509,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37779",
+    "Maria Linda/status/success/400",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.3390404284000397,
+        "g": 0.7583260536193848,
+        "b": 0.5314294099807739,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37780",
+    "Maria Linda/status/success/500",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.19607843458652496,
+        "g": 0.6745098233222961,
+        "b": 0.43921568989753723,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37781",
+    "Maria Linda/status/success/600",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.07836874574422836,
+        "g": 0.5816643238067627,
+        "b": 0.3601166307926178,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37782",
+    "Maria Linda/status/success/700",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.06969235837459564,
+        "g": 0.47160953283309937,
+        "b": 0.2903991937637329,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37783",
+    "Maria Linda/status/success/800",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.040749773383140564,
+        "g": 0.3613935708999634,
+        "b": 0.21768079698085785,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37784",
+    "Maria Linda/status/success/900",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.021011771634221077,
+        "g": 0.25650519132614136,
+        "b": 0.14914566278457642,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37785",
+    "Maria Linda/status/success/950",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.004738093353807926,
+        "g": 0.17408600449562073,
+        "b": 0.09334755688905716,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37786",
+    "Maria Linda/status/warning/50",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9940001964569092,
+        "g": 0.9573709964752197,
+        "b": 0.9024348258972168,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37787",
+    "Maria Linda/status/warning/100",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9913027882575989,
+        "g": 0.9078936576843262,
+        "b": 0.7817613482475281,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37788",
+    "Maria Linda/status/warning/200",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9877622723579407,
+        "g": 0.8422947525978088,
+        "b": 0.6173176765441895,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37789",
+    "Maria Linda/status/warning/300",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9748279452323914,
+        "g": 0.7728602886199951,
+        "b": 0.4455817639827728,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37790",
+    "Maria Linda/status/warning/400",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9420700073242188,
+        "g": 0.7000068426132202,
+        "b": 0.2715612053871155,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37791",
+    "Maria Linda/status/warning/500",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.886274516582489,
+        "g": 0.6313725709915161,
+        "b": 0.11372549086809158,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37792",
+    "Maria Linda/status/warning/600",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.7581362128257751,
+        "g": 0.5301200151443481,
+        "b": 0.0010670043993741274,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37793",
+    "Maria Linda/status/warning/700",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.6099992990493774,
+        "g": 0.4239633083343506,
+        "b": 0.0052297525107860565,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37794",
+    "Maria Linda/status/warning/800",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.4575071334838867,
+        "g": 0.3181207776069641,
+        "b": 0.03235388174653053,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37795",
+    "Maria Linda/status/warning/900",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.3192836046218872,
+        "g": 0.21562790870666504,
+        "b": 0.0062538329511880875,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37796",
+    "Maria Linda/status/warning/950",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.20895099639892578,
+        "g": 0.1354810893535614,
+        "b": 0.001633844687603414,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37797",
+    "Maria Linda/status/error/50",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9976128935813904,
+        "g": 0.9346660375595093,
+        "b": 0.9331163167953491,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37798",
+    "Maria Linda/status/error/100",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.995582103729248,
+        "g": 0.8412573933601379,
+        "b": 0.8385645151138306,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37799",
+    "Maria Linda/status/error/200",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9998276829719543,
+        "g": 0.7125595211982727,
+        "b": 0.7118198275566101,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37800",
+    "Maria Linda/status/error/300",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9969469904899597,
+        "g": 0.5681385397911072,
+        "b": 0.5776161551475525,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37801",
+    "Maria Linda/status/error/400",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9673464298248291,
+        "g": 0.4036393165588379,
+        "b": 0.4388788938522339,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37802",
+    "Maria Linda/status/error/500",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.8705882430076599,
+        "g": 0.27450981736183167,
+        "b": 0.3333333432674408,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37803",
+    "Maria Linda/status/error/500-20%",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.8705882430076599,
+        "g": 0.27450981736183167,
+        "b": 0.3333333432674408,
+        "a": 0.20000000298023224
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37804",
+    "Maria Linda/status/error/600",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.7846466898918152,
+        "g": 0.16870304942131042,
+        "b": 0.25646480917930603,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37805",
+    "Maria Linda/status/error/700",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.6666613221168518,
+        "g": 0.07508345693349838,
+        "b": 0.18922537565231323,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37806",
+    "Maria Linda/status/error/800",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.5315320491790771,
+        "g": 0.009437348693609238,
+        "b": 0.1327473223209381,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37807",
+    "Maria Linda/status/error/900",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.3893485963344574,
+        "g": 0.012552669271826744,
+        "b": 0.09017346799373627,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37808",
+    "Maria Linda/status/error/950",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.27944523096084595,
+        "g": 0.004936502780765295,
+        "b": 0.053470879793167114,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37809",
+    "Maria Linda/status/destructive/50",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9976241588592529,
+        "g": 0.9265843629837036,
+        "b": 0.9320603609085083,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37810",
+    "Maria Linda/status/destructive/100",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9961158037185669,
+        "g": 0.8139119744300842,
+        "b": 0.8302018642425537,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37811",
+    "Maria Linda/status/destructive/200",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9964622855186462,
+        "g": 0.6589853167533875,
+        "b": 0.6972852349281311,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37812",
+    "Maria Linda/status/destructive/300",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9857333898544312,
+        "g": 0.4807518422603607,
+        "b": 0.5585667490959167,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37813",
+    "Maria Linda/status/destructive/400",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9100529551506042,
+        "g": 0.30538618564605713,
+        "b": 0.42943596839904785,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37814",
+    "Maria Linda/status/destructive/500",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.7921568751335144,
+        "g": 0.12156862765550613,
+        "b": 0.3137255012989044,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37815",
+    "Maria Linda/status/destructive/500-10%",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.7921568751335144,
+        "g": 0.12156862765550613,
+        "b": 0.3137255012989044,
+        "a": 0.10000000149011612
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37816",
+    "Maria Linda/status/destructive/500-30%",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.7921568751335144,
+        "g": 0.12156862765550613,
+        "b": 0.3137255012989044,
+        "a": 0.30000001192092896
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37817",
+    "Maria Linda/status/destructive/600",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.7068465352058411,
+        "g": 0.006995570845901966,
+        "b": 0.2591133713722229,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37818",
+    "Maria Linda/status/destructive/700",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.5830880403518677,
+        "g": 0.038451310247182846,
+        "b": 0.21401004493236542,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37819",
+    "Maria Linda/status/destructive/800",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.4706409275531769,
+        "g": 0.0027135121636092663,
+        "b": 0.16168810427188873,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37820",
+    "Maria Linda/status/destructive/900",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.35125505924224854,
+        "g": 0.016215935349464417,
+        "b": 0.11731180548667908,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37821",
+    "Maria Linda/status/destructive/950",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.26431843638420105,
+        "g": 0.0028351685032248497,
+        "b": 0.07757009565830231,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37822",
+    "Maria Linda/status/info/50",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9183773994445801,
+        "g": 0.9532780647277832,
+        "b": 0.9989095330238342,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37823",
+    "Maria Linda/status/info/100",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.7989733815193176,
+        "g": 0.8861765265464783,
+        "b": 0.9996192455291748,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37824",
+    "Maria Linda/status/info/200",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.6480762362480164,
+        "g": 0.7984259128570557,
+        "b": 0.9928170442581177,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37825",
+    "Maria Linda/status/info/300",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.4965384304523468,
+        "g": 0.7038419842720032,
+        "b": 0.9694436192512512,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37826",
+    "Maria Linda/status/info/400",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.3492550849914551,
+        "g": 0.5984094142913818,
+        "b": 0.912017822265625,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37827",
+    "Maria Linda/status/info/500",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.2235294133424759,
+        "g": 0.4901960790157318,
+        "b": 0.8156862854957581,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37828",
+    "Maria Linda/status/info/600",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.13671578466892242,
+        "g": 0.4161819815635681,
+        "b": 0.7421119213104248,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37829",
+    "Maria Linda/status/info/700",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.06663495302200317,
+        "g": 0.33759960532188416,
+        "b": 0.6358090043067932,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37830",
+    "Maria Linda/status/info/800",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.022213472053408623,
+        "g": 0.2599084675312042,
+        "b": 0.5107420086860657,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37831",
+    "Maria Linda/status/info/900",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.004177889786660671,
+        "g": 0.1866440773010254,
+        "b": 0.38556256890296936,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37832",
+    "Maria Linda/status/info/950",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.002920956816524267,
+        "g": 0.129097580909729,
+        "b": 0.2797088623046875,
+        "a": 1
+      }
+    }
+  ]
+]

@@ -1,0 +1,66 @@
+# Switch
+
+ID: components-switch
+
+## Stories
+
+### Playground
+
+Story ID: components-switch--playground
+
+```
+import { SwitchExample } from "@reina-madre/design-system";
+
+const Playground = () => <SwitchExample
+    key={JSON.stringify(args)}
+    appearance="default"
+    text="label"
+    textSide="right"
+    state="default"
+    size="default"
+    checked={false} />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as SwitchStories from "./switch.stories"
+import switchSource from "./switch.tsx?raw"
+import exampleSource from "./switch-example.tsx?raw"
+import { SwitchPatterns, SwitchPlacement, SwitchSizes, SwitchSpecifications, SwitchStates } from "./switch-docs"
+
+<Meta of={SwitchStories} />
+<Title of={SwitchStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación desde Figma y shadcn/ui</summary>
+
+- Conserva Root, Thumb, estado controlado/no controlado, teclado, disabled y ARIA del primitive oficial.
+- Description y Choice Card son composiciones oficiales con Field.
+- Mantiene la propiedad oficial `size` y aplica las escalas del nodo de Figma.
+</details>
+
+## Patrones
+<div className="mb-12"><SwitchPatterns /></div>
+
+## Posición del texto
+<div className="mb-12"><SwitchPlacement /></div>
+
+## Escala
+<div className="mb-12"><SwitchSizes /></div>
+
+## Estados
+<div className="mb-12"><SwitchStates /></div>
+
+## Especificaciones
+<div className="mb-12"><SwitchSpecifications /></div>
+
+## Código
+### Primitive
+<Source language="tsx" code={switchSource} />
+### Composición de referencia
+<Source language="tsx" code={exampleSource} />

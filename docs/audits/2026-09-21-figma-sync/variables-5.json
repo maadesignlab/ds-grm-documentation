@@ -1,0 +1,1390 @@
+[
+  [
+    "VariableID:3449:37833",
+    "GRM Global/status/success/50",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9529411792755127,
+        "g": 0.9843137264251709,
+        "b": 0.95686274766922,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37834",
+    "GRM Global/status/success/100",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.886274516582489,
+        "g": 0.95686274766922,
+        "b": 0.8901960849761963,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37835",
+    "GRM Global/status/success/200",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.7450980544090271,
+        "g": 0.9058823585510254,
+        "b": 0.7647058963775635,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37836",
+    "GRM Global/status/success/300",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.5568627715110779,
+        "g": 0.8352941274642944,
+        "b": 0.6000000238418579,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37837",
+    "GRM Global/status/success/400",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.3450980484485626,
+        "g": 0.7450980544090271,
+        "b": 0.4274509847164154,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37838",
+    "GRM Global/status/success/500",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0,
+        "g": 0.6352941393852234,
+        "b": 0.2549019753932953,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37839",
+    "GRM Global/status/success/600",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.007843137718737125,
+        "g": 0.5098039507865906,
+        "b": 0.20000000298023224,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37840",
+    "GRM Global/status/success/700",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.007843137718737125,
+        "g": 0.40784314274787903,
+        "b": 0.15294118225574493,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37841",
+    "GRM Global/status/success/800",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.003921568859368563,
+        "g": 0.30588236451148987,
+        "b": 0.10980392247438431,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37842",
+    "GRM Global/status/success/900",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.003921568859368563,
+        "g": 0.21176470816135406,
+        "b": 0.06666667014360428,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37843",
+    "GRM Global/status/success/950",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.003921568859368563,
+        "g": 0.14509804546833038,
+        "b": 0.03921568766236305,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37844",
+    "GRM Global/status/warning/50",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 1,
+        "g": 0.9843137264251709,
+        "b": 0.9372549057006836,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37845",
+    "GRM Global/status/warning/100",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 1,
+        "g": 0.95686274766922,
+        "b": 0.8352941274642944,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37846",
+    "GRM Global/status/warning/200",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 1,
+        "g": 0.9098039269447327,
+        "b": 0.658823549747467,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37847",
+    "GRM Global/status/warning/300",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 1,
+        "g": 0.8549019694328308,
+        "b": 0.47058823704719543,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37848",
+    "GRM Global/status/warning/400",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9764705896377563,
+        "g": 0.8039215803146362,
+        "b": 0.3843137323856354,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37849",
+    "GRM Global/status/warning/500",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9647058844566345,
+        "g": 0.7686274647712708,
+        "b": 0.32549020648002625,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37850",
+    "GRM Global/status/warning/600",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.8509804010391235,
+        "g": 0.6196078658103943,
+        "b": 0.18039216101169586,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37851",
+    "GRM Global/status/warning/700",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.7098039388656616,
+        "g": 0.47058823704719543,
+        "b": 0.13333334028720856,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37852",
+    "GRM Global/status/warning/800",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.572549045085907,
+        "g": 0.35686275362968445,
+        "b": 0.125490203499794,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37853",
+    "GRM Global/status/warning/900",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.47058823704719543,
+        "g": 0.29019609093666077,
+        "b": 0.12156862765550613,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37854",
+    "GRM Global/status/warning/950",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.2705882489681244,
+        "g": 0.14901961386203766,
+        "b": 0.0470588244497776,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37855",
+    "GRM Global/status/error/50",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 1,
+        "g": 0.9607843160629272,
+        "b": 0.9529411792755127,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37856",
+    "GRM Global/status/error/100",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 1,
+        "g": 0.9019607901573181,
+        "b": 0.886274516582489,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37857",
+    "GRM Global/status/error/200",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 1,
+        "g": 0.8117647171020508,
+        "b": 0.7843137383460999,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37858",
+    "GRM Global/status/error/300",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 1,
+        "g": 0.6627451181411743,
+        "b": 0.6117647290229797,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37859",
+    "GRM Global/status/error/400",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9607843160629272,
+        "g": 0.5176470875740051,
+        "b": 0.45098039507865906,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37860",
+    "GRM Global/status/error/500",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9176470637321472,
+        "g": 0.4313725531101227,
+        "b": 0.3607843220233917,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37861",
+    "GRM Global/status/error/500-20%",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9176470637321472,
+        "g": 0.4313725531101227,
+        "b": 0.3607843220233917,
+        "a": 0.20000000298023224
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37862",
+    "GRM Global/status/error/600",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.8078431487083435,
+        "g": 0.3019607961177826,
+        "b": 0.24313725531101227,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37863",
+    "GRM Global/status/error/700",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.6666666865348816,
+        "g": 0.2235294133424759,
+        "b": 0.18431372940540314,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37864",
+    "GRM Global/status/error/800",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.545098066329956,
+        "g": 0.1882352977991104,
+        "b": 0.16470588743686676,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37865",
+    "GRM Global/status/error/900",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.45490196347236633,
+        "g": 0.1725490242242813,
+        "b": 0.15294118225574493,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37866",
+    "GRM Global/status/error/950",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.250980406999588,
+        "g": 0.0784313753247261,
+        "b": 0.062745101749897,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37867",
+    "GRM Global/status/destructive/50",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9999567270278931,
+        "g": 0.9556354284286499,
+        "b": 0.9553225040435791,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37868",
+    "GRM Global/status/destructive/100",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9999036192893982,
+        "g": 0.8926998376846313,
+        "b": 0.8924497961997986,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37869",
+    "GRM Global/status/destructive/200",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9992051720619202,
+        "g": 0.762916624546051,
+        "b": 0.7654628753662109,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37870",
+    "GRM Global/status/destructive/300",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9842838048934937,
+        "g": 0.5904482007026672,
+        "b": 0.6048897504806519,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37871",
+    "GRM Global/status/destructive/400",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9490289092063904,
+        "g": 0.4066643714904785,
+        "b": 0.4502391815185547,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37872",
+    "GRM Global/status/destructive/500",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.8912208676338196,
+        "g": 0.08527790755033493,
+        "b": 0.27473822236061096,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37873",
+    "GRM Global/status/destructive/500-10%",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.8912208676338196,
+        "g": 0.08527790755033493,
+        "b": 0.27473822236061096,
+        "a": 0.10000000149011612
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37874",
+    "GRM Global/status/destructive/500-30%",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.8912208676338196,
+        "g": 0.08527790755033493,
+        "b": 0.27473822236061096,
+        "a": 0.30000001192092896
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37875",
+    "GRM Global/status/destructive/600",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.7346484065055847,
+        "g": 0.06652240455150604,
+        "b": 0.22115245461463928,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37876",
+    "GRM Global/status/destructive/700",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.5848374366760254,
+        "g": 0.0032018169295042753,
+        "b": 0.16007180511951447,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37877",
+    "GRM Global/status/destructive/800",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.4255187213420868,
+        "g": 0.026320254430174828,
+        "b": 0.11442719399929047,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37878",
+    "GRM Global/status/destructive/900",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.3117835521697998,
+        "g": 0.0006458762218244374,
+        "b": 0.06819502264261246,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37879",
+    "GRM Global/status/destructive/950",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.22250597178936005,
+        "g": 0.0003306886355858296,
+        "b": 0.038207635283470154,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37880",
+    "GRM Global/status/info/50",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9607843160629272,
+        "g": 0.9647058844566345,
+        "b": 1,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37881",
+    "GRM Global/status/info/100",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9137254953384399,
+        "g": 0.9215686321258545,
+        "b": 1,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37882",
+    "GRM Global/status/info/200",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.8313725590705872,
+        "g": 0.8509804010391235,
+        "b": 1,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37883",
+    "GRM Global/status/info/300",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.7137255072593689,
+        "g": 0.7529411911964417,
+        "b": 1,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37884",
+    "GRM Global/status/info/400",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.5568627715110779,
+        "g": 0.6117647290229797,
+        "b": 0.9647058844566345,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37885",
+    "GRM Global/status/info/500",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.3960784375667572,
+        "g": 0.46666666865348816,
+        "b": 0.9098039269447327,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37886",
+    "GRM Global/status/info/600",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.3019607961177826,
+        "g": 0.37254902720451355,
+        "b": 0.8196078538894653,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37887",
+    "GRM Global/status/info/700",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.24705882370471954,
+        "g": 0.3019607961177826,
+        "b": 0.6666666865348816,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37888",
+    "GRM Global/status/info/800",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.21568627655506134,
+        "g": 0.26274511218070984,
+        "b": 0.5411764979362488,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37889",
+    "GRM Global/status/info/900",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.1921568661928177,
+        "g": 0.23137255012989044,
+        "b": 0.43921568989753723,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3449:37890",
+    "GRM Global/status/info/950",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.10588235408067703,
+        "g": 0.125490203499794,
+        "b": 0.24705882370471954,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3464:2",
+    "GRM Global/status/appointment/scheduled/light",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:2"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:3",
+    "GRM Global/status/appointment/scheduled/light-border",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:3"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:4",
+    "GRM Global/status/appointment/scheduled/default",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:4"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:5",
+    "GRM Global/status/appointment/scheduled/foreground",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:5"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:6",
+    "GRM Global/status/appointment/confirmed/light",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:6"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:7",
+    "GRM Global/status/appointment/confirmed/light-border",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:7"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:8",
+    "GRM Global/status/appointment/confirmed/default",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:8"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:9",
+    "GRM Global/status/appointment/confirmed/foreground",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:9"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:10",
+    "GRM Global/status/appointment/reception/light",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:10"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:11",
+    "GRM Global/status/appointment/reception/light-border",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:11"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:12",
+    "GRM Global/status/appointment/reception/default",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:12"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:13",
+    "GRM Global/status/appointment/reception/foreground",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:13"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:14",
+    "GRM Global/status/appointment/vitals/light",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:14"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:15",
+    "GRM Global/status/appointment/vitals/light-border",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:15"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:16",
+    "GRM Global/status/appointment/vitals/default",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:16"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:17",
+    "GRM Global/status/appointment/vitals/foreground",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:17"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:18",
+    "GRM Global/status/appointment/consultation/light",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:18"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:19",
+    "GRM Global/status/appointment/consultation/light-border",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:19"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:20",
+    "GRM Global/status/appointment/consultation/default",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:20"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:21",
+    "GRM Global/status/appointment/consultation/foreground",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:21"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:22",
+    "GRM Global/status/appointment/completed/light",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:22"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:23",
+    "GRM Global/status/appointment/completed/light-border",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:23"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:24",
+    "GRM Global/status/appointment/completed/default",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:24"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:25",
+    "GRM Global/status/appointment/completed/foreground",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:25"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:26",
+    "GRM Global/status/appointment/no-show/light",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:26"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:27",
+    "GRM Global/status/appointment/no-show/light-border",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:27"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:28",
+    "GRM Global/status/appointment/no-show/default",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:28"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:29",
+    "GRM Global/status/appointment/no-show/foreground",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:29"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:30",
+    "GRM Global/status/appointment/cancelled/light",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:30"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:31",
+    "GRM Global/status/appointment/cancelled/light-border",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:31"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:32",
+    "GRM Global/status/appointment/cancelled/default",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:32"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:33",
+    "GRM Global/status/appointment/cancelled/foreground",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:33"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:34",
+    "GRM Global/status/appointment/rescheduled/light",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:34"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:35",
+    "GRM Global/status/appointment/rescheduled/light-border",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:35"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:36",
+    "GRM Global/status/appointment/rescheduled/default",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:36"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:37",
+    "GRM Global/status/appointment/rescheduled/foreground",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3630:37"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:38",
+    "appointment/scheduled/light",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:2"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:2"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:2"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:2"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:39",
+    "appointment/scheduled/light-border",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:3"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:3"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:3"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:3"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:40",
+    "appointment/scheduled/default",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:4"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:4"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:4"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:4"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:41",
+    "appointment/scheduled/foreground",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:5"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:5"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:5"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:5"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:42",
+    "appointment/confirmed/light",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:6"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:6"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:6"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:6"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:43",
+    "appointment/confirmed/light-border",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:7"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:7"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:7"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:7"
+      }
+    }
+  ]
+]

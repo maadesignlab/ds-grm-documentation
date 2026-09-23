@@ -1,0 +1,255 @@
+{
+  "id": "1290:302",
+  "name": "Drawer",
+  "total": 7,
+  "nodes": 55,
+  "refs": {
+    "VariableID:51:20": {
+      "count": 6,
+      "example": "1295:1239"
+    },
+    "VariableID:50:513": {
+      "count": 29,
+      "example": "1295:1176"
+    },
+    "VariableID:51:25": {
+      "count": 6,
+      "example": "1295:1178"
+    },
+    "VariableID:66:23": {
+      "count": 3,
+      "example": "1295:1178"
+    },
+    "VariableID:132:811": {
+      "count": 14,
+      "example": "1295:1178"
+    },
+    "VariableID:50:639": {
+      "count": 11,
+      "example": "1295:1178"
+    },
+    "VariableID:71:2": {
+      "count": 6,
+      "example": "1295:1180"
+    },
+    "VariableID:99:17": {
+      "count": 3,
+      "example": "1295:1180"
+    },
+    "VariableID:50:641": {
+      "count": 3,
+      "example": "1295:1180"
+    },
+    "VariableID:50:514": {
+      "count": 24,
+      "example": "I1407:4467;1407:4446"
+    },
+    "VariableID:186:174": {
+      "count": 16,
+      "example": "I1407:4467;1407:4446"
+    },
+    "VariableID:50:537": {
+      "count": 32,
+      "example": "I1407:4467;1407:4446"
+    },
+    "VariableID:44:185": {
+      "count": 10,
+      "example": "I1407:4467;1407:4446"
+    },
+    "VariableID:51:172": {
+      "count": 10,
+      "example": "I1407:4467;1407:4446;313:2252"
+    },
+    "VariableID:50:612": {
+      "count": 8,
+      "example": "I1407:4467;1407:4446;313:2252"
+    },
+    "VariableID:51:21": {
+      "count": 6,
+      "example": "I1407:4467;1407:4451"
+    },
+    "VariableID:44:184": {
+      "count": 6,
+      "example": "I1407:4467;1407:4451;313:2264"
+    },
+    "VariableID:44:188": {
+      "count": 2,
+      "example": "1407:2250"
+    }
+  },
+  "texts": {
+    "S:781eaf6f680951d4f89acd6c5285b40210dae108,": {
+      "count": 3,
+      "example": "1295:1178"
+    },
+    "S:1d452614e679106aeb9f64166fd66fd5df9751c7,": {
+      "count": 3,
+      "example": "1295:1180"
+    },
+    "S:592db2195316334a05d7f58ef0fced7f0ff0cfb0,": {
+      "count": 8,
+      "example": "I1407:4467;1407:4446;313:2252"
+    }
+  },
+  "styles": {
+    "S:b8adb059f130b7f80c3daff5ccaceb3c9104f4ef,": {
+      "count": 5,
+      "example": "I1407:4467;1407:4446"
+    }
+  },
+  "sets": [
+    {
+      "id": "1295:1451",
+      "name": "Drawer",
+      "count": 3,
+      "props": {
+        "Espacio#1407:10": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Swipe Handle#1407:13": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Drawer Title#1407:16": {
+          "type": "TEXT",
+          "defaultValue": "Título de la sección"
+        },
+        "Drawer Description#1407:19": {
+          "type": "TEXT",
+          "defaultValue": "Descripción de la sección"
+        },
+        "Position": {
+          "type": "VARIANT",
+          "defaultValue": "side",
+          "variantOptions": [
+            "bottom",
+            "side"
+          ]
+        },
+        "Width": {
+          "type": "VARIANT",
+          "defaultValue": "384px",
+          "variantOptions": [
+            "full",
+            "384px",
+            "480px"
+          ]
+        }
+      },
+      "default": {
+        "id": "4472:8137",
+        "name": "Position=side, Width=384px",
+        "w": 384,
+        "h": 760,
+        "layout": "HORIZONTAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 24,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9803921580314636,
+              "g": 0.9725490212440491,
+              "b": 0.9843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:20"
+              }
+            }
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": false,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "effects": [],
+        "bound": {
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:20"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1407:4433",
+      "name": "_components/Drawer/ButtonBar",
+      "count": 2,
+      "props": {
+        "Button Amount": {
+          "type": "VARIANT",
+          "defaultValue": "1",
+          "variantOptions": [
+            "1",
+            "2"
+          ]
+        }
+      },
+      "default": {
+        "id": "1407:4432",
+        "name": "Button Amount=1",
+        "w": 382,
+        "h": 49,
+        "layout": "VERTICAL",
+        "gap": 10,
+        "padding": [
+          1,
+          16,
+          16,
+          16
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          }
+        }
+      }
+    }
+  ],
+  "errors": []
+}

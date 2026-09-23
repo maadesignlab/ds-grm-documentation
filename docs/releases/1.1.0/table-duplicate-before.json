@@ -1,0 +1,65 @@
+[
+  {
+    "id": "2090:17810",
+    "name": "Text Amount=single, Type=text, Style=sans",
+    "children": [
+      {
+        "id": "2090:17811",
+        "name": "Texto de celda",
+        "type": "TEXT",
+        "style": "S:1d452614e679106aeb9f64166fd66fd5df9751c7,",
+        "font": {
+          "family": "Inter",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "slnt": 0
+          }
+        },
+        "characters": "Texto de celda"
+      }
+    ]
+  },
+  {
+    "id": "2090:17812",
+    "name": "Text Amount=single, Type=text, Style=sans",
+    "children": [
+      {
+        "id": "2090:17813",
+        "name": "Texto de celda",
+        "type": "TEXT",
+        "style": "S:b9200b5971cf3f84adc1475861c0b20e11d4e15e,",
+        "font": {
+          "family": "Inter",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500,
+            "slnt": 0
+          }
+        },
+        "characters": "Texto de celda"
+      }
+    ]
+  },
+  {
+    "id": "2090:17814",
+    "name": "Text Amount=single, Type=text, Style=sans-underline",
+    "children": [
+      {
+        "id": "2090:17815",
+        "name": "Texto de celda",
+        "type": "TEXT",
+        "style": "S:14995935682beb5ca4a19dd71efefcae86469637,",
+        "font": {
+          "family": "Inter",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500,
+            "slnt": 0
+          }
+        },
+        "characters": "Texto de celda"
+      }
+    ]
+  }
+]

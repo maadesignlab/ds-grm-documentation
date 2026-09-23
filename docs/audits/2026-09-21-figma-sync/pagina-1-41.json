@@ -1,0 +1,900 @@
+{
+  "id": "1:41",
+  "name": "Checks / Radios / Switches",
+  "total": 129,
+  "sets": [
+    {
+      "id": "429:99",
+      "name": "_components/Switch/SwitchBase",
+      "type": "COMPONENT_SET",
+      "count": 12,
+      "props": {
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "disabled",
+            "error",
+            "default"
+          ]
+        },
+        "Switch": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "small",
+            "default"
+          ]
+        }
+      }
+    },
+    {
+      "id": "429:166",
+      "name": "Switch",
+      "type": "COMPONENT_SET",
+      "count": 24,
+      "props": {
+        "Left Text#468:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Right Text#468:25": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "contained"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "small",
+            "default"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "error",
+            "disabled"
+          ]
+        },
+        "Switch": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        }
+      }
+    },
+    {
+      "id": "440:402",
+      "name": "_components/Radio/RadioBase",
+      "type": "COMPONENT_SET",
+      "count": 6,
+      "props": {
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "error",
+            "disabled"
+          ]
+        },
+        "Radio": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        }
+      }
+    },
+    {
+      "id": "440:1918",
+      "name": "Radio Group",
+      "type": "COMPONENT_SET",
+      "count": 40,
+      "props": {
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "contained"
+          ]
+        },
+        "Options": {
+          "type": "VARIANT",
+          "defaultValue": "2",
+          "variantOptions": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        "Step": {
+          "type": "VARIANT",
+          "defaultValue": "1",
+          "variantOptions": [
+            "Predeterminado",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        }
+      }
+    },
+    {
+      "id": "449:482",
+      "name": "Checkbox Group",
+      "type": "COMPONENT_SET",
+      "count": 12,
+      "props": {
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "contained",
+            "default"
+          ]
+        },
+        "Options": {
+          "type": "VARIANT",
+          "defaultValue": "1",
+          "variantOptions": [
+            "6",
+            "2",
+            "1",
+            "3",
+            "4",
+            "5"
+          ]
+        }
+      }
+    },
+    {
+      "id": "440:3871",
+      "name": "Radio",
+      "type": "COMPONENT_SET",
+      "count": 6,
+      "props": {
+        "Left Text#452:17": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Right Text#452:23": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "contained"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "error",
+            "default",
+            "selected",
+            "disabled"
+          ]
+        }
+      }
+    },
+    {
+      "id": "449:454",
+      "name": "CheckBox",
+      "type": "COMPONENT_SET",
+      "count": 12,
+      "props": {
+        "Left Text#461:43": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Right Text#461:50": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "contained",
+            "default"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "error",
+            "default",
+            "disabled"
+          ]
+        },
+        "Checkbox": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        }
+      }
+    },
+    {
+      "id": "446:397",
+      "name": "_components/CheckBox/CheckBoxBase",
+      "type": "COMPONENT_SET",
+      "count": 6,
+      "props": {
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "error",
+            "disabled"
+          ]
+        },
+        "CheckBox": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        }
+      }
+    },
+    {
+      "id": "452:2902",
+      "name": "_components/Selectables/Label",
+      "type": "COMPONENT_SET",
+      "count": 2,
+      "props": {
+        "Label Type": {
+          "type": "VARIANT",
+          "defaultValue": "text",
+          "variantOptions": [
+            "text",
+            "text+description"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "429:98",
+      "429:99",
+      "Status=default, Switch=on, Size=default"
+    ],
+    [
+      "434:289",
+      "429:99",
+      "Status=error, Switch=on, Size=default"
+    ],
+    [
+      "429:119",
+      "429:99",
+      "Status=default, Switch=on, Size=small"
+    ],
+    [
+      "434:275",
+      "429:99",
+      "Status=error, Switch=on, Size=small"
+    ],
+    [
+      "429:100",
+      "429:99",
+      "Status=default, Switch=off, Size=default"
+    ],
+    [
+      "434:361",
+      "429:99",
+      "Status=disabled, Switch=on, Size=default"
+    ],
+    [
+      "468:1641",
+      "429:99",
+      "Status=disabled, Switch=off, Size=default"
+    ],
+    [
+      "434:287",
+      "429:99",
+      "Status=error, Switch=off, Size=default"
+    ],
+    [
+      "429:121",
+      "429:99",
+      "Status=default, Switch=off, Size=small"
+    ],
+    [
+      "434:277",
+      "429:99",
+      "Status=error, Switch=off, Size=small"
+    ],
+    [
+      "434:285",
+      "429:99",
+      "Status=disabled, Switch=on, Size=small"
+    ],
+    [
+      "468:1645",
+      "429:99",
+      "Status=disabled, Switch=off, Size=small"
+    ],
+    [
+      "429:165",
+      "429:166",
+      "Style=default, Size=default, Status=default, Switch=off"
+    ],
+    [
+      "468:1475",
+      "429:166",
+      "Style=default, Size=small, Status=default, Switch=off"
+    ],
+    [
+      "468:1339",
+      "429:166",
+      "Style=default, Size=default, Status=default, Switch=on"
+    ],
+    [
+      "468:1479",
+      "429:166",
+      "Style=default, Size=small, Status=default, Switch=on"
+    ],
+    [
+      "434:25",
+      "429:166",
+      "Style=default, Size=default, Status=error, Switch=off"
+    ],
+    [
+      "468:1483",
+      "429:166",
+      "Style=default, Size=small, Status=error, Switch=off"
+    ],
+    [
+      "468:1343",
+      "429:166",
+      "Style=default, Size=default, Status=error, Switch=on"
+    ],
+    [
+      "468:1487",
+      "429:166",
+      "Style=default, Size=small, Status=error, Switch=on"
+    ],
+    [
+      "434:330",
+      "429:166",
+      "Style=default, Size=default, Status=disabled, Switch=off"
+    ],
+    [
+      "468:2024",
+      "429:166",
+      "Style=default, Size=default, Status=disabled, Switch=on"
+    ],
+    [
+      "468:1491",
+      "429:166",
+      "Style=default, Size=small, Status=disabled, Switch=off"
+    ],
+    [
+      "468:2038",
+      "429:166",
+      "Style=default, Size=small, Status=disabled, Switch=on"
+    ],
+    [
+      "429:231",
+      "429:166",
+      "Style=contained, Size=default, Status=default, Switch=off"
+    ],
+    [
+      "468:1599",
+      "429:166",
+      "Style=contained, Size=small, Status=default, Switch=off"
+    ],
+    [
+      "468:1529",
+      "429:166",
+      "Style=contained, Size=default, Status=error, Switch=off"
+    ],
+    [
+      "468:1603",
+      "429:166",
+      "Style=contained, Size=small, Status=error, Switch=off"
+    ],
+    [
+      "468:1376",
+      "429:166",
+      "Style=contained, Size=default, Status=default, Switch=on"
+    ],
+    [
+      "468:1607",
+      "429:166",
+      "Style=contained, Size=small, Status=default, Switch=on"
+    ],
+    [
+      "468:1550",
+      "429:166",
+      "Style=contained, Size=default, Status=disabled, Switch=off"
+    ],
+    [
+      "468:2059",
+      "429:166",
+      "Style=contained, Size=default, Status=disabled, Switch=on"
+    ],
+    [
+      "468:1611",
+      "429:166",
+      "Style=contained, Size=small, Status=disabled, Switch=off"
+    ],
+    [
+      "468:2063",
+      "429:166",
+      "Style=contained, Size=small, Status=disabled, Switch=on"
+    ],
+    [
+      "468:1533",
+      "429:166",
+      "Style=contained, Size=default, Status=error, Switch=on"
+    ],
+    [
+      "468:1615",
+      "429:166",
+      "Style=contained, Size=small, Status=error, Switch=on"
+    ],
+    [
+      "440:401",
+      "440:402",
+      "Status=default, Radio=off"
+    ],
+    [
+      "468:1411",
+      "440:402",
+      "Status=disabled, Radio=off"
+    ],
+    [
+      "440:403",
+      "440:402",
+      "Status=default, Radio=on"
+    ],
+    [
+      "468:1437",
+      "440:402",
+      "Status=disabled, Radio=on"
+    ],
+    [
+      "440:3975",
+      "440:402",
+      "Status=error, Radio=off"
+    ],
+    [
+      "440:3973",
+      "440:402",
+      "Status=error, Radio=on"
+    ],
+    [
+      "440:1917",
+      "440:1918",
+      "Style=default, Options=2, Step=1"
+    ],
+    [
+      "452:1572",
+      "440:1918",
+      "Style=contained, Options=2, Step=1"
+    ],
+    [
+      "440:2165",
+      "440:1918",
+      "Style=default, Options=2, Step=2"
+    ],
+    [
+      "452:1575",
+      "440:1918",
+      "Style=contained, Options=2, Step=2"
+    ],
+    [
+      "440:1919",
+      "440:1918",
+      "Style=default, Options=3, Step=1"
+    ],
+    [
+      "452:1578",
+      "440:1918",
+      "Style=contained, Options=3, Step=1"
+    ],
+    [
+      "440:2168",
+      "440:1918",
+      "Style=default, Options=3, Step=2"
+    ],
+    [
+      "452:1582",
+      "440:1918",
+      "Style=contained, Options=3, Step=2"
+    ],
+    [
+      "440:2338",
+      "440:1918",
+      "Style=default, Options=3, Step=3"
+    ],
+    [
+      "452:1586",
+      "440:1918",
+      "Style=contained, Options=3, Step=3"
+    ],
+    [
+      "440:1932",
+      "440:1918",
+      "Style=default, Options=4, Step=1"
+    ],
+    [
+      "452:1590",
+      "440:1918",
+      "Style=contained, Options=4, Step=1"
+    ],
+    [
+      "440:2172",
+      "440:1918",
+      "Style=default, Options=4, Step=2"
+    ],
+    [
+      "452:1595",
+      "440:1918",
+      "Style=contained, Options=4, Step=2"
+    ],
+    [
+      "440:2342",
+      "440:1918",
+      "Style=default, Options=4, Step=3"
+    ],
+    [
+      "452:1600",
+      "440:1918",
+      "Style=contained, Options=4, Step=3"
+    ],
+    [
+      "440:2512",
+      "440:1918",
+      "Style=default, Options=4, Step=4"
+    ],
+    [
+      "452:1605",
+      "440:1918",
+      "Style=contained, Options=4, Step=4"
+    ],
+    [
+      "440:1945",
+      "440:1918",
+      "Style=default, Options=5, Step=1"
+    ],
+    [
+      "452:1610",
+      "440:1918",
+      "Style=contained, Options=5, Step=1"
+    ],
+    [
+      "440:2177",
+      "440:1918",
+      "Style=default, Options=5, Step=2"
+    ],
+    [
+      "452:1616",
+      "440:1918",
+      "Style=contained, Options=5, Step=2"
+    ],
+    [
+      "440:2347",
+      "440:1918",
+      "Style=default, Options=5, Step=3"
+    ],
+    [
+      "452:1622",
+      "440:1918",
+      "Style=contained, Options=5, Step=3"
+    ],
+    [
+      "440:2517",
+      "440:1918",
+      "Style=default, Options=5, Step=4"
+    ],
+    [
+      "452:1628",
+      "440:1918",
+      "Style=contained, Options=5, Step=4"
+    ],
+    [
+      "440:2687",
+      "440:1918",
+      "Style=default, Options=5, Step=5"
+    ],
+    [
+      "452:1634",
+      "440:1918",
+      "Style=contained, Options=5, Step=5"
+    ],
+    [
+      "440:1958",
+      "440:1918",
+      "Style=default, Options=6, Step=Predeterminado"
+    ],
+    [
+      "452:1640",
+      "440:1918",
+      "Style=contained, Options=6, Step=Predeterminado"
+    ],
+    [
+      "440:2183",
+      "440:1918",
+      "Style=default, Options=6, Step=2"
+    ],
+    [
+      "452:1647",
+      "440:1918",
+      "Style=contained, Options=6, Step=2"
+    ],
+    [
+      "440:2353",
+      "440:1918",
+      "Style=default, Options=6, Step=3"
+    ],
+    [
+      "452:1654",
+      "440:1918",
+      "Style=contained, Options=6, Step=3"
+    ],
+    [
+      "440:2523",
+      "440:1918",
+      "Style=default, Options=6, Step=4"
+    ],
+    [
+      "452:1661",
+      "440:1918",
+      "Style=contained, Options=6, Step=4"
+    ],
+    [
+      "440:2693",
+      "440:1918",
+      "Style=default, Options=6, Step=5"
+    ],
+    [
+      "452:1668",
+      "440:1918",
+      "Style=contained, Options=6, Step=5"
+    ],
+    [
+      "440:2863",
+      "440:1918",
+      "Style=default, Options=6, Step=6"
+    ],
+    [
+      "452:1675",
+      "440:1918",
+      "Style=contained, Options=6, Step=6"
+    ],
+    [
+      "449:483",
+      "449:482",
+      "Style=default, Options=2"
+    ],
+    [
+      "461:6041",
+      "449:482",
+      "Style=default, Options=1"
+    ],
+    [
+      "461:5138",
+      "449:482",
+      "Style=contained, Options=2"
+    ],
+    [
+      "461:6063",
+      "449:482",
+      "Style=contained, Options=1"
+    ],
+    [
+      "449:489",
+      "449:482",
+      "Style=default, Options=3"
+    ],
+    [
+      "461:5141",
+      "449:482",
+      "Style=contained, Options=3"
+    ],
+    [
+      "449:501",
+      "449:482",
+      "Style=default, Options=4"
+    ],
+    [
+      "461:5145",
+      "449:482",
+      "Style=contained, Options=4"
+    ],
+    [
+      "449:521",
+      "449:482",
+      "Style=default, Options=5"
+    ],
+    [
+      "461:5150",
+      "449:482",
+      "Style=contained, Options=5"
+    ],
+    [
+      "449:551",
+      "449:482",
+      "Style=default, Options=6"
+    ],
+    [
+      "461:5156",
+      "449:482",
+      "Style=contained, Options=6"
+    ],
+    [
+      "440:1903",
+      "440:3871",
+      "Style=default, Status=default"
+    ],
+    [
+      "446:327",
+      "440:3871",
+      "Style=default, Status=error"
+    ],
+    [
+      "468:1417",
+      "440:3871",
+      "Style=default, Status=disabled"
+    ],
+    [
+      "452:1234",
+      "440:3871",
+      "Style=contained, Status=default"
+    ],
+    [
+      "452:1252",
+      "440:3871",
+      "Style=contained, Status=selected"
+    ],
+    [
+      "468:1428",
+      "440:3871",
+      "Style=contained, Status=disabled"
+    ],
+    [
+      "449:455",
+      "449:454",
+      "Style=default, Status=default, Checkbox=off"
+    ],
+    [
+      "452:4992",
+      "449:454",
+      "Style=contained, Status=default, Checkbox=off"
+    ],
+    [
+      "468:1823",
+      "449:454",
+      "Style=contained, Status=error, Checkbox=off"
+    ],
+    [
+      "452:4954",
+      "449:454",
+      "Style=default, Status=default, Checkbox=on"
+    ],
+    [
+      "468:1676",
+      "449:454",
+      "Style=default, Status=disabled, Checkbox=on"
+    ],
+    [
+      "468:1717",
+      "449:454",
+      "Style=default, Status=disabled, Checkbox=off"
+    ],
+    [
+      "452:4996",
+      "449:454",
+      "Style=contained, Status=default, Checkbox=on"
+    ],
+    [
+      "468:1827",
+      "449:454",
+      "Style=contained, Status=error, Checkbox=on"
+    ],
+    [
+      "468:1699",
+      "449:454",
+      "Style=contained, Status=disabled, Checkbox=on"
+    ],
+    [
+      "468:1735",
+      "449:454",
+      "Style=contained, Status=disabled, Checkbox=off"
+    ],
+    [
+      "449:458",
+      "449:454",
+      "Style=default, Status=error, Checkbox=off"
+    ],
+    [
+      "452:4958",
+      "449:454",
+      "Style=default, Status=error, Checkbox=on"
+    ],
+    [
+      "446:396",
+      "446:397",
+      "Status=default, CheckBox=off"
+    ],
+    [
+      "468:1661",
+      "446:397",
+      "Status=disabled, CheckBox=off"
+    ],
+    [
+      "449:799",
+      "446:397",
+      "Status=error, CheckBox=off"
+    ],
+    [
+      "446:398",
+      "446:397",
+      "Status=default, CheckBox=on"
+    ],
+    [
+      "468:1662",
+      "446:397",
+      "Status=disabled, CheckBox=on"
+    ],
+    [
+      "449:800",
+      "446:397",
+      "Status=error, CheckBox=on"
+    ],
+    [
+      "452:2901",
+      "452:2902",
+      "Label Type=text"
+    ],
+    [
+      "1027:4247",
+      "452:2902",
+      "Label Type=text+description"
+    ]
+  ]
+}

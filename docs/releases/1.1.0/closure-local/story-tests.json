@@ -1,0 +1,34 @@
+{
+  "grm-global": {
+    "content": [
+      {
+        "type": "text",
+        "text": "## Passing Stories\n\n- design-system-releases--local-review"
+      }
+    ]
+  },
+  "reina-madre": {
+    "content": [
+      {
+        "type": "text",
+        "text": "## Passing Stories\n\n- design-system-releases--local-review"
+      }
+    ]
+  },
+  "maria-linda": {
+    "content": [
+      {
+        "type": "text",
+        "text": "## Passing Stories\n\n- design-system-releases--local-review"
+      }
+    ]
+  },
+  "piel-sana": {
+    "content": [
+      {
+        "type": "text",
+        "text": "## Passing Stories\n\n- design-system-releases--local-review"
+      }
+    ]
+  }
+}

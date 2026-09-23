@@ -1,0 +1,316 @@
+{
+  "capturedAt": "2026-09-23T18:05:58.432Z",
+  "variables": 768,
+  "variableChanges": 0,
+  "textStyles": 40,
+  "addedTextStyles": [
+    {
+      "id": "S:d246cdbd840814fe36e5c112376faa122bacf8a3,",
+      "name": "body/lg/sans/regular"
+    }
+  ],
+  "restoredGridStyles": [
+    {
+      "id": "S:379f58bf41d3247a34c9f3000f7f2aff8ec2ea06,",
+      "name": "Default Column Grid"
+    }
+  ],
+  "entities": 820,
+  "componentComparison": [
+    {
+      "page": "1771:909",
+      "name": "Accordion",
+      "definitions": 71,
+      "inventoryMatches": true
+    },
+    {
+      "page": "2827:14904",
+      "name": "Attachment",
+      "definitions": 54,
+      "inventoryMatches": true
+    },
+    {
+      "page": "1178:530",
+      "name": "Alert",
+      "definitions": 3,
+      "inventoryMatches": true
+    },
+    {
+      "page": "1187:612",
+      "name": "Alert Dialog",
+      "definitions": 5,
+      "inventoryMatches": true
+    },
+    {
+      "page": "246:2681",
+      "name": "Avatar",
+      "definitions": 295,
+      "inventoryMatches": true
+    },
+    {
+      "page": "1:32",
+      "name": "Badge",
+      "definitions": 69,
+      "inventoryMatches": true
+    },
+    {
+      "page": "1:24",
+      "name": "Button",
+      "definitions": 407,
+      "inventoryMatches": true
+    },
+    {
+      "page": "1760:597",
+      "name": "Breadcrumb",
+      "definitions": 10,
+      "inventoryMatches": true
+    },
+    {
+      "page": "1798:3431",
+      "name": "Card",
+      "definitions": 15,
+      "inventoryMatches": true
+    },
+    {
+      "page": "2782:1341",
+      "name": "Carousel",
+      "definitions": 318,
+      "inventoryMatches": true
+    },
+    {
+      "page": "3052:7037",
+      "name": "Chart",
+      "definitions": 0,
+      "inventoryMatches": true
+    },
+    {
+      "page": "1771:929",
+      "name": "Collapsible",
+      "definitions": 10,
+      "inventoryMatches": true
+    },
+    {
+      "page": "1675:339",
+      "name": "Context Menu",
+      "definitions": 20,
+      "inventoryMatches": true
+    },
+    {
+      "page": "1290:302",
+      "name": "Drawer",
+      "definitions": 7,
+      "inventoryMatches": true
+    },
+    {
+      "page": "1521:4708",
+      "name": "Dropdown",
+      "definitions": 20,
+      "inventoryMatches": true
+    },
+    {
+      "page": "2173:21188",
+      "name": "Empty",
+      "definitions": 29,
+      "inventoryMatches": true
+    },
+    {
+      "page": "1650:2013",
+      "name": "Hover Card",
+      "definitions": 19,
+      "inventoryMatches": true
+    },
+    {
+      "page": "2190:1413",
+      "name": "Item",
+      "definitions": 34,
+      "inventoryMatches": true
+    },
+    {
+      "page": "2793:2325",
+      "name": "Kbd",
+      "definitions": 7,
+      "inventoryMatches": true
+    },
+    {
+      "page": "2938:11449",
+      "name": "Menubar",
+      "definitions": 71,
+      "inventoryMatches": true
+    },
+    {
+      "page": "2938:12924",
+      "name": "Navigation Menu",
+      "definitions": 47,
+      "inventoryMatches": true
+    },
+    {
+      "page": "1763:1260",
+      "name": "Pagination",
+      "definitions": 20,
+      "inventoryMatches": true
+    },
+    {
+      "page": "726:6350",
+      "name": "Popover",
+      "definitions": 7,
+      "inventoryMatches": true
+    },
+    {
+      "page": "2206:16412",
+      "name": "Progress",
+      "definitions": 13,
+      "inventoryMatches": true
+    },
+    {
+      "page": "2882:453",
+      "name": "Resizable",
+      "definitions": 23,
+      "inventoryMatches": true
+    },
+    {
+      "page": "1800:1860",
+      "name": "Scroll Area",
+      "definitions": 3,
+      "inventoryMatches": true
+    },
+    {
+      "page": "589:983",
+      "name": "Separator",
+      "definitions": 3,
+      "inventoryMatches": true
+    },
+    {
+      "page": "1295:386",
+      "name": "Sheet",
+      "definitions": 9,
+      "inventoryMatches": true
+    },
+    {
+      "page": "3114:1373",
+      "name": "Sidebar",
+      "definitions": 48,
+      "inventoryMatches": true
+    },
+    {
+      "page": "2548:48050",
+      "name": "Skeleton",
+      "definitions": 1,
+      "inventoryMatches": true
+    },
+    {
+      "page": "2772:1030",
+      "name": "Slider",
+      "definitions": 37,
+      "inventoryMatches": true
+    },
+    {
+      "page": "2206:19380",
+      "name": "Spinner",
+      "definitions": 9,
+      "inventoryMatches": true
+    },
+    {
+      "page": "1:33",
+      "name": "Tabs",
+      "definitions": 97,
+      "inventoryMatches": true
+    },
+    {
+      "page": "1:45",
+      "name": "Toast",
+      "definitions": 7,
+      "inventoryMatches": true
+    },
+    {
+      "page": "3267:2627",
+      "name": "Toggle",
+      "definitions": 125,
+      "inventoryMatches": true
+    },
+    {
+      "page": "1:30",
+      "name": "Tooltip",
+      "definitions": 22,
+      "inventoryMatches": true
+    },
+    {
+      "page": "1521:3069",
+      "name": "Calendar",
+      "definitions": 42,
+      "inventoryMatches": true
+    },
+    {
+      "page": "1:41",
+      "name": "Checks / Radios / Switches",
+      "definitions": 129,
+      "inventoryMatches": true
+    },
+    {
+      "page": "1:39",
+      "name": "Combobox",
+      "definitions": 33,
+      "inventoryMatches": true
+    },
+    {
+      "page": "1:35",
+      "name": "Date Picker",
+      "definitions": 5,
+      "inventoryMatches": true
+    },
+    {
+      "page": "1:38",
+      "name": "Label",
+      "definitions": 8,
+      "inventoryMatches": true
+    },
+    {
+      "page": "1:34",
+      "name": "Input",
+      "definitions": 56,
+      "inventoryMatches": true
+    },
+    {
+      "page": "561:4282",
+      "name": "Input OTP",
+      "definitions": 106,
+      "inventoryMatches": true
+    },
+    {
+      "page": "553:7952",
+      "name": "Native Select",
+      "definitions": 41,
+      "inventoryMatches": true
+    },
+    {
+      "page": "614:4917",
+      "name": "Select",
+      "definitions": 29,
+      "inventoryMatches": true
+    },
+    {
+      "page": "394:13561",
+      "name": "Text Area",
+      "definitions": 4,
+      "inventoryMatches": true
+    },
+    {
+      "page": "553:2675",
+      "name": "Field",
+      "definitions": 46,
+      "inventoryMatches": true
+    },
+    {
+      "page": "2366:19504",
+      "name": "Data Table",
+      "definitions": 16,
+      "inventoryMatches": true
+    },
+    {
+      "page": "2064:259",
+      "name": "Table",
+      "definitions": 237,
+      "inventoryMatches": true
+    }
+  ],
+  "scope": "Live variables, styles and component inventories/property schemas compared with recorded code baseline. Visual/state accessibility validation is a separate release stage."
+}

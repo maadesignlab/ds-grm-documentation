@@ -1,0 +1,975 @@
+{
+  "id": "614:4917",
+  "name": "Select",
+  "total": 29,
+  "nodes": 818,
+  "refs": {
+    "VariableID:50:530": {
+      "count": 128,
+      "example": "626:4990"
+    },
+    "VariableID:397d57a3f5925e48648aeafd113505404e34626f/1088:535": {
+      "count": 266,
+      "example": "626:4827"
+    },
+    "VariableID:fea6c5f013e5e8d84bc0baada9918319141b4753/1088:643": {
+      "count": 266,
+      "example": "626:4827"
+    },
+    "VariableID:71:2": {
+      "count": 106,
+      "example": "I626:4827;614:5021"
+    },
+    "VariableID:100:19": {
+      "count": 21,
+      "example": "I626:4827;614:5021"
+    },
+    "VariableID:132:811": {
+      "count": 135,
+      "example": "I626:4827;614:5021"
+    },
+    "VariableID:50:639": {
+      "count": 21,
+      "example": "I626:4827;614:5021"
+    },
+    "VariableID:50:526": {
+      "count": 99,
+      "example": "I626:4828;614:4987"
+    },
+    "VariableID:186:174": {
+      "count": 114,
+      "example": "I626:4828;629:44755"
+    },
+    "VariableID:44:184": {
+      "count": 218,
+      "example": "I626:4828;614:4990"
+    },
+    "VariableID:99:17": {
+      "count": 114,
+      "example": "I626:4828;614:4990"
+    },
+    "VariableID:50:641": {
+      "count": 114,
+      "example": "I626:4828;614:4990"
+    },
+    "VariableID:72a972cc2968672a5d2733d15513d9364c1ba0cc/1088:725": {
+      "count": 32,
+      "example": "627:5575"
+    },
+    "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14": {
+      "count": 164,
+      "example": "627:5575"
+    },
+    "VariableID:6c0b2eff1ec5b7639605954af4b5f50e48f0b42e/1600:0": {
+      "count": 164,
+      "example": "627:5575"
+    },
+    "VariableID:51:19": {
+      "count": 32,
+      "example": "627:5575"
+    },
+    "VariableID:51:21": {
+      "count": 50,
+      "example": "627:5575"
+    },
+    "VariableID:50:534": {
+      "count": 40,
+      "example": "626:4625"
+    },
+    "VariableID:629:40610": {
+      "count": 16,
+      "example": "626:4625"
+    },
+    "VariableID:44:187": {
+      "count": 2,
+      "example": "614:4996"
+    },
+    "VariableID:71:3": {
+      "count": 4,
+      "example": "629:49616"
+    },
+    "VariableID:a5ba454cd92e33cd2ed975188a5ce33976581290/1046:4168": {
+      "count": 2,
+      "example": "614:6056"
+    },
+    "VariableID:7eda5697692ae1779e6419dbfc7e1286785fc840/1088:721": {
+      "count": 8,
+      "example": "614:6056"
+    },
+    "VariableID:69b4dbd3aae0245140fa169b42968fc669cdfe72/1046:3221": {
+      "count": 8,
+      "example": "614:6056"
+    },
+    "VariableID:67e6bc8762fcaec91423fe67ae8d59a0aa78739a/1046:5862": {
+      "count": 8,
+      "example": "614:6056"
+    },
+    "VariableID:32de368de64cf2a0c09cecf2c2f67b977ebbdf03/1088:654": {
+      "count": 30,
+      "example": "629:44515"
+    },
+    "VariableID:d807cd2c55aa956d7951c7137f79e14b22a8aa1f/1088:536": {
+      "count": 30,
+      "example": "629:44515"
+    },
+    "VariableID:332:2323": {
+      "count": 12,
+      "example": "629:92095"
+    },
+    "VariableID:424:1864": {
+      "count": 6,
+      "example": "629:92095"
+    },
+    "VariableID:d80d5bbdb52dc1449a1d85e0537692761671bc82/233:557": {
+      "count": 2,
+      "example": "614:6091"
+    }
+  },
+  "texts": {
+    "S:3c3dd1b52b19dd0f2bbf02cf78cbd6622b31988f,": {
+      "count": 21,
+      "example": "I626:4827;614:5021"
+    },
+    "S:1d452614e679106aeb9f64166fd66fd5df9751c7,": {
+      "count": 114,
+      "example": "I626:4828;614:4990"
+    }
+  },
+  "styles": {
+    "S:8239e3343213e30a89616ca2aaf562721d493256,": {
+      "count": 16,
+      "example": "627:5575"
+    },
+    "S:b8adb059f130b7f80c3daff5ccaceb3c9104f4ef,": {
+      "count": 9,
+      "example": "629:44515"
+    }
+  },
+  "sets": [
+    {
+      "id": "626:4990",
+      "name": "_components/Select/DropdownOptions/Simple",
+      "count": 21,
+      "props": {},
+      "default": {
+        "id": "626:4990",
+        "name": "_components/Select/DropdownOptions/Simple",
+        "w": 171,
+        "h": 676,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:530"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:530"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:530"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:530"
+          }
+        }
+      }
+    },
+    {
+      "id": "627:5575",
+      "name": "_components/Select/DropdownStyle/Simple",
+      "count": 20,
+      "props": {},
+      "default": {
+        "id": "627:5575",
+        "name": "_components/Select/DropdownStyle/Simple",
+        "w": 140,
+        "h": 324,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "radius": 8,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:19"
+              }
+            }
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8549019694328308,
+              "g": 0.8313725590705872,
+              "b": 0.843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:21"
+              }
+            }
+          }
+        ],
+        "effects": [
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 4,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.10000000149011612
+            },
+            "offset": {
+              "x": 0,
+              "y": 2
+            },
+            "spread": -2,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": false
+          },
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 6,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.10000000149011612
+            },
+            "offset": {
+              "x": 0,
+              "y": 4
+            },
+            "spread": -1,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": false
+          }
+        ],
+        "bound": {
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:72a972cc2968672a5d2733d15513d9364c1ba0cc/1088:725"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:72a972cc2968672a5d2733d15513d9364c1ba0cc/1088:725"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:72a972cc2968672a5d2733d15513d9364c1ba0cc/1088:725"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:72a972cc2968672a5d2733d15513d9364c1ba0cc/1088:725"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14"
+          },
+          "strokeTopWeight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6c0b2eff1ec5b7639605954af4b5f50e48f0b42e/1600:0"
+          },
+          "strokeBottomWeight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6c0b2eff1ec5b7639605954af4b5f50e48f0b42e/1600:0"
+          },
+          "strokeLeftWeight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6c0b2eff1ec5b7639605954af4b5f50e48f0b42e/1600:0"
+          },
+          "strokeRightWeight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6c0b2eff1ec5b7639605954af4b5f50e48f0b42e/1600:0"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:19"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:21"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "629:40730",
+      "name": "_components/Select/DropdownStyle/Scrollable",
+      "count": 2,
+      "props": {
+        "Dropdown Options#629:11": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "629:52086",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "29ff2846ce7d1f4ee038cbdeba298a9bc2e8e145"
+            }
+          ]
+        }
+      },
+      "default": {
+        "id": "629:40730",
+        "name": "_components/Select/DropdownStyle/Scrollable",
+        "w": 380,
+        "h": 384,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 8,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:19"
+              }
+            }
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8549019694328308,
+              "g": 0.8313725590705872,
+              "b": 0.843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:21"
+              }
+            }
+          }
+        ],
+        "effects": [
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 4,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.10000000149011612
+            },
+            "offset": {
+              "x": 0,
+              "y": 2
+            },
+            "spread": -2,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": false
+          },
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 6,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.10000000149011612
+            },
+            "offset": {
+              "x": 0,
+              "y": 4
+            },
+            "spread": -1,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": false
+          }
+        ],
+        "bound": {
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14"
+          },
+          "strokeTopWeight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6c0b2eff1ec5b7639605954af4b5f50e48f0b42e/1600:0"
+          },
+          "strokeBottomWeight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6c0b2eff1ec5b7639605954af4b5f50e48f0b42e/1600:0"
+          },
+          "strokeLeftWeight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6c0b2eff1ec5b7639605954af4b5f50e48f0b42e/1600:0"
+          },
+          "strokeRightWeight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6c0b2eff1ec5b7639605954af4b5f50e48f0b42e/1600:0"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:19"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:21"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "629:52086",
+      "name": "_components/Select/DropdownOptions/With Groups",
+      "count": 19,
+      "props": {},
+      "default": {
+        "id": "629:52086",
+        "name": "_components/Select/DropdownOptions/With Groups",
+        "w": 380,
+        "h": 528,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "614:4985",
+      "name": "_components/Select/DropdownOptions/Item",
+      "count": 4,
+      "props": {
+        "Item Text#593:0": {
+          "type": "TEXT",
+          "defaultValue": "Item"
+        },
+        "Check#593:3": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Left Icon#629:6": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "click",
+            "active",
+            "default",
+            "hover"
+          ]
+        }
+      },
+      "default": {
+        "id": "614:4986",
+        "name": "Status=default",
+        "w": 108,
+        "h": 32,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          6,
+          8,
+          6,
+          8
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:397d57a3f5925e48648aeafd113505404e34626f/1088:535"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:fea6c5f013e5e8d84bc0baada9918319141b4753/1088:643"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:397d57a3f5925e48648aeafd113505404e34626f/1088:535"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:fea6c5f013e5e8d84bc0baada9918319141b4753/1088:643"
+          }
+        }
+      }
+    },
+    {
+      "id": "614:5016",
+      "name": "_components/Select/DropdownOptions/Label",
+      "count": 1,
+      "props": {
+        "Label Text#593:0": {
+          "type": "TEXT",
+          "defaultValue": "Section Text"
+        },
+        "Icon Left#593:3": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Propiedad 1": {
+          "type": "VARIANT",
+          "defaultValue": "item",
+          "variantOptions": [
+            "item"
+          ]
+        }
+      },
+      "default": {
+        "id": "614:5017",
+        "name": "Propiedad 1=item",
+        "w": 108,
+        "h": 28,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          6,
+          8,
+          6,
+          8
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:397d57a3f5925e48648aeafd113505404e34626f/1088:535"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:fea6c5f013e5e8d84bc0baada9918319141b4753/1088:643"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:397d57a3f5925e48648aeafd113505404e34626f/1088:535"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:fea6c5f013e5e8d84bc0baada9918319141b4753/1088:643"
+          }
+        }
+      }
+    },
+    {
+      "id": "614:6056",
+      "name": "Select/Simple",
+      "count": 7,
+      "props": {
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "disabled",
+            "error"
+          ]
+        },
+        "Opened": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "false",
+            "true"
+          ]
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "closed",
+          "variantOptions": [
+            "closed",
+            "filled-selected",
+            "expanded"
+          ]
+        }
+      },
+      "default": {
+        "id": "614:6057",
+        "name": "Status=default, Opened=false, Style=closed",
+        "w": 180,
+        "h": 36,
+        "layout": "HORIZONTAL",
+        "gap": 65,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 8,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14"
+          },
+          "strokeTopWeight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6c0b2eff1ec5b7639605954af4b5f50e48f0b42e/1600:0"
+          },
+          "strokeBottomWeight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6c0b2eff1ec5b7639605954af4b5f50e48f0b42e/1600:0"
+          },
+          "strokeLeftWeight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6c0b2eff1ec5b7639605954af4b5f50e48f0b42e/1600:0"
+          },
+          "strokeRightWeight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6c0b2eff1ec5b7639605954af4b5f50e48f0b42e/1600:0"
+          }
+        }
+      }
+    },
+    {
+      "id": "614:6085",
+      "name": "Select/Scrollable",
+      "count": 7,
+      "props": {
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "disabled",
+            "error"
+          ]
+        },
+        "Opened": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "false",
+            "true"
+          ]
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "closed",
+          "variantOptions": [
+            "closed",
+            "filled-selected",
+            "expanded"
+          ]
+        }
+      },
+      "default": {
+        "id": "614:6086",
+        "name": "Status=default, Opened=false, Style=closed",
+        "w": 280,
+        "h": 36,
+        "layout": "HORIZONTAL",
+        "gap": 65,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 8,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14"
+          },
+          "strokeTopWeight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6c0b2eff1ec5b7639605954af4b5f50e48f0b42e/1600:0"
+          },
+          "strokeBottomWeight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6c0b2eff1ec5b7639605954af4b5f50e48f0b42e/1600:0"
+          },
+          "strokeLeftWeight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6c0b2eff1ec5b7639605954af4b5f50e48f0b42e/1600:0"
+          },
+          "strokeRightWeight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6c0b2eff1ec5b7639605954af4b5f50e48f0b42e/1600:0"
+          }
+        }
+      }
+    },
+    {
+      "id": "629:44492",
+      "name": "_components/Select/SelectBase",
+      "count": 1,
+      "props": {
+        "Left Icon#629:3": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Placeholder Text#629:12": {
+          "type": "TEXT",
+          "defaultValue": "Item"
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default"
+          ]
+        }
+      },
+      "default": {
+        "id": "629:44480",
+        "name": "Status=default",
+        "w": 280,
+        "h": 36,
+        "layout": "HORIZONTAL",
+        "gap": 65,
+        "padding": [
+          8,
+          12,
+          8,
+          12
+        ],
+        "radius": 8,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8549019694328308,
+              "g": 0.8313725590705872,
+              "b": 0.843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:21"
+              }
+            }
+          }
+        ],
+        "effects": [
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 2,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.05000000074505806
+            },
+            "offset": {
+              "x": 0,
+              "y": 1
+            },
+            "spread": 0,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": false
+          }
+        ],
+        "bound": {
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:32de368de64cf2a0c09cecf2c2f67b977ebbdf03/1088:654"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:d807cd2c55aa956d7951c7137f79e14b22a8aa1f/1088:536"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:32de368de64cf2a0c09cecf2c2f67b977ebbdf03/1088:654"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:d807cd2c55aa956d7951c7137f79e14b22a8aa1f/1088:536"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14"
+          },
+          "strokeTopWeight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6c0b2eff1ec5b7639605954af4b5f50e48f0b42e/1600:0"
+          },
+          "strokeBottomWeight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6c0b2eff1ec5b7639605954af4b5f50e48f0b42e/1600:0"
+          },
+          "strokeLeftWeight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6c0b2eff1ec5b7639605954af4b5f50e48f0b42e/1600:0"
+          },
+          "strokeRightWeight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6c0b2eff1ec5b7639605954af4b5f50e48f0b42e/1600:0"
+          },
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:21"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,113 @@
+# AttachmentExample
+
+ID: components-attachment
+
+## Stories
+
+### Playground
+
+Story ID: components-attachment--playground
+
+```
+import { AttachmentExample } from "@reina-madre/design-system";
+
+const Playground = () => <AttachmentExample
+    state="idle"
+    size="default"
+    orientation="horizontal"
+    media="icon"
+    title="documento-paciente.pdf"
+    showAction
+    showTrigger={false} />;
+```
+
+## Props
+
+```
+export type Props = {
+  /**
+    
+  */
+  state?: "idle" | "uploading" | "processing" | "error" | "done" = "idle";
+  /**
+    
+  */
+  media?: "icon" | "image" = "icon";
+  /**
+    
+  */
+  title?: string = "documento-paciente.pdf";
+  /**
+    
+  */
+  showAction?: boolean = true;
+  /**
+    
+  */
+  showTrigger?: boolean = false;
+  size?: any = "default";
+  orientation?: any = "horizontal";
+}
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as AttachmentStories from "./attachment.stories"
+import attachmentSource from "./attachment.tsx?raw"
+import { AttachmentGroupOverview, AttachmentPatternOverview, AttachmentSizeOverview, AttachmentSpecifications, AttachmentStateOverview, AttachmentTokenSpecifications } from "./attachment-docs"
+
+<Meta of={AttachmentStories} />
+<Title of={AttachmentStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma</summary>
+
+  - Componente compuesto basado en el patrón Attachment de shadcn/ui.
+  - Estados `idle`, `uploading`, `processing`, `error` y `done`.
+  - Tamaños `default`, `sm` y `xs`; orientaciones horizontal y vertical.
+  - Media, acciones, trigger y grupos desplazables componibles.
+
+</details>
+
+## Anatomía y orientación
+
+<div className="mb-12">
+  <AttachmentPatternOverview />
+</div>
+
+## Estados
+
+<div className="mb-12">
+  <AttachmentStateOverview />
+</div>
+
+## Escala y forma
+
+<div className="mb-12">
+  <AttachmentSizeOverview />
+</div>
+
+## Grupo de adjuntos
+
+<div className="mb-12">
+  <AttachmentGroupOverview />
+</div>
+
+## Especificaciones
+
+<div className="mb-6">
+  <AttachmentSpecifications />
+</div>
+
+<div className="mb-12">
+  <AttachmentTokenSpecifications />
+</div>
+
+## Código
+
+<Source language="tsx" code={attachmentSource} />

@@ -1,0 +1,1413 @@
+[
+  [
+    "S:e25cd8c01f3a30627bbf3b9f868846578d669d70,",
+    "display/extrabold",
+    {
+      "family": "Inter",
+      "style": "Extra Bold",
+      "variationSettings": {
+        "wght": 800,
+        "slnt": 0
+      }
+    },
+    30,
+    {
+      "unit": "AUTO"
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "TITLE",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:99:14"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:812"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:637"
+      }
+    }
+  ],
+  [
+    "S:b9544cd0a7bd467902c99120a5a8a74f09b69642,",
+    "heading/lg",
+    {
+      "family": "Inter",
+      "style": "Bold",
+      "variationSettings": {
+        "slnt": 0,
+        "wght": 700
+      }
+    },
+    24,
+    {
+      "unit": "AUTO"
+    },
+    {
+      "unit": "PERCENT",
+      "value": -2.5
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:66:17"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:812"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:638"
+      }
+    }
+  ],
+  [
+    "S:ee344b01427585606db29cc7c4aac2c81abb3789,",
+    "heading/md",
+    {
+      "family": "Inter",
+      "style": "Semi Bold",
+      "variationSettings": {
+        "wght": 600,
+        "slnt": 0
+      }
+    },
+    20,
+    {
+      "unit": "AUTO"
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:66:18"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:812"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:640"
+      }
+    }
+  ],
+  [
+    "S:868d3b9e94d774dbe00e80acc8a77bb286b11632,",
+    "heading/sm",
+    {
+      "family": "Inter",
+      "style": "Semi Bold",
+      "variationSettings": {
+        "wght": 600,
+        "slnt": 0
+      }
+    },
+    18,
+    {
+      "unit": "AUTO"
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:100:18"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:812"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:640"
+      }
+    }
+  ],
+  [
+    "S:781eaf6f680951d4f89acd6c5285b40210dae108,",
+    "body/lg/sans/medium",
+    {
+      "family": "Inter",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500,
+        "slnt": 0
+      }
+    },
+    16,
+    {
+      "unit": "PIXELS",
+      "value": 24
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:66:23"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:639"
+      }
+    }
+  ],
+  [
+    "S:23c0d86881bf571a2aa04f8d8f6bccb6347aaa8e,",
+    "body/lg/sans/semibold",
+    {
+      "family": "Inter",
+      "style": "Semi Bold",
+      "variationSettings": {
+        "wght": 600,
+        "slnt": 0
+      }
+    },
+    16,
+    {
+      "unit": "PIXELS",
+      "value": 24
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:66:23"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:640"
+      }
+    }
+  ],
+  [
+    "S:1d452614e679106aeb9f64166fd66fd5df9751c7,",
+    "body/md/sans/regular",
+    {
+      "family": "Inter",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400,
+        "slnt": 0
+      }
+    },
+    14,
+    {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:99:17"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:641"
+      }
+    }
+  ],
+  [
+    "S:b9200b5971cf3f84adc1475861c0b20e11d4e15e,",
+    "body/md/sans/medium",
+    {
+      "family": "Inter",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500,
+        "slnt": 0
+      }
+    },
+    14,
+    {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:99:17"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:639"
+      }
+    }
+  ],
+  [
+    "S:14995935682beb5ca4a19dd71efefcae86469637,",
+    "body/md/sans/medium underline",
+    {
+      "family": "Inter",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500,
+        "slnt": 0
+      }
+    },
+    14,
+    {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "UNDERLINE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:99:17"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:639"
+      }
+    }
+  ],
+  [
+    "S:a652e3f14d671105454c3f2ba846e458c20c9a27,",
+    "body/md/sans/semibold",
+    {
+      "family": "Inter",
+      "style": "Semi Bold",
+      "variationSettings": {
+        "wght": 600,
+        "slnt": 0
+      }
+    },
+    14,
+    {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:99:17"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:640"
+      }
+    }
+  ],
+  [
+    "S:3f4faa9e06e50966c5180f01adb3da74f1e59f2e,",
+    "body/md/mono/regular",
+    {
+      "family": "JetBrains Mono",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400
+      }
+    },
+    14,
+    {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:99:17"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:813"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:641"
+      }
+    }
+  ],
+  [
+    "S:51d7fcb8196414f9433a80a651378361c8c21e2f,",
+    "body/md/mono/medium",
+    {
+      "family": "JetBrains Mono",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500
+      }
+    },
+    14,
+    {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:99:17"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:813"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:639"
+      }
+    }
+  ],
+  [
+    "S:b9980b829285fc251155cb0e19524054d5099379,",
+    "body/md/mono/medium underline",
+    {
+      "family": "JetBrains Mono",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500
+      }
+    },
+    14,
+    {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "UNDERLINE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:99:17"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:813"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:639"
+      }
+    }
+  ],
+  [
+    "S:144dfbf9f37e6190e40a757d07ef56d8e7e1aae3,",
+    "body/sm/sans/regular",
+    {
+      "family": "Inter",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400,
+        "slnt": 0
+      }
+    },
+    12,
+    {
+      "unit": "PIXELS",
+      "value": 16
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:100:19"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:641"
+      }
+    }
+  ],
+  [
+    "S:8a4d33ae0726dbdbae367a69d41d3ee41f5c73c6,",
+    "body/sm/sans/regular uppercase",
+    {
+      "family": "Inter",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400,
+        "slnt": 0
+      }
+    },
+    12,
+    {
+      "unit": "PIXELS",
+      "value": 16
+    },
+    {
+      "unit": "PERCENT",
+      "value": 2.5
+    },
+    "UPPER",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:100:19"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:641"
+      }
+    }
+  ],
+  [
+    "S:3c3dd1b52b19dd0f2bbf02cf78cbd6622b31988f,",
+    "body/sm/sans/medium",
+    {
+      "family": "Inter",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500,
+        "slnt": 0
+      }
+    },
+    12,
+    {
+      "unit": "PIXELS",
+      "value": 16
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:100:19"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:639"
+      }
+    }
+  ],
+  [
+    "S:bc9ebc4cef6fed716c04a241ef590f1d34aab748,",
+    "body/sm/sans/semibold",
+    {
+      "family": "Inter",
+      "style": "Semi Bold",
+      "variationSettings": {
+        "wght": 600,
+        "slnt": 0
+      }
+    },
+    12,
+    {
+      "unit": "PIXELS",
+      "value": 16
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:100:19"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:640"
+      }
+    }
+  ],
+  [
+    "S:65b559e58d8e1f036639e403d21c3bb30027893f,",
+    "body/sm/sans/semibold uppercase",
+    {
+      "family": "Inter",
+      "style": "Semi Bold",
+      "variationSettings": {
+        "wght": 600,
+        "slnt": 0
+      }
+    },
+    12,
+    {
+      "unit": "PIXELS",
+      "value": 16
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "UPPER",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:100:19"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:640"
+      }
+    }
+  ],
+  [
+    "S:9f9fc3b3f008605d4f8466599d4d140d78c41814,",
+    "body/sm/mono/regular",
+    {
+      "family": "JetBrains Mono",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400
+      }
+    },
+    12,
+    {
+      "unit": "PIXELS",
+      "value": 16
+    },
+    {
+      "unit": "PERCENT",
+      "value": 5
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:100:19"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:813"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:641"
+      }
+    }
+  ],
+  [
+    "S:16a5c60fe1852372d4dbea3de4a48aa9141bced2,",
+    "caption/sm/regular",
+    {
+      "family": "Inter",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400,
+        "slnt": 0
+      }
+    },
+    10,
+    {
+      "unit": "AUTO"
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:100:21"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:641"
+      }
+    }
+  ],
+  [
+    "S:7732a51e82795bfae9a2ab02bdeeeda205616c2f,",
+    "caption/sm/medium",
+    {
+      "family": "Inter",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500,
+        "slnt": 0
+      }
+    },
+    10,
+    {
+      "unit": "AUTO"
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:100:21"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:639"
+      }
+    }
+  ],
+  [
+    "S:8a78309358cdee88bcf6a530e913f308e6649f83,",
+    "caption/sm/semibold",
+    {
+      "family": "Inter",
+      "style": "Semi Bold",
+      "variationSettings": {
+        "wght": 600,
+        "slnt": 0
+      }
+    },
+    10,
+    {
+      "unit": "AUTO"
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:100:21"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:640"
+      }
+    }
+  ],
+  [
+    "S:fbda438304ca6918486ca947fe1229b45c69af15,",
+    "caption/sm/bold uppercase",
+    {
+      "family": "Inter",
+      "style": "Bold",
+      "variationSettings": {
+        "wght": 700,
+        "slnt": 0
+      }
+    },
+    10,
+    {
+      "unit": "AUTO"
+    },
+    {
+      "unit": "PERCENT",
+      "value": 10
+    },
+    "UPPER",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:100:21"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:638"
+      }
+    }
+  ],
+  [
+    "S:f0fb58b47bebd4d218c52143f7bea309a80172a7,",
+    "components/avatar/11px/semibold",
+    {
+      "family": "Inter",
+      "style": "Semi Bold",
+      "variationSettings": {
+        "wght": 600,
+        "slnt": 0
+      }
+    },
+    11,
+    {
+      "unit": "AUTO"
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:100:20"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:640"
+      }
+    }
+  ],
+  [
+    "S:1656a708140615ccfd4f520ca085318fb49e7241,",
+    "components/avatar/9px/semibold",
+    {
+      "family": "Inter",
+      "style": "Semi Bold",
+      "variationSettings": {
+        "wght": 600,
+        "slnt": 0
+      }
+    },
+    9,
+    {
+      "unit": "AUTO"
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:100:22"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:640"
+      }
+    }
+  ],
+  [
+    "S:a870bd9916bbe5c8d9347175baa2c3df5f60e352,",
+    "components/avatar/micro/semibold",
+    {
+      "family": "Inter",
+      "style": "Semi Bold",
+      "variationSettings": {
+        "wght": 600,
+        "slnt": 0
+      }
+    },
+    8,
+    {
+      "unit": "AUTO"
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:321:767"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:640"
+      }
+    }
+  ],
+  [
+    "S:3ed8ad18fdd83cf61a02240c7acb74e95cc04733,",
+    "components/avatar/tiny/semibold",
+    {
+      "family": "Inter",
+      "style": "Semi Bold",
+      "variationSettings": {
+        "wght": 600,
+        "slnt": 0
+      }
+    },
+    6,
+    {
+      "unit": "AUTO"
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:321:768"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:640"
+      }
+    }
+  ],
+  [
+    "S:592db2195316334a05d7f58ef0fced7f0ff0cfb0,",
+    "components/button/base",
+    {
+      "family": "Inter",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500,
+        "slnt": 0
+      }
+    },
+    14,
+    {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:612"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:639"
+      }
+    }
+  ],
+  [
+    "S:1bd8add0fe5b9782b6c277dc7aa8ef6b7bd7c0fa,",
+    "components/button/base underline",
+    {
+      "family": "Inter",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500,
+        "slnt": 0
+      }
+    },
+    14,
+    {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "UNDERLINE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:612"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:639"
+      }
+    }
+  ],
+  [
+    "S:fc73b7145c7efdd9b23b63286700e52075797c31,",
+    "components/button/sm",
+    {
+      "family": "Inter",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500,
+        "slnt": 0
+      }
+    },
+    12.800000190734863,
+    {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:313:2794"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:639"
+      }
+    }
+  ],
+  [
+    "S:0e516aa853ace7ce16da327e3045bf69e86465f4,",
+    "components/button/sm underline",
+    {
+      "family": "Inter",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500,
+        "slnt": 0
+      }
+    },
+    12.800000190734863,
+    {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "UNDERLINE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:313:2794"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:639"
+      }
+    }
+  ],
+  [
+    "S:362d32771c7af0e89df304f202df397487c29605,",
+    "components/button/xs",
+    {
+      "family": "Inter",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500,
+        "slnt": 0
+      }
+    },
+    12,
+    {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:615"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:639"
+      }
+    }
+  ],
+  [
+    "S:f3c2bb997231aa5bc5851043f4ccbf59e1a23e70,",
+    "components/button/xs underline",
+    {
+      "family": "Inter",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500,
+        "slnt": 0
+      }
+    },
+    12,
+    {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "UNDERLINE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:615"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:639"
+      }
+    }
+  ],
+  [
+    "S:60fd2457e505972251cac0b2880b18d26f85cf3d,",
+    "components/badge/xl/medium",
+    {
+      "family": "Inter",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500,
+        "slnt": 0
+      }
+    },
+    14,
+    {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:639"
+      }
+    }
+  ],
+  [
+    "S:828b1ddbbf92bea4b8d3e4350d37defe4cfcbfb2,",
+    "components/badge/lg/medium",
+    {
+      "family": "Inter",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500,
+        "slnt": 0
+      }
+    },
+    12,
+    {
+      "unit": "PIXELS",
+      "value": 16
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:639"
+      }
+    }
+  ],
+  [
+    "S:757f773fd9377530fccfc852cb515519ff556f17,",
+    "components/badge/compact/medium",
+    {
+      "family": "Inter",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500,
+        "slnt": 0
+      }
+    },
+    10,
+    {
+      "unit": "PIXELS",
+      "value": 15
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:639"
+      }
+    }
+  ],
+  [
+    "S:af9438857525091232a0869b586aabdc64378c88,",
+    "components/toast/medium",
+    {
+      "family": "Inter",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500,
+        "slnt": 0
+      }
+    },
+    13,
+    {
+      "unit": "PIXELS",
+      "value": 19.5
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:639"
+      }
+    }
+  ],
+  [
+    "S:2b0d861a957c13c51dc97af70793b711d876a429,",
+    "components/calendar/regular",
+    {
+      "family": "Inter",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400,
+        "slnt": 0
+      }
+    },
+    14,
+    {
+      "unit": "PIXELS",
+      "value": 14
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:99:17"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:641"
+      }
+    }
+  ],
+  [
+    "S:ae9b6eab7aad4b5078f8cb6e91b4c4a6e69803bd,",
+    "components/calendar/bold",
+    {
+      "family": "Inter",
+      "style": "Bold",
+      "variationSettings": {
+        "wght": 700,
+        "slnt": 0
+      }
+    },
+    14,
+    {
+      "unit": "PIXELS",
+      "value": 14
+    },
+    {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "ORIGINAL",
+    "NONE",
+    {
+      "fontSize": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:99:17"
+      },
+      "fontFamily": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:811"
+      },
+      "fontWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:638"
+      }
+    }
+  ]
+]

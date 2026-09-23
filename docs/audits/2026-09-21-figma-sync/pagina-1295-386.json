@@ -1,0 +1,104 @@
+{
+  "id": "1295:386",
+  "name": "Sheet",
+  "total": 9,
+  "sets": [
+    {
+      "id": "1301:49",
+      "name": "_components/Sheet/Buttons",
+      "type": "COMPONENT_SET",
+      "count": 2,
+      "props": {
+        "Button alignment": {
+          "type": "VARIANT",
+          "defaultValue": "col",
+          "variantOptions": [
+            "col",
+            "row"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1304:1084",
+      "name": "_components/Sheet/FormExample",
+      "type": "COMPONENT",
+      "count": 15,
+      "props": {}
+    },
+    {
+      "id": "1295:1240",
+      "name": "Sheet",
+      "type": "COMPONENT_SET",
+      "count": 4,
+      "props": {
+        "Close button#1295:1": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Sheet Content#1390:7": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Sheet Title#1454:22": {
+          "type": "TEXT",
+          "defaultValue": "Título de sección"
+        },
+        "Sheet Description#1454:27": {
+          "type": "TEXT",
+          "defaultValue": "Descripción de la sección"
+        },
+        "Sheet position": {
+          "type": "VARIANT",
+          "defaultValue": "left",
+          "variantOptions": [
+            "left",
+            "right",
+            "bottom",
+            "top"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "1301:48",
+      "1301:49",
+      "Button alignment=col"
+    ],
+    [
+      "1301:50",
+      "1301:49",
+      "Button alignment=row"
+    ],
+    [
+      "1295:649",
+      "1295:1240",
+      "Sheet position=left"
+    ],
+    [
+      "1295:1367",
+      "1295:1240",
+      "Sheet position=top"
+    ],
+    [
+      "1295:1241",
+      "1295:1240",
+      "Sheet position=right"
+    ],
+    [
+      "1295:1400",
+      "1295:1240",
+      "Sheet position=bottom"
+    ]
+  ]
+}

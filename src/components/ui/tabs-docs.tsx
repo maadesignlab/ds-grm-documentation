@@ -22,7 +22,7 @@ export function TabsOfficialBehaviors() {
 
 const styles = [
   ["Contained / default", "--muted", "--background", "--foreground", "shadow-sm", "10px / 8px"],
-  ["Underline / line", "transparent", "transparent", "--primary", "2px indicator", "0px / 8px"],
+  ["Underline / line", "transparent", "transparent", "--primary-default-foreground", "2px indicator", "0px / 8px"],
 ] as const
 
 const geometry = [
@@ -33,10 +33,10 @@ const geometry = [
 ] as const
 
 const typography = [
-  ["Trigger default", "--foreground / 60%", "14px", "20px", "500"],
+  ["Trigger default", "--muted-foreground", "14px", "20px", "500"],
   ["Trigger hover", "--foreground", "14px", "20px", "500"],
   ["Trigger active · contained", "--foreground", "14px", "20px", "500"],
-  ["Trigger active · underline", "--primary", "14px", "20px", "500"],
+  ["Trigger active · underline", "--primary-default-foreground", "14px", "20px", "500"],
 ] as const
 
 function Table({ columns, rows }: { columns: readonly string[]; rows: readonly (readonly string[])[] }) {

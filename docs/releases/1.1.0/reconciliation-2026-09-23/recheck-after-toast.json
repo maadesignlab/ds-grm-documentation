@@ -1,0 +1,467 @@
+{
+  "capturedAt": "2026-09-23T20:08:45.386Z",
+  "foundations": {
+    "counts": {
+      "variables": 769,
+      "textStyles": 40,
+      "visualStyles": 12
+    },
+    "hashes": {
+      "variables": "b0ca9a2f",
+      "textStyles": "8ee9d54e",
+      "visualStyles": "34e7e9a6",
+      "collections": "eabc2b0c"
+    }
+  },
+  "expectedFoundations": {
+    "variables": "b0ca9a2f",
+    "textStyles": "8ee9d54e",
+    "visualStyles": "34e7e9a6",
+    "collections": "eabc2b0c"
+  },
+  "pages": [
+    {
+      "page": "1771:909",
+      "name": "Accordion",
+      "hash": "29effda9",
+      "expected": "29effda9",
+      "definitionCount": 71,
+      "sets": 4,
+      "match": true
+    },
+    {
+      "page": "2827:14904",
+      "name": "Attachment",
+      "hash": "5556cbda",
+      "expected": "5556cbda",
+      "definitionCount": 54,
+      "sets": 3,
+      "match": true
+    },
+    {
+      "page": "1178:530",
+      "name": "Alert",
+      "hash": "45884ad7",
+      "expected": "45884ad7",
+      "definitionCount": 3,
+      "sets": 1,
+      "match": true
+    },
+    {
+      "page": "1187:612",
+      "name": "Alert Dialog",
+      "hash": "ab376008",
+      "expected": "ab376008",
+      "definitionCount": 5,
+      "sets": 1,
+      "match": true
+    },
+    {
+      "page": "246:2681",
+      "name": "Avatar",
+      "hash": "c48080c1",
+      "expected": "c48080c1",
+      "definitionCount": 295,
+      "sets": 7,
+      "match": true
+    },
+    {
+      "page": "1:32",
+      "name": "Badge",
+      "hash": "9f39dc76",
+      "expected": "9f39dc76",
+      "definitionCount": 69,
+      "sets": 1,
+      "match": true
+    },
+    {
+      "page": "1:24",
+      "name": "Button",
+      "hash": "48846152",
+      "expected": "48846152",
+      "definitionCount": 407,
+      "sets": 4,
+      "match": true
+    },
+    {
+      "page": "1760:597",
+      "name": "Breadcrumb",
+      "hash": "3e4fc7a6",
+      "expected": "3e4fc7a6",
+      "definitionCount": 10,
+      "sets": 2,
+      "match": true
+    },
+    {
+      "page": "1798:3431",
+      "name": "Card",
+      "hash": "d047e190",
+      "expected": "d047e190",
+      "definitionCount": 15,
+      "sets": 2,
+      "match": true
+    },
+    {
+      "page": "2782:1341",
+      "name": "Carousel",
+      "hash": "ba5ea3fa",
+      "expected": "ba5ea3fa",
+      "definitionCount": 318,
+      "sets": 3,
+      "match": true
+    },
+    {
+      "page": "3052:7037",
+      "name": "Chart",
+      "hash": "b297bf7f",
+      "expected": "b297bf7f",
+      "definitionCount": 0,
+      "sets": 0,
+      "match": true
+    },
+    {
+      "page": "1771:929",
+      "name": "Collapsible",
+      "hash": "8571ea26",
+      "expected": "8571ea26",
+      "definitionCount": 10,
+      "sets": 3,
+      "match": true
+    },
+    {
+      "page": "1675:339",
+      "name": "Context Menu",
+      "hash": "acf42001",
+      "expected": "acf42001",
+      "definitionCount": 20,
+      "sets": 4,
+      "match": true
+    },
+    {
+      "page": "1290:302",
+      "name": "Drawer",
+      "hash": "365c91ef",
+      "expected": "365c91ef",
+      "definitionCount": 7,
+      "sets": 2,
+      "match": true
+    },
+    {
+      "page": "1521:4708",
+      "name": "Dropdown",
+      "hash": "4c456fb1",
+      "expected": "4c456fb1",
+      "definitionCount": 20,
+      "sets": 4,
+      "match": true
+    },
+    {
+      "page": "2173:21188",
+      "name": "Empty",
+      "hash": "e317e92d",
+      "expected": "e317e92d",
+      "definitionCount": 29,
+      "sets": 3,
+      "match": true
+    },
+    {
+      "page": "1650:2013",
+      "name": "Hover Card",
+      "hash": "43e8e9c8",
+      "expected": "43e8e9c8",
+      "definitionCount": 19,
+      "sets": 2,
+      "match": true
+    },
+    {
+      "page": "2190:1413",
+      "name": "Item",
+      "hash": "6d4f8a33",
+      "expected": "6d4f8a33",
+      "definitionCount": 34,
+      "sets": 4,
+      "match": true
+    },
+    {
+      "page": "2793:2325",
+      "name": "Kbd",
+      "hash": "79e03cf8",
+      "expected": "79e03cf8",
+      "definitionCount": 7,
+      "sets": 1,
+      "match": true
+    },
+    {
+      "page": "2938:11449",
+      "name": "Menubar",
+      "hash": "b0f20691",
+      "expected": "b0f20691",
+      "definitionCount": 71,
+      "sets": 2,
+      "match": true
+    },
+    {
+      "page": "2938:12924",
+      "name": "Navigation Menu",
+      "hash": "fcff2a50",
+      "expected": "fcff2a50",
+      "definitionCount": 47,
+      "sets": 5,
+      "match": true
+    },
+    {
+      "page": "1763:1260",
+      "name": "Pagination",
+      "hash": "bd5e9aa4",
+      "expected": "bd5e9aa4",
+      "definitionCount": 20,
+      "sets": 3,
+      "match": true
+    },
+    {
+      "page": "726:6350",
+      "name": "Popover",
+      "hash": "87dcbb3c",
+      "expected": "87dcbb3c",
+      "definitionCount": 7,
+      "sets": 1,
+      "match": true
+    },
+    {
+      "page": "2206:16412",
+      "name": "Progress",
+      "hash": "1aefe371",
+      "expected": "1aefe371",
+      "definitionCount": 13,
+      "sets": 1,
+      "match": true
+    },
+    {
+      "page": "2882:453",
+      "name": "Resizable",
+      "hash": "2e9a5d04",
+      "expected": "2e9a5d04",
+      "definitionCount": 23,
+      "sets": 2,
+      "match": true
+    },
+    {
+      "page": "1800:1860",
+      "name": "Scroll Area",
+      "hash": "4efa7c08",
+      "expected": "4efa7c08",
+      "definitionCount": 3,
+      "sets": 1,
+      "match": true
+    },
+    {
+      "page": "589:983",
+      "name": "Separator",
+      "hash": "9480a078",
+      "expected": "9480a078",
+      "definitionCount": 3,
+      "sets": 1,
+      "match": true
+    },
+    {
+      "page": "1295:386",
+      "name": "Sheet",
+      "hash": "7c1fccbd",
+      "expected": "7c1fccbd",
+      "definitionCount": 9,
+      "sets": 2,
+      "match": true
+    },
+    {
+      "page": "3114:1373",
+      "name": "Sidebar",
+      "hash": "9e048c1f",
+      "expected": "9e048c1f",
+      "definitionCount": 48,
+      "sets": 9,
+      "match": true
+    },
+    {
+      "page": "2548:48050",
+      "name": "Skeleton",
+      "hash": "5a7ac832",
+      "expected": "5a7ac832",
+      "definitionCount": 1,
+      "sets": 0,
+      "match": true
+    },
+    {
+      "page": "2772:1030",
+      "name": "Slider",
+      "hash": "4eafa55b",
+      "expected": "4eafa55b",
+      "definitionCount": 37,
+      "sets": 1,
+      "match": true
+    },
+    {
+      "page": "2206:19380",
+      "name": "Spinner",
+      "hash": "5a422296",
+      "expected": "5a422296",
+      "definitionCount": 9,
+      "sets": 2,
+      "match": true
+    },
+    {
+      "page": "1:33",
+      "name": "Tabs",
+      "hash": "d21fed9c",
+      "expected": "d21fed9c",
+      "definitionCount": 97,
+      "sets": 3,
+      "match": true
+    },
+    {
+      "page": "1:45",
+      "name": "Toast",
+      "hash": "6f934f61",
+      "expected": "6f934f61",
+      "definitionCount": 7,
+      "sets": 1,
+      "match": true
+    },
+    {
+      "page": "3267:2627",
+      "name": "Toggle",
+      "hash": "5c31697f",
+      "expected": "5c31697f",
+      "definitionCount": 125,
+      "sets": 2,
+      "match": true
+    },
+    {
+      "page": "1:30",
+      "name": "Tooltip",
+      "hash": "76cc94b0",
+      "expected": "76cc94b0",
+      "definitionCount": 22,
+      "sets": 2,
+      "match": true
+    },
+    {
+      "page": "1521:3069",
+      "name": "Calendar",
+      "hash": "4124a030",
+      "expected": "4124a030",
+      "definitionCount": 42,
+      "sets": 4,
+      "match": true
+    },
+    {
+      "page": "1:41",
+      "name": "Checks / Radios / Switches",
+      "hash": "3f22e63c",
+      "expected": "3f22e63c",
+      "definitionCount": 129,
+      "sets": 9,
+      "match": true
+    },
+    {
+      "page": "1:39",
+      "name": "Combobox",
+      "hash": "5cbafcb8",
+      "expected": "5cbafcb8",
+      "definitionCount": 33,
+      "sets": 7,
+      "match": true
+    },
+    {
+      "page": "1:35",
+      "name": "Date Picker",
+      "hash": "54416750",
+      "expected": "54416750",
+      "definitionCount": 5,
+      "sets": 1,
+      "match": true
+    },
+    {
+      "page": "1:38",
+      "name": "Label",
+      "hash": "b7864b1",
+      "expected": "b7864b1",
+      "definitionCount": 8,
+      "sets": 3,
+      "match": true
+    },
+    {
+      "page": "1:34",
+      "name": "Input",
+      "hash": "3f209572",
+      "expected": "3f209572",
+      "definitionCount": 56,
+      "sets": 5,
+      "match": true
+    },
+    {
+      "page": "561:4282",
+      "name": "Input OTP",
+      "hash": "695ca07c",
+      "expected": "695ca07c",
+      "definitionCount": 106,
+      "sets": 2,
+      "match": true
+    },
+    {
+      "page": "553:7952",
+      "name": "Native Select",
+      "hash": "23542c1b",
+      "expected": "23542c1b",
+      "definitionCount": 41,
+      "sets": 4,
+      "match": true
+    },
+    {
+      "page": "614:4917",
+      "name": "Select",
+      "hash": "f2d77326",
+      "expected": "f2d77326",
+      "definitionCount": 29,
+      "sets": 5,
+      "match": true
+    },
+    {
+      "page": "394:13561",
+      "name": "Text Area",
+      "hash": "ce175b48",
+      "expected": "ce175b48",
+      "definitionCount": 4,
+      "sets": 1,
+      "match": true
+    },
+    {
+      "page": "553:2675",
+      "name": "Field",
+      "hash": "f5e88cf",
+      "expected": "f5e88cf",
+      "definitionCount": 46,
+      "sets": 9,
+      "match": true
+    },
+    {
+      "page": "2366:19504",
+      "name": "Data Table",
+      "hash": "5aa9f755",
+      "expected": "5aa9f755",
+      "definitionCount": 16,
+      "sets": 3,
+      "match": true
+    },
+    {
+      "page": "2064:259",
+      "name": "Table",
+      "hash": "3a550b21",
+      "expected": "3a550b21",
+      "definitionCount": 237,
+      "sets": 13,
+      "match": true
+    }
+  ],
+  "scope": "Live variables, collection modes, text/paint/effect/grid styles, component inventory and property schemas. Not a pixel-level visual or WCAG release approval.",
+  "preservedExceptions": "Reina Madre and Piel Sana primary/brand-gradient"
+}

@@ -1,0 +1,56 @@
+{
+  "mutatedVariableIds": [
+    "VariableID:5082:64991",
+    "VariableID:5082:64990",
+    "VariableID:5082:64991",
+    "VariableID:5082:64990",
+    "VariableID:5082:64991"
+  ],
+  "changes": [
+    {
+      "id": "VariableID:5082:64991",
+      "name": "button/brand-gradient-2",
+      "mode": "44:8",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:44:76"
+      }
+    },
+    {
+      "id": "VariableID:5082:64990",
+      "name": "button/brand-gradient-1",
+      "mode": "132:1",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:834"
+      }
+    },
+    {
+      "id": "VariableID:5082:64991",
+      "name": "button/brand-gradient-2",
+      "mode": "132:1",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:822"
+      }
+    },
+    {
+      "id": "VariableID:5082:64990",
+      "name": "button/brand-gradient-1",
+      "mode": "132:2",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:775"
+      }
+    },
+    {
+      "id": "VariableID:5082:64991",
+      "name": "button/brand-gradient-2",
+      "mode": "132:2",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:786"
+      }
+    }
+  ]
+}

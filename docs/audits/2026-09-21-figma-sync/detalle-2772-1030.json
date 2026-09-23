@@ -1,0 +1,89 @@
+{
+  "id": "2772:1030",
+  "name": "Slider",
+  "total": 37,
+  "nodes": 181,
+  "refs": {
+    "VariableID:50:537": {
+      "count": 288,
+      "example": "2776:3"
+    },
+    "VariableID:44:188": {
+      "count": 72,
+      "example": "2776:3"
+    },
+    "VariableID:44:185": {
+      "count": 216,
+      "example": "2776:4"
+    },
+    "VariableID:44:183": {
+      "count": 144,
+      "example": "2776:5"
+    }
+  },
+  "texts": {},
+  "styles": {},
+  "sets": [
+    {
+      "id": "2777:58",
+      "name": "Slider",
+      "count": 36,
+      "props": {
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Single",
+          "variantOptions": [
+            "Single",
+            "Range",
+            "Multiple"
+          ]
+        },
+        "Orientation": {
+          "type": "VARIANT",
+          "defaultValue": "Horizontal",
+          "variantOptions": [
+            "Horizontal",
+            "Vertical"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Disabled"
+          ]
+        },
+        "Value": {
+          "type": "VARIANT",
+          "defaultValue": "Low",
+          "variantOptions": [
+            "Medium",
+            "Low",
+            "High"
+          ]
+        }
+      },
+      "default": {
+        "id": "2781:124",
+        "name": "Type=Single, Orientation=Horizontal, Status=Default, Value=Low",
+        "w": 240,
+        "h": 20,
+        "layout": "NONE",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    }
+  ],
+  "errors": []
+}

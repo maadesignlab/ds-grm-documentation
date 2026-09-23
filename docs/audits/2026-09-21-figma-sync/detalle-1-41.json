@@ -1,0 +1,722 @@
+{
+  "id": "1:41",
+  "name": "Checks / Radios / Switches",
+  "total": 129,
+  "nodes": 1673,
+  "refs": {
+    "VariableID:50:537": {
+      "count": 144,
+      "example": "429:98"
+    },
+    "VariableID:44:185": {
+      "count": 140,
+      "example": "429:98"
+    },
+    "VariableID:44:183": {
+      "count": 126,
+      "example": "428:97"
+    },
+    "VariableID:332:2323": {
+      "count": 34,
+      "example": "434:289"
+    },
+    "VariableID:424:1864": {
+      "count": 16,
+      "example": "434:289"
+    },
+    "VariableID:51:22": {
+      "count": 36,
+      "example": "429:100"
+    },
+    "VariableID:50:526": {
+      "count": 295,
+      "example": "429:165"
+    },
+    "VariableID:186:183": {
+      "count": 308,
+      "example": "468:1311"
+    },
+    "VariableID:44:184": {
+      "count": 516,
+      "example": "I468:1314;1027:3168;553:3033"
+    },
+    "VariableID:99:17": {
+      "count": 272,
+      "example": "I468:1314;1027:3168;553:3033"
+    },
+    "VariableID:132:811": {
+      "count": 272,
+      "example": "I468:1314;1027:3168;553:3033"
+    },
+    "VariableID:50:639": {
+      "count": 271,
+      "example": "I468:1314;1027:3168;553:3033"
+    },
+    "VariableID:417:1110": {
+      "count": 26,
+      "example": "I1027:4266;1027:3168;553:3035"
+    },
+    "VariableID:429:249": {
+      "count": 528,
+      "example": "429:231"
+    },
+    "VariableID:429:250": {
+      "count": 528,
+      "example": "429:231"
+    },
+    "VariableID:51:21": {
+      "count": 654,
+      "example": "429:231"
+    },
+    "VariableID:294:496": {
+      "count": 86,
+      "example": "440:403"
+    },
+    "VariableID:51:172": {
+      "count": 104,
+      "example": "440:404"
+    },
+    "VariableID:50:514": {
+      "count": 292,
+      "example": "440:1917"
+    },
+    "VariableID:446:365": {
+      "count": 93,
+      "example": "I452:1573;452:1256"
+    },
+    "VariableID:71:2": {
+      "count": 2,
+      "example": "I1027:4251;553:3042"
+    },
+    "VariableID:50:641": {
+      "count": 1,
+      "example": "I1027:4251;553:3042"
+    }
+  },
+  "texts": {
+    "S:b9200b5971cf3f84adc1475861c0b20e11d4e15e,": {
+      "count": 271,
+      "example": "I468:1314;1027:3168;553:3033"
+    },
+    "S:1d452614e679106aeb9f64166fd66fd5df9751c7,": {
+      "count": 1,
+      "example": "I1027:4251;553:3042"
+    }
+  },
+  "styles": {
+    "S:b8adb059f130b7f80c3daff5ccaceb3c9104f4ef,": {
+      "count": 6,
+      "example": "429:98"
+    }
+  },
+  "sets": [
+    {
+      "id": "429:99",
+      "name": "_components/Switch/SwitchBase",
+      "count": 12,
+      "props": {
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "disabled",
+            "error",
+            "default"
+          ]
+        },
+        "Switch": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "small",
+            "default"
+          ]
+        }
+      },
+      "default": {
+        "id": "429:98",
+        "name": "Status=default, Switch=on, Size=default",
+        "w": 32,
+        "h": 18.389999389648438,
+        "layout": "HORIZONTAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          14
+        ],
+        "radius": 9999,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0.48235294222831726,
+              "b": 0.4274509847164154
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:44:185"
+              }
+            }
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 0,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "boundVariables": {}
+          }
+        ],
+        "effects": [
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 2,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.05000000074505806
+            },
+            "offset": {
+              "x": 0,
+              "y": 1
+            },
+            "spread": 0,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": false
+          }
+        ],
+        "bound": {
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:537"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:537"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:537"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:537"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:44:185"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "429:166",
+      "name": "Switch",
+      "count": 24,
+      "props": {
+        "Left Text#468:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Right Text#468:25": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "contained"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "small",
+            "default"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "error",
+            "disabled"
+          ]
+        },
+        "Switch": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        }
+      },
+      "default": {
+        "id": "429:165",
+        "name": "Style=default, Size=default, Status=default, Switch=off",
+        "w": 202,
+        "h": 20,
+        "layout": "HORIZONTAL",
+        "gap": 8,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          }
+        }
+      }
+    },
+    {
+      "id": "440:402",
+      "name": "_components/Radio/RadioBase",
+      "count": 6,
+      "props": {
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "error",
+            "disabled"
+          ]
+        },
+        "Radio": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        }
+      },
+      "default": {
+        "id": "440:401",
+        "name": "Status=default, Radio=off",
+        "w": 16,
+        "h": 16,
+        "layout": "HORIZONTAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 33554400,
+        "fills": [],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8549019694328308,
+              "g": 0.8313725590705872,
+              "b": 0.843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:21"
+              }
+            }
+          }
+        ],
+        "effects": [],
+        "bound": {
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:21"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "440:1918",
+      "name": "Radio Group",
+      "count": 40,
+      "props": {
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "contained"
+          ]
+        },
+        "Options": {
+          "type": "VARIANT",
+          "defaultValue": "2",
+          "variantOptions": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        "Step": {
+          "type": "VARIANT",
+          "defaultValue": "1",
+          "variantOptions": [
+            "Predeterminado",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        }
+      },
+      "default": {
+        "id": "440:1917",
+        "name": "Style=default, Options=2, Step=1",
+        "w": 200,
+        "h": 52,
+        "layout": "VERTICAL",
+        "gap": 12,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:514"
+          }
+        }
+      }
+    },
+    {
+      "id": "449:482",
+      "name": "Checkbox Group",
+      "count": 12,
+      "props": {
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "contained",
+            "default"
+          ]
+        },
+        "Options": {
+          "type": "VARIANT",
+          "defaultValue": "1",
+          "variantOptions": [
+            "6",
+            "2",
+            "1",
+            "3",
+            "4",
+            "5"
+          ]
+        }
+      },
+      "default": {
+        "id": "461:6041",
+        "name": "Style=default, Options=1",
+        "w": 200,
+        "h": 20,
+        "layout": "VERTICAL",
+        "gap": 12,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:514"
+          }
+        }
+      }
+    },
+    {
+      "id": "440:3871",
+      "name": "Radio",
+      "count": 6,
+      "props": {
+        "Left Text#452:17": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Right Text#452:23": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "contained"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "error",
+            "default",
+            "selected",
+            "disabled"
+          ]
+        }
+      },
+      "default": {
+        "id": "440:1903",
+        "name": "Style=default, Status=default",
+        "w": 200,
+        "h": 20,
+        "layout": "HORIZONTAL",
+        "gap": 12,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:514"
+          }
+        }
+      }
+    },
+    {
+      "id": "449:454",
+      "name": "CheckBox",
+      "count": 12,
+      "props": {
+        "Left Text#461:43": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Right Text#461:50": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "contained",
+            "default"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "error",
+            "default",
+            "disabled"
+          ]
+        },
+        "Checkbox": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        }
+      },
+      "default": {
+        "id": "449:455",
+        "name": "Style=default, Status=default, Checkbox=off",
+        "w": 200,
+        "h": 20,
+        "layout": "HORIZONTAL",
+        "gap": 12,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:514"
+          }
+        }
+      }
+    },
+    {
+      "id": "446:397",
+      "name": "_components/CheckBox/CheckBoxBase",
+      "count": 6,
+      "props": {
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "error",
+            "disabled"
+          ]
+        },
+        "CheckBox": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        }
+      },
+      "default": {
+        "id": "446:396",
+        "name": "Status=default, CheckBox=off",
+        "w": 16,
+        "h": 16,
+        "layout": "NONE",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 4,
+        "fills": [],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8549019694328308,
+              "g": 0.8313725590705872,
+              "b": 0.843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:21"
+              }
+            }
+          }
+        ],
+        "effects": [],
+        "bound": {
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:21"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "452:2902",
+      "name": "_components/Selectables/Label",
+      "count": 2,
+      "props": {
+        "Label Type": {
+          "type": "VARIANT",
+          "defaultValue": "text",
+          "variantOptions": [
+            "text",
+            "text+description"
+          ]
+        }
+      },
+      "default": {
+        "id": "452:2901",
+        "name": "Label Type=text",
+        "w": 70,
+        "h": 20,
+        "layout": "VERTICAL",
+        "gap": 2,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:186:183"
+          }
+        }
+      }
+    }
+  ],
+  "errors": []
+}

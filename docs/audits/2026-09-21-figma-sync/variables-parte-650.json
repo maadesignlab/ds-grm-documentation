@@ -1,0 +1,694 @@
+[
+  [
+    "VariableID:3492:56333",
+    "Piel Sana/accent/hover",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:795"
+      }
+    }
+  ],
+  [
+    "VariableID:3492:56334",
+    "Piel Sana/accent/active",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:796"
+      }
+    }
+  ],
+  [
+    "VariableID:3492:56335",
+    "Piel Sana/neutral/hover",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:806"
+      }
+    }
+  ],
+  [
+    "VariableID:3492:56336",
+    "Piel Sana/neutral/active",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:807"
+      }
+    }
+  ],
+  [
+    "VariableID:3495:2",
+    "Piel Sana/status/success/50",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9330967664718628,
+        "g": 0.9755363464355469,
+        "b": 0.9073713421821594,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:3",
+    "Piel Sana/status/success/100",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.8500429391860962,
+        "g": 0.945643424987793,
+        "b": 0.7902498841285706,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:4",
+    "Piel Sana/status/success/200",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.7415158748626709,
+        "g": 0.9060222506523132,
+        "b": 0.632669985294342,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:5",
+    "Piel Sana/status/success/300",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.6327672600746155,
+        "g": 0.8587126731872559,
+        "b": 0.4703303277492523,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:6",
+    "Piel Sana/status/success/400",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.528782308101654,
+        "g": 0.7977765202522278,
+        "b": 0.31023550033569336,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:7",
+    "Piel Sana/status/success/500",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.4431372582912445,
+        "g": 0.7254902124404907,
+        "b": 0.1764705926179886,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:8",
+    "Piel Sana/status/success/600",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.3544694483280182,
+        "g": 0.6216562390327454,
+        "b": 0.027118220925331116,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:9",
+    "Piel Sana/status/success/700",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.2831089496612549,
+        "g": 0.5012387037277222,
+        "b": 0.027318334206938744,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:10",
+    "Piel Sana/status/success/800",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.20773081481456757,
+        "g": 0.38052698969841003,
+        "b": 0.005434993654489517,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:11",
+    "Piel Sana/status/success/900",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.14257927238941193,
+        "g": 0.26442208886146545,
+        "b": 0.0182857196778059,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:12",
+    "Piel Sana/status/success/950",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.08341874182224274,
+        "g": 0.17493599653244019,
+        "b": 0.0006026389892213047,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:13",
+    "Piel Sana/status/warning/50",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9947599172592163,
+        "g": 0.959307074546814,
+        "b": 0.9005215764045715,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:14",
+    "Piel Sana/status/warning/100",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9945411086082458,
+        "g": 0.9135370850563049,
+        "b": 0.7783187031745911,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:15",
+    "Piel Sana/status/warning/200",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.994386613368988,
+        "g": 0.8525055050849915,
+        "b": 0.6103852987289429,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:16",
+    "Piel Sana/status/warning/300",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9853025078773499,
+        "g": 0.7875435948371887,
+        "b": 0.4327154755592346,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:17",
+    "Piel Sana/status/warning/400",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9570003151893616,
+        "g": 0.7192115187644958,
+        "b": 0.24677321314811707,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:18",
+    "Piel Sana/status/warning/500",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9058823585510254,
+        "g": 0.6549019813537598,
+        "b": 0.04313725605607033,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:19",
+    "Piel Sana/status/warning/600",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.7655665874481201,
+        "g": 0.5529452562332153,
+        "b": 0.054188743233680725,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:20",
+    "Piel Sana/status/warning/700",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.6149783730506897,
+        "g": 0.44155699014663696,
+        "b": 0.03643782064318657,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:21",
+    "Piel Sana/status/warning/800",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.46540889143943787,
+        "g": 0.32828953862190247,
+        "b": 0.0003997226885985583,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:22",
+    "Piel Sana/status/warning/900",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.3196661174297333,
+        "g": 0.22315852344036102,
+        "b": 0.011489193886518478,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:23",
+    "Piel Sana/status/warning/950",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.20767734944820404,
+        "g": 0.13934223353862762,
+        "b": 0.0027800293173640966,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:24",
+    "Piel Sana/status/error/50",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9994982481002808,
+        "g": 0.9387485980987549,
+        "b": 0.924905002117157,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:25",
+    "Piel Sana/status/error/100",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9973160028457642,
+        "g": 0.8552674651145935,
+        "b": 0.8230490684509277,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:26",
+    "Piel Sana/status/error/200",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9960702657699585,
+        "g": 0.7434605956077576,
+        "b": 0.6871026158332825,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:27",
+    "Piel Sana/status/error/300",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9948424696922302,
+        "g": 0.6170562505722046,
+        "b": 0.5358268022537231,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:28",
+    "Piel Sana/status/error/400",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.985106348991394,
+        "g": 0.46387213468551636,
+        "b": 0.3593023717403412,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:29",
+    "Piel Sana/status/error/500",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.929411768913269,
+        "g": 0.3137255012989044,
+        "b": 0.19607843458652496,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:30",
+    "Piel Sana/status/error/600",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.8362146615982056,
+        "g": 0.20265458524227142,
+        "b": 0.07016317546367645,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:31",
+    "Piel Sana/status/error/700",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.6948610544204712,
+        "g": 0.1399916410446167,
+        "b": 0.012325539253652096,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:32",
+    "Piel Sana/status/error/800",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.5403055548667908,
+        "g": 0.09992498904466629,
+        "b": 0.0072279735468328,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:33",
+    "Piel Sana/status/error/900",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.3923947811126709,
+        "g": 0.06411134451627731,
+        "b": 0.005792056676000357,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:34",
+    "Piel Sana/status/error/950",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.2781015932559967,
+        "g": 0.029377130791544914,
+        "b": 0.00020760015468113124,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:35",
+    "Piel Sana/status/destructive/50",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9997904300689697,
+        "g": 0.9285357594490051,
+        "b": 0.9275749325752258,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:36",
+    "Piel Sana/status/destructive/100",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.996610164642334,
+        "g": 0.8225959539413452,
+        "b": 0.8217729330062866,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:37",
+    "Piel Sana/status/destructive/200",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9987038373947144,
+        "g": 0.675942063331604,
+        "b": 0.680462121963501,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:38",
+    "Piel Sana/status/destructive/300",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9909544587135315,
+        "g": 0.5085311532020569,
+        "b": 0.5312348008155823,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:39",
+    "Piel Sana/status/destructive/400",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.9518154263496399,
+        "g": 0.305675745010376,
+        "b": 0.37680667638778687,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:40",
+    "Piel Sana/status/destructive/500",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.8392156958580017,
+        "g": 0.11372549086809158,
+        "b": 0.25882354378700256,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:41",
+    "Piel Sana/status/destructive/600",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.7335642576217651,
+        "g": 0.0648733451962471,
+        "b": 0.21415655314922333,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:42",
+    "Piel Sana/status/destructive/700",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.6156105995178223,
+        "g": 0.015554968267679214,
+        "b": 0.16735045611858368,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:43",
+    "Piel Sana/status/destructive/800",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.48544952273368835,
+        "g": 0.02231193520128727,
+        "b": 0.12783904373645782,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:44",
+    "Piel Sana/status/destructive/900",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.3678719103336334,
+        "g": 0.004107519052922726,
+        "b": 0.0847967267036438,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:45",
+    "Piel Sana/status/destructive/950",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.2691408097743988,
+        "g": 0.005437948275357485,
+        "b": 0.05403303727507591,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:46",
+    "Piel Sana/status/info/50",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.915385365486145,
+        "g": 0.9545354843139648,
+        "b": 0.998112678527832,
+        "a": 1
+      }
+    }
+  ],
+  [
+    "VariableID:3495:47",
+    "Piel Sana/status/info/100",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "r": 0.7909709811210632,
+        "g": 0.889297366142273,
+        "b": 0.9977144598960876,
+        "a": 1
+      }
+    }
+  ]
+]

@@ -1,0 +1,388 @@
+{
+  "id": "1295:386",
+  "name": "Sheet",
+  "total": 9,
+  "nodes": 224,
+  "refs": {
+    "VariableID:50:513": {
+      "count": 59,
+      "example": "1301:48"
+    },
+    "VariableID:51:21": {
+      "count": 72,
+      "example": "1301:48"
+    },
+    "VariableID:50:514": {
+      "count": 48,
+      "example": "1301:40"
+    },
+    "VariableID:186:174": {
+      "count": 26,
+      "example": "1301:40"
+    },
+    "VariableID:50:534": {
+      "count": 48,
+      "example": "1301:40"
+    },
+    "VariableID:44:185": {
+      "count": 14,
+      "example": "1301:40"
+    },
+    "VariableID:51:172": {
+      "count": 14,
+      "example": "I1301:40;313:2252"
+    },
+    "VariableID:50:612": {
+      "count": 12,
+      "example": "I1301:40;313:2252"
+    },
+    "VariableID:132:811": {
+      "count": 48,
+      "example": "I1301:40;313:2252"
+    },
+    "VariableID:50:639": {
+      "count": 33,
+      "example": "I1301:40;313:2252"
+    },
+    "VariableID:44:184": {
+      "count": 54,
+      "example": "I1301:41;313:2264"
+    },
+    "VariableID:50:526": {
+      "count": 22,
+      "example": "1304:909"
+    },
+    "VariableID:99:17": {
+      "count": 32,
+      "example": "I1304:909;553:3055;553:3033"
+    },
+    "VariableID:50:530": {
+      "count": 2,
+      "example": "I1304:909;553:3056;412:13"
+    },
+    "VariableID:51:19": {
+      "count": 14,
+      "example": "I1304:909;553:3056;412:13"
+    },
+    "VariableID:51:22": {
+      "count": 4,
+      "example": "I1304:909;553:3056;412:13"
+    },
+    "VariableID:71:2": {
+      "count": 36,
+      "example": "I1304:909;553:3056;412:13;424:2195"
+    },
+    "VariableID:50:641": {
+      "count": 15,
+      "example": "I1304:909;553:3056;412:13;424:2195"
+    },
+    "VariableID:429:250": {
+      "count": 4,
+      "example": "I1304:911;553:7840"
+    },
+    "VariableID:186:183": {
+      "count": 8,
+      "example": "I1304:913;553:6644;461:6042;452:4546"
+    },
+    "VariableID:294:496": {
+      "count": 2,
+      "example": "I1304:915;553:6670;440:1959;440:1898"
+    },
+    "VariableID:50:537": {
+      "count": 4,
+      "example": "I1304:917;553:7905;429:154"
+    },
+    "VariableID:44:183": {
+      "count": 2,
+      "example": "I1304:917;553:7905;429:154;429:101"
+    },
+    "VariableID:806845d6ef461ad85c7de7f0438a6339901f05d0/1088:657": {
+      "count": 1,
+      "example": "I1304:919;885:5915"
+    },
+    "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14": {
+      "count": 20,
+      "example": "I1304:919;885:5915"
+    },
+    "VariableID:6c0b2eff1ec5b7639605954af4b5f50e48f0b42e/1600:0": {
+      "count": 22,
+      "example": "I1304:919;885:5915"
+    },
+    "VariableID:32de368de64cf2a0c09cecf2c2f67b977ebbdf03/1088:654": {
+      "count": 2,
+      "example": "I1304:921;885:6047;629:92591"
+    },
+    "VariableID:d807cd2c55aa956d7951c7137f79e14b22a8aa1f/1088:536": {
+      "count": 2,
+      "example": "I1304:921;885:6047;629:92591"
+    },
+    "VariableID:1a3bd0e6b358b25c3826fd6fbac104d1165dfa8d/1046:6070": {
+      "count": 2,
+      "example": "I1304:923;885:6170;566:5303"
+    },
+    "VariableID:6457372a9181ee5cc9bfb3cb417dff218406a0b2/1102:1": {
+      "count": 1,
+      "example": "I1304:923;885:6170;566:5303"
+    },
+    "VariableID:afcdba21ea5e8229b29230e6c33d5264c0126558/1046:6066": {
+      "count": 1,
+      "example": "I1304:923;885:6170;566:5303"
+    },
+    "VariableID:51:20": {
+      "count": 8,
+      "example": "1295:649"
+    },
+    "VariableID:51:25": {
+      "count": 8,
+      "example": "1295:616"
+    },
+    "VariableID:66:23": {
+      "count": 4,
+      "example": "1295:616"
+    },
+    "VariableID:50:515": {
+      "count": 8,
+      "example": "1295:619"
+    }
+  },
+  "texts": {
+    "S:592db2195316334a05d7f58ef0fced7f0ff0cfb0,": {
+      "count": 12,
+      "example": "I1301:40;313:2252"
+    },
+    "S:b9200b5971cf3f84adc1475861c0b20e11d4e15e,": {
+      "count": 17,
+      "example": "I1304:909;553:3055;553:3033"
+    },
+    "S:1d452614e679106aeb9f64166fd66fd5df9751c7,": {
+      "count": 15,
+      "example": "I1304:909;553:3056;412:13;424:2195"
+    },
+    "S:781eaf6f680951d4f89acd6c5285b40210dae108,": {
+      "count": 4,
+      "example": "1295:616"
+    }
+  },
+  "styles": {
+    "S:b8adb059f130b7f80c3daff5ccaceb3c9104f4ef,": {
+      "count": 8,
+      "example": "1301:40"
+    }
+  },
+  "sets": [
+    {
+      "id": "1301:49",
+      "name": "_components/Sheet/Buttons",
+      "count": 2,
+      "props": {
+        "Button alignment": {
+          "type": "VARIANT",
+          "defaultValue": "col",
+          "variantOptions": [
+            "col",
+            "row"
+          ]
+        }
+      },
+      "default": {
+        "id": "1301:48",
+        "name": "Button alignment=col",
+        "w": 383,
+        "h": 106,
+        "layout": "VERTICAL",
+        "gap": 10,
+        "padding": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8549019694328308,
+              "g": 0.8313725590705872,
+              "b": 0.843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:21"
+              }
+            }
+          }
+        ],
+        "effects": [],
+        "bound": {
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          },
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:21"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1304:1084",
+      "name": "_components/Sheet/FormExample",
+      "count": 15,
+      "props": {},
+      "default": {
+        "id": "1304:1084",
+        "name": "_components/Sheet/FormExample",
+        "w": 450,
+        "h": 1432,
+        "layout": "VERTICAL",
+        "gap": 30,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "1295:1240",
+      "name": "Sheet",
+      "count": 4,
+      "props": {
+        "Close button#1295:1": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Sheet Content#1390:7": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Sheet Title#1454:22": {
+          "type": "TEXT",
+          "defaultValue": "Título de sección"
+        },
+        "Sheet Description#1454:27": {
+          "type": "TEXT",
+          "defaultValue": "Descripción de la sección"
+        },
+        "Sheet position": {
+          "type": "VARIANT",
+          "defaultValue": "left",
+          "variantOptions": [
+            "left",
+            "right",
+            "bottom",
+            "top"
+          ]
+        }
+      },
+      "default": {
+        "id": "1295:649",
+        "name": "Sheet position=left",
+        "w": 480,
+        "h": 1024,
+        "layout": "VERTICAL",
+        "gap": 16,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9803921580314636,
+              "g": 0.9725490212440491,
+              "b": 0.9843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:20"
+              }
+            }
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8549019694328308,
+              "g": 0.8313725590705872,
+              "b": 0.843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:21"
+              }
+            }
+          }
+        ],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:20"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:21"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "errors": []
+}

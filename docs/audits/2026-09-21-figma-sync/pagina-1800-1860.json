@@ -1,0 +1,47 @@
+{
+  "id": "1800:1860",
+  "name": "Scroll Area",
+  "total": 3,
+  "sets": [
+    {
+      "id": "1801:2786",
+      "name": "Scroll Area",
+      "type": "COMPONENT_SET",
+      "count": 2,
+      "props": {
+        "Espacio#1801:6": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Orientation": {
+          "type": "VARIANT",
+          "defaultValue": "Vertical",
+          "variantOptions": [
+            "Vertical",
+            "horizontal"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "1801:2785",
+      "1801:2786",
+      "Orientation=Vertical"
+    ],
+    [
+      "1801:2787",
+      "1801:2786",
+      "Orientation=horizontal"
+    ]
+  ]
+}

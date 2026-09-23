@@ -1,0 +1,18 @@
+[
+  {
+    "id": "foundations-tokens--docs",
+    "status": "rendered"
+  },
+  {
+    "id": "foundations-typography--docs",
+    "computed": {
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "letterSpacing": "-0.6px"
+    }
+  },
+  {
+    "id": "design-system-releases--docs",
+    "status": "rendered"
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "id": "1:45",
+  "name": "Toast",
+  "total": 7,
+  "sets": [
+    {
+      "id": "288:336",
+      "name": "Toast",
+      "type": "COMPONENT_SET",
+      "count": 6,
+      "props": {
+        "Toast Text#345:0": {
+          "type": "TEXT",
+          "defaultValue": "Datos actualizados"
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "success",
+          "variantOptions": [
+            "success",
+            "warning",
+            "error",
+            "info",
+            "brand-neutral",
+            "neutral"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "288:335",
+      "288:336",
+      "Status=success"
+    ],
+    [
+      "288:337",
+      "288:336",
+      "Status=warning"
+    ],
+    [
+      "288:345",
+      "288:336",
+      "Status=error"
+    ],
+    [
+      "288:353",
+      "288:336",
+      "Status=info"
+    ],
+    [
+      "288:361",
+      "288:336",
+      "Status=brand-neutral"
+    ],
+    [
+      "349:1653",
+      "288:336",
+      "Status=neutral"
+    ]
+  ]
+}

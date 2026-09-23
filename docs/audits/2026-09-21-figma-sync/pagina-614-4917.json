@@ -1,0 +1,292 @@
+{
+  "id": "614:4917",
+  "name": "Select",
+  "total": 29,
+  "sets": [
+    {
+      "id": "626:4990",
+      "name": "_components/Select/DropdownOptions/Simple",
+      "type": "COMPONENT",
+      "count": 21,
+      "props": {}
+    },
+    {
+      "id": "627:5575",
+      "name": "_components/Select/DropdownStyle/Simple",
+      "type": "COMPONENT",
+      "count": 20,
+      "props": {}
+    },
+    {
+      "id": "629:40730",
+      "name": "_components/Select/DropdownStyle/Scrollable",
+      "type": "COMPONENT",
+      "count": 2,
+      "props": {
+        "Dropdown Options#629:11": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "629:52086",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "29ff2846ce7d1f4ee038cbdeba298a9bc2e8e145"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "629:52086",
+      "name": "_components/Select/DropdownOptions/With Groups",
+      "type": "COMPONENT",
+      "count": 19,
+      "props": {}
+    },
+    {
+      "id": "614:4985",
+      "name": "_components/Select/DropdownOptions/Item",
+      "type": "COMPONENT_SET",
+      "count": 4,
+      "props": {
+        "Item Text#593:0": {
+          "type": "TEXT",
+          "defaultValue": "Item"
+        },
+        "Check#593:3": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Left Icon#629:6": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "click",
+            "active",
+            "default",
+            "hover"
+          ]
+        }
+      }
+    },
+    {
+      "id": "614:5016",
+      "name": "_components/Select/DropdownOptions/Label",
+      "type": "COMPONENT_SET",
+      "count": 1,
+      "props": {
+        "Label Text#593:0": {
+          "type": "TEXT",
+          "defaultValue": "Section Text"
+        },
+        "Icon Left#593:3": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Propiedad 1": {
+          "type": "VARIANT",
+          "defaultValue": "item",
+          "variantOptions": [
+            "item"
+          ]
+        }
+      }
+    },
+    {
+      "id": "614:6056",
+      "name": "Select/Simple",
+      "type": "COMPONENT_SET",
+      "count": 7,
+      "props": {
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "disabled",
+            "error"
+          ]
+        },
+        "Opened": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "false",
+            "true"
+          ]
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "closed",
+          "variantOptions": [
+            "closed",
+            "filled-selected",
+            "expanded"
+          ]
+        }
+      }
+    },
+    {
+      "id": "614:6085",
+      "name": "Select/Scrollable",
+      "type": "COMPONENT_SET",
+      "count": 7,
+      "props": {
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "disabled",
+            "error"
+          ]
+        },
+        "Opened": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "false",
+            "true"
+          ]
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "closed",
+          "variantOptions": [
+            "closed",
+            "filled-selected",
+            "expanded"
+          ]
+        }
+      }
+    },
+    {
+      "id": "629:44492",
+      "name": "_components/Select/SelectBase",
+      "type": "COMPONENT_SET",
+      "count": 1,
+      "props": {
+        "Left Icon#629:3": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Placeholder Text#629:12": {
+          "type": "TEXT",
+          "defaultValue": "Item"
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "614:4986",
+      "614:4985",
+      "Status=default"
+    ],
+    [
+      "614:4996",
+      "614:4985",
+      "Status=hover"
+    ],
+    [
+      "614:5006",
+      "614:4985",
+      "Status=click"
+    ],
+    [
+      "629:5717",
+      "614:4985",
+      "Status=active"
+    ],
+    [
+      "614:5017",
+      "614:5016",
+      "Propiedad 1=item"
+    ],
+    [
+      "614:6057",
+      "614:6056",
+      "Status=default, Opened=false, Style=closed"
+    ],
+    [
+      "629:92739",
+      "614:6056",
+      "Status=disabled, Opened=false, Style=closed"
+    ],
+    [
+      "629:92554",
+      "614:6056",
+      "Status=default, Opened=false, Style=filled-selected"
+    ],
+    [
+      "629:92094",
+      "614:6056",
+      "Status=error, Opened=false, Style=closed"
+    ],
+    [
+      "629:92556",
+      "614:6056",
+      "Status=error, Opened=false, Style=filled-selected"
+    ],
+    [
+      "614:6062",
+      "614:6056",
+      "Status=default, Opened=true, Style=expanded"
+    ],
+    [
+      "629:92096",
+      "614:6056",
+      "Status=error, Opened=true, Style=expanded"
+    ],
+    [
+      "614:6086",
+      "614:6085",
+      "Status=default, Opened=false, Style=closed"
+    ],
+    [
+      "629:92590",
+      "614:6085",
+      "Status=default, Opened=false, Style=filled-selected"
+    ],
+    [
+      "629:92364",
+      "614:6085",
+      "Status=error, Opened=false, Style=closed"
+    ],
+    [
+      "629:92592",
+      "614:6085",
+      "Status=error, Opened=false, Style=filled-selected"
+    ],
+    [
+      "629:92757",
+      "614:6085",
+      "Status=disabled, Opened=false, Style=closed"
+    ],
+    [
+      "614:6091",
+      "614:6085",
+      "Status=default, Opened=true, Style=expanded"
+    ],
+    [
+      "629:92366",
+      "614:6085",
+      "Status=error, Opened=true, Style=expanded"
+    ],
+    [
+      "629:44480",
+      "629:44492",
+      "Status=default"
+    ]
+  ]
+}

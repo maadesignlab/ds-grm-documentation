@@ -1,0 +1,79 @@
+{
+  "id": "2206:19380",
+  "name": "Spinner",
+  "total": 9,
+  "sets": [
+    {
+      "id": "2206:19610",
+      "name": "Spinner",
+      "type": "COMPONENT_SET",
+      "count": 4,
+      "props": {
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "12",
+          "variantOptions": [
+            "12",
+            "16",
+            "24",
+            "32"
+          ]
+        }
+      }
+    },
+    {
+      "id": "2213:25221",
+      "name": "_components/Spinner/Spinner Base",
+      "type": "COMPONENT_SET",
+      "count": 3,
+      "props": {
+        "Motion": {
+          "type": "VARIANT",
+          "defaultValue": "Animated",
+          "variantOptions": [
+            "Animated",
+            "Animated 120",
+            "Animated 240"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "2206:19611",
+      "2206:19610",
+      "Size=12"
+    ],
+    [
+      "2206:19613",
+      "2206:19610",
+      "Size=16"
+    ],
+    [
+      "2206:19615",
+      "2206:19610",
+      "Size=24"
+    ],
+    [
+      "2206:19617",
+      "2206:19610",
+      "Size=32"
+    ],
+    [
+      "2213:25220",
+      "2213:25221",
+      "Motion=Animated"
+    ],
+    [
+      "2277:33",
+      "2213:25221",
+      "Motion=Animated 120"
+    ],
+    [
+      "2277:38",
+      "2213:25221",
+      "Motion=Animated 240"
+    ]
+  ]
+}

@@ -1,0 +1,67 @@
+# NavigationMenu
+
+ID: components-navigation-menu
+
+## Stories
+
+### Playground
+
+Story ID: components-navigation-menu--playground
+
+```
+import { NavigationMenuExample } from "@reina-madre/design-system";
+
+const Playground = () => <NavigationMenuExample
+    key={`${args.itemCount}-${args.layout}-${args.viewport}-${args.defaultOpen}-${args.activeItem}-${args.lastItemType}-${args.disabledItem}`} />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as NavigationMenuStories from "./navigation-menu.stories"
+import primitiveSource from "./navigation-menu.tsx?raw"
+import exampleSource from "./navigation-menu-example.tsx?raw"
+import { NavigationMenuAmounts, NavigationMenuLayouts, NavigationMenuSpecifications, NavigationMenuStates } from "./navigation-menu-docs"
+
+<Meta of={NavigationMenuStories} />
+<Title of={NavigationMenuStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Restaura el primitive Radix y la API pública vigente de shadcn/ui.
+  - Incluye dropdown, link directo y Viewport habilitado/deshabilitado; `Indicator` permanece disponible como API opcional, pero no se renderiza en la composición de Figma.
+  - Implementa layouts `list` y `featured` del nodo de Figma.
+  - Soporta de 1 a 10 ítems, estados open/closed, active y disabled.
+  - Playground y Docs renderizan exclusivamente `NavigationMenuExample`.
+</details>
+
+## Estados
+
+<div className="mb-12"><NavigationMenuStates /></div>
+
+## Contenido y composición
+
+<div className="mb-12"><NavigationMenuLayouts /></div>
+
+## Cantidad de ítems
+
+<div className="mb-12"><NavigationMenuAmounts /></div>
+
+## Especificaciones
+
+<div className="mb-12"><NavigationMenuSpecifications /></div>
+
+## Código
+
+### Primitive oficial
+
+<Source language="tsx" code={primitiveSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

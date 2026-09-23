@@ -1,0 +1,177 @@
+{
+  "id": "2206:16412",
+  "name": "Progress",
+  "total": 13,
+  "nodes": 69,
+  "refs": {
+    "VariableID:50:514": {
+      "count": 23,
+      "example": "2206:16430"
+    },
+    "VariableID:50:531": {
+      "count": 44,
+      "example": "2206:16430"
+    },
+    "VariableID:51:25": {
+      "count": 24,
+      "example": "I2206:19329;2206:19317"
+    },
+    "VariableID:99:17": {
+      "count": 24,
+      "example": "I2206:19329;2206:19317"
+    },
+    "VariableID:132:811": {
+      "count": 24,
+      "example": "I2206:19329;2206:19317"
+    },
+    "VariableID:50:639": {
+      "count": 12,
+      "example": "I2206:19329;2206:19317"
+    },
+    "VariableID:71:2": {
+      "count": 24,
+      "example": "I2206:19329;2206:19318"
+    },
+    "VariableID:50:641": {
+      "count": 12,
+      "example": "I2206:19329;2206:19318"
+    },
+    "VariableID:50:537": {
+      "count": 84,
+      "example": "2206:16428"
+    },
+    "VariableID:08240f8bc6f3dd2f84982ce6af5b92c92488d862/1047:7": {
+      "count": 10,
+      "example": "2206:16428"
+    },
+    "VariableID:44:185": {
+      "count": 40,
+      "example": "2206:16428"
+    },
+    "VariableID:2457:29811": {
+      "count": 2,
+      "example": "2206:19335"
+    }
+  },
+  "texts": {
+    "S:b9200b5971cf3f84adc1475861c0b20e11d4e15e,": {
+      "count": 12,
+      "example": "I2206:19329;2206:19317"
+    },
+    "S:1d452614e679106aeb9f64166fd66fd5df9751c7,": {
+      "count": 12,
+      "example": "I2206:19329;2206:19318"
+    }
+  },
+  "styles": {},
+  "sets": [
+    {
+      "id": "2206:16431",
+      "name": "Progress",
+      "count": 11,
+      "props": {
+        "Label#2206:21": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Value": {
+          "type": "VARIANT",
+          "defaultValue": "0",
+          "variantOptions": [
+            "0",
+            "10",
+            "20",
+            "30",
+            "40",
+            "50",
+            "60",
+            "70",
+            "80",
+            "100",
+            "90"
+          ]
+        }
+      },
+      "default": {
+        "id": "2206:16430",
+        "name": "Value=0",
+        "w": 433,
+        "h": 36,
+        "layout": "VERTICAL",
+        "gap": 12,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:514"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:531"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:531"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:531"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:531"
+          }
+        }
+      }
+    },
+    {
+      "id": "2206:19321",
+      "name": "_components/Progress/Progress Label",
+      "count": 2,
+      "props": {
+        "Label Text#2206:32": {
+          "type": "TEXT",
+          "defaultValue": "Progreso"
+        },
+        "%#2206:33": {
+          "type": "TEXT",
+          "defaultValue": "10%"
+        }
+      },
+      "default": {
+        "id": "2206:19321",
+        "name": "_components/Progress/Progress Label",
+        "w": 448,
+        "h": 20,
+        "layout": "HORIZONTAL",
+        "gap": 12,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:514"
+          }
+        }
+      }
+    }
+  ],
+  "errors": []
+}

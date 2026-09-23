@@ -1,0 +1,194 @@
+[
+  {
+    "case": "Texto secundario",
+    "brand": "grm-global",
+    "foreground": "muted/foreground",
+    "background": "background",
+    "ratio": 5.744191607785846,
+    "AA": true
+  },
+  {
+    "case": "Texto secundario",
+    "brand": "reina-madre",
+    "foreground": "muted/foreground",
+    "background": "background",
+    "ratio": 5.674022456597409,
+    "AA": true
+  },
+  {
+    "case": "Texto secundario",
+    "brand": "maria-linda",
+    "foreground": "muted/foreground",
+    "background": "background",
+    "ratio": 5.65760668114775,
+    "AA": true
+  },
+  {
+    "case": "Texto secundario",
+    "brand": "piel-sana",
+    "foreground": "muted/foreground",
+    "background": "background",
+    "ratio": 5.725712661628112,
+    "AA": true
+  },
+  {
+    "case": "Primary sobre card",
+    "brand": "grm-global",
+    "foreground": "primary",
+    "background": "card",
+    "ratio": 5.180057659030311,
+    "AA": true
+  },
+  {
+    "case": "Primary sobre card",
+    "brand": "reina-madre",
+    "foreground": "primary",
+    "background": "card",
+    "ratio": 2.544219534280564,
+    "AA": false
+  },
+  {
+    "case": "Primary sobre card",
+    "brand": "maria-linda",
+    "foreground": "primary",
+    "background": "card",
+    "ratio": 3.811467116382866,
+    "AA": false
+  },
+  {
+    "case": "Primary sobre card",
+    "brand": "piel-sana",
+    "foreground": "primary",
+    "background": "card",
+    "ratio": 2.2205468092663,
+    "AA": false
+  },
+  {
+    "case": "Texto destructivo",
+    "brand": "grm-global",
+    "foreground": "destructive",
+    "background": "card",
+    "ratio": 4.691583255570134,
+    "AA": true
+  },
+  {
+    "case": "Texto destructivo",
+    "brand": "reina-madre",
+    "foreground": "destructive",
+    "background": "card",
+    "ratio": 4.53663882007729,
+    "AA": true
+  },
+  {
+    "case": "Texto destructivo",
+    "brand": "maria-linda",
+    "foreground": "destructive",
+    "background": "card",
+    "ratio": 5.492862198736064,
+    "AA": true
+  },
+  {
+    "case": "Texto destructivo",
+    "brand": "piel-sana",
+    "foreground": "destructive",
+    "background": "card",
+    "ratio": 5.10496310272482,
+    "AA": true
+  },
+  {
+    "case": "Con lugares",
+    "brand": "grm-global",
+    "foreground": "success/light-foreground",
+    "background": "success/light",
+    "ratio": 6.6122560848595295,
+    "AA": true
+  },
+  {
+    "case": "Con lugares",
+    "brand": "reina-madre",
+    "foreground": "success/light-foreground",
+    "background": "success/light",
+    "ratio": 5.16742265183384,
+    "AA": true
+  },
+  {
+    "case": "Con lugares",
+    "brand": "maria-linda",
+    "foreground": "success/light-foreground",
+    "background": "success/light",
+    "ratio": 5.006957881294045,
+    "AA": true
+  },
+  {
+    "case": "Con lugares",
+    "brand": "piel-sana",
+    "foreground": "success/light-foreground",
+    "background": "success/light",
+    "ratio": 4.4313235441061645,
+    "AA": false
+  },
+  {
+    "case": "Quedan pocos",
+    "brand": "grm-global",
+    "foreground": "warning/light-foreground",
+    "background": "warning/light",
+    "ratio": 5.427818386814154,
+    "AA": true
+  },
+  {
+    "case": "Quedan pocos",
+    "brand": "reina-madre",
+    "foreground": "warning/light-foreground",
+    "background": "warning/light",
+    "ratio": 4.9215849725394465,
+    "AA": true
+  },
+  {
+    "case": "Quedan pocos",
+    "brand": "maria-linda",
+    "foreground": "warning/light-foreground",
+    "background": "warning/light",
+    "ratio": 6.57172561920341,
+    "AA": true
+  },
+  {
+    "case": "Quedan pocos",
+    "brand": "piel-sana",
+    "foreground": "warning/light-foreground",
+    "background": "warning/light",
+    "ratio": 6.368668797859058,
+    "AA": true
+  },
+  {
+    "case": "Sin lugares",
+    "brand": "grm-global",
+    "foreground": "muted/foreground",
+    "background": "muted",
+    "ratio": 5.467156498186622,
+    "AA": true
+  },
+  {
+    "case": "Sin lugares",
+    "brand": "reina-madre",
+    "foreground": "muted/foreground",
+    "background": "muted",
+    "ratio": 5.431365308033689,
+    "AA": true
+  },
+  {
+    "case": "Sin lugares",
+    "brand": "maria-linda",
+    "foreground": "muted/foreground",
+    "background": "muted",
+    "ratio": 5.408893320541674,
+    "AA": true
+  },
+  {
+    "case": "Sin lugares",
+    "brand": "piel-sana",
+    "foreground": "muted/foreground",
+    "background": "muted",
+    "ratio": 5.3996739492160835,
+    "AA": true
+  }
+]

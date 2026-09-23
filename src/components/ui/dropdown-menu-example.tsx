@@ -1,5 +1,7 @@
 "use client"
 
+import { useState } from "react"
+
 import { Building2, Download, Expand, Grid2X2, MoreHorizontal, User, Users } from "lucide-react"
 
 import { Button } from "./button"
@@ -19,9 +21,10 @@ export type DropdownMenuExampleProps = {
 }
 
 export function DropdownMenuExample({ align = "start", trigger = "button", defaultOpen = false, showLabel = true, showIcons = true, showSubmenu = true }: DropdownMenuExampleProps) {
+  const [open, setOpen] = useState(defaultOpen)
   return (
-    <DropdownMenu defaultOpen={defaultOpen}>
-      <DropdownMenuTrigger asChild>
+    <DropdownMenu open={open} onOpenChange={setOpen}>
+      <DropdownMenuTrigger asChild tabIndex={open ? -1 : 0}>
         {trigger === "icon" ? <Button size="icon" aria-label="Abrir ajustes"><MoreHorizontal /></Button> : <Button>Ajustes</Button>}
       </DropdownMenuTrigger>
       <DropdownMenuContent align={align}>

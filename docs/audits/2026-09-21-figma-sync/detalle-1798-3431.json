@@ -1,0 +1,477 @@
+{
+  "id": "1798:3431",
+  "name": "Card",
+  "total": 15,
+  "nodes": 149,
+  "refs": {
+    "VariableID:429:249": {
+      "count": 12,
+      "example": "1800:454"
+    },
+    "VariableID:50:513": {
+      "count": 29,
+      "example": "1800:454"
+    },
+    "VariableID:51:21": {
+      "count": 66,
+      "example": "1800:454"
+    },
+    "VariableID:50:514": {
+      "count": 112,
+      "example": "1800:1082"
+    },
+    "VariableID:186:174": {
+      "count": 68,
+      "example": "1800:1082"
+    },
+    "VariableID:50:534": {
+      "count": 136,
+      "example": "1800:1082"
+    },
+    "VariableID:44:185": {
+      "count": 24,
+      "example": "1800:1082"
+    },
+    "VariableID:51:172": {
+      "count": 24,
+      "example": "I1800:1082;313:2252"
+    },
+    "VariableID:50:612": {
+      "count": 34,
+      "example": "I1800:1082;313:2252"
+    },
+    "VariableID:132:811": {
+      "count": 54,
+      "example": "I1800:1082;313:2252"
+    },
+    "VariableID:50:639": {
+      "count": 44,
+      "example": "I1800:1082;313:2252"
+    },
+    "VariableID:44:184": {
+      "count": 64,
+      "example": "I1800:1087;313:2264"
+    },
+    "VariableID:51:19": {
+      "count": 18,
+      "example": "1800:30"
+    },
+    "VariableID:50:530": {
+      "count": 10,
+      "example": "1800:1394"
+    },
+    "VariableID:66:23": {
+      "count": 10,
+      "example": "I1800:1394;1800:1364"
+    },
+    "VariableID:71:2": {
+      "count": 20,
+      "example": "I1800:1394;1800:1363"
+    },
+    "VariableID:99:17": {
+      "count": 10,
+      "example": "I1800:1394;1800:1363"
+    },
+    "VariableID:50:641": {
+      "count": 10,
+      "example": "I1800:1394;1800:1363"
+    },
+    "VariableID:1194:649": {
+      "count": 18,
+      "example": "1800:1112"
+    },
+    "VariableID:50:528": {
+      "count": 17,
+      "example": "1800:1514"
+    },
+    "VariableID:50:512": {
+      "count": 17,
+      "example": "1800:1554"
+    },
+    "VariableID:50:515": {
+      "count": 4,
+      "example": "1800:1345"
+    },
+    "VariableID:50:511": {
+      "count": 17,
+      "example": "1800:1715"
+    }
+  },
+  "texts": {
+    "S:592db2195316334a05d7f58ef0fced7f0ff0cfb0,": {
+      "count": 34,
+      "example": "I1800:1082;313:2252"
+    },
+    "S:781eaf6f680951d4f89acd6c5285b40210dae108,": {
+      "count": 10,
+      "example": "I1800:1394;1800:1364"
+    },
+    "S:1d452614e679106aeb9f64166fd66fd5df9751c7,": {
+      "count": 10,
+      "example": "I1800:1394;1800:1363"
+    }
+  },
+  "styles": {
+    "S:b8adb059f130b7f80c3daff5ccaceb3c9104f4ef,": {
+      "count": 12,
+      "example": "1800:1082"
+    }
+  },
+  "sets": [
+    {
+      "id": "1800:455",
+      "name": "_components/Card/CardFooter",
+      "count": 3,
+      "props": {
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "column",
+          "variantOptions": [
+            "column",
+            "row",
+            "wrap"
+          ]
+        }
+      },
+      "default": {
+        "id": "1800:454",
+        "name": "Style=column",
+        "w": 384,
+        "h": 107,
+        "layout": "VERTICAL",
+        "gap": 10,
+        "padding": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 0.5,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.960583508014679,
+              "g": 0.9605937600135803,
+              "b": 0.9605211615562439
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8549019694328308,
+              "g": 0.8313725590705872,
+              "b": 0.843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:21"
+              }
+            }
+          }
+        ],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:249"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          },
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:21"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1800:1122",
+      "name": "Card",
+      "count": 8,
+      "props": {
+        "Card Body#1800:1": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "sm",
+          "variantOptions": [
+            "sm",
+            "default"
+          ]
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "body",
+          "variantOptions": [
+            "body",
+            "image"
+          ]
+        },
+        "Spacing": {
+          "type": "VARIANT",
+          "defaultValue": "12px",
+          "variantOptions": [
+            "32px",
+            "16px",
+            "12px",
+            "20px",
+            "24px"
+          ]
+        }
+      },
+      "default": {
+        "id": "1800:30",
+        "name": "Size=sm, Style=body, Spacing=12px",
+        "w": 320,
+        "h": 361,
+        "layout": "VERTICAL",
+        "gap": 12,
+        "padding": [
+          12,
+          0,
+          0,
+          0
+        ],
+        "radius": 14,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:19"
+              }
+            }
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8549019694328308,
+              "g": 0.8313725590705872,
+              "b": 0.843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:21"
+              }
+            }
+          }
+        ],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:514"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:514"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:19"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:21"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1800:1366",
+      "name": "_components/Card/CardHeader",
+      "count": 2,
+      "props": {
+        "Right Content#1800:5": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "313:2266",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "4ec56d5bceddd69a5410cdf1dcec7cb804d7ce75"
+            }
+          ]
+        },
+        "Action Button#1925:36": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        }
+      },
+      "default": {
+        "id": "1800:1366",
+        "name": "_components/Card/CardHeader",
+        "w": 246.6699981689453,
+        "h": 68,
+        "layout": "HORIZONTAL",
+        "gap": 4,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:530"
+          }
+        }
+      }
+    },
+    {
+      "id": "1800:1594",
+      "name": "Card/default/body/32px",
+      "count": 3,
+      "props": {
+        "Card Body#1800:0": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        }
+      },
+      "default": {
+        "id": "1800:1594",
+        "name": "Card/default/body/32px",
+        "w": 384,
+        "h": 361,
+        "layout": "VERTICAL",
+        "gap": 32,
+        "padding": [
+          32,
+          0,
+          0,
+          0
+        ],
+        "radius": 14,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:19"
+              }
+            }
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8549019694328308,
+              "g": 0.8313725590705872,
+              "b": 0.843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:21"
+              }
+            }
+          }
+        ],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:511"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:511"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:19"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:21"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,917 @@
+{
+  "id": "1:39",
+  "name": "Combobox",
+  "total": 33,
+  "nodes": 734,
+  "refs": {
+    "VariableID:429:250": {
+      "count": 112,
+      "example": "1313:2735"
+    },
+    "VariableID:51:19": {
+      "count": 68,
+      "example": "1313:2735"
+    },
+    "VariableID:51:21": {
+      "count": 52,
+      "example": "1313:2735"
+    },
+    "VariableID:50:530": {
+      "count": 269,
+      "example": "1313:12256"
+    },
+    "VariableID:186:174": {
+      "count": 243,
+      "example": "I1313:12256;1313:10845"
+    },
+    "VariableID:50:526": {
+      "count": 98,
+      "example": "I1313:12256;1313:10845;1313:4923"
+    },
+    "VariableID:44:184": {
+      "count": 206,
+      "example": "I1313:12256;1313:10845;1313:4927"
+    },
+    "VariableID:99:17": {
+      "count": 89,
+      "example": "I1313:12256;1313:10845;1313:4927"
+    },
+    "VariableID:132:811": {
+      "count": 101,
+      "example": "I1313:12256;1313:10845;1313:4927"
+    },
+    "VariableID:50:641": {
+      "count": 89,
+      "example": "I1313:12256;1313:10845;1313:4927"
+    },
+    "VariableID:397d57a3f5925e48648aeafd113505404e34626f/1088:535": {
+      "count": 18,
+      "example": "I1339:4252;1313:5301;1313:10844"
+    },
+    "VariableID:fea6c5f013e5e8d84bc0baada9918319141b4753/1088:643": {
+      "count": 18,
+      "example": "I1339:4252;1313:5301;1313:10844"
+    },
+    "VariableID:71:2": {
+      "count": 62,
+      "example": "I1339:4252;1313:5301;1313:10844;614:5021"
+    },
+    "VariableID:100:19": {
+      "count": 9,
+      "example": "I1339:4252;1313:5301;1313:10844;614:5021"
+    },
+    "VariableID:50:639": {
+      "count": 12,
+      "example": "I1339:4252;1313:5301;1313:10844;614:5021"
+    },
+    "VariableID:50:534": {
+      "count": 44,
+      "example": "I1339:4252;1313:5301;1313:10845"
+    },
+    "VariableID:629:40610": {
+      "count": 10,
+      "example": "I1339:4252;1313:5301;1313:10845"
+    },
+    "VariableID:429:249": {
+      "count": 12,
+      "example": "I1327:1039;412:13"
+    },
+    "VariableID:51:22": {
+      "count": 12,
+      "example": "I1327:1039;412:13"
+    },
+    "VariableID:294:496": {
+      "count": 18,
+      "example": "I1327:1064;412:13"
+    },
+    "VariableID:248:511": {
+      "count": 9,
+      "example": "I1327:1064;412:13;3781:32018"
+    },
+    "VariableID:50:514": {
+      "count": 13,
+      "example": "I1339:841;412:13;424:2343;1501:6517"
+    },
+    "VariableID:50:612": {
+      "count": 3,
+      "example": "I1341:905;313:2264"
+    },
+    "VariableID:44:187": {
+      "count": 2,
+      "example": "1313:4930"
+    },
+    "VariableID:71:3": {
+      "count": 4,
+      "example": "1313:4935"
+    }
+  },
+  "texts": {
+    "S:1d452614e679106aeb9f64166fd66fd5df9751c7,": {
+      "count": 89,
+      "example": "I1313:12256;1313:10845;1313:4927"
+    },
+    "S:3c3dd1b52b19dd0f2bbf02cf78cbd6622b31988f,": {
+      "count": 9,
+      "example": "I1339:4252;1313:5301;1313:10844;614:5021"
+    },
+    "S:592db2195316334a05d7f58ef0fced7f0ff0cfb0,": {
+      "count": 3,
+      "example": "I1341:905;313:2264"
+    }
+  },
+  "styles": {
+    "S:8239e3343213e30a89616ca2aaf562721d493256,": {
+      "count": 19,
+      "example": "1313:2735"
+    }
+  },
+  "sets": [
+    {
+      "id": "1313:2735",
+      "name": "_components/Combobox/Listbox/Simple",
+      "count": 1,
+      "props": {},
+      "default": {
+        "id": "1313:2735",
+        "name": "_components/Combobox/Listbox/Simple",
+        "w": 315,
+        "h": 148,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 10,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:19"
+              }
+            }
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8549019694328308,
+              "g": 0.8313725590705872,
+              "b": 0.843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:21"
+              }
+            }
+          }
+        ],
+        "effects": [
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 4,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.10000000149011612
+            },
+            "offset": {
+              "x": 0,
+              "y": 2
+            },
+            "spread": -2,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": false
+          },
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 6,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.10000000149011612
+            },
+            "offset": {
+              "x": 0,
+              "y": 4
+            },
+            "spread": -1,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": false
+          }
+        ],
+        "bound": {
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:19"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:21"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1339:4304",
+      "name": "_components/Combobox/Listbox/Groups",
+      "count": 5,
+      "props": {},
+      "default": {
+        "id": "1339:4304",
+        "name": "_components/Combobox/Listbox/Groups",
+        "w": 315,
+        "h": 252,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 10,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:19"
+              }
+            }
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8549019694328308,
+              "g": 0.8313725590705872,
+              "b": 0.843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:21"
+              }
+            }
+          }
+        ],
+        "effects": [
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 4,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.10000000149011612
+            },
+            "offset": {
+              "x": 0,
+              "y": 2
+            },
+            "spread": -2,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": false
+          },
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 6,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.10000000149011612
+            },
+            "offset": {
+              "x": 0,
+              "y": 4
+            },
+            "spread": -1,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": false
+          }
+        ],
+        "bound": {
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:19"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:21"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1313:2747",
+      "name": "Combobox/Simple",
+      "count": 4,
+      "props": {
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "opened",
+            "selected",
+            "opened+inputFilled"
+          ]
+        }
+      },
+      "default": {
+        "id": "1313:2734",
+        "name": "Status=default",
+        "w": 300,
+        "h": 36,
+        "layout": "NONE",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": false,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "1339:831",
+      "name": "Combobox/Clear Button",
+      "count": 4,
+      "props": {
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "opened",
+            "selected",
+            "opened+inputFilled"
+          ]
+        }
+      },
+      "default": {
+        "id": "1339:832",
+        "name": "Status=default",
+        "w": 300,
+        "h": 36,
+        "layout": "NONE",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": false,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "1339:3900",
+      "name": "Combobox/With Groups",
+      "count": 4,
+      "props": {
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "opened",
+            "selected",
+            "opened+inputFilled"
+          ]
+        }
+      },
+      "default": {
+        "id": "1339:3901",
+        "name": "Status=default",
+        "w": 300,
+        "h": 36,
+        "layout": "NONE",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": false,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "1341:903",
+      "name": "Combobox/Popup",
+      "count": 3,
+      "props": {
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "opened",
+            "selected"
+          ]
+        }
+      },
+      "default": {
+        "id": "1341:904",
+        "name": "Status=default",
+        "w": 240,
+        "h": 32,
+        "layout": "NONE",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": false,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "1313:10998",
+      "name": "_components/Combobox/Dropdown Options/Simple",
+      "count": 21,
+      "props": {
+        "Dropdown List Label#1313:3": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        }
+      },
+      "default": {
+        "id": "1313:10998",
+        "name": "_components/Combobox/Dropdown Options/Simple",
+        "w": 171,
+        "h": 596,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:530"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:530"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:530"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:530"
+          }
+        }
+      }
+    },
+    {
+      "id": "1313:10999",
+      "name": "_components/Combobox/Dropdown Options/With Groups",
+      "count": 1,
+      "props": {},
+      "default": {
+        "id": "1313:10999",
+        "name": "_components/Combobox/Dropdown Options/With Groups",
+        "w": 380,
+        "h": 120,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "1313:4921",
+      "name": "_components/Combobox/Dropdown Options/Item",
+      "count": 4,
+      "props": {
+        "Item Text#593:0": {
+          "type": "TEXT",
+          "defaultValue": "Item"
+        },
+        "Check#593:3": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Left Icon#629:6": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "click",
+            "active",
+            "default",
+            "hover"
+          ]
+        }
+      },
+      "default": {
+        "id": "1313:4922",
+        "name": "Status=default",
+        "w": 108,
+        "h": 28,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          4,
+          6,
+          4,
+          6
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:186:174"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:530"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:186:174"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:530"
+          }
+        }
+      }
+    },
+    {
+      "id": "1313:4954",
+      "name": "_components/Combobox/Dropdown Options/Label",
+      "count": 1,
+      "props": {
+        "Label Text#593:0": {
+          "type": "TEXT",
+          "defaultValue": "Section Text"
+        },
+        "Icon Left#593:3": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Propiedad 1": {
+          "type": "VARIANT",
+          "defaultValue": "item",
+          "variantOptions": [
+            "item"
+          ]
+        }
+      },
+      "default": {
+        "id": "1313:4955",
+        "name": "Propiedad 1=item",
+        "w": 108,
+        "h": 28,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          6,
+          8,
+          6,
+          8
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:397d57a3f5925e48648aeafd113505404e34626f/1088:535"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:fea6c5f013e5e8d84bc0baada9918319141b4753/1088:643"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:397d57a3f5925e48648aeafd113505404e34626f/1088:535"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:fea6c5f013e5e8d84bc0baada9918319141b4753/1088:643"
+          }
+        }
+      }
+    },
+    {
+      "id": "1341:4047",
+      "name": "_components/Combobox/Listbox/Popup",
+      "count": 2,
+      "props": {
+        "Propiedad 1": {
+          "type": "VARIANT",
+          "defaultValue": "Popup",
+          "variantOptions": [
+            "Popup",
+            "Variante 2"
+          ]
+        }
+      },
+      "default": {
+        "id": "1341:2162",
+        "name": "Propiedad 1=Popup",
+        "w": 315,
+        "h": 188,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 10,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:19"
+              }
+            }
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8549019694328308,
+              "g": 0.8313725590705872,
+              "b": 0.843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:21"
+              }
+            }
+          }
+        ],
+        "effects": [
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 4,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.10000000149011612
+            },
+            "offset": {
+              "x": 0,
+              "y": 2
+            },
+            "spread": -2,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": false
+          },
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 6,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.10000000149011612
+            },
+            "offset": {
+              "x": 0,
+              "y": 4
+            },
+            "spread": -1,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": false
+          }
+        ],
+        "bound": {
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:19"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:21"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "errors": []
+}

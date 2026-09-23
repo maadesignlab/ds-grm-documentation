@@ -1,0 +1,326 @@
+{
+  "id": "1675:339",
+  "name": "Context Menu",
+  "total": 20,
+  "sets": [
+    {
+      "id": "1677:397",
+      "name": "Context Menu",
+      "type": "COMPONENT_SET",
+      "count": 6,
+      "props": {
+        "Placement": {
+          "type": "VARIANT",
+          "defaultValue": "Right Bottom",
+          "variantOptions": [
+            "Right Bottom",
+            "Left Bottom",
+            "Right Top"
+          ]
+        },
+        "Opened": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1703:22653",
+      "name": "_components/ContextMenu/Dropdown Base",
+      "type": "COMPONENT",
+      "count": 9,
+      "props": {}
+    },
+    {
+      "id": "1703:22211",
+      "name": "_components/ContextMenu/MenuItem",
+      "type": "COMPONENT_SET",
+      "count": 5,
+      "props": {
+        "Menu Item Text#1636:0": {
+          "type": "TEXT",
+          "defaultValue": "Citas médicas"
+        },
+        "Right Icon#1696:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Left Icon#1696:4": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Active",
+            "Destructive",
+            "Destructive Hover",
+            "Hover"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1703:22227",
+      "name": "_components/ContextMenu/MenuItem/Submenu",
+      "type": "COMPONENT_SET",
+      "count": 2,
+      "props": {
+        "Menu Item Text#1636:0": {
+          "type": "TEXT",
+          "defaultValue": "Sucursales"
+        },
+        "Left Icon#1696:8": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Hover"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1703:22654",
+      "name": "_components/ContextMenuOptions/MenuGroup",
+      "type": "COMPONENT",
+      "count": 11,
+      "props": {
+        "Dropdown Item#1703:13": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "7ed37065fd3a91a159179b0e75013eb16300ae1d"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "b1589150cc12ea59de78f60264f25bc11b16bc44"
+            }
+          ]
+        },
+        "Dropdown Item2#1703:14": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Dropdown Item3#1703:15": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Dropdown Item4#1703:16": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Dropdown Item5#1703:17": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Dropdown Item6#1703:18": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Dropdown Item7#1703:19": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Dropdown Item8#1703:20": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Dropdown Item9#1703:21": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Dropdown Item10#1703:22": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        }
+      }
+    },
+    {
+      "id": "1703:22291",
+      "name": "_components/ContextMenu/Options/Label",
+      "type": "COMPONENT_SET",
+      "count": 1,
+      "props": {
+        "Label Text#593:0": {
+          "type": "TEXT",
+          "defaultValue": "Section Text"
+        },
+        "Icon Left#593:3": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Item",
+          "variantOptions": [
+            "Item"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "1677:398",
+      "1677:397",
+      "Placement=Right Bottom, Opened=False"
+    ],
+    [
+      "1677:896",
+      "1677:397",
+      "Placement=Left Bottom, Opened=False"
+    ],
+    [
+      "1677:1200",
+      "1677:397",
+      "Placement=Right Top, Opened=False"
+    ],
+    [
+      "1677:400",
+      "1677:397",
+      "Placement=Right Bottom, Opened=True"
+    ],
+    [
+      "1677:897",
+      "1677:397",
+      "Placement=Left Bottom, Opened=True"
+    ],
+    [
+      "1677:1198",
+      "1677:397",
+      "Placement=Right Top, Opened=True"
+    ],
+    [
+      "1703:22212",
+      "1703:22211",
+      "State=Default"
+    ],
+    [
+      "1703:22721",
+      "1703:22211",
+      "State=Destructive"
+    ],
+    [
+      "1703:22217",
+      "1703:22211",
+      "State=Hover"
+    ],
+    [
+      "1703:22726",
+      "1703:22211",
+      "State=Destructive Hover"
+    ],
+    [
+      "1703:22222",
+      "1703:22211",
+      "State=Active"
+    ],
+    [
+      "1703:22228",
+      "1703:22227",
+      "State=Default"
+    ],
+    [
+      "1703:22233",
+      "1703:22227",
+      "State=Hover"
+    ],
+    [
+      "1703:22292",
+      "1703:22291",
+      "Type=Item"
+    ]
+  ]
+}

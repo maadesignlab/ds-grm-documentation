@@ -1,0 +1,67 @@
+# Select
+
+ID: components-select
+
+## Stories
+
+### Playground
+
+Story ID: components-select--playground
+
+```
+import { SelectExample } from "@reina-madre/design-system";
+
+const Playground = () => <SelectExample />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as SelectStories from "./select.stories"
+import primitiveSource from "./select.tsx?raw"
+import exampleSource from "./select-example.tsx?raw"
+import { SelectComposition, SelectConfiguration, SelectSpecifications, SelectStates } from "./select-docs"
+
+<Meta of={SelectStories} />
+<Title of={SelectStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva la composición y API pública oficial de Select basada en Radix UI.
+  - Incluye Simple, Groups y Scrollable mediante subcomponentes públicos.
+  - Admite iconos mediante composición como hijos de `SelectItem`; no añade props a la primitiva.
+  - Mantiene tamaños, posicionamiento, foco, teclado, selección, disabled e invalid de shadcn/ui.
+  - No añade variantes visuales ni propiedades privadas desde Figma.
+  - Playground y Docs consumen la misma matriz canónica `selectExamplePresets`; Docs no redefine configuraciones del componente.
+</details>
+
+## Composición
+
+<div className="mb-12"><SelectComposition /></div>
+
+## Estados
+
+<div className="mb-12"><SelectStates /></div>
+
+## Tamaño y posicionamiento
+
+<div className="mb-12"><SelectConfiguration /></div>
+
+## Especificaciones
+
+<div className="mb-12"><SelectSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={primitiveSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

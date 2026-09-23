@@ -1,0 +1,1095 @@
+{
+  "changes": [
+    {
+      "id": "VariableID:168:368",
+      "name": "background-hover",
+      "mode": "1154:0",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:801"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1154:4048"
+      },
+      "target": "GRM Global/neutral/100",
+      "reason": "Eliminar dependencia de la paleta neutral de Piel Sana."
+    },
+    {
+      "id": "VariableID:168:369",
+      "name": "background-active",
+      "mode": "1154:0",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:801"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1154:4048"
+      },
+      "target": "GRM Global/neutral/100",
+      "reason": "Eliminar dependencia de la paleta neutral de Piel Sana."
+    },
+    {
+      "id": "VariableID:51:26",
+      "name": "secondary/foreground",
+      "mode": "1154:0",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1154:4034"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1154:4057"
+      },
+      "target": "GRM Global/neutral/950",
+      "reason": "AA en texto normal para normal, hover y active, sin cambiar el color oficial."
+    },
+    {
+      "id": "VariableID:71:12",
+      "name": "sidebar/primary/foreground",
+      "mode": "1154:0",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:300"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:51:172"
+      },
+      "target": "primary/foreground",
+      "reason": "Compartir el rol accesible existente de texto sobre primary."
+    },
+    {
+      "id": "VariableID:203:202",
+      "name": "success/foreground",
+      "mode": "1154:0",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:300"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1154:4057"
+      },
+      "target": "GRM Global/neutral/950",
+      "reason": "AA en texto de Badge solid; conservar el tono principal de estado."
+    },
+    {
+      "id": "VariableID:203:209",
+      "name": "error/foreground",
+      "mode": "1154:0",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:300"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1154:4057"
+      },
+      "target": "GRM Global/neutral/950",
+      "reason": "AA en texto de Badge solid; conservar el tono principal de estado."
+    },
+    {
+      "id": "VariableID:203:211",
+      "name": "info/foreground",
+      "mode": "1154:0",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:300"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1154:4057"
+      },
+      "target": "GRM Global/neutral/950",
+      "reason": "AA en texto de Badge solid; conservar el tono principal de estado."
+    },
+    {
+      "id": "VariableID:164:365",
+      "name": "primary-active",
+      "mode": "44:8",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:164:364"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:44:42"
+      },
+      "target": "Reina Madre/primary/600",
+      "reason": "Mantener contraste de texto oscuro en pressed sin alterar primary/500."
+    },
+    {
+      "id": "VariableID:168:368",
+      "name": "background-hover",
+      "mode": "44:8",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:164:174"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:51:165"
+      },
+      "target": "Reina Madre/neutral/100",
+      "reason": "Conservar legibilidad del foreground en estados interactivos."
+    },
+    {
+      "id": "VariableID:168:369",
+      "name": "background-active",
+      "mode": "44:8",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:168:370"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:51:164"
+      },
+      "target": "Reina Madre/neutral/200",
+      "reason": "Conservar legibilidad del foreground en estados interactivos."
+    },
+    {
+      "id": "VariableID:51:172",
+      "name": "primary/foreground",
+      "mode": "44:8",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:300"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:51:171"
+      },
+      "target": "Reina Madre/neutral/950",
+      "reason": "AA en texto normal para normal, hover y active, sin cambiar el color oficial."
+    },
+    {
+      "id": "VariableID:164:185",
+      "name": "secondary-hover",
+      "mode": "44:8",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:164:172"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:44:71"
+      },
+      "target": "Reina Madre/secondary/200",
+      "reason": "Estado claro para sostener el mismo texto accesible del botón secondary."
+    },
+    {
+      "id": "VariableID:168:367",
+      "name": "secondary-active",
+      "mode": "44:8",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:168:366"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:44:72"
+      },
+      "target": "Reina Madre/secondary/300",
+      "reason": "Estado claro para sostener el mismo texto accesible del botón secondary."
+    },
+    {
+      "id": "VariableID:51:26",
+      "name": "secondary/foreground",
+      "mode": "44:8",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:44:74"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:51:171"
+      },
+      "target": "Reina Madre/neutral/950",
+      "reason": "AA en texto normal para normal, hover y active, sin cambiar el color oficial."
+    },
+    {
+      "id": "VariableID:71:12",
+      "name": "sidebar/primary/foreground",
+      "mode": "44:8",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:300"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:51:172"
+      },
+      "target": "primary/foreground",
+      "reason": "Compartir el rol accesible existente de texto sobre primary."
+    },
+    {
+      "id": "VariableID:203:209",
+      "name": "error/foreground",
+      "mode": "44:8",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:300"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:51:171"
+      },
+      "target": "Reina Madre/neutral/950",
+      "reason": "AA en texto de Badge solid; conservar el tono principal de estado."
+    },
+    {
+      "id": "VariableID:203:211",
+      "name": "info/foreground",
+      "mode": "44:8",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:300"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:51:171"
+      },
+      "target": "Reina Madre/neutral/950",
+      "reason": "AA en texto de Badge solid; conservar el tono principal de estado."
+    },
+    {
+      "id": "VariableID:51:172",
+      "name": "primary/foreground",
+      "mode": "132:1",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:300"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:857"
+      },
+      "target": "Maria Linda/neutral/950",
+      "reason": "AA en texto normal para normal, hover y active, sin cambiar el color oficial."
+    },
+    {
+      "id": "VariableID:51:26",
+      "name": "secondary/foreground",
+      "mode": "132:1",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:833"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:857"
+      },
+      "target": "Maria Linda/neutral/950",
+      "reason": "AA en texto normal para normal, hover y active, sin cambiar el color oficial."
+    },
+    {
+      "id": "VariableID:71:12",
+      "name": "sidebar/primary/foreground",
+      "mode": "132:1",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:300"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:51:172"
+      },
+      "target": "primary/foreground",
+      "reason": "Compartir el rol accesible existente de texto sobre primary."
+    },
+    {
+      "id": "VariableID:203:202",
+      "name": "success/foreground",
+      "mode": "132:1",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:300"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:857"
+      },
+      "target": "Maria Linda/neutral/950",
+      "reason": "AA en texto de Badge solid; conservar el tono principal de estado."
+    },
+    {
+      "id": "VariableID:203:208",
+      "name": "warning/foreground",
+      "mode": "132:1",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:300"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:857"
+      },
+      "target": "Maria Linda/neutral/950",
+      "reason": "AA en texto de Badge solid; conservar el tono principal de estado."
+    },
+    {
+      "id": "VariableID:203:209",
+      "name": "error/foreground",
+      "mode": "132:1",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:300"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:289"
+      },
+      "target": "color/neutral/950",
+      "reason": "AA en texto de Badge solid; conservar el tono principal de estado."
+    },
+    {
+      "id": "VariableID:203:211",
+      "name": "info/foreground",
+      "mode": "132:1",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:300"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:289"
+      },
+      "target": "color/neutral/950",
+      "reason": "AA en texto de Badge solid; conservar el tono principal de estado."
+    },
+    {
+      "id": "VariableID:51:172",
+      "name": "primary/foreground",
+      "mode": "132:2",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:300"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:810"
+      },
+      "target": "Piel Sana/neutral/950",
+      "reason": "AA en texto normal para normal, hover y active, sin cambiar el color oficial."
+    },
+    {
+      "id": "VariableID:51:26",
+      "name": "secondary/foreground",
+      "mode": "132:2",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:785"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:810"
+      },
+      "target": "Piel Sana/neutral/950",
+      "reason": "AA en texto normal para normal, hover y active, sin cambiar el color oficial."
+    },
+    {
+      "id": "VariableID:71:12",
+      "name": "sidebar/primary/foreground",
+      "mode": "132:2",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:300"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:51:172"
+      },
+      "target": "primary/foreground",
+      "reason": "Compartir el rol accesible existente de texto sobre primary."
+    },
+    {
+      "id": "VariableID:203:202",
+      "name": "success/foreground",
+      "mode": "132:2",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:300"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:810"
+      },
+      "target": "Piel Sana/neutral/950",
+      "reason": "AA en texto de Badge solid; conservar el tono principal de estado."
+    },
+    {
+      "id": "VariableID:203:208",
+      "name": "warning/foreground",
+      "mode": "132:2",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:300"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:810"
+      },
+      "target": "Piel Sana/neutral/950",
+      "reason": "AA en texto de Badge solid; conservar el tono principal de estado."
+    },
+    {
+      "id": "VariableID:203:209",
+      "name": "error/foreground",
+      "mode": "132:2",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:300"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:810"
+      },
+      "target": "Piel Sana/neutral/950",
+      "reason": "AA en texto de Badge solid; conservar el tono principal de estado."
+    },
+    {
+      "id": "VariableID:203:211",
+      "name": "info/foreground",
+      "mode": "132:2",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:300"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:289"
+      },
+      "target": "color/neutral/950",
+      "reason": "AA en texto de Badge solid; conservar el tono principal de estado."
+    },
+    {
+      "id": "VariableID:208:7",
+      "name": "success/light-foreground",
+      "mode": "132:2",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3495:9"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3495:10"
+      },
+      "target": "Piel Sana/status/success/800",
+      "reason": "Corregir 4.43:1 en el estado claro con un tono existente."
+    },
+    {
+      "id": "VariableID:71:15",
+      "name": "sidebar/ring",
+      "mode": "132:2",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:819"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:774"
+      },
+      "target": "Piel Sana/primary/700",
+      "reason": "Eliminar alias a María Linda y usar un tono de Piel Sana con contraste no textual."
+    },
+    {
+      "id": "VariableID:5082:64990",
+      "name": "button/brand-gradient-1",
+      "mode": "1154:0",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:164:185"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1154:4034"
+      },
+      "target": "GRM Global/secondary/900",
+      "reason": "Gradiente de marca con texto blanco AA, sin crear colores ni variables."
+    },
+    {
+      "id": "VariableID:5082:64991",
+      "name": "button/brand-gradient-2",
+      "mode": "1154:0",
+      "before": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:44:185"
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1154:4019"
+      },
+      "target": "GRM Global/primary/600",
+      "reason": "Gradiente de marca con texto blanco AA, sin crear colores ni variables."
+    },
+    {
+      "id": "VariableID:5082:64990",
+      "name": "button/brand-gradient-1",
+      "mode": "44:8",
+      "before": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:44:44"
+      },
+      "target": "Reina Madre/primary/800",
+      "reason": "Gradiente de marca con texto blanco AA, sin crear colores ni variables."
+    },
+    {
+      "id": "VariableID:5082:64991",
+      "name": "button/brand-gradient-2",
+      "mode": "44:8",
+      "before": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:44:76"
+      },
+      "target": "Reina Madre/secondary/700",
+      "reason": "Gradiente de marca con texto blanco AA, sin crear colores ni variables."
+    },
+    {
+      "id": "VariableID:5082:64990",
+      "name": "button/brand-gradient-1",
+      "mode": "132:1",
+      "before": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:834"
+      },
+      "target": "Maria Linda/secondary/900",
+      "reason": "Gradiente de marca con texto blanco AA, sin crear colores ni variables."
+    },
+    {
+      "id": "VariableID:5082:64991",
+      "name": "button/brand-gradient-2",
+      "mode": "132:1",
+      "before": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:822"
+      },
+      "target": "Maria Linda/primary/800",
+      "reason": "Gradiente de marca con texto blanco AA, sin crear colores ni variables."
+    },
+    {
+      "id": "VariableID:5082:64990",
+      "name": "button/brand-gradient-1",
+      "mode": "132:2",
+      "before": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:775"
+      },
+      "target": "Piel Sana/primary/800",
+      "reason": "Gradiente de marca con texto blanco AA, sin crear colores ni variables."
+    },
+    {
+      "id": "VariableID:5082:64991",
+      "name": "button/brand-gradient-2",
+      "mode": "132:2",
+      "before": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "after": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:786"
+      },
+      "target": "Piel Sana/secondary/800",
+      "reason": "Gradiente de marca con texto blanco AA, sin crear colores ni variables."
+    }
+  ],
+  "checks": [
+    {
+      "brand": "GRM Global",
+      "foreground": "primary/foreground",
+      "background": "primary",
+      "ratio": 5.180057659030311
+    },
+    {
+      "brand": "GRM Global",
+      "foreground": "secondary/foreground",
+      "background": "secondary",
+      "ratio": 15.975450987543132
+    },
+    {
+      "brand": "GRM Global",
+      "foreground": "success/foreground",
+      "background": "success",
+      "ratio": 5.289594619254855
+    },
+    {
+      "brand": "GRM Global",
+      "foreground": "warning/foreground",
+      "background": "warning",
+      "ratio": 8.960556281573616
+    },
+    {
+      "brand": "GRM Global",
+      "foreground": "error/foreground",
+      "background": "error",
+      "ratio": 5.830827447129867
+    },
+    {
+      "brand": "GRM Global",
+      "foreground": "destructive/foreground",
+      "background": "destructive",
+      "ratio": 4.691583255570134
+    },
+    {
+      "brand": "GRM Global",
+      "foreground": "info/foreground",
+      "background": "info",
+      "ratio": 4.538099620356203
+    },
+    {
+      "brand": "GRM Global",
+      "foreground": "success/light-foreground",
+      "background": "success/light",
+      "ratio": 6.6122560848595295
+    },
+    {
+      "brand": "GRM Global",
+      "foreground": "warning/light-foreground",
+      "background": "warning/light",
+      "ratio": 5.427818386814154
+    },
+    {
+      "brand": "GRM Global",
+      "foreground": "error/light-foreground",
+      "background": "error/light",
+      "ratio": 5.8783181454498
+    },
+    {
+      "brand": "GRM Global",
+      "foreground": "destructive/light-foreground",
+      "background": "destructive/light",
+      "ratio": 5.969388404095332
+    },
+    {
+      "brand": "GRM Global",
+      "foreground": "info/light-foreground",
+      "background": "info/light",
+      "ratio": 5.036960803717331
+    },
+    {
+      "brand": "GRM Global",
+      "foreground": "foreground",
+      "background": "background-hover",
+      "ratio": 13.10606844946108
+    },
+    {
+      "brand": "GRM Global",
+      "foreground": "foreground",
+      "background": "background-active",
+      "ratio": 13.10606844946108
+    },
+    {
+      "brand": "GRM Global",
+      "foreground": "primary/foreground",
+      "background": "primary-hover",
+      "ratio": 7.077564408140127
+    },
+    {
+      "brand": "GRM Global",
+      "foreground": "primary/foreground",
+      "background": "primary-active",
+      "ratio": 9.504931397839208
+    },
+    {
+      "brand": "GRM Global",
+      "foreground": "secondary/foreground",
+      "background": "secondary-hover",
+      "ratio": 9.645179268158044
+    },
+    {
+      "brand": "GRM Global",
+      "foreground": "secondary/foreground",
+      "background": "secondary-active",
+      "ratio": 6.925896105764132
+    },
+    {
+      "brand": "GRM Global",
+      "foreground": "primary/default-foreground",
+      "background": "card",
+      "ratio": 5.180057659030311
+    },
+    {
+      "brand": "Reina Madre",
+      "foreground": "primary/foreground",
+      "background": "primary",
+      "ratio": 6.958008299281871
+    },
+    {
+      "brand": "Reina Madre",
+      "foreground": "secondary/foreground",
+      "background": "secondary",
+      "ratio": 14.858365401121851
+    },
+    {
+      "brand": "Reina Madre",
+      "foreground": "success/foreground",
+      "background": "success",
+      "ratio": 8.755176795195725
+    },
+    {
+      "brand": "Reina Madre",
+      "foreground": "warning/foreground",
+      "background": "warning",
+      "ratio": 9.086386470008678
+    },
+    {
+      "brand": "Reina Madre",
+      "foreground": "error/foreground",
+      "background": "error",
+      "ratio": 4.704252032978419
+    },
+    {
+      "brand": "Reina Madre",
+      "foreground": "destructive/foreground",
+      "background": "destructive",
+      "ratio": 4.53663882007729
+    },
+    {
+      "brand": "Reina Madre",
+      "foreground": "info/foreground",
+      "background": "info",
+      "ratio": 6.387610398872372
+    },
+    {
+      "brand": "Reina Madre",
+      "foreground": "success/light-foreground",
+      "background": "success/light",
+      "ratio": 5.16742265183384
+    },
+    {
+      "brand": "Reina Madre",
+      "foreground": "warning/light-foreground",
+      "background": "warning/light",
+      "ratio": 4.9215849725394465
+    },
+    {
+      "brand": "Reina Madre",
+      "foreground": "error/light-foreground",
+      "background": "error/light",
+      "ratio": 5.914600265308627
+    },
+    {
+      "brand": "Reina Madre",
+      "foreground": "destructive/light-foreground",
+      "background": "destructive/light",
+      "ratio": 8.20030276104596
+    },
+    {
+      "brand": "Reina Madre",
+      "foreground": "info/light-foreground",
+      "background": "info/light",
+      "ratio": 5.566127524195081
+    },
+    {
+      "brand": "Reina Madre",
+      "foreground": "foreground",
+      "background": "background-hover",
+      "ratio": 13.225732553924747
+    },
+    {
+      "brand": "Reina Madre",
+      "foreground": "foreground",
+      "background": "background-active",
+      "ratio": 11.820988021350349
+    },
+    {
+      "brand": "Reina Madre",
+      "foreground": "primary/foreground",
+      "background": "primary-hover",
+      "ratio": 5.074995559384604
+    },
+    {
+      "brand": "Reina Madre",
+      "foreground": "primary/foreground",
+      "background": "primary-active",
+      "ratio": 5.074995559384604
+    },
+    {
+      "brand": "Reina Madre",
+      "foreground": "secondary/foreground",
+      "background": "secondary-hover",
+      "ratio": 12.325272674034489
+    },
+    {
+      "brand": "Reina Madre",
+      "foreground": "secondary/foreground",
+      "background": "secondary-active",
+      "ratio": 9.264675340451346
+    },
+    {
+      "brand": "Reina Madre",
+      "foreground": "primary/default-foreground",
+      "background": "card",
+      "ratio": 7.0411900426857015
+    },
+    {
+      "brand": "Maria Linda",
+      "foreground": "primary/foreground",
+      "background": "primary",
+      "ratio": 4.655305647964275
+    },
+    {
+      "brand": "Maria Linda",
+      "foreground": "secondary/foreground",
+      "background": "secondary",
+      "ratio": 16.61877431791117
+    },
+    {
+      "brand": "Maria Linda",
+      "foreground": "success/foreground",
+      "background": "success",
+      "ratio": 6.143154967255299
+    },
+    {
+      "brand": "Maria Linda",
+      "foreground": "warning/foreground",
+      "background": "warning",
+      "ratio": 7.899628741335181
+    },
+    {
+      "brand": "Maria Linda",
+      "foreground": "error/foreground",
+      "background": "error",
+      "ratio": 4.820526245064021
+    },
+    {
+      "brand": "Maria Linda",
+      "foreground": "destructive/foreground",
+      "background": "destructive",
+      "ratio": 5.492862198736064
+    },
+    {
+      "brand": "Maria Linda",
+      "foreground": "info/foreground",
+      "background": "info",
+      "ratio": 4.731031830660614
+    },
+    {
+      "brand": "Maria Linda",
+      "foreground": "success/light-foreground",
+      "background": "success/light",
+      "ratio": 5.006957881294045
+    },
+    {
+      "brand": "Maria Linda",
+      "foreground": "warning/light-foreground",
+      "background": "warning/light",
+      "ratio": 6.57172561920341
+    },
+    {
+      "brand": "Maria Linda",
+      "foreground": "error/light-foreground",
+      "background": "error/light",
+      "ratio": 6.581016986054422
+    },
+    {
+      "brand": "Maria Linda",
+      "foreground": "destructive/light-foreground",
+      "background": "destructive/light",
+      "ratio": 7.805190105647677
+    },
+    {
+      "brand": "Maria Linda",
+      "foreground": "info/light-foreground",
+      "background": "info/light",
+      "ratio": 6.518435900593786
+    },
+    {
+      "brand": "Maria Linda",
+      "foreground": "foreground",
+      "background": "background-hover",
+      "ratio": 13.210587726484713
+    },
+    {
+      "brand": "Maria Linda",
+      "foreground": "foreground",
+      "background": "background-active",
+      "ratio": 13.210587726484713
+    },
+    {
+      "brand": "Maria Linda",
+      "foreground": "primary/foreground",
+      "background": "primary-hover",
+      "ratio": 7.065909374748656
+    },
+    {
+      "brand": "Maria Linda",
+      "foreground": "primary/foreground",
+      "background": "primary-active",
+      "ratio": 7.065909374748656
+    },
+    {
+      "brand": "Maria Linda",
+      "foreground": "secondary/foreground",
+      "background": "secondary-hover",
+      "ratio": 9.976646174005019
+    },
+    {
+      "brand": "Maria Linda",
+      "foreground": "secondary/foreground",
+      "background": "secondary-active",
+      "ratio": 9.976646174005019
+    },
+    {
+      "brand": "Maria Linda",
+      "foreground": "primary/default-foreground",
+      "background": "card",
+      "ratio": 6.175694839781411
+    },
+    {
+      "brand": "Piel Sana",
+      "foreground": "primary/foreground",
+      "background": "primary",
+      "ratio": 7.9903179388090075
+    },
+    {
+      "brand": "Piel Sana",
+      "foreground": "secondary/foreground",
+      "background": "secondary",
+      "ratio": 16.052629746523987
+    },
+    {
+      "brand": "Piel Sana",
+      "foreground": "success/foreground",
+      "background": "success",
+      "ratio": 7.33340020152642
+    },
+    {
+      "brand": "Piel Sana",
+      "foreground": "warning/foreground",
+      "background": "warning",
+      "ratio": 8.389933297260562
+    },
+    {
+      "brand": "Piel Sana",
+      "foreground": "error/foreground",
+      "background": "error",
+      "ratio": 4.895704714556915
+    },
+    {
+      "brand": "Piel Sana",
+      "foreground": "destructive/foreground",
+      "background": "destructive",
+      "ratio": 5.10496310272482
+    },
+    {
+      "brand": "Piel Sana",
+      "foreground": "info/foreground",
+      "background": "info",
+      "ratio": 4.758949558912153
+    },
+    {
+      "brand": "Piel Sana",
+      "foreground": "success/light-foreground",
+      "background": "success/light",
+      "ratio": 6.7455559846415944
+    },
+    {
+      "brand": "Piel Sana",
+      "foreground": "warning/light-foreground",
+      "background": "warning/light",
+      "ratio": 6.368668797859058
+    },
+    {
+      "brand": "Piel Sana",
+      "foreground": "error/light-foreground",
+      "background": "error/light",
+      "ratio": 6.033327223240729
+    },
+    {
+      "brand": "Piel Sana",
+      "foreground": "destructive/light-foreground",
+      "background": "destructive/light",
+      "ratio": 7.467304851380873
+    },
+    {
+      "brand": "Piel Sana",
+      "foreground": "info/light-foreground",
+      "background": "info/light",
+      "ratio": 6.4678499976848105
+    },
+    {
+      "brand": "Piel Sana",
+      "foreground": "foreground",
+      "background": "background-hover",
+      "ratio": 13.151184926858235
+    },
+    {
+      "brand": "Piel Sana",
+      "foreground": "foreground",
+      "background": "background-active",
+      "ratio": 13.151184926858235
+    },
+    {
+      "brand": "Piel Sana",
+      "foreground": "primary/foreground",
+      "background": "primary-hover",
+      "ratio": 5.990872121122738
+    },
+    {
+      "brand": "Piel Sana",
+      "foreground": "primary/foreground",
+      "background": "primary-active",
+      "ratio": 5.990872121122738
+    },
+    {
+      "brand": "Piel Sana",
+      "foreground": "secondary/foreground",
+      "background": "secondary-hover",
+      "ratio": 16.052629746523987
+    },
+    {
+      "brand": "Piel Sana",
+      "foreground": "secondary/foreground",
+      "background": "secondary-active",
+      "ratio": 16.052629746523987
+    },
+    {
+      "brand": "Piel Sana",
+      "foreground": "primary/default-foreground",
+      "background": "card",
+      "ratio": 6.613357360123927
+    }
+  ],
+  "restrictions": [
+    "No modificar primitivos",
+    "No crear variables ni estilos",
+    "Texto de brand-gradient vinculado a blanco existente",
+    "Eliminar overlay blanco del gradiente; usar sombra oscura en hover/active"
+  ]
+}

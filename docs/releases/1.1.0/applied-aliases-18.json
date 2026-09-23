@@ -1,0 +1,96 @@
+{
+  "mutatedVariableIds": [
+    "VariableID:51:26",
+    "VariableID:71:12",
+    "VariableID:203:202",
+    "VariableID:203:208",
+    "VariableID:203:209",
+    "VariableID:203:211",
+    "VariableID:51:172",
+    "VariableID:51:26",
+    "VariableID:71:12"
+  ],
+  "changes": [
+    {
+      "id": "VariableID:51:26",
+      "name": "secondary/foreground",
+      "mode": "132:1",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:857"
+      }
+    },
+    {
+      "id": "VariableID:71:12",
+      "name": "sidebar/primary/foreground",
+      "mode": "132:1",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:51:172"
+      }
+    },
+    {
+      "id": "VariableID:203:202",
+      "name": "success/foreground",
+      "mode": "132:1",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:857"
+      }
+    },
+    {
+      "id": "VariableID:203:208",
+      "name": "warning/foreground",
+      "mode": "132:1",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:857"
+      }
+    },
+    {
+      "id": "VariableID:203:209",
+      "name": "error/foreground",
+      "mode": "132:1",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:289"
+      }
+    },
+    {
+      "id": "VariableID:203:211",
+      "name": "info/foreground",
+      "mode": "132:1",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:289"
+      }
+    },
+    {
+      "id": "VariableID:51:172",
+      "name": "primary/foreground",
+      "mode": "132:2",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:810"
+      }
+    },
+    {
+      "id": "VariableID:51:26",
+      "name": "secondary/foreground",
+      "mode": "132:2",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:810"
+      }
+    },
+    {
+      "id": "VariableID:71:12",
+      "name": "sidebar/primary/foreground",
+      "mode": "132:2",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:51:172"
+      }
+    }
+  ]
+}

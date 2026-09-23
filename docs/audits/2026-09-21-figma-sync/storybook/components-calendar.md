@@ -1,0 +1,75 @@
+# Calendar
+
+ID: components-calendar
+
+## Stories
+
+### Playground
+
+Story ID: components-calendar--playground
+
+```
+import { CalendarExample } from "@reina-madre/design-system";
+
+const Playground = () => <CalendarExample
+    key={JSON.stringify(args)}
+    mode="single"
+    composition="calendar"
+    captionLayout="label"
+    numberOfMonths={1}
+    showOutsideDays
+    showWeekNumber={false}
+    fixedWeeks={false}
+    bookedDates={false} />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as CalendarStories from "./calendar.stories"
+import calendarSource from "./calendar.tsx?raw"
+import exampleSource from "./calendar-example.tsx?raw"
+import { CalendarCompositions, CalendarHeaders, CalendarModes, CalendarSpecifications } from "./calendar-docs"
+
+<Meta of={CalendarStories} />
+<Title of={CalendarStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Mantiene la API de `react-day-picker` y el primitive vigente de shadcn/ui `radix-nova`.
+  - Traduce single, range, encabezados, hora y presets mediante propiedades y composición oficial; el rango de dos meses replica la ventana de 30 días del ejemplo oficial.
+  - Añade disponibilidad desde Figma mediante `modifiers`, `modifiersClassNames` y una leyenda externa, sin alterar el primitive.
+  - Presenta siempre dos meses cuando `mode="range"`.
+  - Docs y Playground renderizan exclusivamente `CalendarExample`.
+</details>
+
+## Selección
+
+<div className="mb-12"><CalendarModes /></div>
+
+## Encabezado
+
+<div className="mb-12"><CalendarHeaders /></div>
+
+## Composiciones oficiales
+
+<div className="mb-12"><CalendarCompositions /></div>
+
+## Especificaciones
+
+<div className="mb-12"><CalendarSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={calendarSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

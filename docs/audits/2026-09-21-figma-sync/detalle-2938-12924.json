@@ -1,0 +1,618 @@
+{
+  "id": "2938:12924",
+  "name": "Navigation Menu",
+  "total": 47,
+  "nodes": 613,
+  "refs": {
+    "VariableID:50:526": {
+      "count": 438,
+      "example": "2990:51086"
+    },
+    "VariableID:50:514": {
+      "count": 156,
+      "example": "2990:51086"
+    },
+    "VariableID:50:534": {
+      "count": 376,
+      "example": "2990:51086"
+    },
+    "VariableID:44:183": {
+      "count": 190,
+      "example": "2990:51086"
+    },
+    "VariableID:44:184": {
+      "count": 190,
+      "example": "2990:51087"
+    },
+    "VariableID:99:17": {
+      "count": 113,
+      "example": "2990:51087"
+    },
+    "VariableID:132:811": {
+      "count": 152,
+      "example": "2990:51087"
+    },
+    "VariableID:50:639": {
+      "count": 115,
+      "example": "2990:51087"
+    },
+    "VariableID:1f9858237351df263a3383100f5dee066992a506/4022:0": {
+      "count": 144,
+      "example": "I2990:51088;212:1660"
+    },
+    "VariableID:44:187": {
+      "count": 40,
+      "example": "2990:51090"
+    },
+    "VariableID:71:3": {
+      "count": 40,
+      "example": "2990:51091"
+    },
+    "VariableID:51:23": {
+      "count": 8,
+      "example": "2990:51094"
+    },
+    "VariableID:50:530": {
+      "count": 35,
+      "example": "2991:7"
+    },
+    "VariableID:71:2": {
+      "count": 74,
+      "example": "2991:9"
+    },
+    "VariableID:100:19": {
+      "count": 37,
+      "example": "2991:9"
+    },
+    "VariableID:50:641": {
+      "count": 37,
+      "example": "2991:9"
+    },
+    "VariableID:51:20": {
+      "count": 32,
+      "example": "2991:52269"
+    },
+    "VariableID:51:21": {
+      "count": 32,
+      "example": "2991:52269"
+    },
+    "VariableID:66:23": {
+      "count": 2,
+      "example": "2991:52299"
+    }
+  },
+  "texts": {
+    "S:b9200b5971cf3f84adc1475861c0b20e11d4e15e,": {
+      "count": 113,
+      "example": "2990:51087"
+    },
+    "S:144dfbf9f37e6190e40a757d07ef56d8e7e1aae3,": {
+      "count": 37,
+      "example": "2991:9"
+    },
+    "S:781eaf6f680951d4f89acd6c5285b40210dae108,": {
+      "count": 2,
+      "example": "2991:52299"
+    }
+  },
+  "styles": {
+    "S:8239e3343213e30a89616ca2aaf562721d493256,": {
+      "count": 16,
+      "example": "2991:52269"
+    }
+  },
+  "sets": [
+    {
+      "id": "2990:51106",
+      "name": "_components/NavigationMenu/Trigger",
+      "count": 5,
+      "props": {
+        "Label#2990:15": {
+          "type": "TEXT",
+          "defaultValue": "Servicios"
+        },
+        "Show icon#2990:16": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Icon#2990:17": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "5065:55163",
+          "preferredValues": []
+        },
+        "Leading icon#3058:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Leading icon instance#3058:6": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "212:180",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "d03ecca302986e68eaefa6e760bff6fba3d87462"
+            }
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "hover",
+            "focus",
+            "open",
+            "disabled"
+          ]
+        }
+      },
+      "default": {
+        "id": "2990:51086",
+        "name": "State=default",
+        "w": 106,
+        "h": 36,
+        "layout": "HORIZONTAL",
+        "gap": 8,
+        "padding": [
+          8,
+          12,
+          8,
+          12
+        ],
+        "radius": 6,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9803921580314636,
+              "g": 0.9725490212440491,
+              "b": 0.9843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:44:183"
+              }
+            }
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:514"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:514"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:44:183"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2991:22",
+      "name": "_components/NavigationMenu/Link",
+      "count": 5,
+      "props": {
+        "Title#2991:10": {
+          "type": "TEXT",
+          "defaultValue": "Historia clínica"
+        },
+        "Description#2991:11": {
+          "type": "TEXT",
+          "defaultValue": "Consulta información y antecedentes."
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled"
+          ]
+        }
+      },
+      "default": {
+        "id": "2991:7",
+        "name": "State=default",
+        "w": 240,
+        "h": 60,
+        "layout": "VERTICAL",
+        "gap": 4,
+        "padding": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "radius": 4,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9803921580314636,
+              "g": 0.9725490212440491,
+              "b": 0.9843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:44:183"
+              }
+            }
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:530"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:44:183"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2991:52325",
+      "name": "_components/NavigationMenu/Content",
+      "count": 4,
+      "props": {
+        "Layout": {
+          "type": "VARIANT",
+          "defaultValue": "list",
+          "variantOptions": [
+            "list",
+            "featured"
+          ]
+        },
+        "Viewport": {
+          "type": "VARIANT",
+          "defaultValue": "true",
+          "variantOptions": [
+            "true",
+            "false"
+          ]
+        }
+      },
+      "default": {
+        "id": "2991:52269",
+        "name": "Layout=list, Viewport=true",
+        "w": 400,
+        "h": 268,
+        "layout": "VERTICAL",
+        "gap": 8,
+        "padding": [
+          8,
+          10,
+          8,
+          8
+        ],
+        "radius": 6,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9803921580314636,
+              "g": 0.9725490212440491,
+              "b": 0.9843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:20"
+              }
+            }
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8549019694328308,
+              "g": 0.8313725590705872,
+              "b": 0.843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:21"
+              }
+            }
+          }
+        ],
+        "effects": [
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 4,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.10000000149011612
+            },
+            "offset": {
+              "x": 0,
+              "y": 2
+            },
+            "spread": -2,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": false
+          },
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 6,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.10000000149011612
+            },
+            "offset": {
+              "x": 0,
+              "y": 4
+            },
+            "spread": -1,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": false
+          }
+        ],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:20"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:21"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2996:561",
+      "name": "_components/NavigationMenu/Item Behavior",
+      "count": 18,
+      "props": {
+        "Content Slot#2996:5": {
+          "type": "SLOT",
+          "description": null,
+          "preferredValues": []
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "dropdown",
+          "variantOptions": [
+            "dropdown",
+            "button"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "closed",
+          "variantOptions": [
+            "closed",
+            "open",
+            "hover",
+            "default",
+            "focus"
+          ]
+        },
+        "Viewport": {
+          "type": "VARIANT",
+          "defaultValue": "true",
+          "variantOptions": [
+            "true",
+            "false"
+          ]
+        },
+        "Open behavior": {
+          "type": "VARIANT",
+          "defaultValue": "click",
+          "variantOptions": [
+            "click",
+            "hover"
+          ]
+        }
+      },
+      "default": {
+        "id": "2996:475",
+        "name": "Type=dropdown, State=closed, Viewport=true, Open behavior=click",
+        "w": 106,
+        "h": 36,
+        "layout": "NONE",
+        "gap": 6,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": false,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "2997:803",
+      "name": "Navigation Menu",
+      "count": 10,
+      "props": {
+        "Items": {
+          "type": "VARIANT",
+          "defaultValue": "1",
+          "variantOptions": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+          ]
+        }
+      },
+      "default": {
+        "id": "2997:408",
+        "name": "Items=1",
+        "w": 106,
+        "h": 36,
+        "layout": "HORIZONTAL",
+        "gap": 4,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": false,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    }
+  ],
+  "errors": []
+}

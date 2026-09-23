@@ -1,0 +1,180 @@
+{
+  "id": "1800:1860",
+  "name": "Scroll Area",
+  "total": 3,
+  "nodes": 5,
+  "refs": {
+    "VariableID:50:513": {
+      "count": 8,
+      "example": "1801:2785"
+    },
+    "VariableID:50:534": {
+      "count": 8,
+      "example": "1801:2785"
+    },
+    "VariableID:67e6bc8762fcaec91423fe67ae8d59a0aa78739a/1046:5862": {
+      "count": 8,
+      "example": "1801:2785"
+    },
+    "VariableID:44:183": {
+      "count": 4,
+      "example": "1801:2785"
+    },
+    "VariableID:51:21": {
+      "count": 4,
+      "example": "1801:2785"
+    },
+    "VariableID:ef9878f6a49bffca5a73ad29af9564d91a9222bb/1046:5749": {
+      "count": 1,
+      "example": "1801:2833"
+    }
+  },
+  "texts": {},
+  "styles": {},
+  "sets": [
+    {
+      "id": "1801:2786",
+      "name": "Scroll Area",
+      "count": 2,
+      "props": {
+        "Espacio#1801:6": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Orientation": {
+          "type": "VARIANT",
+          "defaultValue": "Vertical",
+          "variantOptions": [
+            "Vertical",
+            "horizontal"
+          ]
+        }
+      },
+      "default": {
+        "id": "1801:2785",
+        "name": "Orientation=Vertical",
+        "w": 190,
+        "h": 286,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "radius": 6,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9803921580314636,
+              "g": 0.9725490212440491,
+              "b": 0.9843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:44:183"
+              }
+            }
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8549019694328308,
+              "g": 0.8313725590705872,
+              "b": 0.843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:21"
+              }
+            }
+          }
+        ],
+        "effects": [],
+        "bound": {
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "strokeTopWeight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:67e6bc8762fcaec91423fe67ae8d59a0aa78739a/1046:5862"
+          },
+          "strokeBottomWeight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:67e6bc8762fcaec91423fe67ae8d59a0aa78739a/1046:5862"
+          },
+          "strokeLeftWeight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:67e6bc8762fcaec91423fe67ae8d59a0aa78739a/1046:5862"
+          },
+          "strokeRightWeight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:67e6bc8762fcaec91423fe67ae8d59a0aa78739a/1046:5862"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:44:183"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:21"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "errors": []
+}

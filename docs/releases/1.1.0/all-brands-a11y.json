@@ -1,0 +1,1626 @@
+[
+  {
+    "id": "components-accordion--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-alert--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-alert-dialog--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-hidden-focus",
+        "count": 3
+      }
+    ],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-attachment--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-avatar--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-badge--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-breadcrumb--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-button--texto",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-button--icono",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-button-group--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-calendar--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "count": 1
+      }
+    ],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-card--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-carousel--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-checkbox--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-collapsible--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-combobox--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-context-menu--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-data-table--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-date-picker--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-drawer--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-hidden-focus",
+        "count": 3
+      }
+    ],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-dropdown-menu--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-hidden-focus",
+        "count": 2
+      }
+    ],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-empty--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-field--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-hover-card--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-input--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-input-otp--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "count": 2
+      }
+    ],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-item--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-kbd--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-label--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-menubar--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-native-select--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-navigation-menu--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-pagination--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-popover--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-hidden-focus",
+        "count": 6
+      },
+      {
+        "id": "aria-valid-attr-value",
+        "count": 1
+      }
+    ],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-progress--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-radio-group--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-resizable--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-scroll-area--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-select--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-separator--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-sheet--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-hidden-focus",
+        "count": 3
+      }
+    ],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-sidebar--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "count": 1
+      }
+    ],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-slider--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-prohibited-attr",
+        "count": 1
+      }
+    ],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-spinner--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-switch--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-table--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-tabs--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-toast--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-toggle--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-toggle-group--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-tooltip--playground",
+    "brand": "grm-global",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-accordion--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-alert--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-alert-dialog--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-hidden-focus",
+        "count": 3
+      }
+    ],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-attachment--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-avatar--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-badge--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-breadcrumb--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-button--texto",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-button--icono",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-button-group--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-calendar--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "count": 1
+      }
+    ],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-card--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-carousel--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-checkbox--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-collapsible--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-combobox--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-context-menu--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-data-table--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-date-picker--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-drawer--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-hidden-focus",
+        "count": 3
+      }
+    ],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-dropdown-menu--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-hidden-focus",
+        "count": 2
+      }
+    ],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-empty--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-field--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-hover-card--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-input--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-input-otp--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "count": 2
+      }
+    ],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-item--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-kbd--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-label--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-menubar--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-native-select--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-navigation-menu--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-pagination--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-popover--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-hidden-focus",
+        "count": 6
+      },
+      {
+        "id": "aria-valid-attr-value",
+        "count": 1
+      }
+    ],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-progress--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-radio-group--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-resizable--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-scroll-area--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-select--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-separator--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-sheet--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-hidden-focus",
+        "count": 3
+      }
+    ],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-sidebar--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "count": 1
+      }
+    ],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-slider--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-prohibited-attr",
+        "count": 1
+      }
+    ],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-spinner--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-switch--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-table--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-tabs--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-toast--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-toggle--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-toggle-group--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-tooltip--playground",
+    "brand": "reina-madre",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif"
+  },
+  {
+    "id": "components-accordion--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-alert--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-alert-dialog--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-hidden-focus",
+        "count": 3
+      }
+    ],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-attachment--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-avatar--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-badge--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-breadcrumb--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-button--texto",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-button--icono",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-button-group--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-calendar--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "count": 1
+      }
+    ],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-card--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-carousel--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-checkbox--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-collapsible--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-combobox--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-context-menu--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-data-table--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-date-picker--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-drawer--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-hidden-focus",
+        "count": 3
+      }
+    ],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-dropdown-menu--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-hidden-focus",
+        "count": 2
+      }
+    ],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-empty--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-field--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-hover-card--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-input--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-input-otp--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "count": 2
+      }
+    ],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-item--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-kbd--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-label--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-menubar--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-native-select--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-navigation-menu--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-pagination--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-popover--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-hidden-focus",
+        "count": 6
+      },
+      {
+        "id": "aria-valid-attr-value",
+        "count": 1
+      }
+    ],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-progress--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-radio-group--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-resizable--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-scroll-area--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-select--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-separator--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-sheet--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-hidden-focus",
+        "count": 3
+      }
+    ],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-sidebar--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "count": 1
+      }
+    ],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-slider--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-prohibited-attr",
+        "count": 1
+      }
+    ],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-spinner--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-switch--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-table--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-tabs--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-toast--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-toggle--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-toggle-group--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-tooltip--playground",
+    "brand": "maria-linda",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif"
+  },
+  {
+    "id": "components-accordion--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-alert--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-alert-dialog--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-hidden-focus",
+        "count": 3
+      }
+    ],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-attachment--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-avatar--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-badge--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-breadcrumb--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-button--texto",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-button--icono",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-button-group--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-calendar--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "count": 1
+      }
+    ],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-card--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-carousel--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-checkbox--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-collapsible--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-combobox--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-context-menu--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-data-table--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-date-picker--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-drawer--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-hidden-focus",
+        "count": 3
+      }
+    ],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-dropdown-menu--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-hidden-focus",
+        "count": 2
+      }
+    ],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-empty--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-field--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-hover-card--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-input--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-input-otp--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "count": 2
+      }
+    ],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-item--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-kbd--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-label--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-menubar--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-native-select--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-navigation-menu--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-pagination--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-popover--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-hidden-focus",
+        "count": 6
+      },
+      {
+        "id": "aria-valid-attr-value",
+        "count": 1
+      }
+    ],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-progress--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-radio-group--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-resizable--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-scroll-area--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-select--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-separator--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-sheet--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-hidden-focus",
+        "count": 3
+      }
+    ],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-sidebar--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "count": 1
+      }
+    ],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-slider--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-prohibited-attr",
+        "count": 1
+      }
+    ],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-spinner--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-switch--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-table--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-tabs--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-toast--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-toggle--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-toggle-group--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  },
+  {
+    "id": "components-tooltip--playground",
+    "brand": "piel-sana",
+    "violations": [],
+    "incomplete": [],
+    "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif"
+  }
+]

@@ -1,0 +1,63 @@
+# RadioGroup
+
+ID: components-radio-group
+
+## Stories
+
+### Playground
+
+Story ID: components-radio-group--playground
+
+```
+import { RadioGroupExample } from "@reina-madre/design-system";
+
+const Playground = () => <RadioGroupExample
+    key={JSON.stringify(args)}
+    appearance="default"
+    text="label"
+    textSide="right"
+    state="default"
+    selected
+    amount={3} />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as RadioGroupStories from "./radio-group.stories"
+import radioGroupSource from "./radio-group.tsx?raw"
+import exampleSource from "./radio-group-example.tsx?raw"
+import { RadioGroupPatterns, RadioGroupPlacement, RadioGroupSpecifications, RadioGroupStates } from "./radio-group-docs"
+
+<Meta of={RadioGroupStories} />
+<Title of={RadioGroupStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación desde Figma y shadcn/ui</summary>
+
+- Conserva Root, Item, Indicator, selección exclusiva, teclado, orientación, disabled y ARIA del primitive oficial.
+- Description, Choice Cards y Fieldset se resuelven mediante composición con Field.
+- Adapta geometría, estados y tokens del nodo de Figma sin duplicar Radio Group.
+</details>
+
+## Patrones
+<div className="mb-12"><RadioGroupPatterns /></div>
+
+## Posición del texto
+<div className="mb-12"><RadioGroupPlacement /></div>
+
+## Estados
+<div className="mb-12"><RadioGroupStates /></div>
+
+## Especificaciones
+<div className="mb-12"><RadioGroupSpecifications /></div>
+
+## Código
+### Primitive
+<Source language="tsx" code={radioGroupSource} />
+### Composición de referencia
+<Source language="tsx" code={exampleSource} />

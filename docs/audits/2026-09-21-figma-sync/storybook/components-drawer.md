@@ -1,0 +1,78 @@
+# Drawer
+
+ID: components-drawer
+
+## Stories
+
+### Playground
+
+Story ID: components-drawer--playground
+
+```
+import { DrawerExample } from "@reina-madre/design-system";
+
+const Playground = () => <DrawerExample
+    key={JSON.stringify(args)}
+    behavior="standard"
+    swipeDirection="right"
+    sideWidth={480}
+    buttonAmount={2}
+    showSwipeHandle={false}
+    scrollable={false}
+    inset={16} />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as DrawerStories from "./drawer.stories"
+import drawerSource from "./drawer.tsx?raw"
+import exampleSource from "./drawer-example.tsx?raw"
+import { DrawerActions, DrawerBehaviors, DrawerPositions, DrawerSpecifications, DrawerWidths } from "./drawer-docs"
+
+<Meta of={DrawerStories} />
+<Title of={DrawerStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Migra el primitive de Vaul a Base UI y conserva la composición, swipe, foco, cierre y accesibilidad oficiales de shadcn/ui.
+  - Sustituye `direction` por `swipeDirection` y `asChild` por `render`, según la API vigente.
+  - Adapta anchos laterales de 384/480 px, bottom de hasta 680 px y radio de 24 px.
+  - Añade inset flotante de 16 px y documenta Nested, Non-modal y Snap Points con composiciones reales.
+  - Mantiene acciones fijas mientras el cuerpo puede desplazarse y permite una o dos acciones según Figma.
+</details>
+
+## Posición
+
+<div className="mb-12"><DrawerPositions /></div>
+
+## Ancho lateral
+
+<div className="mb-12"><DrawerWidths /></div>
+
+## Acciones
+
+<div className="mb-12"><DrawerActions /></div>
+
+## Comportamientos oficiales
+
+<div className="mb-12"><DrawerBehaviors /></div>
+
+## Especificaciones
+
+<div className="mb-12"><DrawerSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={drawerSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

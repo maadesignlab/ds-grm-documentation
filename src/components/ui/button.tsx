@@ -5,7 +5,7 @@ import { Slot } from "radix-ui"
 import { cn } from "@/lib/utils"
 
 const buttonVariants = cva(
-  "group/button inline-flex shrink-0 items-center justify-center overflow-hidden rounded-md border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
+  "group/button inline-flex shrink-0 items-center justify-center overflow-hidden rounded-sm border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
   {
     variants: {
       variant: {
@@ -15,6 +15,8 @@ const buttonVariants = cva(
           "border-border bg-transparent text-foreground hover:bg-[var(--background-hover)] active:bg-[var(--background-active)]",
         secondary:
           "border-border bg-secondary text-secondary-foreground shadow-xs hover:bg-[var(--secondary-hover)] active:bg-[var(--secondary-active)]",
+        "brand-gradient":
+          "relative isolate bg-[linear-gradient(135deg,var(--button-brand-gradient-1)_0%,var(--button-brand-gradient-2)_100%)] text-white shadow-xs before:pointer-events-none before:absolute before:inset-0 before:-z-10 before:bg-neutral-950 before:opacity-0 before:transition-opacity hover:before:opacity-[0.08] active:before:opacity-[0.16]",
         "brand-neutral":
           "border-border bg-background text-foreground shadow-xs hover:bg-[var(--background-hover)] active:bg-[var(--background-active)]",
         ghost:

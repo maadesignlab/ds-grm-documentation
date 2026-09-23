@@ -1,0 +1,672 @@
+{
+  "id": "553:2675",
+  "name": "Field",
+  "total": 46,
+  "nodes": 607,
+  "refs": {
+    "VariableID:50:526": {
+      "count": 82,
+      "example": "553:3054"
+    },
+    "VariableID:44:184": {
+      "count": 102,
+      "example": "I553:3055;553:3033"
+    },
+    "VariableID:99:17": {
+      "count": 130,
+      "example": "I553:3055;553:3033"
+    },
+    "VariableID:132:811": {
+      "count": 130,
+      "example": "I553:3055;553:3033"
+    },
+    "VariableID:50:639": {
+      "count": 61,
+      "example": "I553:3055;553:3033"
+    },
+    "VariableID:71:2": {
+      "count": 166,
+      "example": "I553:3057;553:3042"
+    },
+    "VariableID:50:641": {
+      "count": 69,
+      "example": "I553:3057;553:3042"
+    },
+    "VariableID:50:514": {
+      "count": 41,
+      "example": "I553:3056;412:13"
+    },
+    "VariableID:50:530": {
+      "count": 12,
+      "example": "I553:3056;412:13"
+    },
+    "VariableID:51:19": {
+      "count": 62,
+      "example": "I553:3056;412:13"
+    },
+    "VariableID:51:22": {
+      "count": 14,
+      "example": "I553:3056;412:13"
+    },
+    "VariableID:186:174": {
+      "count": 12,
+      "example": "I553:3056;412:13;406:24"
+    },
+    "VariableID:417:1110": {
+      "count": 32,
+      "example": "I553:7490;553:3035"
+    },
+    "VariableID:332:2323": {
+      "count": 36,
+      "example": "I553:7492;412:143"
+    },
+    "VariableID:429:250": {
+      "count": 20,
+      "example": "I553:7492;412:143;3781:32027"
+    },
+    "VariableID:424:1864": {
+      "count": 13,
+      "example": "I553:7492;412:143;3781:32027"
+    },
+    "VariableID:44:188": {
+      "count": 20,
+      "example": "I553:7684;412:131"
+    },
+    "VariableID:1339:1007": {
+      "count": 3,
+      "example": "I1551:11679;1543:10857"
+    },
+    "VariableID:50:515": {
+      "count": 3,
+      "example": "I1551:11679;1543:10857"
+    },
+    "VariableID:50:513": {
+      "count": 31,
+      "example": "553:6616"
+    },
+    "VariableID:51:21": {
+      "count": 70,
+      "example": "553:7840"
+    },
+    "VariableID:479:83": {
+      "count": 2,
+      "example": "553:7857"
+    },
+    "VariableID:186:183": {
+      "count": 18,
+      "example": "I553:6644;461:6042;452:4546"
+    },
+    "VariableID:44:185": {
+      "count": 8,
+      "example": "I836:33664;440:1904;440:1898"
+    },
+    "VariableID:294:496": {
+      "count": 8,
+      "example": "I836:33664;440:1904;440:1898"
+    },
+    "VariableID:51:172": {
+      "count": 8,
+      "example": "I836:33664;440:1904;440:1898;440:404"
+    },
+    "VariableID:50:537": {
+      "count": 12,
+      "example": "I553:7905;429:154"
+    },
+    "VariableID:44:183": {
+      "count": 6,
+      "example": "I553:7905;429:154;429:101"
+    },
+    "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14": {
+      "count": 108,
+      "example": "561:4274"
+    },
+    "VariableID:6c0b2eff1ec5b7639605954af4b5f50e48f0b42e/1600:0": {
+      "count": 137,
+      "example": "561:4274"
+    },
+    "VariableID:806845d6ef461ad85c7de7f0438a6339901f05d0/1088:657": {
+      "count": 5,
+      "example": "885:5915"
+    },
+    "VariableID:32de368de64cf2a0c09cecf2c2f67b977ebbdf03/1088:654": {
+      "count": 12,
+      "example": "I647:3477;629:44515"
+    },
+    "VariableID:d807cd2c55aa956d7951c7137f79e14b22a8aa1f/1088:536": {
+      "count": 12,
+      "example": "I647:3477;629:44515"
+    },
+    "VariableID:1a3bd0e6b358b25c3826fd6fbac104d1165dfa8d/1046:6070": {
+      "count": 6,
+      "example": "I885:6170;566:5303"
+    },
+    "VariableID:6457372a9181ee5cc9bfb3cb417dff218406a0b2/1102:1": {
+      "count": 3,
+      "example": "I885:6170;566:5303"
+    },
+    "VariableID:afcdba21ea5e8229b29230e6c33d5264c0126558/1046:6066": {
+      "count": 3,
+      "example": "I885:6170;566:5303"
+    },
+    "VariableID:50:534": {
+      "count": 12,
+      "example": "836:33842"
+    }
+  },
+  "texts": {
+    "S:b9200b5971cf3f84adc1475861c0b20e11d4e15e,": {
+      "count": 61,
+      "example": "I553:3055;553:3033"
+    },
+    "S:1d452614e679106aeb9f64166fd66fd5df9751c7,": {
+      "count": 69,
+      "example": "I553:3057;553:3042"
+    }
+  },
+  "styles": {
+    "S:b8adb059f130b7f80c3daff5ccaceb3c9104f4ef,": {
+      "count": 6,
+      "example": "561:4274"
+    }
+  },
+  "sets": [
+    {
+      "id": "553:3053",
+      "name": "Field/Input",
+      "count": 3,
+      "props": {
+        "Upper Description#885:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Lower Description#885:4": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "error",
+            "disabled"
+          ]
+        }
+      },
+      "default": {
+        "id": "553:3054",
+        "name": "Status=default",
+        "w": 300,
+        "h": 92,
+        "layout": "VERTICAL",
+        "gap": 8,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          }
+        }
+      }
+    },
+    {
+      "id": "1551:11609",
+      "name": "Field/InputTime",
+      "count": 3,
+      "props": {
+        "Upper Description#885:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Lower Description#885:4": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "error",
+            "disabled"
+          ]
+        }
+      },
+      "default": {
+        "id": "1551:11610",
+        "name": "Status=default",
+        "w": 300,
+        "h": 92,
+        "layout": "VERTICAL",
+        "gap": 8,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          }
+        }
+      }
+    },
+    {
+      "id": "553:6615",
+      "name": "Field/TextArea",
+      "count": 3,
+      "props": {
+        "Upper Description#885:78": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Lower Description#885:82": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "error",
+            "disabled"
+          ]
+        }
+      },
+      "default": {
+        "id": "553:6616",
+        "name": "Status=default",
+        "w": 300,
+        "h": 225,
+        "layout": "VERTICAL",
+        "gap": 16,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          }
+        }
+      }
+    },
+    {
+      "id": "553:6641",
+      "name": "Field/Checkbox",
+      "count": 3,
+      "props": {
+        "Lower Description#885:12": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Upper Description#885:24": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "error",
+            "disabled"
+          ]
+        }
+      },
+      "default": {
+        "id": "553:6642",
+        "name": "Status=default",
+        "w": 300,
+        "h": 84,
+        "layout": "VERTICAL",
+        "gap": 16,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          }
+        }
+      }
+    },
+    {
+      "id": "553:6667",
+      "name": "Field/Radio Group",
+      "count": 3,
+      "props": {
+        "Lower Description#885:16": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Upper Description#885:28": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "error",
+          "variantOptions": [
+            "error",
+            "disabled",
+            "Status3"
+          ]
+        }
+      },
+      "default": {
+        "id": "836:33660",
+        "name": "Status=error",
+        "w": 300,
+        "h": 116,
+        "layout": "VERTICAL",
+        "gap": 16,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          }
+        }
+      }
+    },
+    {
+      "id": "553:7900",
+      "name": "Field/Switch",
+      "count": 3,
+      "props": {
+        "Lower Description#885:20": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Upper Description#885:32": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "error",
+            "disabled"
+          ]
+        }
+      },
+      "default": {
+        "id": "553:7901",
+        "name": "Status=default",
+        "w": 302,
+        "h": 84,
+        "layout": "VERTICAL",
+        "gap": 16,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          }
+        }
+      }
+    },
+    {
+      "id": "561:4269",
+      "name": "Field/NativeSelect",
+      "count": 6,
+      "props": {
+        "Upper Description#885:36": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Lower Description#885:57": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Native Select Style": {
+          "type": "VARIANT",
+          "defaultValue": "simple",
+          "variantOptions": [
+            "with groups",
+            "simple"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "error",
+            "disabled"
+          ]
+        }
+      },
+      "default": {
+        "id": "561:4270",
+        "name": "Native Select Style=simple, Status=default",
+        "w": 300,
+        "h": 100,
+        "layout": "VERTICAL",
+        "gap": 16,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          }
+        }
+      }
+    },
+    {
+      "id": "647:3472",
+      "name": "Field/Select",
+      "count": 6,
+      "props": {
+        "Upper Description#885:43": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Lower Description#885:64": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Select Type": {
+          "type": "VARIANT",
+          "defaultValue": "simple",
+          "variantOptions": [
+            "scrollable",
+            "simple"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "error",
+            "disabled"
+          ]
+        }
+      },
+      "default": {
+        "id": "647:3473",
+        "name": "Select Type=simple, Status=default",
+        "w": 280,
+        "h": 48,
+        "layout": "VERTICAL",
+        "gap": 16,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          }
+        }
+      }
+    },
+    {
+      "id": "566:5243",
+      "name": "Field/InputOTP",
+      "count": 6,
+      "props": {
+        "Upper Description#885:50": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Lower Description#885:71": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "InputOTP Type": {
+          "type": "VARIANT",
+          "defaultValue": "Predeterminado",
+          "variantOptions": [
+            "Predeterminado"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "Predeterminado",
+          "variantOptions": [
+            "Predeterminado",
+            "Variante 2",
+            "Variante 3",
+            "Status4",
+            "Status5",
+            "Status6"
+          ]
+        }
+      },
+      "default": {
+        "id": "566:5244",
+        "name": "InputOTP Type=Predeterminado, Status=Predeterminado",
+        "w": 144,
+        "h": 100,
+        "layout": "VERTICAL",
+        "gap": 16,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          }
+        }
+      }
+    },
+    {
+      "id": "553:6668",
+      "name": "Field/Radio/default",
+      "count": 3,
+      "props": {
+        "Lower Description#885:17": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Upper Description#885:29": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        }
+      },
+      "default": {
+        "id": "553:6668",
+        "name": "Field/Radio/default",
+        "w": 450,
+        "h": 300,
+        "layout": "VERTICAL",
+        "gap": 16,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          }
+        }
+      }
+    }
+  ],
+  "errors": []
+}

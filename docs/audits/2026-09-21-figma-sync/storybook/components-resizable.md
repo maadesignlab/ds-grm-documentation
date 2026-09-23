@@ -1,0 +1,66 @@
+# Resizable
+
+ID: components-resizable
+
+## Stories
+
+### Playground
+
+Story ID: components-resizable--playground
+
+```
+import { ResizableExample } from "@reina-madre/design-system";
+
+const Playground = () => <div className="w-[450px] max-w-[calc(100vw-32px)]"><ResizableExample /></div>;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as ResizableStories from "./resizable.stories"
+import primitiveSource from "./resizable.tsx?raw"
+import exampleSource from "./resizable-example.tsx?raw"
+import { ResizableComposition, ResizableDistribution, ResizableOrientation, ResizableSpecifications } from "./resizable-docs"
+
+<Meta of={ResizableStories} />
+<Title of={ResizableStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva la API oficial `ResizablePanelGroup`, `ResizablePanel` y `ResizableHandle` sobre `react-resizable-panels` v4.
+  - Usa `orientation`, `Group`, `Panel`, `Separator` y valores porcentuales de `defaultSize`.
+  - Incluye orientación horizontal/vertical, distribuciones 25/75, 50/50 y 75/25, grip visible y paneles anidados.
+  - Mantiene arrastre, touch, teclado, foco y ARIA del primitive oficial.
+  - Playground y Docs consumen la misma matriz `resizableExamplePresets` y la instancia `ResizableExample`.
+</details>
+
+## Orientación
+
+<div className="mb-12"><ResizableOrientation /></div>
+
+## Distribución inicial
+
+<div className="mb-12"><ResizableDistribution /></div>
+
+## Composición
+
+<div className="mb-12"><ResizableComposition /></div>
+
+## Especificaciones
+
+<div className="mb-12"><ResizableSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={primitiveSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

@@ -1,0 +1,72 @@
+# Tooltip
+
+ID: components-tooltip
+
+## Stories
+
+### Playground
+
+Story ID: components-tooltip--playground
+
+```
+import { TooltipExample } from "@reina-madre/design-system";
+
+const Playground = () => <TooltipExample
+    key={JSON.stringify(args)}
+    triggerType="button"
+    side="top"
+    align="center"
+    opened={false}
+    showShortcut={false}
+    delayDuration={0}
+    avoidCollisions />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as TooltipStories from "./tooltip.stories"
+import tooltipSource from "./tooltip.tsx?raw"
+import exampleSource from "./tooltip-example.tsx?raw"
+import { TooltipContentOptions, TooltipSides, TooltipSpecifications, TooltipTriggers } from "./tooltip-docs"
+
+<Meta of={TooltipStories} />
+<Title of={TooltipStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva Provider, Root, Trigger, Content, Portal y Arrow de Radix/shadcn.
+  - Mantiene apertura por hover y foco, demora configurable, colisiones, lados y alineación.
+  - Adapta geometría, flecha, color y tipografía mediante tokens del Design System.
+</details>
+
+## Tipos de trigger
+
+<div className="mb-12"><TooltipTriggers /></div>
+
+## Posición
+
+<div className="mb-12"><TooltipSides /></div>
+
+## Contenido
+
+<div className="mb-12"><TooltipContentOptions /></div>
+
+## Especificaciones
+
+<div className="mb-12"><TooltipSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={tooltipSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

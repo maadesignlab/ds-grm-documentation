@@ -1,0 +1,73 @@
+# Table
+
+ID: components-table
+
+## Stories
+
+### Playground
+
+Story ID: components-table--playground
+
+```
+import { TableExample } from "@reina-madre/design-system";
+
+const Playground = () => <TableExample key={`${args.leadingColumn}-${args.expanded}`} />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as TableStories from "./table.stories"
+import tableSource from "./table.tsx?raw"
+import cellContentSource from "./table-cell-content.tsx?raw"
+import tableExampleSource from "./table-example.tsx?raw"
+import { TableBorderOverview, TableCellContentOverview, TableLeadingOverview, TableSpecifications } from "./table-docs"
+
+<Meta of={TableStories} />
+<Title of={TableStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Bordes `normal` y `rounded`.
+  - Columnas iniciales `none`, `checkbox`, `switch` y `chevron`.
+  - Filas alternas y contenido expandible.
+  - Tabla semántica, responsive y componible basada en shadcn/ui.
+  - Tipografía, fondos y bordes conectados con los tokens de marca.
+  - Las celdas preservan la tipografía y geometría propias de componentes anidados.
+  - CellContent incluye Text, Avatar, Status Label, Status Badge, Progress, Counter y Bulk Options.
+</details>
+
+## Borde
+
+<div className="mb-12"><TableBorderOverview /></div>
+
+## Columna inicial
+
+<div className="mb-12"><TableLeadingOverview /></div>
+
+## Contenido de celda
+
+<div className="mb-12"><TableCellContentOverview /></div>
+
+## Especificaciones
+
+<div className="mb-12"><TableSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={tableSource} />
+
+### CellContent
+
+<Source language="tsx" code={cellContentSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={tableExampleSource} />

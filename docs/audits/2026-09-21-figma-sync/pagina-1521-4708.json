@@ -1,0 +1,470 @@
+{
+  "id": "1521:4708",
+  "name": "Dropdown",
+  "total": 20,
+  "sets": [
+    {
+      "id": "1637:3373",
+      "name": "_components/Dropdown/Dropdown Base",
+      "type": "COMPONENT",
+      "count": 9,
+      "props": {}
+    },
+    {
+      "id": "1594:2985",
+      "name": "_components/Dropdown/MenuItem",
+      "type": "COMPONENT_SET",
+      "count": 3,
+      "props": {
+        "Menu Item Text#1636:0": {
+          "type": "TEXT",
+          "defaultValue": "Item Text"
+        },
+        "Right Icon#1696:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Left Icon#1696:4": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "onHover",
+            "active"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1636:3067",
+      "name": "_components/Dropdown/MenuItem/Submenu",
+      "type": "COMPONENT_SET",
+      "count": 2,
+      "props": {
+        "Menu Item Text#1636:0": {
+          "type": "TEXT",
+          "defaultValue": "Sucursales"
+        },
+        "Left Icon#1696:8": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Propiedad 1": {
+          "type": "VARIANT",
+          "defaultValue": "Predeterminado",
+          "variantOptions": [
+            "Predeterminado",
+            "Variante 2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1636:3103",
+      "name": "_components/Dropdown/MenuGroup",
+      "type": "COMPONENT",
+      "count": 11,
+      "props": {
+        "Dropdown Item#1638:3": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": true
+          },
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "0706f6ee5cec4d8d3d533e35139ccb46488f21c8"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "24831c6254495c50f67445787158fbe3de71c7eb"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "553f8953691b2ca95f632f16e09b2c95468272e9"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "c18d4e9d2aca896bc34ad4ca21a42c9f35139dad"
+            }
+          ]
+        },
+        "Dropdown Item2#1638:4": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": true
+          },
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "0706f6ee5cec4d8d3d533e35139ccb46488f21c8"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "24831c6254495c50f67445787158fbe3de71c7eb"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "553f8953691b2ca95f632f16e09b2c95468272e9"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "c18d4e9d2aca896bc34ad4ca21a42c9f35139dad"
+            }
+          ]
+        },
+        "Dropdown Item3#1638:5": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": true
+          },
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "0706f6ee5cec4d8d3d533e35139ccb46488f21c8"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "24831c6254495c50f67445787158fbe3de71c7eb"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "c18d4e9d2aca896bc34ad4ca21a42c9f35139dad"
+            }
+          ]
+        },
+        "Dropdown Item4#1638:6": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": true
+          },
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "0706f6ee5cec4d8d3d533e35139ccb46488f21c8"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "24831c6254495c50f67445787158fbe3de71c7eb"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "c18d4e9d2aca896bc34ad4ca21a42c9f35139dad"
+            }
+          ]
+        },
+        "Dropdown Item5#1638:7": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": true
+          },
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "0706f6ee5cec4d8d3d533e35139ccb46488f21c8"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "24831c6254495c50f67445787158fbe3de71c7eb"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "c18d4e9d2aca896bc34ad4ca21a42c9f35139dad"
+            }
+          ]
+        },
+        "Dropdown Item6#1638:8": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": true
+          },
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "0706f6ee5cec4d8d3d533e35139ccb46488f21c8"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "24831c6254495c50f67445787158fbe3de71c7eb"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "c18d4e9d2aca896bc34ad4ca21a42c9f35139dad"
+            }
+          ]
+        },
+        "Dropdown Item7#1638:9": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": true
+          },
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "0706f6ee5cec4d8d3d533e35139ccb46488f21c8"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "24831c6254495c50f67445787158fbe3de71c7eb"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "c18d4e9d2aca896bc34ad4ca21a42c9f35139dad"
+            }
+          ]
+        },
+        "Dropdown Item8#1638:10": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": true
+          },
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "0706f6ee5cec4d8d3d533e35139ccb46488f21c8"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "24831c6254495c50f67445787158fbe3de71c7eb"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "c18d4e9d2aca896bc34ad4ca21a42c9f35139dad"
+            }
+          ]
+        },
+        "Dropdown Item9#1638:11": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": true
+          },
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "0706f6ee5cec4d8d3d533e35139ccb46488f21c8"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "24831c6254495c50f67445787158fbe3de71c7eb"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "c18d4e9d2aca896bc34ad4ca21a42c9f35139dad"
+            }
+          ]
+        },
+        "Dropdown Item10#1638:12": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": true
+          },
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "0706f6ee5cec4d8d3d533e35139ccb46488f21c8"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "24831c6254495c50f67445787158fbe3de71c7eb"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "c18d4e9d2aca896bc34ad4ca21a42c9f35139dad"
+            }
+          ]
+        },
+        "Section Label#1638:13": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        }
+      }
+    },
+    {
+      "id": "1638:5110",
+      "name": "Dropdown",
+      "type": "COMPONENT_SET",
+      "count": 8,
+      "props": {
+        "Menu Content#2434:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "1637:3373",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "24dd1df89a66b2c4566e1187bae0e01752563a54"
+            }
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Closed",
+          "variantOptions": [
+            "Closed",
+            "Open"
+          ]
+        },
+        "Alignment": {
+          "type": "VARIANT",
+          "defaultValue": "Start",
+          "variantOptions": [
+            "Start",
+            "End"
+          ]
+        },
+        "Trigger": {
+          "type": "VARIANT",
+          "defaultValue": "Button",
+          "variantOptions": [
+            "Button-Icon",
+            "Button"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1638:6915",
+      "name": "Dropdown Options/Label",
+      "type": "COMPONENT_SET",
+      "count": 1,
+      "props": {
+        "Label Text#593:0": {
+          "type": "TEXT",
+          "defaultValue": "Section Text"
+        },
+        "Propiedad 1": {
+          "type": "VARIANT",
+          "defaultValue": "item",
+          "variantOptions": [
+            "item"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "1594:2643",
+      "1594:2985",
+      "Status=default"
+    ],
+    [
+      "1594:2986",
+      "1594:2985",
+      "Status=onHover"
+    ],
+    [
+      "1638:5064",
+      "1594:2985",
+      "Status=active"
+    ],
+    [
+      "1636:3068",
+      "1636:3067",
+      "Propiedad 1=Predeterminado"
+    ],
+    [
+      "1636:3073",
+      "1636:3067",
+      "Propiedad 1=Variante 2"
+    ],
+    [
+      "1638:5075",
+      "1638:5110",
+      "State=Closed, Alignment=Start, Trigger=Button"
+    ],
+    [
+      "2136:13870",
+      "1638:5110",
+      "State=Closed, Alignment=End, Trigger=Button"
+    ],
+    [
+      "1638:5111",
+      "1638:5110",
+      "State=Open, Alignment=Start, Trigger=Button"
+    ],
+    [
+      "2136:13872",
+      "1638:5110",
+      "State=Open, Alignment=End, Trigger=Button"
+    ],
+    [
+      "3363:859",
+      "1638:5110",
+      "State=Closed, Alignment=Start, Trigger=Button-Icon"
+    ],
+    [
+      "3363:890",
+      "1638:5110",
+      "State=Closed, Alignment=End, Trigger=Button-Icon"
+    ],
+    [
+      "3363:921",
+      "1638:5110",
+      "State=Open, Alignment=Start, Trigger=Button-Icon"
+    ],
+    [
+      "3363:1030",
+      "1638:5110",
+      "State=Open, Alignment=End, Trigger=Button-Icon"
+    ],
+    [
+      "1638:6916",
+      "1638:6915",
+      "Propiedad 1=item"
+    ]
+  ]
+}

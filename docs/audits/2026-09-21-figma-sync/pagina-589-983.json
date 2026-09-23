@@ -1,0 +1,35 @@
+{
+  "id": "589:983",
+  "name": "Separator",
+  "total": 3,
+  "sets": [
+    {
+      "id": "590:3436",
+      "name": "Separator",
+      "type": "COMPONENT_SET",
+      "count": 2,
+      "props": {
+        "Orientation": {
+          "type": "VARIANT",
+          "defaultValue": "horizontal",
+          "variantOptions": [
+            "horizontal",
+            "vertical"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "590:3435",
+      "590:3436",
+      "Orientation=horizontal"
+    ],
+    [
+      "590:3437",
+      "590:3436",
+      "Orientation=vertical"
+    ]
+  ]
+}

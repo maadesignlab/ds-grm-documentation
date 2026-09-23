@@ -1,0 +1,226 @@
+{
+  "id": "1187:612",
+  "name": "Alert Dialog",
+  "total": 5,
+  "nodes": 60,
+  "refs": {
+    "VariableID:44:183": {
+      "count": 8,
+      "example": "1194:650"
+    },
+    "VariableID:51:21": {
+      "count": 24,
+      "example": "1194:650"
+    },
+    "VariableID:50:513": {
+      "count": 32,
+      "example": "1194:202"
+    },
+    "VariableID:44:188": {
+      "count": 4,
+      "example": "1187:670"
+    },
+    "VariableID:44:184": {
+      "count": 10,
+      "example": "I1361:1982;212:292;212:1997"
+    },
+    "VariableID:186:174": {
+      "count": 22,
+      "example": "1194:640"
+    },
+    "VariableID:51:25": {
+      "count": 8,
+      "example": "1187:679"
+    },
+    "VariableID:66:23": {
+      "count": 4,
+      "example": "1187:679"
+    },
+    "VariableID:132:811": {
+      "count": 16,
+      "example": "1187:679"
+    },
+    "VariableID:50:639": {
+      "count": 12,
+      "example": "1187:679"
+    },
+    "VariableID:71:2": {
+      "count": 8,
+      "example": "1194:645"
+    },
+    "VariableID:99:17": {
+      "count": 4,
+      "example": "1194:645"
+    },
+    "VariableID:50:641": {
+      "count": 4,
+      "example": "1194:645"
+    },
+    "VariableID:5046:23981": {
+      "count": 8,
+      "example": "1187:683"
+    },
+    "VariableID:50:514": {
+      "count": 24,
+      "example": "1194:606"
+    },
+    "VariableID:50:534": {
+      "count": 32,
+      "example": "1194:606"
+    },
+    "VariableID:50:612": {
+      "count": 8,
+      "example": "I1194:606;313:2264"
+    },
+    "VariableID:44:185": {
+      "count": 4,
+      "example": "1194:611"
+    },
+    "VariableID:51:172": {
+      "count": 4,
+      "example": "I1194:611;313:2252"
+    },
+    "VariableID:3537:30628": {
+      "count": 4,
+      "example": "1194:731"
+    },
+    "VariableID:208:5": {
+      "count": 4,
+      "example": "1194:745"
+    },
+    "VariableID:203:215": {
+      "count": 4,
+      "example": "1194:745"
+    },
+    "VariableID:210:2": {
+      "count": 4,
+      "example": "I1194:745;313:2280"
+    }
+  },
+  "texts": {
+    "S:781eaf6f680951d4f89acd6c5285b40210dae108,": {
+      "count": 4,
+      "example": "1187:679"
+    },
+    "S:1d452614e679106aeb9f64166fd66fd5df9751c7,": {
+      "count": 4,
+      "example": "1194:645"
+    },
+    "S:592db2195316334a05d7f58ef0fced7f0ff0cfb0,": {
+      "count": 8,
+      "example": "I1194:606;313:2264"
+    }
+  },
+  "styles": {
+    "S:b8adb059f130b7f80c3daff5ccaceb3c9104f4ef,": {
+      "count": 4,
+      "example": "1194:611"
+    }
+  },
+  "sets": [
+    {
+      "id": "1194:651",
+      "name": "Alert Dialog",
+      "count": 4,
+      "props": {
+        "Media#1365:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Dialog Title#1407:0": {
+          "type": "TEXT",
+          "defaultValue": "¿Deseas eliminar este registro?"
+        },
+        "Dialog Description#1407:5": {
+          "type": "TEXT",
+          "defaultValue": "Estas acción no se puede deshacer"
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "basic",
+          "variantOptions": [
+            "basic",
+            "sm"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "destructive",
+            "default"
+          ]
+        }
+      },
+      "default": {
+        "id": "1194:650",
+        "name": "Size=basic, Status=default",
+        "w": 384,
+        "h": 148,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 14,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9803921580314636,
+              "g": 0.9725490212440491,
+              "b": 0.9843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:44:183"
+              }
+            }
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8549019694328308,
+              "g": 0.8313725590705872,
+              "b": 0.843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:21"
+              }
+            }
+          }
+        ],
+        "effects": [],
+        "bound": {
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:44:183"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:21"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "errors": []
+}

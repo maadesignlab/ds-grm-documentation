@@ -1,0 +1,71 @@
+{
+  "status": "two-authorized-fixes-passed",
+  "states": [
+    {
+      "brand": "grm-global",
+      "variant": "destructive",
+      "state": "normal",
+      "foreground": "rgb(149.133546 0.816463 40.81831 / 100%)",
+      "background": "rgb(254.988965 243.687034 243.607239 / 100%)",
+      "ratio": 8.40155104029673
+    },
+    {
+      "brand": "grm-global",
+      "variant": "destructive",
+      "state": "hover",
+      "foreground": "rgb(149.133546 0.816463 40.81831 / 100%)",
+      "background": "rgb(254.975423 227.638459 227.574698 / 100%)",
+      "ratio": 7.5242804081631505
+    },
+    {
+      "brand": "grm-global",
+      "variant": "destructive",
+      "state": "active",
+      "foreground": "rgb(149.133546 0.816463 40.81831 / 100%)",
+      "background": "rgb(254.797319 194.543739 195.193033 / 100%)",
+      "ratio": 5.958924661450494
+    },
+    {
+      "brand": "reina-madre",
+      "variant": "warning",
+      "state": "normal",
+      "foreground": "#65492b",
+      "background": "#fff9f2",
+      "ratio": 7.903394815800041
+    },
+    {
+      "brand": "reina-madre",
+      "variant": "warning",
+      "state": "hover",
+      "foreground": "#65492b",
+      "background": "#fff1e3",
+      "ratio": 7.454360463547625
+    },
+    {
+      "brand": "reina-madre",
+      "variant": "warning",
+      "state": "active",
+      "foreground": "#65492b",
+      "background": "#ffe2c2",
+      "ratio": 6.654051540706321
+    }
+  ],
+  "protectedExceptionsUnchanged": true,
+  "newTokenReadOnlyImport": "sheet-drawer",
+  "otherFinding": {
+    "component": "Toast description",
+    "cause": "text-current/72",
+    "grmRatio": 3.629607675549749,
+    "reinaMadreRatio": 3.2415178692559676,
+    "applied": false
+  },
+  "releaseApproved": false,
+  "checks": {
+    "figmaAliases": "passed",
+    "normalHoverActiveContrast": "passed",
+    "lint": "passed",
+    "typecheck": "passed",
+    "storybookBuild": "passed",
+    "storyTests": "inconclusive: full and focused connector calls did not complete; waits terminated, no passing result recorded"
+  }
+}

@@ -1,0 +1,70 @@
+# Field
+
+ID: components-field
+
+## Stories
+
+### Playground
+
+Story ID: components-field--playground
+
+```
+import { FieldExample } from "@reina-madre/design-system";
+
+const Playground = () => <FieldExample
+    key={JSON.stringify(args)}
+    control="input"
+    status="default"
+    description="after"
+    required={false}
+    orientation="vertical" />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as FieldStories from "./field.stories"
+import fieldSource from "./field.tsx?raw"
+import exampleSource from "./field-example.tsx?raw"
+import { FieldControls, FieldLayouts, FieldSpecifications, FieldStates } from "./field-docs"
+
+<Meta of={FieldStories} />
+<Title of={FieldStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva todos los subcomponentes, orientaciones, estados y semántica de Field oficial.
+  - Compone controles públicos reales; Field no duplica Input, Checkbox, Select ni otros primitives.
+  - Traduce las matrices de Figma a estados `data-invalid`, `data-disabled` y atributos accesibles.
+</details>
+
+## Controles
+
+<div className="mb-12"><FieldControls /></div>
+
+## Estados
+
+<div className="mb-12"><FieldStates /></div>
+
+## Distribución
+
+<div className="mb-12"><FieldLayouts /></div>
+
+## Especificaciones
+
+<div className="mb-12"><FieldSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={fieldSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

@@ -1,0 +1,74 @@
+# Toggle
+
+ID: components-toggle
+
+## Stories
+
+### Playground
+
+Story ID: components-toggle--playground
+
+```
+import { ToggleExample } from "@reina-madre/design-system";
+
+const Playground = () => <ToggleExample
+    key={JSON.stringify(args)}
+    variant="default"
+    size="default"
+    content="icon-text"
+    pressed={false}
+    disabled={false} />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as ToggleStories from "./toggle.stories"
+import toggleSource from "./toggle.tsx?raw"
+import exampleSource from "./toggle-example.tsx?raw"
+import { ToggleContent, ToggleSizes, ToggleSpecifications, ToggleStates, ToggleVariants } from "./toggle-docs"
+
+<Meta of={ToggleStories} />
+<Title of={ToggleStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva el primitive Radix, `aria-pressed`, estado controlado/no controlado y navegación por teclado.
+  - Adapta variantes, tamaños, pressed, hover, focus y disabled desde Figma.
+  - Mantiene icono, texto o ambos como composición de `children`.
+</details>
+
+## Variantes de estilo
+
+<div className="mb-12"><ToggleVariants /></div>
+
+## Contenido
+
+<div className="mb-12"><ToggleContent /></div>
+
+## Escala
+
+<div className="mb-12"><ToggleSizes /></div>
+
+## Estados
+
+<div className="mb-12"><ToggleStates /></div>
+
+## Especificaciones
+
+<div className="mb-12"><ToggleSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={toggleSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

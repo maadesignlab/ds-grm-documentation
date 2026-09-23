@@ -39,8 +39,8 @@ export const Playground: Story = {
       await expect(styles.lineHeight).toBe("16px")
       await expect(styles.fontWeight).toBe("600")
       await expect(styles.textTransform).toBe("uppercase")
-      await expect(styles.fontFamily).toBe(
-        getComputedStyle(document.documentElement).getPropertyValue("--brand-font-sans").trim()
+      await expect(styles.fontFamily.replaceAll('"', "")).toBe(
+        getComputedStyle(document.documentElement).getPropertyValue("--brand-font-sans").trim().replaceAll('"', "")
       )
       const sortableControl = header.querySelector("button")
       if (sortableControl && !sortableControl.matches('[role="checkbox"]')) {
@@ -86,12 +86,12 @@ export const Playground: Story = {
 
       const toolbarTextControls = toolbar!.querySelectorAll<HTMLElement>('input, button:not([role="switch"]), [role="combobox"], label')
       for (const control of toolbarTextControls) {
-        if (!control.textContent?.trim() && control.tagName !== "INPUT") continue
+        if (!control.textContent?.trim().replaceAll('"', "") && control.tagName !== "INPUT") continue
         const styles = getComputedStyle(control)
         await expect(styles.fontSize).toBe("14px")
         await expect(styles.lineHeight).toBe("20px")
-        await expect(styles.fontFamily).toBe(
-          getComputedStyle(document.documentElement).getPropertyValue("--brand-font-sans").trim()
+        await expect(styles.fontFamily.replaceAll('"', "")).toBe(
+          getComputedStyle(document.documentElement).getPropertyValue("--brand-font-sans").trim().replaceAll('"', "")
         )
       }
 

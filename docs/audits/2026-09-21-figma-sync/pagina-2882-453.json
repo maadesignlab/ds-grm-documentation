@@ -1,0 +1,187 @@
+{
+  "id": "2882:453",
+  "name": "Resizable",
+  "total": 23,
+  "sets": [
+    {
+      "id": "2885:4",
+      "name": "_components/ResizablePanel",
+      "type": "COMPONENT",
+      "count": 1,
+      "props": {
+        "Content#2885:0": {
+          "type": "SLOT",
+          "description": null,
+          "preferredValues": []
+        }
+      }
+    },
+    {
+      "id": "2886:46407",
+      "name": "_components/ResizableHandle",
+      "type": "COMPONENT_SET",
+      "count": 8,
+      "props": {
+        "Orientation": {
+          "type": "VARIANT",
+          "defaultValue": "Horizontal",
+          "variantOptions": [
+            "Horizontal",
+            "Vertical"
+          ]
+        },
+        "With Handle": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Focus"
+          ]
+        }
+      }
+    },
+    {
+      "id": "2886:46488",
+      "name": "Resizable",
+      "type": "COMPONENT_SET",
+      "count": 12,
+      "props": {
+        "Orientation": {
+          "type": "VARIANT",
+          "defaultValue": "Horizontal",
+          "variantOptions": [
+            "Horizontal",
+            "Vertical"
+          ]
+        },
+        "Distribution": {
+          "type": "VARIANT",
+          "defaultValue": "25/75",
+          "variantOptions": [
+            "25/75",
+            "50/50",
+            "75/25"
+          ]
+        },
+        "With Handle": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "2886:2",
+      "2886:46407",
+      "Orientation=Horizontal, With Handle=False, State=Default"
+    ],
+    [
+      "2886:3",
+      "2886:46407",
+      "Orientation=Horizontal, With Handle=True, State=Default"
+    ],
+    [
+      "2886:11",
+      "2886:46407",
+      "Orientation=Horizontal, With Handle=False, State=Focus"
+    ],
+    [
+      "2886:13",
+      "2886:46407",
+      "Orientation=Horizontal, With Handle=True, State=Focus"
+    ],
+    [
+      "2886:46389",
+      "2886:46407",
+      "Orientation=Vertical, With Handle=False, State=Default"
+    ],
+    [
+      "2886:46390",
+      "2886:46407",
+      "Orientation=Vertical, With Handle=True, State=Default"
+    ],
+    [
+      "2886:46397",
+      "2886:46407",
+      "Orientation=Vertical, With Handle=False, State=Focus"
+    ],
+    [
+      "2886:46399",
+      "2886:46407",
+      "Orientation=Vertical, With Handle=True, State=Focus"
+    ],
+    [
+      "2886:46416",
+      "2886:46488",
+      "Orientation=Horizontal, Distribution=25/75, With Handle=False"
+    ],
+    [
+      "2886:46422",
+      "2886:46488",
+      "Orientation=Horizontal, Distribution=25/75, With Handle=True"
+    ],
+    [
+      "2886:46428",
+      "2886:46488",
+      "Orientation=Horizontal, Distribution=50/50, With Handle=False"
+    ],
+    [
+      "2886:46434",
+      "2886:46488",
+      "Orientation=Horizontal, Distribution=50/50, With Handle=True"
+    ],
+    [
+      "2886:46440",
+      "2886:46488",
+      "Orientation=Horizontal, Distribution=75/25, With Handle=False"
+    ],
+    [
+      "2886:46446",
+      "2886:46488",
+      "Orientation=Horizontal, Distribution=75/25, With Handle=True"
+    ],
+    [
+      "2886:46452",
+      "2886:46488",
+      "Orientation=Vertical, Distribution=25/75, With Handle=False"
+    ],
+    [
+      "2886:46458",
+      "2886:46488",
+      "Orientation=Vertical, Distribution=25/75, With Handle=True"
+    ],
+    [
+      "2886:46464",
+      "2886:46488",
+      "Orientation=Vertical, Distribution=50/50, With Handle=False"
+    ],
+    [
+      "2886:46470",
+      "2886:46488",
+      "Orientation=Vertical, Distribution=50/50, With Handle=True"
+    ],
+    [
+      "2886:46476",
+      "2886:46488",
+      "Orientation=Vertical, Distribution=75/25, With Handle=False"
+    ],
+    [
+      "2886:46482",
+      "2886:46488",
+      "Orientation=Vertical, Distribution=75/25, With Handle=True"
+    ]
+  ]
+}

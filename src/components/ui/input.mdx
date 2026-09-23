@@ -3,12 +3,28 @@ import * as InputStories from "./input.stories"
 import inputSource from "./input.tsx?raw"
 import inputGroupSource from "./input-group.tsx?raw"
 import exampleSource from "./input-example.tsx?raw"
-import { InputContentExamples, InputSpecifications, InputStates, InputTypes } from "./input-docs"
+import { InputContentExamples, InputSpecifications, InputStates, InputSizes, InputTypes } from "./input-docs"
 
 <Meta of={InputStories} />
 <Title of={InputStories} />
 
 ## Versión
+
+<details open className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+<summary><strong>v1.1.0</strong> · Sincronización Figma para DS v1.1.0</summary>
+
+  **Variantes nuevas:** Ninguna.
+
+  **Nueva composición:** Large de 44 px (`visualSize="large"` en InputExample), con padding de 16 px y texto de 16 px. No añade una prop de tamaño al Input nativo.
+
+  **Actualizaciones:**
+
+  - Normal: altura de 32 → 36 px; padding horizontal px-2.5 → px-3; fondo transparente → card; texto de 14 px y línea de 20 px.
+  - Input Group adopta altura de 36 px y fondo card.
+
+  **Tokens consumidos en esta actualización:** `input`, `muted/foreground`, `muted`, `primary/default-border`, `primary/15%`, `foreground`, `primary`. Consulta sus valores anteriores y actuales en Foundations → Tokens.
+
+</details>
 
 <details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
   <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
@@ -22,6 +38,12 @@ import { InputContentExamples, InputSpecifications, InputStates, InputTypes } fr
 ## Estados
 
 <div className="mb-12"><InputStates /></div>
+
+## Tamaños
+
+Normal y Large conservan las props nativas. Large se compone con `className="h-11 px-4 text-base leading-6"`.
+
+<div className="mb-12"><InputSizes /></div>
 
 ## Tipos nativos
 

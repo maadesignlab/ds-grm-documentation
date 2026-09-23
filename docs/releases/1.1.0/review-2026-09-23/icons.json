@@ -1,0 +1,82 @@
+[
+  {
+    "id": "components-button--icono",
+    "brand": "grm-global",
+    "icons": [
+      {
+        "background": "rgb(0, 123, 109)",
+        "color": "rgb(255, 255, 255)",
+        "disabled": false,
+        "slot": "button",
+        "state": null
+      }
+    ],
+    "renderedBrand": "grm-global"
+  },
+  {
+    "id": "components-checkbox--playground",
+    "brand": "grm-global",
+    "icons": [],
+    "renderedBrand": "grm-global"
+  },
+  {
+    "id": "components-button--icono",
+    "brand": "reina-madre",
+    "icons": [
+      {
+        "background": "rgb(237, 128, 168)",
+        "color": "rgb(255, 255, 255)",
+        "disabled": false,
+        "slot": "button",
+        "state": null
+      }
+    ],
+    "renderedBrand": "reina-madre"
+  },
+  {
+    "id": "components-checkbox--playground",
+    "brand": "reina-madre",
+    "icons": [],
+    "renderedBrand": "reina-madre"
+  },
+  {
+    "id": "components-button--icono",
+    "brand": "maria-linda",
+    "icons": [
+      {
+        "background": "rgb(69, 129, 120)",
+        "color": "rgb(255, 255, 255)",
+        "disabled": false,
+        "slot": "button",
+        "state": null
+      }
+    ],
+    "renderedBrand": "maria-linda"
+  },
+  {
+    "id": "components-checkbox--playground",
+    "brand": "maria-linda",
+    "icons": [],
+    "renderedBrand": "maria-linda"
+  },
+  {
+    "id": "components-button--icono",
+    "brand": "piel-sana",
+    "icons": [
+      {
+        "background": "rgb(255, 146, 72)",
+        "color": "rgb(255, 255, 255)",
+        "disabled": false,
+        "slot": "button",
+        "state": null
+      }
+    ],
+    "renderedBrand": "piel-sana"
+  },
+  {
+    "id": "components-checkbox--playground",
+    "brand": "piel-sana",
+    "icons": [],
+    "renderedBrand": "piel-sana"
+  }
+]

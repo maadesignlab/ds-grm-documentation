@@ -1,0 +1,69 @@
+# Popover
+
+ID: components-popover
+
+## Stories
+
+### Playground
+
+Story ID: components-popover--playground
+
+```
+import { PopoverExample } from "@reina-madre/design-system";
+
+const Playground = () => <PopoverExample
+    key={JSON.stringify(args)}
+    align="start"
+    side="bottom"
+    opened={false}
+    content="basic" />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as PopoverStories from "./popover.stories"
+import popoverSource from "./popover.tsx?raw"
+import exampleSource from "./popover-example.tsx?raw"
+import { PopoverAlignments, PopoverContents, PopoverSides, PopoverSpecifications } from "./popover-docs"
+
+<Meta of={PopoverStories} />
+<Title of={PopoverStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva Root, Trigger, Portal, Positioner, Popup, Title y Description de Base UI/shadcn.
+  - Mantiene estado controlado y no controlado, foco, teclado, dismiss, colisiones, lados y alineación.
+  - Interpreta la superficie vacía de Figma como un slot y conserva el contenedor heredado de shadcn/ui: ancho, altura, padding, radio y sombra oficiales.
+</details>
+
+## Alineación del trigger
+
+<div className="mb-12"><PopoverAlignments /></div>
+
+## Posición
+
+<div className="mb-12"><PopoverSides /></div>
+
+## Contenido
+
+<div className="mb-12"><PopoverContents /></div>
+
+## Especificaciones
+
+<div className="mb-12"><PopoverSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={popoverSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

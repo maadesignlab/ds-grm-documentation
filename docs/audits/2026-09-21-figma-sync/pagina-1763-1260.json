@@ -1,0 +1,175 @@
+{
+  "id": "1763:1260",
+  "name": "Pagination",
+  "total": 20,
+  "sets": [
+    {
+      "id": "1938:6623",
+      "name": "_components/Pagination/Navigation",
+      "type": "COMPONENT_SET",
+      "count": 12,
+      "props": {
+        "Item Amount": {
+          "type": "VARIANT",
+          "defaultValue": "3",
+          "variantOptions": [
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        "Active Item": {
+          "type": "VARIANT",
+          "defaultValue": "1",
+          "variantOptions": [
+            "5",
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1938:7180",
+      "name": "_components/Pagination/NavigationBase",
+      "type": "COMPONENT_SET",
+      "count": 3,
+      "props": {
+        "Item text#1938:4": {
+          "type": "TEXT",
+          "defaultValue": "22"
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "onHover",
+            "active"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1938:7400",
+      "name": "Pagination",
+      "type": "COMPONENT_SET",
+      "count": 2,
+      "props": {
+        "Left ellipsis#1938:8": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Right ellipsis#1938:9": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Left navigation button#1938:10": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Right navigation button#1938:11": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "icons-only"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "1938:6622",
+      "1938:6623",
+      "Item Amount=3, Active Item=1"
+    ],
+    [
+      "1938:6707",
+      "1938:6623",
+      "Item Amount=4, Active Item=1"
+    ],
+    [
+      "1938:6860",
+      "1938:6623",
+      "Item Amount=5, Active Item=1"
+    ],
+    [
+      "1938:6624",
+      "1938:6623",
+      "Item Amount=3, Active Item=2"
+    ],
+    [
+      "1938:6711",
+      "1938:6623",
+      "Item Amount=4, Active Item=2"
+    ],
+    [
+      "1938:6865",
+      "1938:6623",
+      "Item Amount=5, Active Item=2"
+    ],
+    [
+      "1938:6637",
+      "1938:6623",
+      "Item Amount=3, Active Item=3"
+    ],
+    [
+      "1938:6715",
+      "1938:6623",
+      "Item Amount=4, Active Item=3"
+    ],
+    [
+      "1938:6870",
+      "1938:6623",
+      "Item Amount=5, Active Item=3"
+    ],
+    [
+      "1938:6775",
+      "1938:6623",
+      "Item Amount=4, Active Item=4"
+    ],
+    [
+      "1938:6875",
+      "1938:6623",
+      "Item Amount=5, Active Item=4"
+    ],
+    [
+      "1938:7349",
+      "1938:6623",
+      "Item Amount=5, Active Item=5"
+    ],
+    [
+      "1938:7179",
+      "1938:7180",
+      "Status=default"
+    ],
+    [
+      "1938:7181",
+      "1938:7180",
+      "Status=onHover"
+    ],
+    [
+      "1938:7183",
+      "1938:7180",
+      "Status=active"
+    ],
+    [
+      "1938:7021",
+      "1938:7400",
+      "Style=default"
+    ],
+    [
+      "1938:7401",
+      "1938:7400",
+      "Style=icons-only"
+    ]
+  ]
+}

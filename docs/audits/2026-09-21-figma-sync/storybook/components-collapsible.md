@@ -1,0 +1,61 @@
+# Collapsible
+
+ID: components-collapsible
+
+## Stories
+
+### Playground
+
+Story ID: components-collapsible--playground
+
+```
+import { CollapsibleExample } from "@reina-madre/design-system";
+
+const Playground = () => <CollapsibleExample />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as CollapsibleStories from "./collapsible.stories"
+import primitiveSource from "./collapsible.tsx?raw"
+import exampleSource from "./collapsible-example.tsx?raw"
+import { CollapsiblePatterns, CollapsibleSpecifications, CollapsibleStates } from "./collapsible-docs"
+
+<Meta of={CollapsibleStories} />
+<Title of={CollapsibleStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva sin modificaciones `Collapsible`, `CollapsibleTrigger` y `CollapsibleContent` del registro oficial de shadcn/ui sobre Radix.
+  - Añade los patrones FixedTrigger y ExpandableTrigger mediante composición pública.
+  - Mantiene estado, teclado, atributos `data-state` y semántica del primitive.
+  - Playground y Docs consumen `collapsibleExamplePresets` y la misma instancia `CollapsibleExample`.
+</details>
+
+## Patrones
+
+<div className="mb-12"><CollapsiblePatterns /></div>
+
+## Estados
+
+<div className="mb-12"><CollapsibleStates /></div>
+
+## Especificaciones
+
+<div className="mb-12"><CollapsibleSpecifications /></div>
+
+## Código
+
+### Primitive oficial
+
+<Source language="tsx" code={primitiveSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

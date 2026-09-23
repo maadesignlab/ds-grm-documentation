@@ -513,6 +513,7 @@ function SidebarMenuButton({
 
   const button = (
     <Comp
+      aria-label={typeof tooltip === "string" ? tooltip : undefined}
       data-slot="sidebar-menu-button"
       data-sidebar="menu-button"
       data-size={size}

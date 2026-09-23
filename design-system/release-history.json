@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "releases": [
+    {
+      "version": "1.1.0",
+      "previousVersion": "1.0.0",
+      "status": "published",
+      "publishedAt": "2026-09-23",
+      "baselineCommit": "d47da42",
+      "componentVersions": {
+        "accordion": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "alert": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "alert-dialog": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "attachment": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "avatar": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "badge": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "breadcrumb": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "button": {
+          "from": "1.1.0",
+          "to": "1.2.0"
+        },
+        "button-group": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "calendar": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "card": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "carousel": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "checkbox": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "collapsible": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "combobox": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "context-menu": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "data-table": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "date-picker": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "drawer": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "dropdown-menu": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "empty": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "field": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "hover-card": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "input": {
+          "from": "1.0.0",
+          "to": "1.1.0"
+        },
+        "input-otp": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "item": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "kbd": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "label": {
+          "from": "1.0.1",
+          "to": "1.0.2"
+        },
+        "menubar": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "native-select": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "navigation-menu": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "pagination": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "popover": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "progress": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "radio-group": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "resizable": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "scroll-area": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "select": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "separator": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "sheet": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "sidebar": {
+          "from": "1.4.0",
+          "to": "1.4.1"
+        },
+        "slider": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "spinner": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "switch": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "table": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "tabs": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "toast": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "toggle": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "toggle-group": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        },
+        "tooltip": {
+          "from": "1.0.0",
+          "to": "1.0.1"
+        }
+      },
+      "entityVersionPolicy": "Components preserve independent documented SemVer histories. Variables/styles receive their first recorded object version at 1.1.0; previousVersion=null does not assert a historical change. Future object changes increment independently.",
+      "evidence": "docs/releases/1.1.0/validation.json",
+      "exceptions": {
+        "count": 28,
+        "brands": [
+          "reina-madre",
+          "piel-sana"
+        ],
+        "roles": [
+          "primary",
+          "brand-gradient"
+        ],
+        "wcagConformance": false
+      },
+      "localClosedOn": "2026-09-23"
+    },
+    {
+      "version": "1.0.0",
+      "status": "published",
+      "publishedAt": "2026-09-08",
+      "evidence": "CHANGELOG.md"
+    }
+  ]
+}

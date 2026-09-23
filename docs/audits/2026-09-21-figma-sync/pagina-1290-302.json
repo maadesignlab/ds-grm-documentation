@@ -1,0 +1,99 @@
+{
+  "id": "1290:302",
+  "name": "Drawer",
+  "total": 7,
+  "sets": [
+    {
+      "id": "1295:1451",
+      "name": "Drawer",
+      "type": "COMPONENT_SET",
+      "count": 3,
+      "props": {
+        "Espacio#1407:10": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Swipe Handle#1407:13": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Drawer Title#1407:16": {
+          "type": "TEXT",
+          "defaultValue": "Título de la sección"
+        },
+        "Drawer Description#1407:19": {
+          "type": "TEXT",
+          "defaultValue": "Descripción de la sección"
+        },
+        "Position": {
+          "type": "VARIANT",
+          "defaultValue": "side",
+          "variantOptions": [
+            "bottom",
+            "side"
+          ]
+        },
+        "Width": {
+          "type": "VARIANT",
+          "defaultValue": "384px",
+          "variantOptions": [
+            "full",
+            "384px",
+            "480px"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1407:4433",
+      "name": "_components/Drawer/ButtonBar",
+      "type": "COMPONENT_SET",
+      "count": 2,
+      "props": {
+        "Button Amount": {
+          "type": "VARIANT",
+          "defaultValue": "1",
+          "variantOptions": [
+            "1",
+            "2"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "1295:1239",
+      "1295:1451",
+      "Position=side, Width=480px"
+    ],
+    [
+      "4472:8137",
+      "1295:1451",
+      "Position=side, Width=384px"
+    ],
+    [
+      "1295:1452",
+      "1295:1451",
+      "Position=bottom, Width=full"
+    ],
+    [
+      "1407:4432",
+      "1407:4433",
+      "Button Amount=1"
+    ],
+    [
+      "1407:4434",
+      "1407:4433",
+      "Button Amount=2"
+    ]
+  ]
+}

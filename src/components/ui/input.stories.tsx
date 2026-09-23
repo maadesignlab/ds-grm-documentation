@@ -5,8 +5,9 @@ import { InputExample, type InputExampleProps } from "./input-example"
 
 const meta = {
   title: "Components/Input",
-  args: { type: "text", state: "default", leftContent: "none", rightContent: "none", placeholder: "Placeholder text", filled: false },
+  args: { type: "text", state: "default", leftContent: "none", rightContent: "none", placeholder: "Placeholder text", filled: false, visualSize: "normal" },
   argTypes: {
+    visualSize: { name: "Tamaño Figma", control: "inline-radio", options: ["normal", "large"], description: "Composición con className; no reemplaza size nativo de input.", table: { category: "Configuración de muestra" } },
     type: { name: "Tipo nativo", control: "select", options: ["text", "email", "password", "tel", "url", "search", "number", "date", "time", "file"], table: { category: "Props nativas" } },
     placeholder: { name: "Placeholder", control: "text", table: { category: "Contenido" } },
     filled: { name: "Con valor", control: "boolean", description: "Configura defaultValue en la muestra.", table: { category: "Configuración de muestra" } },
@@ -26,6 +27,7 @@ export const Playground: Story = {
     const canvas = within(canvasElement)
     const input = canvas.getByLabelText("Campo de ejemplo")
     await expect(input).toBeVisible()
+    await expect(input.getBoundingClientRect().height).toBe(args.visualSize === "large" ? 44 : 36)
     if (args.state === "disabled") await expect(input).toBeDisabled()
     if (args.state === "invalid") await expect(input).toHaveAttribute("aria-invalid", "true")
     if (args.state === "focused") await expect(input).toHaveFocus()

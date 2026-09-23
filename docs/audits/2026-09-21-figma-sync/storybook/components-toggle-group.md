@@ -1,0 +1,79 @@
+# ToggleGroup
+
+ID: components-toggle-group
+
+## Stories
+
+### Playground
+
+Story ID: components-toggle-group--playground
+
+```
+import { ToggleGroupExample } from "@reina-madre/design-system";
+
+const Playground = () => <ToggleGroupExample
+    key={JSON.stringify(args)}
+    type="single"
+    items={5}
+    content="icon"
+    singleValue="item-3"
+    multipleValues={["item-2", "item-4"]}
+    variant="default"
+    size="default"
+    spacing={2}
+    orientation="horizontal"
+    disabled={false} />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as ToggleGroupStories from "./toggle-group.stories"
+import toggleGroupSource from "./toggle-group.tsx?raw"
+import exampleSource from "./toggle-group-example.tsx?raw"
+import { ToggleGroupContent, ToggleGroupLayouts, ToggleGroupSpecifications, ToggleGroupTypes, ToggleGroupVariants } from "./toggle-group-docs"
+
+<Meta of={ToggleGroupStories} />
+<Title of={ToggleGroupStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva selección única y múltiple, navegación por teclado, orientación y estado disabled del primitive oficial.
+  - Adapta la escala visual de Toggle y el gap predeterminado de 8 px del set de Figma.
+  - Permite composiciones de 1 a 10 ítems con icono, texto o ambos, sin crear una API paralela.
+</details>
+
+## Tipo de selección
+
+<div className="mb-12"><ToggleGroupTypes /></div>
+
+## Variantes de estilo
+
+<div className="mb-12"><ToggleGroupVariants /></div>
+
+## Contenido
+
+<div className="mb-12"><ToggleGroupContent /></div>
+
+## Disposición
+
+<div className="mb-12"><ToggleGroupLayouts /></div>
+
+## Especificaciones
+
+<div className="mb-12"><ToggleGroupSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={toggleGroupSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

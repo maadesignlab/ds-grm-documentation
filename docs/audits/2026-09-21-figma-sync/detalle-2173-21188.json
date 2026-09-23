@@ -1,0 +1,354 @@
+{
+  "id": "2173:21188",
+  "name": "Empty",
+  "total": 29,
+  "nodes": 131,
+  "refs": {
+    "VariableID:429:249": {
+      "count": 5,
+      "example": "2173:21212"
+    },
+    "VariableID:50:513": {
+      "count": 8,
+      "example": "2173:21212"
+    },
+    "VariableID:50:530": {
+      "count": 6,
+      "example": "2173:21212"
+    },
+    "VariableID:50:514": {
+      "count": 36,
+      "example": "2173:21213"
+    },
+    "VariableID:186:174": {
+      "count": 20,
+      "example": "2173:21213"
+    },
+    "VariableID:50:534": {
+      "count": 48,
+      "example": "2173:21213"
+    },
+    "VariableID:44:185": {
+      "count": 10,
+      "example": "2173:21213"
+    },
+    "VariableID:51:172": {
+      "count": 10,
+      "example": "I2173:21213;313:2252"
+    },
+    "VariableID:50:612": {
+      "count": 10,
+      "example": "I2173:21213;313:2252"
+    },
+    "VariableID:132:811": {
+      "count": 16,
+      "example": "I2173:21213;313:2252"
+    },
+    "VariableID:50:639": {
+      "count": 14,
+      "example": "I2173:21213;313:2252"
+    },
+    "VariableID:51:21": {
+      "count": 12,
+      "example": "2173:21214"
+    },
+    "VariableID:44:184": {
+      "count": 50,
+      "example": "I2173:21214;313:2264"
+    },
+    "VariableID:446:365": {
+      "count": 6,
+      "example": "2173:21215"
+    },
+    "VariableID:429:250": {
+      "count": 64,
+      "example": "2173:21261"
+    },
+    "VariableID:44:188": {
+      "count": 32,
+      "example": "2173:21261"
+    },
+    "VariableID:50:531": {
+      "count": 28,
+      "example": "2176:21543"
+    },
+    "VariableID:50:537": {
+      "count": 28,
+      "example": "2177:21704"
+    },
+    "VariableID:50:512": {
+      "count": 8,
+      "example": "2173:21436"
+    },
+    "VariableID:50:526": {
+      "count": 4,
+      "example": "2173:21295"
+    },
+    "VariableID:99:17": {
+      "count": 4,
+      "example": "2173:21302"
+    },
+    "VariableID:71:2": {
+      "count": 4,
+      "example": "2173:21304"
+    },
+    "VariableID:50:641": {
+      "count": 2,
+      "example": "2173:21304"
+    },
+    "VariableID:313:2794": {
+      "count": 2,
+      "example": "I2177:22337;316:5218"
+    },
+    "VariableID:50:536": {
+      "count": 4,
+      "example": "2173:21438"
+    }
+  },
+  "texts": {
+    "S:592db2195316334a05d7f58ef0fced7f0ff0cfb0,": {
+      "count": 10,
+      "example": "I2173:21213;313:2252"
+    },
+    "S:b9200b5971cf3f84adc1475861c0b20e11d4e15e,": {
+      "count": 2,
+      "example": "2173:21302"
+    },
+    "S:1d452614e679106aeb9f64166fd66fd5df9751c7,": {
+      "count": 2,
+      "example": "2173:21304"
+    },
+    "S:fc73b7145c7efdd9b23b63286700e52075797c31,": {
+      "count": 2,
+      "example": "I2177:22337;316:5218"
+    }
+  },
+  "styles": {
+    "S:b8adb059f130b7f80c3daff5ccaceb3c9104f4ef,": {
+      "count": 5,
+      "example": "2173:21213"
+    }
+  },
+  "sets": [
+    {
+      "id": "2173:21211",
+      "name": "_components/Empty/EmptyContent",
+      "count": 3,
+      "props": {
+        "Primary Action#2362:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Secondary Action#2362:4": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Orientation": {
+          "type": "VARIANT",
+          "defaultValue": "Vertical",
+          "variantOptions": [
+            "Vertical",
+            "Horizontal",
+            "Horizontal Wrap"
+          ]
+        }
+      },
+      "default": {
+        "id": "2173:21212",
+        "name": "Orientation=Vertical",
+        "w": 384,
+        "h": 82,
+        "layout": "VERTICAL",
+        "gap": 10,
+        "padding": [
+          4,
+          16,
+          4,
+          16
+        ],
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:249"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:530"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:530"
+          }
+        }
+      }
+    },
+    {
+      "id": "2173:21262",
+      "name": "_components/Empty/EmptyMedia",
+      "count": 21,
+      "props": {
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Icon",
+          "variantOptions": [
+            "Icon",
+            "Avatar",
+            "Spinner"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "58",
+          "variantOptions": [
+            "58",
+            "26",
+            "30",
+            "32",
+            "34",
+            "42",
+            "48"
+          ]
+        }
+      },
+      "default": {
+        "id": "2173:21261",
+        "name": "Type=Icon, Size=58",
+        "w": 58,
+        "h": 58,
+        "layout": "HORIZONTAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 10,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9647058844566345,
+              "g": 0.9490196108818054,
+              "b": 0.95686274766922
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:44:188"
+              }
+            }
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:44:188"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2173:21437",
+      "name": "Empty",
+      "count": 2,
+      "props": {
+        "Auxiliary Action#2177:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Title#2363:0": {
+          "type": "TEXT",
+          "defaultValue": "No hay pacientes registrados"
+        },
+        "Description#2363:3": {
+          "type": "TEXT",
+          "defaultValue": "Registra un paciente para comenzar a gestionar su información clínica."
+        },
+        "Container": {
+          "type": "VARIANT",
+          "defaultValue": "None",
+          "variantOptions": [
+            "None",
+            "Outlined"
+          ]
+        }
+      },
+      "default": {
+        "id": "2173:21436",
+        "name": "Container=None",
+        "w": 382,
+        "h": 258,
+        "layout": "VERTICAL",
+        "gap": 16,
+        "padding": [
+          24,
+          24,
+          24,
+          24
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:512"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:512"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:512"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:512"
+          }
+        }
+      }
+    }
+  ],
+  "errors": []
+}

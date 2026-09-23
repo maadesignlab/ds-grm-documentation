@@ -1,0 +1,1274 @@
+[
+  {
+    "brand": "grm-global",
+    "manual": [],
+    "ready": true,
+    "rows": [
+      {
+        "background": [
+          243,
+          251,
+          244
+        ],
+        "className": "m-0 border-0 p-0 text-(length:--toast-title-font-size) leading-(--toast-title-line-height) font-medium",
+        "color": "rgb(2, 104, 39)",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "ratio": 6.612256192317112,
+        "slot": "toast-title",
+        "tag": "H2",
+        "text": "Datos actualizados",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          243,
+          251,
+          244
+        ],
+        "className": "m-0 p-0 text-xs leading-(--toast-description-line-height) text-current",
+        "color": "rgb(2, 104, 39)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 6.612256192317112,
+        "slot": "toast-description",
+        "tag": "P",
+        "text": "Los cambios se guardaron correctamente.",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          243,
+          251,
+          244
+        ],
+        "className": "group/button inline-flex items-center justify-center overflow-hidden rounded-sm border bg-clip-padding font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-border bg-transparent text-foreground hover:bg-[var(--background-hover)] active:bg-[var(--background-active)] h-7 gap-3 px-3 text-[0.8rem] shrink-0",
+        "color": "rgb(44, 40, 42)",
+        "fontSize": "12.8px",
+        "fontWeight": "500",
+        "ratio": 13.791913745053735,
+        "slot": "toast-action",
+        "tag": "BUTTON",
+        "text": "Deshacer",
+        "threshold": 4.5,
+        "variant": "outline"
+      },
+      {
+        "background": [
+          255,
+          251,
+          239
+        ],
+        "className": "m-0 border-0 p-0 text-(length:--toast-title-font-size) leading-(--toast-title-line-height) font-medium",
+        "color": "rgb(146, 91, 32)",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "ratio": 5.427818659660361,
+        "slot": "toast-title",
+        "tag": "H2",
+        "text": "Datos actualizados",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          255,
+          251,
+          239
+        ],
+        "className": "m-0 p-0 text-xs leading-(--toast-description-line-height) text-current",
+        "color": "rgb(146, 91, 32)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 5.427818659660361,
+        "slot": "toast-description",
+        "tag": "P",
+        "text": "Los cambios se guardaron correctamente.",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          255,
+          251,
+          239
+        ],
+        "className": "group/button inline-flex items-center justify-center overflow-hidden rounded-sm border bg-clip-padding font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-border bg-transparent text-foreground hover:bg-[var(--background-hover)] active:bg-[var(--background-active)] h-7 gap-3 px-3 text-[0.8rem] shrink-0",
+        "color": "rgb(44, 40, 42)",
+        "fontSize": "12.8px",
+        "fontWeight": "500",
+        "ratio": 14.055846701290594,
+        "slot": "toast-action",
+        "tag": "BUTTON",
+        "text": "Deshacer",
+        "threshold": 4.5,
+        "variant": "outline"
+      },
+      {
+        "background": [
+          255,
+          245,
+          243
+        ],
+        "className": "m-0 border-0 p-0 text-(length:--toast-title-font-size) leading-(--toast-title-line-height) font-medium",
+        "color": "rgb(170, 57, 47)",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "ratio": 5.878318337126234,
+        "slot": "toast-title",
+        "tag": "H2",
+        "text": "Datos actualizados",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          255,
+          245,
+          243
+        ],
+        "className": "m-0 p-0 text-xs leading-(--toast-description-line-height) text-current",
+        "color": "rgb(170, 57, 47)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 5.878318337126234,
+        "slot": "toast-description",
+        "tag": "P",
+        "text": "Los cambios se guardaron correctamente.",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          255,
+          245,
+          243
+        ],
+        "className": "group/button inline-flex items-center justify-center overflow-hidden rounded-sm border bg-clip-padding font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-border bg-transparent text-foreground hover:bg-[var(--background-hover)] active:bg-[var(--background-active)] h-7 gap-3 px-3 text-[0.8rem] shrink-0",
+        "color": "rgb(44, 40, 42)",
+        "fontSize": "12.8px",
+        "fontWeight": "500",
+        "ratio": 13.577956343257092,
+        "slot": "toast-action",
+        "tag": "BUTTON",
+        "text": "Deshacer",
+        "threshold": 4.5,
+        "variant": "outline"
+      },
+      {
+        "background": [
+          245,
+          246,
+          255
+        ],
+        "className": "m-0 border-0 p-0 text-(length:--toast-title-font-size) leading-(--toast-title-line-height) font-medium",
+        "color": "rgb(63, 77, 170)",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "ratio": 6.8371353044051055,
+        "slot": "toast-title",
+        "tag": "H2",
+        "text": "Datos actualizados",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          245,
+          246,
+          255
+        ],
+        "className": "m-0 p-0 text-xs leading-(--toast-description-line-height) text-current",
+        "color": "rgb(63, 77, 170)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 6.8371353044051055,
+        "slot": "toast-description",
+        "tag": "P",
+        "text": "Los cambios se guardaron correctamente.",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          245,
+          246,
+          255
+        ],
+        "className": "group/button inline-flex items-center justify-center overflow-hidden rounded-sm border bg-clip-padding font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-border bg-transparent text-foreground hover:bg-[var(--background-hover)] active:bg-[var(--background-active)] h-7 gap-3 px-3 text-[0.8rem] shrink-0",
+        "color": "rgb(44, 40, 42)",
+        "fontSize": "12.8px",
+        "fontWeight": "500",
+        "ratio": 13.509832606456897,
+        "slot": "toast-action",
+        "tag": "BUTTON",
+        "text": "Deshacer",
+        "threshold": 4.5,
+        "variant": "outline"
+      },
+      {
+        "background": [
+          250,
+          248,
+          251
+        ],
+        "className": "m-0 border-0 p-0 text-(length:--toast-title-font-size) leading-(--toast-title-line-height) font-medium",
+        "color": "rgb(44, 40, 42)",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "ratio": 13.770187398115954,
+        "slot": "toast-title",
+        "tag": "H2",
+        "text": "Datos actualizados",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          250,
+          248,
+          251
+        ],
+        "className": "m-0 p-0 text-xs leading-(--toast-description-line-height) text-current",
+        "color": "rgb(44, 40, 42)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 13.770187398115954,
+        "slot": "toast-description",
+        "tag": "P",
+        "text": "Los cambios se guardaron correctamente.",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          250,
+          248,
+          251
+        ],
+        "className": "group/button inline-flex items-center justify-center overflow-hidden rounded-sm border bg-clip-padding font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-border bg-transparent text-foreground hover:bg-[var(--background-hover)] active:bg-[var(--background-active)] h-7 gap-3 px-3 text-[0.8rem] shrink-0",
+        "color": "rgb(44, 40, 42)",
+        "fontSize": "12.8px",
+        "fontWeight": "500",
+        "ratio": 13.770187398115954,
+        "slot": "toast-action",
+        "tag": "BUTTON",
+        "text": "Deshacer",
+        "threshold": 4.5,
+        "variant": "outline"
+      },
+      {
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "className": "m-0 border-0 p-0 text-(length:--toast-title-font-size) leading-(--toast-title-line-height) font-medium",
+        "color": "rgb(44, 40, 42)",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "ratio": 14.542485991540294,
+        "slot": "toast-title",
+        "tag": "H2",
+        "text": "Datos actualizados",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "className": "m-0 p-0 text-xs leading-(--toast-description-line-height) text-current",
+        "color": "rgb(44, 40, 42)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 14.542485991540294,
+        "slot": "toast-description",
+        "tag": "P",
+        "text": "Los cambios se guardaron correctamente.",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "className": "group/button inline-flex items-center justify-center overflow-hidden rounded-sm border bg-clip-padding font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-border bg-transparent text-foreground hover:bg-[var(--background-hover)] active:bg-[var(--background-active)] h-7 gap-3 px-3 text-[0.8rem] shrink-0",
+        "color": "rgb(44, 40, 42)",
+        "fontSize": "12.8px",
+        "fontWeight": "500",
+        "ratio": 14.542485991540294,
+        "slot": "toast-action",
+        "tag": "BUTTON",
+        "text": "Deshacer",
+        "threshold": 4.5,
+        "variant": "outline"
+      },
+      {
+        "background": [
+          0,
+          123,
+          109
+        ],
+        "className": "group/button inline-flex shrink-0 items-center justify-center overflow-hidden rounded-sm border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary text-primary-foreground shadow-xs hover:bg-[var(--primary-hover)] active:bg-[var(--primary-active)] h-8 gap-3 px-3",
+        "color": "rgb(255, 255, 255)",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "ratio": 5.180057682107067,
+        "slot": "button",
+        "tag": "BUTTON",
+        "text": "Mostrar notificación",
+        "threshold": 4.5,
+        "variant": "default"
+      }
+    ]
+  },
+  {
+    "brand": "reina-madre",
+    "manual": [],
+    "ready": true,
+    "rows": [
+      {
+        "background": [
+          245,
+          250,
+          245
+        ],
+        "className": "m-0 border-0 p-0 text-(length:--toast-title-font-size) leading-(--toast-title-line-height) font-medium",
+        "color": "rgb(68, 105, 74)",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "ratio": 5.905935633904569,
+        "slot": "toast-title",
+        "tag": "H2",
+        "text": "Datos actualizados",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          245,
+          250,
+          245
+        ],
+        "className": "m-0 p-0 text-xs leading-(--toast-description-line-height) text-current",
+        "color": "rgb(68, 105, 74)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 5.905935633904569,
+        "slot": "toast-description",
+        "tag": "P",
+        "text": "Los cambios se guardaron correctamente.",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          245,
+          250,
+          245
+        ],
+        "className": "group/button inline-flex items-center justify-center overflow-hidden rounded-sm border bg-clip-padding font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-border bg-transparent text-foreground hover:bg-[var(--background-hover)] active:bg-[var(--background-active)] h-7 gap-3 px-3 text-[0.8rem] shrink-0",
+        "color": "rgb(40, 40, 47)",
+        "fontSize": "12.8px",
+        "fontWeight": "500",
+        "ratio": 13.852404979004044,
+        "slot": "toast-action",
+        "tag": "BUTTON",
+        "text": "Deshacer",
+        "threshold": 4.5,
+        "variant": "outline"
+      },
+      {
+        "background": [
+          255,
+          249,
+          242
+        ],
+        "className": "m-0 border-0 p-0 text-(length:--toast-title-font-size) leading-(--toast-title-line-height) font-medium",
+        "color": "rgb(101, 73, 43)",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "ratio": 7.903394815800041,
+        "slot": "toast-title",
+        "tag": "H2",
+        "text": "Datos actualizados",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          255,
+          249,
+          242
+        ],
+        "className": "m-0 p-0 text-xs leading-(--toast-description-line-height) text-current",
+        "color": "rgb(101, 73, 43)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 7.903394815800041,
+        "slot": "toast-description",
+        "tag": "P",
+        "text": "Los cambios se guardaron correctamente.",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          255,
+          249,
+          242
+        ],
+        "className": "group/button inline-flex items-center justify-center overflow-hidden rounded-sm border bg-clip-padding font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-border bg-transparent text-foreground hover:bg-[var(--background-hover)] active:bg-[var(--background-active)] h-7 gap-3 px-3 text-[0.8rem] shrink-0",
+        "color": "rgb(40, 40, 47)",
+        "fontSize": "12.8px",
+        "fontWeight": "500",
+        "ratio": 13.998197277920866,
+        "slot": "toast-action",
+        "tag": "BUTTON",
+        "text": "Deshacer",
+        "threshold": 4.5,
+        "variant": "outline"
+      },
+      {
+        "background": [
+          254,
+          242,
+          242
+        ],
+        "className": "m-0 border-0 p-0 text-(length:--toast-title-font-size) leading-(--toast-title-line-height) font-medium",
+        "color": "rgb(153, 27, 27)",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "ratio": 7.596644272500255,
+        "slot": "toast-title",
+        "tag": "H2",
+        "text": "Datos actualizados",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          254,
+          242,
+          242
+        ],
+        "className": "m-0 p-0 text-xs leading-(--toast-description-line-height) text-current",
+        "color": "rgb(153, 27, 27)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 7.596644272500255,
+        "slot": "toast-description",
+        "tag": "P",
+        "text": "Los cambios se guardaron correctamente.",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          254,
+          242,
+          242
+        ],
+        "className": "group/button inline-flex items-center justify-center overflow-hidden rounded-sm border bg-clip-padding font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-border bg-transparent text-foreground hover:bg-[var(--background-hover)] active:bg-[var(--background-active)] h-7 gap-3 px-3 text-[0.8rem] shrink-0",
+        "color": "rgb(40, 40, 47)",
+        "fontSize": "12.8px",
+        "fontWeight": "500",
+        "ratio": 13.37980987346737,
+        "slot": "toast-action",
+        "tag": "BUTTON",
+        "text": "Deshacer",
+        "threshold": 4.5,
+        "variant": "outline"
+      },
+      {
+        "background": [
+          240,
+          249,
+          255
+        ],
+        "className": "m-0 border-0 p-0 text-(length:--toast-title-font-size) leading-(--toast-title-line-height) font-medium",
+        "color": "rgb(7, 89, 133)",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "ratio": 7.094569638887048,
+        "slot": "toast-title",
+        "tag": "H2",
+        "text": "Datos actualizados",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          240,
+          249,
+          255
+        ],
+        "className": "m-0 p-0 text-xs leading-(--toast-description-line-height) text-current",
+        "color": "rgb(7, 89, 133)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 7.094569638887048,
+        "slot": "toast-description",
+        "tag": "P",
+        "text": "Los cambios se guardaron correctamente.",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          240,
+          249,
+          255
+        ],
+        "className": "group/button inline-flex items-center justify-center overflow-hidden rounded-sm border bg-clip-padding font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-border bg-transparent text-foreground hover:bg-[var(--background-hover)] active:bg-[var(--background-active)] h-7 gap-3 px-3 text-[0.8rem] shrink-0",
+        "color": "rgb(40, 40, 47)",
+        "fontSize": "12.8px",
+        "fontWeight": "500",
+        "ratio": 13.729789528831857,
+        "slot": "toast-action",
+        "tag": "BUTTON",
+        "text": "Deshacer",
+        "threshold": 4.5,
+        "variant": "outline"
+      },
+      {
+        "background": [
+          248,
+          248,
+          252
+        ],
+        "className": "m-0 border-0 p-0 text-(length:--toast-title-font-size) leading-(--toast-title-line-height) font-medium",
+        "color": "rgb(40, 40, 47)",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "ratio": 13.81661891232376,
+        "slot": "toast-title",
+        "tag": "H2",
+        "text": "Datos actualizados",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          248,
+          248,
+          252
+        ],
+        "className": "m-0 p-0 text-xs leading-(--toast-description-line-height) text-current",
+        "color": "rgb(40, 40, 47)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 13.81661891232376,
+        "slot": "toast-description",
+        "tag": "P",
+        "text": "Los cambios se guardaron correctamente.",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          248,
+          248,
+          252
+        ],
+        "className": "group/button inline-flex items-center justify-center overflow-hidden rounded-sm border bg-clip-padding font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-border bg-transparent text-foreground hover:bg-[var(--background-hover)] active:bg-[var(--background-active)] h-7 gap-3 px-3 text-[0.8rem] shrink-0",
+        "color": "rgb(40, 40, 47)",
+        "fontSize": "12.8px",
+        "fontWeight": "500",
+        "ratio": 13.81661891232376,
+        "slot": "toast-action",
+        "tag": "BUTTON",
+        "text": "Deshacer",
+        "threshold": 4.5,
+        "variant": "outline"
+      },
+      {
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "className": "m-0 border-0 p-0 text-(length:--toast-title-font-size) leading-(--toast-title-line-height) font-medium",
+        "color": "rgb(40, 40, 47)",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "ratio": 14.636317232862506,
+        "slot": "toast-title",
+        "tag": "H2",
+        "text": "Datos actualizados",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "className": "m-0 p-0 text-xs leading-(--toast-description-line-height) text-current",
+        "color": "rgb(40, 40, 47)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 14.636317232862506,
+        "slot": "toast-description",
+        "tag": "P",
+        "text": "Los cambios se guardaron correctamente.",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "className": "group/button inline-flex items-center justify-center overflow-hidden rounded-sm border bg-clip-padding font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-border bg-transparent text-foreground hover:bg-[var(--background-hover)] active:bg-[var(--background-active)] h-7 gap-3 px-3 text-[0.8rem] shrink-0",
+        "color": "rgb(40, 40, 47)",
+        "fontSize": "12.8px",
+        "fontWeight": "500",
+        "ratio": 14.636317232862506,
+        "slot": "toast-action",
+        "tag": "BUTTON",
+        "text": "Deshacer",
+        "threshold": 4.5,
+        "variant": "outline"
+      },
+      {
+        "background": [
+          237,
+          128,
+          168
+        ],
+        "className": "group/button inline-flex shrink-0 items-center justify-center overflow-hidden rounded-sm border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary text-primary-foreground shadow-xs hover:bg-[var(--primary-hover)] active:bg-[var(--primary-active)] h-8 gap-3 px-3",
+        "color": "rgb(255, 255, 255)",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "ratio": 2.544219679327394,
+        "slot": "button",
+        "tag": "BUTTON",
+        "text": "Mostrar notificación",
+        "threshold": 4.5,
+        "variant": "default"
+      }
+    ]
+  },
+  {
+    "brand": "maria-linda",
+    "manual": [],
+    "ready": true,
+    "rows": [
+      {
+        "background": [
+          234,
+          248,
+          239
+        ],
+        "className": "m-0 border-0 p-0 text-(length:--toast-title-font-size) leading-(--toast-title-line-height) font-medium",
+        "color": "rgb(10, 92, 56)",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "ratio": 7.37132214594598,
+        "slot": "toast-title",
+        "tag": "H2",
+        "text": "Datos actualizados",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          234,
+          248,
+          239
+        ],
+        "className": "m-0 p-0 text-xs leading-(--toast-description-line-height) text-current",
+        "color": "rgb(10, 92, 56)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 7.37132214594598,
+        "slot": "toast-description",
+        "tag": "P",
+        "text": "Los cambios se guardaron correctamente.",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          234,
+          248,
+          239
+        ],
+        "className": "group/button inline-flex items-center justify-center overflow-hidden rounded-sm border bg-clip-padding font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-border bg-transparent text-foreground hover:bg-[var(--background-hover)] active:bg-[var(--background-active)] h-7 gap-3 px-3 text-[0.8rem] shrink-0",
+        "color": "rgb(40, 41, 42)",
+        "fontSize": "12.8px",
+        "fontWeight": "500",
+        "ratio": 13.30609362459557,
+        "slot": "toast-action",
+        "tag": "BUTTON",
+        "text": "Deshacer",
+        "threshold": 4.5,
+        "variant": "outline"
+      },
+      {
+        "background": [
+          253,
+          244,
+          230
+        ],
+        "className": "m-0 border-0 p-0 text-(length:--toast-title-font-size) leading-(--toast-title-line-height) font-medium",
+        "color": "rgb(117, 81, 8)",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "ratio": 6.557833457056827,
+        "slot": "toast-title",
+        "tag": "H2",
+        "text": "Datos actualizados",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          253,
+          244,
+          230
+        ],
+        "className": "m-0 p-0 text-xs leading-(--toast-description-line-height) text-current",
+        "color": "rgb(117, 81, 8)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 6.557833457056827,
+        "slot": "toast-description",
+        "tag": "P",
+        "text": "Los cambios se guardaron correctamente.",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          253,
+          244,
+          230
+        ],
+        "className": "group/button inline-flex items-center justify-center overflow-hidden rounded-sm border bg-clip-padding font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-border bg-transparent text-foreground hover:bg-[var(--background-hover)] active:bg-[var(--background-active)] h-7 gap-3 px-3 text-[0.8rem] shrink-0",
+        "color": "rgb(40, 41, 42)",
+        "fontSize": "12.8px",
+        "fontWeight": "500",
+        "ratio": 13.366886488825626,
+        "slot": "toast-action",
+        "tag": "BUTTON",
+        "text": "Deshacer",
+        "threshold": 4.5,
+        "variant": "outline"
+      },
+      {
+        "background": [
+          254,
+          238,
+          238
+        ],
+        "className": "m-0 border-0 p-0 text-(length:--toast-title-font-size) leading-(--toast-title-line-height) font-medium",
+        "color": "rgb(136, 2, 34)",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "ratio": 8.986009925272333,
+        "slot": "toast-title",
+        "tag": "H2",
+        "text": "Datos actualizados",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          254,
+          238,
+          238
+        ],
+        "className": "m-0 p-0 text-xs leading-(--toast-description-line-height) text-current",
+        "color": "rgb(136, 2, 34)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 8.986009925272333,
+        "slot": "toast-description",
+        "tag": "P",
+        "text": "Los cambios se guardaron correctamente.",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          254,
+          238,
+          238
+        ],
+        "className": "group/button inline-flex items-center justify-center overflow-hidden rounded-sm border bg-clip-padding font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-border bg-transparent text-foreground hover:bg-[var(--background-hover)] active:bg-[var(--background-active)] h-7 gap-3 px-3 text-[0.8rem] shrink-0",
+        "color": "rgb(40, 41, 42)",
+        "fontSize": "12.8px",
+        "fontWeight": "500",
+        "ratio": 12.963753216883829,
+        "slot": "toast-action",
+        "tag": "BUTTON",
+        "text": "Deshacer",
+        "threshold": 4.5,
+        "variant": "outline"
+      },
+      {
+        "background": [
+          234,
+          243,
+          255
+        ],
+        "className": "m-0 border-0 p-0 text-(length:--toast-title-font-size) leading-(--toast-title-line-height) font-medium",
+        "color": "rgb(6, 66, 130)",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "ratio": 8.894938440861514,
+        "slot": "toast-title",
+        "tag": "H2",
+        "text": "Datos actualizados",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          234,
+          243,
+          255
+        ],
+        "className": "m-0 p-0 text-xs leading-(--toast-description-line-height) text-current",
+        "color": "rgb(6, 66, 130)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 8.894938440861514,
+        "slot": "toast-description",
+        "tag": "P",
+        "text": "Los cambios se guardaron correctamente.",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          234,
+          243,
+          255
+        ],
+        "className": "group/button inline-flex items-center justify-center overflow-hidden rounded-sm border bg-clip-padding font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-border bg-transparent text-foreground hover:bg-[var(--background-hover)] active:bg-[var(--background-active)] h-7 gap-3 px-3 text-[0.8rem] shrink-0",
+        "color": "rgb(40, 41, 42)",
+        "fontSize": "12.8px",
+        "fontWeight": "500",
+        "ratio": 13.022144585299596,
+        "slot": "toast-action",
+        "tag": "BUTTON",
+        "text": "Deshacer",
+        "threshold": 4.5,
+        "variant": "outline"
+      },
+      {
+        "background": [
+          248,
+          249,
+          249
+        ],
+        "className": "m-0 border-0 p-0 text-(length:--toast-title-font-size) leading-(--toast-title-line-height) font-medium",
+        "color": "rgb(40, 41, 42)",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "ratio": 13.818041155132136,
+        "slot": "toast-title",
+        "tag": "H2",
+        "text": "Datos actualizados",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          248,
+          249,
+          249
+        ],
+        "className": "m-0 p-0 text-xs leading-(--toast-description-line-height) text-current",
+        "color": "rgb(40, 41, 42)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 13.818041155132136,
+        "slot": "toast-description",
+        "tag": "P",
+        "text": "Los cambios se guardaron correctamente.",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          248,
+          249,
+          249
+        ],
+        "className": "group/button inline-flex items-center justify-center overflow-hidden rounded-sm border bg-clip-padding font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-border bg-transparent text-foreground hover:bg-[var(--background-hover)] active:bg-[var(--background-active)] h-7 gap-3 px-3 text-[0.8rem] shrink-0",
+        "color": "rgb(40, 41, 42)",
+        "fontSize": "12.8px",
+        "fontWeight": "500",
+        "ratio": 13.818041155132136,
+        "slot": "toast-action",
+        "tag": "BUTTON",
+        "text": "Deshacer",
+        "threshold": 4.5,
+        "variant": "outline"
+      },
+      {
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "className": "m-0 border-0 p-0 text-(length:--toast-title-font-size) leading-(--toast-title-line-height) font-medium",
+        "color": "rgb(40, 41, 42)",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "ratio": 14.574912870089104,
+        "slot": "toast-title",
+        "tag": "H2",
+        "text": "Datos actualizados",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "className": "m-0 p-0 text-xs leading-(--toast-description-line-height) text-current",
+        "color": "rgb(40, 41, 42)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 14.574912870089104,
+        "slot": "toast-description",
+        "tag": "P",
+        "text": "Los cambios se guardaron correctamente.",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "className": "group/button inline-flex items-center justify-center overflow-hidden rounded-sm border bg-clip-padding font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-border bg-transparent text-foreground hover:bg-[var(--background-hover)] active:bg-[var(--background-active)] h-7 gap-3 px-3 text-[0.8rem] shrink-0",
+        "color": "rgb(40, 41, 42)",
+        "fontSize": "12.8px",
+        "fontWeight": "500",
+        "ratio": 14.574912870089104,
+        "slot": "toast-action",
+        "tag": "BUTTON",
+        "text": "Deshacer",
+        "threshold": 4.5,
+        "variant": "outline"
+      },
+      {
+        "background": [
+          69,
+          129,
+          120
+        ],
+        "className": "group/button inline-flex shrink-0 items-center justify-center overflow-hidden rounded-sm border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary text-primary-foreground shadow-xs hover:bg-[var(--primary-hover)] active:bg-[var(--primary-active)] h-8 gap-3 px-3",
+        "color": "rgb(255, 255, 255)",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "ratio": 4.502227566362509,
+        "slot": "button",
+        "tag": "BUTTON",
+        "text": "Mostrar notificación",
+        "threshold": 4.5,
+        "variant": "default"
+      }
+    ]
+  },
+  {
+    "brand": "piel-sana",
+    "manual": [],
+    "ready": true,
+    "rows": [
+      {
+        "background": [
+          238,
+          249,
+          231
+        ],
+        "className": "m-0 border-0 p-0 text-(length:--toast-title-font-size) leading-(--toast-title-line-height) font-medium",
+        "color": "rgb(53, 97, 1)",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "ratio": 6.7580999296442785,
+        "slot": "toast-title",
+        "tag": "H2",
+        "text": "Datos actualizados",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          238,
+          249,
+          231
+        ],
+        "className": "m-0 p-0 text-xs leading-(--toast-description-line-height) text-current",
+        "color": "rgb(53, 97, 1)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 6.7580999296442785,
+        "slot": "toast-description",
+        "tag": "P",
+        "text": "Los cambios se guardaron correctamente.",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          238,
+          249,
+          231
+        ],
+        "className": "group/button inline-flex items-center justify-center overflow-hidden rounded-sm border bg-clip-padding font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-border bg-transparent text-foreground hover:bg-[var(--background-hover)] active:bg-[var(--background-active)] h-7 gap-3 px-3 text-[0.8rem] shrink-0",
+        "color": "rgb(42, 41, 38)",
+        "fontSize": "12.8px",
+        "fontWeight": "500",
+        "ratio": 13.396683079120285,
+        "slot": "toast-action",
+        "tag": "BUTTON",
+        "text": "Deshacer",
+        "threshold": 4.5,
+        "variant": "outline"
+      },
+      {
+        "background": [
+          254,
+          245,
+          230
+        ],
+        "className": "m-0 border-0 p-0 text-(length:--toast-title-font-size) leading-(--toast-title-line-height) font-medium",
+        "color": "rgb(119, 84, 0)",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "ratio": 6.361229862073154,
+        "slot": "toast-title",
+        "tag": "H2",
+        "text": "Datos actualizados",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          254,
+          245,
+          230
+        ],
+        "className": "m-0 p-0 text-xs leading-(--toast-description-line-height) text-current",
+        "color": "rgb(119, 84, 0)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 6.361229862073154,
+        "slot": "toast-description",
+        "tag": "P",
+        "text": "Los cambios se guardaron correctamente.",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          254,
+          245,
+          230
+        ],
+        "className": "group/button inline-flex items-center justify-center overflow-hidden rounded-sm border bg-clip-padding font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-border bg-transparent text-foreground hover:bg-[var(--background-hover)] active:bg-[var(--background-active)] h-7 gap-3 px-3 text-[0.8rem] shrink-0",
+        "color": "rgb(42, 41, 38)",
+        "fontSize": "12.8px",
+        "fontWeight": "500",
+        "ratio": 13.450823568911373,
+        "slot": "toast-action",
+        "tag": "BUTTON",
+        "text": "Deshacer",
+        "threshold": 4.5,
+        "variant": "outline"
+      },
+      {
+        "background": [
+          255,
+          239,
+          236
+        ],
+        "className": "m-0 border-0 p-0 text-(length:--toast-title-font-size) leading-(--toast-title-line-height) font-medium",
+        "color": "rgb(138, 25, 2)",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "ratio": 8.470668113264704,
+        "slot": "toast-title",
+        "tag": "H2",
+        "text": "Datos actualizados",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          255,
+          239,
+          236
+        ],
+        "className": "m-0 p-0 text-xs leading-(--toast-description-line-height) text-current",
+        "color": "rgb(138, 25, 2)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 8.470668113264704,
+        "slot": "toast-description",
+        "tag": "P",
+        "text": "Los cambios se guardaron correctamente.",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          255,
+          239,
+          236
+        ],
+        "className": "group/button inline-flex items-center justify-center overflow-hidden rounded-sm border bg-clip-padding font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-border bg-transparent text-foreground hover:bg-[var(--background-hover)] active:bg-[var(--background-active)] h-7 gap-3 px-3 text-[0.8rem] shrink-0",
+        "color": "rgb(42, 41, 38)",
+        "fontSize": "12.8px",
+        "fontWeight": "500",
+        "ratio": 13.029701329370498,
+        "slot": "toast-action",
+        "tag": "BUTTON",
+        "text": "Deshacer",
+        "threshold": 4.5,
+        "variant": "outline"
+      },
+      {
+        "background": [
+          233,
+          243,
+          255
+        ],
+        "className": "m-0 border-0 p-0 text-(length:--toast-title-font-size) leading-(--toast-title-line-height) font-medium",
+        "color": "rgb(2, 69, 123)",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "ratio": 8.752498591793174,
+        "slot": "toast-title",
+        "tag": "H2",
+        "text": "Datos actualizados",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          233,
+          243,
+          255
+        ],
+        "className": "m-0 p-0 text-xs leading-(--toast-description-line-height) text-current",
+        "color": "rgb(2, 69, 123)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 8.752498591793174,
+        "slot": "toast-description",
+        "tag": "P",
+        "text": "Los cambios se guardaron correctamente.",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          233,
+          243,
+          255
+        ],
+        "className": "group/button inline-flex items-center justify-center overflow-hidden rounded-sm border bg-clip-padding font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-border bg-transparent text-foreground hover:bg-[var(--background-hover)] active:bg-[var(--background-active)] h-7 gap-3 px-3 text-[0.8rem] shrink-0",
+        "color": "rgb(42, 41, 38)",
+        "fontSize": "12.8px",
+        "fontWeight": "500",
+        "ratio": 12.973687575658849,
+        "slot": "toast-action",
+        "tag": "BUTTON",
+        "text": "Deshacer",
+        "threshold": 4.5,
+        "variant": "outline"
+      },
+      {
+        "background": [
+          251,
+          250,
+          248
+        ],
+        "className": "m-0 border-0 p-0 text-(length:--toast-title-font-size) leading-(--toast-title-line-height) font-medium",
+        "color": "rgb(42, 41, 38)",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "ratio": 13.945269276496186,
+        "slot": "toast-title",
+        "tag": "H2",
+        "text": "Datos actualizados",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          251,
+          250,
+          248
+        ],
+        "className": "m-0 p-0 text-xs leading-(--toast-description-line-height) text-current",
+        "color": "rgb(42, 41, 38)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 13.945269276496186,
+        "slot": "toast-description",
+        "tag": "P",
+        "text": "Los cambios se guardaron correctamente.",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          251,
+          250,
+          248
+        ],
+        "className": "group/button inline-flex items-center justify-center overflow-hidden rounded-sm border bg-clip-padding font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-border bg-transparent text-foreground hover:bg-[var(--background-hover)] active:bg-[var(--background-active)] h-7 gap-3 px-3 text-[0.8rem] shrink-0",
+        "color": "rgb(42, 41, 38)",
+        "fontSize": "12.8px",
+        "fontWeight": "500",
+        "ratio": 13.945269276496186,
+        "slot": "toast-action",
+        "tag": "BUTTON",
+        "text": "Deshacer",
+        "threshold": 4.5,
+        "variant": "outline"
+      },
+      {
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "className": "m-0 border-0 p-0 text-(length:--toast-title-font-size) leading-(--toast-title-line-height) font-medium",
+        "color": "rgb(42, 41, 38)",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "ratio": 14.546850133270771,
+        "slot": "toast-title",
+        "tag": "H2",
+        "text": "Datos actualizados",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "className": "m-0 p-0 text-xs leading-(--toast-description-line-height) text-current",
+        "color": "rgb(42, 41, 38)",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 14.546850133270771,
+        "slot": "toast-description",
+        "tag": "P",
+        "text": "Los cambios se guardaron correctamente.",
+        "threshold": 4.5
+      },
+      {
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "className": "group/button inline-flex items-center justify-center overflow-hidden rounded-sm border bg-clip-padding font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-border bg-transparent text-foreground hover:bg-[var(--background-hover)] active:bg-[var(--background-active)] h-7 gap-3 px-3 text-[0.8rem] shrink-0",
+        "color": "rgb(42, 41, 38)",
+        "fontSize": "12.8px",
+        "fontWeight": "500",
+        "ratio": 14.546850133270771,
+        "slot": "toast-action",
+        "tag": "BUTTON",
+        "text": "Deshacer",
+        "threshold": 4.5,
+        "variant": "outline"
+      },
+      {
+        "background": [
+          255,
+          146,
+          72
+        ],
+        "className": "group/button inline-flex shrink-0 items-center justify-center overflow-hidden rounded-sm border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-colors outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary text-primary-foreground shadow-xs hover:bg-[var(--primary-hover)] active:bg-[var(--primary-active)] h-8 gap-3 px-3",
+        "color": "rgb(255, 255, 255)",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "ratio": 2.220546905360942,
+        "slot": "button",
+        "tag": "BUTTON",
+        "text": "Mostrar notificación",
+        "threshold": 4.5,
+        "variant": "default"
+      }
+    ]
+  }
+]

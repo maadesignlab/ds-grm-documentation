@@ -1,0 +1,2139 @@
+[
+  {
+    "component": "Accordion",
+    "slug": "accordion",
+    "figmaNode": "1771:909",
+    "page": "1771:909",
+    "definitionCount": 71,
+    "sets": [
+      {
+        "id": "1771:13033",
+        "name": "_components/Accordion/AccordionItem",
+        "count": 2
+      },
+      {
+        "id": "1771:13082",
+        "name": "_components/Accordion/AccordionBaseText",
+        "count": 2
+      },
+      {
+        "id": "1771:13171",
+        "name": "Accordion/Multiple",
+        "count": 9
+      },
+      {
+        "id": "1771:13749",
+        "name": "Accordion/Unique",
+        "count": 54
+      }
+    ],
+    "affectedSemanticRoles": [
+      "border",
+      "foreground"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/accordion.tsx",
+    "storybookDocumentation": "storybook/components-accordion.md"
+  },
+  {
+    "component": "Alert",
+    "slug": "alert",
+    "figmaNode": "1178:530",
+    "page": "1178:530",
+    "definitionCount": 3,
+    "sets": [
+      {
+        "id": "1226:475",
+        "name": "Alert",
+        "count": 2
+      }
+    ],
+    "affectedSemanticRoles": [
+      "border",
+      "foreground",
+      "card/foreground",
+      "muted/foreground",
+      "primary",
+      "destructive"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/alert.tsx",
+    "storybookDocumentation": "storybook/components-alert.md"
+  },
+  {
+    "component": "Alert Dialog",
+    "slug": "alert-dialog",
+    "figmaNode": "1187:612",
+    "page": "1187:612",
+    "definitionCount": 5,
+    "sets": [
+      {
+        "id": "1194:651",
+        "name": "Alert Dialog",
+        "count": 4
+      }
+    ],
+    "affectedSemanticRoles": [
+      "background",
+      "border",
+      "muted",
+      "foreground",
+      "popover/foreground",
+      "muted/foreground",
+      "primary",
+      "destructive/20%",
+      "destructive/light",
+      "destructive/light-border",
+      "destructive/light-foreground"
+    ],
+    "affectedTextStyles": [],
+    "note": "Geometría principal 384×148, radio 14 px y bg-popover ya representados en código. Cambian los valores de popover, foreground y muted; el footer usa muted/50 en código.",
+    "implementation": "src/components/ui/alert-dialog.tsx",
+    "storybookDocumentation": "storybook/components-alert-dialog.md"
+  },
+  {
+    "component": "Attachment",
+    "slug": "attachment",
+    "figmaNode": "2827:14904",
+    "page": "2827:14904",
+    "definitionCount": 54,
+    "sets": [
+      {
+        "id": "2861:46400",
+        "name": "AttachmentGroup",
+        "count": 10
+      },
+      {
+        "id": "2848:45653",
+        "name": "Attachment",
+        "count": 20
+      },
+      {
+        "id": "2845:45509",
+        "name": "_components/Attachment/Media",
+        "count": 21
+      }
+    ],
+    "affectedSemanticRoles": [
+      "border",
+      "muted",
+      "foreground",
+      "muted/foreground",
+      "primary/15%",
+      "destructive/30%",
+      "destructive/10%",
+      "destructive"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/attachment.tsx",
+    "storybookDocumentation": "storybook/components-attachment.md"
+  },
+  {
+    "component": "Avatar",
+    "slug": "avatar",
+    "figmaNode": "246:2681",
+    "page": "246:2681",
+    "definitionCount": 295,
+    "sets": [
+      {
+        "id": "247:3787",
+        "name": "Avatar",
+        "count": 252
+      },
+      {
+        "id": "268:1092",
+        "name": "Avatar Group",
+        "count": 4
+      },
+      {
+        "id": "328:6525",
+        "name": "_components/Avatar/Status/Badge",
+        "count": 18
+      },
+      {
+        "id": "363:1231",
+        "name": "_components/Avatar/Icon Badge Size",
+        "count": 3
+      },
+      {
+        "id": "332:992",
+        "name": "_components/Avatar/Border",
+        "count": 5
+      },
+      {
+        "id": "363:1279",
+        "name": "_components/Avatar/Icon Badge Group",
+        "count": 4
+      },
+      {
+        "id": "366:6163",
+        "name": "_components/Avatar/Icon Badge Type",
+        "count": 2
+      }
+    ],
+    "affectedSemanticRoles": [
+      "primary/15%",
+      "success/default-border",
+      "foreground",
+      "success",
+      "muted",
+      "muted/foreground",
+      "primary/10%",
+      "primary/default-foreground",
+      "accent",
+      "primary/default-border"
+    ],
+    "affectedTextStyles": [
+      "heading/sm",
+      "heading/md",
+      "heading/lg",
+      "components/avatar/9px/semibold",
+      "components/avatar/11px/semibold"
+    ],
+    "note": "Estilo de gradiente existente primary/15%→secondary/40%; typography de 11/9 px renombrada. El primitive y el ejemplo tienen responsabilidades visuales distintas.",
+    "implementation": "src/components/ui/avatar.tsx",
+    "storybookDocumentation": "storybook/components-avatar.md"
+  },
+  {
+    "component": "Badge",
+    "slug": "badge",
+    "figmaNode": "186:141",
+    "page": "1:32",
+    "definitionCount": 69,
+    "sets": [
+      {
+        "id": "186:141",
+        "name": "Badge",
+        "count": 68
+      }
+    ],
+    "affectedSemanticRoles": [
+      "primary",
+      "primary/5%",
+      "primary/light-border",
+      "primary/default-foreground",
+      "background",
+      "foreground",
+      "border",
+      "success",
+      "success/foreground",
+      "success/light",
+      "success/light-border",
+      "success/light-foreground",
+      "warning/foreground",
+      "warning/light-foreground",
+      "destructive",
+      "destructive/light",
+      "destructive/light-border",
+      "destructive/light-foreground"
+    ],
+    "affectedTextStyles": [],
+    "note": "El ID 186:141 sigue vigente, ahora confirmado dentro de la página 1:32. Actualizar default-foreground además de primary; solid y outline tienen requisitos de contraste distintos.",
+    "implementation": "src/components/ui/badge.tsx",
+    "storybookDocumentation": "storybook/components-badge.md"
+  },
+  {
+    "component": "Breadcrumb",
+    "slug": "breadcrumb",
+    "figmaNode": "1760:597",
+    "page": "1760:597",
+    "definitionCount": 10,
+    "sets": [
+      {
+        "id": "1763:1339",
+        "name": "_components/Breadcrumb/Breadcrumb Base",
+        "count": 5
+      },
+      {
+        "id": "1763:1562",
+        "name": "Breadcrumb",
+        "count": 3
+      }
+    ],
+    "affectedSemanticRoles": [
+      "muted/foreground",
+      "foreground"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/breadcrumb.tsx",
+    "storybookDocumentation": "storybook/components-breadcrumb.md"
+  },
+  {
+    "component": "Button",
+    "slug": "button",
+    "figmaNode": "1:24",
+    "page": "1:24",
+    "definitionCount": 407,
+    "sets": [
+      {
+        "id": "49:6",
+        "name": "Button",
+        "count": 160
+      },
+      {
+        "id": "315:2172",
+        "name": "Icon Button",
+        "count": 128
+      },
+      {
+        "id": "2227:37800",
+        "name": "Spinner Button",
+        "count": 72
+      },
+      {
+        "id": "3355:1262",
+        "name": "Button Group",
+        "count": 43
+      }
+    ],
+    "affectedSemanticRoles": [
+      "primary",
+      "muted",
+      "border",
+      "background",
+      "foreground",
+      "success/light",
+      "success/light-border",
+      "success/light-foreground",
+      "warning/light-foreground",
+      "destructive/light",
+      "destructive/light-border",
+      "destructive/light-foreground",
+      "primary-hover",
+      "background-hover",
+      "success/light-hover",
+      "destructive/light-hover",
+      "primary-active",
+      "background-active",
+      "success/light-active",
+      "destructive/light-active"
+    ],
+    "affectedTextStyles": [],
+    "note": "Figma tiene 160 variantes de Button (incluye 16 brand-gradient); código tiene 9 estilos sin brand-gradient. Radio Figma 6 px frente a rounded-md=8 px. Gradiente requiere resolver contraste antes de publicarse.",
+    "implementation": "src/components/ui/button.tsx",
+    "storybookDocumentation": "storybook/components-button.md"
+  },
+  {
+    "component": "Button Group",
+    "slug": "button-group",
+    "figmaNode": "3355:1262",
+    "page": "1:24",
+    "definitionCount": 407,
+    "sets": [
+      {
+        "id": "49:6",
+        "name": "Button",
+        "count": 160
+      },
+      {
+        "id": "315:2172",
+        "name": "Icon Button",
+        "count": 128
+      },
+      {
+        "id": "2227:37800",
+        "name": "Spinner Button",
+        "count": 72
+      },
+      {
+        "id": "3355:1262",
+        "name": "Button Group",
+        "count": 43
+      }
+    ],
+    "affectedSemanticRoles": [
+      "primary",
+      "muted",
+      "border",
+      "background",
+      "foreground",
+      "success/light",
+      "success/light-border",
+      "success/light-foreground",
+      "warning/light-foreground",
+      "destructive/light",
+      "destructive/light-border",
+      "destructive/light-foreground",
+      "primary-hover",
+      "background-hover",
+      "success/light-hover",
+      "destructive/light-hover",
+      "primary-active",
+      "background-active",
+      "success/light-active",
+      "destructive/light-active"
+    ],
+    "affectedTextStyles": [],
+    "note": "Set 3355:1262, 43 variantes. Hereda el cambio de Button y sus tokens; no confundir sus composiciones con nuevos estilos del primitive.",
+    "implementation": "src/components/ui/button-group.tsx",
+    "storybookDocumentation": "storybook/components-button-group.md"
+  },
+  {
+    "component": "Calendar",
+    "slug": "calendar",
+    "figmaNode": "1521:3069",
+    "page": "1521:3069",
+    "definitionCount": 42,
+    "sets": [
+      {
+        "id": "1551:11969",
+        "name": "Calendar/Date&Time",
+        "count": 2
+      },
+      {
+        "id": "1524:6559",
+        "name": "_componentes/Calendar/Gridcell",
+        "count": 24
+      },
+      {
+        "id": "1551:11970",
+        "name": "Calendar/Range",
+        "count": 3
+      },
+      {
+        "id": "1691:5297",
+        "name": "Calendar/Single",
+        "count": 4
+      },
+      {
+        "id": "2337:46401",
+        "name": "_components/Calendar/Legend",
+        "count": 2
+      },
+      {
+        "id": "1696:5801",
+        "name": "Calendar/Presets",
+        "count": 5
+      }
+    ],
+    "affectedSemanticRoles": [
+      "popover",
+      "border",
+      "foreground",
+      "muted/foreground",
+      "primary",
+      "input",
+      "muted",
+      "background",
+      "success/light-border",
+      "success/light",
+      "success/light-foreground",
+      "warning/light-foreground",
+      "primary/15%"
+    ],
+    "affectedTextStyles": [],
+    "note": "Revisar primary de selección, muted de rango y los estados success/warning. Sincronizar estilos de texto vigentes; tokens nuevos no garantizan contraste de toda combinación.",
+    "implementation": "src/components/ui/calendar.tsx",
+    "storybookDocumentation": "storybook/components-calendar.md"
+  },
+  {
+    "component": "Card",
+    "slug": "card",
+    "figmaNode": "1798:3431",
+    "page": "1798:3431",
+    "definitionCount": 15,
+    "sets": [
+      {
+        "id": "1800:455",
+        "name": "_components/Card/CardFooter",
+        "count": 3
+      },
+      {
+        "id": "1800:1122",
+        "name": "Card",
+        "count": 8
+      },
+      {
+        "id": "1800:1366",
+        "name": "_components/Card/CardHeader",
+        "count": 2
+      },
+      {
+        "id": "1800:1594",
+        "name": "Card/default/body/32px",
+        "count": 3
+      }
+    ],
+    "affectedSemanticRoles": [
+      "border",
+      "primary",
+      "foreground",
+      "muted/foreground",
+      "muted/50%"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/card.tsx",
+    "storybookDocumentation": "storybook/components-card.md"
+  },
+  {
+    "component": "Carousel",
+    "slug": "carousel",
+    "figmaNode": "2782:1341",
+    "page": "2782:1341",
+    "definitionCount": 318,
+    "sets": [
+      {
+        "id": "2794:2",
+        "name": "_components/Carousel/Item",
+        "count": 1
+      },
+      {
+        "id": "2795:39221",
+        "name": "_components/Carousel/Legacy/Content booleans",
+        "count": 8
+      },
+      {
+        "id": "2819:4798",
+        "name": "Carousel",
+        "count": 72
+      },
+      {
+        "id": "3381:9498",
+        "name": "_components/Carousel/Full-Large",
+        "count": 234
+      }
+    ],
+    "affectedSemanticRoles": [
+      "muted",
+      "border",
+      "foreground"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/carousel.tsx",
+    "storybookDocumentation": "storybook/components-carousel.md"
+  },
+  {
+    "component": "Checkbox",
+    "slug": "checkbox",
+    "figmaNode": "1:41",
+    "page": "1:41",
+    "definitionCount": 129,
+    "sets": [
+      {
+        "id": "429:99",
+        "name": "_components/Switch/SwitchBase",
+        "count": 12
+      },
+      {
+        "id": "429:166",
+        "name": "Switch",
+        "count": 24
+      },
+      {
+        "id": "440:402",
+        "name": "_components/Radio/RadioBase",
+        "count": 6
+      },
+      {
+        "id": "440:1918",
+        "name": "Radio Group",
+        "count": 40
+      },
+      {
+        "id": "449:482",
+        "name": "Checkbox Group",
+        "count": 12
+      },
+      {
+        "id": "440:3871",
+        "name": "Radio",
+        "count": 6
+      },
+      {
+        "id": "449:454",
+        "name": "CheckBox",
+        "count": 12
+      },
+      {
+        "id": "446:397",
+        "name": "_components/CheckBox/CheckBoxBase",
+        "count": 6
+      },
+      {
+        "id": "452:2902",
+        "name": "_components/Selectables/Label",
+        "count": 2
+      }
+    ],
+    "affectedSemanticRoles": [
+      "primary",
+      "background",
+      "input",
+      "foreground",
+      "border",
+      "primary/default-border",
+      "muted/foreground"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/checkbox.tsx",
+    "storybookDocumentation": "storybook/components-checkbox.md"
+  },
+  {
+    "component": "Collapsible",
+    "slug": "collapsible",
+    "figmaNode": "1771:929",
+    "page": "1771:929",
+    "definitionCount": 10,
+    "sets": [
+      {
+        "id": "1778:16205",
+        "name": "_components/Collapsible/FixedTrigger",
+        "count": 2
+      },
+      {
+        "id": "1778:16243",
+        "name": "Collapsible/FixedTrigger",
+        "count": 2
+      },
+      {
+        "id": "1778:16320",
+        "name": "_components/Collapsible/ExpandableTrigger",
+        "count": 2
+      },
+      {
+        "id": "1778:16379",
+        "name": "Collapsible/ExpandableTrigger",
+        "count": 2
+      }
+    ],
+    "affectedSemanticRoles": [
+      "foreground",
+      "border",
+      "muted/foreground",
+      "muted",
+      "primary"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/collapsible.tsx",
+    "storybookDocumentation": "storybook/components-collapsible.md"
+  },
+  {
+    "component": "Combobox",
+    "slug": "combobox",
+    "figmaNode": "1:39",
+    "page": "1:39",
+    "definitionCount": 33,
+    "sets": [
+      {
+        "id": "1313:2735",
+        "name": "_components/Combobox/Listbox/Simple",
+        "count": 1
+      },
+      {
+        "id": "1339:4304",
+        "name": "_components/Combobox/Listbox/Groups",
+        "count": 5
+      },
+      {
+        "id": "1313:2747",
+        "name": "Combobox/Simple",
+        "count": 4
+      },
+      {
+        "id": "1339:831",
+        "name": "Combobox/Clear Button",
+        "count": 4
+      },
+      {
+        "id": "1339:3900",
+        "name": "Combobox/With Groups",
+        "count": 4
+      },
+      {
+        "id": "1341:903",
+        "name": "Combobox/Popup",
+        "count": 3
+      },
+      {
+        "id": "1313:10998",
+        "name": "_components/Combobox/Dropdown Options/Simple",
+        "count": 21
+      },
+      {
+        "id": "1313:10999",
+        "name": "_components/Combobox/Dropdown Options/With Groups",
+        "count": 1
+      },
+      {
+        "id": "1313:4921",
+        "name": "_components/Combobox/Dropdown Options/Item",
+        "count": 4
+      },
+      {
+        "id": "1313:4954",
+        "name": "_components/Combobox/Dropdown Options/Label",
+        "count": 1
+      },
+      {
+        "id": "1341:4047",
+        "name": "_components/Combobox/Listbox/Popup",
+        "count": 2
+      }
+    ],
+    "affectedSemanticRoles": [
+      "border",
+      "foreground",
+      "muted/foreground",
+      "accent/50%",
+      "input",
+      "primary/default-border",
+      "primary/15%",
+      "accent",
+      "accent/foreground"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/combobox.tsx",
+    "storybookDocumentation": "storybook/components-combobox.md"
+  },
+  {
+    "component": "Context Menu",
+    "slug": "context-menu",
+    "figmaNode": "1675:339",
+    "page": "1675:339",
+    "definitionCount": 20,
+    "sets": [
+      {
+        "id": "1677:397",
+        "name": "Context Menu",
+        "count": 6
+      },
+      {
+        "id": "1703:22653",
+        "name": "_components/ContextMenu/Dropdown Base",
+        "count": 9
+      },
+      {
+        "id": "1703:22211",
+        "name": "_components/ContextMenu/MenuItem",
+        "count": 5
+      },
+      {
+        "id": "1703:22227",
+        "name": "_components/ContextMenu/MenuItem/Submenu",
+        "count": 2
+      },
+      {
+        "id": "1703:22654",
+        "name": "_components/ContextMenuOptions/MenuGroup",
+        "count": 11
+      },
+      {
+        "id": "1703:22291",
+        "name": "_components/ContextMenu/Options/Label",
+        "count": 1
+      }
+    ],
+    "affectedSemanticRoles": [
+      "muted/foreground",
+      "popover",
+      "border",
+      "foreground",
+      "destructive",
+      "accent",
+      "accent/foreground"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/context-menu.tsx",
+    "storybookDocumentation": "storybook/components-context-menu.md"
+  },
+  {
+    "component": "Data Table",
+    "slug": "data-table",
+    "figmaNode": "2366:19504",
+    "page": "2366:19504",
+    "definitionCount": 16,
+    "sets": [
+      {
+        "id": "2366:22582",
+        "name": "_components/Data Table/Toolbar Slots",
+        "count": 10
+      },
+      {
+        "id": "2366:25191",
+        "name": "_components/Data Table/Pagination",
+        "count": 1
+      },
+      {
+        "id": "2519:5499",
+        "name": "Data Table",
+        "count": 2
+      }
+    ],
+    "affectedSemanticRoles": [
+      "muted/foreground",
+      "border",
+      "foreground",
+      "input",
+      "background"
+    ],
+    "affectedTextStyles": [],
+    "note": "Revisar Table, Toolbar, Pagination y controles anidados tras actualizar tokens; hereda la diferencia del encabezado de Table. Mantener TanStack y comportamiento actual.",
+    "implementation": "src/components/ui/data-table.tsx",
+    "storybookDocumentation": "storybook/components-data-table.md"
+  },
+  {
+    "component": "Date Picker",
+    "slug": "date-picker",
+    "figmaNode": "1:35",
+    "page": "1:35",
+    "definitionCount": 5,
+    "sets": [
+      {
+        "id": "1686:2958",
+        "name": "Date Picker",
+        "count": 4
+      }
+    ],
+    "affectedSemanticRoles": [
+      "border",
+      "foreground",
+      "popover",
+      "background",
+      "muted/foreground",
+      "primary",
+      "success/light-border",
+      "success/light",
+      "success/light-foreground",
+      "warning/light-foreground",
+      "muted",
+      "input"
+    ],
+    "affectedTextStyles": [],
+    "note": "Es una composición en el manifiesto, no un archivo date-picker.tsx. Cambian Calendar, Button, Popover y su tipografía; probar ambos estados antes de publicar.",
+    "implementation": null,
+    "storybookDocumentation": "storybook/components-date-picker.md"
+  },
+  {
+    "component": "Drawer",
+    "slug": "drawer",
+    "figmaNode": "1290:302",
+    "page": "1290:302",
+    "definitionCount": 7,
+    "sets": [
+      {
+        "id": "1295:1451",
+        "name": "Drawer",
+        "count": 3
+      },
+      {
+        "id": "1407:4433",
+        "name": "_components/Drawer/ButtonBar",
+        "count": 2
+      }
+    ],
+    "affectedSemanticRoles": [
+      "popover",
+      "popover/foreground",
+      "muted/foreground",
+      "primary",
+      "border",
+      "foreground",
+      "muted"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/drawer.tsx",
+    "storybookDocumentation": "storybook/components-drawer.md"
+  },
+  {
+    "component": "Dropdown Menu",
+    "slug": "dropdown-menu",
+    "figmaNode": "1521:4708",
+    "page": "1521:4708",
+    "definitionCount": 20,
+    "sets": [
+      {
+        "id": "1637:3373",
+        "name": "_components/Dropdown/Dropdown Base",
+        "count": 9
+      },
+      {
+        "id": "1594:2985",
+        "name": "_components/Dropdown/MenuItem",
+        "count": 3
+      },
+      {
+        "id": "1636:3067",
+        "name": "_components/Dropdown/MenuItem/Submenu",
+        "count": 2
+      },
+      {
+        "id": "1636:3103",
+        "name": "_components/Dropdown/MenuGroup",
+        "count": 11
+      },
+      {
+        "id": "1638:5110",
+        "name": "Dropdown",
+        "count": 8
+      },
+      {
+        "id": "1638:6915",
+        "name": "Dropdown Options/Label",
+        "count": 1
+      }
+    ],
+    "affectedSemanticRoles": [
+      "popover",
+      "border",
+      "muted/foreground",
+      "foreground",
+      "accent",
+      "accent/foreground",
+      "primary"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/dropdown-menu.tsx",
+    "storybookDocumentation": "storybook/components-dropdown-menu.md"
+  },
+  {
+    "component": "Empty",
+    "slug": "empty",
+    "figmaNode": "2173:21188",
+    "page": "2173:21188",
+    "definitionCount": 29,
+    "sets": [
+      {
+        "id": "2173:21211",
+        "name": "_components/Empty/EmptyContent",
+        "count": 3
+      },
+      {
+        "id": "2173:21262",
+        "name": "_components/Empty/EmptyMedia",
+        "count": 21
+      },
+      {
+        "id": "2173:21437",
+        "name": "Empty",
+        "count": 2
+      }
+    ],
+    "affectedSemanticRoles": [
+      "primary",
+      "border",
+      "foreground",
+      "muted",
+      "muted/foreground"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar muted-foreground; hover de enlaces usa text-primary y debe evaluarse con el fondo real.",
+    "implementation": "src/components/ui/empty.tsx",
+    "storybookDocumentation": "storybook/components-empty.md"
+  },
+  {
+    "component": "Field",
+    "slug": "field",
+    "figmaNode": "553:2675",
+    "page": "553:2675",
+    "definitionCount": 46,
+    "sets": [
+      {
+        "id": "553:3053",
+        "name": "Field/Input",
+        "count": 3
+      },
+      {
+        "id": "1551:11609",
+        "name": "Field/InputTime",
+        "count": 3
+      },
+      {
+        "id": "553:6615",
+        "name": "Field/TextArea",
+        "count": 3
+      },
+      {
+        "id": "553:6641",
+        "name": "Field/Checkbox",
+        "count": 3
+      },
+      {
+        "id": "553:6667",
+        "name": "Field/Radio Group",
+        "count": 3
+      },
+      {
+        "id": "553:7900",
+        "name": "Field/Switch",
+        "count": 3
+      },
+      {
+        "id": "561:4269",
+        "name": "Field/NativeSelect",
+        "count": 6
+      },
+      {
+        "id": "647:3472",
+        "name": "Field/Select",
+        "count": 6
+      },
+      {
+        "id": "566:5243",
+        "name": "Field/InputOTP",
+        "count": 6
+      },
+      {
+        "id": "553:6668",
+        "name": "Field/Radio/default",
+        "count": 3
+      }
+    ],
+    "affectedSemanticRoles": [
+      "foreground",
+      "muted/foreground",
+      "input",
+      "muted",
+      "border",
+      "primary",
+      "primary/default-border",
+      "background"
+    ],
+    "affectedTextStyles": [],
+    "note": "Revisar composiciones con Input/InputTime y tamaños nuevos. Hay hover de enlaces text-primary en código; el token de texto primary/default-foreground ya existe y difiere por marca.",
+    "implementation": "src/components/ui/field.tsx",
+    "storybookDocumentation": "storybook/components-field.md"
+  },
+  {
+    "component": "Hover Card",
+    "slug": "hover-card",
+    "figmaNode": "1650:2013",
+    "page": "1650:2013",
+    "definitionCount": 19,
+    "sets": [
+      {
+        "id": "1650:2069",
+        "name": "Hover Card",
+        "count": 16
+      },
+      {
+        "id": "1650:2121",
+        "name": "_components/HoverCard/HoverCard Base",
+        "count": 1
+      }
+    ],
+    "affectedSemanticRoles": [
+      "primary",
+      "popover",
+      "border",
+      "popover/foreground",
+      "muted/foreground",
+      "foreground"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/hover-card.tsx",
+    "storybookDocumentation": "storybook/components-hover-card.md"
+  },
+  {
+    "component": "Input",
+    "slug": "input",
+    "figmaNode": "1:34",
+    "page": "1:34",
+    "definitionCount": 56,
+    "sets": [
+      {
+        "id": "394:13573",
+        "name": "_components/Input/InputBase",
+        "count": 20
+      },
+      {
+        "id": "1543:10655",
+        "name": "_components/Input/Time/InputTimeBase",
+        "count": 20
+      },
+      {
+        "id": "408:30",
+        "name": "_components/Input/Blinker",
+        "count": 2
+      },
+      {
+        "id": "412:11",
+        "name": "Input",
+        "count": 3
+      },
+      {
+        "id": "424:2034",
+        "name": "_components/Input/ExtraContent",
+        "count": 6
+      }
+    ],
+    "affectedSemanticRoles": [
+      "input",
+      "muted/foreground",
+      "muted",
+      "primary/default-border",
+      "primary/15%",
+      "foreground",
+      "primary"
+    ],
+    "affectedTextStyles": [],
+    "note": "InputBase y TimeInputBase pasan de 10 a 20 variantes frente al snapshot previo: Normal 36 px y Large 44 px. Input/InputGroup usan h-8=32 px, sin tamaño visual Large. Placeholder Figma al 50%: no copiar esa opacidad.",
+    "implementation": "src/components/ui/input.tsx",
+    "storybookDocumentation": "storybook/components-input.md"
+  },
+  {
+    "component": "Input OTP",
+    "slug": "input-otp",
+    "figmaNode": "561:4282",
+    "page": "561:4282",
+    "definitionCount": 106,
+    "sets": [
+      {
+        "id": "566:5307",
+        "name": "InputOTP/Base",
+        "count": 51
+      },
+      {
+        "id": "570:786",
+        "name": "InputOTP/Separator",
+        "count": 53
+      }
+    ],
+    "affectedSemanticRoles": [
+      "border",
+      "muted",
+      "primary/default-border",
+      "primary/15%",
+      "foreground"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/input-otp.tsx",
+    "storybookDocumentation": "storybook/components-input-otp.md"
+  },
+  {
+    "component": "Item",
+    "slug": "item",
+    "figmaNode": "2190:1413",
+    "page": "2190:1413",
+    "definitionCount": 34,
+    "sets": [
+      {
+        "id": "2190:2109",
+        "name": "Item",
+        "count": 15
+      },
+      {
+        "id": "2191:12165",
+        "name": "Item/Dropdown Item",
+        "count": 2
+      },
+      {
+        "id": "2191:4628",
+        "name": "_components/Item/Item Right Content",
+        "count": 4
+      },
+      {
+        "id": "2191:4801",
+        "name": "Item Group",
+        "count": 8
+      },
+      {
+        "id": "2191:11472",
+        "name": "Item/Item Dropdown",
+        "count": 1
+      }
+    ],
+    "affectedSemanticRoles": [
+      "foreground",
+      "card/foreground",
+      "muted/foreground",
+      "primary",
+      "border",
+      "muted",
+      "accent",
+      "popover"
+    ],
+    "affectedTextStyles": [
+      "components/avatar/9px/semibold"
+    ],
+    "note": "Actualizar muted/accent/foreground; hover de enlaces en descripción usa text-primary. No requiere inventar una nueva paleta.",
+    "implementation": "src/components/ui/item.tsx",
+    "storybookDocumentation": "storybook/components-item.md"
+  },
+  {
+    "component": "Kbd",
+    "slug": "kbd",
+    "figmaNode": "2793:2325",
+    "page": "2793:2325",
+    "definitionCount": 7,
+    "sets": [
+      {
+        "id": "2945:46122",
+        "name": "Kbd",
+        "count": 6
+      }
+    ],
+    "affectedSemanticRoles": [
+      "muted",
+      "muted/foreground",
+      "background/10%",
+      "foreground"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/kbd.tsx",
+    "storybookDocumentation": "storybook/components-kbd.md"
+  },
+  {
+    "component": "Label",
+    "slug": "label",
+    "figmaNode": "1:38",
+    "page": "1:38",
+    "definitionCount": 8,
+    "sets": [
+      {
+        "id": "553:2907",
+        "name": "Label/LabelLegend",
+        "count": 1
+      },
+      {
+        "id": "553:3027",
+        "name": "Label/Label",
+        "count": 3
+      },
+      {
+        "id": "553:3038",
+        "name": "Label/LabelDescription",
+        "count": 1
+      }
+    ],
+    "affectedSemanticRoles": [
+      "foreground",
+      "muted/foreground"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/label.tsx",
+    "storybookDocumentation": "storybook/components-label.md"
+  },
+  {
+    "component": "Menubar",
+    "slug": "menubar",
+    "figmaNode": "2938:11449",
+    "page": "2938:11449",
+    "definitionCount": 71,
+    "sets": [
+      {
+        "id": "2953:10",
+        "name": "_components/Menubar/Trigger",
+        "count": 4
+      },
+      {
+        "id": "2984:4900",
+        "name": "Menubar",
+        "count": 65
+      }
+    ],
+    "affectedSemanticRoles": [
+      "foreground",
+      "accent",
+      "accent/foreground",
+      "background",
+      "border",
+      "popover",
+      "muted/foreground"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/menubar.tsx",
+    "storybookDocumentation": "storybook/components-menubar.md"
+  },
+  {
+    "component": "Native Select",
+    "slug": "native-select",
+    "figmaNode": "553:7952",
+    "page": "553:7952",
+    "definitionCount": 41,
+    "sets": [
+      {
+        "id": "605:1135",
+        "name": "_components/Native Select/Dropdown Options/With Groups/Group",
+        "count": 21
+      },
+      {
+        "id": "570:3815",
+        "name": "Native Select/Simple",
+        "count": 18
+      },
+      {
+        "id": "614:1182",
+        "name": "Native Select/With Groups",
+        "count": 9
+      },
+      {
+        "id": "590:3832",
+        "name": "_components/Native Select/Dropdown Options/Simple",
+        "count": 20
+      },
+      {
+        "id": "601:313",
+        "name": "_components/Native Select/Dropdown Options/With Groups",
+        "count": 20
+      },
+      {
+        "id": "593:426",
+        "name": "_components/Native Select/Dropdown Options/Item",
+        "count": 6
+      },
+      {
+        "id": "601:1089",
+        "name": "_components/Native Select/Dropdown Options/Label",
+        "count": 1
+      }
+    ],
+    "affectedSemanticRoles": [
+      "muted/foreground",
+      "foreground",
+      "border",
+      "primary/default-border",
+      "primary/15%",
+      "accent",
+      "accent/foreground"
+    ],
+    "affectedTextStyles": [],
+    "note": "Figma default 36 px y radio 8 px; primitive h-8=32 px y rounded-lg=10 px. Mantener select nativo y distinguir colores de opciones controlados por el sistema operativo.",
+    "implementation": "src/components/ui/native-select.tsx",
+    "storybookDocumentation": "storybook/components-native-select.md"
+  },
+  {
+    "component": "Navigation Menu",
+    "slug": "navigation-menu",
+    "figmaNode": "2938:12924",
+    "page": "2938:12924",
+    "definitionCount": 47,
+    "sets": [
+      {
+        "id": "2990:51106",
+        "name": "_components/NavigationMenu/Trigger",
+        "count": 5
+      },
+      {
+        "id": "2991:22",
+        "name": "_components/NavigationMenu/Link",
+        "count": 5
+      },
+      {
+        "id": "2991:52325",
+        "name": "_components/NavigationMenu/Content",
+        "count": 4
+      },
+      {
+        "id": "2996:561",
+        "name": "_components/NavigationMenu/Item Behavior",
+        "count": 18
+      },
+      {
+        "id": "2997:803",
+        "name": "Navigation Menu",
+        "count": 10
+      }
+    ],
+    "affectedSemanticRoles": [
+      "background",
+      "foreground",
+      "accent",
+      "accent/foreground",
+      "ring",
+      "muted/foreground",
+      "popover",
+      "border"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/navigation-menu.tsx",
+    "storybookDocumentation": "storybook/components-navigation-menu.md"
+  },
+  {
+    "component": "Pagination",
+    "slug": "pagination",
+    "figmaNode": "1763:1260",
+    "page": "1763:1260",
+    "definitionCount": 20,
+    "sets": [
+      {
+        "id": "1938:6623",
+        "name": "_components/Pagination/Navigation",
+        "count": 12
+      },
+      {
+        "id": "1938:7180",
+        "name": "_components/Pagination/NavigationBase",
+        "count": 3
+      },
+      {
+        "id": "1938:7400",
+        "name": "Pagination",
+        "count": 2
+      }
+    ],
+    "affectedSemanticRoles": [
+      "border",
+      "foreground",
+      "background-hover",
+      "muted/foreground"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/pagination.tsx",
+    "storybookDocumentation": "storybook/components-pagination.md"
+  },
+  {
+    "component": "Popover",
+    "slug": "popover",
+    "figmaNode": "726:6350",
+    "page": "726:6350",
+    "definitionCount": 7,
+    "sets": [
+      {
+        "id": "743:6436",
+        "name": "Popover",
+        "count": 6
+      }
+    ],
+    "affectedSemanticRoles": [
+      "border",
+      "foreground",
+      "popover"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/popover.tsx",
+    "storybookDocumentation": "storybook/components-popover.md"
+  },
+  {
+    "component": "Progress",
+    "slug": "progress",
+    "figmaNode": "2206:16412",
+    "page": "2206:16412",
+    "definitionCount": 13,
+    "sets": [
+      {
+        "id": "2206:16431",
+        "name": "Progress",
+        "count": 11
+      },
+      {
+        "id": "2206:19321",
+        "name": "_components/Progress/Progress Label",
+        "count": 2
+      }
+    ],
+    "affectedSemanticRoles": [
+      "popover/foreground",
+      "muted/foreground",
+      "primary",
+      "primary/20%"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/progress.tsx",
+    "storybookDocumentation": "storybook/components-progress.md"
+  },
+  {
+    "component": "Radio Group",
+    "slug": "radio-group",
+    "figmaNode": "1:41",
+    "page": "1:41",
+    "definitionCount": 129,
+    "sets": [
+      {
+        "id": "429:99",
+        "name": "_components/Switch/SwitchBase",
+        "count": 12
+      },
+      {
+        "id": "429:166",
+        "name": "Switch",
+        "count": 24
+      },
+      {
+        "id": "440:402",
+        "name": "_components/Radio/RadioBase",
+        "count": 6
+      },
+      {
+        "id": "440:1918",
+        "name": "Radio Group",
+        "count": 40
+      },
+      {
+        "id": "449:482",
+        "name": "Checkbox Group",
+        "count": 12
+      },
+      {
+        "id": "440:3871",
+        "name": "Radio",
+        "count": 6
+      },
+      {
+        "id": "449:454",
+        "name": "CheckBox",
+        "count": 12
+      },
+      {
+        "id": "446:397",
+        "name": "_components/CheckBox/CheckBoxBase",
+        "count": 6
+      },
+      {
+        "id": "452:2902",
+        "name": "_components/Selectables/Label",
+        "count": 2
+      }
+    ],
+    "affectedSemanticRoles": [
+      "primary",
+      "background",
+      "input",
+      "foreground",
+      "border",
+      "primary/default-border",
+      "muted/foreground"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/radio-group.tsx",
+    "storybookDocumentation": "storybook/components-radio-group.md"
+  },
+  {
+    "component": "Resizable",
+    "slug": "resizable",
+    "figmaNode": "2882:453",
+    "page": "2882:453",
+    "definitionCount": 23,
+    "sets": [
+      {
+        "id": "2885:4",
+        "name": "_components/ResizablePanel",
+        "count": 1
+      },
+      {
+        "id": "2886:46407",
+        "name": "_components/ResizableHandle",
+        "count": 8
+      },
+      {
+        "id": "2886:46488",
+        "name": "Resizable",
+        "count": 12
+      }
+    ],
+    "affectedSemanticRoles": [
+      "border",
+      "foreground",
+      "ring"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/resizable.tsx",
+    "storybookDocumentation": "storybook/components-resizable.md"
+  },
+  {
+    "component": "Scroll Area",
+    "slug": "scroll-area",
+    "figmaNode": "1800:1860",
+    "page": "1800:1860",
+    "definitionCount": 3,
+    "sets": [
+      {
+        "id": "1801:2786",
+        "name": "Scroll Area",
+        "count": 2
+      }
+    ],
+    "affectedSemanticRoles": [
+      "background",
+      "border"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/scroll-area.tsx",
+    "storybookDocumentation": "storybook/components-scroll-area.md"
+  },
+  {
+    "component": "Select",
+    "slug": "select",
+    "figmaNode": "614:4917",
+    "page": "614:4917",
+    "definitionCount": 29,
+    "sets": [
+      {
+        "id": "626:4990",
+        "name": "_components/Select/DropdownOptions/Simple",
+        "count": 21
+      },
+      {
+        "id": "627:5575",
+        "name": "_components/Select/DropdownStyle/Simple",
+        "count": 20
+      },
+      {
+        "id": "629:40730",
+        "name": "_components/Select/DropdownStyle/Scrollable",
+        "count": 2
+      },
+      {
+        "id": "629:52086",
+        "name": "_components/Select/DropdownOptions/With Groups",
+        "count": 19
+      },
+      {
+        "id": "614:4985",
+        "name": "_components/Select/DropdownOptions/Item",
+        "count": 4
+      },
+      {
+        "id": "614:5016",
+        "name": "_components/Select/DropdownOptions/Label",
+        "count": 1
+      },
+      {
+        "id": "614:6056",
+        "name": "Select/Simple",
+        "count": 7
+      },
+      {
+        "id": "614:6085",
+        "name": "Select/Scrollable",
+        "count": 7
+      },
+      {
+        "id": "629:44492",
+        "name": "_components/Select/SelectBase",
+        "count": 1
+      }
+    ],
+    "affectedSemanticRoles": [
+      "muted/foreground",
+      "foreground",
+      "border",
+      "accent/50%",
+      "accent",
+      "accent/foreground"
+    ],
+    "affectedTextStyles": [],
+    "note": "Figma simple/scrollable default 36 px y radio 8 px; código default=32 px, lg=36 px, rounded-lg=10 px. Alinear el mapeo de tamaño en composición y primitive.",
+    "implementation": "src/components/ui/select.tsx",
+    "storybookDocumentation": "storybook/components-select.md"
+  },
+  {
+    "component": "Separator",
+    "slug": "separator",
+    "figmaNode": "589:983",
+    "page": "589:983",
+    "definitionCount": 3,
+    "sets": [
+      {
+        "id": "590:3436",
+        "name": "Separator",
+        "count": 2
+      }
+    ],
+    "affectedSemanticRoles": [
+      "border"
+    ],
+    "affectedTextStyles": [],
+    "note": "Consume border; el cambio de neutral/300 repercute especialmente en María Linda. Mantener dimensiones y orientación.",
+    "implementation": "src/components/ui/separator.tsx",
+    "storybookDocumentation": "storybook/components-separator.md"
+  },
+  {
+    "component": "Sheet",
+    "slug": "sheet",
+    "figmaNode": "1295:386",
+    "page": "1295:386",
+    "definitionCount": 9,
+    "sets": [
+      {
+        "id": "1301:49",
+        "name": "_components/Sheet/Buttons",
+        "count": 2
+      },
+      {
+        "id": "1304:1084",
+        "name": "_components/Sheet/FormExample",
+        "count": 15
+      },
+      {
+        "id": "1295:1240",
+        "name": "Sheet",
+        "count": 4
+      }
+    ],
+    "affectedSemanticRoles": [
+      "border",
+      "primary",
+      "foreground",
+      "input",
+      "muted/foreground",
+      "primary/default-border",
+      "background",
+      "popover",
+      "popover/foreground"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/sheet.tsx",
+    "storybookDocumentation": "storybook/components-sheet.md"
+  },
+  {
+    "component": "Sidebar",
+    "slug": "sidebar",
+    "figmaNode": "3114:1373",
+    "page": "3114:1373",
+    "definitionCount": 48,
+    "sets": [
+      {
+        "id": "3152:1014",
+        "name": "Sidebar",
+        "count": 2
+      },
+      {
+        "id": "3122:51749",
+        "name": "_components/Sidebar/Menu Item",
+        "count": 16
+      },
+      {
+        "id": "3184:1186",
+        "name": "_components/Sidebar/Menu Item Content",
+        "count": 3
+      },
+      {
+        "id": "3127:112",
+        "name": "_components/Sidebar/Menu Sub Item",
+        "count": 7
+      },
+      {
+        "id": "3129:122",
+        "name": "_components/Sidebar/Collapsible Menu Item",
+        "count": 4
+      },
+      {
+        "id": "3896:2782",
+        "name": "_components/Sidebar/Header/HeaderLogos",
+        "count": 2
+      },
+      {
+        "id": "3994:4754",
+        "name": "_components/Sidebar/Header",
+        "count": 2
+      },
+      {
+        "id": "3994:4804",
+        "name": "_components/Sidebar/Group Label",
+        "count": 2
+      },
+      {
+        "id": "3998:7430",
+        "name": "_components/Sidebar/Content",
+        "count": 1
+      },
+      {
+        "id": "4022:8455",
+        "name": "_components/Sidebar/Group",
+        "count": 2
+      }
+    ],
+    "affectedSemanticRoles": [
+      "background",
+      "border",
+      "foreground",
+      "sidebar/foreground",
+      "muted/foreground",
+      "sidebar/border",
+      "sidebar/accent/foreground",
+      "sidebar/accent",
+      "primary",
+      "sidebar/primary",
+      "sidebar/ring"
+    ],
+    "affectedTextStyles": [
+      "caption/sm/bold uppercase"
+    ],
+    "note": "Figma Piel Sana sidebar/ring resuelve a Maria Linda/primary/500 (#7bc6bb). Es una referencia cruzada entre marcas que exige revisión, no copiar a ciegas.",
+    "implementation": "src/components/ui/sidebar.tsx",
+    "storybookDocumentation": "storybook/components-sidebar.md"
+  },
+  {
+    "component": "Slider",
+    "slug": "slider",
+    "figmaNode": "2772:1030",
+    "page": "2772:1030",
+    "definitionCount": 37,
+    "sets": [
+      {
+        "id": "2777:58",
+        "name": "Slider",
+        "count": 36
+      }
+    ],
+    "affectedSemanticRoles": [
+      "muted",
+      "primary",
+      "background"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/slider.tsx",
+    "storybookDocumentation": "storybook/components-slider.md"
+  },
+  {
+    "component": "Spinner",
+    "slug": "spinner",
+    "figmaNode": "2206:19380",
+    "page": "2206:19380",
+    "definitionCount": 9,
+    "sets": [
+      {
+        "id": "2206:19610",
+        "name": "Spinner",
+        "count": 4
+      },
+      {
+        "id": "2213:25221",
+        "name": "_components/Spinner/Spinner Base",
+        "count": 3
+      }
+    ],
+    "affectedSemanticRoles": [
+      "foreground"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/spinner.tsx",
+    "storybookDocumentation": "storybook/components-spinner.md"
+  },
+  {
+    "component": "Switch",
+    "slug": "switch",
+    "figmaNode": "1:41",
+    "page": "1:41",
+    "definitionCount": 129,
+    "sets": [
+      {
+        "id": "429:99",
+        "name": "_components/Switch/SwitchBase",
+        "count": 12
+      },
+      {
+        "id": "429:166",
+        "name": "Switch",
+        "count": 24
+      },
+      {
+        "id": "440:402",
+        "name": "_components/Radio/RadioBase",
+        "count": 6
+      },
+      {
+        "id": "440:1918",
+        "name": "Radio Group",
+        "count": 40
+      },
+      {
+        "id": "449:482",
+        "name": "Checkbox Group",
+        "count": 12
+      },
+      {
+        "id": "440:3871",
+        "name": "Radio",
+        "count": 6
+      },
+      {
+        "id": "449:454",
+        "name": "CheckBox",
+        "count": 12
+      },
+      {
+        "id": "446:397",
+        "name": "_components/CheckBox/CheckBoxBase",
+        "count": 6
+      },
+      {
+        "id": "452:2902",
+        "name": "_components/Selectables/Label",
+        "count": 2
+      }
+    ],
+    "affectedSemanticRoles": [
+      "primary",
+      "background",
+      "input",
+      "foreground",
+      "border",
+      "primary/default-border",
+      "muted/foreground"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/switch.tsx",
+    "storybookDocumentation": "storybook/components-switch.md"
+  },
+  {
+    "component": "Table",
+    "slug": "table",
+    "figmaNode": "2064:259",
+    "page": "2064:259",
+    "definitionCount": 237,
+    "sets": [
+      {
+        "id": "2064:4314",
+        "name": "_components/Table/TableRow",
+        "count": 126
+      },
+      {
+        "id": "2090:14950",
+        "name": "_components/Table/TableHeader",
+        "count": 36
+      },
+      {
+        "id": "2064:4319",
+        "name": "_components/Table/TableCell/CellContent/Text",
+        "count": 7
+      },
+      {
+        "id": "2103:2331",
+        "name": "_components/Table/TableCell/CellContent/Avatar",
+        "count": 4
+      },
+      {
+        "id": "2127:4201",
+        "name": "_components/Table/TableCell/CellContent/Status",
+        "count": 3
+      },
+      {
+        "id": "2450:29676",
+        "name": "_components/Table/TableCell/CellContent/Progress",
+        "count": 10
+      },
+      {
+        "id": "2459:29839",
+        "name": "_components/Table/TableCell/CellContent/Counter",
+        "count": 10
+      },
+      {
+        "id": "2134:13152",
+        "name": "_components/Table/TableCell/CellContent/Bulk Options",
+        "count": 3
+      },
+      {
+        "id": "2090:17809",
+        "name": "_components/Table/TableHeader/CellContent/Text",
+        "count": 3
+      },
+      {
+        "id": "2090:17825",
+        "name": "_components/Table/TableHeader/CellContent/Button",
+        "count": 2
+      },
+      {
+        "id": "2090:15750",
+        "name": "_components/Table/TableBody",
+        "count": 8
+      },
+      {
+        "id": "2445:28428",
+        "name": "_components/Table/TableCell/CellContent/Bulk Options/Items",
+        "count": 4
+      },
+      {
+        "id": "2530:39991",
+        "name": "Table",
+        "count": 8
+      }
+    ],
+    "affectedSemanticRoles": [
+      "border",
+      "table/row-alternate",
+      "input",
+      "background",
+      "primary/5%",
+      "primary",
+      "foreground",
+      "muted/foreground",
+      "primary/10%",
+      "primary/default-foreground",
+      "warning/light-foreground",
+      "success",
+      "destructive",
+      "muted"
+    ],
+    "affectedTextStyles": [
+      "body/sm/mono/regular"
+    ],
+    "note": "13 conjuntos en página. TableHeader usa token table/header/background en Figma; código usa bg-muted/40. Hay dos variantes duplicadas en 2090:17809. Separar reparación del set y migración de colores.",
+    "implementation": "src/components/ui/table.tsx",
+    "storybookDocumentation": "storybook/components-table.md"
+  },
+  {
+    "component": "Tabs",
+    "slug": "tabs",
+    "figmaNode": "1:33",
+    "page": "1:33",
+    "definitionCount": 97,
+    "sets": [
+      {
+        "id": "1812:2936",
+        "name": "_components/Tabs/TabBase",
+        "count": 6
+      },
+      {
+        "id": "1812:3148",
+        "name": "Tabs/Contained",
+        "count": 44
+      },
+      {
+        "id": "1844:6734",
+        "name": "Tabs/Underline",
+        "count": 44
+      }
+    ],
+    "affectedSemanticRoles": [
+      "foreground/60%",
+      "primary",
+      "foreground",
+      "primary/default-foreground",
+      "muted"
+    ],
+    "affectedTextStyles": [],
+    "note": "Line/underline activo usa text-primary en código. Primary/card sigue bajo 4.5 en tres marcas; revisar el rol de texto sin sustituir el color oficial.",
+    "implementation": "src/components/ui/tabs.tsx",
+    "storybookDocumentation": "storybook/components-tabs.md"
+  },
+  {
+    "component": "Toast",
+    "slug": "toast",
+    "figmaNode": "1:45",
+    "page": "1:45",
+    "definitionCount": 7,
+    "sets": [
+      {
+        "id": "288:336",
+        "name": "Toast",
+        "count": 6
+      }
+    ],
+    "affectedSemanticRoles": [
+      "success/light",
+      "success/light-border",
+      "success/light-foreground",
+      "warning/light-foreground",
+      "background",
+      "border",
+      "foreground"
+    ],
+    "affectedTextStyles": [],
+    "note": "Sombra de 0 4px 12px / 10% coincide con components/sonner/shadow. Cambian colores de estados y textos; no cambiar la sombra por el solo hecho de sincronizar.",
+    "implementation": "src/components/ui/toast.tsx",
+    "storybookDocumentation": "storybook/components-toast.md"
+  },
+  {
+    "component": "Toggle",
+    "slug": "toggle",
+    "figmaNode": "3267:2627",
+    "page": "3267:2627",
+    "definitionCount": 125,
+    "sets": [
+      {
+        "id": "3279:53814",
+        "name": "Toggle",
+        "count": 48
+      },
+      {
+        "id": "3331:60517",
+        "name": "Toggle Group",
+        "count": 75
+      }
+    ],
+    "affectedSemanticRoles": [
+      "foreground",
+      "muted",
+      "muted/foreground",
+      "ring",
+      "primary/15%",
+      "accent",
+      "accent/foreground",
+      "input"
+    ],
+    "affectedTextStyles": [],
+    "note": "Figma y código tienen radio 6 px y tamaño default 36 px. Cambian accent, muted y foreground; no hay evidencia para rehacer la geometría.",
+    "implementation": "src/components/ui/toggle.tsx",
+    "storybookDocumentation": "storybook/components-toggle.md"
+  },
+  {
+    "component": "Toggle Group",
+    "slug": "toggle-group",
+    "figmaNode": "3331:60517",
+    "page": "3267:2627",
+    "definitionCount": 125,
+    "sets": [
+      {
+        "id": "3279:53814",
+        "name": "Toggle",
+        "count": 48
+      },
+      {
+        "id": "3331:60517",
+        "name": "Toggle Group",
+        "count": 75
+      }
+    ],
+    "affectedSemanticRoles": [
+      "foreground",
+      "muted",
+      "muted/foreground",
+      "ring",
+      "primary/15%",
+      "accent",
+      "accent/foreground",
+      "input"
+    ],
+    "affectedTextStyles": [],
+    "note": "Set 3331:60517 está en la página Toggle; revisar colores heredados y composición del grupo, conservar la API de selección.",
+    "implementation": "src/components/ui/toggle-group.tsx",
+    "storybookDocumentation": "storybook/components-toggle-group.md"
+  },
+  {
+    "component": "Tooltip",
+    "slug": "tooltip",
+    "figmaNode": "1:30",
+    "page": "1:30",
+    "definitionCount": 22,
+    "sets": [
+      {
+        "id": "1136:1739",
+        "name": "Tooltip",
+        "count": 16
+      },
+      {
+        "id": "1140:23",
+        "name": "_components/Tooltip/TooltipBase",
+        "count": 4
+      }
+    ],
+    "affectedSemanticRoles": [
+      "primary",
+      "foreground",
+      "background/10%"
+    ],
+    "affectedTextStyles": [],
+    "note": "Actualizar los roles consumidos que difieren entre Figma y código; conservar la API y las variantes documentadas. La coincidencia visual completa queda por validar en Playground tras la sincronización.",
+    "implementation": "src/components/ui/tooltip.tsx",
+    "storybookDocumentation": "storybook/components-tooltip.md"
+  }
+]

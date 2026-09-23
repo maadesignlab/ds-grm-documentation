@@ -1,6 +1,27 @@
 # Changelog
 
-Todos los cambios relevantes de este proyecto se documentan en este archivo. El proyecto sigue [Semantic Versioning](https://semver.org/).
+## 1.1.0 — 2026-09-23
+
+### Trayectoria
+
+- Versión global: 1.0.0 → 1.1.0.
+- Componentes: versiones independientes en design-system/release-manifest.json y su historial documental; no se reinician ni se igualan a la versión global.
+- Variables y estilos: 821 entidades por ID y huella (769 variables, 40 estilos de texto y 12 visuales). Primer registro individual en 1.1.0; previousVersion=null no significa que la entidad sea nueva.
+- Historial global y estados: design-system/release-history.json. Diferencias de tokens respecto a 1.0.0: src/foundations/token-changes.json.
+
+### Cambios
+
+- 158 roles semánticos por marca, 632 valores CSS; sincronización de aliases, opacidades, estados y gradientes con Figma.
+- Button brand-gradient, tamaños de Input y mejoras de Table, Sidebar y otros consumidores: detalle por componente en el manifiesto y Releases.
+- Toast: Description y Close pasan del 72 % al color semántico completo.
+- Tipografía organizada por sección, tamaño y familia, propiedades compartidas, excepciones colapsadas y CSS exportable.
+- Releases mantiene la estructura de 1.0.0 y añade fichas de cambios al seleccionar cada componente.
+
+### Validaciones y excepciones
+
+- Evidencia técnica en docs/releases/1.1.0/validation.json.
+- 28 excepciones aceptadas: primary y brand-gradient de Reina Madre y Piel Sana. No equivalen a conformidad WCAG completa.
+- Publicación aprobada por el usuario el 23 de septiembre de 2026.
 
 ## 1.0.0 — 2026-09-08
 

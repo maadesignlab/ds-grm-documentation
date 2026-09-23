@@ -1,0 +1,288 @@
+{
+  "id": "2190:1413",
+  "name": "Item",
+  "total": 34,
+  "sets": [
+    {
+      "id": "2190:2109",
+      "name": "Item",
+      "type": "COMPONENT_SET",
+      "count": 15,
+      "props": {
+        "Leading Content#2191:0": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": false,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Appearance": {
+          "type": "VARIANT",
+          "defaultValue": "Outline",
+          "variantOptions": [
+            "Default",
+            "Outline",
+            "Muted"
+          ]
+        },
+        "Leading": {
+          "type": "VARIANT",
+          "defaultValue": "Icon",
+          "variantOptions": [
+            "Icon",
+            "Avatar",
+            "None",
+            "Avatar Group"
+          ]
+        },
+        "Trailing": {
+          "type": "VARIANT",
+          "defaultValue": "Icon",
+          "variantOptions": [
+            "Button",
+            "Icon",
+            "Icon Button",
+            "None",
+            "Time"
+          ]
+        },
+        "Description": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "True",
+            "False"
+          ]
+        },
+        "Layout": {
+          "type": "VARIANT",
+          "defaultValue": "Compact",
+          "variantOptions": [
+            "Default",
+            "Stacked",
+            "Compact"
+          ]
+        }
+      }
+    },
+    {
+      "id": "2191:12165",
+      "name": "Item/Dropdown Item",
+      "type": "COMPONENT_SET",
+      "count": 2,
+      "props": {
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Type15",
+          "variantOptions": [
+            "Type15",
+            "Type2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "2191:4628",
+      "name": "_components/Item/Item Right Content",
+      "type": "COMPONENT_SET",
+      "count": 4,
+      "props": {
+        "Propiedad 1": {
+          "type": "VARIANT",
+          "defaultValue": "Icon",
+          "variantOptions": [
+            "Icon",
+            "Variante 2",
+            "Variante 3",
+            "Variante 5"
+          ]
+        }
+      }
+    },
+    {
+      "id": "2191:4801",
+      "name": "Item Group",
+      "type": "COMPONENT_SET",
+      "count": 8,
+      "props": {
+        "Layout": {
+          "type": "VARIANT",
+          "defaultValue": "List",
+          "variantOptions": [
+            "List",
+            "Grid"
+          ]
+        },
+        "Items Amount": {
+          "type": "VARIANT",
+          "defaultValue": "2",
+          "variantOptions": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        }
+      }
+    },
+    {
+      "id": "2191:11472",
+      "name": "Item/Item Dropdown",
+      "type": "COMPONENT",
+      "count": 1,
+      "props": {}
+    }
+  ],
+  "variantNames": [
+    [
+      "2190:2110",
+      "2190:2109",
+      "Appearance=Default, Leading=Icon, Trailing=Button, Description=True, Layout=Default"
+    ],
+    [
+      "2191:3573",
+      "2190:2109",
+      "Appearance=Default, Leading=Icon, Trailing=Icon, Description=True, Layout=Default"
+    ],
+    [
+      "2191:3675",
+      "2190:2109",
+      "Appearance=Outline, Leading=Avatar, Trailing=Icon Button, Description=True, Layout=Default"
+    ],
+    [
+      "2191:11640",
+      "2190:2109",
+      "Appearance=Default, Leading=Avatar, Trailing=Icon Button, Description=True, Layout=Default"
+    ],
+    [
+      "2191:4541",
+      "2190:2109",
+      "Appearance=Outline, Leading=None, Trailing=Time, Description=True, Layout=Default"
+    ],
+    [
+      "2191:4744",
+      "2190:2109",
+      "Appearance=Outline, Leading=None, Trailing=None, Description=True, Layout=Stacked"
+    ],
+    [
+      "2190:2117",
+      "2190:2109",
+      "Appearance=Outline, Leading=Icon, Trailing=Button, Description=True, Layout=Default"
+    ],
+    [
+      "2191:3603",
+      "2190:2109",
+      "Appearance=Outline, Leading=Icon, Trailing=Icon, Description=True, Layout=Default"
+    ],
+    [
+      "2191:10654",
+      "2190:2109",
+      "Appearance=Outline, Leading=Icon, Trailing=Icon, Description=False, Layout=Compact"
+    ],
+    [
+      "2191:3684",
+      "2190:2109",
+      "Appearance=Outline, Leading=Avatar Group, Trailing=Button, Description=True, Layout=Default"
+    ],
+    [
+      "2191:11649",
+      "2190:2109",
+      "Appearance=Default, Leading=Avatar Group, Trailing=Button, Description=True, Layout=Default"
+    ],
+    [
+      "2190:2124",
+      "2190:2109",
+      "Appearance=Muted, Leading=Icon, Trailing=Button, Description=True, Layout=Default"
+    ],
+    [
+      "2191:3492",
+      "2190:2109",
+      "Appearance=Default, Leading=Icon, Trailing=Button, Description=True, Layout=Compact"
+    ],
+    [
+      "2191:3501",
+      "2190:2109",
+      "Appearance=Outline, Leading=Icon, Trailing=Button, Description=True, Layout=Compact"
+    ],
+    [
+      "2191:3510",
+      "2190:2109",
+      "Appearance=Muted, Leading=Icon, Trailing=Button, Description=True, Layout=Compact"
+    ],
+    [
+      "2191:12193",
+      "2191:12165",
+      "Type=Type15"
+    ],
+    [
+      "2206:16339",
+      "2191:12165",
+      "Type=Type2"
+    ],
+    [
+      "2191:4627",
+      "2191:4628",
+      "Propiedad 1=Icon"
+    ],
+    [
+      "2191:4629",
+      "2191:4628",
+      "Propiedad 1=Variante 2"
+    ],
+    [
+      "2191:4640",
+      "2191:4628",
+      "Propiedad 1=Variante 3"
+    ],
+    [
+      "2191:4660",
+      "2191:4628",
+      "Propiedad 1=Variante 5"
+    ],
+    [
+      "2191:4802",
+      "2191:4801",
+      "Layout=List, Items Amount=2"
+    ],
+    [
+      "2191:9688",
+      "2191:4801",
+      "Layout=Grid, Items Amount=2"
+    ],
+    [
+      "2191:4855",
+      "2191:4801",
+      "Layout=List, Items Amount=3"
+    ],
+    [
+      "2191:9691",
+      "2191:4801",
+      "Layout=Grid, Items Amount=3"
+    ],
+    [
+      "2191:9291",
+      "2191:4801",
+      "Layout=List, Items Amount=4"
+    ],
+    [
+      "2191:9695",
+      "2191:4801",
+      "Layout=Grid, Items Amount=4"
+    ],
+    [
+      "2191:9360",
+      "2191:4801",
+      "Layout=List, Items Amount=5"
+    ],
+    [
+      "2191:9700",
+      "2191:4801",
+      "Layout=Grid, Items Amount=5"
+    ]
+  ]
+}

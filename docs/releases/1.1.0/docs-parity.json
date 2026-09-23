@@ -1,0 +1,4018 @@
+[
+  {
+    "brand": "grm-global",
+    "slug": "input",
+    "values": [
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(44, 40, 42)",
+        "background": "oklab(0.774533 0.0103118 -0.00264215 / 0.5)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 44,
+        "radius": "10px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      }
+    ]
+  },
+  {
+    "brand": "grm-global",
+    "slug": "table",
+    "values": [
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(243, 241, 243)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(243, 241, 243)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(243, 241, 243)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ControlContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(243, 241, 243)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ControlContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(243, 241, 243)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ControlContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(243, 241, 243)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(243, 241, 243)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(243, 241, 243)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(243, 241, 243)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(243, 241, 243)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(243, 241, 243)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(243, 241, 243)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(243, 241, 243)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      }
+    ]
+  },
+  {
+    "brand": "grm-global",
+    "slug": "select",
+    "values": [
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(105, 96, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Opción 1",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(105, 96, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una zona horaria",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(105, 96, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(105, 96, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Opción 1",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(105, 96, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(105, 96, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(105, 96, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 28,
+        "radius": "8px",
+        "color": "rgb(105, 96, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(105, 96, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(105, 96, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      }
+    ]
+  },
+  {
+    "brand": "grm-global",
+    "slug": "native-select",
+    "values": [
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3Opción 4",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 28,
+        "radius": "8px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      }
+    ]
+  },
+  {
+    "brand": "grm-global",
+    "slug": "button",
+    "values": [
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "linear-gradient(135deg, rgb(22, 111, 84) 0%, rgb(0, 100, 89) 100%)"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(0, 123, 109)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(26, 23, 25)",
+        "background": "rgb(221, 249, 238)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(250, 248, 251)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(2, 104, 39)",
+        "background": "rgb(243, 251, 244)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(146, 91, 32)",
+        "background": "rgb(255, 251, 239)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(187, 17, 56)",
+        "background": "rgb(255, 244, 244)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 36,
+        "radius": "6px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(0, 123, 109)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(0, 123, 109)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 28,
+        "radius": "6px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(0, 123, 109)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "12.8px",
+        "lineHeight": "19.2px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 24,
+        "radius": "6px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(0, 123, 109)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(0, 123, 109)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 32,
+        "radius": "3.35544e+07px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(0, 123, 109)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 28,
+        "radius": "6px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(0, 123, 109)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 28,
+        "radius": "3.35544e+07px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(0, 123, 109)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 24,
+        "radius": "6px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(0, 123, 109)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 24,
+        "radius": "3.35544e+07px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(0, 123, 109)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      }
+    ]
+  },
+  {
+    "brand": "grm-global",
+    "slug": "tabs",
+    "values": [
+      {
+        "text": "Resumen",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(250, 248, 251)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Analytics",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(105, 96, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Reportes",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(105, 96, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Resumen",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(0, 123, 109)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Analytics",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(105, 96, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Reportes",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(105, 96, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Resumen",
+        "height": 28,
+        "radius": "10px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(250, 248, 251)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Analytics",
+        "height": 28,
+        "radius": "10px",
+        "color": "rgb(105, 96, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Reportes",
+        "height": 28,
+        "radius": "10px",
+        "color": "rgb(105, 96, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Resumen",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(250, 248, 251)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Analytics",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(105, 96, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Reportes",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(105, 96, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Resumen",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(44, 40, 42)",
+        "background": "rgb(250, 248, 251)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Analytics",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(105, 96, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Reportes",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(105, 96, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      }
+    ]
+  },
+  {
+    "brand": "reina-madre",
+    "slug": "input",
+    "values": [
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 40, 47)",
+        "background": "oklab(0.890991 0.00650096 -0.0351149 / 0.5)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 44,
+        "radius": "10px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      }
+    ]
+  },
+  {
+    "brand": "reina-madre",
+    "slug": "table",
+    "values": [
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(237, 239, 251)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(237, 239, 251)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(237, 239, 251)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ControlContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(237, 239, 251)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ControlContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(237, 239, 251)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ControlContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(237, 239, 251)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(237, 239, 251)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(237, 239, 251)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(237, 239, 251)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(237, 239, 251)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(237, 239, 251)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(237, 239, 251)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(237, 239, 251)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      }
+    ]
+  },
+  {
+    "brand": "reina-madre",
+    "slug": "select",
+    "values": [
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(97, 98, 113)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Opción 1",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(97, 98, 113)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una zona horaria",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(97, 98, 113)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(97, 98, 113)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Opción 1",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(97, 98, 113)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(97, 98, 113)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(97, 98, 113)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 28,
+        "radius": "8px",
+        "color": "rgb(97, 98, 113)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(97, 98, 113)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(97, 98, 113)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      }
+    ]
+  },
+  {
+    "brand": "reina-madre",
+    "slug": "native-select",
+    "values": [
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3Opción 4",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 28,
+        "radius": "8px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      }
+    ]
+  },
+  {
+    "brand": "reina-madre",
+    "slug": "button",
+    "values": [
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "linear-gradient(135deg, rgb(149, 55, 93) 0%, rgb(116, 56, 138) 100%)"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(24, 24, 28)",
+        "background": "rgb(237, 128, 168)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(24, 24, 28)",
+        "background": "rgb(241, 232, 247)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(248, 248, 252)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(92, 113, 73)",
+        "background": "rgb(248, 252, 244)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(140, 102, 60)",
+        "background": "rgb(255, 249, 242)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(148, 17, 42)",
+        "background": "rgb(255, 244, 243)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 36,
+        "radius": "6px",
+        "color": "rgb(24, 24, 28)",
+        "background": "rgb(237, 128, 168)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(24, 24, 28)",
+        "background": "rgb(237, 128, 168)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 28,
+        "radius": "6px",
+        "color": "rgb(24, 24, 28)",
+        "background": "rgb(237, 128, 168)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "12.8px",
+        "lineHeight": "19.2px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 24,
+        "radius": "6px",
+        "color": "rgb(24, 24, 28)",
+        "background": "rgb(237, 128, 168)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(24, 24, 28)",
+        "background": "rgb(237, 128, 168)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 32,
+        "radius": "3.35544e+07px",
+        "color": "rgb(24, 24, 28)",
+        "background": "rgb(237, 128, 168)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 28,
+        "radius": "6px",
+        "color": "rgb(24, 24, 28)",
+        "background": "rgb(237, 128, 168)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 28,
+        "radius": "3.35544e+07px",
+        "color": "rgb(24, 24, 28)",
+        "background": "rgb(237, 128, 168)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 24,
+        "radius": "6px",
+        "color": "rgb(24, 24, 28)",
+        "background": "rgb(237, 128, 168)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 24,
+        "radius": "3.35544e+07px",
+        "color": "rgb(24, 24, 28)",
+        "background": "rgb(237, 128, 168)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      }
+    ]
+  },
+  {
+    "brand": "reina-madre",
+    "slug": "tabs",
+    "values": [
+      {
+        "text": "Resumen",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(248, 248, 252)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Analytics",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(97, 98, 113)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Reportes",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(97, 98, 113)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Resumen",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(149, 55, 93)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Analytics",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(97, 98, 113)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Reportes",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(97, 98, 113)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Resumen",
+        "height": 28,
+        "radius": "10px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(248, 248, 252)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Analytics",
+        "height": 28,
+        "radius": "10px",
+        "color": "rgb(97, 98, 113)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Reportes",
+        "height": 28,
+        "radius": "10px",
+        "color": "rgb(97, 98, 113)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Resumen",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(248, 248, 252)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Analytics",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(97, 98, 113)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Reportes",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(97, 98, 113)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Resumen",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(40, 40, 47)",
+        "background": "rgb(248, 248, 252)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Analytics",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(97, 98, 113)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Reportes",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(97, 98, 113)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Inter Variable\", Inter, Arial, Helvetica, sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      }
+    ]
+  },
+  {
+    "brand": "maria-linda",
+    "slug": "input",
+    "values": [
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 41, 42)",
+        "background": "oklab(0.804653 0.0000365973 0.0000160933 / 0.5)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 44,
+        "radius": "10px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      }
+    ]
+  },
+  {
+    "brand": "maria-linda",
+    "slug": "table",
+    "values": [
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(231, 242, 240)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(231, 242, 240)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(231, 242, 240)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ControlContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(231, 242, 240)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ControlContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(231, 242, 240)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ControlContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(231, 242, 240)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(231, 242, 240)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(231, 242, 240)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(231, 242, 240)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(231, 242, 240)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(231, 242, 240)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(231, 242, 240)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(231, 242, 240)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      }
+    ]
+  },
+  {
+    "brand": "maria-linda",
+    "slug": "select",
+    "values": [
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(97, 100, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Opción 1",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(97, 100, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una zona horaria",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(97, 100, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(97, 100, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Opción 1",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(97, 100, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(97, 100, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(97, 100, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 28,
+        "radius": "8px",
+        "color": "rgb(97, 100, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(97, 100, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(97, 100, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      }
+    ]
+  },
+  {
+    "brand": "maria-linda",
+    "slug": "native-select",
+    "values": [
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3Opción 4",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 28,
+        "radius": "8px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      }
+    ]
+  },
+  {
+    "brand": "maria-linda",
+    "slug": "button",
+    "values": [
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "linear-gradient(135deg, rgb(75, 89, 87) 0%, rgb(55, 106, 98) 100%)"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(24, 24, 25)",
+        "background": "rgb(76, 142, 132)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(24, 24, 25)",
+        "background": "rgb(242, 249, 247)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(248, 249, 249)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(18, 120, 74)",
+        "background": "rgb(234, 248, 239)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(117, 81, 8)",
+        "background": "rgb(253, 244, 230)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(149, 10, 55)",
+        "background": "rgb(254, 236, 238)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 36,
+        "radius": "6px",
+        "color": "rgb(24, 24, 25)",
+        "background": "rgb(76, 142, 132)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(24, 24, 25)",
+        "background": "rgb(76, 142, 132)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 28,
+        "radius": "6px",
+        "color": "rgb(24, 24, 25)",
+        "background": "rgb(76, 142, 132)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "12.8px",
+        "lineHeight": "19.2px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 24,
+        "radius": "6px",
+        "color": "rgb(24, 24, 25)",
+        "background": "rgb(76, 142, 132)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(24, 24, 25)",
+        "background": "rgb(76, 142, 132)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 32,
+        "radius": "3.35544e+07px",
+        "color": "rgb(24, 24, 25)",
+        "background": "rgb(76, 142, 132)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 28,
+        "radius": "6px",
+        "color": "rgb(24, 24, 25)",
+        "background": "rgb(76, 142, 132)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 28,
+        "radius": "3.35544e+07px",
+        "color": "rgb(24, 24, 25)",
+        "background": "rgb(76, 142, 132)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 24,
+        "radius": "6px",
+        "color": "rgb(24, 24, 25)",
+        "background": "rgb(76, 142, 132)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 24,
+        "radius": "3.35544e+07px",
+        "color": "rgb(24, 24, 25)",
+        "background": "rgb(76, 142, 132)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      }
+    ]
+  },
+  {
+    "brand": "maria-linda",
+    "slug": "tabs",
+    "values": [
+      {
+        "text": "Resumen",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(248, 249, 249)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Analytics",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(97, 100, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Reportes",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(97, 100, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Resumen",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(55, 106, 98)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Analytics",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(97, 100, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Reportes",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(97, 100, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Resumen",
+        "height": 28,
+        "radius": "10px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(248, 249, 249)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Analytics",
+        "height": 28,
+        "radius": "10px",
+        "color": "rgb(97, 100, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Reportes",
+        "height": 28,
+        "radius": "10px",
+        "color": "rgb(97, 100, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Resumen",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(248, 249, 249)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Analytics",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(97, 100, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Reportes",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(97, 100, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Resumen",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(40, 41, 42)",
+        "background": "rgb(248, 249, 249)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Analytics",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(97, 100, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Reportes",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(97, 100, 101)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Plus Jakarta Sans Variable\", \"Plus Jakarta Sans\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      }
+    ]
+  },
+  {
+    "brand": "piel-sana",
+    "slug": "input",
+    "values": [
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(42, 41, 38)",
+        "background": "oklab(0.841299 0.00289732 0.0137633 / 0.5)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 44,
+        "radius": "10px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "10px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(255, 255, 255)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      }
+    ]
+  },
+  {
+    "brand": "piel-sana",
+    "slug": "table",
+    "values": [
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(253, 243, 236)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(253, 243, 236)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(253, 243, 236)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ControlContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(253, 243, 236)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ControlContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(253, 243, 236)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ControlContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(253, 243, 236)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(253, 243, 236)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(253, 243, 236)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(253, 243, 236)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(253, 243, 236)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(253, 243, 236)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(253, 243, 236)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "ContenidoCorreoEstadoPróxima citaValor",
+        "height": 36,
+        "radius": "0px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(253, 243, 236)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      }
+    ]
+  },
+  {
+    "brand": "piel-sana",
+    "slug": "select",
+    "values": [
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(103, 99, 92)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Opción 1",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(103, 99, 92)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una zona horaria",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(103, 99, 92)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(103, 99, 92)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Opción 1",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(103, 99, 92)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(103, 99, 92)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(103, 99, 92)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 28,
+        "radius": "8px",
+        "color": "rgb(103, 99, 92)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(103, 99, 92)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opción",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(103, 99, 92)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      }
+    ]
+  },
+  {
+    "brand": "piel-sana",
+    "slug": "native-select",
+    "values": [
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3Opción 4",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 36,
+        "radius": "8px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Selecciona una opciónOpción 1Opción 2Opción 3",
+        "height": 28,
+        "radius": "8px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      }
+    ]
+  },
+  {
+    "brand": "piel-sana",
+    "slug": "button",
+    "values": [
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "linear-gradient(135deg, rgb(148, 71, 26) 0%, rgb(40, 111, 97) 100%)"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(25, 24, 22)",
+        "background": "rgb(255, 146, 72)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(25, 24, 22)",
+        "background": "rgb(227, 248, 244)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(251, 250, 248)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(53, 97, 1)",
+        "background": "rgb(238, 249, 231)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(119, 84, 0)",
+        "background": "rgb(254, 245, 230)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(157, 4, 43)",
+        "background": "rgb(255, 237, 237)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 36,
+        "radius": "6px",
+        "color": "rgb(25, 24, 22)",
+        "background": "rgb(255, 146, 72)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(25, 24, 22)",
+        "background": "rgb(255, 146, 72)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 28,
+        "radius": "6px",
+        "color": "rgb(25, 24, 22)",
+        "background": "rgb(255, 146, 72)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "12.8px",
+        "lineHeight": "19.2px",
+        "gradient": "none"
+      },
+      {
+        "text": "Button",
+        "height": 24,
+        "radius": "6px",
+        "color": "rgb(25, 24, 22)",
+        "background": "rgb(255, 146, 72)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 32,
+        "radius": "6px",
+        "color": "rgb(25, 24, 22)",
+        "background": "rgb(255, 146, 72)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 32,
+        "radius": "3.35544e+07px",
+        "color": "rgb(25, 24, 22)",
+        "background": "rgb(255, 146, 72)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 28,
+        "radius": "6px",
+        "color": "rgb(25, 24, 22)",
+        "background": "rgb(255, 146, 72)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 28,
+        "radius": "3.35544e+07px",
+        "color": "rgb(25, 24, 22)",
+        "background": "rgb(255, 146, 72)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 24,
+        "radius": "6px",
+        "color": "rgb(25, 24, 22)",
+        "background": "rgb(255, 146, 72)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "",
+        "height": 24,
+        "radius": "3.35544e+07px",
+        "color": "rgb(25, 24, 22)",
+        "background": "rgb(255, 146, 72)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      }
+    ]
+  },
+  {
+    "brand": "piel-sana",
+    "slug": "tabs",
+    "values": [
+      {
+        "text": "Resumen",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(251, 250, 248)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Analytics",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(103, 99, 92)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Reportes",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(103, 99, 92)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Resumen",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(148, 71, 26)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Analytics",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(103, 99, 92)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Reportes",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(103, 99, 92)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Resumen",
+        "height": 28,
+        "radius": "10px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(251, 250, 248)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Analytics",
+        "height": 28,
+        "radius": "10px",
+        "color": "rgb(103, 99, 92)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Reportes",
+        "height": 28,
+        "radius": "10px",
+        "color": "rgb(103, 99, 92)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Resumen",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(251, 250, 248)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Analytics",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(103, 99, 92)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Reportes",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(103, 99, 92)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Resumen",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(42, 41, 38)",
+        "background": "rgb(251, 250, 248)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Analytics",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(103, 99, 92)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      },
+      {
+        "text": "Reportes",
+        "height": 25,
+        "radius": "10px",
+        "color": "rgb(103, 99, 92)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Kantumruy Pro Variable\", \"Kantumruy Pro\", sans-serif",
+        "fontSize": "14px",
+        "lineHeight": "20px",
+        "gradient": "none"
+      }
+    ]
+  }
+]

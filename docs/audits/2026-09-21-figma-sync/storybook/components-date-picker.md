@@ -1,0 +1,56 @@
+# DatePicker
+
+ID: components-date-picker
+
+## Stories
+
+### Playground
+
+Story ID: components-date-picker--playground
+
+```
+import { DatePickerExample } from "@reina-madre/design-system";
+
+const Playground = () => <DatePickerExample key={JSON.stringify(args)} />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as DatePickerStories from "./date-picker.stories"
+import exampleSource from "./date-picker-example.tsx?raw"
+import { DatePickerComposition, DatePickerSpecifications, DatePickerStates } from "./date-picker-docs"
+
+<Meta of={DatePickerStories} />
+<Title of={DatePickerStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Sigue el patrón oficial de composición `Popover + Calendar`; no crea un primitive Date Picker inexistente en shadcn/ui.
+  - Incluye Single, Range de dos meses y Date and time, más la configuración de disponibilidad ya soportada por Calendar.
+  - Conserva selección, navegación por teclado, foco, portales y atributos accesibles de los primitives oficiales.
+  - Playground y Docs consumen exclusivamente `datePickerExamplePresets` y la misma instancia `DatePickerExample`.
+</details>
+
+## Composición
+
+<div className="mb-12"><DatePickerComposition /></div>
+
+## Estados y configuración
+
+<div className="mb-12"><DatePickerStates /></div>
+
+## Especificaciones
+
+<div className="mb-12"><DatePickerSpecifications /></div>
+
+## Código
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

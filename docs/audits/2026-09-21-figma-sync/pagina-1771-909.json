@@ -1,0 +1,454 @@
+{
+  "id": "1771:909",
+  "name": "Accordion",
+  "total": 71,
+  "sets": [
+    {
+      "id": "1771:13033",
+      "name": "_components/Accordion/AccordionItem",
+      "type": "COMPONENT_SET",
+      "count": 2,
+      "props": {
+        "Accordion Content#1879:30": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "collapsed",
+          "variantOptions": [
+            "collapsed",
+            "expanded"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1771:13082",
+      "name": "_components/Accordion/AccordionBaseText",
+      "type": "COMPONENT_SET",
+      "count": 2,
+      "props": {
+        "Accordion Item Text#1879:33": {
+          "type": "TEXT",
+          "defaultValue": "¿Cómo puedo programar una cita?"
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "onHover"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1771:13171",
+      "name": "Accordion/Multiple",
+      "type": "COMPONENT_SET",
+      "count": 9,
+      "props": {
+        "Item Amount": {
+          "type": "VARIANT",
+          "defaultValue": "2",
+          "variantOptions": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1771:13749",
+      "name": "Accordion/Unique",
+      "type": "COMPONENT_SET",
+      "count": 54,
+      "props": {
+        "Item Amount": {
+          "type": "VARIANT",
+          "defaultValue": "2",
+          "variantOptions": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "2",
+            "3",
+            "4",
+            "6",
+            "5"
+          ]
+        },
+        "Active Item": {
+          "type": "VARIANT",
+          "defaultValue": "1",
+          "variantOptions": [
+            "1",
+            "2",
+            "5",
+            "6",
+            "7",
+            "8",
+            "10",
+            "3",
+            "4",
+            "9"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "1771:943",
+      "1771:13033",
+      "Status=collapsed"
+    ],
+    [
+      "1771:13034",
+      "1771:13033",
+      "Status=expanded"
+    ],
+    [
+      "1771:13081",
+      "1771:13082",
+      "Status=default"
+    ],
+    [
+      "1771:13083",
+      "1771:13082",
+      "Status=onHover"
+    ],
+    [
+      "1771:13170",
+      "1771:13171",
+      "Item Amount=2"
+    ],
+    [
+      "1771:13198",
+      "1771:13171",
+      "Item Amount=3"
+    ],
+    [
+      "1771:13252",
+      "1771:13171",
+      "Item Amount=4"
+    ],
+    [
+      "1771:13287",
+      "1771:13171",
+      "Item Amount=5"
+    ],
+    [
+      "1771:13330",
+      "1771:13171",
+      "Item Amount=6"
+    ],
+    [
+      "1771:13381",
+      "1771:13171",
+      "Item Amount=7"
+    ],
+    [
+      "1771:13440",
+      "1771:13171",
+      "Item Amount=8"
+    ],
+    [
+      "1771:13507",
+      "1771:13171",
+      "Item Amount=9"
+    ],
+    [
+      "1771:13582",
+      "1771:13171",
+      "Item Amount=10"
+    ],
+    [
+      "1771:13750",
+      "1771:13749",
+      "Item Amount=2, Active Item=1"
+    ],
+    [
+      "1771:14228",
+      "1771:13749",
+      "Item Amount=2, Active Item=2"
+    ],
+    [
+      "1771:13753",
+      "1771:13749",
+      "Item Amount=3, Active Item=1"
+    ],
+    [
+      "1771:14331",
+      "1771:13749",
+      "Item Amount=3, Active Item=2"
+    ],
+    [
+      "1771:14385",
+      "1771:13749",
+      "Item Amount=3, Active Item=3"
+    ],
+    [
+      "1771:13757",
+      "1771:13749",
+      "Item Amount=4, Active Item=1"
+    ],
+    [
+      "1771:14479",
+      "1771:13749",
+      "Item Amount=4, Active Item=2"
+    ],
+    [
+      "1771:14549",
+      "1771:13749",
+      "Item Amount=4, Active Item=3"
+    ],
+    [
+      "1771:14619",
+      "1771:13749",
+      "Item Amount=4, Active Item=4"
+    ],
+    [
+      "1771:13762",
+      "1771:13749",
+      "Item Amount=5, Active Item=1"
+    ],
+    [
+      "1771:14763",
+      "1771:13749",
+      "Item Amount=5, Active Item=2"
+    ],
+    [
+      "1771:14849",
+      "1771:13749",
+      "Item Amount=5, Active Item=3"
+    ],
+    [
+      "1771:14935",
+      "1771:13749",
+      "Item Amount=5, Active Item=4"
+    ],
+    [
+      "1771:15021",
+      "1771:13749",
+      "Item Amount=5, Active Item=5"
+    ],
+    [
+      "1771:13768",
+      "1771:13749",
+      "Item Amount=6, Active Item=1"
+    ],
+    [
+      "1771:15179",
+      "1771:13749",
+      "Item Amount=6, Active Item=2"
+    ],
+    [
+      "1771:15281",
+      "1771:13749",
+      "Item Amount=6, Active Item=3"
+    ],
+    [
+      "1771:15383",
+      "1771:13749",
+      "Item Amount=6, Active Item=4"
+    ],
+    [
+      "1771:15485",
+      "1771:13749",
+      "Item Amount=6, Active Item=5"
+    ],
+    [
+      "1771:15587",
+      "1771:13749",
+      "Item Amount=6, Active Item=6"
+    ],
+    [
+      "1771:13775",
+      "1771:13749",
+      "Item Amount=7, Active Item=1"
+    ],
+    [
+      "1879:11365",
+      "1771:13749",
+      "Item Amount=7, Active Item=3"
+    ],
+    [
+      "1879:11188",
+      "1771:13749",
+      "Item Amount=7, Active Item=2"
+    ],
+    [
+      "1879:11373",
+      "1771:13749",
+      "Item Amount=7, Active Item=4"
+    ],
+    [
+      "1879:11542",
+      "1771:13749",
+      "Item Amount=7, Active Item=5"
+    ],
+    [
+      "1879:11660",
+      "1771:13749",
+      "Item Amount=7, Active Item=6"
+    ],
+    [
+      "1879:11778",
+      "1771:13749",
+      "Item Amount=7, Active Item=7"
+    ],
+    [
+      "1771:13783",
+      "1771:13749",
+      "Item Amount=8, Active Item=1"
+    ],
+    [
+      "1879:12507",
+      "1771:13749",
+      "Item Amount=8, Active Item=5"
+    ],
+    [
+      "1879:12105",
+      "1771:13749",
+      "Item Amount=8, Active Item=3"
+    ],
+    [
+      "1879:12516",
+      "1771:13749",
+      "Item Amount=8, Active Item=7"
+    ],
+    [
+      "1879:11904",
+      "1771:13749",
+      "Item Amount=8, Active Item=2"
+    ],
+    [
+      "1879:12525",
+      "1771:13749",
+      "Item Amount=8, Active Item=6"
+    ],
+    [
+      "1879:12114",
+      "1771:13749",
+      "Item Amount=8, Active Item=4"
+    ],
+    [
+      "1879:12534",
+      "1771:13749",
+      "Item Amount=8, Active Item=8"
+    ],
+    [
+      "1771:13792",
+      "1771:13749",
+      "Item Amount=9, Active Item=1"
+    ],
+    [
+      "1879:13525",
+      "1771:13749",
+      "Item Amount=9, Active Item=5"
+    ],
+    [
+      "1879:13075",
+      "1771:13749",
+      "Item Amount=9, Active Item=3"
+    ],
+    [
+      "1879:13535",
+      "1771:13749",
+      "Item Amount=9, Active Item=7"
+    ],
+    [
+      "1879:12850",
+      "1771:13749",
+      "Item Amount=9, Active Item=2"
+    ],
+    [
+      "1879:13545",
+      "1771:13749",
+      "Item Amount=9, Active Item=6"
+    ],
+    [
+      "1879:13085",
+      "1771:13749",
+      "Item Amount=9, Active Item=4"
+    ],
+    [
+      "1879:13555",
+      "1771:13749",
+      "Item Amount=9, Active Item=8"
+    ],
+    [
+      "1879:13900",
+      "1771:13749",
+      "Item Amount=9, Active Item=9"
+    ],
+    [
+      "1771:13802",
+      "1771:13749",
+      "Item Amount=10, Active Item=1"
+    ],
+    [
+      "1879:14805",
+      "1771:13749",
+      "Item Amount=10, Active Item=5"
+    ],
+    [
+      "1879:14307",
+      "1771:13749",
+      "Item Amount=10, Active Item=3"
+    ],
+    [
+      "1879:14816",
+      "1771:13749",
+      "Item Amount=10, Active Item=7"
+    ],
+    [
+      "1879:15303",
+      "1771:13749",
+      "Item Amount=10, Active Item=9"
+    ],
+    [
+      "1879:14058",
+      "1771:13749",
+      "Item Amount=10, Active Item=2"
+    ],
+    [
+      "1879:14827",
+      "1771:13749",
+      "Item Amount=10, Active Item=6"
+    ],
+    [
+      "1879:14318",
+      "1771:13749",
+      "Item Amount=10, Active Item=4"
+    ],
+    [
+      "1879:14838",
+      "1771:13749",
+      "Item Amount=10, Active Item=8"
+    ],
+    [
+      "1879:15314",
+      "1771:13749",
+      "Item Amount=10, Active Item=10"
+    ]
+  ]
+}

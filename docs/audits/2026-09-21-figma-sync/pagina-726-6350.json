@@ -1,0 +1,78 @@
+{
+  "id": "726:6350",
+  "name": "Popover",
+  "total": 7,
+  "sets": [
+    {
+      "id": "743:6436",
+      "name": "Popover",
+      "type": "COMPONENT_SET",
+      "count": 6,
+      "props": {
+        "Popover Content#1390:0": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Opened": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "true",
+            "Variante 4",
+            "Variante 6",
+            "false"
+          ]
+        },
+        "Trigger Alignment": {
+          "type": "VARIANT",
+          "defaultValue": "start",
+          "variantOptions": [
+            "start",
+            "center",
+            "end"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "743:6437",
+      "743:6436",
+      "Opened=true, Trigger Alignment=start"
+    ],
+    [
+      "1150:10202",
+      "743:6436",
+      "Opened=Variante 4, Trigger Alignment=center"
+    ],
+    [
+      "1150:10475",
+      "743:6436",
+      "Opened=Variante 6, Trigger Alignment=end"
+    ],
+    [
+      "1141:4888",
+      "743:6436",
+      "Opened=false, Trigger Alignment=start"
+    ],
+    [
+      "1150:10207",
+      "743:6436",
+      "Opened=false, Trigger Alignment=center"
+    ],
+    [
+      "1150:10480",
+      "743:6436",
+      "Opened=false, Trigger Alignment=end"
+    ]
+  ]
+}

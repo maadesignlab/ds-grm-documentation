@@ -1,0 +1,635 @@
+{
+  "id": "561:4282",
+  "name": "Input OTP",
+  "total": 106,
+  "sets": [
+    {
+      "id": "566:5307",
+      "name": "InputOTP/Base",
+      "type": "COMPONENT_SET",
+      "count": 51,
+      "props": {
+        "Slot 1#774:288": {
+          "type": "TEXT",
+          "defaultValue": "1"
+        },
+        "Slot 2#774:313": {
+          "type": "TEXT",
+          "defaultValue": "1"
+        },
+        "Slot 3#774:338": {
+          "type": "TEXT",
+          "defaultValue": "1"
+        },
+        "Slot 4#774:363": {
+          "type": "TEXT",
+          "defaultValue": "1"
+        },
+        "Slot 5#774:388": {
+          "type": "TEXT",
+          "defaultValue": "1"
+        },
+        "Slot 6#774:413": {
+          "type": "TEXT",
+          "defaultValue": "1"
+        },
+        "Slot Amount": {
+          "type": "VARIANT",
+          "defaultValue": "4",
+          "variantOptions": [
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "disabled",
+            "error"
+          ]
+        },
+        "Step": {
+          "type": "VARIANT",
+          "defaultValue": "empty",
+          "variantOptions": [
+            "empty",
+            "selected",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "filled"
+          ]
+        }
+      }
+    },
+    {
+      "id": "570:786",
+      "name": "InputOTP/Separator",
+      "type": "COMPONENT_SET",
+      "count": 53,
+      "props": {
+        "Slot Amount": {
+          "type": "VARIANT",
+          "defaultValue": "2-2",
+          "variantOptions": [
+            "3-3",
+            "2-2",
+            "2-2-2"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "error",
+            "disabled"
+          ]
+        },
+        "Step": {
+          "type": "VARIANT",
+          "defaultValue": "empty",
+          "variantOptions": [
+            "empty",
+            "selected",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "filled"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "566:5207",
+      "566:5307",
+      "Slot Amount=4, Status=default, Step=empty"
+    ],
+    [
+      "774:11028",
+      "566:5307",
+      "Slot Amount=4, Status=error, Step=empty"
+    ],
+    [
+      "774:11577",
+      "566:5307",
+      "Slot Amount=4, Status=disabled, Step=empty"
+    ],
+    [
+      "566:5347",
+      "566:5307",
+      "Slot Amount=4, Status=default, Step=1"
+    ],
+    [
+      "774:11033",
+      "566:5307",
+      "Slot Amount=4, Status=error, Step=1"
+    ],
+    [
+      "570:609",
+      "566:5307",
+      "Slot Amount=4, Status=default, Step=selected"
+    ],
+    [
+      "774:11039",
+      "566:5307",
+      "Slot Amount=4, Status=error, Step=selected"
+    ],
+    [
+      "566:5383",
+      "566:5307",
+      "Slot Amount=4, Status=default, Step=2"
+    ],
+    [
+      "774:11044",
+      "566:5307",
+      "Slot Amount=4, Status=error, Step=2"
+    ],
+    [
+      "566:5419",
+      "566:5307",
+      "Slot Amount=4, Status=default, Step=3"
+    ],
+    [
+      "774:11051",
+      "566:5307",
+      "Slot Amount=4, Status=error, Step=3"
+    ],
+    [
+      "566:5455",
+      "566:5307",
+      "Slot Amount=4, Status=default, Step=4"
+    ],
+    [
+      "774:11059",
+      "566:5307",
+      "Slot Amount=4, Status=error, Step=4"
+    ],
+    [
+      "570:625",
+      "566:5307",
+      "Slot Amount=4, Status=default, Step=filled"
+    ],
+    [
+      "774:11068",
+      "566:5307",
+      "Slot Amount=4, Status=error, Step=filled"
+    ],
+    [
+      "566:5308",
+      "566:5307",
+      "Slot Amount=5, Status=default, Step=empty"
+    ],
+    [
+      "774:11077",
+      "566:5307",
+      "Slot Amount=5, Status=error, Step=empty"
+    ],
+    [
+      "774:11582",
+      "566:5307",
+      "Slot Amount=5, Status=disabled, Step=empty"
+    ],
+    [
+      "566:5352",
+      "566:5307",
+      "Slot Amount=5, Status=default, Step=selected"
+    ],
+    [
+      "774:11083",
+      "566:5307",
+      "Slot Amount=5, Status=error, Step=selected"
+    ],
+    [
+      "570:679",
+      "566:5307",
+      "Slot Amount=5, Status=default, Step=1"
+    ],
+    [
+      "774:11089",
+      "566:5307",
+      "Slot Amount=5, Status=error, Step=1"
+    ],
+    [
+      "566:5388",
+      "566:5307",
+      "Slot Amount=5, Status=default, Step=2"
+    ],
+    [
+      "774:11096",
+      "566:5307",
+      "Slot Amount=5, Status=error, Step=2"
+    ],
+    [
+      "566:5424",
+      "566:5307",
+      "Slot Amount=5, Status=default, Step=3"
+    ],
+    [
+      "774:11104",
+      "566:5307",
+      "Slot Amount=5, Status=error, Step=3"
+    ],
+    [
+      "566:5460",
+      "566:5307",
+      "Slot Amount=5, Status=default, Step=4"
+    ],
+    [
+      "774:11113",
+      "566:5307",
+      "Slot Amount=5, Status=error, Step=4"
+    ],
+    [
+      "566:5486",
+      "566:5307",
+      "Slot Amount=5, Status=default, Step=5"
+    ],
+    [
+      "774:11123",
+      "566:5307",
+      "Slot Amount=5, Status=error, Step=5"
+    ],
+    [
+      "570:646",
+      "566:5307",
+      "Slot Amount=5, Status=default, Step=filled"
+    ],
+    [
+      "774:11134",
+      "566:5307",
+      "Slot Amount=5, Status=error, Step=filled"
+    ],
+    [
+      "566:5322",
+      "566:5307",
+      "Slot Amount=6, Status=default, Step=empty"
+    ],
+    [
+      "774:11145",
+      "566:5307",
+      "Slot Amount=6, Status=error, Step=empty"
+    ],
+    [
+      "774:11588",
+      "566:5307",
+      "Slot Amount=6, Status=disabled, Step=empty"
+    ],
+    [
+      "566:5358",
+      "566:5307",
+      "Slot Amount=6, Status=default, Step=selected"
+    ],
+    [
+      "774:11152",
+      "566:5307",
+      "Slot Amount=6, Status=error, Step=selected"
+    ],
+    [
+      "570:685",
+      "566:5307",
+      "Slot Amount=6, Status=default, Step=1"
+    ],
+    [
+      "774:11159",
+      "566:5307",
+      "Slot Amount=6, Status=error, Step=1"
+    ],
+    [
+      "566:5394",
+      "566:5307",
+      "Slot Amount=6, Status=default, Step=2"
+    ],
+    [
+      "774:11167",
+      "566:5307",
+      "Slot Amount=6, Status=error, Step=2"
+    ],
+    [
+      "566:5430",
+      "566:5307",
+      "Slot Amount=6, Status=default, Step=3"
+    ],
+    [
+      "774:11176",
+      "566:5307",
+      "Slot Amount=6, Status=error, Step=3"
+    ],
+    [
+      "566:5466",
+      "566:5307",
+      "Slot Amount=6, Status=default, Step=4"
+    ],
+    [
+      "774:11186",
+      "566:5307",
+      "Slot Amount=6, Status=error, Step=4"
+    ],
+    [
+      "566:5492",
+      "566:5307",
+      "Slot Amount=6, Status=default, Step=5"
+    ],
+    [
+      "774:11197",
+      "566:5307",
+      "Slot Amount=6, Status=error, Step=5"
+    ],
+    [
+      "566:5534",
+      "566:5307",
+      "Slot Amount=6, Status=default, Step=6"
+    ],
+    [
+      "774:11209",
+      "566:5307",
+      "Slot Amount=6, Status=error, Step=6"
+    ],
+    [
+      "570:659",
+      "566:5307",
+      "Slot Amount=6, Status=default, Step=filled"
+    ],
+    [
+      "774:11015",
+      "566:5307",
+      "Slot Amount=6, Status=error, Step=filled"
+    ],
+    [
+      "566:5306",
+      "570:786",
+      "Slot Amount=2-2, Status=default, Step=empty"
+    ],
+    [
+      "774:11629",
+      "570:786",
+      "Slot Amount=2-2, Status=disabled, Step=empty"
+    ],
+    [
+      "774:11240",
+      "570:786",
+      "Slot Amount=2-2, Status=error, Step=empty"
+    ],
+    [
+      "570:1165",
+      "570:786",
+      "Slot Amount=2-2, Status=default, Step=selected"
+    ],
+    [
+      "774:11248",
+      "570:786",
+      "Slot Amount=2-2, Status=error, Step=selected"
+    ],
+    [
+      "570:1225",
+      "570:786",
+      "Slot Amount=2-2, Status=default, Step=1"
+    ],
+    [
+      "774:11256",
+      "570:786",
+      "Slot Amount=2-2, Status=error, Step=1"
+    ],
+    [
+      "570:1285",
+      "570:786",
+      "Slot Amount=2-2, Status=default, Step=2"
+    ],
+    [
+      "774:11265",
+      "570:786",
+      "Slot Amount=2-2, Status=error, Step=2"
+    ],
+    [
+      "570:1345",
+      "570:786",
+      "Slot Amount=2-2, Status=default, Step=3"
+    ],
+    [
+      "774:11275",
+      "570:786",
+      "Slot Amount=2-2, Status=error, Step=3"
+    ],
+    [
+      "570:1405",
+      "570:786",
+      "Slot Amount=2-2, Status=default, Step=4"
+    ],
+    [
+      "774:11286",
+      "570:786",
+      "Slot Amount=2-2, Status=error, Step=4"
+    ],
+    [
+      "570:1465",
+      "570:786",
+      "Slot Amount=2-2, Status=default, Step=filled"
+    ],
+    [
+      "774:11297",
+      "570:786",
+      "Slot Amount=2-2, Status=error, Step=filled"
+    ],
+    [
+      "570:1098",
+      "570:786",
+      "Slot Amount=3-3, Status=default, Step=empty"
+    ],
+    [
+      "774:11637",
+      "570:786",
+      "Slot Amount=3-3, Status=disabled, Step=empty"
+    ],
+    [
+      "774:11309",
+      "570:786",
+      "Slot Amount=3-3, Status=error, Step=empty"
+    ],
+    [
+      "570:1173",
+      "570:786",
+      "Slot Amount=3-3, Status=default, Step=selected"
+    ],
+    [
+      "774:11319",
+      "570:786",
+      "Slot Amount=3-3, Status=error, Step=selected"
+    ],
+    [
+      "570:1233",
+      "570:786",
+      "Slot Amount=3-3, Status=default, Step=1"
+    ],
+    [
+      "774:11329",
+      "570:786",
+      "Slot Amount=3-3, Status=error, Step=1"
+    ],
+    [
+      "570:1293",
+      "570:786",
+      "Slot Amount=3-3, Status=default, Step=2"
+    ],
+    [
+      "774:11340",
+      "570:786",
+      "Slot Amount=3-3, Status=error, Step=2"
+    ],
+    [
+      "570:1353",
+      "570:786",
+      "Slot Amount=3-3, Status=default, Step=3"
+    ],
+    [
+      "774:11352",
+      "570:786",
+      "Slot Amount=3-3, Status=error, Step=3"
+    ],
+    [
+      "570:1413",
+      "570:786",
+      "Slot Amount=3-3, Status=default, Step=4"
+    ],
+    [
+      "774:11365",
+      "570:786",
+      "Slot Amount=3-3, Status=error, Step=4"
+    ],
+    [
+      "570:1473",
+      "570:786",
+      "Slot Amount=3-3, Status=default, Step=5"
+    ],
+    [
+      "774:11379",
+      "570:786",
+      "Slot Amount=3-3, Status=error, Step=5"
+    ],
+    [
+      "570:1533",
+      "570:786",
+      "Slot Amount=3-3, Status=default, Step=6"
+    ],
+    [
+      "774:11394",
+      "570:786",
+      "Slot Amount=3-3, Status=error, Step=6"
+    ],
+    [
+      "570:1593",
+      "570:786",
+      "Slot Amount=3-3, Status=default, Step=filled"
+    ],
+    [
+      "774:11410",
+      "570:786",
+      "Slot Amount=3-3, Status=error, Step=filled"
+    ],
+    [
+      "570:787",
+      "570:786",
+      "Slot Amount=2-2-2, Status=default, Step=empty"
+    ],
+    [
+      "774:11647",
+      "570:786",
+      "Slot Amount=2-2-2, Status=disabled, Step=empty"
+    ],
+    [
+      "774:11426",
+      "570:786",
+      "Slot Amount=2-2-2, Status=error, Step=empty"
+    ],
+    [
+      "570:1183",
+      "570:786",
+      "Slot Amount=2-2-2, Status=default, Step=selected"
+    ],
+    [
+      "774:11438",
+      "570:786",
+      "Slot Amount=2-2-2, Status=error, Step=selected"
+    ],
+    [
+      "570:1243",
+      "570:786",
+      "Slot Amount=2-2-2, Status=default, Step=1"
+    ],
+    [
+      "774:11450",
+      "570:786",
+      "Slot Amount=2-2-2, Status=error, Step=1"
+    ],
+    [
+      "570:1303",
+      "570:786",
+      "Slot Amount=2-2-2, Status=default, Step=2"
+    ],
+    [
+      "774:11463",
+      "570:786",
+      "Slot Amount=2-2-2, Status=error, Step=2"
+    ],
+    [
+      "570:1363",
+      "570:786",
+      "Slot Amount=2-2-2, Status=default, Step=3"
+    ],
+    [
+      "774:11477",
+      "570:786",
+      "Slot Amount=2-2-2, Status=error, Step=3"
+    ],
+    [
+      "570:1423",
+      "570:786",
+      "Slot Amount=2-2-2, Status=default, Step=4"
+    ],
+    [
+      "774:11492",
+      "570:786",
+      "Slot Amount=2-2-2, Status=error, Step=4"
+    ],
+    [
+      "570:1483",
+      "570:786",
+      "Slot Amount=2-2-2, Status=default, Step=5"
+    ],
+    [
+      "774:11508",
+      "570:786",
+      "Slot Amount=2-2-2, Status=error, Step=5"
+    ],
+    [
+      "570:1543",
+      "570:786",
+      "Slot Amount=2-2-2, Status=default, Step=6"
+    ],
+    [
+      "774:11525",
+      "570:786",
+      "Slot Amount=2-2-2, Status=error, Step=6"
+    ],
+    [
+      "570:1603",
+      "570:786",
+      "Slot Amount=2-2-2, Status=default, Step=filled"
+    ],
+    [
+      "774:11222",
+      "570:786",
+      "Slot Amount=2-2-2, Status=error, Step=filled"
+    ]
+  ]
+}

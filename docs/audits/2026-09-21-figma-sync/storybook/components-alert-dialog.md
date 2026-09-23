@@ -1,0 +1,65 @@
+# AlertDialog
+
+ID: components-alert-dialog
+
+## Stories
+
+### Playground
+
+Story ID: components-alert-dialog--playground
+
+```
+import { AlertDialogExample } from "@reina-madre/design-system";
+
+const Playground = () => <AlertDialogExample
+    size="basic"
+    status="default"
+    showMedia={false}
+    title="¿Deseas eliminar este registro?"
+    description="Esta acción no se puede deshacer"
+    cancelLabel="Cancelar"
+    actionLabel="Eliminar" />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as AlertDialogStories from "./alert-dialog.stories"
+import alertDialogSource from "./alert-dialog.tsx?raw"
+import { AlertDialogMediaOverview, AlertDialogSizeOverview, AlertDialogSpecifications, AlertDialogStatusOverview } from "./alert-dialog-docs"
+
+<Meta of={AlertDialogStories} />
+<Title of={AlertDialogStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma</summary>
+
+  - Tamaños `basic` y `sm` sincronizados con el nodo 1187:612.
+  - Estados `default` y `destructive` aplicados a media y acción principal.
+  - Media opcional y composición accesible sobre Alert Dialog de Radix incluido por shadcn/ui.
+
+</details>
+
+## Escala y forma
+
+<div className="mb-12"><AlertDialogSizeOverview /></div>
+
+## Estados
+
+<div className="mb-12"><AlertDialogStatusOverview /></div>
+
+## Media
+
+<div className="mb-12"><AlertDialogMediaOverview /></div>
+
+## Especificaciones
+
+<div className="mb-12"><AlertDialogSpecifications /></div>
+
+## Código
+
+<Source language="tsx" code={alertDialogSource} />

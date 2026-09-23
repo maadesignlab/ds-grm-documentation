@@ -1,0 +1,425 @@
+{
+  "id": "1:34",
+  "name": "Input",
+  "total": 56,
+  "sets": [
+    {
+      "id": "394:13573",
+      "name": "_components/Input/InputBase",
+      "type": "COMPONENT_SET",
+      "count": 20,
+      "props": {
+        "Placeholder text#400:0": {
+          "type": "TEXT",
+          "defaultValue": "Placeholder text"
+        },
+        "Extra Content Right#424:21": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Extra Content Left#424:34": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "primary",
+          "variantOptions": [
+            "primary",
+            "error"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "disabled",
+            "default",
+            "focused",
+            "filled"
+          ]
+        },
+        "Filled": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "false",
+            "true"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Normal",
+          "variantOptions": [
+            "Normal",
+            "Large"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1543:10655",
+      "name": "_components/Input/Time/InputTimeBase",
+      "type": "COMPONENT_SET",
+      "count": 20,
+      "props": {
+        "Placeholder text#400:0": {
+          "type": "TEXT",
+          "defaultValue": "30"
+        },
+        "Extra Content Right#424:21": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Extra Content Left#424:34": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "primary",
+          "variantOptions": [
+            "primary",
+            "error"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "disabled",
+            "default",
+            "focused",
+            "filled"
+          ]
+        },
+        "Filled": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "false",
+            "true"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Normal",
+          "variantOptions": [
+            "Normal",
+            "Large"
+          ]
+        }
+      }
+    },
+    {
+      "id": "408:30",
+      "name": "_components/Input/Blinker",
+      "type": "COMPONENT_SET",
+      "count": 2,
+      "props": {
+        "Blinker": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      }
+    },
+    {
+      "id": "412:11",
+      "name": "Input",
+      "type": "COMPONENT_SET",
+      "count": 3,
+      "props": {
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "field",
+          "variantOptions": [
+            "field",
+            "disabled",
+            "invalid"
+          ]
+        }
+      }
+    },
+    {
+      "id": "424:2034",
+      "name": "_components/Input/ExtraContent",
+      "type": "COMPONENT_SET",
+      "count": 6,
+      "props": {
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "icon",
+          "variantOptions": [
+            "icon",
+            "button",
+            "text",
+            "iconButton",
+            "Spinner",
+            "dropdown"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "394:13570",
+      "394:13573",
+      "Style=primary, Status=default, Filled=false, Size=Normal"
+    ],
+    [
+      "412:112",
+      "394:13573",
+      "Style=primary, Status=disabled, Filled=false, Size=Normal"
+    ],
+    [
+      "412:76",
+      "394:13573",
+      "Style=error, Status=default, Filled=false, Size=Normal"
+    ],
+    [
+      "394:13574",
+      "394:13573",
+      "Style=primary, Status=focused, Filled=false, Size=Normal"
+    ],
+    [
+      "412:79",
+      "394:13573",
+      "Style=error, Status=focused, Filled=false, Size=Normal"
+    ],
+    [
+      "400:13589",
+      "394:13573",
+      "Style=primary, Status=focused, Filled=true, Size=Normal"
+    ],
+    [
+      "412:83",
+      "394:13573",
+      "Style=error, Status=focused, Filled=true, Size=Normal"
+    ],
+    [
+      "404:18",
+      "394:13573",
+      "Style=primary, Status=filled, Filled=true, Size=Normal"
+    ],
+    [
+      "412:97",
+      "394:13573",
+      "Style=primary, Status=disabled, Filled=true, Size=Normal"
+    ],
+    [
+      "412:87",
+      "394:13573",
+      "Style=error, Status=filled, Filled=true, Size=Normal"
+    ],
+    [
+      "5135:424",
+      "394:13573",
+      "Style=primary, Status=default, Filled=false, Size=Large"
+    ],
+    [
+      "5135:432",
+      "394:13573",
+      "Style=primary, Status=disabled, Filled=false, Size=Large"
+    ],
+    [
+      "5135:440",
+      "394:13573",
+      "Style=error, Status=default, Filled=false, Size=Large"
+    ],
+    [
+      "5135:448",
+      "394:13573",
+      "Style=primary, Status=focused, Filled=false, Size=Large"
+    ],
+    [
+      "5135:460",
+      "394:13573",
+      "Style=error, Status=focused, Filled=false, Size=Large"
+    ],
+    [
+      "5135:472",
+      "394:13573",
+      "Style=primary, Status=focused, Filled=true, Size=Large"
+    ],
+    [
+      "5135:484",
+      "394:13573",
+      "Style=error, Status=focused, Filled=true, Size=Large"
+    ],
+    [
+      "5135:496",
+      "394:13573",
+      "Style=primary, Status=filled, Filled=true, Size=Large"
+    ],
+    [
+      "5135:504",
+      "394:13573",
+      "Style=primary, Status=disabled, Filled=true, Size=Large"
+    ],
+    [
+      "5135:512",
+      "394:13573",
+      "Style=error, Status=filled, Filled=true, Size=Large"
+    ],
+    [
+      "1543:10656",
+      "1543:10655",
+      "Style=primary, Status=default, Filled=false, Size=Normal"
+    ],
+    [
+      "1543:10664",
+      "1543:10655",
+      "Style=primary, Status=disabled, Filled=false, Size=Normal"
+    ],
+    [
+      "1543:10672",
+      "1543:10655",
+      "Style=error, Status=default, Filled=false, Size=Normal"
+    ],
+    [
+      "1543:10680",
+      "1543:10655",
+      "Style=primary, Status=focused, Filled=false, Size=Normal"
+    ],
+    [
+      "1543:10689",
+      "1543:10655",
+      "Style=error, Status=focused, Filled=false, Size=Normal"
+    ],
+    [
+      "1543:10697",
+      "1543:10655",
+      "Style=primary, Status=focused, Filled=true, Size=Normal"
+    ],
+    [
+      "1543:10706",
+      "1543:10655",
+      "Style=error, Status=focused, Filled=true, Size=Normal"
+    ],
+    [
+      "1543:10715",
+      "1543:10655",
+      "Style=primary, Status=filled, Filled=true, Size=Normal"
+    ],
+    [
+      "1543:10723",
+      "1543:10655",
+      "Style=primary, Status=disabled, Filled=true, Size=Normal"
+    ],
+    [
+      "1543:10731",
+      "1543:10655",
+      "Style=error, Status=filled, Filled=true, Size=Normal"
+    ],
+    [
+      "5136:428",
+      "1543:10655",
+      "Style=primary, Status=default, Filled=false, Size=Large"
+    ],
+    [
+      "5136:451",
+      "1543:10655",
+      "Style=primary, Status=disabled, Filled=false, Size=Large"
+    ],
+    [
+      "5136:475",
+      "1543:10655",
+      "Style=error, Status=default, Filled=false, Size=Large"
+    ],
+    [
+      "5136:499",
+      "1543:10655",
+      "Style=primary, Status=focused, Filled=false, Size=Large"
+    ],
+    [
+      "5136:526",
+      "1543:10655",
+      "Style=error, Status=focused, Filled=false, Size=Large"
+    ],
+    [
+      "5136:553",
+      "1543:10655",
+      "Style=primary, Status=focused, Filled=true, Size=Large"
+    ],
+    [
+      "5136:580",
+      "1543:10655",
+      "Style=error, Status=focused, Filled=true, Size=Large"
+    ],
+    [
+      "5136:607",
+      "1543:10655",
+      "Style=primary, Status=filled, Filled=true, Size=Large"
+    ],
+    [
+      "5136:631",
+      "1543:10655",
+      "Style=primary, Status=disabled, Filled=true, Size=Large"
+    ],
+    [
+      "5136:655",
+      "1543:10655",
+      "Style=error, Status=filled, Filled=true, Size=Large"
+    ],
+    [
+      "406:28",
+      "408:30",
+      "Blinker=on"
+    ],
+    [
+      "408:31",
+      "408:30",
+      "Blinker=off"
+    ],
+    [
+      "412:12",
+      "412:11",
+      "Style=field"
+    ],
+    [
+      "412:129",
+      "412:11",
+      "Style=disabled"
+    ],
+    [
+      "412:141",
+      "412:11",
+      "Style=invalid"
+    ],
+    [
+      "424:2033",
+      "424:2034",
+      "Type=icon"
+    ],
+    [
+      "424:2035",
+      "424:2034",
+      "Type=button"
+    ],
+    [
+      "1501:6516",
+      "424:2034",
+      "Type=iconButton"
+    ],
+    [
+      "3776:30373",
+      "424:2034",
+      "Type=dropdown"
+    ],
+    [
+      "424:2300",
+      "424:2034",
+      "Type=text"
+    ],
+    [
+      "2283:45926",
+      "424:2034",
+      "Type=Spinner"
+    ]
+  ]
+}

@@ -1,0 +1,56 @@
+# Spinner
+
+ID: components-spinner
+
+## Stories
+
+### Playground
+
+Story ID: components-spinner--playground
+
+```
+import { SpinnerExample } from "@reina-madre/design-system";
+
+const Playground = () => <SpinnerExample size={16} />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as SpinnerStories from "./spinner.stories"
+import spinnerSource from "./spinner.tsx?raw"
+import exampleSource from "./spinner-example.tsx?raw"
+import { SpinnerSizeOverview, SpinnerSpecifications } from "./spinner-docs"
+
+<Meta of={SpinnerStories} />
+<Title of={SpinnerStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva el SVG accesible y la personalización mediante `className` de shadcn/ui.
+  - Añade la escala pública de Figma: 12, 16, 24 y 32 px.
+  - Sincroniza la rotación lineal de 800 ms y conserva el color contextual con `currentColor`.
+</details>
+
+## Escala
+
+<div className="mb-12"><SpinnerSizeOverview /></div>
+
+## Especificaciones
+
+<div className="mb-12"><SpinnerSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={spinnerSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

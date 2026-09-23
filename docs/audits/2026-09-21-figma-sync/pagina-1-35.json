@@ -1,0 +1,54 @@
+{
+  "id": "1:35",
+  "name": "Date Picker",
+  "total": 5,
+  "sets": [
+    {
+      "id": "1686:2958",
+      "name": "Date Picker",
+      "type": "COMPONENT_SET",
+      "count": 4,
+      "props": {
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "single",
+          "variantOptions": [
+            "single",
+            "date-time",
+            "range"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "empty",
+          "variantOptions": [
+            "empty",
+            "filled"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "1684:2957",
+      "1686:2958",
+      "Type=single, State=empty"
+    ],
+    [
+      "1687:4881",
+      "1686:2958",
+      "Type=single, State=filled"
+    ],
+    [
+      "1686:2959",
+      "1686:2958",
+      "Type=range, State=filled"
+    ],
+    [
+      "1687:4260",
+      "1686:2958",
+      "Type=date-time, State=filled"
+    ]
+  ]
+}

@@ -1,0 +1,85 @@
+# BadgeExample
+
+ID: components-badge
+
+## Stories
+
+### Playground
+
+Story ID: components-badge--playground
+
+```
+import { BadgeExample } from "@reina-madre/design-system";
+
+const Playground = () => <BadgeExample
+    variant="primary"
+    appearance="solid"
+    size="lg"
+    leftContent="none"
+    rightContent="none">Badge</BadgeExample>;
+```
+
+## Props
+
+```
+export type Props = {
+  /**
+    
+  */
+  leftContent?: "none" | "icon" | "spinner" = "none";
+  /**
+    
+  */
+  rightContent?: "none" | "icon" | "spinner" = "none";
+  children?: any = "Badge";
+  variant?: any = "primary";
+  appearance?: any = "solid";
+}
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as BadgeStories from "./badge.stories"
+import badgeSource from "./badge.tsx?raw"
+import { BadgeSizeOverview, BadgeSpecifications, BadgeVariantOverview } from "./badge-docs"
+
+<Meta of={BadgeStories} />
+<Title of={BadgeStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma</summary>
+
+  - Nueve estilos y dos tratamientos visuales sincronizados con el nodo 186:141.
+  - Cuatro tamaños con tipografía, espaciado e iconografía propios.
+  - Contenido opcional a izquierda y derecha mediante composición.
+
+</details>
+
+## Variantes de estilo
+
+Cada muestra responde a los tokens de la marca activa.
+
+<div className="mb-12">
+  <BadgeVariantOverview />
+</div>
+
+## Escala y forma
+
+<div className="mb-12">
+  <BadgeSizeOverview />
+</div>
+
+## Especificaciones
+
+<div className="mb-12">
+  <BadgeSpecifications />
+</div>
+
+## Código
+
+<Source language="tsx" code={badgeSource} />

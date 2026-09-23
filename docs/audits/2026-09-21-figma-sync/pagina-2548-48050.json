@@ -1,0 +1,15 @@
+{
+  "id": "2548:48050",
+  "name": "Skeleton",
+  "total": 1,
+  "sets": [
+    {
+      "id": "2646:2",
+      "name": "Skeleton",
+      "type": "COMPONENT",
+      "count": 2,
+      "props": {}
+    }
+  ],
+  "variantNames": []
+}

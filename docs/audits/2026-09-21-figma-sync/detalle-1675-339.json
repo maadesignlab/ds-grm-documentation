@@ -1,0 +1,637 @@
+{
+  "id": "1675:339",
+  "name": "Context Menu",
+  "total": 20,
+  "nodes": 298,
+  "refs": {
+    "VariableID:50:514": {
+      "count": 12,
+      "example": "1677:398"
+    },
+    "VariableID:50:526": {
+      "count": 12,
+      "example": "1677:398"
+    },
+    "VariableID:429:250": {
+      "count": 28,
+      "example": "1677:398"
+    },
+    "VariableID:71:2": {
+      "count": 26,
+      "example": "1677:1353"
+    },
+    "VariableID:51:20": {
+      "count": 16,
+      "example": "3622:364"
+    },
+    "VariableID:51:21": {
+      "count": 16,
+      "example": "3622:364"
+    },
+    "VariableID:186:174": {
+      "count": 14,
+      "example": "I1677:430;1703:22579;1703:22565"
+    },
+    "VariableID:50:530": {
+      "count": 19,
+      "example": "I1677:430;1703:22579;1703:22565"
+    },
+    "VariableID:100:19": {
+      "count": 7,
+      "example": "I1677:430;1703:22579;1703:22565;1638:6918"
+    },
+    "VariableID:132:811": {
+      "count": 30,
+      "example": "I1677:430;1703:22579;1703:22565;1638:6918"
+    },
+    "VariableID:50:639": {
+      "count": 7,
+      "example": "I1677:430;1703:22579;1703:22565;1638:6918"
+    },
+    "VariableID:44:184": {
+      "count": 84,
+      "example": "I1677:430;1703:22579;1703:22566;1703:23607;1703:22229;212:2018;212:1754"
+    },
+    "VariableID:99:17": {
+      "count": 23,
+      "example": "I1677:430;1703:22579;1703:22566;1703:23607;1703:22230"
+    },
+    "VariableID:50:641": {
+      "count": 23,
+      "example": "I1677:430;1703:22579;1703:22566;1703:23607;1703:22230"
+    },
+    "VariableID:203:220": {
+      "count": 30,
+      "example": "I1677:430;1703:22579;1703:22575;1705:23786;1703:22722;212:2018;212:437"
+    },
+    "VariableID:44:187": {
+      "count": 8,
+      "example": "1703:22217"
+    },
+    "VariableID:71:3": {
+      "count": 4,
+      "example": "1703:22219"
+    }
+  },
+  "texts": {
+    "UNSTYLED": {
+      "count": 6,
+      "example": "1677:1353"
+    },
+    "S:3c3dd1b52b19dd0f2bbf02cf78cbd6622b31988f,": {
+      "count": 7,
+      "example": "I1677:430;1703:22579;1703:22565;1638:6918"
+    },
+    "S:1d452614e679106aeb9f64166fd66fd5df9751c7,": {
+      "count": 23,
+      "example": "I1677:430;1703:22579;1703:22566;1703:23607;1703:22230"
+    }
+  },
+  "styles": {
+    "S:8239e3343213e30a89616ca2aaf562721d493256,": {
+      "count": 1,
+      "example": "1703:22254"
+    }
+  },
+  "sets": [
+    {
+      "id": "1677:397",
+      "name": "Context Menu",
+      "count": 6,
+      "props": {
+        "Placement": {
+          "type": "VARIANT",
+          "defaultValue": "Right Bottom",
+          "variantOptions": [
+            "Right Bottom",
+            "Left Bottom",
+            "Right Top"
+          ]
+        },
+        "Opened": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      "default": {
+        "id": "1677:398",
+        "name": "Placement=Right Bottom, Opened=False",
+        "w": 100,
+        "h": 31,
+        "layout": "HORIZONTAL",
+        "gap": 0,
+        "padding": [
+          8,
+          12,
+          8,
+          12
+        ],
+        "radius": 10,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": false,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "boundVariables": {}
+          }
+        ],
+        "effects": [],
+        "bound": {
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:514"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:514"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          }
+        }
+      }
+    },
+    {
+      "id": "1703:22653",
+      "name": "_components/ContextMenu/Dropdown Base",
+      "count": 9,
+      "props": {},
+      "default": {
+        "id": "1703:22653",
+        "name": "_components/ContextMenu/Dropdown Base",
+        "w": 176,
+        "h": 352,
+        "layout": "VERTICAL",
+        "gap": 4,
+        "padding": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "radius": 10,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9803921580314636,
+              "g": 0.9725490212440491,
+              "b": 0.9843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:20"
+              }
+            }
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8549019694328308,
+              "g": 0.8313725590705872,
+              "b": 0.843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:21"
+              }
+            }
+          }
+        ],
+        "effects": [
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 4,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.10000000149011612
+            },
+            "offset": {
+              "x": 0,
+              "y": 2
+            },
+            "spread": -2,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": false
+          },
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 6,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.10000000149011612
+            },
+            "offset": {
+              "x": 0,
+              "y": 4
+            },
+            "spread": -1,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": false
+          },
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 0,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.10000000149011612
+            },
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "spread": 1,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": false
+          }
+        ],
+        "bound": {
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:20"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:21"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1703:22211",
+      "name": "_components/ContextMenu/MenuItem",
+      "count": 5,
+      "props": {
+        "Menu Item Text#1636:0": {
+          "type": "TEXT",
+          "defaultValue": "Citas médicas"
+        },
+        "Right Icon#1696:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Left Icon#1696:4": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Active",
+            "Destructive",
+            "Destructive Hover",
+            "Hover"
+          ]
+        }
+      },
+      "default": {
+        "id": "1703:22212",
+        "name": "State=Default",
+        "w": 168,
+        "h": 28,
+        "layout": "HORIZONTAL",
+        "gap": 6,
+        "padding": [
+          4,
+          6,
+          4,
+          6
+        ],
+        "radius": 8,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "1703:22227",
+      "name": "_components/ContextMenu/MenuItem/Submenu",
+      "count": 2,
+      "props": {
+        "Menu Item Text#1636:0": {
+          "type": "TEXT",
+          "defaultValue": "Sucursales"
+        },
+        "Left Icon#1696:8": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Hover"
+          ]
+        }
+      },
+      "default": {
+        "id": "1703:22228",
+        "name": "State=Default",
+        "w": 168,
+        "h": 28,
+        "layout": "HORIZONTAL",
+        "gap": 6,
+        "padding": [
+          4,
+          6,
+          4,
+          6
+        ],
+        "radius": 8,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "1703:22654",
+      "name": "_components/ContextMenuOptions/MenuGroup",
+      "count": 11,
+      "props": {
+        "Dropdown Item#1703:13": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "7ed37065fd3a91a159179b0e75013eb16300ae1d"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "b1589150cc12ea59de78f60264f25bc11b16bc44"
+            }
+          ]
+        },
+        "Dropdown Item2#1703:14": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Dropdown Item3#1703:15": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Dropdown Item4#1703:16": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Dropdown Item5#1703:17": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Dropdown Item6#1703:18": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Dropdown Item7#1703:19": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Dropdown Item8#1703:20": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Dropdown Item9#1703:21": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Dropdown Item10#1703:22": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        }
+      },
+      "default": {
+        "id": "1703:22654",
+        "name": "_components/ContextMenuOptions/MenuGroup",
+        "w": 168,
+        "h": 344,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "1703:22291",
+      "name": "_components/ContextMenu/Options/Label",
+      "count": 1,
+      "props": {
+        "Label Text#593:0": {
+          "type": "TEXT",
+          "defaultValue": "Section Text"
+        },
+        "Icon Left#593:3": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Item",
+          "variantOptions": [
+            "Item"
+          ]
+        }
+      },
+      "default": {
+        "id": "1703:22292",
+        "name": "Type=Item",
+        "w": 108,
+        "h": 24,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          4,
+          6,
+          4,
+          6
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:186:174"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:530"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:186:174"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:530"
+          }
+        }
+      }
+    }
+  ],
+  "errors": []
+}

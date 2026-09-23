@@ -9,7 +9,7 @@ function Card({ title, value, children }: { title: string; value: string; childr
 
 const statuses: readonly [string, ToastStatus][] = [["Success", "success"], ["Warning", "warning"], ["Error", "error"], ["Info", "info"], ["Brand neutral", "brand-neutral"], ["Neutral", "neutral"]]
 
-export function ToastStatuses() { return <div className="not-prose grid gap-3 lg:grid-cols-2">{statuses.map(([title, status]) => <Card key={status} title={title} value={`type=${status}`}><ToastExample status={status} preview /></Card>)}</div> }
+export function ToastStatuses() { return <div className="not-prose grid gap-3 lg:grid-cols-2">{statuses.map(([title, status]) => <Card key={status} title={title} value={`type=${status}`}><ToastExample status={status} showDescription showAction showClose preview /></Card>)}</div> }
 export function ToastCompositions() { return <div className="not-prose grid gap-3 lg:grid-cols-2"><Card title="Sin icono" value="showIcon=false"><ToastExample showIcon={false} preview /></Card><Card title="Con descripción" value="description"><ToastExample showDescription preview /></Card><Card title="Con acción" value="actionProps"><ToastExample showAction preview /></Card><Card title="Con cierre" value="ToastClose"><ToastExample showClose preview /></Card></div> }
 export function ToastBehaviors() { return <div className="not-prose grid gap-3 lg:grid-cols-2"><Card title="Promise" value="toast.promise"><ToastExample behavior="promise" /></Card><Card title="Stacking" value="limit + stack"><ToastExample behavior="stack" /></Card></div> }
 

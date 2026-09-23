@@ -1,0 +1,218 @@
+[
+  {
+    "name": "amberOrange/700",
+    "figma": "#ad7328",
+    "code": "#ad7328",
+    "status": "equal"
+  },
+  {
+    "name": "natureGreen/50",
+    "figma": "#e4f2ec",
+    "code": "#e4f2ec",
+    "status": "equal"
+  },
+  {
+    "name": "natureGreen/200",
+    "figma": "#b8decc",
+    "code": "#b8decc",
+    "status": "equal"
+  },
+  {
+    "name": "natureGreen/500",
+    "figma": "#2f9e6a",
+    "code": "#2f9e6a",
+    "status": "equal"
+  },
+  {
+    "name": "natureGreen/700",
+    "figma": "#2a7c57",
+    "code": "#2a7c57",
+    "status": "equal"
+  },
+  {
+    "name": "warmRed/50",
+    "figma": "#fae8e8",
+    "code": "#fae8e8",
+    "status": "equal"
+  },
+  {
+    "name": "warmRed/200",
+    "figma": "#f1c3c3",
+    "code": "#f1c3c3",
+    "status": "equal"
+  },
+  {
+    "name": "warmRed/500",
+    "figma": "#d64f4f",
+    "code": "#d64f4f",
+    "status": "equal"
+  },
+  {
+    "name": "warmRed/700",
+    "figma": "#a64243",
+    "code": "#a64243",
+    "status": "equal"
+  },
+  {
+    "name": "softCoral/50",
+    "figma": "#fdf4f0",
+    "code": "#fdf4f0",
+    "status": "equal"
+  },
+  {
+    "name": "softCoral/200",
+    "figma": "#fae2d7",
+    "code": "#fae2d7",
+    "status": "equal"
+  },
+  {
+    "name": "softCoral/500",
+    "figma": "#f0a988",
+    "code": "#f0a988",
+    "status": "equal"
+  },
+  {
+    "name": "softCoral/700",
+    "figma": "#b9846d",
+    "code": "#b9846d",
+    "status": "equal"
+  },
+  {
+    "name": "lavenderPurple/50",
+    "figma": "#f2eef9",
+    "code": "#f2eef9",
+    "status": "equal"
+  },
+  {
+    "name": "lavenderPurple/200",
+    "figma": "#ddd3f0",
+    "code": "#ddd3f0",
+    "status": "equal"
+  },
+  {
+    "name": "lavenderPurple/500",
+    "figma": "#9b7fd4",
+    "code": "#9b7fd4",
+    "status": "equal"
+  },
+  {
+    "name": "lavenderPurple/700",
+    "figma": "#7a65a6",
+    "code": "#7a65a6",
+    "status": "equal"
+  },
+  {
+    "name": "slateGray/50",
+    "figma": "#ececef",
+    "code": "#ececef",
+    "status": "equal"
+  },
+  {
+    "name": "slateGray/200",
+    "figma": "#ccced6",
+    "code": "#ccced6",
+    "status": "equal"
+  },
+  {
+    "name": "slateGray/500",
+    "figma": "#6a6f86",
+    "code": "#6a6f86",
+    "status": "equal"
+  },
+  {
+    "name": "slateGray/700",
+    "figma": "#56596c",
+    "code": "#56596c",
+    "status": "equal"
+  },
+  {
+    "name": "clearBlue/50",
+    "figma": "#e6eef8",
+    "code": "#e6eef8",
+    "status": "equal"
+  },
+  {
+    "name": "clearBlue/200",
+    "figma": "#bed1ed",
+    "code": "#bed1ed",
+    "status": "equal"
+  },
+  {
+    "name": "clearBlue/500",
+    "figma": "#3f79c9",
+    "code": "#3f79c9",
+    "status": "equal"
+  },
+  {
+    "name": "clearBlue/700",
+    "figma": "#36619e",
+    "code": "#36619e",
+    "status": "equal"
+  },
+  {
+    "name": "goldenYellow/50",
+    "figma": "#fcf6de",
+    "code": "#fcf6de",
+    "status": "equal"
+  },
+  {
+    "name": "goldenYellow/200",
+    "figma": "#f7e7a8",
+    "code": "#f7e7a8",
+    "status": "equal"
+  },
+  {
+    "name": "goldenYellow/500",
+    "figma": "#e6b800",
+    "code": "#e6b800",
+    "status": "equal"
+  },
+  {
+    "name": "goldenYellow/700",
+    "figma": "#b18f09",
+    "code": "#b18f09",
+    "status": "equal"
+  },
+  {
+    "name": "berryPink/50",
+    "figma": "#fbeaf0",
+    "code": "#fbeaf0",
+    "status": "equal"
+  },
+  {
+    "name": "berryPink/200",
+    "figma": "#f4c7d7",
+    "code": "#f4c7d7",
+    "status": "equal"
+  },
+  {
+    "name": "berryPink/500",
+    "figma": "#e05a8a",
+    "code": "#e05a8a",
+    "status": "equal"
+  },
+  {
+    "name": "berryPink/700",
+    "figma": "#ad4a6f",
+    "code": "#ad4a6f",
+    "status": "equal"
+  },
+  {
+    "name": "amberOrange/50",
+    "figma": "#fbf1e3",
+    "code": "#fbf1e3",
+    "status": "equal"
+  },
+  {
+    "name": "amberOrange/200",
+    "figma": "#f4dab7",
+    "code": "#f4dab7",
+    "status": "equal"
+  },
+  {
+    "name": "amberOrange/500",
+    "figma": "#e0912a",
+    "code": "#e0912a",
+    "status": "equal"
+  }
+]

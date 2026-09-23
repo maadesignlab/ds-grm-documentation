@@ -1,0 +1,62 @@
+# CarouselExample
+
+ID: components-carousel
+
+## Stories
+
+### Playground
+
+Story ID: components-carousel--playground
+
+```
+import { CarouselExample } from "@reina-madre/design-system";
+
+const Playground = () => <CarouselExample size="full" orientation="horizontal" items={4} disabled={false} />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as CarouselStories from "./carousel.stories"
+import carouselSource from "./carousel.tsx?raw"
+import { CarouselAnatomy, CarouselBehaviorOverview, CarouselOrientationOverview, CarouselSizeOverview, CarouselSpecifications } from "./carousel-docs"
+
+<Meta of={CarouselStories} />
+<Title of={CarouselStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma</summary>
+
+  - Escalas `full`, `large`, `medium` y `small` sincronizadas con el nodo `2782:1341`.
+  - Orientación horizontal y vertical sobre Embla Carousel.
+  - Navegación, estado disabled, teclado y posición derivados de la API real de shadcn/ui.
+
+</details>
+
+## Anatomía y composición
+
+<div className="mb-12"><CarouselAnatomy /></div>
+
+## Escala y forma
+
+<div className="mb-12"><CarouselSizeOverview /></div>
+
+## Orientación
+
+<div className="mb-12"><CarouselOrientationOverview /></div>
+
+## Comportamiento shadcn/ui
+
+<div className="mb-12"><CarouselBehaviorOverview /></div>
+
+## Especificaciones
+
+<div className="mb-12"><CarouselSpecifications /></div>
+
+## Código
+
+<Source language="tsx" code={carouselSource} />

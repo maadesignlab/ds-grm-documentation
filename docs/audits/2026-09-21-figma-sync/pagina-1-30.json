@@ -1,0 +1,183 @@
+{
+  "id": "1:30",
+  "name": "Tooltip",
+  "total": 22,
+  "sets": [
+    {
+      "id": "1136:1739",
+      "name": "Tooltip",
+      "type": "COMPONENT_SET",
+      "count": 16,
+      "props": {
+        "Tooltip Trigger#1136:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "313:2250",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "4ec56d5bceddd69a5410cdf1dcec7cb804d7ce75"
+            }
+          ]
+        },
+        "Trigger Text#1154:0": {
+          "type": "TEXT",
+          "defaultValue": "Text"
+        },
+        "Trigger Type": {
+          "type": "VARIANT",
+          "defaultValue": "content",
+          "variantOptions": [
+            "content",
+            "text"
+          ]
+        },
+        "Opened": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "true",
+            "false"
+          ]
+        },
+        "Tooltip Alignment": {
+          "type": "VARIANT",
+          "defaultValue": "top",
+          "variantOptions": [
+            "top",
+            "right",
+            "left",
+            "bottom"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1140:23",
+      "name": "_components/Tooltip/TooltipBase",
+      "type": "COMPONENT_SET",
+      "count": 4,
+      "props": {
+        "Tooltip text#1154:17": {
+          "type": "TEXT",
+          "defaultValue": "Tooltip text"
+        },
+        "Right Content#4003:10": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Side": {
+          "type": "VARIANT",
+          "defaultValue": "top",
+          "variantOptions": [
+            "top",
+            "bottom",
+            "right",
+            "left"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "1136:1886",
+      "1136:1739",
+      "Trigger Type=content, Opened=true, Tooltip Alignment=right"
+    ],
+    [
+      "1154:3580",
+      "1136:1739",
+      "Trigger Type=text, Opened=true, Tooltip Alignment=right"
+    ],
+    [
+      "1150:12337",
+      "1136:1739",
+      "Trigger Type=content, Opened=false, Tooltip Alignment=right"
+    ],
+    [
+      "1154:3584",
+      "1136:1739",
+      "Trigger Type=text, Opened=false, Tooltip Alignment=right"
+    ],
+    [
+      "1141:160",
+      "1136:1739",
+      "Trigger Type=content, Opened=true, Tooltip Alignment=left"
+    ],
+    [
+      "1154:3588",
+      "1136:1739",
+      "Trigger Type=text, Opened=true, Tooltip Alignment=left"
+    ],
+    [
+      "1150:12341",
+      "1136:1739",
+      "Trigger Type=content, Opened=false, Tooltip Alignment=left"
+    ],
+    [
+      "1154:3592",
+      "1136:1739",
+      "Trigger Type=text, Opened=false, Tooltip Alignment=left"
+    ],
+    [
+      "1136:1828",
+      "1136:1739",
+      "Trigger Type=content, Opened=true, Tooltip Alignment=top"
+    ],
+    [
+      "1154:3596",
+      "1136:1739",
+      "Trigger Type=text, Opened=true, Tooltip Alignment=top"
+    ],
+    [
+      "1150:12345",
+      "1136:1739",
+      "Trigger Type=content, Opened=false, Tooltip Alignment=top"
+    ],
+    [
+      "1154:3600",
+      "1136:1739",
+      "Trigger Type=text, Opened=false, Tooltip Alignment=top"
+    ],
+    [
+      "1141:118",
+      "1136:1739",
+      "Trigger Type=content, Opened=true, Tooltip Alignment=bottom"
+    ],
+    [
+      "1154:3604",
+      "1136:1739",
+      "Trigger Type=text, Opened=true, Tooltip Alignment=bottom"
+    ],
+    [
+      "1150:12349",
+      "1136:1739",
+      "Trigger Type=content, Opened=false, Tooltip Alignment=bottom"
+    ],
+    [
+      "1154:3608",
+      "1136:1739",
+      "Trigger Type=text, Opened=false, Tooltip Alignment=bottom"
+    ],
+    [
+      "1139:22",
+      "1140:23",
+      "Side=top"
+    ],
+    [
+      "1140:24",
+      "1140:23",
+      "Side=bottom"
+    ],
+    [
+      "1140:29",
+      "1140:23",
+      "Side=right"
+    ],
+    [
+      "1140:34",
+      "1140:23",
+      "Side=left"
+    ]
+  ]
+}

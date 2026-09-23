@@ -4,6 +4,7 @@ import { ButtonIconExample, ButtonTextExample } from "./button-example"
 import { DocsCode, DocsSpecificationTable } from "./selectable-docs-shared"
 
 const variants = [
+  { value: "brand-gradient", label: "Brand gradient", surface: "--button-brand-gradient-1 → --button-brand-gradient-2 · 135°", text: "white", border: "—" },
   { value: "default", label: "Primary", surface: "--primary", text: "--primary-foreground", border: "—" },
   { value: "secondary", label: "Secondary", surface: "--secondary", text: "--secondary-foreground", border: "--border" },
   { value: "brand-neutral", label: "Brand neutral", surface: "--background", text: "--foreground", border: "--border" },
@@ -70,7 +71,8 @@ export function ButtonVariantOverview() {
   return (
     <div className="not-prose grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
       {variants.map((variant) => (
-        <article key={variant.value} className="overflow-hidden rounded-lg border border-border bg-card">
+        <article key={variant.value} className={cn("overflow-hidden rounded-lg border border-border bg-card", variant.value === "brand-gradient" && "ring-2 ring-foreground/20")}>
+          {variant.value === "brand-gradient" && <div className="flex flex-wrap items-center justify-between gap-2 border-b border-border bg-muted px-4 py-2 text-xs font-semibold text-foreground"><span>Nueva variante</span><span>DS v1.1.0</span></div>}
           <div className="sb-unstyled flex min-h-24 items-center justify-center bg-background p-5">
             <ButtonTextExample variant={variant.value}>Button</ButtonTextExample>
           </div>

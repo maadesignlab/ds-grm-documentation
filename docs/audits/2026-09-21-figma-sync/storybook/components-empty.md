@@ -1,0 +1,69 @@
+# Empty
+
+ID: components-empty
+
+## Stories
+
+### Playground
+
+Story ID: components-empty--playground
+
+```
+import { EmptyExample } from "@reina-madre/design-system";
+
+const Playground = () => <div className="w-[382px]"><EmptyExample
+        container="none"
+        media="icon"
+        actions="both"
+        actionLayout="horizontal"
+        showAuxiliary /></div>;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as EmptyStories from "./empty.stories"
+import emptySource from "./empty.tsx?raw"
+import exampleSource from "./empty-example.tsx?raw"
+import { EmptyActionsOverview, EmptyContainerOverview, EmptyMediaOverview, EmptySpecifications } from "./empty-docs"
+
+<Meta of={EmptyStories} />
+<Title of={EmptyStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - API oficial: `Empty`, `EmptyHeader`, `EmptyMedia`, `EmptyTitle`, `EmptyDescription` y `EmptyContent`.
+  - Contenedor, medios y acciones se construyen por composición, sin ampliar artificialmente la API del primitive.
+  - Tipografía, color y espaciado responden a los tokens de la marca activa.
+</details>
+
+## Contenedor
+
+<div className="mb-12"><EmptyContainerOverview /></div>
+
+## Media
+
+<div className="mb-12"><EmptyMediaOverview /></div>
+
+## Acciones
+
+<div className="mb-12"><EmptyActionsOverview /></div>
+
+## Especificaciones
+
+<div className="mb-12"><EmptySpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={emptySource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

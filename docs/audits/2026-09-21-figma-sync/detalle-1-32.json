@@ -1,0 +1,371 @@
+{
+  "id": "1:32",
+  "name": "Badge",
+  "total": 69,
+  "nodes": 557,
+  "refs": {
+    "VariableID:50:300": {
+      "count": 2,
+      "example": "186:141"
+    },
+    "VariableID:50:530": {
+      "count": 102,
+      "example": "186:140"
+    },
+    "VariableID:50:526": {
+      "count": 68,
+      "example": "186:140"
+    },
+    "VariableID:186:183": {
+      "count": 68,
+      "example": "186:140"
+    },
+    "VariableID:44:185": {
+      "count": 8,
+      "example": "186:140"
+    },
+    "VariableID:51:172": {
+      "count": 12,
+      "example": "I212:2464;212:2012;212:1997"
+    },
+    "VariableID:132:811": {
+      "count": 68,
+      "example": "185:88"
+    },
+    "VariableID:50:639": {
+      "count": 68,
+      "example": "185:88"
+    },
+    "VariableID:429:249": {
+      "count": 34,
+      "example": "3506:62506"
+    },
+    "VariableID:452:1261": {
+      "count": 8,
+      "example": "294:483"
+    },
+    "VariableID:3627:52309": {
+      "count": 8,
+      "example": "294:483"
+    },
+    "VariableID:248:131": {
+      "count": 8,
+      "example": "294:485"
+    },
+    "VariableID:44:186": {
+      "count": 8,
+      "example": "202:56"
+    },
+    "VariableID:51:26": {
+      "count": 16,
+      "example": "202:57"
+    },
+    "VariableID:294:495": {
+      "count": 8,
+      "example": "292:452"
+    },
+    "VariableID:294:472": {
+      "count": 8,
+      "example": "292:452"
+    },
+    "VariableID:44:183": {
+      "count": 16,
+      "example": "202:68"
+    },
+    "VariableID:44:184": {
+      "count": 28,
+      "example": "202:69"
+    },
+    "VariableID:51:21": {
+      "count": 16,
+      "example": "208:21"
+    },
+    "VariableID:203:217": {
+      "count": 8,
+      "example": "203:92"
+    },
+    "VariableID:203:202": {
+      "count": 8,
+      "example": "203:93"
+    },
+    "VariableID:208:2": {
+      "count": 8,
+      "example": "203:153"
+    },
+    "VariableID:203:212": {
+      "count": 8,
+      "example": "203:153"
+    },
+    "VariableID:208:7": {
+      "count": 8,
+      "example": "203:154"
+    },
+    "VariableID:50:537": {
+      "count": 136,
+      "example": "186:152"
+    },
+    "VariableID:186:174": {
+      "count": 34,
+      "example": "186:164"
+    },
+    "VariableID:50:515": {
+      "count": 34,
+      "example": "186:164"
+    },
+    "VariableID:203:218": {
+      "count": 8,
+      "example": "203:98"
+    },
+    "VariableID:203:208": {
+      "count": 8,
+      "example": "203:99"
+    },
+    "VariableID:208:3": {
+      "count": 8,
+      "example": "203:159"
+    },
+    "VariableID:203:213": {
+      "count": 8,
+      "example": "203:159"
+    },
+    "VariableID:208:8": {
+      "count": 8,
+      "example": "203:160"
+    },
+    "VariableID:203:219": {
+      "count": 8,
+      "example": "203:111"
+    },
+    "VariableID:203:209": {
+      "count": 8,
+      "example": "203:112"
+    },
+    "VariableID:208:4": {
+      "count": 8,
+      "example": "203:161"
+    },
+    "VariableID:208:33": {
+      "count": 8,
+      "example": "203:161"
+    },
+    "VariableID:203:214": {
+      "count": 8,
+      "example": "203:162"
+    },
+    "VariableID:203:220": {
+      "count": 8,
+      "example": "203:123"
+    },
+    "VariableID:203:210": {
+      "count": 8,
+      "example": "203:124"
+    },
+    "VariableID:203:221": {
+      "count": 8,
+      "example": "203:189"
+    },
+    "VariableID:203:211": {
+      "count": 8,
+      "example": "203:190"
+    },
+    "VariableID:208:5": {
+      "count": 8,
+      "example": "203:163"
+    },
+    "VariableID:203:215": {
+      "count": 8,
+      "example": "203:163"
+    },
+    "VariableID:210:2": {
+      "count": 8,
+      "example": "203:164"
+    },
+    "VariableID:208:6": {
+      "count": 8,
+      "example": "203:191"
+    },
+    "VariableID:210:3": {
+      "count": 8,
+      "example": "203:191"
+    },
+    "VariableID:203:216": {
+      "count": 8,
+      "example": "203:192"
+    }
+  },
+  "texts": {
+    "S:828b1ddbbf92bea4b8d3e4350d37defe4cfcbfb2,": {
+      "count": 17,
+      "example": "185:88"
+    },
+    "S:60fd2457e505972251cac0b2880b18d26f85cf3d,": {
+      "count": 17,
+      "example": "3506:62510"
+    },
+    "S:757f773fd9377530fccfc852cb515519ff556f17,": {
+      "count": 34,
+      "example": "186:170"
+    }
+  },
+  "styles": {},
+  "sets": [
+    {
+      "id": "186:141",
+      "name": "Badge",
+      "count": 68,
+      "props": {
+        "Badge Text#186:0": {
+          "type": "TEXT",
+          "defaultValue": "Badge"
+        },
+        "Right Placeholder#212:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Left Placeholder#212:46": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Left Content#2293:0": {
+          "type": "SLOT",
+          "description": null,
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "d03ecca302986e68eaefa6e760bff6fba3d87462"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "f7871143af5e1d93f51829183a987622c91e3d45"
+            }
+          ]
+        },
+        "Right Content#2293:52": {
+          "type": "SLOT",
+          "description": null,
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "d03ecca302986e68eaefa6e760bff6fba3d87462"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "f7871143af5e1d93f51829183a987622c91e3d45"
+            }
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "xl",
+          "variantOptions": [
+            "lg",
+            "md",
+            "sm",
+            "xl"
+          ]
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "primary",
+          "variantOptions": [
+            "primary",
+            "transparent",
+            "secondary",
+            "brand-neutral",
+            "success",
+            "warning",
+            "error",
+            "info",
+            "destructive"
+          ]
+        },
+        "Border": {
+          "type": "VARIANT",
+          "defaultValue": "transparent",
+          "variantOptions": [
+            "transparent",
+            "outline"
+          ]
+        }
+      },
+      "default": {
+        "id": "3506:62506",
+        "name": "Size=xl, Style=primary, Border=transparent",
+        "w": 65,
+        "h": 30,
+        "layout": "HORIZONTAL",
+        "gap": 4,
+        "padding": [
+          4,
+          10,
+          4,
+          10
+        ],
+        "radius": 33554400,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0.48235294222831726,
+              "b": 0.4274509847164154
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:44:185"
+              }
+            }
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 0,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "boundVariables": {}
+          }
+        ],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:530"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:249"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:530"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:249"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:530"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:44:185"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "errors": []
+}

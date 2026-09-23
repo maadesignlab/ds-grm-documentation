@@ -1,0 +1,76 @@
+{
+  "id": "2793:2325",
+  "name": "Kbd",
+  "total": 7,
+  "sets": [
+    {
+      "id": "2945:46122",
+      "name": "Kbd",
+      "type": "COMPONENT_SET",
+      "count": 6,
+      "props": {
+        "Text#2945:7": {
+          "type": "TEXT",
+          "defaultValue": "Ctrl"
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Single",
+          "variantOptions": [
+            "Group",
+            "Single"
+          ]
+        },
+        "Content": {
+          "type": "VARIANT",
+          "defaultValue": "Text",
+          "variantOptions": [
+            "Text",
+            "Icon",
+            "Group"
+          ]
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "light",
+          "variantOptions": [
+            "light",
+            "dark"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "2879:46261",
+      "2945:46122",
+      "Type=Single, Content=Text, Style=light"
+    ],
+    [
+      "3758:13913",
+      "2945:46122",
+      "Type=Single, Content=Text, Style=dark"
+    ],
+    [
+      "2880:2",
+      "2945:46122",
+      "Type=Single, Content=Icon, Style=light"
+    ],
+    [
+      "3758:13915",
+      "2945:46122",
+      "Type=Single, Content=Icon, Style=dark"
+    ],
+    [
+      "2880:46374",
+      "2945:46122",
+      "Type=Group, Content=Group, Style=light"
+    ],
+    [
+      "3758:13917",
+      "2945:46122",
+      "Type=Group, Content=Group, Style=dark"
+    ]
+  ]
+}

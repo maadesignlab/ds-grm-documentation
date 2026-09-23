@@ -42,7 +42,13 @@ export const Playground: Story = {
       })
       await expect(getComputedStyle(content!).paddingLeft).toBe("8px")
       await expect(getComputedStyle(content!).paddingRight).toBe("10px")
+      await userEvent.unhover(triggers[0])
+      const firstLink = content!.querySelector<HTMLAnchorElement>("a[href]")
+      expect(firstLink).not.toBeNull()
+      firstLink!.focus()
+      await expect(firstLink!).toHaveFocus()
       await userEvent.keyboard("{Escape}")
+      await waitFor(() => expect(triggers[0]).toHaveAttribute("aria-expanded", "false"))
     }
   },
 }

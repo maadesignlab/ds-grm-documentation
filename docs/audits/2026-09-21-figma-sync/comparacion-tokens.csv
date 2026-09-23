@@ -1,0 +1,625 @@
+Marca,Token Figma,Variable ID,Valor Figma,Cadena alias,CSS,Valor CSS actual,Comparación CSS,Catálogo actual,Comparación catálogo
+grm-global,card,VariableID:51:19,#ffffff,card → color/neutral/0,--card,#ffffff,equal,#ffffff,equal
+grm-global,popover,VariableID:51:20,#faf8fb,popover → GRM Global/neutral/50,--popover,#f7f6f8,different,#f7f6f8,different
+grm-global,border,VariableID:51:21,#dad4d7,border → GRM Global/neutral/300,--border,#dad4d7,equal,#dad4d7,equal
+grm-global,input,VariableID:51:22,#bbb3b7,input → GRM Global/neutral/400,--input,#bbb3b7,equal,#bbb3b7,equal
+grm-global,ring,VariableID:51:23,#007b6d,ring → GRM Global/primary/500,--ring,#008979,different,#008979,different
+grm-global,sidebar,VariableID:51:24,#ffffff,sidebar → color/neutral/0,--sidebar,#ffffff,equal,#ffffff,equal
+grm-global,popover/foreground,VariableID:51:25,#2c282a,popover/foreground → GRM Global/neutral/900,--popover-foreground,#342f32,different,#342f32,different
+grm-global,secondary/foreground,VariableID:51:26,#166f54,secondary/foreground → GRM Global/secondary/900,--secondary-foreground,#166f54,equal,#166f54,equal
+grm-global,primary/foreground,VariableID:51:172,#ffffff,primary/foreground → color/neutral/0,--primary-foreground,#ffffff,equal,#ffffff,equal
+grm-global,muted/foreground,VariableID:71:2,#696065,muted/foreground → GRM Global/neutral/600,--muted-foreground,#9b9196,different,#9b9196,different
+grm-global,accent/foreground,VariableID:71:3,#3f393c,accent/foreground → GRM Global/neutral/800,--accent-foreground,#484145,different,#484145,different
+grm-global,chart/1,VariableID:71:4,#007b6d,chart/1 → GRM Global/primary/500,--chart-1,,missing,#008979,different
+grm-global,card/foreground,VariableID:71:5,#3f393c,card/foreground → GRM Global/neutral/800,--card-foreground,#484145,different,#484145,different
+grm-global,sidebar/foreground,VariableID:71:6,#2c282a,sidebar/foreground → GRM Global/neutral/900,--sidebar-foreground,#342f32,different,#342f32,different
+grm-global,chart/2,VariableID:71:7,#7cedc1,chart/2 → GRM Global/secondary/500,--chart-2,,missing,#7cedc1,equal
+grm-global,chart/3,VariableID:71:8,#b5a7c7,chart/3 → GRM Global/accent/500,--chart-3,,missing,#887a99,different
+grm-global,chart/4,VariableID:71:9,#00a241,chart/4 → success → GRM Global/status/success/500,--chart-4,,missing,#4ccb6a,different
+grm-global,chart/5,VariableID:71:10,#f6c453,chart/5 → warning → GRM Global/status/warning/500,--chart-5,,missing,#f6c453,equal
+grm-global,sidebar/primary/foreground,VariableID:71:12,#ffffff,sidebar/primary/foreground → color/neutral/0,--sidebar-primary-foreground,#ffffff,equal,#ffffff,equal
+grm-global,sidebar/accent/foreground,VariableID:71:13,#2c282a,sidebar/accent/foreground → GRM Global/neutral/900,--sidebar-accent-foreground,#166f54,different,#342f32,different
+grm-global,sidebar/border,VariableID:71:14,#bbb3b7,sidebar/border → GRM Global/neutral/400,--sidebar-border,#dad4d7,different,#bbb3b7,equal
+grm-global,sidebar/ring,VariableID:71:15,#2aae9f,sidebar/ring → GRM Global/primary/400,--sidebar-ring,#008979,different,#2aae9f,equal
+grm-global,sidebar/primary,VariableID:74:3,#007b6d,sidebar/primary → GRM Global/primary/500,--sidebar-primary,#008979,different,#008979,different
+grm-global,sidebar/accent,VariableID:74:4,#e8f8f5,sidebar/accent → GRM Global/primary/50,--sidebar-accent,#ddf9ee,different,#e8f8f5,equal
+grm-global,primary/10%,VariableID:248:129,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:44:185'}, 'opacity': 10}",primary/10%,--primary-10,,missing,oklch(0.5649 0.1019 180.8 / 10%),different
+grm-global,primary/default-foreground,VariableID:248:131,#007b6d,primary/default-foreground → primary → GRM Global/primary/500,--primary-default-foreground,#008979,different,#008979,different
+grm-global,primary/15%,VariableID:248:511,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:44:185'}, 'opacity': 15}",primary/15%,--primary-15,,missing,oklch(0.5649 0.1019 180.8 / 15%),different
+grm-global,secondary/40%,VariableID:249:143,#7cedc1 / 40%,secondary/40% → GRM Global/secondary/500-40%,--secondary-40,,missing,oklch(0.8672 0.1221 166.06 / 40%),equal
+grm-global,secondary/default-border,VariableID:294:472,#7cedc1,secondary/default-border → GRM Global/secondary/500,--secondary-default-border,#7cedc1,equal,#7cedc1,equal
+grm-global,secondary/10%,VariableID:294:495,#7cedc1 / 10%,secondary/10% → GRM Global/secondary/500-10%,--secondary-10,,missing,oklch(0.8672 0.1221 166.06 / 10%),equal
+grm-global,primary/default-border,VariableID:294:496,#007b6d,primary/default-border → primary → GRM Global/primary/500,--primary-default-border,,missing,#008979,different
+grm-global,success/default-border,VariableID:332:2317,#00a241,success/default-border → GRM Global/status/success/500,--success-default-border,#4ccb6a,different,#4ccb6a,different
+grm-global,warning/default-border,VariableID:332:2318,#f6c453,warning/default-border → GRM Global/status/warning/500,--warning-default-border,#f6c453,equal,#f6c453,equal
+grm-global,error/default-border,VariableID:332:2323,#ea6e5c,error/default-border → GRM Global/status/error/500,--error-default-border,#ea6e5c,equal,#ea6e5c,equal
+grm-global,error/default-foreground,VariableID:417:1110,#ea6e5c,error/default-foreground → GRM Global/status/error/500,--error-default-foreground,#ea6e5c,equal,#ea6e5c,equal
+grm-global,error/20%,VariableID:424:1864,#ea6e5c / 20%,error/20% → GRM Global/status/error/500-20%,--error-20,,missing,oklch(0.6828 0.1573 30.09 / 20%),equal
+grm-global,ring/50%,VariableID:424:1865,#ff9248 / 50%,ring/50% → GRM Global/ring/500-50%,--ring-50,,missing,oklch(0.7638 0.1576 52.1 / 50%),equal
+grm-global,primary/5%,VariableID:452:1261,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:44:185'}, 'opacity': 5}",primary/5%,--primary-5,,missing,oklch(0.5649 0.1019 180.8 / 5%),different
+grm-global,input/50%,VariableID:479:83,#bbb3b7 / 50%,input/50% → GRM Global/neutral/400-50%,--input-50,,missing,oklch(0.7745 0.0106 345.5 / 50%),equal
+grm-global,accent/50%,VariableID:629:40610,#e7e2ed / 50%,accent/50% → GRM Global/accent/200-50%,--accent-50,,missing,oklch(0.8894 0.0158 306.39 / 50%),different
+grm-global,ring/15%,VariableID:902:6506,#ff9248 / 15%,ring/15% → GRM Global/ring/500-15%,--ring-15,,missing,oklch(0.7638 0.1576 52.1 / 15%),equal
+grm-global,muted/50%,VariableID:1194:649,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:44:188'}, 'opacity': 50}",muted/50%,--muted-50,,missing,oklch(0.9347 0.0051 345.29 / 50%),different
+grm-global,destructive/10%,VariableID:1361:2019,#e31646 / 10%,destructive/10% → GRM Global/status/destructive/500-10%,--destructive-10,,missing,oklch(0.6566 0.2317 17.86 / 10%),different
+grm-global,destructive/default-foreground,VariableID:1365:2020,#e31646,destructive/default-foreground → GRM Global/status/destructive/500,--destructive-default-foreground,#ff3759,different,#ff3759,different
+grm-global,table/row-alternate,VariableID:1603:2,#faf9fa,table/row-alternate → GRM Global/table/row-alternate,--table-row-alternate,,missing,#fcfbfa,different
+grm-global,foreground/60%,VariableID:1812:2961,#2c282a / 60%,foreground/60% → GRM Global/neutral/900-60%,--foreground-60,,missing,oklch(0.3116 0.0088 340.87 / 60%),different
+grm-global,muted/40%,VariableID:2127:13111,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:44:188'}, 'opacity': 40}",muted/40%,--muted-40,,missing,oklch(0.9347 0.0051 345.29 / 40%),different
+grm-global,primary/20%,VariableID:2457:29811,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:44:185'}, 'opacity': 20}",primary/20%,--primary-20,,missing,oklch(0.5649 0.1019 180.8 / 20%),different
+grm-global,destructive/30%,VariableID:2926:3907,#e31646 / 30%,destructive/30% → GRM Global/status/destructive/500-30%,--destructive-30,,missing,oklch(0.6566 0.2317 17.86 / 30%),different
+grm-global,muted/20%,VariableID:3627:49901,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:44:188'}, 'opacity': 20}",muted/20%,--muted-20,,missing,,missing
+grm-global,primary/light-border,VariableID:3627:52309,#94ded4,primary/light-border → GRM Global/primary/200,--primary-light-border,#94ded4,equal,#94ded4,equal
+grm-global,background/10%,VariableID:3758:13875,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:44:183'}, 'opacity': 10}",background/10%,--background-10,,missing,oklch(0.9775 0.0028 308.43 / 20%),different
+grm-global,card/1%,VariableID:3781:32016,#ffffff / 1%,card/1% → color/neutral/0-1%,--card-1,,missing,oklch(1 0 89.88 / 1%),equal
+grm-global,table/header/background,VariableID:4989:98324,#f3f1f3,table/header/background,--table-header-background,,missing,,missing
+grm-global,muted/30%,VariableID:5046:23981,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:44:188'}, 'opacity': 30}",muted/30%,--muted-30,,missing,,missing
+grm-global,button/brand-gradient-1,VariableID:5082:64990,#45d6a1,button/brand-gradient-1 → secondary-hover → GRM Global/secondary/hover → GRM Global/secondary/600,--button-brand-gradient-1,,missing,,missing
+grm-global,button/brand-gradient-2,VariableID:5082:64991,#007b6d,button/brand-gradient-2 → primary → GRM Global/primary/500,--button-brand-gradient-2,,missing,,missing
+grm-global,background/brand-gradient/light/1,VariableID:5088:23706,#e6f3f2,background/brand-gradient/light/1,--background-brand-gradient-light-1,,missing,,missing
+grm-global,background/brand-gradient/light/2,VariableID:5090:36219,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:50:300'}, 'opacity': 0}",background/brand-gradient/light/2,--background-brand-gradient-light-2,,missing,,missing
+grm-global,typography/sans,VariableID:132:811,inter,typography/sans → GRM Global/typography/sans,--typography-sans,,missing,,missing
+grm-global,typography/heading,VariableID:132:812,inter,typography/heading → GRM Global/typography/heading,--typography-heading,,missing,,missing
+grm-global,appointment/scheduled/light,VariableID:3464:38,#ececef,appointment/scheduled/light → GRM Global/status/appointment/scheduled/light → slateGray/50,--appointment-scheduled-light,,missing,#ececef,equal
+grm-global,appointment/scheduled/light-border,VariableID:3464:39,#ccced6,appointment/scheduled/light-border → GRM Global/status/appointment/scheduled/light-border → slateGray/200,--appointment-scheduled-light-border,,missing,#ccced6,equal
+grm-global,appointment/scheduled/default,VariableID:3464:40,#6a6f86,appointment/scheduled/default → GRM Global/status/appointment/scheduled/default → slateGray/500,--appointment-scheduled-default,,missing,#6a6f86,equal
+grm-global,appointment/scheduled/foreground,VariableID:3464:41,#56596c,appointment/scheduled/foreground → GRM Global/status/appointment/scheduled/foreground → slateGray/700,--appointment-scheduled-foreground,,missing,#56596c,equal
+grm-global,appointment/confirmed/light,VariableID:3464:42,#e6eef8,appointment/confirmed/light → GRM Global/status/appointment/confirmed/light → clearBlue/50,--appointment-confirmed-light,,missing,#e6eef8,equal
+grm-global,appointment/confirmed/light-border,VariableID:3464:43,#bed1ed,appointment/confirmed/light-border → GRM Global/status/appointment/confirmed/light-border → clearBlue/200,--appointment-confirmed-light-border,,missing,#bed1ed,equal
+grm-global,typography/mono,VariableID:132:813,jetbrains-mono,typography/mono → GRM Global/typography/mono,--typography-mono,,missing,,missing
+grm-global,destructive/20%,VariableID:3537:30628,#e31646 / 20%,destructive/20% → GRM Global/status/destructive/500-20%,--destructive-20,,missing,oklch(0.6566 0.2317 17.86 / 20%),different
+grm-global,background,VariableID:44:183,#faf8fb,background → GRM Global/neutral/50,--background,#f8f7f9,different,#f8f7f9,different
+grm-global,foreground,VariableID:44:184,#2c282a,foreground → GRM Global/neutral/900,--foreground,#342f32,different,#342f32,different
+grm-global,primary,VariableID:44:185,#007b6d,primary → GRM Global/primary/500,--primary,#008979,different,#008979,different
+grm-global,secondary,VariableID:44:186,#ddf9ee,secondary → GRM Global/secondary/100,--secondary,#ddf9ee,equal,#ddf9ee,equal
+grm-global,accent,VariableID:44:187,#e7e2ed,accent → GRM Global/accent/200,--accent,#ddd8e3,different,#ddd8e3,different
+grm-global,muted,VariableID:44:188,#f6f2f4,muted → GRM Global/neutral/100,--muted,#ece8ea,different,#ece8ea,different
+grm-global,appointment/confirmed/default,VariableID:3464:44,#3f79c9,appointment/confirmed/default → GRM Global/status/appointment/confirmed/default → clearBlue/500,--appointment-confirmed-default,,missing,#3f79c9,equal
+grm-global,appointment/confirmed/foreground,VariableID:3464:45,#36619e,appointment/confirmed/foreground → GRM Global/status/appointment/confirmed/foreground → clearBlue/700,--appointment-confirmed-foreground,,missing,#36619e,equal
+grm-global,appointment/reception/light,VariableID:3464:46,#fcf6de,appointment/reception/light → GRM Global/status/appointment/reception/light → goldenYellow/50,--appointment-reception-light,,missing,#fcf6de,equal
+grm-global,appointment/reception/light-border,VariableID:3464:47,#f7e7a8,appointment/reception/light-border → GRM Global/status/appointment/reception/light-border → goldenYellow/200,--appointment-reception-light-border,,missing,#f7e7a8,equal
+grm-global,appointment/reception/default,VariableID:3464:48,#e6b800,appointment/reception/default → GRM Global/status/appointment/reception/default → goldenYellow/500,--appointment-reception-default,,missing,#e6b800,equal
+grm-global,appointment/reception/foreground,VariableID:3464:49,#b18f09,appointment/reception/foreground → GRM Global/status/appointment/reception/foreground → goldenYellow/700,--appointment-reception-foreground,,missing,#b18f09,equal
+grm-global,appointment/vitals/light,VariableID:3464:50,#fbeaf0,appointment/vitals/light → GRM Global/status/appointment/vitals/light → berryPink/50,--appointment-vitals-light,,missing,#fbeaf0,equal
+grm-global,appointment/vitals/light-border,VariableID:3464:51,#f4c7d7,appointment/vitals/light-border → GRM Global/status/appointment/vitals/light-border → berryPink/200,--appointment-vitals-light-border,,missing,#f4c7d7,equal
+grm-global,appointment/vitals/default,VariableID:3464:52,#e05a8a,appointment/vitals/default → GRM Global/status/appointment/vitals/default → berryPink/500,--appointment-vitals-default,,missing,#e05a8a,equal
+grm-global,appointment/vitals/foreground,VariableID:3464:53,#ad4a6f,appointment/vitals/foreground → GRM Global/status/appointment/vitals/foreground → berryPink/700,--appointment-vitals-foreground,,missing,#ad4a6f,equal
+grm-global,appointment/consultation/light,VariableID:3464:54,#fbf1e3,appointment/consultation/light → GRM Global/status/appointment/consultation/light → amberOrange/50,--appointment-consultation-light,,missing,#fbf1e3,equal
+grm-global,appointment/consultation/light-border,VariableID:3464:55,#f4dab7,appointment/consultation/light-border → GRM Global/status/appointment/consultation/light-border → amberOrange/200,--appointment-consultation-light-border,,missing,#f4dab7,equal
+grm-global,appointment/consultation/default,VariableID:3464:56,#e0912a,appointment/consultation/default → GRM Global/status/appointment/consultation/default → amberOrange/500,--appointment-consultation-default,,missing,#e0912a,equal
+grm-global,appointment/consultation/foreground,VariableID:3464:57,#ad7328,appointment/consultation/foreground → GRM Global/status/appointment/consultation/foreground → amberOrange/700,--appointment-consultation-foreground,,missing,#ad7328,equal
+grm-global,appointment/completed/light,VariableID:3464:58,#e4f2ec,appointment/completed/light → GRM Global/status/appointment/completed/light → natureGreen/50,--appointment-completed-light,,missing,#e4f2ec,equal
+grm-global,appointment/completed/light-border,VariableID:3464:59,#b8decc,appointment/completed/light-border → GRM Global/status/appointment/completed/light-border → natureGreen/200,--appointment-completed-light-border,,missing,#b8decc,equal
+grm-global,appointment/completed/default,VariableID:3464:60,#2f9e6a,appointment/completed/default → GRM Global/status/appointment/completed/default → natureGreen/500,--appointment-completed-default,,missing,#2f9e6a,equal
+grm-global,appointment/completed/foreground,VariableID:3464:61,#2a7c57,appointment/completed/foreground → GRM Global/status/appointment/completed/foreground → natureGreen/700,--appointment-completed-foreground,,missing,#2a7c57,equal
+grm-global,appointment/no-show/light,VariableID:3464:62,#fae8e8,appointment/no-show/light → GRM Global/status/appointment/no-show/light → warmRed/50,--appointment-no-show-light,,missing,#fae8e8,equal
+grm-global,appointment/no-show/light-border,VariableID:3464:63,#f1c3c3,appointment/no-show/light-border → GRM Global/status/appointment/no-show/light-border → warmRed/200,--appointment-no-show-light-border,,missing,#f1c3c3,equal
+grm-global,appointment/no-show/default,VariableID:3464:64,#d64f4f,appointment/no-show/default → GRM Global/status/appointment/no-show/default → warmRed/500,--appointment-no-show-default,,missing,#d64f4f,equal
+grm-global,appointment/no-show/foreground,VariableID:3464:65,#a64243,appointment/no-show/foreground → GRM Global/status/appointment/no-show/foreground → warmRed/700,--appointment-no-show-foreground,,missing,#a64243,equal
+grm-global,appointment/cancelled/light,VariableID:3464:66,#fdf4f0,appointment/cancelled/light → GRM Global/status/appointment/cancelled/light → softCoral/50,--appointment-cancelled-light,,missing,#fdf4f0,equal
+grm-global,appointment/cancelled/light-border,VariableID:3464:67,#fae2d7,appointment/cancelled/light-border → GRM Global/status/appointment/cancelled/light-border → softCoral/200,--appointment-cancelled-light-border,,missing,#fae2d7,equal
+grm-global,appointment/cancelled/default,VariableID:3464:68,#f0a988,appointment/cancelled/default → GRM Global/status/appointment/cancelled/default → softCoral/500,--appointment-cancelled-default,,missing,#f0a988,equal
+grm-global,appointment/cancelled/foreground,VariableID:3464:69,#b9846d,appointment/cancelled/foreground → GRM Global/status/appointment/cancelled/foreground → softCoral/700,--appointment-cancelled-foreground,,missing,#b9846d,equal
+grm-global,appointment/rescheduled/light,VariableID:3464:70,#f2eef9,appointment/rescheduled/light → GRM Global/status/appointment/rescheduled/light → lavenderPurple/50,--appointment-rescheduled-light,,missing,#f2eef9,equal
+grm-global,appointment/rescheduled/light-border,VariableID:3464:71,#ddd3f0,appointment/rescheduled/light-border → GRM Global/status/appointment/rescheduled/light-border → lavenderPurple/200,--appointment-rescheduled-light-border,,missing,#ddd3f0,equal
+grm-global,appointment/rescheduled/default,VariableID:3464:72,#9b7fd4,appointment/rescheduled/default → GRM Global/status/appointment/rescheduled/default → lavenderPurple/500,--appointment-rescheduled-default,,missing,#9b7fd4,equal
+grm-global,appointment/rescheduled/foreground,VariableID:3464:73,#7a65a6,appointment/rescheduled/foreground → GRM Global/status/appointment/rescheduled/foreground → lavenderPurple/700,--appointment-rescheduled-foreground,,missing,#7a65a6,equal
+grm-global,warning-hover,VariableID:3492:56313,#d99e2e,warning-hover → GRM Global/status/warning/600,--warning-hover,#d99e2e,equal,#d99e2e,equal
+grm-global,warning-active,VariableID:3492:56314,#b57822,warning-active → GRM Global/status/warning/700,--warning-active,#b57822,equal,#b57822,equal
+grm-global,error-hover,VariableID:3492:56315,#ce4d3e,error-hover → GRM Global/status/error/600,--error-hover,#ce4d3e,equal,#ce4d3e,equal
+grm-global,error-active,VariableID:3492:56316,#aa392f,error-active → GRM Global/status/error/700,--error-active,#aa392f,equal,#aa392f,equal
+grm-global,destructive-hover,VariableID:3492:56317,#bb1138,destructive-hover → GRM Global/status/destructive/600,--destructive-hover,#e31646,different,#e31646,different
+grm-global,destructive-active,VariableID:3492:56318,#950129,destructive-active → GRM Global/status/destructive/700,--destructive-active,#bb1138,different,#bb1138,different
+grm-global,info-hover,VariableID:3492:56319,#4d5fd1,info-hover → GRM Global/status/info/600,--info-hover,#4d5fd1,equal,#4d5fd1,equal
+grm-global,info-active,VariableID:3492:56320,#3f4daa,info-active → GRM Global/status/info/700,--info-active,#3f4daa,equal,#3f4daa,equal
+grm-global,primary-hover,VariableID:164:184,#006459,primary-hover → GRM Global/primary/hover → GRM Global/primary/600,--primary-hover,#007b6d,different,#007b6d,different
+grm-global,secondary-hover,VariableID:164:185,#45d6a1,secondary-hover → GRM Global/secondary/hover → GRM Global/secondary/600,--secondary-hover,#45d6a1,equal,#45d6a1,equal
+grm-global,primary-active,VariableID:164:365,#004f47,primary-active → GRM Global/primary/active → GRM Global/primary/700,--primary-active,#006459,different,#006459,different
+grm-global,secondary-active,VariableID:168:367,#24b783,secondary-active → GRM Global/secondary/active → GRM Global/secondary/700,--secondary-active,#24b783,equal,#24b783,equal
+grm-global,background-hover,VariableID:168:368,#f6f3ef,background-hover → Piel Sana/neutral/100,--background-hover,#f5f3ef,different,#f5f3ef,different
+grm-global,background-active,VariableID:168:369,#f6f3ef,background-active → Piel Sana/neutral/100,--background-active,#f5f3ef,different,#f5f3ef,different
+grm-global,success/foreground,VariableID:203:202,#ffffff,success/foreground → color/neutral/0,--success-foreground,#ffffff,equal,#ffffff,equal
+grm-global,warning/foreground,VariableID:203:208,#2c282a,warning/foreground → GRM Global/neutral/900,--warning-foreground,#342f32,different,#342f32,different
+grm-global,error/foreground,VariableID:203:209,#ffffff,error/foreground → color/neutral/0,--error-foreground,#ffffff,equal,#ffffff,equal
+grm-global,destructive/foreground,VariableID:203:210,#ffffff,destructive/foreground → color/neutral/0,--destructive-foreground,#ffffff,equal,#ffffff,equal
+grm-global,info/foreground,VariableID:203:211,#ffffff,info/foreground → color/neutral/0,--info-foreground,#ffffff,equal,#ffffff,equal
+grm-global,success/light-border,VariableID:203:212,#bee7c3,success/light-border → GRM Global/status/success/200,--success-light-border,#baf0c8,different,#baf0c8,different
+grm-global,warning/light-border,VariableID:203:213,#ffe8a8,warning/light-border → GRM Global/status/warning/200,--warning-light-border,#ffe8a8,equal,#ffe8a8,equal
+grm-global,error/light-foreground,VariableID:203:214,#aa392f,error/light-foreground → GRM Global/status/error/700,--error-light-foreground,#aa392f,equal,#aa392f,equal
+grm-global,destructive/light-border,VariableID:203:215,#ffc3c3,destructive/light-border → GRM Global/status/destructive/200,--destructive-light-border,#fdbebf,different,#fdbebf,different
+grm-global,info/light-foreground,VariableID:203:216,#4d5fd1,info/light-foreground → GRM Global/status/info/600,--info-light-foreground,#4d5fd1,equal,#4d5fd1,equal
+grm-global,success,VariableID:203:217,#00a241,success → GRM Global/status/success/500,--success,#4ccb6a,different,#4ccb6a,different
+grm-global,warning,VariableID:203:218,#f6c453,warning → GRM Global/status/warning/500,--warning,#f6c453,equal,#f6c453,equal
+grm-global,error,VariableID:203:219,#ea6e5c,error → GRM Global/status/error/500,--error,#ea6e5c,equal,#ea6e5c,equal
+grm-global,destructive,VariableID:203:220,#e31646,destructive → GRM Global/status/destructive/500,--destructive,#ff3759,different,#ff3759,different
+grm-global,info,VariableID:203:221,#6577e8,info → GRM Global/status/info/500,--info,#6577e8,equal,#6577e8,equal
+grm-global,success/light,VariableID:208:2,#f3fbf4,success/light → GRM Global/status/success/50,--success-light,#f0fcf3,different,#f0fcf3,different
+grm-global,warning/light,VariableID:208:3,#fffbef,warning/light → GRM Global/status/warning/50,--warning-light,#fffbef,equal,#fffbef,equal
+grm-global,error/light,VariableID:208:4,#fff5f3,error/light → GRM Global/status/error/50,--error-light,#fff5f3,equal,#fff5f3,equal
+grm-global,destructive/light,VariableID:208:5,#fff4f4,destructive/light → GRM Global/status/destructive/50,--destructive-light,#ffeeee,different,#ffeeee,different
+grm-global,info/light,VariableID:208:6,#f5f6ff,info/light → GRM Global/status/info/50,--info-light,#f5f6ff,equal,#f5f6ff,equal
+grm-global,success/light-foreground,VariableID:208:7,#026827,success/light-foreground → GRM Global/status/success/700,--success-light-foreground,#288a43,different,#288a43,different
+grm-global,warning/light-foreground,VariableID:208:8,#925b20,warning/light-foreground → GRM Global/status/warning/800,--warning-light-foreground,#b57822,different,#b57822,different
+grm-global,error/light-border,VariableID:208:33,#ffcfc8,error/light-border → GRM Global/status/error/200,--error-light-border,#ffcfc8,equal,#ffcfc8,equal
+grm-global,destructive/light-foreground,VariableID:210:2,#bb1138,destructive/light-foreground → GRM Global/status/destructive/600,--destructive-light-foreground,#e31646,different,#e31646,different
+grm-global,info/light-border,VariableID:210:3,#d4d9ff,info/light-border → GRM Global/status/info/200,--info-light-border,#d4d9ff,equal,#d4d9ff,equal
+grm-global,success-hover,VariableID:230:1268,#028233,success-hover → GRM Global/status/success/600,--success-hover,#32ad52,different,#32ad52,different
+grm-global,success-active,VariableID:230:1269,#026827,success-active → GRM Global/status/success/700,--success-active,#288a43,different,#288a43,different
+grm-global,success/light-hover,VariableID:230:1270,#e2f4e3,success/light-hover → GRM Global/status/success/100,--success-light-hover,#dcf8e3,different,#dcf8e3,different
+grm-global,success/light-active,VariableID:230:1271,#bee7c3,success/light-active → GRM Global/status/success/200,--success-light-active,#baf0c8,different,#baf0c8,different
+grm-global,warning/light-hover,VariableID:230:1272,#fff4d5,warning/light-hover → GRM Global/status/warning/100,--warning-light-hover,#fff4d5,equal,#fff4d5,equal
+grm-global,warning/light-active,VariableID:230:1273,#ffe8a8,warning/light-active → GRM Global/status/warning/200,--warning-light-active,#ffe8a8,equal,#ffe8a8,equal
+grm-global,error/light-hover,VariableID:230:1274,#ffe6e2,error/light-hover → GRM Global/status/error/100,--error-light-hover,,missing,#ffe6e2,equal
+grm-global,error/light-active,VariableID:230:1275,#ffcfc8,error/light-active → GRM Global/status/error/200,--error-light-active,,missing,#ffcfc8,equal
+grm-global,destructive/light-hover,VariableID:230:1276,#ffe4e4,destructive/light-hover → GRM Global/status/destructive/100,--destructive-light-hover,#fed9d9,different,#fed9d9,different
+grm-global,destructive/light-active,VariableID:230:1277,#ffc3c3,destructive/light-active → GRM Global/status/destructive/200,--destructive-light-active,#fdbebf,different,#fdbebf,different
+grm-global,info/light-hover,VariableID:230:1278,#e9ebff,info/light-hover → GRM Global/status/info/100,--info-light-hover,,missing,#e9ebff,equal
+grm-global,info/light-active,VariableID:230:1279,#d4d9ff,info/light-active → GRM Global/status/info/200,--info-light-active,,missing,#d4d9ff,equal
+reina-madre,card,VariableID:51:19,#ffffff,card → color/neutral/0,--card,#ffffff,equal,#ffffff,equal
+reina-madre,popover,VariableID:51:20,#f8f8fc,popover → Reina Madre/neutral/50,--popover,#fcfcff,different,#fcfcff,different
+reina-madre,border,VariableID:51:21,#d6d9f3,border → Reina Madre/neutral/300,--border,#d6d9f3,equal,#d6d9f3,equal
+reina-madre,input,VariableID:51:22,#d6d9f3,input → Reina Madre/neutral/300,--input,#d6d9f3,equal,#d6d9f3,equal
+reina-madre,ring,VariableID:51:23,#ed80a8,ring → Reina Madre/primary/500,--ring,#ed80a8,equal,#ed80a8,equal
+reina-madre,sidebar,VariableID:51:24,#ffffff,sidebar → color/neutral/0,--sidebar,#ffffff,equal,#ffffff,equal
+reina-madre,popover/foreground,VariableID:51:25,#28282f,popover/foreground → Reina Madre/neutral/900,--popover-foreground,#373644,different,#373644,different
+reina-madre,secondary/foreground,VariableID:51:26,#a25cbf,secondary/foreground → Reina Madre/secondary/500,--secondary-foreground,#a25cbf,equal,#a25cbf,equal
+reina-madre,primary/foreground,VariableID:51:172,#ffffff,primary/foreground → color/neutral/0,--primary-foreground,#ffffff,equal,#ffffff,equal
+reina-madre,muted/foreground,VariableID:71:2,#616271,muted/foreground → Reina Madre/neutral/600,--muted-foreground,#8a8fb6,different,#8a8fb6,different
+reina-madre,accent/foreground,VariableID:71:3,#393a44,accent/foreground → Reina Madre/neutral/800,--accent-foreground,#444b54,different,#444b54,different
+reina-madre,chart/1,VariableID:71:4,#ed80a8,chart/1 → Reina Madre/primary/500,--chart-1,,missing,#ed80a8,equal
+reina-madre,card/foreground,VariableID:71:5,#393a44,card/foreground → Reina Madre/neutral/800,--card-foreground,#444b54,different,#444b54,different
+reina-madre,sidebar/foreground,VariableID:71:6,#28282f,sidebar/foreground → Reina Madre/neutral/900,--sidebar-foreground,#373644,different,#373644,different
+reina-madre,chart/2,VariableID:71:7,#a25cbf,chart/2 → Reina Madre/secondary/500,--chart-2,,missing,#a25cbf,equal
+reina-madre,chart/3,VariableID:71:8,#acabc6,chart/3 → Reina Madre/accent/500,--chart-3,,missing,#d9d8f5,different
+reina-madre,chart/4,VariableID:71:9,#afd393,chart/4 → success → Reina Madre/status/success/500,--chart-4,,missing,#afd393,equal
+reina-madre,chart/5,VariableID:71:10,#fac186,chart/5 → warning → Reina Madre/status/warning/500,--chart-5,,missing,#fac186,equal
+reina-madre,sidebar/primary/foreground,VariableID:71:12,#ffffff,sidebar/primary/foreground → color/neutral/0,--sidebar-primary-foreground,#ffffff,equal,#ffffff,equal
+reina-madre,sidebar/accent/foreground,VariableID:71:13,#28282f,sidebar/accent/foreground → Reina Madre/neutral/900,--sidebar-accent-foreground,#373644,different,#373644,different
+reina-madre,sidebar/border,VariableID:71:14,#d6d9f3,sidebar/border → Reina Madre/neutral/300,--sidebar-border,#d6d9f3,equal,#d6d9f3,equal
+reina-madre,sidebar/ring,VariableID:71:15,#ed80a8,sidebar/ring → Reina Madre/primary/500,--sidebar-ring,#ed80a8,equal,#ed80a8,equal
+reina-madre,sidebar/primary,VariableID:74:3,#ed80a8,sidebar/primary → Reina Madre/primary/500,--sidebar-primary,#ed80a8,equal,#ed80a8,equal
+reina-madre,sidebar/accent,VariableID:74:4,#fff3f8,sidebar/accent → Reina Madre/primary/50,--sidebar-accent,#fff3f8,equal,#fff3f8,equal
+reina-madre,primary/10%,VariableID:248:129,#ed80a8 / 10%,primary/10% → Reina Madre/primary/500-10%,--primary-10,,missing,oklch(0.7313 0.1402 357.8 / 10%),equal
+reina-madre,primary/default-foreground,VariableID:248:131,#95375d,primary/default-foreground → Reina Madre/primary/800,--primary-default-foreground,#ed80a8,different,#ed80a8,different
+reina-madre,primary/15%,VariableID:248:511,#ed80a8 / 15%,primary/15% → Reina Madre/primary/500-15%,--primary-15,,missing,oklch(0.7313 0.1402 357.8 / 15%),equal
+reina-madre,secondary/40%,VariableID:249:143,#a25cbf / 40%,secondary/40% → Reina Madre/secondary/500-40%,--secondary-40,,missing,oklch(0.5948 0.1605 315.16 / 40%),equal
+reina-madre,secondary/default-border,VariableID:294:472,#a25cbf,secondary/default-border → Reina Madre/secondary/500,--secondary-default-border,#a25cbf,equal,#a25cbf,equal
+reina-madre,secondary/10%,VariableID:294:495,#a25cbf / 10%,secondary/10% → Reina Madre/secondary/500-10%,--secondary-10,,missing,oklch(0.5948 0.1605 315.16 / 10%),equal
+reina-madre,primary/default-border,VariableID:294:496,#ed80a8,primary/default-border → primary → Reina Madre/primary/500,--primary-default-border,#ed80a8,equal,#ed80a8,equal
+reina-madre,success/default-border,VariableID:332:2317,#afd393,success/default-border → Reina Madre/status/success/500,--success-default-border,#afd393,equal,#afd393,equal
+reina-madre,warning/default-border,VariableID:332:2318,#fac186,warning/default-border → Reina Madre/status/warning/500,--warning-default-border,#fac186,equal,#fac186,equal
+reina-madre,error/default-border,VariableID:332:2323,#ef4444,error/default-border → Reina Madre/status/error/500,--error-default-border,#ef4444,equal,#ef4444,equal
+reina-madre,error/default-foreground,VariableID:417:1110,#ffffff,error/default-foreground → color/neutral/0,--error-default-foreground,#ffffff,equal,#ffffff,equal
+reina-madre,error/20%,VariableID:424:1864,#ef4444 / 20%,error/20% → Reina Madre/status/error/500-20%,--error-20,,missing,oklch(0.6368 0.2078 25.33 / 20%),equal
+reina-madre,ring/50%,VariableID:424:1865,#ed80a8 / 50%,ring/50% → Reina Madre/primary/500-50%,--ring-50,,missing,oklch(0.7313 0.1402 357.8 / 50%),equal
+reina-madre,primary/5%,VariableID:452:1261,#ed80a8 / 5%,primary/5% → Reina Madre/primary/500-5%,--primary-5,,missing,oklch(0.7313 0.1402 357.8 / 5%),equal
+reina-madre,input/50%,VariableID:479:83,#d6d9f3 / 50%,input/50% → Reina Madre/neutral/400-50%,--input-50,,missing,oklch(0.891 0.0357 280.42 / 50%),equal
+reina-madre,accent/50%,VariableID:629:40610,#acabc6 / 50%,accent/50% → Reina Madre/accent/500-50%,--accent-50,,missing,oklch(0.892 0.0396 287.15 / 50%),different
+reina-madre,ring/15%,VariableID:902:6506,#ed80a8 / 15%,ring/15% → Reina Madre/primary/500-15%,--ring-15,,missing,oklch(0.7313 0.1402 357.8 / 15%),equal
+reina-madre,muted/50%,VariableID:1194:649,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:44:188'}, 'opacity': 50}",muted/50%,--muted-50,,missing,oklch(0.96 0.0121 281.08 / 50%),different
+reina-madre,destructive/10%,VariableID:1361:2019,#e61e42 / 10%,destructive/10% → Reina Madre/status/destructive/500-10%,--destructive-10,,missing,oklch(0.6566 0.2317 17.86 / 10%),different
+reina-madre,destructive/default-foreground,VariableID:1365:2020,#e61e42,destructive/default-foreground → Reina Madre/status/destructive/500,--destructive-default-foreground,#ff3759,different,#ff3759,different
+reina-madre,table/row-alternate,VariableID:1603:2,#f9f9ff,table/row-alternate → Reina Madre/table/row-alternate,--table-row-alternate,,missing,#fcfcfe,different
+reina-madre,foreground/60%,VariableID:1812:2961,#28282f / 60%,foreground/60% → Reina Madre/neutral/900-60%,--foreground-60,,missing,oklch(0.3396 0.0244 288.3 / 60%),different
+reina-madre,muted/40%,VariableID:2127:13111,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:44:188'}, 'opacity': 40}",muted/40%,--muted-40,,missing,oklch(0.96 0.0121 281.08 / 40%),different
+reina-madre,primary/20%,VariableID:2457:29811,#ed80a8 / 20%,primary/20% → Reina Madre/primary/500-20%,--primary-20,,missing,oklch(0.7313 0.1402 357.8 / 20%),equal
+reina-madre,destructive/30%,VariableID:2926:3907,#e61e42 / 30%,destructive/30% → Reina Madre/status/destructive/500-30%,--destructive-30,,missing,oklch(0.6566 0.2317 17.86 / 30%),different
+reina-madre,muted/20%,VariableID:3627:49901,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:44:188'}, 'opacity': 20}",muted/20%,--muted-20,,missing,,missing
+reina-madre,primary/light-border,VariableID:3627:52309,#ed80a8,primary/light-border → primary → Reina Madre/primary/500,--primary-light-border,#ed80a8,equal,#ed80a8,equal
+reina-madre,background/10%,VariableID:3758:13875,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:44:183'}, 'opacity': 10}",background/10%,--background-10,,missing,oklch(0.9691 0.0093 286.22 / 20%),different
+reina-madre,card/1%,VariableID:3781:32016,#ffffff / 1%,card/1% → color/neutral/0-1%,--card-1,,missing,oklch(1 0 89.88 / 1%),equal
+reina-madre,table/header/background,VariableID:4989:98324,#edeffb,table/header/background,--table-header-background,,missing,,missing
+reina-madre,muted/30%,VariableID:5046:23981,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:44:188'}, 'opacity': 30}",muted/30%,--muted-30,,missing,,missing
+reina-madre,button/brand-gradient-1,VariableID:5082:64990,#ffffff,button/brand-gradient-1,--button-brand-gradient-1,,missing,,missing
+reina-madre,button/brand-gradient-2,VariableID:5082:64991,#ffffff,button/brand-gradient-2,--button-brand-gradient-2,,missing,,missing
+reina-madre,background/brand-gradient/light/1,VariableID:5088:23706,#fdf2f6,background/brand-gradient/light/1,--background-brand-gradient-light-1,,missing,,missing
+reina-madre,background/brand-gradient/light/2,VariableID:5090:36219,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:50:300'}, 'opacity': 0}",background/brand-gradient/light/2,--background-brand-gradient-light-2,,missing,,missing
+reina-madre,typography/sans,VariableID:132:811,inter,typography/sans → Reina Madre/typography/sans,--typography-sans,,missing,,missing
+reina-madre,typography/heading,VariableID:132:812,inter,typography/heading → Reina Madre/typography/heading,--typography-heading,,missing,,missing
+reina-madre,appointment/scheduled/light,VariableID:3464:38,#ececef,appointment/scheduled/light → GRM Global/status/appointment/scheduled/light → slateGray/50,--appointment-scheduled-light,,missing,#ececef,equal
+reina-madre,appointment/scheduled/light-border,VariableID:3464:39,#ccced6,appointment/scheduled/light-border → GRM Global/status/appointment/scheduled/light-border → slateGray/200,--appointment-scheduled-light-border,,missing,#ccced6,equal
+reina-madre,appointment/scheduled/default,VariableID:3464:40,#6a6f86,appointment/scheduled/default → GRM Global/status/appointment/scheduled/default → slateGray/500,--appointment-scheduled-default,,missing,#6a6f86,equal
+reina-madre,appointment/scheduled/foreground,VariableID:3464:41,#56596c,appointment/scheduled/foreground → GRM Global/status/appointment/scheduled/foreground → slateGray/700,--appointment-scheduled-foreground,,missing,#56596c,equal
+reina-madre,appointment/confirmed/light,VariableID:3464:42,#e6eef8,appointment/confirmed/light → GRM Global/status/appointment/confirmed/light → clearBlue/50,--appointment-confirmed-light,,missing,#e6eef8,equal
+reina-madre,appointment/confirmed/light-border,VariableID:3464:43,#bed1ed,appointment/confirmed/light-border → GRM Global/status/appointment/confirmed/light-border → clearBlue/200,--appointment-confirmed-light-border,,missing,#bed1ed,equal
+reina-madre,typography/mono,VariableID:132:813,jetbrains-mono,typography/mono → Reina Madre/typography/mono,--typography-mono,,missing,,missing
+reina-madre,destructive/20%,VariableID:3537:30628,#e61e42 / 20%,destructive/20% → Reina Madre/status/destructive/500-20%,--destructive-20,,missing,oklch(0.6566 0.2317 17.86 / 20%),different
+reina-madre,background,VariableID:44:183,#f8f8fc,background → Reina Madre/neutral/50,--background,#f4f4fb,different,#f4f4fb,different
+reina-madre,foreground,VariableID:44:184,#28282f,foreground → Reina Madre/neutral/900,--foreground,#373644,different,#373644,different
+reina-madre,primary,VariableID:44:185,#ed80a8,primary → Reina Madre/primary/500,--primary,#ed80a8,equal,#ed80a8,equal
+reina-madre,secondary,VariableID:44:186,#f1e8f7,secondary → Reina Madre/secondary/100,--secondary,#f1e8f7,equal,#f1e8f7,equal
+reina-madre,accent,VariableID:44:187,#e3e3ef,accent → Reina Madre/accent/200,--accent,#d9d8f5,different,#d9d8f5,different
+reina-madre,muted,VariableID:44:188,#f2f3fa,muted → Reina Madre/neutral/100,--muted,#f0f1fa,different,#f0f1fa,different
+reina-madre,appointment/confirmed/default,VariableID:3464:44,#3f79c9,appointment/confirmed/default → GRM Global/status/appointment/confirmed/default → clearBlue/500,--appointment-confirmed-default,,missing,#3f79c9,equal
+reina-madre,appointment/confirmed/foreground,VariableID:3464:45,#36619e,appointment/confirmed/foreground → GRM Global/status/appointment/confirmed/foreground → clearBlue/700,--appointment-confirmed-foreground,,missing,#36619e,equal
+reina-madre,appointment/reception/light,VariableID:3464:46,#fcf6de,appointment/reception/light → GRM Global/status/appointment/reception/light → goldenYellow/50,--appointment-reception-light,,missing,#fcf6de,equal
+reina-madre,appointment/reception/light-border,VariableID:3464:47,#f7e7a8,appointment/reception/light-border → GRM Global/status/appointment/reception/light-border → goldenYellow/200,--appointment-reception-light-border,,missing,#f7e7a8,equal
+reina-madre,appointment/reception/default,VariableID:3464:48,#e6b800,appointment/reception/default → GRM Global/status/appointment/reception/default → goldenYellow/500,--appointment-reception-default,,missing,#e6b800,equal
+reina-madre,appointment/reception/foreground,VariableID:3464:49,#b18f09,appointment/reception/foreground → GRM Global/status/appointment/reception/foreground → goldenYellow/700,--appointment-reception-foreground,,missing,#b18f09,equal
+reina-madre,appointment/vitals/light,VariableID:3464:50,#fbeaf0,appointment/vitals/light → GRM Global/status/appointment/vitals/light → berryPink/50,--appointment-vitals-light,,missing,#fbeaf0,equal
+reina-madre,appointment/vitals/light-border,VariableID:3464:51,#f4c7d7,appointment/vitals/light-border → GRM Global/status/appointment/vitals/light-border → berryPink/200,--appointment-vitals-light-border,,missing,#f4c7d7,equal
+reina-madre,appointment/vitals/default,VariableID:3464:52,#e05a8a,appointment/vitals/default → GRM Global/status/appointment/vitals/default → berryPink/500,--appointment-vitals-default,,missing,#e05a8a,equal
+reina-madre,appointment/vitals/foreground,VariableID:3464:53,#ad4a6f,appointment/vitals/foreground → GRM Global/status/appointment/vitals/foreground → berryPink/700,--appointment-vitals-foreground,,missing,#ad4a6f,equal
+reina-madre,appointment/consultation/light,VariableID:3464:54,#fbf1e3,appointment/consultation/light → GRM Global/status/appointment/consultation/light → amberOrange/50,--appointment-consultation-light,,missing,#fbf1e3,equal
+reina-madre,appointment/consultation/light-border,VariableID:3464:55,#f4dab7,appointment/consultation/light-border → GRM Global/status/appointment/consultation/light-border → amberOrange/200,--appointment-consultation-light-border,,missing,#f4dab7,equal
+reina-madre,appointment/consultation/default,VariableID:3464:56,#e0912a,appointment/consultation/default → GRM Global/status/appointment/consultation/default → amberOrange/500,--appointment-consultation-default,,missing,#e0912a,equal
+reina-madre,appointment/consultation/foreground,VariableID:3464:57,#ad7328,appointment/consultation/foreground → GRM Global/status/appointment/consultation/foreground → amberOrange/700,--appointment-consultation-foreground,,missing,#ad7328,equal
+reina-madre,appointment/completed/light,VariableID:3464:58,#e4f2ec,appointment/completed/light → GRM Global/status/appointment/completed/light → natureGreen/50,--appointment-completed-light,,missing,#e4f2ec,equal
+reina-madre,appointment/completed/light-border,VariableID:3464:59,#b8decc,appointment/completed/light-border → GRM Global/status/appointment/completed/light-border → natureGreen/200,--appointment-completed-light-border,,missing,#b8decc,equal
+reina-madre,appointment/completed/default,VariableID:3464:60,#2f9e6a,appointment/completed/default → GRM Global/status/appointment/completed/default → natureGreen/500,--appointment-completed-default,,missing,#2f9e6a,equal
+reina-madre,appointment/completed/foreground,VariableID:3464:61,#2a7c57,appointment/completed/foreground → GRM Global/status/appointment/completed/foreground → natureGreen/700,--appointment-completed-foreground,,missing,#2a7c57,equal
+reina-madre,appointment/no-show/light,VariableID:3464:62,#fae8e8,appointment/no-show/light → GRM Global/status/appointment/no-show/light → warmRed/50,--appointment-no-show-light,,missing,#fae8e8,equal
+reina-madre,appointment/no-show/light-border,VariableID:3464:63,#f1c3c3,appointment/no-show/light-border → GRM Global/status/appointment/no-show/light-border → warmRed/200,--appointment-no-show-light-border,,missing,#f1c3c3,equal
+reina-madre,appointment/no-show/default,VariableID:3464:64,#d64f4f,appointment/no-show/default → GRM Global/status/appointment/no-show/default → warmRed/500,--appointment-no-show-default,,missing,#d64f4f,equal
+reina-madre,appointment/no-show/foreground,VariableID:3464:65,#a64243,appointment/no-show/foreground → GRM Global/status/appointment/no-show/foreground → warmRed/700,--appointment-no-show-foreground,,missing,#a64243,equal
+reina-madre,appointment/cancelled/light,VariableID:3464:66,#fdf4f0,appointment/cancelled/light → GRM Global/status/appointment/cancelled/light → softCoral/50,--appointment-cancelled-light,,missing,#fdf4f0,equal
+reina-madre,appointment/cancelled/light-border,VariableID:3464:67,#fae2d7,appointment/cancelled/light-border → GRM Global/status/appointment/cancelled/light-border → softCoral/200,--appointment-cancelled-light-border,,missing,#fae2d7,equal
+reina-madre,appointment/cancelled/default,VariableID:3464:68,#f0a988,appointment/cancelled/default → GRM Global/status/appointment/cancelled/default → softCoral/500,--appointment-cancelled-default,,missing,#f0a988,equal
+reina-madre,appointment/cancelled/foreground,VariableID:3464:69,#b9846d,appointment/cancelled/foreground → GRM Global/status/appointment/cancelled/foreground → softCoral/700,--appointment-cancelled-foreground,,missing,#b9846d,equal
+reina-madre,appointment/rescheduled/light,VariableID:3464:70,#f2eef9,appointment/rescheduled/light → GRM Global/status/appointment/rescheduled/light → lavenderPurple/50,--appointment-rescheduled-light,,missing,#f2eef9,equal
+reina-madre,appointment/rescheduled/light-border,VariableID:3464:71,#ddd3f0,appointment/rescheduled/light-border → GRM Global/status/appointment/rescheduled/light-border → lavenderPurple/200,--appointment-rescheduled-light-border,,missing,#ddd3f0,equal
+reina-madre,appointment/rescheduled/default,VariableID:3464:72,#9b7fd4,appointment/rescheduled/default → GRM Global/status/appointment/rescheduled/default → lavenderPurple/500,--appointment-rescheduled-default,,missing,#9b7fd4,equal
+reina-madre,appointment/rescheduled/foreground,VariableID:3464:73,#7a65a6,appointment/rescheduled/foreground → GRM Global/status/appointment/rescheduled/foreground → lavenderPurple/700,--appointment-rescheduled-foreground,,missing,#7a65a6,equal
+reina-madre,warning-hover,VariableID:3492:56313,#d6a36a,warning-hover → Reina Madre/status/warning/600,--warning-hover,#fff1e3,different,#d6a36a,equal
+reina-madre,warning-active,VariableID:3492:56314,#b3854f,warning-active → Reina Madre/status/warning/700,--warning-active,#ffe2c2,different,#b3854f,equal
+reina-madre,error-hover,VariableID:3492:56315,#dc2626,error-hover → Reina Madre/status/error/600,--error-hover,#dc2626,equal,#dc2626,equal
+reina-madre,error-active,VariableID:3492:56316,#b91c1c,error-active → Reina Madre/status/error/700,--error-active,#b91c1c,equal,#b91c1c,equal
+reina-madre,destructive-hover,VariableID:3492:56317,#bf1636,destructive-hover → Reina Madre/status/destructive/600,--destructive-hover,#e61e42,different,#e61e42,different
+reina-madre,destructive-active,VariableID:3492:56318,#94112a,destructive-active → Reina Madre/status/destructive/700,--destructive-active,#bf1636,different,#bf1636,different
+reina-madre,info-hover,VariableID:3492:56319,#0284c7,info-hover → Reina Madre/status/info/600,--info-hover,#0284c7,equal,#0284c7,equal
+reina-madre,info-active,VariableID:3492:56320,#0369a1,info-active → Reina Madre/status/info/700,--info-active,#0369a1,equal,#0369a1,equal
+reina-madre,primary-hover,VariableID:164:184,#d8618e,primary-hover → Reina Madre/primary/hover → Reina Madre/primary/600,--primary-hover,#d8618e,equal,#d8618e,equal
+reina-madre,secondary-hover,VariableID:164:185,#8c48a7,secondary-hover → Reina Madre/secondary/hover → Reina Madre/secondary/600,--secondary-hover,#8c48a7,equal,#8c48a7,equal
+reina-madre,primary-active,VariableID:164:365,#b84772,primary-active → Reina Madre/primary/active → Reina Madre/primary/700,--primary-active,#b84772,equal,#b84772,equal
+reina-madre,secondary-active,VariableID:168:367,#74388a,secondary-active → Reina Madre/secondary/active → Reina Madre/secondary/700,--secondary-active,#74388a,equal,#74388a,equal
+reina-madre,background-hover,VariableID:168:368,#616271,background-hover → Reina Madre/neutral/hover → Reina Madre/neutral/600,--background-hover,#8a8fb6,different,#8a8fb6,different
+reina-madre,background-active,VariableID:168:369,#4b4c59,background-active → Reina Madre/neutral/active → Reina Madre/neutral/700,--background-active,#565386,different,#565386,different
+reina-madre,success/foreground,VariableID:203:202,#28282f,success/foreground → Reina Madre/neutral/900,--success-foreground,#373644,different,#373644,different
+reina-madre,warning/foreground,VariableID:203:208,#28282f,warning/foreground → Reina Madre/neutral/900,--warning-foreground,#373644,different,#373644,different
+reina-madre,error/foreground,VariableID:203:209,#ffffff,error/foreground → color/neutral/0,--error-foreground,#ffffff,equal,#ffffff,equal
+reina-madre,destructive/foreground,VariableID:203:210,#ffffff,destructive/foreground → color/neutral/0,--destructive-foreground,#ffffff,equal,#ffffff,equal
+reina-madre,info/foreground,VariableID:203:211,#ffffff,info/foreground → color/neutral/0,--info-foreground,#ffffff,equal,#ffffff,equal
+reina-madre,success/light-border,VariableID:203:212,#e0f0d1,success/light-border → Reina Madre/status/success/200,--success-light-border,#e0f0d1,equal,#e0f0d1,equal
+reina-madre,warning/light-border,VariableID:203:213,#ffe2c2,warning/light-border → Reina Madre/status/warning/200,--warning-light-border,#ffe2c2,equal,#ffe2c2,equal
+reina-madre,error/light-foreground,VariableID:203:214,#b91c1c,error/light-foreground → Reina Madre/status/error/700,--error-light-foreground,#b91c1c,equal,#b91c1c,equal
+reina-madre,destructive/light-border,VariableID:203:215,#ffc3c2,destructive/light-border → Reina Madre/status/destructive/200,--destructive-light-border,#ffcdd7,different,#ffcdd7,different
+reina-madre,info/light-foreground,VariableID:203:216,#0369a1,info/light-foreground → Reina Madre/status/info/700,--info-light-foreground,#0369a1,equal,#0369a1,equal
+reina-madre,success,VariableID:203:217,#afd393,success → Reina Madre/status/success/500,--success,#afd393,equal,#afd393,equal
+reina-madre,warning,VariableID:203:218,#fac186,warning → Reina Madre/status/warning/500,--warning,#fac186,equal,#fac186,equal
+reina-madre,error,VariableID:203:219,#ef4444,error → Reina Madre/status/error/500,--error,#ef4444,equal,#ef4444,equal
+reina-madre,destructive,VariableID:203:220,#e61e42,destructive → Reina Madre/status/destructive/500,--destructive,#ff3759,different,#ff3759,different
+reina-madre,info,VariableID:203:221,#0ea5e9,info → Reina Madre/status/info/500,--info,#0ea5e9,equal,#0ea5e9,equal
+reina-madre,success/light,VariableID:208:2,#f8fcf4,success/light → Reina Madre/status/success/50,--success-light,#f8fcf4,equal,#f8fcf4,equal
+reina-madre,warning/light,VariableID:208:3,#fff9f2,warning/light → Reina Madre/status/warning/50,--warning-light,#fff9f2,equal,#fff9f2,equal
+reina-madre,error/light,VariableID:208:4,#fef2f2,error/light → Reina Madre/status/error/50,--error-light,#fef2f2,equal,#fef2f2,equal
+reina-madre,destructive/light,VariableID:208:5,#fff4f3,destructive/light → Reina Madre/status/destructive/50,--destructive-light,#fff4f6,different,#fff4f6,different
+reina-madre,info/light,VariableID:208:6,#f0f9ff,info/light → Reina Madre/status/info/50,--info-light,#f0f9ff,equal,#f0f9ff,equal
+reina-madre,success/light-foreground,VariableID:208:7,#5c7149,success/light-foreground → Reina Madre/status/success/800,--success-light-foreground,#77915f,different,#77915f,different
+reina-madre,warning/light-foreground,VariableID:208:8,#8c663c,warning/light-foreground → Reina Madre/status/warning/800,--warning-light-foreground,#b3854f,different,#b3854f,different
+reina-madre,error/light-border,VariableID:208:33,#fecaca,error/light-border → Reina Madre/status/error/200,--error-light-border,#fecaca,equal,#fecaca,equal
+reina-madre,destructive/light-foreground,VariableID:210:2,#94112a,destructive/light-foreground → Reina Madre/status/destructive/700,--destructive-light-foreground,#bf1636,different,#bf1636,different
+reina-madre,info/light-border,VariableID:210:3,#bae6fd,info/light-border → Reina Madre/status/info/200,--info-light-border,#bae6fd,equal,#bae6fd,equal
+reina-madre,success-hover,VariableID:230:1268,#93b478,success-hover → Reina Madre/status/success/600,--success-hover,#93b478,equal,#93b478,equal
+reina-madre,success-active,VariableID:230:1269,#77915f,success-active → Reina Madre/status/success/700,--success-active,#77915f,equal,#77915f,equal
+reina-madre,success/light-hover,VariableID:230:1270,#f0f8e8,success/light-hover → Reina Madre/status/success/100,--success-light-hover,#f0f8e8,equal,#f0f8e8,equal
+reina-madre,success/light-active,VariableID:230:1271,#e0f0d1,success/light-active → Reina Madre/status/success/200,--success-light-active,#e0f0d1,equal,#e0f0d1,equal
+reina-madre,warning/light-hover,VariableID:230:1272,#fff1e3,warning/light-hover → Reina Madre/status/warning/100,--warning-light-hover,#fff1e3,equal,#fff1e3,equal
+reina-madre,warning/light-active,VariableID:230:1273,#ffe2c2,warning/light-active → Reina Madre/status/warning/200,--warning-light-active,#ffe2c2,equal,#ffe2c2,equal
+reina-madre,error/light-hover,VariableID:230:1274,#fee2e2,error/light-hover → Reina Madre/status/error/100,--error-light-hover,,missing,#fee2e2,equal
+reina-madre,error/light-active,VariableID:230:1275,#fecaca,error/light-active → Reina Madre/status/error/200,--error-light-active,,missing,#fecaca,equal
+reina-madre,destructive/light-hover,VariableID:230:1276,#ffe4e3,destructive/light-hover → Reina Madre/status/destructive/100,--destructive-light-hover,#ffe7ec,different,#ffe7ec,different
+reina-madre,destructive/light-active,VariableID:230:1277,#ffc3c2,destructive/light-active → Reina Madre/status/destructive/200,--destructive-light-active,#ffcdd7,different,#ffcdd7,different
+reina-madre,info/light-hover,VariableID:230:1278,#e0f2fe,info/light-hover → Reina Madre/status/info/100,--info-light-hover,,missing,#e0f2fe,equal
+reina-madre,info/light-active,VariableID:230:1279,#bae6fd,info/light-active → Reina Madre/status/info/200,--info-light-active,,missing,#bae6fd,equal
+maria-linda,card,VariableID:51:19,#ffffff,card → color/neutral/0,--card,#ffffff,equal,#ffffff,equal
+maria-linda,popover,VariableID:51:20,#f8f9f9,popover → Maria Linda/neutral/50,--popover,#fbfaf6,different,#fbfaf6,different
+maria-linda,border,VariableID:51:21,#ced0d2,border → Maria Linda/neutral/300,--border,#bfbfbf,different,#bfbfbf,different
+maria-linda,input,VariableID:51:22,#bfbfbf,input → Maria Linda/neutral/400,--input,#909294,different,#909294,different
+maria-linda,ring,VariableID:51:23,#7bc6bb,ring → Maria Linda/primary/500,--ring,#7bc6bb,equal,#7bc6bb,equal
+maria-linda,sidebar,VariableID:51:24,#ffffff,sidebar → color/neutral/0,--sidebar,#ffffff,equal,#ffffff,equal
+maria-linda,popover/foreground,VariableID:51:25,#28292a,popover/foreground → Maria Linda/neutral/900,--popover-foreground,#494949,different,#494949,different
+maria-linda,secondary/foreground,VariableID:51:26,#697d7a,secondary/foreground → Maria Linda/secondary/800,--secondary-foreground,#697d7a,equal,#697d7a,equal
+maria-linda,primary/foreground,VariableID:51:172,#ffffff,primary/foreground → color/neutral/0,--primary-foreground,#ffffff,equal,#ffffff,equal
+maria-linda,muted/foreground,VariableID:71:2,#616465,muted/foreground → Maria Linda/neutral/600,--muted-foreground,#7b7d7e,different,#7b7d7e,different
+maria-linda,accent/foreground,VariableID:71:3,#393b3c,accent/foreground → Maria Linda/neutral/800,--accent-foreground,#56585a,different,#56585a,different
+maria-linda,chart/1,VariableID:71:4,#7bc6bb,chart/1 → Maria Linda/primary/500,--chart-1,,missing,#7bc6bb,equal
+maria-linda,card/foreground,VariableID:71:5,#393b3c,card/foreground → Maria Linda/neutral/800,--card-foreground,#56585a,different,#56585a,different
+maria-linda,sidebar/foreground,VariableID:71:6,#28292a,sidebar/foreground → Maria Linda/neutral/900,--sidebar-foreground,#494949,different,#494949,different
+maria-linda,chart/2,VariableID:71:7,#c7e5e0,chart/2 → Maria Linda/secondary/500,--chart-2,,missing,#c7e5e0,equal
+maria-linda,chart/3,VariableID:71:8,#b3ae9a,chart/3 → Maria Linda/accent/500,--chart-3,,missing,#ccc7b2,different
+maria-linda,chart/4,VariableID:71:9,#32ac70,chart/4 → success → Maria Linda/status/success/500,--chart-4,,missing,#32ac70,equal
+maria-linda,chart/5,VariableID:71:10,#e2a11d,chart/5 → warning → Maria Linda/status/warning/500,--chart-5,,missing,#e2a11d,equal
+maria-linda,sidebar/primary/foreground,VariableID:71:12,#ffffff,sidebar/primary/foreground → color/neutral/0,--sidebar-primary-foreground,#ffffff,equal,#ffffff,equal
+maria-linda,sidebar/accent/foreground,VariableID:71:13,#28292a,sidebar/accent/foreground → Maria Linda/neutral/900,--sidebar-accent-foreground,#494949,different,#494949,different
+maria-linda,sidebar/border,VariableID:71:14,#a6a8a9,sidebar/border → Maria Linda/neutral/500,--sidebar-border,#a6a8a9,equal,#a6a8a9,equal
+maria-linda,sidebar/ring,VariableID:71:15,#7bc6bb,sidebar/ring → Maria Linda/primary/500,--sidebar-ring,#7bc6bb,equal,#7bc6bb,equal
+maria-linda,sidebar/primary,VariableID:74:3,#7bc6bb,sidebar/primary → Maria Linda/primary/500,--sidebar-primary,#7bc6bb,equal,#7bc6bb,equal
+maria-linda,sidebar/accent,VariableID:74:4,#f5fbfa,sidebar/accent → Maria Linda/primary/50,--sidebar-accent,#f5fbfa,equal,#f5fbfa,equal
+maria-linda,primary/10%,VariableID:248:129,#7bc6bb / 10%,primary/10% → Maria Linda/primary/500-10%,--primary-10,,missing,oklch(0.7744 0.0767 184.01 / 10%),equal
+maria-linda,primary/default-foreground,VariableID:248:131,#376a62,primary/default-foreground → Maria Linda/primary/800,--primary-default-foreground,#7bc6bb,different,#7bc6bb,different
+maria-linda,primary/15%,VariableID:248:511,#7bc6bb / 15%,primary/15% → Maria Linda/primary/500-15%,--primary-15,,missing,oklch(0.7744 0.0767 184.01 / 15%),equal
+maria-linda,secondary/40%,VariableID:249:143,#c7e5e0 / 40%,secondary/40% → Maria Linda/secondary/500-40%,--secondary-40,,missing,oklch(0.8987 0.0323 184.49 / 40%),equal
+maria-linda,secondary/default-border,VariableID:294:472,#c7e5e0,secondary/default-border → Maria Linda/secondary/500,--secondary-default-border,#c7e5e0,equal,#c7e5e0,equal
+maria-linda,secondary/10%,VariableID:294:495,#c7e5e0 / 10%,secondary/10% → Maria Linda/secondary/500-10%,--secondary-10,,missing,oklch(0.8987 0.0323 184.49 / 10%),equal
+maria-linda,primary/default-border,VariableID:294:496,#4c8e84,primary/default-border → primary → Maria Linda/primary/700,--primary-default-border,#7bc6bb,different,#7bc6bb,different
+maria-linda,success/default-border,VariableID:332:2317,#32ac70,success/default-border → Maria Linda/status/success/500,--success-default-border,#32ac70,equal,#32ac70,equal
+maria-linda,warning/default-border,VariableID:332:2318,#e2a11d,warning/default-border → Maria Linda/status/warning/500,--warning-default-border,#e2a11d,equal,#e2a11d,equal
+maria-linda,error/default-border,VariableID:332:2323,#de4655,error/default-border → Maria Linda/status/error/500,--error-default-border,#de4655,equal,#de4655,equal
+maria-linda,error/default-foreground,VariableID:417:1110,#ffffff,error/default-foreground → color/neutral/0,--error-default-foreground,#ffffff,equal,#ffffff,equal
+maria-linda,error/20%,VariableID:424:1864,#de4655 / 20%,error/20% → Maria Linda/status/error/500-20%,--error-20,,missing,oklch(0.6135 0.1877 19.18 / 20%),equal
+maria-linda,ring/50%,VariableID:424:1865,#7bc6bb / 50%,ring/50% → Maria Linda/primary/500-50%,--ring-50,,missing,oklch(0.7744 0.0767 184.01 / 50%),equal
+maria-linda,primary/5%,VariableID:452:1261,#7bc6bb / 5%,primary/5% → Maria Linda/primary/500-5%,--primary-5,,missing,oklch(0.7744 0.0767 184.01 / 5%),equal
+maria-linda,input/50%,VariableID:479:83,#909294 / 50%,input/50% → Maria Linda/neutral/500-50%,--input-50,,missing,oklch(0.6589 0.0038 247.88 / 50%),equal
+maria-linda,accent/50%,VariableID:629:40610,#b3ae9a / 50%,accent/50% → Maria Linda/accent/500-50%,--accent-50,,missing,oklch(0.828 0.0291 95.95 / 50%),different
+maria-linda,ring/15%,VariableID:902:6506,#7bc6bb / 15%,ring/15% → Maria Linda/primary/500-15%,--ring-15,,missing,oklch(0.7744 0.0767 184.01 / 15%),equal
+maria-linda,muted/50%,VariableID:1194:649,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:44:188'}, 'opacity': 50}",muted/50%,--muted-50,,missing,oklch(0.8971 0.0017 247.84 / 50%),different
+maria-linda,destructive/10%,VariableID:1361:2019,#ca1f50 / 10%,destructive/10% → Maria Linda/status/destructive/500-10%,--destructive-10,,missing,oklch(0.5466 0.2021 12.13 / 10%),equal
+maria-linda,destructive/default-foreground,VariableID:1365:2020,#ca1f50,destructive/default-foreground → Maria Linda/status/destructive/500,--destructive-default-foreground,#ca1f50,equal,#ca1f50,equal
+maria-linda,table/row-alternate,VariableID:1603:2,#f8f9f9,table/row-alternate → Maria Linda/table/row-alternate → Maria Linda/neutral/50,--table-row-alternate,,missing,#fbfbfb,different
+maria-linda,foreground/60%,VariableID:1812:2961,#28292a / 60%,foreground/60% → Maria Linda/neutral/900-60%,--foreground-60,,missing,oklch(0.4054 0 89.88 / 60%),different
+maria-linda,muted/40%,VariableID:2127:13111,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:44:188'}, 'opacity': 40}",muted/40%,--muted-40,,missing,oklch(0.8971 0.0017 247.84 / 40%),different
+maria-linda,primary/20%,VariableID:2457:29811,#7bc6bb / 20%,primary/20% → Maria Linda/primary/500-20%,--primary-20,,missing,oklch(0.7744 0.0767 184.01 / 20%),equal
+maria-linda,destructive/30%,VariableID:2926:3907,#ca1f50 / 30%,destructive/30% → Maria Linda/status/destructive/500-30%,--destructive-30,,missing,oklch(0.5466 0.2021 12.13 / 30%),equal
+maria-linda,muted/20%,VariableID:3627:49901,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:44:188'}, 'opacity': 20}",muted/20%,--muted-20,,missing,,missing
+maria-linda,primary/light-border,VariableID:3627:52309,#4c8e84,primary/light-border → primary → Maria Linda/primary/700,--primary-light-border,#7bc6bb,different,#7bc6bb,different
+maria-linda,background/10%,VariableID:3758:13875,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:44:183'}, 'opacity': 10}",background/10%,--background-10,,missing,oklch(0.9574 0.0011 197.14 / 20%),different
+maria-linda,card/1%,VariableID:3781:32016,#ffffff / 1%,card/1% → color/neutral/0-1%,--card-1,,missing,oklch(1 0 89.88 / 1%),equal
+maria-linda,table/header/background,VariableID:4989:98324,#e7f2f0,table/header/background,--table-header-background,,missing,,missing
+maria-linda,muted/30%,VariableID:5046:23981,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:44:188'}, 'opacity': 30}",muted/30%,--muted-30,,missing,,missing
+maria-linda,button/brand-gradient-1,VariableID:5082:64990,#ffffff,button/brand-gradient-1,--button-brand-gradient-1,,missing,,missing
+maria-linda,button/brand-gradient-2,VariableID:5082:64991,#ffffff,button/brand-gradient-2,--button-brand-gradient-2,,missing,,missing
+maria-linda,background/brand-gradient/light/1,VariableID:5088:23706,#f2f9f8,background/brand-gradient/light/1,--background-brand-gradient-light-1,,missing,,missing
+maria-linda,background/brand-gradient/light/2,VariableID:5090:36219,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:50:300'}, 'opacity': 0}",background/brand-gradient/light/2,--background-brand-gradient-light-2,,missing,,missing
+maria-linda,typography/sans,VariableID:132:811,plus-jakarta-sans,typography/sans → Maria Linda/typography/sans,--typography-sans,,missing,,missing
+maria-linda,typography/heading,VariableID:132:812,plus-jakarta-sans,typography/heading → Maria Linda/typography/heading,--typography-heading,,missing,,missing
+maria-linda,appointment/scheduled/light,VariableID:3464:38,#ececef,appointment/scheduled/light → GRM Global/status/appointment/scheduled/light → slateGray/50,--appointment-scheduled-light,,missing,#ececef,equal
+maria-linda,appointment/scheduled/light-border,VariableID:3464:39,#ccced6,appointment/scheduled/light-border → GRM Global/status/appointment/scheduled/light-border → slateGray/200,--appointment-scheduled-light-border,,missing,#ccced6,equal
+maria-linda,appointment/scheduled/default,VariableID:3464:40,#6a6f86,appointment/scheduled/default → GRM Global/status/appointment/scheduled/default → slateGray/500,--appointment-scheduled-default,,missing,#6a6f86,equal
+maria-linda,appointment/scheduled/foreground,VariableID:3464:41,#56596c,appointment/scheduled/foreground → GRM Global/status/appointment/scheduled/foreground → slateGray/700,--appointment-scheduled-foreground,,missing,#56596c,equal
+maria-linda,appointment/confirmed/light,VariableID:3464:42,#e6eef8,appointment/confirmed/light → GRM Global/status/appointment/confirmed/light → clearBlue/50,--appointment-confirmed-light,,missing,#e6eef8,equal
+maria-linda,appointment/confirmed/light-border,VariableID:3464:43,#bed1ed,appointment/confirmed/light-border → GRM Global/status/appointment/confirmed/light-border → clearBlue/200,--appointment-confirmed-light-border,,missing,#bed1ed,equal
+maria-linda,typography/mono,VariableID:132:813,jetbrains-mono,typography/mono → Maria Linda/typography/mono,--typography-mono,,missing,,missing
+maria-linda,destructive/20%,VariableID:3537:30628,#ca1f50 / 20%,destructive/20% → Maria Linda/status/destructive/500-20%,--destructive-20,,missing,oklch(0.5466 0.2021 12.13 / 20%),equal
+maria-linda,background,VariableID:44:183,#f8f9f9,background → Maria Linda/neutral/50,--background,#f0f1f1,different,#f0f1f1,different
+maria-linda,foreground,VariableID:44:184,#28292a,foreground → Maria Linda/neutral/900,--foreground,#494949,different,#494949,different
+maria-linda,primary,VariableID:44:185,#4c8e84,primary → Maria Linda/primary/700,--primary,#7bc6bb,different,#7bc6bb,different
+maria-linda,secondary,VariableID:44:186,#f2f9f7,secondary → Maria Linda/secondary/100,--secondary,#f2f9f7,equal,#f2f9f7,equal
+maria-linda,accent,VariableID:44:187,#e9e5d7,accent → Maria Linda/accent/200,--accent,#ccc7b2,different,#ccc7b2,different
+maria-linda,muted,VariableID:44:188,#f2f4f5,muted → Maria Linda/neutral/100,--muted,#dcddde,different,#dcddde,different
+maria-linda,appointment/confirmed/default,VariableID:3464:44,#3f79c9,appointment/confirmed/default → GRM Global/status/appointment/confirmed/default → clearBlue/500,--appointment-confirmed-default,,missing,#3f79c9,equal
+maria-linda,appointment/confirmed/foreground,VariableID:3464:45,#36619e,appointment/confirmed/foreground → GRM Global/status/appointment/confirmed/foreground → clearBlue/700,--appointment-confirmed-foreground,,missing,#36619e,equal
+maria-linda,appointment/reception/light,VariableID:3464:46,#fcf6de,appointment/reception/light → GRM Global/status/appointment/reception/light → goldenYellow/50,--appointment-reception-light,,missing,#fcf6de,equal
+maria-linda,appointment/reception/light-border,VariableID:3464:47,#f7e7a8,appointment/reception/light-border → GRM Global/status/appointment/reception/light-border → goldenYellow/200,--appointment-reception-light-border,,missing,#f7e7a8,equal
+maria-linda,appointment/reception/default,VariableID:3464:48,#e6b800,appointment/reception/default → GRM Global/status/appointment/reception/default → goldenYellow/500,--appointment-reception-default,,missing,#e6b800,equal
+maria-linda,appointment/reception/foreground,VariableID:3464:49,#b18f09,appointment/reception/foreground → GRM Global/status/appointment/reception/foreground → goldenYellow/700,--appointment-reception-foreground,,missing,#b18f09,equal
+maria-linda,appointment/vitals/light,VariableID:3464:50,#fbeaf0,appointment/vitals/light → GRM Global/status/appointment/vitals/light → berryPink/50,--appointment-vitals-light,,missing,#fbeaf0,equal
+maria-linda,appointment/vitals/light-border,VariableID:3464:51,#f4c7d7,appointment/vitals/light-border → GRM Global/status/appointment/vitals/light-border → berryPink/200,--appointment-vitals-light-border,,missing,#f4c7d7,equal
+maria-linda,appointment/vitals/default,VariableID:3464:52,#e05a8a,appointment/vitals/default → GRM Global/status/appointment/vitals/default → berryPink/500,--appointment-vitals-default,,missing,#e05a8a,equal
+maria-linda,appointment/vitals/foreground,VariableID:3464:53,#ad4a6f,appointment/vitals/foreground → GRM Global/status/appointment/vitals/foreground → berryPink/700,--appointment-vitals-foreground,,missing,#ad4a6f,equal
+maria-linda,appointment/consultation/light,VariableID:3464:54,#fbf1e3,appointment/consultation/light → GRM Global/status/appointment/consultation/light → amberOrange/50,--appointment-consultation-light,,missing,#fbf1e3,equal
+maria-linda,appointment/consultation/light-border,VariableID:3464:55,#f4dab7,appointment/consultation/light-border → GRM Global/status/appointment/consultation/light-border → amberOrange/200,--appointment-consultation-light-border,,missing,#f4dab7,equal
+maria-linda,appointment/consultation/default,VariableID:3464:56,#e0912a,appointment/consultation/default → GRM Global/status/appointment/consultation/default → amberOrange/500,--appointment-consultation-default,,missing,#e0912a,equal
+maria-linda,appointment/consultation/foreground,VariableID:3464:57,#ad7328,appointment/consultation/foreground → GRM Global/status/appointment/consultation/foreground → amberOrange/700,--appointment-consultation-foreground,,missing,#ad7328,equal
+maria-linda,appointment/completed/light,VariableID:3464:58,#e4f2ec,appointment/completed/light → GRM Global/status/appointment/completed/light → natureGreen/50,--appointment-completed-light,,missing,#e4f2ec,equal
+maria-linda,appointment/completed/light-border,VariableID:3464:59,#b8decc,appointment/completed/light-border → GRM Global/status/appointment/completed/light-border → natureGreen/200,--appointment-completed-light-border,,missing,#b8decc,equal
+maria-linda,appointment/completed/default,VariableID:3464:60,#2f9e6a,appointment/completed/default → GRM Global/status/appointment/completed/default → natureGreen/500,--appointment-completed-default,,missing,#2f9e6a,equal
+maria-linda,appointment/completed/foreground,VariableID:3464:61,#2a7c57,appointment/completed/foreground → GRM Global/status/appointment/completed/foreground → natureGreen/700,--appointment-completed-foreground,,missing,#2a7c57,equal
+maria-linda,appointment/no-show/light,VariableID:3464:62,#fae8e8,appointment/no-show/light → GRM Global/status/appointment/no-show/light → warmRed/50,--appointment-no-show-light,,missing,#fae8e8,equal
+maria-linda,appointment/no-show/light-border,VariableID:3464:63,#f1c3c3,appointment/no-show/light-border → GRM Global/status/appointment/no-show/light-border → warmRed/200,--appointment-no-show-light-border,,missing,#f1c3c3,equal
+maria-linda,appointment/no-show/default,VariableID:3464:64,#d64f4f,appointment/no-show/default → GRM Global/status/appointment/no-show/default → warmRed/500,--appointment-no-show-default,,missing,#d64f4f,equal
+maria-linda,appointment/no-show/foreground,VariableID:3464:65,#a64243,appointment/no-show/foreground → GRM Global/status/appointment/no-show/foreground → warmRed/700,--appointment-no-show-foreground,,missing,#a64243,equal
+maria-linda,appointment/cancelled/light,VariableID:3464:66,#fdf4f0,appointment/cancelled/light → GRM Global/status/appointment/cancelled/light → softCoral/50,--appointment-cancelled-light,,missing,#fdf4f0,equal
+maria-linda,appointment/cancelled/light-border,VariableID:3464:67,#fae2d7,appointment/cancelled/light-border → GRM Global/status/appointment/cancelled/light-border → softCoral/200,--appointment-cancelled-light-border,,missing,#fae2d7,equal
+maria-linda,appointment/cancelled/default,VariableID:3464:68,#f0a988,appointment/cancelled/default → GRM Global/status/appointment/cancelled/default → softCoral/500,--appointment-cancelled-default,,missing,#f0a988,equal
+maria-linda,appointment/cancelled/foreground,VariableID:3464:69,#b9846d,appointment/cancelled/foreground → GRM Global/status/appointment/cancelled/foreground → softCoral/700,--appointment-cancelled-foreground,,missing,#b9846d,equal
+maria-linda,appointment/rescheduled/light,VariableID:3464:70,#f2eef9,appointment/rescheduled/light → GRM Global/status/appointment/rescheduled/light → lavenderPurple/50,--appointment-rescheduled-light,,missing,#f2eef9,equal
+maria-linda,appointment/rescheduled/light-border,VariableID:3464:71,#ddd3f0,appointment/rescheduled/light-border → GRM Global/status/appointment/rescheduled/light-border → lavenderPurple/200,--appointment-rescheduled-light-border,,missing,#ddd3f0,equal
+maria-linda,appointment/rescheduled/default,VariableID:3464:72,#9b7fd4,appointment/rescheduled/default → GRM Global/status/appointment/rescheduled/default → lavenderPurple/500,--appointment-rescheduled-default,,missing,#9b7fd4,equal
+maria-linda,appointment/rescheduled/foreground,VariableID:3464:73,#7a65a6,appointment/rescheduled/foreground → GRM Global/status/appointment/rescheduled/foreground → lavenderPurple/700,--appointment-rescheduled-foreground,,missing,#7a65a6,equal
+maria-linda,warning-hover,VariableID:3492:56313,#c18700,warning-hover → Maria Linda/status/warning/600,--warning-hover,#c18700,equal,#c18700,equal
+maria-linda,warning-active,VariableID:3492:56314,#9c6c01,warning-active → Maria Linda/status/warning/700,--warning-active,#9c6c01,equal,#9c6c01,equal
+maria-linda,error-hover,VariableID:3492:56315,#c82b41,error-hover → Maria Linda/status/error/600,--error-hover,#c82b41,equal,#c82b41,equal
+maria-linda,error-active,VariableID:3492:56316,#aa1330,error-active → Maria Linda/status/error/700,--error-active,#aa1330,equal,#aa1330,equal
+maria-linda,destructive-hover,VariableID:3492:56317,#b40242,destructive-hover → Maria Linda/status/destructive/600,--destructive-hover,#b40242,equal,#b40242,equal
+maria-linda,destructive-active,VariableID:3492:56318,#950a37,destructive-active → Maria Linda/status/destructive/700,--destructive-active,#950a37,equal,#950a37,equal
+maria-linda,info-hover,VariableID:3492:56319,#236abd,info-hover → Maria Linda/status/info/600,--info-hover,#236abd,equal,#236abd,equal
+maria-linda,info-active,VariableID:3492:56320,#1156a2,info-active → Maria Linda/status/info/700,--info-active,#1156a2,equal,#1156a2,equal
+maria-linda,primary-hover,VariableID:164:184,#63b1a5,primary-hover → Maria Linda/primary/hover → Maria Linda/primary/600,--primary-hover,#63b1a5,equal,#63b1a5,equal
+maria-linda,secondary-hover,VariableID:164:185,#a8c9c3,secondary-hover → Maria Linda/secondary/hover → Maria Linda/secondary/600,--secondary-hover,#a8c9c3,equal,#a8c9c3,equal
+maria-linda,primary-active,VariableID:164:365,#63b1a5,primary-active → Maria Linda/primary/hover → Maria Linda/primary/600,--primary-active,#63b1a5,equal,#63b1a5,equal
+maria-linda,secondary-active,VariableID:168:367,#a8c9c3,secondary-active → Maria Linda/secondary/hover → Maria Linda/secondary/600,--secondary-active,#a8c9c3,equal,#a8c9c3,equal
+maria-linda,background-hover,VariableID:168:368,#f2f4f5,background-hover → Maria Linda/neutral/100,--background-hover,#f0f1f1,different,#f0f1f1,different
+maria-linda,background-active,VariableID:168:369,#f2f4f5,background-active → Maria Linda/neutral/100,--background-active,#f0f1f1,different,#f0f1f1,different
+maria-linda,success/foreground,VariableID:203:202,#ffffff,success/foreground → color/neutral/0,--success-foreground,#ffffff,equal,#ffffff,equal
+maria-linda,warning/foreground,VariableID:203:208,#ffffff,warning/foreground → color/neutral/0,--warning-foreground,#ffffff,equal,#ffffff,equal
+maria-linda,error/foreground,VariableID:203:209,#ffffff,error/foreground → color/neutral/0,--error-foreground,#ffffff,equal,#ffffff,equal
+maria-linda,destructive/foreground,VariableID:203:210,#ffffff,destructive/foreground → color/neutral/0,--destructive-foreground,#ffffff,equal,#ffffff,equal
+maria-linda,info/foreground,VariableID:203:211,#ffffff,info/foreground → color/neutral/0,--info-foreground,#ffffff,equal,#ffffff,equal
+maria-linda,success/light-border,VariableID:203:212,#a7e2be,success/light-border → Maria Linda/status/success/200,--success-light-border,#a7e2be,equal,#a7e2be,equal
+maria-linda,warning/light-border,VariableID:203:213,#fcd79d,warning/light-border → Maria Linda/status/warning/200,--warning-light-border,#fcd79d,equal,#fcd79d,equal
+maria-linda,error/light-foreground,VariableID:203:214,#aa1330,error/light-foreground → Maria Linda/status/error/700,--error-light-foreground,#aa1330,equal,#aa1330,equal
+maria-linda,destructive/light-border,VariableID:203:215,#fea8b2,destructive/light-border → Maria Linda/status/destructive/200,--destructive-light-border,#fea8b2,equal,#fea8b2,equal
+maria-linda,info/light-foreground,VariableID:203:216,#1156a2,info/light-foreground → Maria Linda/status/info/700,--info-light-foreground,#1156a2,equal,#1156a2,equal
+maria-linda,success,VariableID:203:217,#32ac70,success → Maria Linda/status/success/500,--success,#32ac70,equal,#32ac70,equal
+maria-linda,warning,VariableID:203:218,#e2a11d,warning → Maria Linda/status/warning/500,--warning,#e2a11d,equal,#e2a11d,equal
+maria-linda,error,VariableID:203:219,#de4655,error → Maria Linda/status/error/500,--error,#de4655,equal,#de4655,equal
+maria-linda,destructive,VariableID:203:220,#ca1f50,destructive → Maria Linda/status/destructive/500,--destructive,#ca1f50,equal,#ca1f50,equal
+maria-linda,info,VariableID:203:221,#397dd0,info → Maria Linda/status/info/500,--info,#397dd0,equal,#397dd0,equal
+maria-linda,success/light,VariableID:208:2,#eaf8ef,success/light → Maria Linda/status/success/50,--success-light,#eaf8ef,equal,#eaf8ef,equal
+maria-linda,warning/light,VariableID:208:3,#fdf4e6,warning/light → Maria Linda/status/warning/50,--warning-light,#fdf4e6,equal,#fdf4e6,equal
+maria-linda,error/light,VariableID:208:4,#feeeee,error/light → Maria Linda/status/error/50,--error-light,#feeeee,equal,#feeeee,equal
+maria-linda,destructive/light,VariableID:208:5,#feecee,destructive/light → Maria Linda/status/destructive/50,--destructive-light,#feecee,equal,#feecee,equal
+maria-linda,info/light,VariableID:208:6,#eaf3ff,info/light → Maria Linda/status/info/50,--info-light,#eaf3ff,equal,#eaf3ff,equal
+maria-linda,success/light-foreground,VariableID:208:7,#12784a,success/light-foreground → Maria Linda/status/success/700,--success-light-foreground,#12784a,equal,#12784a,equal
+maria-linda,warning/light-foreground,VariableID:208:8,#755108,warning/light-foreground → Maria Linda/status/warning/800,--warning-light-foreground,#9c6c01,different,#9c6c01,different
+maria-linda,error/light-border,VariableID:208:33,#ffb6b6,error/light-border → Maria Linda/status/error/200,--error-light-border,#ffb6b6,equal,#ffb6b6,equal
+maria-linda,destructive/light-foreground,VariableID:210:2,#950a37,destructive/light-foreground → Maria Linda/status/destructive/700,--destructive-light-foreground,#950a37,equal,#950a37,equal
+maria-linda,info/light-border,VariableID:210:3,#a5ccfd,info/light-border → Maria Linda/status/info/200,--info-light-border,#a5ccfd,equal,#a5ccfd,equal
+maria-linda,success-hover,VariableID:230:1268,#14945c,success-hover → Maria Linda/status/success/600,--success-hover,#14945c,equal,#14945c,equal
+maria-linda,success-active,VariableID:230:1269,#12784a,success-active → Maria Linda/status/success/700,--success-active,#12784a,equal,#12784a,equal
+maria-linda,success/light-hover,VariableID:230:1270,#ceeed9,success/light-hover → Maria Linda/status/success/100,--success-light-hover,#ceeed9,equal,#ceeed9,equal
+maria-linda,success/light-active,VariableID:230:1271,#a7e2be,success/light-active → Maria Linda/status/success/200,--success-light-active,#a7e2be,equal,#a7e2be,equal
+maria-linda,warning/light-hover,VariableID:230:1272,#fde8c7,warning/light-hover → Maria Linda/status/warning/100,--warning-light-hover,#fde8c7,equal,#fde8c7,equal
+maria-linda,warning/light-active,VariableID:230:1273,#fcd79d,warning/light-active → Maria Linda/status/warning/200,--warning-light-active,#fcd79d,equal,#fcd79d,equal
+maria-linda,error/light-hover,VariableID:230:1274,#fed7d6,error/light-hover → Maria Linda/status/error/100,--error-light-hover,,missing,#fed7d6,equal
+maria-linda,error/light-active,VariableID:230:1275,#ffb6b6,error/light-active → Maria Linda/status/error/200,--error-light-active,,missing,#ffb6b6,equal
+maria-linda,destructive/light-hover,VariableID:230:1276,#fed0d4,destructive/light-hover → Maria Linda/status/destructive/100,--destructive-light-hover,#fed0d4,equal,#fed0d4,equal
+maria-linda,destructive/light-active,VariableID:230:1277,#fea8b2,destructive/light-active → Maria Linda/status/destructive/200,--destructive-light-active,#fea8b2,equal,#fea8b2,equal
+maria-linda,info/light-hover,VariableID:230:1278,#cce2ff,info/light-hover → Maria Linda/status/info/100,--info-light-hover,,missing,#cce2ff,equal
+maria-linda,info/light-active,VariableID:230:1279,#a5ccfd,info/light-active → Maria Linda/status/info/200,--info-light-active,,missing,#a5ccfd,equal
+piel-sana,card,VariableID:51:19,#ffffff,card → color/neutral/0,--card,#ffffff,equal,#ffffff,equal
+piel-sana,popover,VariableID:51:20,#fbfaf8,popover → Piel Sana/neutral/50,--popover,#fbf8f1,different,#fbf8f1,different
+piel-sana,border,VariableID:51:21,#d0cac1,border → Piel Sana/neutral/300,--border,#d0cac1,equal,#d0cac1,equal
+piel-sana,input,VariableID:51:22,#d0cac1,input → Piel Sana/neutral/300,--input,#d0cac1,equal,#d0cac1,equal
+piel-sana,ring,VariableID:51:23,#ff9248,ring → Piel Sana/primary/500,--ring,#ff9248,equal,#ff9248,equal
+piel-sana,sidebar,VariableID:51:24,#ffffff,sidebar → color/neutral/0,--sidebar,#ffffff,equal,#ffffff,equal
+piel-sana,popover/foreground,VariableID:51:25,#2a2926,popover/foreground → Piel Sana/neutral/900,--popover-foreground,#333333,different,#333333,different
+piel-sana,secondary/foreground,VariableID:51:26,#35917f,secondary/foreground → Piel Sana/secondary/700,--secondary-foreground,#35917f,equal,#35917f,equal
+piel-sana,primary/foreground,VariableID:51:172,#ffffff,primary/foreground → color/neutral/0,--primary-foreground,#ffffff,equal,#ffffff,equal
+piel-sana,muted/foreground,VariableID:71:2,#67635c,muted/foreground → Piel Sana/neutral/600,--muted-foreground,#a9a49c,different,#a9a49c,different
+piel-sana,accent/foreground,VariableID:71:3,#3d3a36,accent/foreground → Piel Sana/neutral/800,--accent-foreground,#66635e,different,#66635e,different
+piel-sana,chart/1,VariableID:71:4,#ff9248,chart/1 → Piel Sana/primary/500,--chart-1,,missing,#ff9248,equal
+piel-sana,card/foreground,VariableID:71:5,#3d3a36,card/foreground → Piel Sana/neutral/800,--card-foreground,#66635e,different,#66635e,different
+piel-sana,sidebar/foreground,VariableID:71:6,#2a2926,sidebar/foreground → Piel Sana/neutral/900,--sidebar-foreground,#333333,different,#333333,different
+piel-sana,chart/2,VariableID:71:7,#5eccb7,chart/2 → Piel Sana/secondary/500,--chart-2,,missing,#5eccb7,equal
+piel-sana,chart/3,VariableID:71:8,#beac87,chart/3 → Piel Sana/accent/500,--chart-3,,missing,#ddcaa4,different
+piel-sana,chart/4,VariableID:71:9,#71b92d,chart/4 → success → Piel Sana/status/success/500,--chart-4,,missing,#71b92d,equal
+piel-sana,chart/5,VariableID:71:10,#e7a70b,chart/5 → warning → Piel Sana/status/warning/500,--chart-5,,missing,#e7a70b,equal
+piel-sana,sidebar/primary/foreground,VariableID:71:12,#ffffff,sidebar/primary/foreground → color/neutral/0,--sidebar-primary-foreground,#ffffff,equal,#ffffff,equal
+piel-sana,sidebar/accent/foreground,VariableID:71:13,#2a2926,sidebar/accent/foreground → Piel Sana/neutral/900,--sidebar-accent-foreground,#333333,different,#333333,different
+piel-sana,sidebar/border,VariableID:71:14,#d0cac1,sidebar/border → Piel Sana/neutral/300,--sidebar-border,#d0cac1,equal,#d0cac1,equal
+piel-sana,sidebar/ring,VariableID:71:15,#7bc6bb,sidebar/ring → Maria Linda/primary/500,--sidebar-ring,#ff9248,different,#7bc6bb,equal
+piel-sana,sidebar/primary,VariableID:74:3,#ff9248,sidebar/primary → Piel Sana/primary/500,--sidebar-primary,#ff9248,equal,#ff9248,equal
+piel-sana,sidebar/accent,VariableID:74:4,#fff8f3,sidebar/accent → Piel Sana/primary/50,--sidebar-accent,#fff8f3,equal,#fff8f3,equal
+piel-sana,primary/10%,VariableID:248:129,#ff9248 / 10%,primary/10% → Piel Sana/primary/500-10%,--primary-10,,missing,oklch(0.7638 0.1576 52.1 / 10%),equal
+piel-sana,primary/default-foreground,VariableID:248:131,#94471a,primary/default-foreground → Piel Sana/primary/800,--primary-default-foreground,#ff9248,different,#ff9248,different
+piel-sana,primary/15%,VariableID:248:511,#ff9248 / 15%,primary/15% → Piel Sana/primary/500-15%,--primary-15,,missing,oklch(0.7638 0.1576 52.1 / 15%),equal
+piel-sana,secondary/40%,VariableID:249:143,#5eccb7 / 40%,secondary/40% → Piel Sana/secondary/500-40%,--secondary-40,,missing,oklch(0.7749 0.106 179.01 / 40%),equal
+piel-sana,secondary/default-border,VariableID:294:472,#5eccb7,secondary/default-border → Piel Sana/secondary/500,--secondary-default-border,#5eccb7,equal,#5eccb7,equal
+piel-sana,secondary/10%,VariableID:294:495,#5eccb7 / 10%,secondary/10% → Piel Sana/secondary/500-10%,--secondary-10,,missing,oklch(0.7749 0.106 179.01 / 10%),equal
+piel-sana,primary/default-border,VariableID:294:496,#ff9248,primary/default-border → primary → Piel Sana/primary/500,--primary-default-border,#ff9248,equal,#ff9248,equal
+piel-sana,success/default-border,VariableID:332:2317,#71b92d,success/default-border → Piel Sana/status/success/500,--success-default-border,#71b92d,equal,#71b92d,equal
+piel-sana,warning/default-border,VariableID:332:2318,#e7a70b,warning/default-border → Piel Sana/status/warning/500,--warning-default-border,#e7a70b,equal,#e7a70b,equal
+piel-sana,error/default-border,VariableID:332:2323,#ed5032,error/default-border → Piel Sana/status/error/500,--error-default-border,#ed5032,equal,#ed5032,equal
+piel-sana,error/default-foreground,VariableID:417:1110,#ffffff,error/default-foreground → color/neutral/0,--error-default-foreground,#ffffff,equal,#ffffff,equal
+piel-sana,error/20%,VariableID:424:1864,#ed5032 / 20%,error/20% → Piel Sana/status/error/500-20%,--error-20,,missing,oklch(0.6437 0.1983 32.89 / 20%),equal
+piel-sana,ring/50%,VariableID:424:1865,#ff9248 / 50%,ring/50% → Piel Sana/primary/500-50%,--ring-50,,missing,oklch(0.7638 0.1576 52.1 / 50%),equal
+piel-sana,primary/5%,VariableID:452:1261,#ff9248 / 5%,primary/5% → Piel Sana/primary/500-5%,--primary-5,,missing,oklch(0.7638 0.1576 52.1 / 5%),equal
+piel-sana,input/50%,VariableID:479:83,#d0cac1 / 50%,input/50% → Piel Sana/neutral/400-50%,--input-50,,missing,oklch(0.8413 0.014 78.25 / 50%),equal
+piel-sana,accent/50%,VariableID:629:40610,#beac87 / 50%,accent/50% → Piel Sana/accent/500-50%,--accent-50,,missing,oklch(0.8452 0.0548 84.5 / 50%),different
+piel-sana,ring/15%,VariableID:902:6506,#ff9248 / 15%,ring/15% → Piel Sana/primary/500-15%,--ring-15,,missing,oklch(0.7638 0.1576 52.1 / 15%),equal
+piel-sana,muted/50%,VariableID:1194:649,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:44:188'}, 'opacity': 50}",muted/50%,--muted-50,,missing,oklch(0.92 0.0104 81.79 / 50%),different
+piel-sana,destructive/10%,VariableID:1361:2019,#d61d42 / 10%,destructive/10% → Piel Sana/status/destructive/500-10%,--destructive-10,,missing,oklch(0.5647 0.2128 18.44 / 10%),equal
+piel-sana,destructive/default-foreground,VariableID:1365:2020,#d61d42,destructive/default-foreground → Piel Sana/status/destructive/500,--destructive-default-foreground,#d61d42,equal,#d61d42,equal
+piel-sana,table/row-alternate,VariableID:1603:2,#fcfbfa,table/row-alternate → Piel Sana/surface/row-alternate,--table-row-alternate,,missing,#fcfbfa,equal
+piel-sana,foreground/60%,VariableID:1812:2961,#2a2926 / 60%,foreground/60% → Piel Sana/neutral/900-60%,--foreground-60,,missing,oklch(0.3211 0 89.88 / 60%),different
+piel-sana,muted/40%,VariableID:2127:13111,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:44:188'}, 'opacity': 40}",muted/40%,--muted-40,,missing,oklch(0.92 0.0104 81.79 / 40%),different
+piel-sana,primary/20%,VariableID:2457:29811,#ff9248 / 20%,primary/20% → Piel Sana/primary/500-20%,--primary-20,,missing,oklch(0.7638 0.1576 52.1 / 20%),equal
+piel-sana,destructive/30%,VariableID:2926:3907,#d61d42 / 30%,destructive/30% → Piel Sana/status/destructive/500-30%,--destructive-30,,missing,oklch(0.5647 0.2128 18.44 / 30%),equal
+piel-sana,muted/20%,VariableID:3627:49901,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:44:188'}, 'opacity': 20}",muted/20%,--muted-20,,missing,,missing
+piel-sana,primary/light-border,VariableID:3627:52309,#ff9248,primary/light-border → primary → Piel Sana/primary/500,--primary-light-border,#ff9248,equal,#ff9248,equal
+piel-sana,background/10%,VariableID:3758:13875,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:44:183'}, 'opacity': 10}",background/10%,--background-10,,missing,oklch(0.9646 0.0057 84.57 / 20%),different
+piel-sana,card/1%,VariableID:3781:32016,#ffffff / 1%,card/1% → color/neutral/0-1%,--card-1,,missing,oklch(1 0 89.88 / 1%),equal
+piel-sana,table/header/background,VariableID:4989:98324,#fdf3ec,table/header/background,--table-header-background,,missing,,missing
+piel-sana,muted/30%,VariableID:5046:23981,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:44:188'}, 'opacity': 30}",muted/30%,--muted-30,,missing,,missing
+piel-sana,button/brand-gradient-1,VariableID:5082:64990,#ffffff,button/brand-gradient-1,--button-brand-gradient-1,,missing,,missing
+piel-sana,button/brand-gradient-2,VariableID:5082:64991,#ffffff,button/brand-gradient-2,--button-brand-gradient-2,,missing,,missing
+piel-sana,background/brand-gradient/light/1,VariableID:5088:23706,#fff4ec,background/brand-gradient/light/1,--background-brand-gradient-light-1,,missing,,missing
+piel-sana,background/brand-gradient/light/2,VariableID:5090:36219,"{'color': {'type': 'VARIABLE_ALIAS', 'id': 'VariableID:50:300'}, 'opacity': 0}",background/brand-gradient/light/2,--background-brand-gradient-light-2,,missing,,missing
+piel-sana,typography/sans,VariableID:132:811,kantumruy-pro,typography/sans → Piel Sana/typography/sans,--typography-sans,,missing,,missing
+piel-sana,typography/heading,VariableID:132:812,kantumruy-pro,typography/heading → Piel Sana/typography/heading,--typography-heading,,missing,,missing
+piel-sana,appointment/scheduled/light,VariableID:3464:38,#ececef,appointment/scheduled/light → GRM Global/status/appointment/scheduled/light → slateGray/50,--appointment-scheduled-light,,missing,#ececef,equal
+piel-sana,appointment/scheduled/light-border,VariableID:3464:39,#ccced6,appointment/scheduled/light-border → GRM Global/status/appointment/scheduled/light-border → slateGray/200,--appointment-scheduled-light-border,,missing,#ccced6,equal
+piel-sana,appointment/scheduled/default,VariableID:3464:40,#6a6f86,appointment/scheduled/default → GRM Global/status/appointment/scheduled/default → slateGray/500,--appointment-scheduled-default,,missing,#6a6f86,equal
+piel-sana,appointment/scheduled/foreground,VariableID:3464:41,#56596c,appointment/scheduled/foreground → GRM Global/status/appointment/scheduled/foreground → slateGray/700,--appointment-scheduled-foreground,,missing,#56596c,equal
+piel-sana,appointment/confirmed/light,VariableID:3464:42,#e6eef8,appointment/confirmed/light → GRM Global/status/appointment/confirmed/light → clearBlue/50,--appointment-confirmed-light,,missing,#e6eef8,equal
+piel-sana,appointment/confirmed/light-border,VariableID:3464:43,#bed1ed,appointment/confirmed/light-border → GRM Global/status/appointment/confirmed/light-border → clearBlue/200,--appointment-confirmed-light-border,,missing,#bed1ed,equal
+piel-sana,typography/mono,VariableID:132:813,jetbrains-mono,typography/mono → Piel Sana/typography/mono,--typography-mono,,missing,,missing
+piel-sana,destructive/20%,VariableID:3537:30628,#d61d42 / 20%,destructive/20% → Piel Sana/status/destructive/500-20%,--destructive-20,,missing,oklch(0.5647 0.2128 18.44 / 20%),equal
+piel-sana,background,VariableID:44:183,#fbfaf8,background → Piel Sana/neutral/50,--background,#f5f3ef,different,#f5f3ef,different
+piel-sana,foreground,VariableID:44:184,#2a2926,foreground → Piel Sana/neutral/900,--foreground,#333333,different,#333333,different
+piel-sana,primary,VariableID:44:185,#ff9248,primary → Piel Sana/primary/500,--primary,#ff9248,equal,#ff9248,equal
+piel-sana,secondary,VariableID:44:186,#e3f8f4,secondary → Piel Sana/secondary/100,--secondary,#e3f8f4,equal,#e3f8f4,equal
+piel-sana,accent,VariableID:44:187,#f1e3c5,accent → Piel Sana/accent/200,--accent,#ddcaa4,different,#ddcaa4,different
+piel-sana,muted,VariableID:44:188,#f6f3ef,muted → Piel Sana/neutral/100,--muted,#e8e4dd,different,#e8e4dd,different
+piel-sana,appointment/confirmed/default,VariableID:3464:44,#3f79c9,appointment/confirmed/default → GRM Global/status/appointment/confirmed/default → clearBlue/500,--appointment-confirmed-default,,missing,#3f79c9,equal
+piel-sana,appointment/confirmed/foreground,VariableID:3464:45,#36619e,appointment/confirmed/foreground → GRM Global/status/appointment/confirmed/foreground → clearBlue/700,--appointment-confirmed-foreground,,missing,#36619e,equal
+piel-sana,appointment/reception/light,VariableID:3464:46,#fcf6de,appointment/reception/light → GRM Global/status/appointment/reception/light → goldenYellow/50,--appointment-reception-light,,missing,#fcf6de,equal
+piel-sana,appointment/reception/light-border,VariableID:3464:47,#f7e7a8,appointment/reception/light-border → GRM Global/status/appointment/reception/light-border → goldenYellow/200,--appointment-reception-light-border,,missing,#f7e7a8,equal
+piel-sana,appointment/reception/default,VariableID:3464:48,#e6b800,appointment/reception/default → GRM Global/status/appointment/reception/default → goldenYellow/500,--appointment-reception-default,,missing,#e6b800,equal
+piel-sana,appointment/reception/foreground,VariableID:3464:49,#b18f09,appointment/reception/foreground → GRM Global/status/appointment/reception/foreground → goldenYellow/700,--appointment-reception-foreground,,missing,#b18f09,equal
+piel-sana,appointment/vitals/light,VariableID:3464:50,#fbeaf0,appointment/vitals/light → GRM Global/status/appointment/vitals/light → berryPink/50,--appointment-vitals-light,,missing,#fbeaf0,equal
+piel-sana,appointment/vitals/light-border,VariableID:3464:51,#f4c7d7,appointment/vitals/light-border → GRM Global/status/appointment/vitals/light-border → berryPink/200,--appointment-vitals-light-border,,missing,#f4c7d7,equal
+piel-sana,appointment/vitals/default,VariableID:3464:52,#e05a8a,appointment/vitals/default → GRM Global/status/appointment/vitals/default → berryPink/500,--appointment-vitals-default,,missing,#e05a8a,equal
+piel-sana,appointment/vitals/foreground,VariableID:3464:53,#ad4a6f,appointment/vitals/foreground → GRM Global/status/appointment/vitals/foreground → berryPink/700,--appointment-vitals-foreground,,missing,#ad4a6f,equal
+piel-sana,appointment/consultation/light,VariableID:3464:54,#fbf1e3,appointment/consultation/light → GRM Global/status/appointment/consultation/light → amberOrange/50,--appointment-consultation-light,,missing,#fbf1e3,equal
+piel-sana,appointment/consultation/light-border,VariableID:3464:55,#f4dab7,appointment/consultation/light-border → GRM Global/status/appointment/consultation/light-border → amberOrange/200,--appointment-consultation-light-border,,missing,#f4dab7,equal
+piel-sana,appointment/consultation/default,VariableID:3464:56,#e0912a,appointment/consultation/default → GRM Global/status/appointment/consultation/default → amberOrange/500,--appointment-consultation-default,,missing,#e0912a,equal
+piel-sana,appointment/consultation/foreground,VariableID:3464:57,#ad7328,appointment/consultation/foreground → GRM Global/status/appointment/consultation/foreground → amberOrange/700,--appointment-consultation-foreground,,missing,#ad7328,equal
+piel-sana,appointment/completed/light,VariableID:3464:58,#e4f2ec,appointment/completed/light → GRM Global/status/appointment/completed/light → natureGreen/50,--appointment-completed-light,,missing,#e4f2ec,equal
+piel-sana,appointment/completed/light-border,VariableID:3464:59,#b8decc,appointment/completed/light-border → GRM Global/status/appointment/completed/light-border → natureGreen/200,--appointment-completed-light-border,,missing,#b8decc,equal
+piel-sana,appointment/completed/default,VariableID:3464:60,#2f9e6a,appointment/completed/default → GRM Global/status/appointment/completed/default → natureGreen/500,--appointment-completed-default,,missing,#2f9e6a,equal
+piel-sana,appointment/completed/foreground,VariableID:3464:61,#2a7c57,appointment/completed/foreground → GRM Global/status/appointment/completed/foreground → natureGreen/700,--appointment-completed-foreground,,missing,#2a7c57,equal
+piel-sana,appointment/no-show/light,VariableID:3464:62,#fae8e8,appointment/no-show/light → GRM Global/status/appointment/no-show/light → warmRed/50,--appointment-no-show-light,,missing,#fae8e8,equal
+piel-sana,appointment/no-show/light-border,VariableID:3464:63,#f1c3c3,appointment/no-show/light-border → GRM Global/status/appointment/no-show/light-border → warmRed/200,--appointment-no-show-light-border,,missing,#f1c3c3,equal
+piel-sana,appointment/no-show/default,VariableID:3464:64,#d64f4f,appointment/no-show/default → GRM Global/status/appointment/no-show/default → warmRed/500,--appointment-no-show-default,,missing,#d64f4f,equal
+piel-sana,appointment/no-show/foreground,VariableID:3464:65,#a64243,appointment/no-show/foreground → GRM Global/status/appointment/no-show/foreground → warmRed/700,--appointment-no-show-foreground,,missing,#a64243,equal
+piel-sana,appointment/cancelled/light,VariableID:3464:66,#fdf4f0,appointment/cancelled/light → GRM Global/status/appointment/cancelled/light → softCoral/50,--appointment-cancelled-light,,missing,#fdf4f0,equal
+piel-sana,appointment/cancelled/light-border,VariableID:3464:67,#fae2d7,appointment/cancelled/light-border → GRM Global/status/appointment/cancelled/light-border → softCoral/200,--appointment-cancelled-light-border,,missing,#fae2d7,equal
+piel-sana,appointment/cancelled/default,VariableID:3464:68,#f0a988,appointment/cancelled/default → GRM Global/status/appointment/cancelled/default → softCoral/500,--appointment-cancelled-default,,missing,#f0a988,equal
+piel-sana,appointment/cancelled/foreground,VariableID:3464:69,#b9846d,appointment/cancelled/foreground → GRM Global/status/appointment/cancelled/foreground → softCoral/700,--appointment-cancelled-foreground,,missing,#b9846d,equal
+piel-sana,appointment/rescheduled/light,VariableID:3464:70,#f2eef9,appointment/rescheduled/light → GRM Global/status/appointment/rescheduled/light → lavenderPurple/50,--appointment-rescheduled-light,,missing,#f2eef9,equal
+piel-sana,appointment/rescheduled/light-border,VariableID:3464:71,#ddd3f0,appointment/rescheduled/light-border → GRM Global/status/appointment/rescheduled/light-border → lavenderPurple/200,--appointment-rescheduled-light-border,,missing,#ddd3f0,equal
+piel-sana,appointment/rescheduled/default,VariableID:3464:72,#9b7fd4,appointment/rescheduled/default → GRM Global/status/appointment/rescheduled/default → lavenderPurple/500,--appointment-rescheduled-default,,missing,#9b7fd4,equal
+piel-sana,appointment/rescheduled/foreground,VariableID:3464:73,#7a65a6,appointment/rescheduled/foreground → GRM Global/status/appointment/rescheduled/foreground → lavenderPurple/700,--appointment-rescheduled-foreground,,missing,#7a65a6,equal
+piel-sana,warning-hover,VariableID:3492:56313,#c38d0e,warning-hover → Piel Sana/status/warning/600,--warning-hover,#d2a50b,different,#c38d0e,equal
+piel-sana,warning-active,VariableID:3492:56314,#9d7109,warning-active → Piel Sana/status/warning/700,--warning-active,#9d7109,equal,#9d7109,equal
+piel-sana,error-hover,VariableID:3492:56315,#d53412,error-hover → Piel Sana/status/error/600,--error-hover,#d53412,equal,#d53412,equal
+piel-sana,error-active,VariableID:3492:56316,#b12403,error-active → Piel Sana/status/error/700,--error-active,#b12403,equal,#b12403,equal
+piel-sana,destructive-hover,VariableID:3492:56317,#bb1137,destructive-hover → Piel Sana/status/destructive/600,--destructive-hover,#bb1137,equal,#bb1137,equal
+piel-sana,destructive-active,VariableID:3492:56318,#9d042b,destructive-active → Piel Sana/status/destructive/700,--destructive-active,#9d042b,equal,#9d042b,equal
+piel-sana,info-hover,VariableID:3492:56319,#0b6cbc,info-hover → Piel Sana/status/info/600,--info-hover,#0b6cbc,equal,#0b6cbc,equal
+piel-sana,info-active,VariableID:3492:56320,#00599d,info-active → Piel Sana/status/info/700,--info-active,#00599d,equal,#00599d,equal
+piel-sana,primary-hover,VariableID:164:184,#e6782e,primary-hover → Piel Sana/primary/hover → Piel Sana/primary/600,--primary-hover,#e6782e,equal,#e6782e,equal
+piel-sana,secondary-hover,VariableID:164:185,#e3f8f4,secondary-hover → Piel Sana/secondary/100,--secondary-hover,#e3f8f4,equal,#e3f8f4,equal
+piel-sana,primary-active,VariableID:164:365,#e6782e,primary-active → Piel Sana/primary/hover → Piel Sana/primary/600,--primary-active,#e6782e,equal,#e6782e,equal
+piel-sana,secondary-active,VariableID:168:367,#e3f8f4,secondary-active → Piel Sana/secondary/100,--secondary-active,#e3f8f4,equal,#e3f8f4,equal
+piel-sana,background-hover,VariableID:168:368,#f6f3ef,background-hover → Piel Sana/neutral/100,--background-hover,#f5f3ef,different,#f5f3ef,different
+piel-sana,background-active,VariableID:168:369,#f6f3ef,background-active → Piel Sana/neutral/100,--background-active,#f5f3ef,different,#f5f3ef,different
+piel-sana,success/foreground,VariableID:203:202,#ffffff,success/foreground → color/neutral/0,--success-foreground,#ffffff,equal,#ffffff,equal
+piel-sana,warning/foreground,VariableID:203:208,#ffffff,warning/foreground → color/neutral/0,--warning-foreground,#ffffff,equal,#ffffff,equal
+piel-sana,error/foreground,VariableID:203:209,#ffffff,error/foreground → color/neutral/0,--error-foreground,#ffffff,equal,#ffffff,equal
+piel-sana,destructive/foreground,VariableID:203:210,#ffffff,destructive/foreground → color/neutral/0,--destructive-foreground,#ffffff,equal,#ffffff,equal
+piel-sana,info/foreground,VariableID:203:211,#ffffff,info/foreground → color/neutral/0,--info-foreground,#ffffff,equal,#ffffff,equal
+piel-sana,success/light-border,VariableID:203:212,#bde7a1,success/light-border → Piel Sana/status/success/200,--success-light-border,#bde7a1,equal,#bde7a1,equal
+piel-sana,warning/light-border,VariableID:203:213,#fed99c,warning/light-border → Piel Sana/status/warning/200,--warning-light-border,#fed99c,equal,#fed99c,equal
+piel-sana,error/light-foreground,VariableID:203:214,#b12403,error/light-foreground → Piel Sana/status/error/700,--error-light-foreground,#b12403,equal,#b12403,equal
+piel-sana,destructive/light-border,VariableID:203:215,#ffacae,destructive/light-border → Piel Sana/status/destructive/200,--destructive-light-border,#ffacae,equal,#ffacae,equal
+piel-sana,info/light-foreground,VariableID:203:216,#00599d,info/light-foreground → Piel Sana/status/info/700,--info-light-foreground,#00599d,equal,#00599d,equal
+piel-sana,success,VariableID:203:217,#71b92d,success → Piel Sana/status/success/500,--success,#71b92d,equal,#71b92d,equal
+piel-sana,warning,VariableID:203:218,#e7a70b,warning → Piel Sana/status/warning/500,--warning,#e7a70b,equal,#e7a70b,equal
+piel-sana,error,VariableID:203:219,#ed5032,error → Piel Sana/status/error/500,--error,#ed5032,equal,#ed5032,equal
+piel-sana,destructive,VariableID:203:220,#d61d42,destructive → Piel Sana/status/destructive/500,--destructive,#d61d42,equal,#d61d42,equal
+piel-sana,info,VariableID:203:221,#237fd3,info → Piel Sana/status/info/500,--info,#237fd3,equal,#237fd3,equal
+piel-sana,success/light,VariableID:208:2,#eef9e7,success/light → Piel Sana/status/success/50,--success-light,#eef9e7,equal,#eef9e7,equal
+piel-sana,warning/light,VariableID:208:3,#fef5e6,warning/light → Piel Sana/status/warning/50,--warning-light,#fef5e6,equal,#fef5e6,equal
+piel-sana,error/light,VariableID:208:4,#ffefec,error/light → Piel Sana/status/error/50,--error-light,#ffefec,equal,#ffefec,equal
+piel-sana,destructive/light,VariableID:208:5,#ffeded,destructive/light → Piel Sana/status/destructive/50,--destructive-light,#ffeded,equal,#ffeded,equal
+piel-sana,info/light,VariableID:208:6,#e9f3ff,info/light → Piel Sana/status/info/50,--info-light,#e9f3ff,equal,#e9f3ff,equal
+piel-sana,success/light-foreground,VariableID:208:7,#488007,success/light-foreground → Piel Sana/status/success/700,--success-light-foreground,#488007,equal,#488007,equal
+piel-sana,warning/light-foreground,VariableID:208:8,#775400,warning/light-foreground → Piel Sana/status/warning/800,--warning-light-foreground,#9d7109,different,#9d7109,different
+piel-sana,error/light-border,VariableID:208:33,#febeaf,error/light-border → Piel Sana/status/error/200,--error-light-border,#febeaf,equal,#febeaf,equal
+piel-sana,destructive/light-foreground,VariableID:210:2,#9d042b,destructive/light-foreground → Piel Sana/status/destructive/700,--destructive-light-foreground,#9d042b,equal,#9d042b,equal
+piel-sana,info/light-border,VariableID:210:3,#a1cdfc,info/light-border → Piel Sana/status/info/200,--info-light-border,#a1cdfc,equal,#a1cdfc,equal
+piel-sana,success-hover,VariableID:230:1268,#5a9f07,success-hover → Piel Sana/status/success/600,--success-hover,#5a9f07,equal,#5a9f07,equal
+piel-sana,success-active,VariableID:230:1269,#488007,success-active → Piel Sana/status/success/700,--success-active,#488007,equal,#488007,equal
+piel-sana,success/light-hover,VariableID:230:1270,#d9f1ca,success/light-hover → Piel Sana/status/success/100,--success-light-hover,#d9f1ca,equal,#d9f1ca,equal
+piel-sana,success/light-active,VariableID:230:1271,#bde7a1,success/light-active → Piel Sana/status/success/200,--success-light-active,#bde7a1,equal,#bde7a1,equal
+piel-sana,warning/light-hover,VariableID:230:1272,#fee9c6,warning/light-hover → Piel Sana/status/warning/100,--warning-light-hover,#fee9c6,equal,#fee9c6,equal
+piel-sana,warning/light-active,VariableID:230:1273,#fed99c,warning/light-active → Piel Sana/status/warning/200,--warning-light-active,#fed99c,equal,#fed99c,equal
+piel-sana,error/light-hover,VariableID:230:1274,#fedad2,error/light-hover → Piel Sana/status/error/100,--error-light-hover,,missing,#fedad2,equal
+piel-sana,error/light-active,VariableID:230:1275,#febeaf,error/light-active → Piel Sana/status/error/200,--error-light-active,,missing,#febeaf,equal
+piel-sana,destructive/light-hover,VariableID:230:1276,#fed2d2,destructive/light-hover → Piel Sana/status/destructive/100,--destructive-light-hover,#fed2d2,equal,#fed2d2,equal
+piel-sana,destructive/light-active,VariableID:230:1277,#ffacae,destructive/light-active → Piel Sana/status/destructive/200,--destructive-light-active,#ffacae,equal,#ffacae,equal
+piel-sana,info/light-hover,VariableID:230:1278,#cae3fe,info/light-hover → Piel Sana/status/info/100,--info-light-hover,,missing,#cae3fe,equal
+piel-sana,info/light-active,VariableID:230:1279,#a1cdfc,info/light-active → Piel Sana/status/info/200,--info-light-active,,missing,#a1cdfc,equal

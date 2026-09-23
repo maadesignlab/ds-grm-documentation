@@ -7,7 +7,7 @@ function Code({ children }: { children: string }) {
 }
 
 function Card({ title, value, children }: { title: string; value: string; children: React.ReactNode }) {
-  return <article className="overflow-hidden rounded-lg border border-border bg-card"><div className="sb-unstyled flex min-h-44 items-center justify-center overflow-x-auto bg-background p-3 [&_input]:text-sm [&_input]:leading-5">{children}</div><div className="flex min-h-14 items-center justify-between gap-3 border-t border-border px-4"><strong className="truncate text-card-foreground text-sm leading-5">{title}</strong><Code>{value}</Code></div></article>
+  return <article className="overflow-hidden rounded-lg border border-border bg-card"><div className="sb-unstyled flex min-h-44 items-center justify-center overflow-x-auto bg-background p-3">{children}</div><div className="flex min-h-14 items-center justify-between gap-3 border-t border-border px-4"><strong className="truncate text-card-foreground text-sm leading-5">{title}</strong><Code>{value}</Code></div></article>
 }
 
 const states: readonly [InputState, string][] = [["default", "Default"], ["focused", "Focused"], ["invalid", "Invalid"], ["disabled", "Disabled"]]
@@ -16,6 +16,10 @@ const content: readonly [InputContent, string][] = [["icon", "Icon"], ["text", "
 
 export function InputStates() {
   return <div className="not-prose grid gap-3 md:grid-cols-2">{states.map(([state, title]) => <Card key={state} title={title} value={state}><InputExample state={state} /></Card>)}</div>
+}
+
+export function InputSizes() {
+  return <div className="not-prose grid gap-3 md:grid-cols-2"><Card title="Normal" value="h-9"><InputExample visualSize="normal" /></Card><Card title="Large" value="h-11 px-4 text-base leading-6"><InputExample visualSize="large" /></Card></div>
 }
 
 export function InputTypes() {
@@ -33,13 +37,13 @@ const anatomy = [
   ["InputGroupAddon", "div[role=group]", "align", "inline-start | inline-end | block-start | block-end"],
 ] as const
 const geometry = [
-  ["Altura", "h-8", "32px", "Oficial shadcn/ui · radix-nova"],
+  ["Altura Normal / Large", "h-9 / h-11", "36px / 44px", "Figma InputBase; Large mediante className"],
   ["Radio", "rounded-lg", "var(--radius) · 10px", "Token global"],
-  ["Padding horizontal", "px-2.5", "10px", "Oficial shadcn/ui · radix-nova"],
+  ["Padding horizontal Normal / Large", "px-3 / px-4", "12px / 16px", "Figma InputBase"],
   ["Texto", "text-sm / leading-5", "14px / 20px", "body/md/sans/regular"],
 ] as const
 const colors = [
-  ["Fondo", "bg-transparent", "transparent", "Superficie heredada"],
+  ["Fondo", "bg-card", "--card", "Figma InputBase"],
   ["Borde", "border-input", "--input", "Token por marca"],
   ["Placeholder", "placeholder:text-muted-foreground", "--muted-foreground", "Token por marca"],
   ["Focus", "border-ring / ring-ring/50", "--ring", "Estado accesible"],

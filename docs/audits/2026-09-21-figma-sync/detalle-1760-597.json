@@ -1,0 +1,142 @@
+{
+  "id": "1760:597",
+  "name": "Breadcrumb",
+  "total": 10,
+  "nodes": 75,
+  "refs": {
+    "VariableID:71:2": {
+      "count": 16,
+      "example": "1763:1337"
+    },
+    "VariableID:99:17": {
+      "count": 12,
+      "example": "1763:1337"
+    },
+    "VariableID:132:811": {
+      "count": 12,
+      "example": "1763:1337"
+    },
+    "VariableID:50:641": {
+      "count": 12,
+      "example": "1763:1337"
+    },
+    "VariableID:44:184": {
+      "count": 26,
+      "example": "1763:1341"
+    },
+    "VariableID:50:514": {
+      "count": 1,
+      "example": "I1766:13926;3363:860"
+    },
+    "VariableID:50:530": {
+      "count": 5,
+      "example": "I1766:13926;3363:860"
+    },
+    "VariableID:50:534": {
+      "count": 8,
+      "example": "I1766:13926;3363:860"
+    },
+    "VariableID:50:515": {
+      "count": 4,
+      "example": "I1923:18474;1638:5059"
+    },
+    "VariableID:186:174": {
+      "count": 3,
+      "example": "1763:1561"
+    }
+  },
+  "texts": {
+    "S:1d452614e679106aeb9f64166fd66fd5df9751c7,": {
+      "count": 12,
+      "example": "1763:1337"
+    }
+  },
+  "styles": {},
+  "sets": [
+    {
+      "id": "1763:1339",
+      "name": "_components/Breadcrumb/Breadcrumb Base",
+      "count": 5,
+      "props": {
+        "Breadcrumb Type": {
+          "type": "VARIANT",
+          "defaultValue": "text",
+          "variantOptions": [
+            "dropdown-button",
+            "text",
+            "dropdown-ellipsis",
+            "ellipsis-muted"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "onHover"
+          ]
+        }
+      },
+      "default": {
+        "id": "1763:1338",
+        "name": "Breadcrumb Type=text, Status=default",
+        "w": 81,
+        "h": 20,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "1763:1562",
+      "name": "Breadcrumb",
+      "count": 3,
+      "props": {
+        "Levels": {
+          "type": "VARIANT",
+          "defaultValue": "2",
+          "variantOptions": [
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      },
+      "default": {
+        "id": "1763:1561",
+        "name": "Levels=2",
+        "w": 180,
+        "h": 20,
+        "layout": "HORIZONTAL",
+        "gap": 6,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:186:174"
+          }
+        }
+      }
+    }
+  ],
+  "errors": []
+}

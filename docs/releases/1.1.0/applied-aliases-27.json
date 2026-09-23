@@ -1,0 +1,96 @@
+{
+  "mutatedVariableIds": [
+    "VariableID:203:202",
+    "VariableID:203:208",
+    "VariableID:203:209",
+    "VariableID:203:211",
+    "VariableID:208:7",
+    "VariableID:71:15",
+    "VariableID:5082:64990",
+    "VariableID:5082:64991",
+    "VariableID:5082:64990"
+  ],
+  "changes": [
+    {
+      "id": "VariableID:203:202",
+      "name": "success/foreground",
+      "mode": "132:2",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:810"
+      }
+    },
+    {
+      "id": "VariableID:203:208",
+      "name": "warning/foreground",
+      "mode": "132:2",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:810"
+      }
+    },
+    {
+      "id": "VariableID:203:209",
+      "name": "error/foreground",
+      "mode": "132:2",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:810"
+      }
+    },
+    {
+      "id": "VariableID:203:211",
+      "name": "info/foreground",
+      "mode": "132:2",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:50:289"
+      }
+    },
+    {
+      "id": "VariableID:208:7",
+      "name": "success/light-foreground",
+      "mode": "132:2",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3495:10"
+      }
+    },
+    {
+      "id": "VariableID:71:15",
+      "name": "sidebar/ring",
+      "mode": "132:2",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:774"
+      }
+    },
+    {
+      "id": "VariableID:5082:64990",
+      "name": "button/brand-gradient-1",
+      "mode": "1154:0",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1154:4034"
+      }
+    },
+    {
+      "id": "VariableID:5082:64991",
+      "name": "button/brand-gradient-2",
+      "mode": "1154:0",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1154:4019"
+      }
+    },
+    {
+      "id": "VariableID:5082:64990",
+      "name": "button/brand-gradient-1",
+      "mode": "44:8",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:44:44"
+      }
+    }
+  ]
+}

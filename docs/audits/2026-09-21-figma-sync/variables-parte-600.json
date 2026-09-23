@@ -1,0 +1,1058 @@
+[
+  [
+    "VariableID:3464:44",
+    "appointment/confirmed/default",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:8"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:8"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:8"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:8"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:45",
+    "appointment/confirmed/foreground",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:9"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:9"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:9"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:9"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:46",
+    "appointment/reception/light",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:10"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:10"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:10"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:10"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:47",
+    "appointment/reception/light-border",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:11"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:11"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:11"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:11"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:48",
+    "appointment/reception/default",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:12"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:12"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:12"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:12"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:49",
+    "appointment/reception/foreground",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:13"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:13"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:13"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:13"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:50",
+    "appointment/vitals/light",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:14"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:14"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:14"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:14"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:51",
+    "appointment/vitals/light-border",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:15"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:15"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:15"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:15"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:52",
+    "appointment/vitals/default",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:16"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:16"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:16"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:16"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:53",
+    "appointment/vitals/foreground",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:17"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:17"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:17"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:17"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:54",
+    "appointment/consultation/light",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:18"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:18"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:18"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:18"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:55",
+    "appointment/consultation/light-border",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:19"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:19"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:19"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:19"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:56",
+    "appointment/consultation/default",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:20"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:20"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:20"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:20"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:57",
+    "appointment/consultation/foreground",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:21"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:21"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:21"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:21"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:58",
+    "appointment/completed/light",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:22"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:22"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:22"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:22"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:59",
+    "appointment/completed/light-border",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:23"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:23"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:23"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:23"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:60",
+    "appointment/completed/default",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:24"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:24"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:24"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:24"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:61",
+    "appointment/completed/foreground",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:25"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:25"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:25"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:25"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:62",
+    "appointment/no-show/light",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:26"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:26"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:26"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:26"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:63",
+    "appointment/no-show/light-border",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:27"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:27"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:27"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:27"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:64",
+    "appointment/no-show/default",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:28"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:28"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:28"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:28"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:65",
+    "appointment/no-show/foreground",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:29"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:29"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:29"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:29"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:66",
+    "appointment/cancelled/light",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:30"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:30"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:30"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:30"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:67",
+    "appointment/cancelled/light-border",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:31"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:31"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:31"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:31"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:68",
+    "appointment/cancelled/default",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:32"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:32"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:32"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:32"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:69",
+    "appointment/cancelled/foreground",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:33"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:33"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:33"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:33"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:70",
+    "appointment/rescheduled/light",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:34"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:34"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:34"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:34"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:71",
+    "appointment/rescheduled/light-border",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:35"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:35"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:35"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:35"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:72",
+    "appointment/rescheduled/default",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:36"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:36"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:36"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:36"
+      }
+    }
+  ],
+  [
+    "VariableID:3464:73",
+    "appointment/rescheduled/foreground",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:37"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:37"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:37"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3464:37"
+      }
+    }
+  ],
+  [
+    "VariableID:3492:56313",
+    "warning-hover",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3453:19"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3449:37792"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3495:19"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3449:37850"
+      }
+    }
+  ],
+  [
+    "VariableID:3492:56314",
+    "warning-active",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3453:20"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3449:37793"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3495:20"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3449:37851"
+      }
+    }
+  ],
+  [
+    "VariableID:3492:56315",
+    "error-hover",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3453:30"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3449:37804"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3495:30"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3449:37862"
+      }
+    }
+  ],
+  [
+    "VariableID:3492:56316",
+    "error-active",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3453:31"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3449:37805"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3495:31"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3449:37863"
+      }
+    }
+  ],
+  [
+    "VariableID:3492:56317",
+    "destructive-hover",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3453:41"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3449:37817"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3495:41"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3449:37875"
+      }
+    }
+  ],
+  [
+    "VariableID:3492:56318",
+    "destructive-active",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3453:42"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3449:37818"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3495:42"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3449:37876"
+      }
+    }
+  ],
+  [
+    "VariableID:3492:56319",
+    "info-hover",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3453:52"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3449:37828"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3495:52"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3449:37886"
+      }
+    }
+  ],
+  [
+    "VariableID:3492:56320",
+    "info-active",
+    "VariableCollectionId:44:169",
+    "COLOR",
+    {
+      "44:8": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3453:53"
+      },
+      "132:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3449:37829"
+      },
+      "132:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3495:53"
+      },
+      "1154:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3449:37887"
+      }
+    }
+  ],
+  [
+    "VariableID:3492:56321",
+    "GRM Global/neutral/hover",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1154:4053"
+      }
+    }
+  ],
+  [
+    "VariableID:3492:56322",
+    "GRM Global/neutral/active",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1154:4054"
+      }
+    }
+  ],
+  [
+    "VariableID:3492:56323",
+    "Reina Madre/accent/active",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:44:87"
+      }
+    }
+  ],
+  [
+    "VariableID:3492:56324",
+    "Maria Linda/primary/active",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:821"
+      }
+    }
+  ],
+  [
+    "VariableID:3492:56325",
+    "Maria Linda/secondary/active",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:832"
+      }
+    }
+  ],
+  [
+    "VariableID:3492:56326",
+    "Maria Linda/accent/hover",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:842"
+      }
+    }
+  ],
+  [
+    "VariableID:3492:56327",
+    "Maria Linda/accent/active",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:843"
+      }
+    }
+  ],
+  [
+    "VariableID:3492:56328",
+    "Maria Linda/neutral/hover",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:853"
+      }
+    }
+  ],
+  [
+    "VariableID:3492:56329",
+    "Maria Linda/neutral/active",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:854"
+      }
+    }
+  ],
+  [
+    "VariableID:3492:56330",
+    "Piel Sana/primary/active",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:774"
+      }
+    }
+  ],
+  [
+    "VariableID:3492:56331",
+    "Piel Sana/secondary/hover",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:784"
+      }
+    }
+  ],
+  [
+    "VariableID:3492:56332",
+    "Piel Sana/secondary/active",
+    "VariableCollectionId:16:8",
+    "COLOR",
+    {
+      "16:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:785"
+      }
+    }
+  ]
+]

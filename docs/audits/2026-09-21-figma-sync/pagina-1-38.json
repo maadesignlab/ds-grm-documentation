@@ -1,0 +1,97 @@
+{
+  "id": "1:38",
+  "name": "Label",
+  "total": 8,
+  "sets": [
+    {
+      "id": "553:2907",
+      "name": "Label/LabelLegend",
+      "type": "COMPONENT_SET",
+      "count": 1,
+      "props": {
+        "Legend Text#553:3": {
+          "type": "TEXT",
+          "defaultValue": "Legend Text"
+        },
+        "Label": {
+          "type": "VARIANT",
+          "defaultValue": "legend",
+          "variantOptions": [
+            "legend"
+          ]
+        }
+      }
+    },
+    {
+      "id": "553:3027",
+      "name": "Label/Label",
+      "type": "COMPONENT_SET",
+      "count": 3,
+      "props": {
+        "Label Text#553:5": {
+          "type": "TEXT",
+          "defaultValue": "Label Text"
+        },
+        "Required#902:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "error",
+            "disabled"
+          ]
+        }
+      }
+    },
+    {
+      "id": "553:3038",
+      "name": "Label/LabelDescription",
+      "type": "COMPONENT_SET",
+      "count": 1,
+      "props": {
+        "Description Text#553:9": {
+          "type": "TEXT",
+          "defaultValue": "Description Text"
+        },
+        "Label": {
+          "type": "VARIANT",
+          "defaultValue": "description",
+          "variantOptions": [
+            "description"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "553:2906",
+      "553:2907",
+      "Label=legend"
+    ],
+    [
+      "553:3032",
+      "553:3027",
+      "Status=default"
+    ],
+    [
+      "553:3034",
+      "553:3027",
+      "Status=error"
+    ],
+    [
+      "553:3036",
+      "553:3027",
+      "Status=disabled"
+    ],
+    [
+      "553:3041",
+      "553:3038",
+      "Label=description"
+    ]
+  ]
+}

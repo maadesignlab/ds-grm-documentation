@@ -1,0 +1,169 @@
+{
+  "id": "1650:2013",
+  "name": "Hover Card",
+  "total": 19,
+  "sets": [
+    {
+      "id": "1650:2069",
+      "name": "Hover Card",
+      "type": "COMPONENT_SET",
+      "count": 16,
+      "props": {
+        "Tooltip Trigger#1136:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "313:2250",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "4ec56d5bceddd69a5410cdf1dcec7cb804d7ce75"
+            }
+          ]
+        },
+        "Trigger Text#1154:0": {
+          "type": "TEXT",
+          "defaultValue": "Descargar informe"
+        },
+        "Trigger Type": {
+          "type": "VARIANT",
+          "defaultValue": "content",
+          "variantOptions": [
+            "content",
+            "text"
+          ]
+        },
+        "Opened": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "true",
+            "false"
+          ]
+        },
+        "Tooltip Alignment": {
+          "type": "VARIANT",
+          "defaultValue": "top",
+          "variantOptions": [
+            "top",
+            "right",
+            "left",
+            "bottom"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1650:2121",
+      "name": "_components/HoverCard/HoverCard Base",
+      "type": "COMPONENT_SET",
+      "count": 1,
+      "props": {
+        "HoverCard Content#1696:11": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": false,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Property 1": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "1650:2070",
+      "1650:2069",
+      "Trigger Type=content, Opened=true, Tooltip Alignment=right"
+    ],
+    [
+      "1650:2074",
+      "1650:2069",
+      "Trigger Type=text, Opened=true, Tooltip Alignment=right"
+    ],
+    [
+      "1650:2078",
+      "1650:2069",
+      "Trigger Type=content, Opened=false, Tooltip Alignment=right"
+    ],
+    [
+      "1650:2080",
+      "1650:2069",
+      "Trigger Type=text, Opened=false, Tooltip Alignment=right"
+    ],
+    [
+      "1650:2082",
+      "1650:2069",
+      "Trigger Type=content, Opened=true, Tooltip Alignment=left"
+    ],
+    [
+      "1650:2086",
+      "1650:2069",
+      "Trigger Type=text, Opened=true, Tooltip Alignment=left"
+    ],
+    [
+      "1650:2090",
+      "1650:2069",
+      "Trigger Type=content, Opened=false, Tooltip Alignment=left"
+    ],
+    [
+      "1650:2092",
+      "1650:2069",
+      "Trigger Type=text, Opened=false, Tooltip Alignment=left"
+    ],
+    [
+      "1650:2094",
+      "1650:2069",
+      "Trigger Type=content, Opened=true, Tooltip Alignment=top"
+    ],
+    [
+      "1650:2098",
+      "1650:2069",
+      "Trigger Type=text, Opened=true, Tooltip Alignment=top"
+    ],
+    [
+      "1650:2102",
+      "1650:2069",
+      "Trigger Type=content, Opened=false, Tooltip Alignment=top"
+    ],
+    [
+      "1650:2104",
+      "1650:2069",
+      "Trigger Type=text, Opened=false, Tooltip Alignment=top"
+    ],
+    [
+      "1650:2106",
+      "1650:2069",
+      "Trigger Type=content, Opened=true, Tooltip Alignment=bottom"
+    ],
+    [
+      "1650:2110",
+      "1650:2069",
+      "Trigger Type=text, Opened=true, Tooltip Alignment=bottom"
+    ],
+    [
+      "1650:2114",
+      "1650:2069",
+      "Trigger Type=content, Opened=false, Tooltip Alignment=bottom"
+    ],
+    [
+      "1650:2116",
+      "1650:2069",
+      "Trigger Type=text, Opened=false, Tooltip Alignment=bottom"
+    ],
+    [
+      "1650:2122",
+      "1650:2121",
+      "Property 1=Default"
+    ]
+  ]
+}

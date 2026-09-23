@@ -144,7 +144,7 @@ function createColumns(pattern: DataTablePattern, rowActions: DataTableRowAction
     id: "actions",
     enableHiding: false,
     enableSorting: false,
-    header: "",
+    header: () => <span className="sr-only">Acciones</span>,
     cell: ({ row }) => <RowActions item={row.original} type={rowActions} />,
   }),
   ])

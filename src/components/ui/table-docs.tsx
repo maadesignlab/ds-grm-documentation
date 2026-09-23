@@ -42,10 +42,10 @@ export function TableCellContentOverview() {
 
 const rows = [
   ["Contenedor", "100%", "—", "—", "--card / --border", "overflow-x-auto"],
-  ["Header", "100%", "36px", "10px", "--muted / 40%", "sticky top-0"],
+  ["Header", "100%", "36px", "10px", "--table-header-background", "sticky top-0"],
   ["Header text", "—", "16px", "—", "--muted-foreground", "12px · 600 · uppercase"],
   ["Body cell", "Flexible", "49px mín.", "8px 10px", "--foreground", "14px / 20px"],
-  ["Striped rows", "100%", "Según fila", "—", "--muted / 5%", "stripedRows: odd | even"],
+  ["Striped rows", "100%", "Según fila", "—", "--table-row-alternate", "stripedRows: odd | even"],
   ["Text", "Flexible", "20–32px", "—", "--foreground", "Sans/Mono · regular/medium/link"],
   ["Numeric value", "140px", "20px", "8px 10px", "--brand-font-mono", "14/20px · alineación derecha"],
   ["Avatar", "Flexible", "28–42px", "—", "--foreground", "Supporting/Compact/Metadata/Custom"],

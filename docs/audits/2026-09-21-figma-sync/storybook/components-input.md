@@ -1,0 +1,77 @@
+# Input
+
+ID: components-input
+
+## Stories
+
+### Playground
+
+Story ID: components-input--playground
+
+```
+import { InputExample } from "@reina-madre/design-system";
+
+const Playground = () => <InputExample
+    key={JSON.stringify(args)}
+    type="text"
+    state="default"
+    leftContent="none"
+    rightContent="none"
+    placeholder="Placeholder text"
+    filled={false} />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as InputStories from "./input.stories"
+import inputSource from "./input.tsx?raw"
+import inputGroupSource from "./input-group.tsx?raw"
+import exampleSource from "./input-example.tsx?raw"
+import { InputContentExamples, InputSpecifications, InputStates, InputTypes } from "./input-docs"
+
+<Meta of={InputStories} />
+<Title of={InputStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Mantiene `Input` como elemento HTML nativo y conserva su API oficial.
+  - Conserva geometría, tipografía y estados del registry oficial `radix-nova`; Figma funciona como referencia de uso.
+  - El contenido lateral se compone con `InputGroup`; no añade propiedades privadas a Input.
+  - Los controles de estado y contenido pertenecen a `InputExample` y se traducen a props nativas o composición pública.
+</details>
+
+## Estados
+
+<div className="mb-12"><InputStates /></div>
+
+## Tipos nativos
+
+<div className="mb-12"><InputTypes /></div>
+
+## Contenido adicional
+
+<div className="mb-12"><InputContentExamples /></div>
+
+## Especificaciones
+
+<div className="mb-12"><InputSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={inputSource} />
+
+### Composición oficial con Input Group
+
+<Source language="tsx" code={inputGroupSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

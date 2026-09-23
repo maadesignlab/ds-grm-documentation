@@ -1,0 +1,710 @@
+{
+  "id": "1521:3069",
+  "name": "Calendar",
+  "total": 42,
+  "nodes": 2507,
+  "refs": {
+    "VariableID:50:514": {
+      "count": 127,
+      "example": "1551:11969"
+    },
+    "VariableID:50:515": {
+      "count": 32,
+      "example": "1551:11969"
+    },
+    "VariableID:51:20": {
+      "count": 12,
+      "example": "1551:11969"
+    },
+    "VariableID:51:21": {
+      "count": 120,
+      "example": "1551:11969"
+    },
+    "VariableID:50:513": {
+      "count": 24,
+      "example": "1543:10035"
+    },
+    "VariableID:44:184": {
+      "count": 1232,
+      "example": "1696:18213"
+    },
+    "VariableID:99:17": {
+      "count": 617,
+      "example": "1696:18216"
+    },
+    "VariableID:132:811": {
+      "count": 659,
+      "example": "1696:18216"
+    },
+    "VariableID:50:639": {
+      "count": 63,
+      "example": "1696:18216"
+    },
+    "VariableID:71:2": {
+      "count": 280,
+      "example": "1543:10048"
+    },
+    "VariableID:50:641": {
+      "count": 579,
+      "example": "I1543:10063;1524:6637"
+    },
+    "VariableID:429:250": {
+      "count": 420,
+      "example": "I1543:10087;1524:6568"
+    },
+    "VariableID:44:185": {
+      "count": 34,
+      "example": "I1543:10087;1524:6568"
+    },
+    "VariableID:51:172": {
+      "count": 34,
+      "example": "I1543:10087;1524:6569"
+    },
+    "VariableID:50:638": {
+      "count": 17,
+      "example": "I1543:10087;1524:6569"
+    },
+    "VariableID:50:526": {
+      "count": 53,
+      "example": "1551:11894"
+    },
+    "VariableID:50:530": {
+      "count": 24,
+      "example": "I1551:11894;1551:11679"
+    },
+    "VariableID:51:19": {
+      "count": 4,
+      "example": "I1551:11894;1551:11679"
+    },
+    "VariableID:51:22": {
+      "count": 4,
+      "example": "I1551:11894;1551:11679"
+    },
+    "VariableID:186:174": {
+      "count": 30,
+      "example": "I1551:11894;1551:11679;1543:10657"
+    },
+    "VariableID:1339:1007": {
+      "count": 2,
+      "example": "I1551:11894;1551:11679;1543:10857"
+    },
+    "VariableID:50:531": {
+      "count": 80,
+      "example": "1524:6579"
+    },
+    "VariableID:44:188": {
+      "count": 68,
+      "example": "1524:6579"
+    },
+    "VariableID:44:183": {
+      "count": 38,
+      "example": "1524:6581"
+    },
+    "VariableID:203:212": {
+      "count": 34,
+      "example": "1696:17627"
+    },
+    "VariableID:208:2": {
+      "count": 34,
+      "example": "1696:17628"
+    },
+    "VariableID:208:7": {
+      "count": 24,
+      "example": "1696:17629"
+    },
+    "VariableID:203:213": {
+      "count": 32,
+      "example": "1696:17639"
+    },
+    "VariableID:208:3": {
+      "count": 32,
+      "example": "1696:17640"
+    },
+    "VariableID:208:8": {
+      "count": 24,
+      "example": "1696:17641"
+    },
+    "VariableID:208:33": {
+      "count": 24,
+      "example": "1696:17645"
+    },
+    "VariableID:208:4": {
+      "count": 24,
+      "example": "1696:17646"
+    },
+    "VariableID:203:214": {
+      "count": 16,
+      "example": "1696:17647"
+    },
+    "VariableID:248:511": {
+      "count": 2,
+      "example": "1524:6565"
+    },
+    "VariableID:186:183": {
+      "count": 60,
+      "example": "1701:18424"
+    },
+    "VariableID:429:249": {
+      "count": 4,
+      "example": "2331:46246"
+    },
+    "VariableID:50:537": {
+      "count": 68,
+      "example": "I2337:46405;2337:46400"
+    },
+    "VariableID:100:21": {
+      "count": 17,
+      "example": "I2337:46405;2337:46399"
+    },
+    "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14": {
+      "count": 24,
+      "example": "2409:6863"
+    },
+    "VariableID:50:534": {
+      "count": 100,
+      "example": "1696:5682"
+    },
+    "VariableID:50:615": {
+      "count": 25,
+      "example": "I1696:5682;313:4454"
+    }
+  },
+  "texts": {
+    "S:b9200b5971cf3f84adc1475861c0b20e11d4e15e,": {
+      "count": 21,
+      "example": "1696:18216"
+    },
+    "UNSTYLED": {
+      "count": 112,
+      "example": "1543:10048"
+    },
+    "S:2b0d861a957c13c51dc97af70793b711d876a429,": {
+      "count": 567,
+      "example": "I1543:10063;1524:6637"
+    },
+    "S:ae9b6eab7aad4b5078f8cb6e91b4c4a6e69803bd,": {
+      "count": 17,
+      "example": "I1543:10087;1524:6569"
+    },
+    "S:1d452614e679106aeb9f64166fd66fd5df9751c7,": {
+      "count": 12,
+      "example": "I1551:11894;1551:11679;1543:10661"
+    },
+    "S:7732a51e82795bfae9a2ab02bdeeeda205616c2f,": {
+      "count": 17,
+      "example": "I2337:46405;2337:46399"
+    },
+    "S:362d32771c7af0e89df304f202df397487c29605,": {
+      "count": 25,
+      "example": "I1696:5682;313:4454"
+    }
+  },
+  "styles": {},
+  "sets": [
+    {
+      "id": "1551:11969",
+      "name": "Calendar/Date&Time",
+      "count": 2,
+      "props": {
+        "Month#2335:0": {
+          "type": "TEXT",
+          "defaultValue": "Enero 2026"
+        },
+        "Time Selector#2335:1": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        }
+      },
+      "default": {
+        "id": "1551:11969",
+        "name": "Calendar/Date&Time",
+        "w": 222,
+        "h": 440.3900146484375,
+        "layout": "VERTICAL",
+        "gap": 12,
+        "padding": [
+          12,
+          0,
+          0,
+          0
+        ],
+        "radius": 10,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9803921580314636,
+              "g": 0.9725490212440491,
+              "b": 0.9843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:20"
+              }
+            }
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8549019694328308,
+              "g": 0.8313725590705872,
+              "b": 0.843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:21"
+              }
+            }
+          }
+        ],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:514"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:515"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:514"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:515"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:515"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:20"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:21"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1524:6559",
+      "name": "_componentes/Calendar/Gridcell",
+      "count": 24,
+      "props": {
+        "Day#1524:0": {
+          "type": "TEXT",
+          "defaultValue": "1"
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "28px",
+          "variantOptions": [
+            "38px",
+            "28px"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "range-start",
+            "range-middle",
+            "range-end",
+            "default",
+            "disabled",
+            "hover",
+            "schedule-low",
+            "schedule-medium",
+            "schedule-high",
+            "focus",
+            "selected",
+            "range-selected"
+          ]
+        }
+      },
+      "default": {
+        "id": "1524:6558",
+        "name": "Size=28px, Status=default",
+        "w": 28,
+        "h": 28,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 8,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "1551:11970",
+      "name": "Calendar/Range",
+      "count": 3,
+      "props": {
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "empty",
+          "variantOptions": [
+            "empty",
+            "range-selected",
+            "start-selected"
+          ]
+        }
+      },
+      "default": {
+        "id": "1543:9736",
+        "name": "State=empty",
+        "w": 426,
+        "h": 264.3900146484375,
+        "layout": "HORIZONTAL",
+        "gap": 16,
+        "padding": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "radius": 10,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9803921580314636,
+              "g": 0.9725490212440491,
+              "b": 0.9843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:44:183"
+              }
+            }
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8549019694328308,
+              "g": 0.8313725590705872,
+              "b": 0.843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:21"
+              }
+            }
+          }
+        ],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:44:183"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:21"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1691:5297",
+      "name": "Calendar/Single",
+      "count": 4,
+      "props": {
+        "Header": {
+          "type": "VARIANT",
+          "defaultValue": "month-label",
+          "variantOptions": [
+            "month-label",
+            "month-year-selectors",
+            "Header3",
+            "Header4"
+          ]
+        }
+      },
+      "default": {
+        "id": "1524:6862",
+        "name": "Header=month-label",
+        "w": 238,
+        "h": 319.3900146484375,
+        "layout": "VERTICAL",
+        "gap": 16,
+        "padding": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "radius": 10,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9803921580314636,
+              "g": 0.9725490212440491,
+              "b": 0.9843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:44:183"
+              }
+            }
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8549019694328308,
+              "g": 0.8313725590705872,
+              "b": 0.843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:21"
+              }
+            }
+          }
+        ],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:44:183"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:21"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2337:46401",
+      "name": "_components/Calendar/Legend",
+      "count": 2,
+      "props": {},
+      "default": {
+        "id": "2337:46401",
+        "name": "_components/Calendar/Legend",
+        "w": 74,
+        "h": 12,
+        "layout": "HORIZONTAL",
+        "gap": 6,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:186:174"
+          }
+        }
+      }
+    },
+    {
+      "id": "1696:5801",
+      "name": "Calendar/Presets",
+      "count": 5,
+      "props": {
+        "Preset": {
+          "type": "VARIANT",
+          "defaultValue": "today",
+          "variantOptions": [
+            "today",
+            "in-1-week",
+            "in-2-weeks",
+            "in-3-days",
+            "tomorrow"
+          ]
+        }
+      },
+      "default": {
+        "id": "1696:5742",
+        "name": "Preset=today",
+        "w": 292,
+        "h": 402.3900146484375,
+        "layout": "VERTICAL",
+        "gap": 12,
+        "padding": [
+          12,
+          0,
+          0,
+          0
+        ],
+        "radius": 10,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9803921580314636,
+              "g": 0.9725490212440491,
+              "b": 0.9843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:20"
+              }
+            }
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8549019694328308,
+              "g": 0.8313725590705872,
+              "b": 0.843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:21"
+              }
+            }
+          }
+        ],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:514"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:515"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:514"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:515"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:515"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:20"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:21"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "errors": []
+}

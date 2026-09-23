@@ -32,7 +32,7 @@ const anatomy = [
   ["SelectSeparator", "Radix Separator", "Props del primitive", "Separación semántica"],
 ] as const
 const geometry = [
-  ["Trigger default", "h-8", "32px", "shadcn/ui"],
+  ["Trigger default", "h-9", "36px", "Figma GRM"],
   ["Trigger small", "h-7", "28px", "shadcn/ui"],
   ["Trigger simple", "w-[180px]", "180px", "Composición oficial de ejemplo"],
   ["Trigger scrollable", "w-[280px]", "280px", "Composición oficial de ejemplo"],

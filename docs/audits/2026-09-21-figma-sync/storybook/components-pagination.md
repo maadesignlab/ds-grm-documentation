@@ -1,0 +1,66 @@
+# Pagination
+
+ID: components-pagination
+
+## Stories
+
+### Playground
+
+Story ID: components-pagination--playground
+
+```
+import { PaginationExample } from "@reina-madre/design-system";
+
+const Playground = () => <div className="w-[414px] max-w-[calc(100vw-32px)]"><PaginationExample /></div>;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as PaginationStories from "./pagination.stories"
+import primitiveSource from "./pagination.tsx?raw"
+import exampleSource from "./pagination-example.tsx?raw"
+import { PaginationAmounts, PaginationCompositions, PaginationSpecifications, PaginationStates } from "./pagination-docs"
+
+<Meta of={PaginationStories} />
+<Title of={PaginationStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva la composición oficial `Pagination`, `PaginationContent`, `PaginationItem`, `PaginationLink`, `PaginationPrevious`, `PaginationNext` y `PaginationEllipsis`.
+  - Mantiene links semánticos, `aria-current`, región de navegación y estilos heredados de Button.
+  - Cantidad, página activa, elipsis y botones laterales pertenecen al ejemplo; no amplían el primitive.
+  - La composición de filas por página reutiliza el Select público del sistema.
+  - Playground y Docs consumen `paginationExamplePresets` y la misma instancia `PaginationExample`.
+</details>
+
+## Composiciones
+
+<div className="mb-12"><PaginationCompositions /></div>
+
+## Cantidad de páginas
+
+<div className="mb-12"><PaginationAmounts /></div>
+
+## Estados y visibilidad
+
+<div className="mb-12"><PaginationStates /></div>
+
+## Especificaciones
+
+<div className="mb-12"><PaginationSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={primitiveSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

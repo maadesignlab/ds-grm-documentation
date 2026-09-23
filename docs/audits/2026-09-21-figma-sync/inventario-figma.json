@@ -1,0 +1,350 @@
+{
+  "pages": [
+    {
+      "id": "0:1",
+      "name": "Portada"
+    },
+    {
+      "id": "1:16",
+      "name": "------------------------------------------------------------"
+    },
+    {
+      "id": "1:17",
+      "name": "1. FOUNDATIONS"
+    },
+    {
+      "id": "1:18",
+      "name": "Colores"
+    },
+    {
+      "id": "1:19",
+      "name": "Tipografía"
+    },
+    {
+      "id": "1:20",
+      "name": "Espaciado"
+    },
+    {
+      "id": "119:153",
+      "name": "Iconos"
+    },
+    {
+      "id": "1:21",
+      "name": "Layout"
+    },
+    {
+      "id": "1:22",
+      "name": "---------------------------------------------------------"
+    },
+    {
+      "id": "1:23",
+      "name": "2. COMPONENTES GLOBALES"
+    },
+    {
+      "id": "1771:909",
+      "name": "Accordion"
+    },
+    {
+      "id": "2827:14904",
+      "name": "Attachment"
+    },
+    {
+      "id": "1178:530",
+      "name": "Alert"
+    },
+    {
+      "id": "1187:612",
+      "name": "Alert Dialog"
+    },
+    {
+      "id": "246:2681",
+      "name": "Avatar"
+    },
+    {
+      "id": "1:32",
+      "name": "Badge"
+    },
+    {
+      "id": "1:24",
+      "name": "Button"
+    },
+    {
+      "id": "1760:597",
+      "name": "Breadcrumb"
+    },
+    {
+      "id": "1798:3431",
+      "name": "Card"
+    },
+    {
+      "id": "2782:1341",
+      "name": "Carousel"
+    },
+    {
+      "id": "3052:7037",
+      "name": "Chart"
+    },
+    {
+      "id": "1771:929",
+      "name": "Collapsible"
+    },
+    {
+      "id": "1675:339",
+      "name": "Context Menu"
+    },
+    {
+      "id": "1290:302",
+      "name": "Drawer"
+    },
+    {
+      "id": "1521:4708",
+      "name": "Dropdown"
+    },
+    {
+      "id": "2173:21188",
+      "name": "Empty"
+    },
+    {
+      "id": "1650:2013",
+      "name": "Hover Card"
+    },
+    {
+      "id": "2190:1413",
+      "name": "Item"
+    },
+    {
+      "id": "2793:2325",
+      "name": "Kbd"
+    },
+    {
+      "id": "2938:11449",
+      "name": "Menubar"
+    },
+    {
+      "id": "2938:12924",
+      "name": "Navigation Menu"
+    },
+    {
+      "id": "1763:1260",
+      "name": "Pagination"
+    },
+    {
+      "id": "726:6350",
+      "name": "Popover"
+    },
+    {
+      "id": "2206:16412",
+      "name": "Progress"
+    },
+    {
+      "id": "2882:453",
+      "name": "Resizable"
+    },
+    {
+      "id": "1800:1860",
+      "name": "Scroll Area"
+    },
+    {
+      "id": "589:983",
+      "name": "Separator"
+    },
+    {
+      "id": "1295:386",
+      "name": "Sheet"
+    },
+    {
+      "id": "3114:1373",
+      "name": "Sidebar"
+    },
+    {
+      "id": "2548:48050",
+      "name": "Skeleton"
+    },
+    {
+      "id": "2772:1030",
+      "name": "Slider"
+    },
+    {
+      "id": "2206:19380",
+      "name": "Spinner"
+    },
+    {
+      "id": "1:33",
+      "name": "Tabs"
+    },
+    {
+      "id": "1:45",
+      "name": "Toast"
+    },
+    {
+      "id": "3267:2627",
+      "name": "Toggle"
+    },
+    {
+      "id": "1:30",
+      "name": "Tooltip"
+    },
+    {
+      "id": "1:37",
+      "name": "----------------------------------------------------------"
+    },
+    {
+      "id": "1:36",
+      "name": "3. FORMULARIOS"
+    },
+    {
+      "id": "1521:3069",
+      "name": "Calendar"
+    },
+    {
+      "id": "1:41",
+      "name": "Checks / Radios / Switches"
+    },
+    {
+      "id": "1:39",
+      "name": "Combobox"
+    },
+    {
+      "id": "1:35",
+      "name": "Date Picker"
+    },
+    {
+      "id": "1:38",
+      "name": "Label"
+    },
+    {
+      "id": "1:34",
+      "name": "Input"
+    },
+    {
+      "id": "561:4282",
+      "name": "Input OTP"
+    },
+    {
+      "id": "553:7952",
+      "name": "Native Select"
+    },
+    {
+      "id": "614:4917",
+      "name": "Select"
+    },
+    {
+      "id": "394:13561",
+      "name": "Text Area"
+    },
+    {
+      "id": "553:2675",
+      "name": "Field"
+    },
+    {
+      "id": "109:1227",
+      "name": "--------------------------------------------------------"
+    },
+    {
+      "id": "2064:193",
+      "name": "4. TABLAS"
+    },
+    {
+      "id": "2366:19504",
+      "name": "Data Table"
+    },
+    {
+      "id": "2064:259",
+      "name": "Table"
+    },
+    {
+      "id": "2064:194",
+      "name": "--------------------------------------------"
+    },
+    {
+      "id": "109:2450",
+      "name": "File Assets"
+    },
+    {
+      "id": "4984:8",
+      "name": "MATRIZ · Actual vs propuesta · primary/500 · 2026-09-17"
+    }
+  ],
+  "collections": [
+    {
+      "id": "VariableCollectionId:16:8",
+      "name": "2. Brand",
+      "modes": [
+        {
+          "name": "Valor",
+          "modeId": "16:0"
+        }
+      ],
+      "count": 547
+    },
+    {
+      "id": "VariableCollectionId:44:169",
+      "name": "4. Semantic Brand",
+      "modes": [
+        {
+          "name": "GRM Global",
+          "modeId": "1154:0"
+        },
+        {
+          "name": "Reina Madre",
+          "modeId": "44:8"
+        },
+        {
+          "name": "Maria Linda",
+          "modeId": "132:1"
+        },
+        {
+          "name": "Piel Sana",
+          "modeId": "132:2"
+        }
+      ],
+      "count": 156
+    },
+    {
+      "id": "VariableCollectionId:50:238",
+      "name": "0. Foundations",
+      "modes": [
+        {
+          "name": "Base",
+          "modeId": "50:1"
+        }
+      ],
+      "count": 78
+    },
+    {
+      "id": "VariableCollectionId:66:4",
+      "name": "1. Breakpoints & Layout",
+      "modes": [
+        {
+          "name": "Desktop",
+          "modeId": "66:0"
+        },
+        {
+          "name": "Tablet",
+          "modeId": "66:1"
+        },
+        {
+          "name": "Mobile",
+          "modeId": "66:2"
+        }
+      ],
+      "count": 16
+    },
+    {
+      "id": "VariableCollectionId:3515:13496",
+      "name": "3. Extra Colors",
+      "modes": [
+        {
+          "name": "Mode 1",
+          "modeId": "3515:0"
+        }
+      ],
+      "count": 36
+    }
+  ],
+  "styles": {
+    "text": 39,
+    "paint": 3,
+    "effect": 8
+  }
+}

@@ -3,6 +3,8 @@
 import * as React from "react"
 import { Eye, Search } from "lucide-react"
 
+import { cn } from "@/lib/utils"
+
 import { Input } from "./input"
 import { InputGroup, InputGroupAddon, InputGroupButton, InputGroupInput, InputGroupText } from "./input-group"
 import { Spinner } from "./spinner"
@@ -16,6 +18,7 @@ export type InputExampleProps = {
   rightContent?: InputContent
   placeholder?: string
   filled?: boolean
+  visualSize?: "normal" | "large"
 }
 
 function Content({ value, side }: { value: InputContent; side: "left" | "right" }) {
@@ -27,7 +30,7 @@ function Content({ value, side }: { value: InputContent; side: "left" | "right" 
   return <InputGroupAddon align={align}>{side === "left" ? <Search className="size-4" aria-hidden /> : <Eye className="size-4" aria-hidden />}</InputGroupAddon>
 }
 
-export function InputExample({ type = "text", state = "default", leftContent = "none", rightContent = "none", placeholder = "Placeholder text", filled = false }: InputExampleProps) {
+export function InputExample({ type = "text", state = "default", leftContent = "none", rightContent = "none", placeholder = "Placeholder text", filled = false, visualSize = "normal" }: InputExampleProps) {
   const disabled = state === "disabled"
   const invalid = state === "invalid"
   const autoFocus = state === "focused"
@@ -41,11 +44,11 @@ export function InputExample({ type = "text", state = "default", leftContent = "
     defaultValue: filled && type !== "file" ? "Input value" : undefined,
   }
 
-  if (leftContent === "none" && rightContent === "none") return <Input className="w-[300px] shrink-0" {...common} />
+  if (leftContent === "none" && rightContent === "none") return <Input className={cn("w-[300px] shrink-0", visualSize === "large" && "h-11 px-4 text-base leading-6")} {...common} />
 
-  return <InputGroup className="w-[300px] shrink-0">
+  return <InputGroup className={cn("w-[300px] shrink-0", visualSize === "large" && "h-11")}>
     <Content value={leftContent} side="left" />
-    <InputGroupInput {...common} />
+    <InputGroupInput className={cn(visualSize === "large" && "h-11 px-4 text-base leading-6")} {...common} />
     <Content value={rightContent} side="right" />
   </InputGroup>
 }

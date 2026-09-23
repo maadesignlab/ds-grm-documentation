@@ -1,0 +1,70 @@
+# InputOTP
+
+ID: components-input-otp
+
+## Stories
+
+### Playground
+
+Story ID: components-input-otp--playground
+
+```
+import { InputOTPExample } from "@reina-madre/design-system";
+
+const Playground = () => <InputOTPExample />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as InputOTPStories from "./input-otp.stories"
+import primitiveSource from "./input-otp.tsx?raw"
+import exampleSource from "./input-otp-example.tsx?raw"
+import { InputOTPProgress, InputOTPSlots, InputOTPSpecifications, InputOTPStates, InputOTPStyles } from "./input-otp-docs"
+
+<Meta of={InputOTPStories} />
+<Title of={InputOTPStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva la composición oficial de shadcn/ui sobre `input-otp` y `OTPInputContext`.
+  - Mantiene entrada real, caret, foco, teclado, paste, patrón, disabled y semántica ARIA.
+  - Adapta los slots a la escala de 36 px y tokens de las cuatro marcas definidos en Figma.
+  - Cantidad, separadores, estado y progreso pertenecen exclusivamente a `InputOTPExample`; Error propaga `aria-invalid` a la entrada y sus slots para mantener una señal visual inequívoca.
+  - Playground y Docs renderizan la misma composición compartida.
+</details>
+
+## Estilo
+
+<div className="mb-12"><InputOTPStyles /></div>
+
+## Cantidad y distribución
+
+<div className="mb-12"><InputOTPSlots /></div>
+
+## Estados
+
+<div className="mb-12"><InputOTPStates /></div>
+
+## Progreso
+
+<div className="mb-12"><InputOTPProgress /></div>
+
+## Especificaciones
+
+<div className="mb-12"><InputOTPSpecifications /></div>
+
+## Código
+
+### Primitive oficial adaptado
+
+<Source language="tsx" code={primitiveSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

@@ -1,0 +1,198 @@
+[
+  {
+    "brand": "grm-global",
+    "glyphs": [
+      {
+        "height": 17,
+        "letter": "V",
+        "width": 9.171875,
+        "x": 41,
+        "y": 7
+      },
+      {
+        "height": 17,
+        "letter": "e",
+        "width": 8.234375,
+        "x": 50.15625,
+        "y": 7
+      },
+      {
+        "height": 17,
+        "letter": "r",
+        "width": 5.4375,
+        "x": 58.375,
+        "y": 7
+      },
+      {
+        "height": 17,
+        "letter": "m",
+        "width": 12.4375,
+        "x": 67.53125,
+        "y": 7
+      },
+      {
+        "height": 17,
+        "letter": "á",
+        "width": 7.96875,
+        "x": 79.953125,
+        "y": 7
+      },
+      {
+        "height": 17,
+        "letter": "s",
+        "width": 7.5625,
+        "x": 87.90625,
+        "y": 7
+      }
+    ],
+    "height": 32,
+    "width": 108.46875
+  },
+  {
+    "brand": "reina-madre",
+    "glyphs": [
+      {
+        "height": 17,
+        "letter": "V",
+        "width": 9.171875,
+        "x": 41,
+        "y": 7
+      },
+      {
+        "height": 17,
+        "letter": "e",
+        "width": 8.234375,
+        "x": 50.15625,
+        "y": 7
+      },
+      {
+        "height": 17,
+        "letter": "r",
+        "width": 5.4375,
+        "x": 58.375,
+        "y": 7
+      },
+      {
+        "height": 17,
+        "letter": "m",
+        "width": 12.4375,
+        "x": 67.53125,
+        "y": 7
+      },
+      {
+        "height": 17,
+        "letter": "á",
+        "width": 7.96875,
+        "x": 79.953125,
+        "y": 7
+      },
+      {
+        "height": 17,
+        "letter": "s",
+        "width": 7.5625,
+        "x": 87.90625,
+        "y": 7
+      }
+    ],
+    "height": 32,
+    "width": 108.46875
+  },
+  {
+    "brand": "maria-linda",
+    "glyphs": [
+      {
+        "height": 18,
+        "letter": "V",
+        "width": 8.640625,
+        "x": 41,
+        "y": 7
+      },
+      {
+        "height": 18,
+        "letter": "e",
+        "width": 8.609375,
+        "x": 49.625,
+        "y": 7
+      },
+      {
+        "height": 18,
+        "letter": "r",
+        "width": 4.921875,
+        "x": 58.21875,
+        "y": 7
+      },
+      {
+        "height": 18,
+        "letter": "m",
+        "width": 12.796875,
+        "x": 65.546875,
+        "y": 7
+      },
+      {
+        "height": 18,
+        "letter": "á",
+        "width": 8.0625,
+        "x": 78.328125,
+        "y": 7
+      },
+      {
+        "height": 18,
+        "letter": "s",
+        "width": 7.15625,
+        "x": 86.375,
+        "y": 7
+      }
+    ],
+    "height": 32,
+    "width": 106.53125
+  },
+  {
+    "brand": "piel-sana",
+    "glyphs": [
+      {
+        "height": 17,
+        "letter": "V",
+        "width": 8.3125,
+        "x": 41,
+        "y": 7
+      },
+      {
+        "height": 17,
+        "letter": "e",
+        "width": 7.875,
+        "x": 49.296875,
+        "y": 7
+      },
+      {
+        "height": 17,
+        "letter": "r",
+        "width": 5.265625,
+        "x": 57.15625,
+        "y": 7
+      },
+      {
+        "height": 17,
+        "letter": "m",
+        "width": 13.140625,
+        "x": 66.828125,
+        "y": 7
+      },
+      {
+        "height": 17,
+        "letter": "á",
+        "width": 7.609375,
+        "x": 79.953125,
+        "y": 7
+      },
+      {
+        "height": 17,
+        "letter": "s",
+        "width": 7.1875,
+        "x": 87.546875,
+        "y": 7
+      }
+    ],
+    "height": 32,
+    "width": 107.734375
+  }
+]

@@ -1,0 +1,60 @@
+# Accordion
+
+ID: components-accordion
+
+## Stories
+
+### Playground
+
+Story ID: components-accordion--playground
+
+```
+import { AccordionExample } from "@reina-madre/design-system";
+
+const Playground = () => <AccordionExample mode="unique" itemCount={3} defaultOpen />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as AccordionStories from "./accordion.stories"
+import accordionSource from "./accordion.tsx?raw"
+import { AccordionModeOverview, AccordionSpecifications, AccordionStateOverview } from "./accordion-docs"
+
+<Meta of={AccordionStories} />
+<Title of={AccordionStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma</summary>
+
+  - Modos Multiple y Unique sincronizados con el nodo 1771:909.
+  - Entre 2 y 10 ítems configurables.
+  - Estados colapsado, expandido y hover.
+  - Implementación accesible sobre Accordion de Radix incluido por shadcn/ui.
+</details>
+
+## Variantes de comportamiento
+
+<div className="mb-12">
+  <AccordionModeOverview />
+</div>
+
+## Estados
+
+<div className="mb-12">
+  <AccordionStateOverview />
+</div>
+
+## Especificaciones
+
+<div className="mb-12">
+  <AccordionSpecifications />
+</div>
+
+## Código
+
+<Source language="tsx" code={accordionSource} />

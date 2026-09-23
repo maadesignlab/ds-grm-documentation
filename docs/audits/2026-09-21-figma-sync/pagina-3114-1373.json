@@ -1,0 +1,507 @@
+{
+  "id": "3114:1373",
+  "name": "Sidebar",
+  "total": 48,
+  "sets": [
+    {
+      "id": "3152:1014",
+      "name": "Sidebar",
+      "type": "COMPONENT_SET",
+      "count": 2,
+      "props": {
+        "Header#3152:6": {
+          "type": "SLOT",
+          "description": null,
+          "preferredValues": []
+        },
+        "Scroll content#3152:7": {
+          "type": "SLOT",
+          "description": null,
+          "preferredValues": []
+        },
+        "Primary navigation#3152:8": {
+          "type": "SLOT",
+          "description": null,
+          "preferredValues": []
+        },
+        "Sidebar state": {
+          "type": "VARIANT",
+          "defaultValue": "expanded",
+          "variantOptions": [
+            "expanded",
+            "collapsed"
+          ]
+        }
+      }
+    },
+    {
+      "id": "3122:51749",
+      "name": "_components/Sidebar/Menu Item",
+      "type": "COMPONENT_SET",
+      "count": 16,
+      "props": {
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "link",
+          "variantOptions": [
+            "link",
+            "trigger"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "hover",
+            "active",
+            "disabled"
+          ]
+        },
+        "Sidebar state": {
+          "type": "VARIANT",
+          "defaultValue": "expanded",
+          "variantOptions": [
+            "expanded",
+            "collapsed"
+          ]
+        }
+      }
+    },
+    {
+      "id": "3184:1186",
+      "name": "_components/Sidebar/Menu Item Content",
+      "type": "COMPONENT",
+      "count": 3,
+      "props": {
+        "Label#3184:4": {
+          "type": "TEXT",
+          "defaultValue": "Inicio"
+        },
+        "Leading icon#3184:5": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Trailing content#3184:7": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Label visible#3184:8": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        }
+      }
+    },
+    {
+      "id": "3127:112",
+      "name": "_components/Sidebar/Menu Sub Item",
+      "type": "COMPONENT_SET",
+      "count": 7,
+      "props": {
+        "Label#3127:2": {
+          "type": "TEXT",
+          "defaultValue": "Subopción"
+        },
+        "Leading icon#3127:3": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled"
+          ]
+        },
+        "Sidebar state": {
+          "type": "VARIANT",
+          "defaultValue": "expanded",
+          "variantOptions": [
+            "expanded",
+            "collapsed"
+          ]
+        }
+      }
+    },
+    {
+      "id": "3129:122",
+      "name": "_components/Sidebar/Collapsible Menu Item",
+      "type": "COMPONENT_SET",
+      "count": 4,
+      "props": {
+        "Items#4197:3": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "470919b6894fbe832ac36d6ec93264965ea3f784"
+            }
+          ]
+        },
+        "Sidebar state": {
+          "type": "VARIANT",
+          "defaultValue": "expanded",
+          "variantOptions": [
+            "expanded",
+            "collapsed"
+          ]
+        },
+        "Collapsible status": {
+          "type": "VARIANT",
+          "defaultValue": "closed",
+          "variantOptions": [
+            "open",
+            "closed"
+          ]
+        }
+      }
+    },
+    {
+      "id": "3896:2782",
+      "name": "_components/Sidebar/Header/HeaderLogos",
+      "type": "COMPONENT_SET",
+      "count": 2,
+      "props": {
+        "Logo": {
+          "type": "VARIANT",
+          "defaultValue": "GRM Default",
+          "variantOptions": [
+            "GRM Default",
+            "GRM Collapsed"
+          ]
+        }
+      }
+    },
+    {
+      "id": "3994:4754",
+      "name": "_components/Sidebar/Header",
+      "type": "COMPONENT_SET",
+      "count": 2,
+      "props": {
+        "Content#3994:1": {
+          "type": "SLOT",
+          "description": null,
+          "preferredValues": []
+        },
+        "Sidebar state": {
+          "type": "VARIANT",
+          "defaultValue": "expanded",
+          "variantOptions": [
+            "expanded",
+            "collapsed"
+          ]
+        }
+      }
+    },
+    {
+      "id": "3994:4804",
+      "name": "_components/Sidebar/Group Label",
+      "type": "COMPONENT_SET",
+      "count": 2,
+      "props": {
+        "Label#3994:2": {
+          "type": "TEXT",
+          "defaultValue": "OPERACIÓN"
+        },
+        "Separator#3994:3": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Sidebar state": {
+          "type": "VARIANT",
+          "defaultValue": "expanded",
+          "variantOptions": [
+            "expanded",
+            "collapsed"
+          ]
+        }
+      }
+    },
+    {
+      "id": "3998:7430",
+      "name": "_components/Sidebar/Content",
+      "type": "COMPONENT_SET",
+      "count": 1,
+      "props": {
+        "Groups#3998:7": {
+          "type": "SLOT",
+          "description": null,
+          "preferredValues": []
+        },
+        "Sidebar state": {
+          "type": "VARIANT",
+          "defaultValue": "expanded",
+          "variantOptions": [
+            "expanded"
+          ]
+        }
+      }
+    },
+    {
+      "id": "4022:8455",
+      "name": "_components/Sidebar/Group",
+      "type": "COMPONENT_SET",
+      "count": 2,
+      "props": {
+        "Label visible#4022:15": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Content#4022:16": {
+          "type": "SLOT",
+          "description": null,
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "a302c544ab34a4c52f80bb904ead40bc53f5571c"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "086622e12f60fd73ef798668bd41e9e75568c453"
+            }
+          ]
+        },
+        "Content2#4197:0": {
+          "type": "SLOT",
+          "description": null,
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "a302c544ab34a4c52f80bb904ead40bc53f5571c"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "086622e12f60fd73ef798668bd41e9e75568c453"
+            }
+          ]
+        },
+        "Sidebar state": {
+          "type": "VARIANT",
+          "defaultValue": "expanded",
+          "variantOptions": [
+            "collapsed",
+            "expanded"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "3152:812",
+      "3152:1014",
+      "Sidebar state=expanded"
+    ],
+    [
+      "3152:821",
+      "3152:1014",
+      "Sidebar state=collapsed"
+    ],
+    [
+      "3121:87",
+      "3122:51749",
+      "Type=link, State=default, Sidebar state=expanded"
+    ],
+    [
+      "3122:5",
+      "3122:51749",
+      "Type=link, State=hover, Sidebar state=expanded"
+    ],
+    [
+      "3122:19",
+      "3122:51749",
+      "Type=link, State=active, Sidebar state=expanded"
+    ],
+    [
+      "3122:26",
+      "3122:51749",
+      "Type=link, State=disabled, Sidebar state=expanded"
+    ],
+    [
+      "3122:33",
+      "3122:51749",
+      "Type=trigger, State=default, Sidebar state=expanded"
+    ],
+    [
+      "3122:43",
+      "3122:51749",
+      "Type=trigger, State=hover, Sidebar state=expanded"
+    ],
+    [
+      "3122:63",
+      "3122:51749",
+      "Type=trigger, State=active, Sidebar state=expanded"
+    ],
+    [
+      "3122:73",
+      "3122:51749",
+      "Type=trigger, State=disabled, Sidebar state=expanded"
+    ],
+    [
+      "3122:51679",
+      "3122:51749",
+      "Type=link, State=default, Sidebar state=collapsed"
+    ],
+    [
+      "3122:51686",
+      "3122:51749",
+      "Type=link, State=hover, Sidebar state=collapsed"
+    ],
+    [
+      "3122:51700",
+      "3122:51749",
+      "Type=link, State=active, Sidebar state=collapsed"
+    ],
+    [
+      "3122:51707",
+      "3122:51749",
+      "Type=link, State=disabled, Sidebar state=collapsed"
+    ],
+    [
+      "3122:51714",
+      "3122:51749",
+      "Type=trigger, State=default, Sidebar state=collapsed"
+    ],
+    [
+      "3122:51721",
+      "3122:51749",
+      "Type=trigger, State=hover, Sidebar state=collapsed"
+    ],
+    [
+      "3122:51735",
+      "3122:51749",
+      "Type=trigger, State=active, Sidebar state=collapsed"
+    ],
+    [
+      "3122:51742",
+      "3122:51749",
+      "Type=trigger, State=disabled, Sidebar state=collapsed"
+    ],
+    [
+      "3127:80",
+      "3127:112",
+      "State=default, Sidebar state=expanded"
+    ],
+    [
+      "3998:7708",
+      "3127:112",
+      "State=default, Sidebar state=collapsed"
+    ],
+    [
+      "4003:7742",
+      "3127:112",
+      "State=hover, Sidebar state=collapsed"
+    ],
+    [
+      "3127:100",
+      "3127:112",
+      "State=hover, Sidebar state=expanded"
+    ],
+    [
+      "3127:103",
+      "3127:112",
+      "State=focus, Sidebar state=expanded"
+    ],
+    [
+      "3127:106",
+      "3127:112",
+      "State=active, Sidebar state=expanded"
+    ],
+    [
+      "3127:109",
+      "3127:112",
+      "State=disabled, Sidebar state=expanded"
+    ],
+    [
+      "3129:84",
+      "3129:122",
+      "Sidebar state=expanded, Collapsible status=open"
+    ],
+    [
+      "3998:7597",
+      "3129:122",
+      "Sidebar state=collapsed, Collapsible status=open"
+    ],
+    [
+      "3129:109",
+      "3129:122",
+      "Sidebar state=expanded, Collapsible status=closed"
+    ],
+    [
+      "3998:7601",
+      "3129:122",
+      "Sidebar state=collapsed, Collapsible status=closed"
+    ],
+    [
+      "3896:2781",
+      "3896:2782",
+      "Logo=GRM Default"
+    ],
+    [
+      "4443:2185",
+      "3896:2782",
+      "Logo=GRM Collapsed"
+    ],
+    [
+      "3139:310",
+      "3994:4754",
+      "Sidebar state=expanded"
+    ],
+    [
+      "3994:4755",
+      "3994:4754",
+      "Sidebar state=collapsed"
+    ],
+    [
+      "3134:136",
+      "3994:4804",
+      "Sidebar state=expanded"
+    ],
+    [
+      "3994:4809",
+      "3994:4804",
+      "Sidebar state=collapsed"
+    ],
+    [
+      "3140:310",
+      "3998:7430",
+      "Sidebar state=expanded"
+    ],
+    [
+      "3137:173",
+      "4022:8455",
+      "Sidebar state=expanded"
+    ],
+    [
+      "4022:8456",
+      "4022:8455",
+      "Sidebar state=collapsed"
+    ]
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "id": "2772:1030",
+  "name": "Slider",
+  "total": 37,
+  "sets": [
+    {
+      "id": "2777:58",
+      "name": "Slider",
+      "type": "COMPONENT_SET",
+      "count": 36,
+      "props": {
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Single",
+          "variantOptions": [
+            "Single",
+            "Range",
+            "Multiple"
+          ]
+        },
+        "Orientation": {
+          "type": "VARIANT",
+          "defaultValue": "Horizontal",
+          "variantOptions": [
+            "Horizontal",
+            "Vertical"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Disabled"
+          ]
+        },
+        "Value": {
+          "type": "VARIANT",
+          "defaultValue": "Low",
+          "variantOptions": [
+            "Medium",
+            "Low",
+            "High"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "2776:2",
+      "2777:58",
+      "Type=Single, Orientation=Horizontal, Status=Default, Value=Medium"
+    ],
+    [
+      "2777:2",
+      "2777:58",
+      "Type=Single, Orientation=Horizontal, Status=Disabled, Value=Medium"
+    ],
+    [
+      "2777:6",
+      "2777:58",
+      "Type=Range, Orientation=Horizontal, Status=Default, Value=Medium"
+    ],
+    [
+      "2777:11",
+      "2777:58",
+      "Type=Range, Orientation=Horizontal, Status=Disabled, Value=Medium"
+    ],
+    [
+      "2777:16",
+      "2777:58",
+      "Type=Multiple, Orientation=Horizontal, Status=Default, Value=Medium"
+    ],
+    [
+      "2777:22",
+      "2777:58",
+      "Type=Multiple, Orientation=Horizontal, Status=Disabled, Value=Medium"
+    ],
+    [
+      "2777:28",
+      "2777:58",
+      "Type=Single, Orientation=Vertical, Status=Default, Value=Medium"
+    ],
+    [
+      "2777:32",
+      "2777:58",
+      "Type=Single, Orientation=Vertical, Status=Disabled, Value=Medium"
+    ],
+    [
+      "2777:36",
+      "2777:58",
+      "Type=Range, Orientation=Vertical, Status=Default, Value=Medium"
+    ],
+    [
+      "2777:41",
+      "2777:58",
+      "Type=Range, Orientation=Vertical, Status=Disabled, Value=Medium"
+    ],
+    [
+      "2777:46",
+      "2777:58",
+      "Type=Multiple, Orientation=Vertical, Status=Default, Value=Medium"
+    ],
+    [
+      "2777:52",
+      "2777:58",
+      "Type=Multiple, Orientation=Vertical, Status=Disabled, Value=Medium"
+    ],
+    [
+      "2781:124",
+      "2777:58",
+      "Type=Single, Orientation=Horizontal, Status=Default, Value=Low"
+    ],
+    [
+      "2781:128",
+      "2777:58",
+      "Type=Single, Orientation=Horizontal, Status=Default, Value=High"
+    ],
+    [
+      "2781:132",
+      "2777:58",
+      "Type=Single, Orientation=Horizontal, Status=Disabled, Value=Low"
+    ],
+    [
+      "2781:136",
+      "2777:58",
+      "Type=Single, Orientation=Horizontal, Status=Disabled, Value=High"
+    ],
+    [
+      "2781:140",
+      "2777:58",
+      "Type=Range, Orientation=Horizontal, Status=Default, Value=Low"
+    ],
+    [
+      "2781:145",
+      "2777:58",
+      "Type=Range, Orientation=Horizontal, Status=Default, Value=High"
+    ],
+    [
+      "2781:150",
+      "2777:58",
+      "Type=Range, Orientation=Horizontal, Status=Disabled, Value=Low"
+    ],
+    [
+      "2781:155",
+      "2777:58",
+      "Type=Range, Orientation=Horizontal, Status=Disabled, Value=High"
+    ],
+    [
+      "2781:160",
+      "2777:58",
+      "Type=Multiple, Orientation=Horizontal, Status=Default, Value=Low"
+    ],
+    [
+      "2781:166",
+      "2777:58",
+      "Type=Multiple, Orientation=Horizontal, Status=Default, Value=High"
+    ],
+    [
+      "2781:172",
+      "2777:58",
+      "Type=Multiple, Orientation=Horizontal, Status=Disabled, Value=Low"
+    ],
+    [
+      "2781:178",
+      "2777:58",
+      "Type=Multiple, Orientation=Horizontal, Status=Disabled, Value=High"
+    ],
+    [
+      "2781:184",
+      "2777:58",
+      "Type=Single, Orientation=Vertical, Status=Default, Value=Low"
+    ],
+    [
+      "2781:188",
+      "2777:58",
+      "Type=Single, Orientation=Vertical, Status=Default, Value=High"
+    ],
+    [
+      "2781:192",
+      "2777:58",
+      "Type=Single, Orientation=Vertical, Status=Disabled, Value=Low"
+    ],
+    [
+      "2781:196",
+      "2777:58",
+      "Type=Single, Orientation=Vertical, Status=Disabled, Value=High"
+    ],
+    [
+      "2781:200",
+      "2777:58",
+      "Type=Range, Orientation=Vertical, Status=Default, Value=Low"
+    ],
+    [
+      "2781:205",
+      "2777:58",
+      "Type=Range, Orientation=Vertical, Status=Default, Value=High"
+    ],
+    [
+      "2781:210",
+      "2777:58",
+      "Type=Range, Orientation=Vertical, Status=Disabled, Value=Low"
+    ],
+    [
+      "2781:215",
+      "2777:58",
+      "Type=Range, Orientation=Vertical, Status=Disabled, Value=High"
+    ],
+    [
+      "2781:220",
+      "2777:58",
+      "Type=Multiple, Orientation=Vertical, Status=Default, Value=Low"
+    ],
+    [
+      "2781:226",
+      "2777:58",
+      "Type=Multiple, Orientation=Vertical, Status=Default, Value=High"
+    ],
+    [
+      "2781:232",
+      "2777:58",
+      "Type=Multiple, Orientation=Vertical, Status=Disabled, Value=Low"
+    ],
+    [
+      "2781:238",
+      "2777:58",
+      "Type=Multiple, Orientation=Vertical, Status=Disabled, Value=High"
+    ]
+  ]
+}

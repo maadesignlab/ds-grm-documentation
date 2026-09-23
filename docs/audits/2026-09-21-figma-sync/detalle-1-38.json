@@ -1,0 +1,184 @@
+{
+  "id": "1:38",
+  "name": "Label",
+  "total": 8,
+  "nodes": 16,
+  "refs": {
+    "VariableID:44:184": {
+      "count": 6,
+      "example": "553:2904"
+    },
+    "VariableID:66:23": {
+      "count": 1,
+      "example": "553:2904"
+    },
+    "VariableID:132:811": {
+      "count": 8,
+      "example": "553:2904"
+    },
+    "VariableID:50:639": {
+      "count": 7,
+      "example": "553:2904"
+    },
+    "VariableID:50:526": {
+      "count": 3,
+      "example": "553:3032"
+    },
+    "VariableID:99:17": {
+      "count": 7,
+      "example": "553:3033"
+    },
+    "VariableID:417:1110": {
+      "count": 8,
+      "example": "902:4387"
+    },
+    "VariableID:71:2": {
+      "count": 2,
+      "example": "553:3042"
+    },
+    "VariableID:50:641": {
+      "count": 1,
+      "example": "553:3042"
+    }
+  },
+  "texts": {
+    "S:781eaf6f680951d4f89acd6c5285b40210dae108,": {
+      "count": 1,
+      "example": "553:2904"
+    },
+    "S:b9200b5971cf3f84adc1475861c0b20e11d4e15e,": {
+      "count": 6,
+      "example": "553:3033"
+    },
+    "S:1d452614e679106aeb9f64166fd66fd5df9751c7,": {
+      "count": 1,
+      "example": "553:3042"
+    }
+  },
+  "styles": {},
+  "sets": [
+    {
+      "id": "553:2907",
+      "name": "Label/LabelLegend",
+      "count": 1,
+      "props": {
+        "Legend Text#553:3": {
+          "type": "TEXT",
+          "defaultValue": "Legend Text"
+        },
+        "Label": {
+          "type": "VARIANT",
+          "defaultValue": "legend",
+          "variantOptions": [
+            "legend"
+          ]
+        }
+      },
+      "default": {
+        "id": "553:2906",
+        "name": "Label=legend",
+        "w": 95,
+        "h": 24,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "553:3027",
+      "name": "Label/Label",
+      "count": 3,
+      "props": {
+        "Label Text#553:5": {
+          "type": "TEXT",
+          "defaultValue": "Label Text"
+        },
+        "Required#902:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "error",
+            "disabled"
+          ]
+        }
+      },
+      "default": {
+        "id": "553:3032",
+        "name": "Status=default",
+        "w": 70,
+        "h": 20,
+        "layout": "HORIZONTAL",
+        "gap": 8,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          }
+        }
+      }
+    },
+    {
+      "id": "553:3038",
+      "name": "Label/LabelDescription",
+      "count": 1,
+      "props": {
+        "Description Text#553:9": {
+          "type": "TEXT",
+          "defaultValue": "Description Text"
+        },
+        "Label": {
+          "type": "VARIANT",
+          "defaultValue": "description",
+          "variantOptions": [
+            "description"
+          ]
+        }
+      },
+      "default": {
+        "id": "553:3041",
+        "name": "Label=description",
+        "w": 108,
+        "h": 20,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    }
+  ],
+  "errors": []
+}

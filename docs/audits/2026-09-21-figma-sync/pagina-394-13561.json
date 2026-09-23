@@ -1,0 +1,41 @@
+{
+  "id": "394:13561",
+  "name": "Text Area",
+  "total": 4,
+  "sets": [
+    {
+      "id": "479:71",
+      "name": "TextArea",
+      "type": "COMPONENT_SET",
+      "count": 3,
+      "props": {
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "disabled",
+            "default",
+            "error"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "468:2111",
+      "479:71",
+      "Status=default"
+    ],
+    [
+      "479:72",
+      "479:71",
+      "Status=error"
+    ],
+    [
+      "479:76",
+      "479:71",
+      "Status=disabled"
+    ]
+  ]
+}

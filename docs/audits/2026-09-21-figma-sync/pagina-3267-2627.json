@@ -1,0 +1,728 @@
+{
+  "id": "3267:2627",
+  "name": "Toggle",
+  "total": 125,
+  "sets": [
+    {
+      "id": "3279:53814",
+      "name": "Toggle",
+      "type": "COMPONENT_SET",
+      "count": 48,
+      "props": {
+        "Label#3279:0": {
+          "type": "TEXT",
+          "defaultValue": "Toggle"
+        },
+        "Label visible#3279:49": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Icon visible#3279:98": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Variant": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "outline"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "sm",
+            "lg"
+          ]
+        },
+        "Pressed": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        }
+      }
+    },
+    {
+      "id": "3331:60517",
+      "name": "Toggle Group",
+      "type": "COMPONENT_SET",
+      "count": 75,
+      "props": {
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "single",
+          "variantOptions": [
+            "single",
+            "multiple"
+          ]
+        },
+        "Items": {
+          "type": "VARIANT",
+          "defaultValue": "1",
+          "variantOptions": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+          ]
+        },
+        "Selected": {
+          "type": "VARIANT",
+          "defaultValue": "none",
+          "variantOptions": [
+            "none",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "3279:93",
+      "3279:53814",
+      "Variant=default, Size=default, Pressed=off, Status=default"
+    ],
+    [
+      "3279:100",
+      "3279:53814",
+      "Variant=default, Size=default, Pressed=off, Status=hover"
+    ],
+    [
+      "3279:107",
+      "3279:53814",
+      "Variant=default, Size=default, Pressed=off, Status=focus"
+    ],
+    [
+      "3279:114",
+      "3279:53814",
+      "Variant=default, Size=default, Pressed=off, Status=disabled"
+    ],
+    [
+      "3279:121",
+      "3279:53814",
+      "Variant=default, Size=default, Pressed=on, Status=default"
+    ],
+    [
+      "3279:128",
+      "3279:53814",
+      "Variant=default, Size=default, Pressed=on, Status=hover"
+    ],
+    [
+      "3279:135",
+      "3279:53814",
+      "Variant=default, Size=default, Pressed=on, Status=focus"
+    ],
+    [
+      "3279:142",
+      "3279:53814",
+      "Variant=default, Size=default, Pressed=on, Status=disabled"
+    ],
+    [
+      "3279:149",
+      "3279:53814",
+      "Variant=default, Size=sm, Pressed=off, Status=default"
+    ],
+    [
+      "3279:156",
+      "3279:53814",
+      "Variant=default, Size=sm, Pressed=off, Status=hover"
+    ],
+    [
+      "3279:163",
+      "3279:53814",
+      "Variant=default, Size=sm, Pressed=off, Status=focus"
+    ],
+    [
+      "3279:170",
+      "3279:53814",
+      "Variant=default, Size=sm, Pressed=off, Status=disabled"
+    ],
+    [
+      "3279:177",
+      "3279:53814",
+      "Variant=default, Size=sm, Pressed=on, Status=default"
+    ],
+    [
+      "3279:184",
+      "3279:53814",
+      "Variant=default, Size=sm, Pressed=on, Status=hover"
+    ],
+    [
+      "3279:191",
+      "3279:53814",
+      "Variant=default, Size=sm, Pressed=on, Status=focus"
+    ],
+    [
+      "3279:198",
+      "3279:53814",
+      "Variant=default, Size=sm, Pressed=on, Status=disabled"
+    ],
+    [
+      "3279:205",
+      "3279:53814",
+      "Variant=default, Size=lg, Pressed=off, Status=default"
+    ],
+    [
+      "3279:212",
+      "3279:53814",
+      "Variant=default, Size=lg, Pressed=off, Status=hover"
+    ],
+    [
+      "3279:219",
+      "3279:53814",
+      "Variant=default, Size=lg, Pressed=off, Status=focus"
+    ],
+    [
+      "3279:226",
+      "3279:53814",
+      "Variant=default, Size=lg, Pressed=off, Status=disabled"
+    ],
+    [
+      "3279:233",
+      "3279:53814",
+      "Variant=default, Size=lg, Pressed=on, Status=default"
+    ],
+    [
+      "3279:240",
+      "3279:53814",
+      "Variant=default, Size=lg, Pressed=on, Status=hover"
+    ],
+    [
+      "3279:247",
+      "3279:53814",
+      "Variant=default, Size=lg, Pressed=on, Status=focus"
+    ],
+    [
+      "3279:254",
+      "3279:53814",
+      "Variant=default, Size=lg, Pressed=on, Status=disabled"
+    ],
+    [
+      "3279:261",
+      "3279:53814",
+      "Variant=outline, Size=default, Pressed=off, Status=default"
+    ],
+    [
+      "3279:268",
+      "3279:53814",
+      "Variant=outline, Size=default, Pressed=off, Status=hover"
+    ],
+    [
+      "3279:275",
+      "3279:53814",
+      "Variant=outline, Size=default, Pressed=off, Status=focus"
+    ],
+    [
+      "3279:282",
+      "3279:53814",
+      "Variant=outline, Size=default, Pressed=off, Status=disabled"
+    ],
+    [
+      "3279:289",
+      "3279:53814",
+      "Variant=outline, Size=default, Pressed=on, Status=default"
+    ],
+    [
+      "3279:296",
+      "3279:53814",
+      "Variant=outline, Size=default, Pressed=on, Status=hover"
+    ],
+    [
+      "3279:303",
+      "3279:53814",
+      "Variant=outline, Size=default, Pressed=on, Status=focus"
+    ],
+    [
+      "3279:310",
+      "3279:53814",
+      "Variant=outline, Size=default, Pressed=on, Status=disabled"
+    ],
+    [
+      "3279:317",
+      "3279:53814",
+      "Variant=outline, Size=sm, Pressed=off, Status=default"
+    ],
+    [
+      "3279:324",
+      "3279:53814",
+      "Variant=outline, Size=sm, Pressed=off, Status=hover"
+    ],
+    [
+      "3279:331",
+      "3279:53814",
+      "Variant=outline, Size=sm, Pressed=off, Status=focus"
+    ],
+    [
+      "3279:338",
+      "3279:53814",
+      "Variant=outline, Size=sm, Pressed=off, Status=disabled"
+    ],
+    [
+      "3279:345",
+      "3279:53814",
+      "Variant=outline, Size=sm, Pressed=on, Status=default"
+    ],
+    [
+      "3279:352",
+      "3279:53814",
+      "Variant=outline, Size=sm, Pressed=on, Status=hover"
+    ],
+    [
+      "3279:359",
+      "3279:53814",
+      "Variant=outline, Size=sm, Pressed=on, Status=focus"
+    ],
+    [
+      "3279:366",
+      "3279:53814",
+      "Variant=outline, Size=sm, Pressed=on, Status=disabled"
+    ],
+    [
+      "3279:373",
+      "3279:53814",
+      "Variant=outline, Size=lg, Pressed=off, Status=default"
+    ],
+    [
+      "3279:380",
+      "3279:53814",
+      "Variant=outline, Size=lg, Pressed=off, Status=hover"
+    ],
+    [
+      "3279:387",
+      "3279:53814",
+      "Variant=outline, Size=lg, Pressed=off, Status=focus"
+    ],
+    [
+      "3279:394",
+      "3279:53814",
+      "Variant=outline, Size=lg, Pressed=off, Status=disabled"
+    ],
+    [
+      "3279:401",
+      "3279:53814",
+      "Variant=outline, Size=lg, Pressed=on, Status=default"
+    ],
+    [
+      "3279:408",
+      "3279:53814",
+      "Variant=outline, Size=lg, Pressed=on, Status=hover"
+    ],
+    [
+      "3279:415",
+      "3279:53814",
+      "Variant=outline, Size=lg, Pressed=on, Status=focus"
+    ],
+    [
+      "3279:422",
+      "3279:53814",
+      "Variant=outline, Size=lg, Pressed=on, Status=disabled"
+    ],
+    [
+      "3331:2657",
+      "3331:60517",
+      "Type=single, Items=1, Selected=none"
+    ],
+    [
+      "3331:2667",
+      "3331:60517",
+      "Type=single, Items=1, Selected=1"
+    ],
+    [
+      "3331:2677",
+      "3331:60517",
+      "Type=multiple, Items=1, Selected=none"
+    ],
+    [
+      "3331:56071",
+      "3331:60517",
+      "Type=single, Items=2, Selected=none"
+    ],
+    [
+      "3331:56090",
+      "3331:60517",
+      "Type=single, Items=2, Selected=1"
+    ],
+    [
+      "3331:56109",
+      "3331:60517",
+      "Type=single, Items=2, Selected=2"
+    ],
+    [
+      "3331:56128",
+      "3331:60517",
+      "Type=multiple, Items=2, Selected=none"
+    ],
+    [
+      "3331:56145",
+      "3331:60517",
+      "Type=single, Items=3, Selected=none"
+    ],
+    [
+      "3331:56173",
+      "3331:60517",
+      "Type=single, Items=3, Selected=1"
+    ],
+    [
+      "3331:56201",
+      "3331:60517",
+      "Type=single, Items=3, Selected=2"
+    ],
+    [
+      "3331:56229",
+      "3331:60517",
+      "Type=single, Items=3, Selected=3"
+    ],
+    [
+      "3331:56257",
+      "3331:60517",
+      "Type=multiple, Items=3, Selected=none"
+    ],
+    [
+      "3331:56282",
+      "3331:60517",
+      "Type=single, Items=4, Selected=none"
+    ],
+    [
+      "3331:56319",
+      "3331:60517",
+      "Type=single, Items=4, Selected=1"
+    ],
+    [
+      "3331:56356",
+      "3331:60517",
+      "Type=single, Items=4, Selected=2"
+    ],
+    [
+      "3331:56393",
+      "3331:60517",
+      "Type=single, Items=4, Selected=3"
+    ],
+    [
+      "3331:56430",
+      "3331:60517",
+      "Type=single, Items=4, Selected=4"
+    ],
+    [
+      "3331:56467",
+      "3331:60517",
+      "Type=multiple, Items=4, Selected=none"
+    ],
+    [
+      "3331:56500",
+      "3331:60517",
+      "Type=single, Items=5, Selected=none"
+    ],
+    [
+      "3331:56546",
+      "3331:60517",
+      "Type=single, Items=5, Selected=1"
+    ],
+    [
+      "3331:56592",
+      "3331:60517",
+      "Type=single, Items=5, Selected=2"
+    ],
+    [
+      "3331:56638",
+      "3331:60517",
+      "Type=single, Items=5, Selected=3"
+    ],
+    [
+      "3331:56684",
+      "3331:60517",
+      "Type=single, Items=5, Selected=4"
+    ],
+    [
+      "3331:56730",
+      "3331:60517",
+      "Type=single, Items=5, Selected=5"
+    ],
+    [
+      "3331:56776",
+      "3331:60517",
+      "Type=multiple, Items=5, Selected=none"
+    ],
+    [
+      "3331:56817",
+      "3331:60517",
+      "Type=single, Items=6, Selected=none"
+    ],
+    [
+      "3331:56872",
+      "3331:60517",
+      "Type=single, Items=6, Selected=1"
+    ],
+    [
+      "3331:56927",
+      "3331:60517",
+      "Type=single, Items=6, Selected=2"
+    ],
+    [
+      "3331:56982",
+      "3331:60517",
+      "Type=single, Items=6, Selected=3"
+    ],
+    [
+      "3331:57037",
+      "3331:60517",
+      "Type=single, Items=6, Selected=4"
+    ],
+    [
+      "3331:57092",
+      "3331:60517",
+      "Type=single, Items=6, Selected=5"
+    ],
+    [
+      "3331:57147",
+      "3331:60517",
+      "Type=single, Items=6, Selected=6"
+    ],
+    [
+      "3331:57202",
+      "3331:60517",
+      "Type=multiple, Items=6, Selected=none"
+    ],
+    [
+      "3331:57251",
+      "3331:60517",
+      "Type=single, Items=7, Selected=none"
+    ],
+    [
+      "3331:57315",
+      "3331:60517",
+      "Type=single, Items=7, Selected=1"
+    ],
+    [
+      "3331:57379",
+      "3331:60517",
+      "Type=single, Items=7, Selected=2"
+    ],
+    [
+      "3331:57443",
+      "3331:60517",
+      "Type=single, Items=7, Selected=3"
+    ],
+    [
+      "3331:57507",
+      "3331:60517",
+      "Type=single, Items=7, Selected=4"
+    ],
+    [
+      "3331:57571",
+      "3331:60517",
+      "Type=single, Items=7, Selected=5"
+    ],
+    [
+      "3331:57635",
+      "3331:60517",
+      "Type=single, Items=7, Selected=6"
+    ],
+    [
+      "3331:57699",
+      "3331:60517",
+      "Type=single, Items=7, Selected=7"
+    ],
+    [
+      "3331:57763",
+      "3331:60517",
+      "Type=multiple, Items=7, Selected=none"
+    ],
+    [
+      "3331:57820",
+      "3331:60517",
+      "Type=single, Items=8, Selected=none"
+    ],
+    [
+      "3331:57893",
+      "3331:60517",
+      "Type=single, Items=8, Selected=1"
+    ],
+    [
+      "3331:57966",
+      "3331:60517",
+      "Type=single, Items=8, Selected=2"
+    ],
+    [
+      "3331:58039",
+      "3331:60517",
+      "Type=single, Items=8, Selected=3"
+    ],
+    [
+      "3331:58112",
+      "3331:60517",
+      "Type=single, Items=8, Selected=4"
+    ],
+    [
+      "3331:58185",
+      "3331:60517",
+      "Type=single, Items=8, Selected=5"
+    ],
+    [
+      "3331:58258",
+      "3331:60517",
+      "Type=single, Items=8, Selected=6"
+    ],
+    [
+      "3331:58331",
+      "3331:60517",
+      "Type=single, Items=8, Selected=7"
+    ],
+    [
+      "3331:58404",
+      "3331:60517",
+      "Type=single, Items=8, Selected=8"
+    ],
+    [
+      "3331:58477",
+      "3331:60517",
+      "Type=multiple, Items=8, Selected=none"
+    ],
+    [
+      "3331:58542",
+      "3331:60517",
+      "Type=single, Items=9, Selected=none"
+    ],
+    [
+      "3331:58624",
+      "3331:60517",
+      "Type=single, Items=9, Selected=1"
+    ],
+    [
+      "3331:58706",
+      "3331:60517",
+      "Type=single, Items=9, Selected=2"
+    ],
+    [
+      "3331:58788",
+      "3331:60517",
+      "Type=single, Items=9, Selected=3"
+    ],
+    [
+      "3331:58870",
+      "3331:60517",
+      "Type=single, Items=9, Selected=4"
+    ],
+    [
+      "3331:58952",
+      "3331:60517",
+      "Type=single, Items=9, Selected=5"
+    ],
+    [
+      "3331:59034",
+      "3331:60517",
+      "Type=single, Items=9, Selected=6"
+    ],
+    [
+      "3331:59116",
+      "3331:60517",
+      "Type=single, Items=9, Selected=7"
+    ],
+    [
+      "3331:59198",
+      "3331:60517",
+      "Type=single, Items=9, Selected=8"
+    ],
+    [
+      "3331:59280",
+      "3331:60517",
+      "Type=single, Items=9, Selected=9"
+    ],
+    [
+      "3331:59362",
+      "3331:60517",
+      "Type=multiple, Items=9, Selected=none"
+    ],
+    [
+      "3331:59435",
+      "3331:60517",
+      "Type=single, Items=10, Selected=none"
+    ],
+    [
+      "3331:59526",
+      "3331:60517",
+      "Type=single, Items=10, Selected=1"
+    ],
+    [
+      "3331:59617",
+      "3331:60517",
+      "Type=single, Items=10, Selected=2"
+    ],
+    [
+      "3331:59708",
+      "3331:60517",
+      "Type=single, Items=10, Selected=3"
+    ],
+    [
+      "3331:59799",
+      "3331:60517",
+      "Type=single, Items=10, Selected=4"
+    ],
+    [
+      "3331:59890",
+      "3331:60517",
+      "Type=single, Items=10, Selected=5"
+    ],
+    [
+      "3331:59981",
+      "3331:60517",
+      "Type=single, Items=10, Selected=6"
+    ],
+    [
+      "3331:60072",
+      "3331:60517",
+      "Type=single, Items=10, Selected=7"
+    ],
+    [
+      "3331:60163",
+      "3331:60517",
+      "Type=single, Items=10, Selected=8"
+    ],
+    [
+      "3331:60254",
+      "3331:60517",
+      "Type=single, Items=10, Selected=9"
+    ],
+    [
+      "3331:60345",
+      "3331:60517",
+      "Type=single, Items=10, Selected=10"
+    ],
+    [
+      "3331:60436",
+      "3331:60517",
+      "Type=multiple, Items=10, Selected=none"
+    ]
+  ]
+}

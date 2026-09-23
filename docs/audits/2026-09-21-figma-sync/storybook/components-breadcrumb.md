@@ -1,0 +1,61 @@
+# Breadcrumb
+
+ID: components-breadcrumb
+
+## Stories
+
+### Playground
+
+Story ID: components-breadcrumb--playground
+
+```
+import { BreadcrumbExample } from "@reina-madre/design-system";
+
+const Playground = () => <BreadcrumbExample levels={4} reduction="none" />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as BreadcrumbStories from "./breadcrumb.stories"
+import breadcrumbSource from "./breadcrumb.tsx?raw"
+import exampleSource from "./breadcrumb-example.tsx?raw"
+import { BreadcrumbLevels, BreadcrumbReduction, BreadcrumbSpecifications } from "./breadcrumb-docs"
+
+<Meta of={BreadcrumbStories} />
+<Title of={BreadcrumbStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Rutas de 2, 3 y 4 niveles mediante composición.
+  - Links, ubicación actual, separadores y patrones de reducción.
+  - Elipsis estática o interactiva con Dropdown Menu.
+  - Navegación semántica con `aria-label` y `aria-current`.
+</details>
+
+## Niveles
+
+<div className="mb-12"><BreadcrumbLevels /></div>
+
+## Reducción
+
+<div className="mb-12"><BreadcrumbReduction /></div>
+
+## Especificaciones
+
+<div className="mb-12"><BreadcrumbSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={breadcrumbSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

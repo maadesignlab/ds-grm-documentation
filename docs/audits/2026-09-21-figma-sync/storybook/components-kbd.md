@@ -1,0 +1,62 @@
+# Kbd
+
+ID: components-kbd
+
+## Stories
+
+### Playground
+
+Story ID: components-kbd--playground
+
+```
+import { KbdExample } from "@reina-madre/design-system";
+
+const Playground = () => <KbdExample />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as KbdStories from "./kbd.stories"
+import primitiveSource from "./kbd.tsx?raw"
+import exampleSource from "./kbd-example.tsx?raw"
+import { KbdCompositions, KbdContent, KbdSpecifications } from "./kbd-docs"
+
+<Meta of={KbdStories} />
+<Title of={KbdStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva sin extensiones la API oficial `Kbd` y `KbdGroup` de shadcn/ui.
+  - Texto, icono y grupos se expresan mediante `children`; no se añaden props privadas de contenido o estilo.
+  - El aspecto oscuro se obtiene únicamente por contexto real de `TooltipContent`.
+  - Incluye las composiciones oficiales con Button, Tooltip e Input Group.
+  - Playground y Docs consumen la misma matriz `kbdExamplePresets` y la instancia `KbdExample`.
+</details>
+
+## Contenido y agrupación
+
+<div className="mb-12"><KbdContent /></div>
+
+## Composiciones oficiales
+
+<div className="mb-12"><KbdCompositions /></div>
+
+## Especificaciones
+
+<div className="mb-12"><KbdSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={primitiveSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

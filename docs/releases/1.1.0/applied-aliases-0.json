@@ -1,0 +1,96 @@
+{
+  "mutatedVariableIds": [
+    "VariableID:168:368",
+    "VariableID:168:369",
+    "VariableID:51:26",
+    "VariableID:71:12",
+    "VariableID:203:202",
+    "VariableID:203:209",
+    "VariableID:203:211",
+    "VariableID:164:365",
+    "VariableID:168:368"
+  ],
+  "changes": [
+    {
+      "id": "VariableID:168:368",
+      "name": "background-hover",
+      "mode": "1154:0",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1154:4048"
+      }
+    },
+    {
+      "id": "VariableID:168:369",
+      "name": "background-active",
+      "mode": "1154:0",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1154:4048"
+      }
+    },
+    {
+      "id": "VariableID:51:26",
+      "name": "secondary/foreground",
+      "mode": "1154:0",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1154:4057"
+      }
+    },
+    {
+      "id": "VariableID:71:12",
+      "name": "sidebar/primary/foreground",
+      "mode": "1154:0",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:51:172"
+      }
+    },
+    {
+      "id": "VariableID:203:202",
+      "name": "success/foreground",
+      "mode": "1154:0",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1154:4057"
+      }
+    },
+    {
+      "id": "VariableID:203:209",
+      "name": "error/foreground",
+      "mode": "1154:0",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1154:4057"
+      }
+    },
+    {
+      "id": "VariableID:203:211",
+      "name": "info/foreground",
+      "mode": "1154:0",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1154:4057"
+      }
+    },
+    {
+      "id": "VariableID:164:365",
+      "name": "primary-active",
+      "mode": "44:8",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:44:42"
+      }
+    },
+    {
+      "id": "VariableID:168:368",
+      "name": "background-hover",
+      "mode": "44:8",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:51:165"
+      }
+    }
+  ]
+}

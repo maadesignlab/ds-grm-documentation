@@ -37,7 +37,7 @@ function TableHeader({ className, ...props }: React.ComponentProps<"thead">) {
   return (
     <thead
       data-slot="table-header"
-      className={cn("sticky top-0 z-10 bg-muted/40 [&_tr]:border-b [&_tr]:bg-transparent [&_tr:hover]:bg-transparent", className)}
+      className={cn("sticky top-0 z-10 bg-(--table-header-background) [&_tr]:border-b [&_tr]:bg-transparent [&_tr:hover]:bg-transparent", className)}
       {...props}
     />
   )
@@ -55,7 +55,7 @@ function TableBody({
       data-striped={striped || undefined}
       data-striped-rows={striped ? stripedRows : undefined}
       className={cn(
-        "[&_tr:last-child]:border-0 data-[striped=true]:data-[striped-rows=odd]:[&_tr:nth-child(odd)]:bg-muted/5 data-[striped=true]:data-[striped-rows=even]:[&_tr:nth-child(even)]:bg-muted/5",
+        "[&_tr:last-child]:border-0 data-[striped=true]:data-[striped-rows=odd]:[&_tr:nth-child(odd)]:bg-(--table-row-alternate) data-[striped=true]:data-[striped-rows=even]:[&_tr:nth-child(even)]:bg-(--table-row-alternate)",
         className
       )}
       {...props}

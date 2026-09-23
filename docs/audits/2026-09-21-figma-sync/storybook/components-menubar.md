@@ -1,0 +1,67 @@
+# Menubar
+
+ID: components-menubar
+
+## Stories
+
+### Playground
+
+Story ID: components-menubar--playground
+
+```
+import { MenubarExample } from "@reina-madre/design-system";
+
+const Playground = () => <MenubarExample
+    key={`${args.optionCount}-${args.defaultOpen}-${args.activeOption}-${args.disabledOption}`} />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as MenubarStories from "./menubar.stories"
+import primitiveSource from "./menubar.tsx?raw"
+import exampleSource from "./menubar-example.tsx?raw"
+import { MenubarAmounts, MenubarCompositions, MenubarSpecifications, MenubarStates } from "./menubar-docs"
+
+<Meta of={MenubarStories} />
+<Title of={MenubarStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva el primitive Radix, los subcomponentes y la API pública oficial de Menubar.
+  - Implementa de 1 a 10 opciones, estado abierto/cerrado, opción activa y disabled.
+  - Incluye items, grupos, labels, separadores, shortcuts, checkbox, radio y submenús.
+  - Mantiene navegación por teclado, foco, Escape y cambio lateral entre menús.
+  - Playground y Docs renderizan exclusivamente `MenubarExample`.
+</details>
+
+## Estados
+
+<div className="mb-12"><MenubarStates /></div>
+
+## Cantidad de opciones
+
+<div className="mb-12"><MenubarAmounts /></div>
+
+## Composición
+
+<div className="mb-12"><MenubarCompositions /></div>
+
+## Especificaciones
+
+<div className="mb-12"><MenubarSpecifications /></div>
+
+## Código
+
+### Primitive oficial
+
+<Source language="tsx" code={primitiveSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

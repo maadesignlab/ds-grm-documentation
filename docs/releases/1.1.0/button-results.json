@@ -1,0 +1,122 @@
+[
+  {
+    "brand": "grm-global",
+    "normal": {
+      "brand": "grm-global",
+      "height": 32,
+      "radius": "6px",
+      "color": "rgb(255, 255, 255)",
+      "gradient": "linear-gradient(135deg, rgb(22, 111, 84) 0%, rgb(0, 100, 89) 100%)",
+      "overlay": "0",
+      "overlayColor": "oklch(0.145 0 none)"
+    },
+    "hover": {
+      "brand": "grm-global",
+      "height": 32,
+      "radius": "6px",
+      "color": "rgb(255, 255, 255)",
+      "gradient": "linear-gradient(135deg, rgb(22, 111, 84) 0%, rgb(0, 100, 89) 100%)",
+      "overlay": "0.08",
+      "overlayColor": "oklch(0.145 0 none)"
+    },
+    "active": {
+      "brand": "grm-global",
+      "height": 32,
+      "radius": "6px",
+      "color": "rgb(255, 255, 255)",
+      "gradient": "linear-gradient(135deg, rgb(22, 111, 84) 0%, rgb(0, 100, 89) 100%)",
+      "overlay": "0.16",
+      "overlayColor": "oklch(0.145 0 none)"
+    }
+  },
+  {
+    "brand": "reina-madre",
+    "normal": {
+      "brand": "reina-madre",
+      "height": 32,
+      "radius": "6px",
+      "color": "rgb(255, 255, 255)",
+      "gradient": "linear-gradient(135deg, rgb(149, 55, 93) 0%, rgb(116, 56, 138) 100%)",
+      "overlay": "0",
+      "overlayColor": "oklch(0.145 0 none)"
+    },
+    "hover": {
+      "brand": "reina-madre",
+      "height": 32,
+      "radius": "6px",
+      "color": "rgb(255, 255, 255)",
+      "gradient": "linear-gradient(135deg, rgb(149, 55, 93) 0%, rgb(116, 56, 138) 100%)",
+      "overlay": "0.08",
+      "overlayColor": "oklch(0.145 0 none)"
+    },
+    "active": {
+      "brand": "reina-madre",
+      "height": 32,
+      "radius": "6px",
+      "color": "rgb(255, 255, 255)",
+      "gradient": "linear-gradient(135deg, rgb(149, 55, 93) 0%, rgb(116, 56, 138) 100%)",
+      "overlay": "0.16",
+      "overlayColor": "oklch(0.145 0 none)"
+    }
+  },
+  {
+    "brand": "maria-linda",
+    "normal": {
+      "brand": "maria-linda",
+      "height": 32,
+      "radius": "6px",
+      "color": "rgb(255, 255, 255)",
+      "gradient": "linear-gradient(135deg, rgb(75, 89, 87) 0%, rgb(55, 106, 98) 100%)",
+      "overlay": "0",
+      "overlayColor": "oklch(0.145 0 none)"
+    },
+    "hover": {
+      "brand": "maria-linda",
+      "height": 32,
+      "radius": "6px",
+      "color": "rgb(255, 255, 255)",
+      "gradient": "linear-gradient(135deg, rgb(75, 89, 87) 0%, rgb(55, 106, 98) 100%)",
+      "overlay": "0.08",
+      "overlayColor": "oklch(0.145 0 none)"
+    },
+    "active": {
+      "brand": "maria-linda",
+      "height": 32,
+      "radius": "6px",
+      "color": "rgb(255, 255, 255)",
+      "gradient": "linear-gradient(135deg, rgb(75, 89, 87) 0%, rgb(55, 106, 98) 100%)",
+      "overlay": "0.16",
+      "overlayColor": "oklch(0.145 0 none)"
+    }
+  },
+  {
+    "brand": "piel-sana",
+    "normal": {
+      "brand": "piel-sana",
+      "height": 32,
+      "radius": "6px",
+      "color": "rgb(255, 255, 255)",
+      "gradient": "linear-gradient(135deg, rgb(148, 71, 26) 0%, rgb(40, 111, 97) 100%)",
+      "overlay": "0",
+      "overlayColor": "oklch(0.145 0 none)"
+    },
+    "hover": {
+      "brand": "piel-sana",
+      "height": 32,
+      "radius": "6px",
+      "color": "rgb(255, 255, 255)",
+      "gradient": "linear-gradient(135deg, rgb(148, 71, 26) 0%, rgb(40, 111, 97) 100%)",
+      "overlay": "0.08",
+      "overlayColor": "oklch(0.145 0 none)"
+    },
+    "active": {
+      "brand": "piel-sana",
+      "height": 32,
+      "radius": "6px",
+      "color": "rgb(255, 255, 255)",
+      "gradient": "linear-gradient(135deg, rgb(148, 71, 26) 0%, rgb(40, 111, 97) 100%)",
+      "overlay": "0.16",
+      "overlayColor": "oklch(0.145 0 none)"
+    }
+  }
+]

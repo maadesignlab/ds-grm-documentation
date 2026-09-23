@@ -1,0 +1,334 @@
+{
+  "id": "1771:929",
+  "name": "Collapsible",
+  "total": 10,
+  "nodes": 81,
+  "refs": {
+    "VariableID:186:174": {
+      "count": 7,
+      "example": "1778:16205"
+    },
+    "VariableID:50:513": {
+      "count": 6,
+      "example": "1778:16205"
+    },
+    "VariableID:44:184": {
+      "count": 38,
+      "example": "1778:16199"
+    },
+    "VariableID:99:17": {
+      "count": 16,
+      "example": "1778:16199"
+    },
+    "VariableID:132:811": {
+      "count": 17,
+      "example": "1778:16199"
+    },
+    "VariableID:50:640": {
+      "count": 3,
+      "example": "1778:16199"
+    },
+    "VariableID:50:514": {
+      "count": 6,
+      "example": "1778:16200"
+    },
+    "VariableID:50:526": {
+      "count": 12,
+      "example": "1778:16200"
+    },
+    "VariableID:50:534": {
+      "count": 16,
+      "example": "1778:16200"
+    },
+    "VariableID:51:21": {
+      "count": 8,
+      "example": "1777:15779"
+    },
+    "VariableID:71:2": {
+      "count": 8,
+      "example": "1777:15781"
+    },
+    "VariableID:50:641": {
+      "count": 5,
+      "example": "1777:15781"
+    },
+    "VariableID:50:639": {
+      "count": 9,
+      "example": "1777:15783"
+    },
+    "VariableID:429:249": {
+      "count": 11,
+      "example": "1778:16319"
+    },
+    "VariableID:44:188": {
+      "count": 10,
+      "example": "1778:16319"
+    },
+    "VariableID:186:183": {
+      "count": 2,
+      "example": "1994:17843"
+    },
+    "VariableID:44:185": {
+      "count": 2,
+      "example": "1994:17843"
+    },
+    "VariableID:51:172": {
+      "count": 2,
+      "example": "I1994:17843;313:4442"
+    },
+    "VariableID:50:615": {
+      "count": 1,
+      "example": "I1994:17843;313:4442"
+    }
+  },
+  "texts": {
+    "S:a652e3f14d671105454c3f2ba846e458c20c9a27,": {
+      "count": 3,
+      "example": "1778:16199"
+    },
+    "S:1d452614e679106aeb9f64166fd66fd5df9751c7,": {
+      "count": 5,
+      "example": "1777:15781"
+    },
+    "S:b9200b5971cf3f84adc1475861c0b20e11d4e15e,": {
+      "count": 8,
+      "example": "1777:15783"
+    },
+    "S:362d32771c7af0e89df304f202df397487c29605,": {
+      "count": 1,
+      "example": "I1994:17843;313:4442"
+    }
+  },
+  "styles": {
+    "S:b8adb059f130b7f80c3daff5ccaceb3c9104f4ef,": {
+      "count": 1,
+      "example": "1994:17843"
+    }
+  },
+  "sets": [
+    {
+      "id": "1778:16205",
+      "name": "_components/Collapsible/FixedTrigger",
+      "count": 2,
+      "props": {
+        "Main Text#1994:18": {
+          "type": "TEXT",
+          "defaultValue": "Cita prenatal"
+        }
+      },
+      "default": {
+        "id": "1778:16205",
+        "name": "_components/Collapsible/FixedTrigger",
+        "w": 350,
+        "h": 32,
+        "layout": "HORIZONTAL",
+        "gap": 6,
+        "padding": [
+          0,
+          16,
+          0,
+          16
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:186:174"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          }
+        }
+      }
+    },
+    {
+      "id": "1778:16243",
+      "name": "Collapsible/FixedTrigger",
+      "count": 2,
+      "props": {
+        "Expanded Content#1994:12": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "collapsed",
+          "variantOptions": [
+            "collapsed",
+            "expanded"
+          ]
+        }
+      },
+      "default": {
+        "id": "1778:16242",
+        "name": "Status=collapsed",
+        "w": 350,
+        "h": 78,
+        "layout": "VERTICAL",
+        "gap": 8,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "1778:16320",
+      "name": "_components/Collapsible/ExpandableTrigger",
+      "count": 2,
+      "props": {
+        "Main Text#1994:19": {
+          "type": "TEXT",
+          "defaultValue": "Detalles de la consulta"
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "collapsed",
+          "variantOptions": [
+            "collapsed",
+            "expanded"
+          ]
+        }
+      },
+      "default": {
+        "id": "1778:16319",
+        "name": "Status=collapsed",
+        "w": 350,
+        "h": 30,
+        "layout": "HORIZONTAL",
+        "gap": 6,
+        "padding": [
+          0,
+          10,
+          0,
+          10
+        ],
+        "radius": 10,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9647058844566345,
+              "g": 0.9490196108818054,
+              "b": 0.95686274766922
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:44:188"
+              }
+            }
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:186:174"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:249"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:249"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:44:188"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1778:16379",
+      "name": "Collapsible/ExpandableTrigger",
+      "count": 2,
+      "props": {
+        "Expanded Content#1994:15": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "collapsed",
+          "variantOptions": [
+            "collapsed",
+            "expanded"
+          ]
+        }
+      },
+      "default": {
+        "id": "1778:16378",
+        "name": "Status=collapsed",
+        "w": 350,
+        "h": 30,
+        "layout": "VERTICAL",
+        "gap": 1,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 8,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9605867862701416,
+              "g": 0.9605870842933655,
+              "b": 0.9605869054794312
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    }
+  ],
+  "errors": []
+}

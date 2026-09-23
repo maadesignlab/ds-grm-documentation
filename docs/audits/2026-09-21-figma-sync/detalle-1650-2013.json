@@ -1,0 +1,351 @@
+{
+  "id": "1650:2013",
+  "name": "Hover Card",
+  "total": 19,
+  "nodes": 131,
+  "refs": {
+    "VariableID:50:514": {
+      "count": 24,
+      "example": "1650:2071"
+    },
+    "VariableID:186:174": {
+      "count": 16,
+      "example": "1650:2071"
+    },
+    "VariableID:50:534": {
+      "count": 68,
+      "example": "1650:2071"
+    },
+    "VariableID:44:185": {
+      "count": 16,
+      "example": "1650:2071"
+    },
+    "VariableID:51:172": {
+      "count": 16,
+      "example": "I1650:2071;313:2252"
+    },
+    "VariableID:50:612": {
+      "count": 8,
+      "example": "I1650:2071;313:2252"
+    },
+    "VariableID:132:811": {
+      "count": 25,
+      "example": "I1650:2071;313:2252"
+    },
+    "VariableID:50:639": {
+      "count": 8,
+      "example": "I1650:2071;313:2252"
+    },
+    "VariableID:429:249": {
+      "count": 36,
+      "example": "1650:2073"
+    },
+    "VariableID:51:20": {
+      "count": 18,
+      "example": "1650:2073"
+    },
+    "VariableID:51:21": {
+      "count": 18,
+      "example": "1650:2073"
+    },
+    "VariableID:50:515": {
+      "count": 36,
+      "example": "I1650:2073;1654:2331"
+    },
+    "VariableID:51:25": {
+      "count": 36,
+      "example": "I1650:2073;1654:2334"
+    },
+    "VariableID:99:17": {
+      "count": 17,
+      "example": "I1650:2073;1654:2334"
+    },
+    "VariableID:50:640": {
+      "count": 9,
+      "example": "I1650:2073;1654:2334"
+    },
+    "VariableID:71:2": {
+      "count": 18,
+      "example": "I1650:2073;1654:2339"
+    },
+    "VariableID:44:184": {
+      "count": 16,
+      "example": "1650:2075"
+    },
+    "VariableID:50:641": {
+      "count": 8,
+      "example": "1650:2075"
+    },
+    "VariableID:50:530": {
+      "count": 8,
+      "example": "1650:2094"
+    }
+  },
+  "texts": {
+    "S:592db2195316334a05d7f58ef0fced7f0ff0cfb0,": {
+      "count": 8,
+      "example": "I1650:2071;313:2252"
+    },
+    "S:a652e3f14d671105454c3f2ba846e458c20c9a27,": {
+      "count": 9,
+      "example": "I1650:2073;1654:2334"
+    },
+    "UNSTYLED": {
+      "count": 18,
+      "example": "I1650:2073;1696:17434"
+    },
+    "S:1d452614e679106aeb9f64166fd66fd5df9751c7,": {
+      "count": 8,
+      "example": "1650:2075"
+    }
+  },
+  "styles": {
+    "S:b8adb059f130b7f80c3daff5ccaceb3c9104f4ef,": {
+      "count": 8,
+      "example": "1650:2071"
+    },
+    "S:8239e3343213e30a89616ca2aaf562721d493256,": {
+      "count": 9,
+      "example": "1650:2073"
+    }
+  },
+  "sets": [
+    {
+      "id": "1650:2069",
+      "name": "Hover Card",
+      "count": 16,
+      "props": {
+        "Tooltip Trigger#1136:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "313:2250",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "4ec56d5bceddd69a5410cdf1dcec7cb804d7ce75"
+            }
+          ]
+        },
+        "Trigger Text#1154:0": {
+          "type": "TEXT",
+          "defaultValue": "Descargar informe"
+        },
+        "Trigger Type": {
+          "type": "VARIANT",
+          "defaultValue": "content",
+          "variantOptions": [
+            "content",
+            "text"
+          ]
+        },
+        "Opened": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "true",
+            "false"
+          ]
+        },
+        "Tooltip Alignment": {
+          "type": "VARIANT",
+          "defaultValue": "top",
+          "variantOptions": [
+            "top",
+            "right",
+            "left",
+            "bottom"
+          ]
+        }
+      },
+      "default": {
+        "id": "1650:2102",
+        "name": "Trigger Type=content, Opened=false, Tooltip Alignment=top",
+        "w": 148,
+        "h": 32,
+        "layout": "VERTICAL",
+        "gap": 4,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:530"
+          }
+        }
+      }
+    },
+    {
+      "id": "1650:2121",
+      "name": "_components/HoverCard/HoverCard Base",
+      "count": 1,
+      "props": {
+        "HoverCard Content#1696:11": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": false,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Property 1": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default"
+          ]
+        }
+      },
+      "default": {
+        "id": "1650:2122",
+        "name": "Property 1=Default",
+        "w": 276,
+        "h": 104,
+        "layout": "VERTICAL",
+        "gap": -1,
+        "padding": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "radius": 6,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9803921580314636,
+              "g": 0.9725490212440491,
+              "b": 0.9843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:20"
+              }
+            }
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8549019694328308,
+              "g": 0.8313725590705872,
+              "b": 0.843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:21"
+              }
+            }
+          }
+        ],
+        "effects": [
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 4,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.10000000149011612
+            },
+            "offset": {
+              "x": 0,
+              "y": 2
+            },
+            "spread": -2,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": false
+          },
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 6,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.10000000149011612
+            },
+            "offset": {
+              "x": 0,
+              "y": 4
+            },
+            "spread": -1,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": false
+          }
+        ],
+        "bound": {
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:249"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:249"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:249"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:249"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:20"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:21"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "errors": []
+}

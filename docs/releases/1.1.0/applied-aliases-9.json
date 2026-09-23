@@ -1,0 +1,96 @@
+{
+  "mutatedVariableIds": [
+    "VariableID:168:369",
+    "VariableID:51:172",
+    "VariableID:164:185",
+    "VariableID:168:367",
+    "VariableID:51:26",
+    "VariableID:71:12",
+    "VariableID:203:209",
+    "VariableID:203:211",
+    "VariableID:51:172"
+  ],
+  "changes": [
+    {
+      "id": "VariableID:168:369",
+      "name": "background-active",
+      "mode": "44:8",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:51:164"
+      }
+    },
+    {
+      "id": "VariableID:51:172",
+      "name": "primary/foreground",
+      "mode": "44:8",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:51:171"
+      }
+    },
+    {
+      "id": "VariableID:164:185",
+      "name": "secondary-hover",
+      "mode": "44:8",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:44:71"
+      }
+    },
+    {
+      "id": "VariableID:168:367",
+      "name": "secondary-active",
+      "mode": "44:8",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:44:72"
+      }
+    },
+    {
+      "id": "VariableID:51:26",
+      "name": "secondary/foreground",
+      "mode": "44:8",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:51:171"
+      }
+    },
+    {
+      "id": "VariableID:71:12",
+      "name": "sidebar/primary/foreground",
+      "mode": "44:8",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:51:172"
+      }
+    },
+    {
+      "id": "VariableID:203:209",
+      "name": "error/foreground",
+      "mode": "44:8",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:51:171"
+      }
+    },
+    {
+      "id": "VariableID:203:211",
+      "name": "info/foreground",
+      "mode": "44:8",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:51:171"
+      }
+    },
+    {
+      "id": "VariableID:51:172",
+      "name": "primary/foreground",
+      "mode": "132:1",
+      "value": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:132:857"
+      }
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "id": "561:4282",
+  "name": "Input OTP",
+  "total": 106,
+  "nodes": 1180,
+  "refs": {
+    "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14": {
+      "count": 704,
+      "example": "566:5201"
+    },
+    "VariableID:6c0b2eff1ec5b7639605954af4b5f50e48f0b42e/1600:0": {
+      "count": 1409,
+      "example": "566:5201"
+    },
+    "VariableID:51:19": {
+      "count": 1182,
+      "example": "566:5201"
+    },
+    "VariableID:51:21": {
+      "count": 566,
+      "example": "566:5201"
+    },
+    "VariableID:44:188": {
+      "count": 62,
+      "example": "774:11578"
+    },
+    "VariableID:294:496": {
+      "count": 74,
+      "example": "566:5348"
+    },
+    "VariableID:248:511": {
+      "count": 42,
+      "example": "566:5348"
+    },
+    "VariableID:2533fece1e210f54eef01196856f9df131df7016/1419:1378": {
+      "count": 244,
+      "example": "567:568"
+    },
+    "VariableID:99:17": {
+      "count": 258,
+      "example": "567:568"
+    },
+    "VariableID:132:811": {
+      "count": 258,
+      "example": "567:568"
+    },
+    "VariableID:50:641": {
+      "count": 258,
+      "example": "567:568"
+    },
+    "VariableID:50:534": {
+      "count": 308,
+      "example": "774:11033"
+    },
+    "VariableID:424:1864": {
+      "count": 75,
+      "example": "774:11033"
+    },
+    "VariableID:332:2323": {
+      "count": 454,
+      "example": "774:11034"
+    },
+    "VariableID:50:526": {
+      "count": 34,
+      "example": "566:5306"
+    },
+    "VariableID:44:184": {
+      "count": 416,
+      "example": "I590:3507;590:3459"
+    },
+    "VariableID:1a3bd0e6b358b25c3826fd6fbac104d1165dfa8d/1046:6070": {
+      "count": 144,
+      "example": "566:5303"
+    },
+    "VariableID:6457372a9181ee5cc9bfb3cb417dff218406a0b2/1102:1": {
+      "count": 72,
+      "example": "566:5303"
+    },
+    "VariableID:afcdba21ea5e8229b29230e6c33d5264c0126558/1046:6066": {
+      "count": 72,
+      "example": "566:5303"
+    },
+    "VariableID:37e3bcb534ef6bff22270496d68b0ccdffee29af/1046:5739": {
+      "count": 19,
+      "example": "570:787"
+    }
+  },
+  "texts": {
+    "S:1d452614e679106aeb9f64166fd66fd5df9751c7,": {
+      "count": 258,
+      "example": "567:568"
+    }
+  },
+  "styles": {},
+  "sets": [
+    {
+      "id": "566:5307",
+      "name": "InputOTP/Base",
+      "count": 51,
+      "props": {
+        "Slot 1#774:288": {
+          "type": "TEXT",
+          "defaultValue": "1"
+        },
+        "Slot 2#774:313": {
+          "type": "TEXT",
+          "defaultValue": "1"
+        },
+        "Slot 3#774:338": {
+          "type": "TEXT",
+          "defaultValue": "1"
+        },
+        "Slot 4#774:363": {
+          "type": "TEXT",
+          "defaultValue": "1"
+        },
+        "Slot 5#774:388": {
+          "type": "TEXT",
+          "defaultValue": "1"
+        },
+        "Slot 6#774:413": {
+          "type": "TEXT",
+          "defaultValue": "1"
+        },
+        "Slot Amount": {
+          "type": "VARIANT",
+          "defaultValue": "4",
+          "variantOptions": [
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "disabled",
+            "error"
+          ]
+        },
+        "Step": {
+          "type": "VARIANT",
+          "defaultValue": "empty",
+          "variantOptions": [
+            "empty",
+            "selected",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "filled"
+          ]
+        }
+      },
+      "default": {
+        "id": "566:5207",
+        "name": "Slot Amount=4, Status=default, Step=empty",
+        "w": 144,
+        "h": 36,
+        "layout": "HORIZONTAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "570:786",
+      "name": "InputOTP/Separator",
+      "count": 53,
+      "props": {
+        "Slot Amount": {
+          "type": "VARIANT",
+          "defaultValue": "2-2",
+          "variantOptions": [
+            "3-3",
+            "2-2",
+            "2-2-2"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "error",
+            "disabled"
+          ]
+        },
+        "Step": {
+          "type": "VARIANT",
+          "defaultValue": "empty",
+          "variantOptions": [
+            "empty",
+            "selected",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "filled"
+          ]
+        }
+      },
+      "default": {
+        "id": "566:5306",
+        "name": "Slot Amount=2-2, Status=default, Step=empty",
+        "w": 192,
+        "h": 36,
+        "layout": "HORIZONTAL",
+        "gap": 8,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:526"
+          }
+        }
+      }
+    }
+  ],
+  "errors": []
+}

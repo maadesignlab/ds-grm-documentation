@@ -1,0 +1,388 @@
+{
+  "id": "2938:12924",
+  "name": "Navigation Menu",
+  "total": 47,
+  "sets": [
+    {
+      "id": "2990:51106",
+      "name": "_components/NavigationMenu/Trigger",
+      "type": "COMPONENT_SET",
+      "count": 5,
+      "props": {
+        "Label#2990:15": {
+          "type": "TEXT",
+          "defaultValue": "Servicios"
+        },
+        "Show icon#2990:16": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Icon#2990:17": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "5065:55163",
+          "preferredValues": []
+        },
+        "Leading icon#3058:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Leading icon instance#3058:6": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "212:180",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "d03ecca302986e68eaefa6e760bff6fba3d87462"
+            }
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "hover",
+            "focus",
+            "open",
+            "disabled"
+          ]
+        }
+      }
+    },
+    {
+      "id": "2991:22",
+      "name": "_components/NavigationMenu/Link",
+      "type": "COMPONENT_SET",
+      "count": 5,
+      "props": {
+        "Title#2991:10": {
+          "type": "TEXT",
+          "defaultValue": "Historia clínica"
+        },
+        "Description#2991:11": {
+          "type": "TEXT",
+          "defaultValue": "Consulta información y antecedentes."
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "hover",
+            "focus",
+            "active",
+            "disabled"
+          ]
+        }
+      }
+    },
+    {
+      "id": "2991:52325",
+      "name": "_components/NavigationMenu/Content",
+      "type": "COMPONENT_SET",
+      "count": 4,
+      "props": {
+        "Layout": {
+          "type": "VARIANT",
+          "defaultValue": "list",
+          "variantOptions": [
+            "list",
+            "featured"
+          ]
+        },
+        "Viewport": {
+          "type": "VARIANT",
+          "defaultValue": "true",
+          "variantOptions": [
+            "true",
+            "false"
+          ]
+        }
+      }
+    },
+    {
+      "id": "2996:561",
+      "name": "_components/NavigationMenu/Item Behavior",
+      "type": "COMPONENT_SET",
+      "count": 18,
+      "props": {
+        "Content Slot#2996:5": {
+          "type": "SLOT",
+          "description": null,
+          "preferredValues": []
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "dropdown",
+          "variantOptions": [
+            "dropdown",
+            "button"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "closed",
+          "variantOptions": [
+            "closed",
+            "open",
+            "hover",
+            "default",
+            "focus"
+          ]
+        },
+        "Viewport": {
+          "type": "VARIANT",
+          "defaultValue": "true",
+          "variantOptions": [
+            "true",
+            "false"
+          ]
+        },
+        "Open behavior": {
+          "type": "VARIANT",
+          "defaultValue": "click",
+          "variantOptions": [
+            "click",
+            "hover"
+          ]
+        }
+      }
+    },
+    {
+      "id": "2997:803",
+      "name": "Navigation Menu",
+      "type": "COMPONENT_SET",
+      "count": 10,
+      "props": {
+        "Items": {
+          "type": "VARIANT",
+          "defaultValue": "1",
+          "variantOptions": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "2990:51086",
+      "2990:51106",
+      "State=default"
+    ],
+    [
+      "2990:51090",
+      "2990:51106",
+      "State=hover"
+    ],
+    [
+      "2990:51094",
+      "2990:51106",
+      "State=focus"
+    ],
+    [
+      "2990:51098",
+      "2990:51106",
+      "State=open"
+    ],
+    [
+      "2990:51102",
+      "2990:51106",
+      "State=disabled"
+    ],
+    [
+      "2991:7",
+      "2991:22",
+      "State=default"
+    ],
+    [
+      "2991:10",
+      "2991:22",
+      "State=hover"
+    ],
+    [
+      "2991:13",
+      "2991:22",
+      "State=focus"
+    ],
+    [
+      "2991:16",
+      "2991:22",
+      "State=active"
+    ],
+    [
+      "2991:19",
+      "2991:22",
+      "State=disabled"
+    ],
+    [
+      "2991:52269",
+      "2991:52325",
+      "Layout=list, Viewport=true"
+    ],
+    [
+      "2991:52283",
+      "2991:52325",
+      "Layout=list, Viewport=false"
+    ],
+    [
+      "2991:52297",
+      "2991:52325",
+      "Layout=featured, Viewport=true"
+    ],
+    [
+      "2991:52311",
+      "2991:52325",
+      "Layout=featured, Viewport=false"
+    ],
+    [
+      "2996:475",
+      "2996:561",
+      "Type=dropdown, State=closed, Viewport=true, Open behavior=click"
+    ],
+    [
+      "2996:495",
+      "2996:561",
+      "Type=dropdown, State=open, Viewport=true, Open behavior=click"
+    ],
+    [
+      "2996:505",
+      "2996:561",
+      "Type=dropdown, State=closed, Viewport=false, Open behavior=click"
+    ],
+    [
+      "2996:551",
+      "2996:561",
+      "Type=dropdown, State=open, Viewport=false, Open behavior=click"
+    ],
+    [
+      "3037:798",
+      "2996:561",
+      "Type=dropdown, State=hover, Viewport=true, Open behavior=click"
+    ],
+    [
+      "3037:811",
+      "2996:561",
+      "Type=dropdown, State=hover, Viewport=false, Open behavior=click"
+    ],
+    [
+      "3037:51683",
+      "2996:561",
+      "Type=button, State=default, Viewport=true, Open behavior=click"
+    ],
+    [
+      "3037:51690",
+      "2996:561",
+      "Type=button, State=hover, Viewport=true, Open behavior=click"
+    ],
+    [
+      "3037:51697",
+      "2996:561",
+      "Type=button, State=default, Viewport=false, Open behavior=click"
+    ],
+    [
+      "3037:51704",
+      "2996:561",
+      "Type=button, State=hover, Viewport=false, Open behavior=click"
+    ],
+    [
+      "3049:113",
+      "2996:561",
+      "Type=dropdown, State=closed, Viewport=true, Open behavior=hover"
+    ],
+    [
+      "3049:117",
+      "2996:561",
+      "Type=dropdown, State=open, Viewport=true, Open behavior=hover"
+    ],
+    [
+      "3049:121",
+      "2996:561",
+      "Type=dropdown, State=closed, Viewport=false, Open behavior=hover"
+    ],
+    [
+      "3049:125",
+      "2996:561",
+      "Type=dropdown, State=open, Viewport=false, Open behavior=hover"
+    ],
+    [
+      "3049:129",
+      "2996:561",
+      "Type=dropdown, State=hover, Viewport=true, Open behavior=hover"
+    ],
+    [
+      "3049:133",
+      "2996:561",
+      "Type=dropdown, State=hover, Viewport=false, Open behavior=hover"
+    ],
+    [
+      "3054:2",
+      "2996:561",
+      "Type=button, State=focus, Viewport=true, Open behavior=click"
+    ],
+    [
+      "3054:10",
+      "2996:561",
+      "Type=button, State=focus, Viewport=false, Open behavior=click"
+    ],
+    [
+      "2997:408",
+      "2997:803",
+      "Items=1"
+    ],
+    [
+      "2997:416",
+      "2997:803",
+      "Items=2"
+    ],
+    [
+      "2997:431",
+      "2997:803",
+      "Items=3"
+    ],
+    [
+      "2997:453",
+      "2997:803",
+      "Items=4"
+    ],
+    [
+      "2997:482",
+      "2997:803",
+      "Items=5"
+    ],
+    [
+      "2997:518",
+      "2997:803",
+      "Items=6"
+    ],
+    [
+      "2997:561",
+      "2997:803",
+      "Items=7"
+    ],
+    [
+      "2997:611",
+      "2997:803",
+      "Items=8"
+    ],
+    [
+      "2997:668",
+      "2997:803",
+      "Items=9"
+    ],
+    [
+      "2997:732",
+      "2997:803",
+      "Items=10"
+    ]
+  ]
+}

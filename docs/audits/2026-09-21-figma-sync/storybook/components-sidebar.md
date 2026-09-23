@@ -1,0 +1,82 @@
+# Sidebar
+
+ID: components-sidebar
+
+## Stories
+
+### Playground
+
+Story ID: components-sidebar--playground
+
+```
+import { SidebarExample } from "@reina-madre/design-system";
+
+const Playground = () => <SidebarExample
+    key={`${args.state}-${args.side}-${args.variant}-${args.collapsible}-${args.expandedGroups}`}
+    className="min-h-[902px]"
+    state="expanded"
+    side="left"
+    variant="sidebar"
+    collapsible="icon"
+    activeItem=""
+    expandedGroups={false} />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as SidebarStories from "./sidebar.stories"
+import sidebarSource from "./sidebar.tsx?raw"
+import sidebarExampleSource from "./sidebar-example.tsx?raw"
+import { SidebarItemOverview, SidebarSpecifications, SidebarStateOverview, SidebarSubnavigationOverview } from "./sidebar-docs"
+
+<Meta of={SidebarStories} />
+<Title of={SidebarStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.4.0</strong> · Actualización del estado colapsado desde Figma</summary>
+
+  - Trigger circular de 32 px superpuesto al borde derecho, con chevron izquierdo en `expanded` y derecho en `collapsed`.
+  - Logos vigentes de Figma: muestra completa de 191 × 26 px y símbolo colapsado de 15 × 26 px.
+  - Sidebar colapsado actualizado a 64 px, con canal de navegación de 48 px.
+  - Separadores de sección de 24 px preservados en estado colapsado.
+  - Tooltips individuales disponibles para cada subopción icon-only.
+  - Subnavegación expandida de 240 px con ítems de 40 px, iconos de 14 px y sangría de 36 px.
+  - Subnavegación colapsada de 48 × 90 px con borde, ítems icon-only de 40 × 32 px y tooltips individuales.
+  - Contenedor colapsable abierto de 134 px: trigger de 40 px, panel de 90 px y padding inferior de 4 px.
+  - Estado abierto colapsado con `--sidebar-accent` y chevron a la derecha, centrado verticalmente.
+  - Estados expandido y colapsado sincronizados con el nodo `3114:1373`.
+  - Regiones de header, navegación primaria, contenido desplazable, grupos, menú y submenú.
+  - API, responsive Sheet, shortcut, tooltips y composición oficial de shadcn/ui preservados; `SidebarRail` continúa disponible en la API pública.
+
+</details>
+
+## Estados
+
+<div className="mb-12"><SidebarStateOverview /></div>
+
+## Ítems de navegación
+
+<div className="mb-12"><SidebarItemOverview /></div>
+
+## Subnavegación colapsable
+
+<div className="mb-12"><SidebarSubnavigationOverview /></div>
+
+## Especificaciones
+
+<div className="mb-12"><SidebarSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={sidebarSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={sidebarExampleSource} />

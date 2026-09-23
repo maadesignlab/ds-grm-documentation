@@ -1,0 +1,117 @@
+{
+  "id": "2206:19380",
+  "name": "Spinner",
+  "total": 9,
+  "nodes": 20,
+  "refs": {
+    "VariableID:a5ba454cd92e33cd2ed975188a5ce33976581290/1046:4168": {
+      "count": 1,
+      "example": "2206:19610"
+    },
+    "VariableID:7eda5697692ae1779e6419dbfc7e1286785fc840/1088:721": {
+      "count": 4,
+      "example": "2206:19610"
+    },
+    "VariableID:69b4dbd3aae0245140fa169b42968fc669cdfe72/1046:3221": {
+      "count": 4,
+      "example": "2206:19610"
+    },
+    "VariableID:67e6bc8762fcaec91423fe67ae8d59a0aa78739a/1046:5862": {
+      "count": 4,
+      "example": "2206:19610"
+    },
+    "VariableID:44:184": {
+      "count": 14,
+      "example": "I2213:25234;2283:42620"
+    }
+  },
+  "texts": {},
+  "styles": {},
+  "sets": [
+    {
+      "id": "2206:19610",
+      "name": "Spinner",
+      "count": 4,
+      "props": {
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "12",
+          "variantOptions": [
+            "12",
+            "16",
+            "24",
+            "32"
+          ]
+        }
+      },
+      "default": {
+        "id": "2206:19611",
+        "name": "Size=12",
+        "w": 12,
+        "h": 12,
+        "layout": "HORIZONTAL",
+        "gap": 10,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "2213:25221",
+      "name": "_components/Spinner/Spinner Base",
+      "count": 3,
+      "props": {
+        "Motion": {
+          "type": "VARIANT",
+          "defaultValue": "Animated",
+          "variantOptions": [
+            "Animated",
+            "Animated 120",
+            "Animated 240"
+          ]
+        }
+      },
+      "default": {
+        "id": "2213:25220",
+        "name": "Motion=Animated",
+        "w": 12,
+        "h": 12,
+        "layout": "NONE",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": false,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,785 @@
+[
+  {
+    "id": "S:e25cd8c01f3a30627bbf3b9f868846578d669d70,",
+    "name": "display/extrabold",
+    "status": "different",
+    "changes": {
+      "name": {
+        "code": "Legacy/display/one/extrabold",
+        "figma": "display/extrabold"
+      }
+    },
+    "figma": {
+      "name": "display/extrabold",
+      "family": "Inter",
+      "fontStyle": "Extra Bold",
+      "size": 30,
+      "lineHeight": "Auto",
+      "letterSpacing": "0%",
+      "textCase": "TITLE",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:b9544cd0a7bd467902c99120a5a8a74f09b69642,",
+    "name": "heading/lg",
+    "status": "different",
+    "changes": {
+      "name": {
+        "code": "heading/lg/semibold",
+        "figma": "heading/lg"
+      },
+      "fontStyle": {
+        "code": "Semi Bold",
+        "figma": "Bold"
+      }
+    },
+    "figma": {
+      "name": "heading/lg",
+      "family": "Inter",
+      "fontStyle": "Bold",
+      "size": 24,
+      "lineHeight": "Auto",
+      "letterSpacing": "-2.5%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:ee344b01427585606db29cc7c4aac2c81abb3789,",
+    "name": "heading/md",
+    "status": "different",
+    "changes": {
+      "name": {
+        "code": "heading/md/semibold",
+        "figma": "heading/md"
+      }
+    },
+    "figma": {
+      "name": "heading/md",
+      "family": "Inter",
+      "fontStyle": "Semi Bold",
+      "size": 20,
+      "lineHeight": "Auto",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:868d3b9e94d774dbe00e80acc8a77bb286b11632,",
+    "name": "heading/sm",
+    "status": "different",
+    "changes": {
+      "name": {
+        "code": "heading/sm/semibold",
+        "figma": "heading/sm"
+      }
+    },
+    "figma": {
+      "name": "heading/sm",
+      "family": "Inter",
+      "fontStyle": "Semi Bold",
+      "size": 18,
+      "lineHeight": "Auto",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:781eaf6f680951d4f89acd6c5285b40210dae108,",
+    "name": "body/lg/sans/medium",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "body/lg/sans/medium",
+      "family": "Inter",
+      "fontStyle": "Medium",
+      "size": 16,
+      "lineHeight": "24px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:23c0d86881bf571a2aa04f8d8f6bccb6347aaa8e,",
+    "name": "body/lg/sans/semibold",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "body/lg/sans/semibold",
+      "family": "Inter",
+      "fontStyle": "Semi Bold",
+      "size": 16,
+      "lineHeight": "24px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:1d452614e679106aeb9f64166fd66fd5df9751c7,",
+    "name": "body/md/sans/regular",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "body/md/sans/regular",
+      "family": "Inter",
+      "fontStyle": "Regular",
+      "size": 14,
+      "lineHeight": "20px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:b9200b5971cf3f84adc1475861c0b20e11d4e15e,",
+    "name": "body/md/sans/medium",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "body/md/sans/medium",
+      "family": "Inter",
+      "fontStyle": "Medium",
+      "size": 14,
+      "lineHeight": "20px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:14995935682beb5ca4a19dd71efefcae86469637,",
+    "name": "body/md/sans/medium underline",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "body/md/sans/medium underline",
+      "family": "Inter",
+      "fontStyle": "Medium",
+      "size": 14,
+      "lineHeight": "20px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "UNDERLINE"
+    }
+  },
+  {
+    "id": "S:a652e3f14d671105454c3f2ba846e458c20c9a27,",
+    "name": "body/md/sans/semibold",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "body/md/sans/semibold",
+      "family": "Inter",
+      "fontStyle": "Semi Bold",
+      "size": 14,
+      "lineHeight": "20px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:3f4faa9e06e50966c5180f01adb3da74f1e59f2e,",
+    "name": "body/md/mono/regular",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "body/md/mono/regular",
+      "family": "JetBrains Mono",
+      "fontStyle": "Regular",
+      "size": 14,
+      "lineHeight": "20px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:51d7fcb8196414f9433a80a651378361c8c21e2f,",
+    "name": "body/md/mono/medium",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "body/md/mono/medium",
+      "family": "JetBrains Mono",
+      "fontStyle": "Medium",
+      "size": 14,
+      "lineHeight": "20px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:b9980b829285fc251155cb0e19524054d5099379,",
+    "name": "body/md/mono/medium underline",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "body/md/mono/medium underline",
+      "family": "JetBrains Mono",
+      "fontStyle": "Medium",
+      "size": 14,
+      "lineHeight": "20px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "UNDERLINE"
+    }
+  },
+  {
+    "id": "S:144dfbf9f37e6190e40a757d07ef56d8e7e1aae3,",
+    "name": "body/sm/sans/regular",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "body/sm/sans/regular",
+      "family": "Inter",
+      "fontStyle": "Regular",
+      "size": 12,
+      "lineHeight": "16px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:8a4d33ae0726dbdbae367a69d41d3ee41f5c73c6,",
+    "name": "body/sm/sans/regular uppercase",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "body/sm/sans/regular uppercase",
+      "family": "Inter",
+      "fontStyle": "Regular",
+      "size": 12,
+      "lineHeight": "16px",
+      "letterSpacing": "2.5%",
+      "textCase": "UPPER",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:3c3dd1b52b19dd0f2bbf02cf78cbd6622b31988f,",
+    "name": "body/sm/sans/medium",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "body/sm/sans/medium",
+      "family": "Inter",
+      "fontStyle": "Medium",
+      "size": 12,
+      "lineHeight": "16px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:bc9ebc4cef6fed716c04a241ef590f1d34aab748,",
+    "name": "body/sm/sans/semibold",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "body/sm/sans/semibold",
+      "family": "Inter",
+      "fontStyle": "Semi Bold",
+      "size": 12,
+      "lineHeight": "16px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:65b559e58d8e1f036639e403d21c3bb30027893f,",
+    "name": "body/sm/sans/semibold uppercase",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "body/sm/sans/semibold uppercase",
+      "family": "Inter",
+      "fontStyle": "Semi Bold",
+      "size": 12,
+      "lineHeight": "16px",
+      "letterSpacing": "0%",
+      "textCase": "UPPER",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:9f9fc3b3f008605d4f8466599d4d140d78c41814,",
+    "name": "body/sm/mono/regular",
+    "status": "new",
+    "changes": {},
+    "figma": {
+      "name": "body/sm/mono/regular",
+      "family": "JetBrains Mono",
+      "fontStyle": "Regular",
+      "size": 12,
+      "lineHeight": "16px",
+      "letterSpacing": "5%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:16a5c60fe1852372d4dbea3de4a48aa9141bced2,",
+    "name": "caption/sm/regular",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "caption/sm/regular",
+      "family": "Inter",
+      "fontStyle": "Regular",
+      "size": 10,
+      "lineHeight": "Auto",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:7732a51e82795bfae9a2ab02bdeeeda205616c2f,",
+    "name": "caption/sm/medium",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "caption/sm/medium",
+      "family": "Inter",
+      "fontStyle": "Medium",
+      "size": 10,
+      "lineHeight": "Auto",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:8a78309358cdee88bcf6a530e913f308e6649f83,",
+    "name": "caption/sm/semibold",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "caption/sm/semibold",
+      "family": "Inter",
+      "fontStyle": "Semi Bold",
+      "size": 10,
+      "lineHeight": "Auto",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:fbda438304ca6918486ca947fe1229b45c69af15,",
+    "name": "caption/sm/bold uppercase",
+    "status": "new",
+    "changes": {},
+    "figma": {
+      "name": "caption/sm/bold uppercase",
+      "family": "Inter",
+      "fontStyle": "Bold",
+      "size": 10,
+      "lineHeight": "Auto",
+      "letterSpacing": "10%",
+      "textCase": "UPPER",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:f0fb58b47bebd4d218c52143f7bea309a80172a7,",
+    "name": "components/avatar/11px/semibold",
+    "status": "different",
+    "changes": {
+      "name": {
+        "code": "caption/md/semibold",
+        "figma": "components/avatar/11px/semibold"
+      }
+    },
+    "figma": {
+      "name": "components/avatar/11px/semibold",
+      "family": "Inter",
+      "fontStyle": "Semi Bold",
+      "size": 11,
+      "lineHeight": "Auto",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:1656a708140615ccfd4f520ca085318fb49e7241,",
+    "name": "components/avatar/9px/semibold",
+    "status": "different",
+    "changes": {
+      "name": {
+        "code": "caption/xs/semibold",
+        "figma": "components/avatar/9px/semibold"
+      }
+    },
+    "figma": {
+      "name": "components/avatar/9px/semibold",
+      "family": "Inter",
+      "fontStyle": "Semi Bold",
+      "size": 9,
+      "lineHeight": "Auto",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:a870bd9916bbe5c8d9347175baa2c3df5f60e352,",
+    "name": "components/avatar/micro/semibold",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "components/avatar/micro/semibold",
+      "family": "Inter",
+      "fontStyle": "Semi Bold",
+      "size": 8,
+      "lineHeight": "Auto",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:3ed8ad18fdd83cf61a02240c7acb74e95cc04733,",
+    "name": "components/avatar/tiny/semibold",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "components/avatar/tiny/semibold",
+      "family": "Inter",
+      "fontStyle": "Semi Bold",
+      "size": 6,
+      "lineHeight": "Auto",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:592db2195316334a05d7f58ef0fced7f0ff0cfb0,",
+    "name": "components/button/base",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "components/button/base",
+      "family": "Inter",
+      "fontStyle": "Medium",
+      "size": 14,
+      "lineHeight": "20px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:1bd8add0fe5b9782b6c277dc7aa8ef6b7bd7c0fa,",
+    "name": "components/button/base underline",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "components/button/base underline",
+      "family": "Inter",
+      "fontStyle": "Medium",
+      "size": 14,
+      "lineHeight": "20px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "UNDERLINE"
+    }
+  },
+  {
+    "id": "S:fc73b7145c7efdd9b23b63286700e52075797c31,",
+    "name": "components/button/sm",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "components/button/sm",
+      "family": "Inter",
+      "fontStyle": "Medium",
+      "size": 12.800000190734863,
+      "lineHeight": "20px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:0e516aa853ace7ce16da327e3045bf69e86465f4,",
+    "name": "components/button/sm underline",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "components/button/sm underline",
+      "family": "Inter",
+      "fontStyle": "Medium",
+      "size": 12.800000190734863,
+      "lineHeight": "20px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "UNDERLINE"
+    }
+  },
+  {
+    "id": "S:362d32771c7af0e89df304f202df397487c29605,",
+    "name": "components/button/xs",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "components/button/xs",
+      "family": "Inter",
+      "fontStyle": "Medium",
+      "size": 12,
+      "lineHeight": "20px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:f3c2bb997231aa5bc5851043f4ccbf59e1a23e70,",
+    "name": "components/button/xs underline",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "components/button/xs underline",
+      "family": "Inter",
+      "fontStyle": "Medium",
+      "size": 12,
+      "lineHeight": "20px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "UNDERLINE"
+    }
+  },
+  {
+    "id": "S:60fd2457e505972251cac0b2880b18d26f85cf3d,",
+    "name": "components/badge/xl/medium",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "components/badge/xl/medium",
+      "family": "Inter",
+      "fontStyle": "Medium",
+      "size": 14,
+      "lineHeight": "20px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:828b1ddbbf92bea4b8d3e4350d37defe4cfcbfb2,",
+    "name": "components/badge/lg/medium",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "components/badge/lg/medium",
+      "family": "Inter",
+      "fontStyle": "Medium",
+      "size": 12,
+      "lineHeight": "16px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:757f773fd9377530fccfc852cb515519ff556f17,",
+    "name": "components/badge/compact/medium",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "components/badge/compact/medium",
+      "family": "Inter",
+      "fontStyle": "Medium",
+      "size": 10,
+      "lineHeight": "15px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:af9438857525091232a0869b586aabdc64378c88,",
+    "name": "components/toast/medium",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "components/toast/medium",
+      "family": "Inter",
+      "fontStyle": "Medium",
+      "size": 13,
+      "lineHeight": "19.5px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:2b0d861a957c13c51dc97af70793b711d876a429,",
+    "name": "components/calendar/regular",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "components/calendar/regular",
+      "family": "Inter",
+      "fontStyle": "Regular",
+      "size": 14,
+      "lineHeight": "14px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:ae9b6eab7aad4b5078f8cb6e91b4c4a6e69803bd,",
+    "name": "components/calendar/bold",
+    "status": "equal",
+    "changes": {},
+    "figma": {
+      "name": "components/calendar/bold",
+      "family": "Inter",
+      "fontStyle": "Bold",
+      "size": 14,
+      "lineHeight": "14px",
+      "letterSpacing": "0%",
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  },
+  {
+    "id": "S:d884567b3217d4a972a9ad95bbf9318046ffc4d5,",
+    "name": "Legacy/heading/one/bold",
+    "status": "absent-in-figma"
+  },
+  {
+    "id": "S:9ffc4953a00da6f116687f06ea4a0dfb11fe310a,",
+    "name": "Legacy/heading/two/bold",
+    "status": "absent-in-figma"
+  },
+  {
+    "id": "S:234051f1c3819bcca33cb0a37946c78b0e68782a,",
+    "name": "Legacy/heading/three/bold",
+    "status": "absent-in-figma"
+  },
+  {
+    "id": "S:78c127957fae63f8ff70efadd2f7066fe886e435,",
+    "name": "Legacy/body/base/regular",
+    "status": "absent-in-figma"
+  },
+  {
+    "id": "S:71f225a71a68beea0150eed0b7111bd1265177b8,",
+    "name": "Legacy/body/two/regular uppercase",
+    "status": "absent-in-figma"
+  },
+  {
+    "id": "S:f21c03411c853a835f5fe917ce71961dbc32484f,",
+    "name": "Legacy/body/three/medium uppercase",
+    "status": "absent-in-figma"
+  },
+  {
+    "id": "S:5cdfbb53beb6fe9d179282e4506acd84789b2671,",
+    "name": "Legacy/caption/one/regular",
+    "status": "absent-in-figma"
+  },
+  {
+    "id": "S:8f13ba671827a54bcb70e58137dde351e25f8466,",
+    "name": "Legacy/caption/one/medium",
+    "status": "absent-in-figma"
+  },
+  {
+    "id": "S:87c963b2265c8beb3009b083ff14e8716961fba8,",
+    "name": "caption/md/bold uppercase",
+    "status": "absent-in-figma"
+  },
+  {
+    "id": "S:b23504c08b3dafe9a803a7beb2091ad85e099fae,",
+    "name": "Legacy/caption/two/medium uppercase",
+    "status": "absent-in-figma"
+  },
+  {
+    "id": "S:2a5fe0bfbdfad176188f6db4b034307bb14512f0,",
+    "name": "Legacy/caption/three/regular",
+    "status": "absent-in-figma"
+  },
+  {
+    "id": "S:46f72d4624a9afe8a6a1c9bab5b217c11a832a45,",
+    "name": "Legacy/caption/four/regular",
+    "status": "absent-in-figma"
+  },
+  {
+    "id": "S:63cdb9466f43673688cae49557dfb2d737934ce8,",
+    "name": "Legacy/mono/one/regular",
+    "status": "absent-in-figma"
+  },
+  {
+    "id": "S:b3ba7351e6829cc942a83e527d3b0d2f54966536,",
+    "name": "Legacy/mono/two/regular",
+    "status": "absent-in-figma"
+  },
+  {
+    "id": "S:4ebd1ed0d74a04b0ca7da5be5d0fb804150db0d0,",
+    "name": "Legacy/mono/two/medium",
+    "status": "absent-in-figma"
+  },
+  {
+    "id": "S:ac5510d149859cc0a78ca8fb93f63e8b2911997b,",
+    "name": "body/xs/mono/regular",
+    "status": "absent-in-figma"
+  },
+  {
+    "id": "S:61cc934149d2d4c74ae9394e65dcbb115416c925,",
+    "name": "Legacy/body/two/medium uppercase",
+    "status": "absent-in-figma"
+  },
+  {
+    "id": "S:e272ae35207e39a304c49b5caa8be92275909a61,",
+    "name": "Legacy/body/two/medium italic",
+    "status": "absent-in-figma"
+  },
+  {
+    "id": "S:9966e1fdfb86a8b2bea4adc9d989ae15c7fa3934,",
+    "name": "Legacy/body/two/semibold uppercase",
+    "status": "absent-in-figma"
+  },
+  {
+    "id": "S:2a1dd1286c6c8963555d1d3543879fa6eaa3993f,",
+    "name": "Legacy/body/three/bold uppercase",
+    "status": "absent-in-figma"
+  },
+  {
+    "id": "S:6be05787b8a9475f66a43b9b39b415a570b84316,",
+    "name": "Legacy/components/button/default",
+    "status": "absent-in-figma"
+  },
+  {
+    "id": "S:6714b1988c6df0f393bd27f39d64b859b9ed488b,",
+    "name": "Legacy/components/button/default underline",
+    "status": "absent-in-figma"
+  },
+  {
+    "id": "S:5b4fd7da8cac8bee3235863ded6c38fc204cad80,",
+    "name": "Legacy/components/badge/md/medium",
+    "status": "absent-in-figma"
+  },
+  {
+    "id": "S:056bb704fe7d947f5db775c41cc7670e782aa782,",
+    "name": "Legacy/components/calendar/regular line-through",
+    "status": "absent-in-figma"
+  },
+  {
+    "id": "S:63e0ba12068896ee0930ddec74c27274242e61ee,",
+    "name": "Legacy/body/base/mono-regular",
+    "status": "absent-in-figma"
+  }
+]

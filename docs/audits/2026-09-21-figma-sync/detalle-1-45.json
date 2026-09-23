@@ -1,0 +1,226 @@
+{
+  "id": "1:45",
+  "name": "Toast",
+  "total": 7,
+  "nodes": 43,
+  "refs": {
+    "VariableID:50:513": {
+      "count": 24,
+      "example": "288:335"
+    },
+    "VariableID:208:2": {
+      "count": 2,
+      "example": "288:335"
+    },
+    "VariableID:203:212": {
+      "count": 2,
+      "example": "288:335"
+    },
+    "VariableID:208:7": {
+      "count": 4,
+      "example": "I345:1213;212:2018;212:1637"
+    },
+    "VariableID:132:811": {
+      "count": 6,
+      "example": "345:427"
+    },
+    "VariableID:50:639": {
+      "count": 6,
+      "example": "345:427"
+    },
+    "VariableID:208:3": {
+      "count": 2,
+      "example": "288:337"
+    },
+    "VariableID:203:213": {
+      "count": 2,
+      "example": "288:337"
+    },
+    "VariableID:208:8": {
+      "count": 4,
+      "example": "I345:1221;212:2018;212:428"
+    },
+    "VariableID:208:4": {
+      "count": 2,
+      "example": "288:345"
+    },
+    "VariableID:208:33": {
+      "count": 2,
+      "example": "288:345"
+    },
+    "VariableID:203:214": {
+      "count": 4,
+      "example": "I345:1227;212:2018;212:1602"
+    },
+    "VariableID:208:6": {
+      "count": 2,
+      "example": "288:353"
+    },
+    "VariableID:210:3": {
+      "count": 2,
+      "example": "288:353"
+    },
+    "VariableID:203:216": {
+      "count": 4,
+      "example": "I345:1233;212:2018;212:1167"
+    },
+    "VariableID:44:183": {
+      "count": 2,
+      "example": "288:361"
+    },
+    "VariableID:51:21": {
+      "count": 4,
+      "example": "288:361"
+    },
+    "VariableID:44:184": {
+      "count": 8,
+      "example": "I345:1239;212:2018;212:1637"
+    },
+    "VariableID:50:300": {
+      "count": 2,
+      "example": "349:1653"
+    }
+  },
+  "texts": {
+    "S:af9438857525091232a0869b586aabdc64378c88,": {
+      "count": 6,
+      "example": "345:427"
+    }
+  },
+  "styles": {
+    "S:20cafb8db74c927349fb8d29a9c0cacd25154798,": {
+      "count": 6,
+      "example": "288:335"
+    }
+  },
+  "sets": [
+    {
+      "id": "288:336",
+      "name": "Toast",
+      "count": 6,
+      "props": {
+        "Toast Text#345:0": {
+          "type": "TEXT",
+          "defaultValue": "Datos actualizados"
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "success",
+          "variantOptions": [
+            "success",
+            "warning",
+            "error",
+            "info",
+            "brand-neutral",
+            "neutral"
+          ]
+        }
+      },
+      "default": {
+        "id": "288:335",
+        "name": "Status=success",
+        "w": 356,
+        "h": 54,
+        "layout": "HORIZONTAL",
+        "gap": 6,
+        "padding": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "radius": 8,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9529411792755127,
+              "g": 0.9843137264251709,
+              "b": 0.95686274766922
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:208:2"
+              }
+            }
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.7450980544090271,
+              "g": 0.9058823585510254,
+              "b": 0.7647058963775635
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:203:212"
+              }
+            }
+          }
+        ],
+        "effects": [
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 12,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.10000000149011612
+            },
+            "offset": {
+              "x": 0,
+              "y": 4
+            },
+            "spread": 0,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": false
+          }
+        ],
+        "bound": {
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:513"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:208:2"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:203:212"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "errors": []
+}

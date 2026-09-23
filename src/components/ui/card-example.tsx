@@ -20,7 +20,7 @@ export function CardExample({ size = "default", variant = "body", spacing = 16, 
       <CardHeader>
         <CardTitle>{title}</CardTitle>
         <CardDescription>{description}</CardDescription>
-        {showAction && <CardAction><Button variant="ghost" size="icon"><MoreHorizontal aria-hidden /></Button></CardAction>}
+        {showAction && <CardAction><Button variant="ghost" size="icon" aria-label="Más opciones"><MoreHorizontal aria-hidden /></Button></CardAction>}
       </CardHeader>
       {variant === "body" && <CardContent className="flex flex-1 items-center text-muted-foreground">Contenido flexible de la tarjeta</CardContent>}
       <CardFooter layout={footer}><Button variant="outline">Cancelar</Button><Button>Continuar</Button></CardFooter>

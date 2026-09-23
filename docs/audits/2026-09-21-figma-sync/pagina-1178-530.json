@@ -1,0 +1,51 @@
+{
+  "id": "1178:530",
+  "name": "Alert",
+  "total": 3,
+  "sets": [
+    {
+      "id": "1226:475",
+      "name": "Alert",
+      "type": "COMPONENT_SET",
+      "count": 2,
+      "props": {
+        "Icon#1304:5": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Action Button#1304:8": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Alert Title#1304:11": {
+          "type": "TEXT",
+          "defaultValue": "Nueva cita asignada"
+        },
+        "Alert Description#1304:14": {
+          "type": "TEXT",
+          "defaultValue": "Se ha asignado una nueva cita al paciente por atención en Recepción"
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "destructive"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "1213:10",
+      "1226:475",
+      "Status=default"
+    ],
+    [
+      "1226:476",
+      "1226:475",
+      "Status=destructive"
+    ]
+  ]
+}

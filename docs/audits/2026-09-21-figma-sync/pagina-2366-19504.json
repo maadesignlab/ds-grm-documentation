@@ -1,0 +1,277 @@
+{
+  "id": "2366:19504",
+  "name": "Data Table",
+  "total": 16,
+  "sets": [
+    {
+      "id": "2366:22582",
+      "name": "_components/Data Table/Toolbar Slots",
+      "type": "COMPONENT_SET",
+      "count": 10,
+      "props": {
+        "Slot 1#2366:13": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Slot 9#2366:15": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Slot 10#2366:16": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Slot 7#2366:17": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Slot 5#2366:18": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Slot 6#2366:19": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Slot 3#2366:20": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Slot 4#2366:21": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Slot 2#2366:22": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Slot 8#2366:23": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Slots Amount": {
+          "type": "VARIANT",
+          "defaultValue": "10",
+          "variantOptions": [
+            "1",
+            "10",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ]
+        }
+      }
+    },
+    {
+      "id": "2366:25191",
+      "name": "_components/Data Table/Pagination",
+      "type": "COMPONENT_SET",
+      "count": 1,
+      "props": {
+        "Pagination Left Text#2522:2": {
+          "type": "TEXT",
+          "defaultValue": "Página 1 de 1"
+        },
+        "Propiedad 1": {
+          "type": "VARIANT",
+          "defaultValue": "Data Table",
+          "variantOptions": [
+            "Data Table"
+          ]
+        },
+        "Propiedad 2": {
+          "type": "VARIANT",
+          "defaultValue": "Pagination",
+          "variantOptions": [
+            "Pagination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "2519:5499",
+      "name": "Data Table",
+      "type": "COMPONENT_SET",
+      "count": 2,
+      "props": {
+        "Table#2519:0": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": false,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": true
+          },
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "8124c7ff0f8b58f0ba5ad7fc7fff31c74a869bf5"
+            }
+          ]
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "fragmented",
+          "variantOptions": [
+            "fragmented",
+            "contained"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "2366:22519",
+      "2366:22582",
+      "Slots Amount=10"
+    ],
+    [
+      "2366:22583",
+      "2366:22582",
+      "Slots Amount=9"
+    ],
+    [
+      "2366:22595",
+      "2366:22582",
+      "Slots Amount=8"
+    ],
+    [
+      "2366:22606",
+      "2366:22582",
+      "Slots Amount=7"
+    ],
+    [
+      "2366:22616",
+      "2366:22582",
+      "Slots Amount=6"
+    ],
+    [
+      "2366:22625",
+      "2366:22582",
+      "Slots Amount=5"
+    ],
+    [
+      "2366:22633",
+      "2366:22582",
+      "Slots Amount=4"
+    ],
+    [
+      "2366:22640",
+      "2366:22582",
+      "Slots Amount=3"
+    ],
+    [
+      "2366:22646",
+      "2366:22582",
+      "Slots Amount=2"
+    ],
+    [
+      "2366:22651",
+      "2366:22582",
+      "Slots Amount=1"
+    ],
+    [
+      "2366:25190",
+      "2366:25191",
+      "Propiedad 1=Data Table, Propiedad 2=Pagination"
+    ],
+    [
+      "2366:21172",
+      "2519:5499",
+      "Style=fragmented"
+    ],
+    [
+      "2519:5500",
+      "2519:5499",
+      "Style=contained"
+    ]
+  ]
+}

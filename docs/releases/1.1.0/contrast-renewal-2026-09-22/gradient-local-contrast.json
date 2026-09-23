@@ -1,0 +1,170 @@
+[
+  {
+    "brand": "grm-global",
+    "glyphBoxes": [
+      {
+        "letter": "V",
+        "minimum": 2.525609414955196,
+        "maximum": 3.0657484763913208,
+        "entireGlyphBoxBelowAA": true
+      },
+      {
+        "letter": "e",
+        "minimum": 2.699350353561544,
+        "maximum": 3.26574474816891,
+        "entireGlyphBoxBelowAA": true
+      },
+      {
+        "letter": "r",
+        "minimum": 2.868797420713655,
+        "maximum": 3.406867698917585,
+        "entireGlyphBoxBelowAA": true
+      },
+      {
+        "letter": "m",
+        "minimum": 3.0741596621501204,
+        "maximum": 3.8757611138672394,
+        "entireGlyphBoxBelowAA": true
+      },
+      {
+        "letter": "\u00e1",
+        "minimum": 3.3839891195378886,
+        "maximum": 4.136224116759469,
+        "entireGlyphBoxBelowAA": true
+      },
+      {
+        "letter": "s",
+        "minimum": 3.603411659626554,
+        "maximum": 4.403638912974984,
+        "entireGlyphBoxBelowAA": true
+      }
+    ],
+    "confirmedFailure": true
+  },
+  {
+    "brand": "reina-madre",
+    "glyphBoxes": [
+      {
+        "letter": "V",
+        "minimum": 3.789791731889918,
+        "maximum": 3.960263259337406,
+        "entireGlyphBoxBelowAA": true
+      },
+      {
+        "letter": "e",
+        "minimum": 3.849702044755796,
+        "maximum": 4.013139869887747,
+        "entireGlyphBoxBelowAA": true
+      },
+      {
+        "letter": "r",
+        "minimum": 3.9032586050985496,
+        "maximum": 4.047779871313601,
+        "entireGlyphBoxBelowAA": true
+      },
+      {
+        "letter": "m",
+        "minimum": 3.9625836882721015,
+        "maximum": 4.14959431826157,
+        "entireGlyphBoxBelowAA": true
+      },
+      {
+        "letter": "\u00e1",
+        "minimum": 4.042303489120726,
+        "maximum": 4.198791652942919,
+        "entireGlyphBoxBelowAA": true
+      },
+      {
+        "letter": "s",
+        "minimum": 4.092763921632008,
+        "maximum": 4.24481371234661,
+        "entireGlyphBoxBelowAA": true
+      }
+    ],
+    "confirmedFailure": true
+  },
+  {
+    "brand": "maria-linda",
+    "glyphBoxes": [
+      {
+        "letter": "V",
+        "minimum": 2.268218642751692,
+        "maximum": 2.6331642876460424,
+        "entireGlyphBoxBelowAA": true
+      },
+      {
+        "letter": "e",
+        "minimum": 2.378857414674048,
+        "maximum": 2.7666226121167288,
+        "entireGlyphBoxBelowAA": true
+      },
+      {
+        "letter": "r",
+        "minimum": 2.4960681763548513,
+        "maximum": 2.846639167173294,
+        "entireGlyphBoxBelowAA": true
+      },
+      {
+        "letter": "m",
+        "minimum": 2.6018884605499557,
+        "maximum": 3.113631127702072,
+        "entireGlyphBoxBelowAA": true
+      },
+      {
+        "letter": "\u00e1",
+        "minimum": 2.800420152200871,
+        "maximum": 3.2674883835308317,
+        "entireGlyphBoxBelowAA": true
+      },
+      {
+        "letter": "s",
+        "minimum": 2.935226700457258,
+        "maximum": 3.4118735434088636,
+        "entireGlyphBoxBelowAA": true
+      }
+    ],
+    "confirmedFailure": true
+  },
+  {
+    "brand": "piel-sana",
+    "glyphBoxes": [
+      {
+        "letter": "V",
+        "minimum": 2.401274530193965,
+        "maximum": 2.810204451407545,
+        "entireGlyphBoxBelowAA": true
+      },
+      {
+        "letter": "e",
+        "minimum": 2.5264867225762604,
+        "maximum": 2.9546826906517363,
+        "entireGlyphBoxBelowAA": true
+      },
+      {
+        "letter": "r",
+        "minimum": 2.6528246761403995,
+        "maximum": 3.056334995759517,
+        "entireGlyphBoxBelowAA": true
+      },
+      {
+        "letter": "m",
+        "minimum": 2.819410031514619,
+        "maximum": 3.4286047139600746,
+        "entireGlyphBoxBelowAA": true
+      },
+      {
+        "letter": "\u00e1",
+        "minimum": 3.06685948639312,
+        "maximum": 3.606543121822397,
+        "entireGlyphBoxBelowAA": true
+      },
+      {
+        "letter": "s",
+        "minimum": 3.2222624474914756,
+        "maximum": 3.7847352761820807,
+        "entireGlyphBoxBelowAA": true
+      }
+    ],
+    "confirmedFailure": true
+  }
+]

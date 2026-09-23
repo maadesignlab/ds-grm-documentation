@@ -1,0 +1,63 @@
+# ContextMenu
+
+ID: components-context-menu
+
+## Stories
+
+### Playground
+
+Story ID: components-context-menu--playground
+
+```
+import { ContextMenuExample } from "@reina-madre/design-system";
+
+const Playground = () => <ContextMenuExample
+    key={`${args.opened}`}
+    opened={false}
+    showLabel
+    showIcons
+    showShortcut
+    showSubmenu />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as ContextMenuStories from "./context-menu.stories"
+import contextMenuSource from "./context-menu.tsx?raw"
+import exampleSource from "./context-menu-example.tsx?raw"
+import { ContextMenuSpecifications, ContextMenuStates } from "./context-menu-docs"
+
+<Meta of={ContextMenuStories} />
+<Title of={ContextMenuStories} />
+
+## Versión
+
+<details className="mb-12 rounded-lg border border-border bg-card px-4 py-3">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Apertura mediante clic derecho y navegación por teclado.
+  - Posicionamiento nativo desde el punto del clic derecho y manejo de colisiones por Radix UI.
+  - Labels, grupos, separadores, iconos, shortcuts, estados y submenús.
+  - Variante destructive conectada con tokens semánticos.
+</details>
+
+## Estado
+
+<div className="mb-12"><ContextMenuStates /></div>
+
+## Especificaciones
+
+<div className="mb-12"><ContextMenuSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={contextMenuSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

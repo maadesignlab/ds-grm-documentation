@@ -1,0 +1,63 @@
+# Checkbox
+
+ID: components-checkbox
+
+## Stories
+
+### Playground
+
+Story ID: components-checkbox--playground
+
+```
+import { CheckboxExample } from "@reina-madre/design-system";
+
+const Playground = () => <CheckboxExample
+    key={JSON.stringify(args)}
+    appearance="default"
+    text="label"
+    textSide="right"
+    state="default"
+    checked={false}
+    amount={1} />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as CheckboxStories from "./checkbox.stories"
+import checkboxSource from "./checkbox.tsx?raw"
+import exampleSource from "./checkbox-example.tsx?raw"
+import { CheckboxPatterns, CheckboxPlacement, CheckboxSpecifications, CheckboxStates } from "./checkbox-docs"
+
+<Meta of={CheckboxStories} />
+<Title of={CheckboxStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación desde Figma y shadcn/ui</summary>
+
+- Conserva Root, Indicator, estado controlado/no controlado, indeterminate, teclado, disabled y ARIA del primitive oficial.
+- Label, Description, Choice Card y Group son composiciones oficiales con Field.
+- Adapta geometría, estados y tokens del nodo de Figma sin ampliar la API pública.
+</details>
+
+## Patrones
+<div className="mb-12"><CheckboxPatterns /></div>
+
+## Posición del texto
+<div className="mb-12"><CheckboxPlacement /></div>
+
+## Estados
+<div className="mb-12"><CheckboxStates /></div>
+
+## Especificaciones
+<div className="mb-12"><CheckboxSpecifications /></div>
+
+## Código
+### Primitive
+<Source language="tsx" code={checkboxSource} />
+### Composición de referencia
+<Source language="tsx" code={exampleSource} />

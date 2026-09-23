@@ -1,0 +1,430 @@
+{
+  "id": "1:32",
+  "name": "Badge",
+  "total": 69,
+  "sets": [
+    {
+      "id": "186:141",
+      "name": "Badge",
+      "type": "COMPONENT_SET",
+      "count": 68,
+      "props": {
+        "Badge Text#186:0": {
+          "type": "TEXT",
+          "defaultValue": "Badge"
+        },
+        "Right Placeholder#212:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Left Placeholder#212:46": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Left Content#2293:0": {
+          "type": "SLOT",
+          "description": null,
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "d03ecca302986e68eaefa6e760bff6fba3d87462"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "f7871143af5e1d93f51829183a987622c91e3d45"
+            }
+          ]
+        },
+        "Right Content#2293:52": {
+          "type": "SLOT",
+          "description": null,
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "d03ecca302986e68eaefa6e760bff6fba3d87462"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "f7871143af5e1d93f51829183a987622c91e3d45"
+            }
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "xl",
+          "variantOptions": [
+            "lg",
+            "md",
+            "sm",
+            "xl"
+          ]
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "primary",
+          "variantOptions": [
+            "primary",
+            "transparent",
+            "secondary",
+            "brand-neutral",
+            "success",
+            "warning",
+            "error",
+            "info",
+            "destructive"
+          ]
+        },
+        "Border": {
+          "type": "VARIANT",
+          "defaultValue": "transparent",
+          "variantOptions": [
+            "transparent",
+            "outline"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "186:140",
+      "186:141",
+      "Size=lg, Style=primary, Border=transparent"
+    ],
+    [
+      "3506:62506",
+      "186:141",
+      "Size=xl, Style=primary, Border=transparent"
+    ],
+    [
+      "294:483",
+      "186:141",
+      "Size=lg, Style=primary, Border=outline"
+    ],
+    [
+      "3506:62962",
+      "186:141",
+      "Size=xl, Style=primary, Border=outline"
+    ],
+    [
+      "202:56",
+      "186:141",
+      "Size=lg, Style=secondary, Border=transparent"
+    ],
+    [
+      "3506:62514",
+      "186:141",
+      "Size=xl, Style=secondary, Border=transparent"
+    ],
+    [
+      "292:452",
+      "186:141",
+      "Size=lg, Style=secondary, Border=outline"
+    ],
+    [
+      "3506:62970",
+      "186:141",
+      "Size=xl, Style=secondary, Border=outline"
+    ],
+    [
+      "202:68",
+      "186:141",
+      "Size=lg, Style=brand-neutral, Border=transparent"
+    ],
+    [
+      "3506:62522",
+      "186:141",
+      "Size=xl, Style=brand-neutral, Border=transparent"
+    ],
+    [
+      "208:21",
+      "186:141",
+      "Size=lg, Style=brand-neutral, Border=outline"
+    ],
+    [
+      "3506:62978",
+      "186:141",
+      "Size=xl, Style=brand-neutral, Border=outline"
+    ],
+    [
+      "208:23",
+      "186:141",
+      "Size=lg, Style=transparent, Border=outline"
+    ],
+    [
+      "3506:62986",
+      "186:141",
+      "Size=xl, Style=transparent, Border=outline"
+    ],
+    [
+      "203:92",
+      "186:141",
+      "Size=lg, Style=success, Border=transparent"
+    ],
+    [
+      "3506:62530",
+      "186:141",
+      "Size=xl, Style=success, Border=transparent"
+    ],
+    [
+      "203:153",
+      "186:141",
+      "Size=lg, Style=success, Border=outline"
+    ],
+    [
+      "3506:62994",
+      "186:141",
+      "Size=xl, Style=success, Border=outline"
+    ],
+    [
+      "186:152",
+      "186:141",
+      "Size=md, Style=primary, Border=transparent"
+    ],
+    [
+      "294:487",
+      "186:141",
+      "Size=md, Style=primary, Border=outline"
+    ],
+    [
+      "202:58",
+      "186:141",
+      "Size=md, Style=secondary, Border=transparent"
+    ],
+    [
+      "292:456",
+      "186:141",
+      "Size=md, Style=secondary, Border=outline"
+    ],
+    [
+      "202:70",
+      "186:141",
+      "Size=md, Style=brand-neutral, Border=transparent"
+    ],
+    [
+      "208:25",
+      "186:141",
+      "Size=md, Style=brand-neutral, Border=outline"
+    ],
+    [
+      "208:27",
+      "186:141",
+      "Size=md, Style=transparent, Border=outline"
+    ],
+    [
+      "203:94",
+      "186:141",
+      "Size=md, Style=success, Border=transparent"
+    ],
+    [
+      "203:155",
+      "186:141",
+      "Size=md, Style=success, Border=outline"
+    ],
+    [
+      "186:164",
+      "186:141",
+      "Size=sm, Style=primary, Border=transparent"
+    ],
+    [
+      "294:491",
+      "186:141",
+      "Size=sm, Style=primary, Border=outline"
+    ],
+    [
+      "202:60",
+      "186:141",
+      "Size=sm, Style=secondary, Border=transparent"
+    ],
+    [
+      "292:460",
+      "186:141",
+      "Size=sm, Style=secondary, Border=outline"
+    ],
+    [
+      "202:72",
+      "186:141",
+      "Size=sm, Style=brand-neutral, Border=transparent"
+    ],
+    [
+      "208:29",
+      "186:141",
+      "Size=sm, Style=brand-neutral, Border=outline"
+    ],
+    [
+      "208:31",
+      "186:141",
+      "Size=sm, Style=transparent, Border=outline"
+    ],
+    [
+      "203:96",
+      "186:141",
+      "Size=sm, Style=success, Border=transparent"
+    ],
+    [
+      "203:157",
+      "186:141",
+      "Size=sm, Style=success, Border=outline"
+    ],
+    [
+      "203:98",
+      "186:141",
+      "Size=lg, Style=warning, Border=transparent"
+    ],
+    [
+      "3506:62538",
+      "186:141",
+      "Size=xl, Style=warning, Border=transparent"
+    ],
+    [
+      "203:159",
+      "186:141",
+      "Size=lg, Style=warning, Border=outline"
+    ],
+    [
+      "3506:63002",
+      "186:141",
+      "Size=xl, Style=warning, Border=outline"
+    ],
+    [
+      "203:111",
+      "186:141",
+      "Size=lg, Style=error, Border=transparent"
+    ],
+    [
+      "3506:62546",
+      "186:141",
+      "Size=xl, Style=error, Border=transparent"
+    ],
+    [
+      "203:161",
+      "186:141",
+      "Size=lg, Style=error, Border=outline"
+    ],
+    [
+      "3506:63010",
+      "186:141",
+      "Size=xl, Style=error, Border=outline"
+    ],
+    [
+      "203:123",
+      "186:141",
+      "Size=lg, Style=destructive, Border=transparent"
+    ],
+    [
+      "3506:62554",
+      "186:141",
+      "Size=xl, Style=destructive, Border=transparent"
+    ],
+    [
+      "203:189",
+      "186:141",
+      "Size=lg, Style=info, Border=transparent"
+    ],
+    [
+      "3506:62562",
+      "186:141",
+      "Size=xl, Style=info, Border=transparent"
+    ],
+    [
+      "203:163",
+      "186:141",
+      "Size=lg, Style=destructive, Border=outline"
+    ],
+    [
+      "3506:63018",
+      "186:141",
+      "Size=xl, Style=destructive, Border=outline"
+    ],
+    [
+      "203:191",
+      "186:141",
+      "Size=lg, Style=info, Border=outline"
+    ],
+    [
+      "3506:63026",
+      "186:141",
+      "Size=xl, Style=info, Border=outline"
+    ],
+    [
+      "203:100",
+      "186:141",
+      "Size=md, Style=warning, Border=transparent"
+    ],
+    [
+      "203:165",
+      "186:141",
+      "Size=md, Style=warning, Border=outline"
+    ],
+    [
+      "203:113",
+      "186:141",
+      "Size=md, Style=error, Border=transparent"
+    ],
+    [
+      "203:167",
+      "186:141",
+      "Size=md, Style=error, Border=outline"
+    ],
+    [
+      "203:125",
+      "186:141",
+      "Size=md, Style=destructive, Border=transparent"
+    ],
+    [
+      "203:193",
+      "186:141",
+      "Size=md, Style=info, Border=transparent"
+    ],
+    [
+      "203:169",
+      "186:141",
+      "Size=md, Style=destructive, Border=outline"
+    ],
+    [
+      "203:195",
+      "186:141",
+      "Size=md, Style=info, Border=outline"
+    ],
+    [
+      "203:102",
+      "186:141",
+      "Size=sm, Style=warning, Border=transparent"
+    ],
+    [
+      "203:171",
+      "186:141",
+      "Size=sm, Style=warning, Border=outline"
+    ],
+    [
+      "203:115",
+      "186:141",
+      "Size=sm, Style=error, Border=transparent"
+    ],
+    [
+      "203:173",
+      "186:141",
+      "Size=sm, Style=error, Border=outline"
+    ],
+    [
+      "203:127",
+      "186:141",
+      "Size=sm, Style=destructive, Border=transparent"
+    ],
+    [
+      "203:197",
+      "186:141",
+      "Size=sm, Style=info, Border=transparent"
+    ],
+    [
+      "203:175",
+      "186:141",
+      "Size=sm, Style=destructive, Border=outline"
+    ],
+    [
+      "203:199",
+      "186:141",
+      "Size=sm, Style=info, Border=outline"
+    ]
+  ]
+}

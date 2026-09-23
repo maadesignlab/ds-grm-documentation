@@ -1,0 +1,137 @@
+{
+  "id": "726:6350",
+  "name": "Popover",
+  "total": 7,
+  "nodes": 34,
+  "refs": {
+    "VariableID:50:530": {
+      "count": 18,
+      "example": "743:6437"
+    },
+    "VariableID:50:514": {
+      "count": 18,
+      "example": "1141:9974"
+    },
+    "VariableID:50:526": {
+      "count": 12,
+      "example": "1141:9974"
+    },
+    "VariableID:50:534": {
+      "count": 24,
+      "example": "1141:9974"
+    },
+    "VariableID:51:21": {
+      "count": 18,
+      "example": "1141:9974"
+    },
+    "VariableID:44:184": {
+      "count": 12,
+      "example": "I1141:9974;159:12745"
+    },
+    "VariableID:50:612": {
+      "count": 6,
+      "example": "I1141:9974;159:12745"
+    },
+    "VariableID:132:811": {
+      "count": 6,
+      "example": "I1141:9974;159:12745"
+    },
+    "VariableID:50:639": {
+      "count": 6,
+      "example": "I1141:9974;159:12745"
+    },
+    "VariableID:429:250": {
+      "count": 12,
+      "example": "1141:9984"
+    },
+    "VariableID:51:20": {
+      "count": 6,
+      "example": "1141:9984"
+    }
+  },
+  "texts": {
+    "S:592db2195316334a05d7f58ef0fced7f0ff0cfb0,": {
+      "count": 6,
+      "example": "I1141:9974;159:12745"
+    }
+  },
+  "styles": {},
+  "sets": [
+    {
+      "id": "743:6436",
+      "name": "Popover",
+      "count": 6,
+      "props": {
+        "Popover Content#1390:0": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Opened": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "true",
+            "Variante 4",
+            "Variante 6",
+            "false"
+          ]
+        },
+        "Trigger Alignment": {
+          "type": "VARIANT",
+          "defaultValue": "start",
+          "variantOptions": [
+            "start",
+            "center",
+            "end"
+          ]
+        }
+      },
+      "default": {
+        "id": "1141:4888",
+        "name": "Opened=false, Trigger Alignment=start",
+        "w": 69,
+        "h": 36,
+        "layout": "VERTICAL",
+        "gap": 4,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": false,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:530"
+          }
+        }
+      }
+    }
+  ],
+  "errors": []
+}

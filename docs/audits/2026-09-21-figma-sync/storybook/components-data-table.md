@@ -1,0 +1,78 @@
+# DataTable
+
+ID: components-data-table
+
+## Stories
+
+### Playground
+
+Story ID: components-data-table--playground
+
+```
+import { DataTableExample } from "@reina-madre/design-system";
+
+const Playground = () => <div className="w-[1116px] max-w-[calc(100vw-32px)]"><DataTableExample /></div>;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as DataTableStories from "./data-table.stories"
+import primitiveSource from "./data-table.tsx?raw"
+import featuresSource from "./data-table-features.ts?raw"
+import exampleSource from "./data-table-example.tsx?raw"
+import { DataTableCompositionOverview, DataTableFeaturesOverview, DataTablePatternsOverview, DataTableSpecifications, DataTableStatesOverview } from "./data-table-docs"
+
+<Meta of={DataTableStories} />
+<Title of={DataTableStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Composición oficial sobre el primitive `Table` existente y TanStack Table v9.
+  - Sorting, filtering, visibilidad, selección, paginación y acciones por fila.
+  - Patrones de selección, activación, identificador y detalle expandible.
+  - Acciones por fila mediante Dropdown o grupos directos de uno, dos y tres Icon Buttons.
+  - Estados loading, empty y error, además de soporte para estado remoto controlado.
+  - Toolbar configurable de Figma mediante slots de composición.
+  - Tokens y tipografía responden a la marca activa.
+  - Playground y Docs consumen la misma instancia `DataTableExample`.
+</details>
+
+## Composición
+
+<div className="mb-12"><DataTableCompositionOverview /></div>
+
+## Patrones
+
+<div className="mb-12"><DataTablePatternsOverview /></div>
+
+## Estados de datos
+
+<div className="mb-12"><DataTableStatesOverview /></div>
+
+## Funciones
+
+<div className="mb-12"><DataTableFeaturesOverview /></div>
+
+## Especificaciones
+
+<div className="mb-12"><DataTableSpecifications /></div>
+
+## Código
+
+### Data Table
+
+<Source language="tsx" code={primitiveSource} />
+
+### Features
+
+<Source language="tsx" code={featuresSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

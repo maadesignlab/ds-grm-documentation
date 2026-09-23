@@ -1,0 +1,1239 @@
+{
+  "capturedAt": "2026-09-23T17:38:52.805Z",
+  "added": [],
+  "removed": [],
+  "changed": [
+    {
+      "before": [
+        "VariableID:1154:4033",
+        "GRM Global/secondary/800",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.09803921729326248,
+            "g": 0.5607843399047852,
+            "b": 0.40784314274787903,
+            "a": 1
+          }
+        }
+      ],
+      "after": [
+        "VariableID:1154:4033",
+        "GRM Global/secondary/800",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.13333334028720856,
+            "g": 0.5254902243614197,
+            "b": 0.3921568691730499,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:132:821",
+        "Maria Linda/primary/700",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.2980392277240753,
+            "g": 0.5568627715110779,
+            "b": 0.5176470875740051,
+            "a": 1
+          }
+        }
+      ],
+      "after": [
+        "VariableID:132:821",
+        "Maria Linda/primary/700",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.2705882489681244,
+            "g": 0.5058823823928833,
+            "b": 0.47058823704719543,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:132:833",
+        "Maria Linda/secondary/800",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.4117647111415863,
+            "g": 0.4901960790157318,
+            "b": 0.47843137383461,
+            "a": 1
+          }
+        }
+      ],
+      "after": [
+        "VariableID:132:833",
+        "Maria Linda/secondary/800",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.30980393290519714,
+            "g": 0.49803921580314636,
+            "b": 0.46666666865348816,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:164:175",
+        "Maria Linda/primary/hover",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:132:820"
+          }
+        }
+      ],
+      "after": [
+        "VariableID:164:175",
+        "Maria Linda/primary/hover",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:132:822"
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:203:214",
+        "error/light-foreground",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3453:31"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37805"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3495:31"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37863"
+          }
+        }
+      ],
+      "after": [
+        "VariableID:203:214",
+        "error/light-foreground",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3453:32"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37806"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3495:32"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37863"
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:203:216",
+        "info/light-foreground",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3453:53"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37829"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3495:53"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37886"
+          }
+        }
+      ],
+      "after": [
+        "VariableID:203:216",
+        "info/light-foreground",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3453:54"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37830"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3495:54"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37887"
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:203:217",
+        "success",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3453:7"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37780"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3495:7"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37838"
+          }
+        }
+      ],
+      "after": [
+        "VariableID:203:217",
+        "success",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3453:9"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37781"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3495:9"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37839"
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:203:219",
+        "error",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3453:29"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37802"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3495:29"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37860"
+          }
+        }
+      ],
+      "after": [
+        "VariableID:203:219",
+        "error",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3453:30"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37804"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3495:30"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37862"
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:203:221",
+        "info",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3453:51"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37827"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3495:51"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37885"
+          }
+        }
+      ],
+      "after": [
+        "VariableID:203:221",
+        "info",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3453:52"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37828"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3495:52"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37886"
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:208:7",
+        "success/light-foreground",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3453:10"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37782"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3495:10"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37840"
+          }
+        }
+      ],
+      "after": [
+        "VariableID:208:7",
+        "success/light-foreground",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3453:10"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37783"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3495:10"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37840"
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:230:1268",
+        "success-hover",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3453:8"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37781"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3495:8"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37839"
+          }
+        }
+      ],
+      "after": [
+        "VariableID:230:1268",
+        "success-hover",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3453:10"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37782"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3495:10"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37840"
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:230:1269",
+        "success-active",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3453:9"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37782"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3495:9"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37840"
+          }
+        }
+      ],
+      "after": [
+        "VariableID:230:1269",
+        "success-active",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3453:11"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37783"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3495:11"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37841"
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:3449:37781",
+        "Maria Linda/status/success/600",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.07836874574422836,
+            "g": 0.5816643238067627,
+            "b": 0.3601166307926178,
+            "a": 1
+          }
+        }
+      ],
+      "after": [
+        "VariableID:3449:37781",
+        "Maria Linda/status/success/600",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.15294118225574493,
+            "g": 0.5254902243614197,
+            "b": 0.3450980484485626,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:3449:37782",
+        "Maria Linda/status/success/700",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.06969235837459564,
+            "g": 0.47160953283309937,
+            "b": 0.2903991937637329,
+            "a": 1
+          }
+        }
+      ],
+      "after": [
+        "VariableID:3449:37782",
+        "Maria Linda/status/success/700",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.07058823853731155,
+            "g": 0.4627451002597809,
+            "b": 0.2862745225429535,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:3449:37804",
+        "Maria Linda/status/error/600",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.7846466898918152,
+            "g": 0.16870304942131042,
+            "b": 0.25646480917930603,
+            "a": 1
+          }
+        }
+      ],
+      "after": [
+        "VariableID:3449:37804",
+        "Maria Linda/status/error/600",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.8588235378265381,
+            "g": 0.21568627655506134,
+            "b": 0.2823529541492462,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:3449:37828",
+        "Maria Linda/status/info/600",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.13671578466892242,
+            "g": 0.4161819815635681,
+            "b": 0.7421119213104248,
+            "a": 1
+          }
+        }
+      ],
+      "after": [
+        "VariableID:3449:37828",
+        "Maria Linda/status/info/600",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.1921568661928177,
+            "g": 0.46666666865348816,
+            "b": 0.8078431487083435,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:3449:37839",
+        "GRM Global/status/success/600",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.007843137718737125,
+            "g": 0.5098039507865906,
+            "b": 0.20000000298023224,
+            "a": 1
+          }
+        }
+      ],
+      "after": [
+        "VariableID:3449:37839",
+        "GRM Global/status/success/600",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0,
+            "g": 0.5372549295425415,
+            "b": 0.21568627655506134,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:3449:37862",
+        "GRM Global/status/error/600",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.8078431487083435,
+            "g": 0.3019607961177826,
+            "b": 0.24313725531101227,
+            "a": 1
+          }
+        }
+      ],
+      "after": [
+        "VariableID:3449:37862",
+        "GRM Global/status/error/600",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.8745098114013672,
+            "g": 0.2078431397676468,
+            "b": 0.11372549086809158,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:3449:37886",
+        "GRM Global/status/info/600",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.3019607961177826,
+            "g": 0.37254902720451355,
+            "b": 0.8196078538894653,
+            "a": 1
+          }
+        }
+      ],
+      "after": [
+        "VariableID:3449:37886",
+        "GRM Global/status/info/600",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.3450980484485626,
+            "g": 0.41960784792900085,
+            "b": 0.9019607901573181,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:3453:30",
+        "Reina Madre/status/error/600",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.8627451062202454,
+            "g": 0.14901961386203766,
+            "b": 0.14901961386203766,
+            "a": 1
+          }
+        }
+      ],
+      "after": [
+        "VariableID:3453:30",
+        "Reina Madre/status/error/600",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.9215686321258545,
+            "g": 0.08627451211214066,
+            "b": 0.08627451211214066,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:3453:52",
+        "Reina Madre/status/info/600",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.007843137718737125,
+            "g": 0.5176470875740051,
+            "b": 0.7803921699523926,
+            "a": 1
+          }
+        }
+      ],
+      "after": [
+        "VariableID:3453:52",
+        "Reina Madre/status/info/600",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.04313725605607033,
+            "g": 0.4941176474094391,
+            "b": 0.7019608020782471,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:3453:9",
+        "Reina Madre/status/success/700",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.3450980484485626,
+            "g": 0.529411792755127,
+            "b": 0.3686274588108063,
+            "a": 1
+          }
+        }
+      ],
+      "after": [
+        "VariableID:3453:9",
+        "Reina Madre/status/success/700",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.3019607961177826,
+            "g": 0.5098039507865906,
+            "b": 0.3176470696926117,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:3492:56315",
+        "error-hover",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3453:30"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37804"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3495:30"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37862"
+          }
+        }
+      ],
+      "after": [
+        "VariableID:3492:56315",
+        "error-hover",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3453:31"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37805"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3495:31"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37863"
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:3492:56316",
+        "error-active",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3453:31"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37805"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3495:31"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37863"
+          }
+        }
+      ],
+      "after": [
+        "VariableID:3492:56316",
+        "error-active",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3453:32"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37806"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3495:32"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37864"
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:3492:56319",
+        "info-hover",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3453:52"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37828"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3495:52"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37886"
+          }
+        }
+      ],
+      "after": [
+        "VariableID:3492:56319",
+        "info-hover",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3453:53"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37829"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3495:53"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37887"
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:3492:56320",
+        "info-active",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3453:53"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37829"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3495:53"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37887"
+          }
+        }
+      ],
+      "after": [
+        "VariableID:3492:56320",
+        "info-active",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3453:54"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37830"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3495:54"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3449:37888"
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:3492:56324",
+        "Maria Linda/primary/active",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:132:821"
+          }
+        }
+      ],
+      "after": [
+        "VariableID:3492:56324",
+        "Maria Linda/primary/active",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:132:823"
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:3495:30",
+        "Piel Sana/status/error/600",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.8362146615982056,
+            "g": 0.20265458524227142,
+            "b": 0.07016317546367645,
+            "a": 1
+          }
+        }
+      ],
+      "after": [
+        "VariableID:3495:30",
+        "Piel Sana/status/error/600",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.8745098114013672,
+            "g": 0.20392157137393951,
+            "b": 0.0784313753247261,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:3495:52",
+        "Piel Sana/status/info/600",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.043406762182712555,
+            "g": 0.4251158535480499,
+            "b": 0.7374682426452637,
+            "a": 1
+          }
+        }
+      ],
+      "after": [
+        "VariableID:3495:52",
+        "Piel Sana/status/info/600",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.12941177189350128,
+            "g": 0.4745098054409027,
+            "b": 0.7921568751335144,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:3495:9",
+        "Piel Sana/status/success/700",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.2831089496612549,
+            "g": 0.5012387037277222,
+            "b": 0.027318334206938744,
+            "a": 1
+          }
+        }
+      ],
+      "after": [
+        "VariableID:3495:9",
+        "Piel Sana/status/success/700",
+        "VariableCollectionId:16:8",
+        "COLOR",
+        {
+          "16:0": {
+            "r": 0.3137255012989044,
+            "g": 0.5176470875740051,
+            "b": 0.125490203499794,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:5082:64990",
+        "button/brand-gradient-1",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:44:42"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:132:831"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:132:771"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:1154:4031"
+          }
+        }
+      ],
+      "after": [
+        "VariableID:5082:64990",
+        "button/brand-gradient-1",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:44:42"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:132:833"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:132:771"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:1154:4033"
+          }
+        }
+      ]
+    },
+    {
+      "before": [
+        "VariableID:5082:64991",
+        "button/brand-gradient-2",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:44:74"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:132:821"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:132:774"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:1154:4018"
+          }
+        }
+      ],
+      "after": [
+        "VariableID:5082:64991",
+        "button/brand-gradient-2",
+        "VariableCollectionId:44:169",
+        "COLOR",
+        {
+          "44:8": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:44:74"
+          },
+          "132:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:132:821"
+          },
+          "132:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:132:774"
+          },
+          "1154:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:1154:4020"
+          }
+        }
+      ]
+    }
+  ]
+}

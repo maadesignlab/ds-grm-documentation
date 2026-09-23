@@ -83,7 +83,7 @@ function ToastTitle({ className, ...props }: ToastPrimitive.Title.Props) {
 }
 
 function ToastDescription({ className, ...props }: ToastPrimitive.Description.Props) {
-  return <ToastPrimitive.Description data-slot="toast-description" className={cn("m-0 p-0 text-xs leading-(--toast-description-line-height) text-current/72", className)} {...props} />
+  return <ToastPrimitive.Description data-slot="toast-description" className={cn("m-0 p-0 text-xs leading-(--toast-description-line-height) text-current", className)} {...props} />
 }
 
 function ToastAction({ className, render = <Button variant="outline" size="sm" />, ...props }: ToastPrimitive.Action.Props) {
@@ -91,7 +91,7 @@ function ToastAction({ className, render = <Button variant="outline" size="sm" /
 }
 
 function ToastClose({ className, children, render = <Button variant="ghost" size="icon-sm" />, ...props }: ToastPrimitive.Close.Props) {
-  return <ToastPrimitive.Close data-slot="toast-close" aria-label="Cerrar notificación" render={render} className={cn("relative shrink-0 text-current/72 after:absolute after:-inset-2 after:content-[''] hover:text-current", className)} {...props}>{children ?? <XIcon aria-hidden="true" />}</ToastPrimitive.Close>
+  return <ToastPrimitive.Close data-slot="toast-close" aria-label="Cerrar notificación" render={render} className={cn("relative shrink-0 text-current after:absolute after:-inset-2 after:content-[''] hover:text-current", className)} {...props}>{children ?? <XIcon aria-hidden="true" />}</ToastPrimitive.Close>
 }
 
 function ToastIcon({ type }: { type: string | undefined }) {

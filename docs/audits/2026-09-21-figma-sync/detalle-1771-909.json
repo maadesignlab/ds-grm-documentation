@@ -1,0 +1,274 @@
+{
+  "id": "1771:909",
+  "name": "Accordion",
+  "total": 71,
+  "nodes": 3719,
+  "refs": {
+    "VariableID:51:21": {
+      "count": 880,
+      "example": "1771:943"
+    },
+    "VariableID:186:174": {
+      "count": 440,
+      "example": "1771:938"
+    },
+    "VariableID:44:184": {
+      "count": 1892,
+      "example": "I1771:13152;1771:13080"
+    },
+    "VariableID:99:17": {
+      "count": 506,
+      "example": "I1771:13152;1771:13080"
+    },
+    "VariableID:132:811": {
+      "count": 506,
+      "example": "I1771:13152;1771:13080"
+    },
+    "VariableID:50:639": {
+      "count": 442,
+      "example": "I1771:13152;1771:13080"
+    },
+    "VariableID:50:641": {
+      "count": 64,
+      "example": "1771:13045"
+    }
+  },
+  "texts": {
+    "S:b9200b5971cf3f84adc1475861c0b20e11d4e15e,": {
+      "count": 441,
+      "example": "I1771:13152;1771:13080"
+    },
+    "S:1d452614e679106aeb9f64166fd66fd5df9751c7,": {
+      "count": 64,
+      "example": "1771:13045"
+    },
+    "S:14995935682beb5ca4a19dd71efefcae86469637,": {
+      "count": 1,
+      "example": "1771:13084"
+    }
+  },
+  "styles": {},
+  "sets": [
+    {
+      "id": "1771:13033",
+      "name": "_components/Accordion/AccordionItem",
+      "count": 2,
+      "props": {
+        "Accordion Content#1879:30": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "collapsed",
+          "variantOptions": [
+            "collapsed",
+            "expanded"
+          ]
+        }
+      },
+      "default": {
+        "id": "1771:943",
+        "name": "Status=collapsed",
+        "w": 384,
+        "h": 41,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8549019694328308,
+              "g": 0.8313725590705872,
+              "b": 0.843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:21"
+              }
+            }
+          }
+        ],
+        "effects": [],
+        "bound": {
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:21"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1771:13082",
+      "name": "_components/Accordion/AccordionBaseText",
+      "count": 2,
+      "props": {
+        "Accordion Item Text#1879:33": {
+          "type": "TEXT",
+          "defaultValue": "¿Cómo puedo programar una cita?"
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "onHover"
+          ]
+        }
+      },
+      "default": {
+        "id": "1771:13081",
+        "name": "Status=default",
+        "w": 360,
+        "h": 20,
+        "layout": "NONE",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": false,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "1771:13171",
+      "name": "Accordion/Multiple",
+      "count": 9,
+      "props": {
+        "Item Amount": {
+          "type": "VARIANT",
+          "defaultValue": "2",
+          "variantOptions": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+          ]
+        }
+      },
+      "default": {
+        "id": "1771:13170",
+        "name": "Item Amount=2",
+        "w": 404,
+        "h": 132,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "1771:13749",
+      "name": "Accordion/Unique",
+      "count": 54,
+      "props": {
+        "Item Amount": {
+          "type": "VARIANT",
+          "defaultValue": "2",
+          "variantOptions": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "2",
+            "3",
+            "4",
+            "6",
+            "5"
+          ]
+        },
+        "Active Item": {
+          "type": "VARIANT",
+          "defaultValue": "1",
+          "variantOptions": [
+            "1",
+            "2",
+            "5",
+            "6",
+            "7",
+            "8",
+            "10",
+            "3",
+            "4",
+            "9"
+          ]
+        }
+      },
+      "default": {
+        "id": "1771:13750",
+        "name": "Item Amount=2, Active Item=1",
+        "w": 404,
+        "h": 132,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    }
+  ],
+  "errors": []
+}

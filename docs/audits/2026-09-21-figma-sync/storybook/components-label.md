@@ -1,0 +1,62 @@
+# Label
+
+ID: components-label
+
+## Stories
+
+### Playground
+
+Story ID: components-label--playground
+
+```
+import { LabelExample } from "@reina-madre/design-system";
+
+const Playground = () => <LabelExample
+    key={JSON.stringify(args)}
+    control="input"
+    disabled={false}
+    invalid={false}
+    required={false}
+    text="Nombre de usuario" />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as LabelStories from "./label.stories"
+import labelSource from "./label.tsx?raw"
+import exampleSource from "./label-example.tsx?raw"
+import { LabelCompositions, LabelSpecifications } from "./label-docs"
+
+<Meta of={LabelStories} />
+<Title of={LabelStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.1</strong> · Alineación estricta con shadcn/ui</summary>
+
+  - Conserva el primitive oficial como un elemento HTML `label` sin variantes propias.
+  - Compone Label con Field, Input, Checkbox y Textarea siguiendo los ejemplos oficiales.
+  - Disabled, invalid y required pertenecen al control y a Field; no amplían la API de Label.
+</details>
+
+## Composición
+
+<div className="mb-12"><LabelCompositions /></div>
+
+## Especificaciones
+
+<div className="mb-12"><LabelSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={labelSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

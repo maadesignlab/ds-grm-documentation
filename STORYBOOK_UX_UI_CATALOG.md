@@ -1,7 +1,7 @@
 ---
 title: "Catálogo UX/UI del Storybook GRM"
 designSystem: "Design System GRM"
-version: "1.0.0"
+version: "1.1.0"
 catalogSchemaVersion: 1
 status: "current"
 canonicalRendering: "Playground"
@@ -10,14 +10,14 @@ generatedFrom: "Storybook source"
 
 # Catálogo UX/UI del Storybook GRM
 
-> Snapshot exhaustivo de **Design System GRM v1.0.0**. Este archivo está orientado a diseñadores UX/UI y agentes de IA que necesiten construir wireframes fieles al Storybook sin recorrer todo el repositorio.
+> Snapshot exhaustivo de **Design System GRM v1.1.0**. Este archivo está orientado a diseñadores UX/UI y agentes de IA que necesiten construir wireframes fieles al Storybook sin recorrer todo el repositorio.
 > **Archivo generado:** no editar manualmente. Actualizar las fuentes canónicas y ejecutar `npm run catalog:generate`.
 
 ## Estado y alcance de esta versión
 
 | Campo | Valor |
 | --- | --- |
-| Versión del Design System | `1.0.0` |
+| Versión del Design System | `1.1.0` |
 | Componentes documentados | 50 |
 | Marcas | GRM Global, Reina Madre, María Linda, Piel Sana |
 | Base técnica | shadcn/ui; Radix UI o Base UI según el componente oficial vigente |
@@ -74,10 +74,10 @@ El selector global modifica `data-theme` en el elemento raíz. Todos los compone
 
 | Selector | Marca | Fuente sans | Fuente mono |
 | --- | --- | --- | --- |
-| grm-global | GRM Global | Inter Variable | JetBrains Mono Variable |
-| reina-madre | Reina Madre | Inter Variable | JetBrains Mono Variable |
-| maria-linda | María Linda | Plus Jakarta Sans Variable | JetBrains Mono Variable |
-| piel-sana | Piel Sana | Kantumruy Pro Variable | JetBrains Mono Variable |
+| grm-global | GRM Global | "Inter Variable", Inter, Arial, Helvetica, sans-serif | "JetBrains Mono Variable", "JetBrains Mono", monospace |
+| reina-madre | Reina Madre | "Inter Variable", Inter, Arial, Helvetica, sans-serif | "JetBrains Mono Variable", "JetBrains Mono", monospace |
+| maria-linda | María Linda | "Plus Jakarta Sans Variable", "Plus Jakarta Sans", sans-serif | "JetBrains Mono Variable", "JetBrains Mono", monospace |
+| piel-sana | Piel Sana | "Kantumruy Pro Variable", "Kantumruy Pro", sans-serif | "JetBrains Mono Variable", "JetBrains Mono", monospace |
 
 ## Foundations: Semantic Brand
 
@@ -87,88 +87,70 @@ Las siguientes tablas contienen todos los valores exportados desde Figma para ca
 
 | Variable | Valor |
 | --- | --- |
-| `--background` | `#f8f7f9` |
-| `--background/10` | `oklch(0.9775 0.0028 308.43 / 20%)` |
-| `--background-hover` | `#f5f3ef` |
-| `--background-active` | `#f5f3ef` |
-| `--foreground` | `#342f32` |
-| `--foreground/60` | `oklch(0.3116 0.0088 340.87 / 60%)` |
-| `--card` | `#ffffff` |
-| `--card/1` | `oklch(1 0 89.88 / 1%)` |
-| `--popover` | `#f7f6f8` |
-| `--primary` | `#008979` |
-| `--primary-hover` | `#007b6d` |
-| `--primary-active` | `#006459` |
-| `--secondary` | `#ddf9ee` |
-| `--secondary-hover` | `#45d6a1` |
-| `--secondary-active` | `#24b783` |
-| `--muted` | `#ece8ea` |
-| `--accent` | `#ddd8e3` |
-| `--success` | `#4ccb6a` |
-| `--success-hover` | `#32ad52` |
-| `--success-active` | `#288a43` |
-| `--warning` | `#f6c453` |
-| `--error` | `#ea6e5c` |
-| `--destructive` | `#ff3759` |
-| `--info` | `#6577e8` |
-| `--border` | `#dad4d7` |
-| `--input` | `#bbb3b7` |
-| `--ring` | `#008979` |
-| `--sidebar` | `#ffffff` |
-| `--card-foreground` | `#484145` |
-| `--popover-foreground` | `#342f32` |
-| `--primary-foreground` | `#ffffff` |
-| `--primary-default-foreground` | `#008979` |
-| `--primary-default-border` | `#008979` |
-| `--primary-light-border` | `#94ded4` |
-| `--primary/5` | `oklch(0.5649 0.1019 180.8 / 5%)` |
-| `--primary/10` | `oklch(0.5649 0.1019 180.8 / 10%)` |
-| `--primary/15` | `oklch(0.5649 0.1019 180.8 / 15%)` |
-| `--primary/20` | `oklch(0.5649 0.1019 180.8 / 20%)` |
-| `--secondary-foreground` | `#166f54` |
-| `--secondary-default-border` | `#7cedc1` |
-| `--secondary/10` | `oklch(0.8672 0.1221 166.06 / 10%)` |
-| `--secondary/40` | `oklch(0.8672 0.1221 166.06 / 40%)` |
-| `--muted-foreground` | `#9b9196` |
-| `--muted/5` | `oklch(0.9347 0.0051 345.29 / 5%)` |
-| `--muted/40` | `oklch(0.9347 0.0051 345.29 / 40%)` |
-| `--muted/50` | `oklch(0.9347 0.0051 345.29 / 50%)` |
-| `--accent-foreground` | `#484145` |
-| `--accent/50` | `oklch(0.8894 0.0158 306.39 / 50%)` |
+| `--muted-50` | `rgb(246.000001 242.000001 244.000001 / 50%)` |
+| `--brand-font-sans` | `"Inter Variable", Inter, Arial, Helvetica, sans-serif` |
+| `--brand-font-heading` | `"Inter Variable", Inter, Arial, Helvetica, sans-serif` |
+| `--brand-font-mono` | `"JetBrains Mono Variable", "JetBrains Mono", monospace` |
+| `--destructive-10` | `rgb(227.261321 21.745866 70.058247 / 10%)` |
+| `--destructive-default-foreground` | `rgb(227.261321 21.745866 70.058247 / 100%)` |
+| `--table-row-alternate` | `#faf9fa` |
+| `--primary-hover` | `#006459` |
+| `--secondary-hover` | `#bdf4dc` |
+| `--primary-active` | `#003b35` |
+| `--secondary-active` | `#98f0cd` |
+| `--background-hover` | `#f6f2f4` |
+| `--background-active` | `#dad4d7` |
+| `--foreground-60` | `rgb(44.000001 40.000001 42.000001 / 60%)` |
 | `--success-foreground` | `#ffffff` |
-| `--success-default-border` | `#4ccb6a` |
-| `--success-light` | `#f0fcf3` |
-| `--success-light-hover` | `#dcf8e3` |
-| `--success-light-active` | `#baf0c8` |
-| `--success-light-border` | `#baf0c8` |
-| `--success-light-foreground` | `#288a43` |
-| `--warning-foreground` | `#342f32` |
-| `--warning-default-border` | `#f6c453` |
+| `--warning-foreground` | `#2c282a` |
+| `--error-foreground` | `#ffffff` |
+| `--destructive-foreground` | `#ffffff` |
+| `--info-foreground` | `#ffffff` |
+| `--success-light-border` | `#bee7c3` |
+| `--warning-light-border` | `#ffe8a8` |
+| `--error-light-foreground` | `#aa392f` |
+| `--destructive-light-border` | `rgb(254.797319 194.543739 195.193033 / 100%)` |
+| `--info-light-foreground` | `#3f4daa` |
+| `--success` | `#008937` |
+| `--warning` | `#ffda78` |
+| `--error` | `#df351d` |
+| `--destructive` | `rgb(227.261321 21.745866 70.058247 / 100%)` |
+| `--info` | `#586be6` |
+| `--success-light` | `#f3fbf4` |
 | `--warning-light` | `#fffbef` |
+| `--error-light-border` | `#ffcfc8` |
+| `--error-light` | `#fff5f3` |
+| `--destructive-light` | `rgb(254.988965 243.687034 243.607239 / 100%)` |
+| `--info-light` | `#f5f6ff` |
+| `--success-light-foreground` | `#026827` |
+| `--warning-light-foreground` | `#925b20` |
+| `--destructive-light-foreground` | `rgb(149.133546 0.816463 40.81831 / 100%)` |
+| `--info-light-border` | `#d4d9ff` |
+| `--muted-40` | `rgb(246.000001 242.000001 244.000001 / 40%)` |
+| `--success-hover` | `#026827` |
+| `--success-active` | `#014e1c` |
+| `--success-light-hover` | `#e2f4e3` |
+| `--success-light-active` | `#bee7c3` |
 | `--warning-light-hover` | `#fff4d5` |
 | `--warning-light-active` | `#ffe8a8` |
-| `--warning-light-border` | `#ffe8a8` |
-| `--warning-light-foreground` | `#b57822` |
-| `--error-foreground` | `#ffffff` |
-| `--error-default-foreground` | `#ea6e5c` |
-| `--error-default-border` | `#ea6e5c` |
-| `--error-light` | `#fff5f3` |
 | `--error-light-hover` | `#ffe6e2` |
 | `--error-light-active` | `#ffcfc8` |
-| `--error-light-border` | `#ffcfc8` |
-| `--error-light-foreground` | `#aa392f` |
-| `--destructive-foreground` | `#ffffff` |
-| `--destructive-default-foreground` | `#ff3759` |
-| `--error/20` | `oklch(0.6828 0.1573 30.09 / 20%)` |
-| `--destructive-light` | `#ffeeee` |
-| `--destructive-light-hover` | `#fed9d9` |
-| `--destructive-light-active` | `#fdbebf` |
-| `--destructive-light-border` | `#fdbebf` |
-| `--destructive-light-foreground` | `#e31646` |
-| `--destructive/10` | `oklch(0.6566 0.2317 17.86 / 10%)` |
-| `--destructive/20` | `oklch(0.6566 0.2317 17.86 / 20%)` |
-| `--destructive/30` | `oklch(0.6566 0.2317 17.86 / 30%)` |
-| `--info-foreground` | `#ffffff` |
+| `--destructive-light-hover` | `rgb(254.975423 227.638459 227.574698 / 100%)` |
+| `--destructive-light-active` | `rgb(254.797319 194.543739 195.193033 / 100%)` |
+| `--info-light-hover` | `#e9ebff` |
+| `--info-light-active` | `#d4d9ff` |
+| `--primary-20` | `rgb(0 123 109.000001 / 20%)` |
+| `--primary-10` | `rgb(0 123 109.000001 / 10%)` |
+| `--primary-default-foreground` | `#004f47` |
+| `--primary-15` | `rgb(0 123 109.000001 / 15%)` |
+| `--secondary-40` | `rgb(124 237.000001 193.000004 / 40%)` |
+| `--destructive-30` | `rgb(227.261321 21.745866 70.058247 / 30%)` |
+| `--secondary-default-border` | `#7cedc1` |
+| `--secondary-10` | `rgb(124 237.000001 193.000004 / 10%)` |
+| `--primary-default-border` | `#007b6d` |
+| `--success-default-border` | `#00a241` |
+| `--warning-default-border` | `#f6c453` |
+| `--error-default-border` | `#ea6e5c` |
 | `--appointment-scheduled-light` | `#ececef` |
 | `--appointment-scheduled-light-border` | `#ccced6` |
 | `--appointment-scheduled-default` | `#6a6f86` |
@@ -205,125 +187,133 @@ Las siguientes tablas contienen todos los valores exportados desde Figma para ca
 | `--appointment-rescheduled-light-border` | `#ddd3f0` |
 | `--appointment-rescheduled-default` | `#9b7fd4` |
 | `--appointment-rescheduled-foreground` | `#7a65a6` |
-| `--ring/15` | `oklch(0.7638 0.1576 52.1 / 15%)` |
-| `--ring/50` | `oklch(0.7638 0.1576 52.1 / 50%)` |
-| `--input/50` | `oklch(0.7745 0.0106 345.5 / 50%)` |
-| `--info-light` | `#f5f6ff` |
-| `--info-light-hover` | `#e9ebff` |
-| `--info-light-active` | `#d4d9ff` |
-| `--info-light-border` | `#d4d9ff` |
-| `--info-light-foreground` | `#4d5fd1` |
-| `--chart-1` | `#008979` |
-| `--chart-2` | `#7cedc1` |
-| `--sidebar-primary` | `#008979` |
-| `--chart-3` | `#887a99` |
-| `--chart-4` | `#4ccb6a` |
-| `--chart-5` | `#f6c453` |
-| `--sidebar-foreground` | `#342f32` |
-| `--sidebar-accent` | `#e8f8f5` |
-| `--sidebar-border` | `#bbb3b7` |
-| `--sidebar-ring` | `#2aae9f` |
-| `--sidebar-primary-foreground` | `#ffffff` |
-| `--sidebar-accent-foreground` | `#342f32` |
-| `--table-row-alternate` | `#fcfbfa` |
 | `--warning-hover` | `#d99e2e` |
 | `--warning-active` | `#b57822` |
-| `--error-hover` | `#ce4d3e` |
-| `--error-active` | `#aa392f` |
-| `--destructive-hover` | `#e31646` |
-| `--destructive-active` | `#bb1138` |
-| `--info-hover` | `#4d5fd1` |
-| `--info-active` | `#3f4daa` |
-| `--brand-font-sans` | `Inter Variable` |
-| `--brand-font-mono` | `JetBrains Mono Variable` |
-| `--font-weight-medium` | `500` |
+| `--error-hover` | `#aa392f` |
+| `--error-active` | `#8b302a` |
+| `--destructive-hover` | `rgb(187.335344 16.963213 56.393876 / 100%)` |
+| `--destructive-active` | `rgb(149.133546 0.816463 40.81831 / 100%)` |
+| `--info-hover` | `#3f4daa` |
+| `--info-active` | `#37438a` |
+| `--destructive-20` | `rgb(227.261321 21.745866 70.058247 / 20%)` |
+| `--muted-20` | `rgb(246.000001 242.000001 244.000001 / 20%)` |
+| `--primary-light-border` | `#94ded4` |
+| `--background-10` | `rgb(250 248 251 / 10%)` |
+| `--card-1` | `rgb(255 255 255 / 1%)` |
+| `--error-default-foreground` | `#ea6e5c` |
+| `--error-20` | `rgb(234.000001 110.000001 92.000002 / 20%)` |
+| `--ring-50` | `rgb(0 123 109.000001 / 50%)` |
+| `--background` | `#faf8fb` |
+| `--foreground` | `#2c282a` |
+| `--primary` | `#007b6d` |
+| `--secondary` | `#ddf9ee` |
+| `--accent` | `rgb(231.055737 226.014927 237.10901 / 100%)` |
+| `--muted` | `#f6f2f4` |
+| `--primary-5` | `rgb(0 123 109.000001 / 5%)` |
+| `--input-50` | `rgb(187.000004 179.000005 183.000004 / 50%)` |
+| `--table-header-background` | `#f3f1f3` |
+| `--muted-30` | `rgb(246.000001 242.000001 244.000001 / 30%)` |
+| `--button-brand-gradient-1` | `#228664` |
+| `--button-brand-gradient-2` | `#004f47` |
+| `--background-brand-gradient-light-1` | `#e6f3f2` |
+| `--background-brand-gradient-light-2` | `rgb(255 255 255 / 0%)` |
+| `--primary-foreground` | `#ffffff` |
+| `--card` | `#ffffff` |
+| `--popover` | `#faf8fb` |
+| `--border` | `#dad4d7` |
+| `--input` | `#bbb3b7` |
+| `--ring` | `#007b6d` |
+| `--sidebar` | `#ffffff` |
+| `--popover-foreground` | `#2c282a` |
+| `--secondary-foreground` | `#166f54` |
+| `--secondary-light-border` | `#98f0cd` |
+| `--sheet-drawer` | `#ffffff` |
+| `--accent-50` | `rgb(231.055737 226.014927 237.10901 / 50%)` |
+| `--chart-5` | `#ffda78` |
+| `--sidebar-primary-foreground` | `#ffffff` |
+| `--sidebar-accent-foreground` | `#2c282a` |
+| `--sidebar-border` | `#bbb3b7` |
+| `--sidebar-ring` | `#2aae9f` |
+| `--muted-foreground` | `#696065` |
+| `--accent-foreground` | `#3f393c` |
+| `--chart-1` | `#007b6d` |
+| `--card-foreground` | `#3f393c` |
+| `--sidebar-foreground` | `#2c282a` |
+| `--chart-2` | `#7cedc1` |
+| `--chart-3` | `rgb(181.173913 166.544379 199.280519 / 100%)` |
+| `--chart-4` | `#008937` |
+| `--sidebar-primary` | `#007b6d` |
+| `--sidebar-accent` | `#e8f8f5` |
+| `--ring-15` | `rgb(0 123 109.000001 / 15%)` |
 
 ### Reina Madre — `reina-madre`
 
 | Variable | Valor |
 | --- | --- |
-| `--background` | `#f4f4fb` |
-| `--background/10` | `oklch(0.9691 0.0093 286.22 / 20%)` |
-| `--background-hover` | `#8a8fb6` |
-| `--background-active` | `#565386` |
-| `--foreground` | `#373644` |
-| `--foreground/60` | `oklch(0.3396 0.0244 288.3 / 60%)` |
-| `--card` | `#ffffff` |
-| `--card/1` | `oklch(1 0 89.88 / 1%)` |
-| `--popover` | `#fcfcff` |
-| `--primary` | `#ed80a8` |
+| `--muted-50` | `rgb(242.000001 243.000001 250 / 50%)` |
+| `--brand-font-sans` | `"Inter Variable", Inter, Arial, Helvetica, sans-serif` |
+| `--brand-font-heading` | `"Inter Variable", Inter, Arial, Helvetica, sans-serif` |
+| `--brand-font-mono` | `"JetBrains Mono Variable", "JetBrains Mono", monospace` |
+| `--destructive-10` | `rgb(230.000001 30 66.000004 / 10%)` |
+| `--destructive-default-foreground` | `#e61e42` |
+| `--table-row-alternate` | `rgb(248.942031 248.942031 255 / 100%)` |
 | `--primary-hover` | `#d8618e` |
+| `--secondary-hover` | `#e3d1ee` |
 | `--primary-active` | `#b84772` |
-| `--secondary` | `#f1e8f7` |
-| `--secondary-hover` | `#8c48a7` |
-| `--secondary-active` | `#74388a` |
-| `--muted` | `#f0f1fa` |
-| `--accent` | `#d9d8f5` |
-| `--success` | `#afd393` |
-| `--success-hover` | `#93b478` |
-| `--success-active` | `#77915f` |
-| `--warning` | `#fac186` |
-| `--error` | `#ef4444` |
-| `--destructive` | `#ff3759` |
-| `--info` | `#0ea5e9` |
-| `--border` | `#d6d9f3` |
-| `--input` | `#d6d9f3` |
-| `--ring` | `#ed80a8` |
-| `--sidebar` | `#ffffff` |
-| `--card-foreground` | `#444b54` |
-| `--popover-foreground` | `#373644` |
-| `--primary-foreground` | `#ffffff` |
-| `--primary-default-foreground` | `#ed80a8` |
-| `--primary-default-border` | `#ed80a8` |
-| `--primary-light-border` | `#ed80a8` |
-| `--primary/5` | `oklch(0.7313 0.1402 357.8 / 5%)` |
-| `--primary/10` | `oklch(0.7313 0.1402 357.8 / 10%)` |
-| `--primary/15` | `oklch(0.7313 0.1402 357.8 / 15%)` |
-| `--primary/20` | `oklch(0.7313 0.1402 357.8 / 20%)` |
-| `--secondary-foreground` | `#a25cbf` |
-| `--secondary-default-border` | `#a25cbf` |
-| `--secondary/10` | `oklch(0.5948 0.1605 315.16 / 10%)` |
-| `--secondary/40` | `oklch(0.5948 0.1605 315.16 / 40%)` |
-| `--muted-foreground` | `#8a8fb6` |
-| `--muted/5` | `oklch(0.96 0.0121 281.08 / 40%)` |
-| `--muted/40` | `oklch(0.96 0.0121 281.08 / 40%)` |
-| `--muted/50` | `oklch(0.96 0.0121 281.08 / 50%)` |
-| `--accent-foreground` | `#444b54` |
-| `--accent/50` | `oklch(0.892 0.0396 287.15 / 50%)` |
-| `--success-foreground` | `#373644` |
-| `--success-default-border` | `#afd393` |
-| `--success-light` | `#f8fcf4` |
-| `--success-light-hover` | `#f0f8e8` |
-| `--success-light-active` | `#e0f0d1` |
-| `--success-light-border` | `#e0f0d1` |
-| `--success-light-foreground` | `#77915f` |
-| `--warning-foreground` | `#373644` |
-| `--warning-default-border` | `#fac186` |
+| `--secondary-active` | `#d0b0e2` |
+| `--background-hover` | `#f2f3fa` |
+| `--background-active` | `#e4e6f7` |
+| `--foreground-60` | `rgb(40.000001 40.000001 47.000001 / 60%)` |
+| `--success-foreground` | `#ffffff` |
+| `--warning-foreground` | `#28282f` |
+| `--error-foreground` | `#ffffff` |
+| `--destructive-foreground` | `#ffffff` |
+| `--info-foreground` | `#ffffff` |
+| `--success-light-border` | `#bce0bf` |
+| `--warning-light-border` | `#ffd39f` |
+| `--error-light-foreground` | `#991b1b` |
+| `--destructive-light-border` | `rgb(254.639506 194.855323 193.625693 / 100%)` |
+| `--info-light-foreground` | `#075985` |
+| `--success` | `#4d8251` |
+| `--warning` | `#ffd39f` |
+| `--error` | `#eb1616` |
+| `--destructive` | `#e61e42` |
+| `--info` | `#0b7eb3` |
+| `--success-light` | `#f5faf5` |
 | `--warning-light` | `#fff9f2` |
+| `--error-light-border` | `#fecaca` |
+| `--error-light` | `#fef2f2` |
+| `--destructive-light` | `rgb(254.952107 243.741767 243.331632 / 100%)` |
+| `--info-light` | `#f0f9ff` |
+| `--success-light-foreground` | `#44694a` |
+| `--warning-light-foreground` | `#65492b` |
+| `--destructive-light-foreground` | `#94112a` |
+| `--info-light-border` | `#bae6fd` |
+| `--muted-40` | `rgb(242.000001 243.000001 250 / 40%)` |
+| `--success-hover` | `#44694a` |
+| `--success-active` | `#324d37` |
+| `--success-light-hover` | `#eaf5eb` |
+| `--success-light-active` | `#d5ead7` |
 | `--warning-light-hover` | `#fff1e3` |
 | `--warning-light-active` | `#ffe2c2` |
-| `--warning-light-border` | `#ffe2c2` |
-| `--warning-light-foreground` | `#b3854f` |
-| `--error-foreground` | `#ffffff` |
-| `--error-default-foreground` | `#ffffff` |
-| `--error-default-border` | `#ef4444` |
-| `--error-light` | `#fef2f2` |
 | `--error-light-hover` | `#fee2e2` |
 | `--error-light-active` | `#fecaca` |
-| `--error-light-border` | `#fecaca` |
-| `--error-light-foreground` | `#b91c1c` |
-| `--destructive-foreground` | `#ffffff` |
-| `--destructive-default-foreground` | `#ff3759` |
-| `--error/20` | `oklch(0.6368 0.2078 25.33 / 20%)` |
-| `--destructive-light` | `#fff4f6` |
-| `--destructive-light-hover` | `#ffe7ec` |
-| `--destructive-light-active` | `#ffcdd7` |
-| `--destructive-light-border` | `#ffcdd7` |
-| `--destructive-light-foreground` | `#bf1636` |
-| `--destructive/10` | `oklch(0.6566 0.2317 17.86 / 10%)` |
-| `--destructive/20` | `oklch(0.6566 0.2317 17.86 / 20%)` |
-| `--destructive/30` | `oklch(0.6566 0.2317 17.86 / 30%)` |
-| `--info-foreground` | `#ffffff` |
+| `--destructive-light-hover` | `rgb(254.892071 227.773488 226.8942 / 100%)` |
+| `--destructive-light-active` | `rgb(254.639506 194.855323 193.625693 / 100%)` |
+| `--info-light-hover` | `#e0f2fe` |
+| `--info-light-active` | `#bae6fd` |
+| `--primary-20` | `rgb(237.000001 128.000008 168.000005 / 20%)` |
+| `--primary-10` | `rgb(237.000001 128.000008 168.000005 / 10%)` |
+| `--primary-default-foreground` | `#95375d` |
+| `--primary-15` | `rgb(237.000001 128.000008 168.000005 / 15%)` |
+| `--secondary-40` | `rgb(162.000006 92.000002 191.000004 / 40%)` |
+| `--destructive-30` | `rgb(230.000001 30 66.000004 / 30%)` |
+| `--secondary-default-border` | `#a25cbf` |
+| `--secondary-10` | `rgb(162.000006 92.000002 191.000004 / 10%)` |
+| `--primary-default-border` | `#ed80a8` |
+| `--success-default-border` | `#75ae7a` |
+| `--warning-default-border` | `#fac186` |
+| `--error-default-border` | `#ef4444` |
 | `--appointment-scheduled-light` | `#ececef` |
 | `--appointment-scheduled-light-border` | `#ccced6` |
 | `--appointment-scheduled-default` | `#6a6f86` |
@@ -360,125 +350,133 @@ Las siguientes tablas contienen todos los valores exportados desde Figma para ca
 | `--appointment-rescheduled-light-border` | `#ddd3f0` |
 | `--appointment-rescheduled-default` | `#9b7fd4` |
 | `--appointment-rescheduled-foreground` | `#7a65a6` |
-| `--ring/15` | `oklch(0.7313 0.1402 357.8 / 15%)` |
-| `--ring/50` | `oklch(0.7313 0.1402 357.8 / 50%)` |
-| `--input/50` | `oklch(0.891 0.0357 280.42 / 50%)` |
-| `--info-light` | `#f0f9ff` |
-| `--info-light-hover` | `#e0f2fe` |
-| `--info-light-active` | `#bae6fd` |
-| `--info-light-border` | `#bae6fd` |
-| `--info-light-foreground` | `#0369a1` |
-| `--chart-1` | `#ed80a8` |
-| `--chart-2` | `#a25cbf` |
-| `--sidebar-primary` | `#ed80a8` |
-| `--chart-3` | `#d9d8f5` |
-| `--chart-4` | `#afd393` |
-| `--chart-5` | `#fac186` |
-| `--sidebar-foreground` | `#373644` |
-| `--sidebar-accent` | `#fff3f8` |
-| `--sidebar-border` | `#d6d9f3` |
-| `--sidebar-ring` | `#ed80a8` |
-| `--sidebar-primary-foreground` | `#ffffff` |
-| `--sidebar-accent-foreground` | `#373644` |
-| `--table-row-alternate` | `#fcfcfe` |
 | `--warning-hover` | `#d6a36a` |
 | `--warning-active` | `#b3854f` |
-| `--error-hover` | `#dc2626` |
-| `--error-active` | `#b91c1c` |
-| `--destructive-hover` | `#e61e42` |
-| `--destructive-active` | `#bf1636` |
-| `--info-hover` | `#0284c7` |
-| `--info-active` | `#0369a1` |
-| `--brand-font-sans` | `Inter Variable` |
-| `--brand-font-mono` | `JetBrains Mono Variable` |
-| `--font-weight-medium` | `500` |
+| `--error-hover` | `#b91c1c` |
+| `--error-active` | `#991b1b` |
+| `--destructive-hover` | `#bf1636` |
+| `--destructive-active` | `#94112a` |
+| `--info-hover` | `#0369a1` |
+| `--info-active` | `#075985` |
+| `--destructive-20` | `rgb(230.000001 30 66.000004 / 20%)` |
+| `--muted-20` | `rgb(242.000001 243.000001 250 / 20%)` |
+| `--primary-light-border` | `#fbc8d9` |
+| `--background-10` | `rgb(248 248 252 / 10%)` |
+| `--card-1` | `rgb(255 255 255 / 1%)` |
+| `--error-default-foreground` | `#ef4444` |
+| `--error-20` | `rgb(239.000001 68.000004 68.000004 / 20%)` |
+| `--ring-50` | `rgb(237.000001 128.000008 168.000005 / 50%)` |
+| `--background` | `#f8f8fc` |
+| `--foreground` | `#28282f` |
+| `--primary` | `#ed80a8` |
+| `--secondary` | `#f1e8f7` |
+| `--accent` | `rgb(227.229342 227.225968 239.10144 / 100%)` |
+| `--muted` | `#f2f3fa` |
+| `--primary-5` | `rgb(237.000001 128.000008 168.000005 / 5%)` |
+| `--input-50` | `rgb(184.000004 186.000004 210.000003 / 50%)` |
+| `--table-header-background` | `rgb(237.055448 238.527838 251.288587 / 100%)` |
+| `--muted-30` | `rgb(242.000001 243.000001 250 / 30%)` |
+| `--button-brand-gradient-1` | `#d8618e` |
+| `--button-brand-gradient-2` | `#a25cbf` |
+| `--background-brand-gradient-light-1` | `#fdf2f6` |
+| `--background-brand-gradient-light-2` | `rgb(255 255 255 / 0%)` |
+| `--primary-foreground` | `#ffffff` |
+| `--card` | `#ffffff` |
+| `--popover` | `#f8f8fc` |
+| `--border` | `#d6d9f3` |
+| `--input` | `#d6d9f3` |
+| `--ring` | `#ed80a8` |
+| `--sidebar` | `#ffffff` |
+| `--popover-foreground` | `#28282f` |
+| `--secondary-foreground` | `#5f2f71` |
+| `--secondary-light-border` | `#d0b0e2` |
+| `--sheet-drawer` | `#ffffff` |
+| `--accent-50` | `rgb(227.229342 227.225968 239.10144 / 50%)` |
+| `--chart-5` | `#ffd39f` |
+| `--sidebar-primary-foreground` | `#ffffff` |
+| `--sidebar-accent-foreground` | `#28282f` |
+| `--sidebar-border` | `#d6d9f3` |
+| `--sidebar-ring` | `#ed80a8` |
+| `--muted-foreground` | `#616271` |
+| `--accent-foreground` | `#393a44` |
+| `--chart-1` | `#ed80a8` |
+| `--card-foreground` | `#393a44` |
+| `--sidebar-foreground` | `#28282f` |
+| `--chart-2` | `#a25cbf` |
+| `--chart-3` | `rgb(171.690778 170.634282 198.37708 / 100%)` |
+| `--chart-4` | `#4d8251` |
+| `--sidebar-primary` | `#ed80a8` |
+| `--sidebar-accent` | `#fff3f8` |
+| `--ring-15` | `rgb(237.000001 128.000008 168.000005 / 15%)` |
 
 ### María Linda — `maria-linda`
 
 | Variable | Valor |
 | --- | --- |
-| `--background` | `#f0f1f1` |
-| `--background/10` | `oklch(0.9574 0.0011 197.14 / 20%)` |
-| `--background-hover` | `#f0f1f1` |
-| `--background-active` | `#f0f1f1` |
-| `--foreground` | `#494949` |
-| `--foreground/60` | `oklch(0.4054 0 89.88 / 60%)` |
-| `--card` | `#ffffff` |
-| `--card/1` | `oklch(1 0 89.88 / 1%)` |
-| `--popover` | `#fbfaf6` |
-| `--primary` | `#7bc6bb` |
-| `--primary-hover` | `#63b1a5` |
-| `--primary-active` | `#63b1a5` |
-| `--secondary` | `#f2f9f7` |
-| `--secondary-hover` | `#a8c9c3` |
-| `--secondary-active` | `#a8c9c3` |
-| `--muted` | `#dcddde` |
-| `--accent` | `#ccc7b2` |
-| `--success` | `#32ac70` |
-| `--success-hover` | `#14945c` |
-| `--success-active` | `#12784a` |
-| `--warning` | `#e2a11d` |
-| `--error` | `#de4655` |
-| `--destructive` | `#ca1f50` |
-| `--info` | `#397dd0` |
-| `--border` | `#bfbfbf` |
-| `--input` | `#909294` |
-| `--ring` | `#7bc6bb` |
-| `--sidebar` | `#ffffff` |
-| `--card-foreground` | `#56585a` |
-| `--popover-foreground` | `#494949` |
-| `--primary-foreground` | `#ffffff` |
-| `--primary-default-foreground` | `#7bc6bb` |
-| `--primary-default-border` | `#7bc6bb` |
-| `--primary-light-border` | `#7bc6bb` |
-| `--primary/5` | `oklch(0.7744 0.0767 184.01 / 5%)` |
-| `--primary/10` | `oklch(0.7744 0.0767 184.01 / 10%)` |
-| `--primary/15` | `oklch(0.7744 0.0767 184.01 / 15%)` |
-| `--primary/20` | `oklch(0.7744 0.0767 184.01 / 20%)` |
-| `--secondary-foreground` | `#697d7a` |
-| `--secondary-default-border` | `#c7e5e0` |
-| `--secondary/10` | `oklch(0.8987 0.0323 184.49 / 10%)` |
-| `--secondary/40` | `oklch(0.8987 0.0323 184.49 / 40%)` |
-| `--muted-foreground` | `#7b7d7e` |
-| `--muted/5` | `oklch(0.8971 0.0017 247.84 / 40%)` |
-| `--muted/40` | `oklch(0.8971 0.0017 247.84 / 40%)` |
-| `--muted/50` | `oklch(0.8971 0.0017 247.84 / 50%)` |
-| `--accent-foreground` | `#56585a` |
-| `--accent/50` | `oklch(0.828 0.0291 95.95 / 50%)` |
-| `--success-foreground` | `#ffffff` |
-| `--success-default-border` | `#32ac70` |
-| `--success-light` | `#eaf8ef` |
-| `--success-light-hover` | `#ceeed9` |
-| `--success-light-active` | `#a7e2be` |
-| `--success-light-border` | `#a7e2be` |
-| `--success-light-foreground` | `#12784a` |
-| `--warning-foreground` | `#ffffff` |
-| `--warning-default-border` | `#e2a11d` |
-| `--warning-light` | `#fdf4e6` |
-| `--warning-light-hover` | `#fde8c7` |
-| `--warning-light-active` | `#fcd79d` |
-| `--warning-light-border` | `#fcd79d` |
-| `--warning-light-foreground` | `#9c6c01` |
-| `--error-foreground` | `#ffffff` |
-| `--error-default-foreground` | `#ffffff` |
-| `--error-default-border` | `#de4655` |
-| `--error-light` | `#feeeee` |
-| `--error-light-hover` | `#fed7d6` |
-| `--error-light-active` | `#ffb6b6` |
-| `--error-light-border` | `#ffb6b6` |
-| `--error-light-foreground` | `#aa1330` |
-| `--destructive-foreground` | `#ffffff` |
+| `--muted-50` | `rgb(242.000001 244.000001 245.000001 / 50%)` |
+| `--brand-font-sans` | `"Plus Jakarta Sans Variable", "Plus Jakarta Sans", sans-serif` |
+| `--brand-font-heading` | `"Plus Jakarta Sans Variable", "Plus Jakarta Sans", sans-serif` |
+| `--brand-font-mono` | `"JetBrains Mono Variable", "JetBrains Mono", monospace` |
+| `--destructive-10` | `rgb(202.000003 31 80.000003 / 10%)` |
 | `--destructive-default-foreground` | `#ca1f50` |
-| `--error/20` | `oklch(0.6135 0.1877 19.18 / 20%)` |
-| `--destructive-light` | `#feecee` |
-| `--destructive-light-hover` | `#fed0d4` |
-| `--destructive-light-active` | `#fea8b2` |
-| `--destructive-light-border` | `#fea8b2` |
-| `--destructive-light-foreground` | `#950a37` |
-| `--destructive/10` | `oklch(0.5466 0.2021 12.13 / 10%)` |
-| `--destructive/20` | `oklch(0.5466 0.2021 12.13 / 20%)` |
-| `--destructive/30` | `oklch(0.5466 0.2021 12.13 / 30%)` |
+| `--table-row-alternate` | `#f8f9f9` |
+| `--primary-hover` | `#376a62` |
+| `--secondary-hover` | `#e6f3f0` |
+| `--primary-active` | `#254944` |
+| `--secondary-active` | `#d9eeea` |
+| `--background-hover` | `#f2f4f5` |
+| `--background-active` | `#e0e2e4` |
+| `--foreground-60` | `rgb(40.000001 41.000001 42.000001 / 60%)` |
+| `--success-foreground` | `#ffffff` |
+| `--warning-foreground` | `#181819` |
+| `--error-foreground` | `#ffffff` |
+| `--destructive-foreground` | `#ffffff` |
 | `--info-foreground` | `#ffffff` |
+| `--success-light-border` | `rgb(167.481211 225.888501 189.742317 / 100%)` |
+| `--warning-light-border` | `rgb(251.879379 214.785162 157.416008 / 100%)` |
+| `--error-light-foreground` | `rgb(135.540673 2.406524 33.850567 / 100%)` |
+| `--destructive-light-border` | `rgb(254.097883 168.041256 177.807735 / 100%)` |
+| `--info-light-foreground` | `rgb(5.664435 66.276659 130.239212 / 100%)` |
+| `--success` | `#278658` |
+| `--warning` | `rgb(248.581126 197.079374 113.62335 / 100%)` |
+| `--error` | `#db3748` |
+| `--destructive` | `#ca1f50` |
+| `--info` | `#3177ce` |
+| `--success-light` | `rgb(233.643352 247.917165 238.508353 / 100%)` |
+| `--warning-light` | `rgb(253.47005 244.129604 230.120881 / 100%)` |
+| `--error-light-border` | `rgb(254.956059 181.702678 181.514056 / 100%)` |
+| `--error-light` | `rgb(254.391288 238.33984 237.944661 / 100%)` |
+| `--destructive-light` | `rgb(254.394161 236.279013 237.675392 / 100%)` |
+| `--info-light` | `rgb(234.186237 243.085907 254.721931 / 100%)` |
+| `--success-light-foreground` | `rgb(10.391192 92.155361 55.508603 / 100%)` |
+| `--warning-light-foreground` | `rgb(116.664319 81.120798 8.25024 / 100%)` |
+| `--destructive-light-foreground` | `rgb(148.68745 9.805084 54.572561 / 100%)` |
+| `--info-light-border` | `rgb(165.25944 203.598608 253.168346 / 100%)` |
+| `--muted-40` | `rgb(242.000001 244.000001 245.000001 / 40%)` |
+| `--success-hover` | `#127649` |
+| `--success-active` | `rgb(10.391192 92.155361 55.508603 / 100%)` |
+| `--success-light-hover` | `rgb(205.510604 238.310809 217.178517 / 100%)` |
+| `--success-light-active` | `rgb(167.481211 225.888501 189.742317 / 100%)` |
+| `--warning-light-hover` | `rgb(252.782211 231.512883 199.349144 / 100%)` |
+| `--warning-light-active` | `rgb(251.879379 214.785162 157.416008 / 100%)` |
+| `--error-light-hover` | `rgb(253.873436 214.520635 213.833951 / 100%)` |
+| `--error-light-active` | `rgb(254.956059 181.702678 181.514056 / 100%)` |
+| `--destructive-light-hover` | `rgb(254.00953 207.547553 211.701475 / 100%)` |
+| `--destructive-light-active` | `rgb(254.097883 168.041256 177.807735 / 100%)` |
+| `--info-light-hover` | `rgb(203.738212 225.975014 254.902908 / 100%)` |
+| `--info-light-active` | `rgb(165.25944 203.598608 253.168346 / 100%)` |
+| `--primary-20` | `rgb(69.000003 129.000008 120 / 20%)` |
+| `--primary-10` | `rgb(69.000003 129.000008 120 / 10%)` |
+| `--primary-default-foreground` | `#376a62` |
+| `--primary-15` | `rgb(69.000003 129.000008 120 / 15%)` |
+| `--secondary-40` | `rgb(199.000003 229.000002 224.000002 / 40%)` |
+| `--destructive-30` | `rgb(202.000003 31 80.000003 / 30%)` |
+| `--secondary-default-border` | `#cfe9e4` |
+| `--secondary-10` | `rgb(199.000003 229.000002 224.000002 / 10%)` |
+| `--primary-default-border` | `#458178` |
+| `--success-default-border` | `#32ac70` |
+| `--warning-default-border` | `#e2a11d` |
+| `--error-default-border` | `#de4655` |
 | `--appointment-scheduled-light` | `#ececef` |
 | `--appointment-scheduled-light-border` | `#ccced6` |
 | `--appointment-scheduled-default` | `#6a6f86` |
@@ -515,125 +513,133 @@ Las siguientes tablas contienen todos los valores exportados desde Figma para ca
 | `--appointment-rescheduled-light-border` | `#ddd3f0` |
 | `--appointment-rescheduled-default` | `#9b7fd4` |
 | `--appointment-rescheduled-foreground` | `#7a65a6` |
-| `--ring/15` | `oklch(0.7744 0.0767 184.01 / 15%)` |
-| `--ring/50` | `oklch(0.7744 0.0767 184.01 / 50%)` |
-| `--input/50` | `oklch(0.6589 0.0038 247.88 / 50%)` |
-| `--info-light` | `#eaf3ff` |
-| `--info-light-hover` | `#cce2ff` |
-| `--info-light-active` | `#a5ccfd` |
-| `--info-light-border` | `#a5ccfd` |
-| `--info-light-foreground` | `#1156a2` |
-| `--chart-1` | `#7bc6bb` |
-| `--chart-2` | `#c7e5e0` |
-| `--sidebar-primary` | `#7bc6bb` |
-| `--chart-3` | `#ccc7b2` |
-| `--chart-4` | `#32ac70` |
-| `--chart-5` | `#e2a11d` |
-| `--sidebar-foreground` | `#494949` |
-| `--sidebar-accent` | `#f5fbfa` |
+| `--warning-hover` | `rgb(193.324734 135.180604 0.272086 / 100%)` |
+| `--warning-active` | `rgb(155.549821 108.110644 1.333587 / 100%)` |
+| `--error-hover` | `rgb(169.998637 19.146282 48.252471 / 100%)` |
+| `--error-active` | `rgb(135.540673 2.406524 33.850567 / 100%)` |
+| `--destructive-hover` | `rgb(180.245866 1.783871 66.07391 / 100%)` |
+| `--destructive-active` | `rgb(148.68745 9.805084 54.572561 / 100%)` |
+| `--info-hover` | `rgb(16.991913 86.087899 162.131296 / 100%)` |
+| `--info-active` | `rgb(5.664435 66.276659 130.239212 / 100%)` |
+| `--destructive-20` | `rgb(202.000003 31 80.000003 / 20%)` |
+| `--muted-20` | `rgb(242.000001 244.000001 245.000001 / 20%)` |
+| `--primary-light-border` | `#a6d8d0` |
+| `--background-10` | `rgb(248 249 249 / 10%)` |
+| `--card-1` | `rgb(255 255 255 / 1%)` |
+| `--error-default-foreground` | `#de4655` |
+| `--error-20` | `rgb(222.000002 70.000003 85.000003 / 20%)` |
+| `--ring-50` | `rgb(123 198.000003 187.000004 / 50%)` |
+| `--background` | `#f8f9f9` |
+| `--foreground` | `#28292a` |
+| `--primary` | `#458178` |
+| `--secondary` | `#f2f9f7` |
+| `--accent` | `rgb(232.59473 228.59888 214.614429 / 100%)` |
+| `--muted` | `#f2f4f5` |
+| `--primary-5` | `rgb(69.000003 129.000008 120 / 5%)` |
+| `--input-50` | `rgb(166.000005 168.000005 169.000005 / 50%)` |
+| `--table-header-background` | `rgb(231.021539 241.835287 239.7756 / 100%)` |
+| `--muted-30` | `rgb(242.000001 244.000001 245.000001 / 30%)` |
+| `--button-brand-gradient-1` | `#4f7f77` |
+| `--button-brand-gradient-2` | `#458178` |
+| `--background-brand-gradient-light-1` | `#f2f9f8` |
+| `--background-brand-gradient-light-2` | `rgb(255 255 255 / 0%)` |
+| `--primary-foreground` | `#ffffff` |
+| `--card` | `#ffffff` |
+| `--popover` | `#f8f9f9` |
+| `--border` | `rgb(206.489873 208.486073 210.482273 / 100%)` |
+| `--input` | `#bfbfbf` |
+| `--ring` | `#7bc6bb` |
+| `--sidebar` | `#ffffff` |
+| `--popover-foreground` | `#28292a` |
+| `--secondary-foreground` | `#4b5957` |
+| `--secondary-light-border` | `#a8c9c3` |
+| `--sheet-drawer` | `#ffffff` |
+| `--accent-50` | `rgb(232.59473 228.59888 214.614429 / 50%)` |
+| `--chart-5` | `rgb(248.581126 197.079374 113.62335 / 100%)` |
+| `--sidebar-primary-foreground` | `#ffffff` |
+| `--sidebar-accent-foreground` | `#28292a` |
 | `--sidebar-border` | `#a6a8a9` |
 | `--sidebar-ring` | `#7bc6bb` |
-| `--sidebar-primary-foreground` | `#ffffff` |
-| `--sidebar-accent-foreground` | `#494949` |
-| `--table-row-alternate` | `#fbfbfb` |
-| `--warning-hover` | `#c18700` |
-| `--warning-active` | `#9c6c01` |
-| `--error-hover` | `#c82b41` |
-| `--error-active` | `#aa1330` |
-| `--destructive-hover` | `#b40242` |
-| `--destructive-active` | `#950a37` |
-| `--info-hover` | `#236abd` |
-| `--info-active` | `#1156a2` |
-| `--brand-font-sans` | `Plus Jakarta Sans Variable` |
-| `--brand-font-mono` | `JetBrains Mono Variable` |
-| `--font-weight-medium` | `500` |
+| `--muted-foreground` | `#616465` |
+| `--accent-foreground` | `#393b3c` |
+| `--chart-1` | `#7bc6bb` |
+| `--card-foreground` | `#393b3c` |
+| `--sidebar-foreground` | `#28292a` |
+| `--chart-2` | `#c7e5e0` |
+| `--chart-3` | `rgb(179.14958 174.247372 153.724931 / 100%)` |
+| `--chart-4` | `#278658` |
+| `--sidebar-primary` | `#7bc6bb` |
+| `--sidebar-accent` | `#f5fbfa` |
+| `--ring-15` | `rgb(123 198.000003 187.000004 / 15%)` |
 
 ### Piel Sana — `piel-sana`
 
 | Variable | Valor |
 | --- | --- |
-| `--background` | `#f5f3ef` |
-| `--background/10` | `oklch(0.9646 0.0057 84.57 / 20%)` |
-| `--background-hover` | `#f5f3ef` |
-| `--background-active` | `#f5f3ef` |
-| `--foreground` | `#333333` |
-| `--foreground/60` | `oklch(0.3211 0 89.88 / 60%)` |
-| `--card` | `#ffffff` |
-| `--card/1` | `oklch(1 0 89.88 / 1%)` |
-| `--popover` | `#fbf8f1` |
-| `--primary` | `#ff9248` |
-| `--primary-hover` | `#e6782e` |
-| `--primary-active` | `#e6782e` |
-| `--secondary` | `#e3f8f4` |
-| `--secondary-hover` | `#e3f8f4` |
-| `--secondary-active` | `#e3f8f4` |
-| `--muted` | `#e8e4dd` |
-| `--accent` | `#ddcaa4` |
-| `--success` | `#71b92d` |
-| `--success-hover` | `#5a9f07` |
-| `--success-active` | `#488007` |
-| `--warning` | `#e7a70b` |
-| `--error` | `#ed5032` |
-| `--destructive` | `#d61d42` |
-| `--info` | `#237fd3` |
-| `--border` | `#d0cac1` |
-| `--input` | `#d0cac1` |
-| `--ring` | `#ff9248` |
-| `--sidebar` | `#ffffff` |
-| `--card-foreground` | `#66635e` |
-| `--popover-foreground` | `#333333` |
-| `--primary-foreground` | `#ffffff` |
-| `--primary-default-foreground` | `#ff9248` |
-| `--primary-default-border` | `#ff9248` |
-| `--primary-light-border` | `#ff9248` |
-| `--primary/5` | `oklch(0.7638 0.1576 52.1 / 5%)` |
-| `--primary/10` | `oklch(0.7638 0.1576 52.1 / 10%)` |
-| `--primary/15` | `oklch(0.7638 0.1576 52.1 / 15%)` |
-| `--primary/20` | `oklch(0.7638 0.1576 52.1 / 20%)` |
-| `--secondary-foreground` | `#35917f` |
-| `--secondary-default-border` | `#5eccb7` |
-| `--secondary/10` | `oklch(0.7749 0.106 179.01 / 10%)` |
-| `--secondary/40` | `oklch(0.7749 0.106 179.01 / 40%)` |
-| `--muted-foreground` | `#a9a49c` |
-| `--muted/5` | `oklch(0.92 0.0104 81.79 / 40%)` |
-| `--muted/40` | `oklch(0.92 0.0104 81.79 / 40%)` |
-| `--muted/50` | `oklch(0.92 0.0104 81.79 / 50%)` |
-| `--accent-foreground` | `#66635e` |
-| `--accent/50` | `oklch(0.8452 0.0548 84.5 / 50%)` |
-| `--success-foreground` | `#ffffff` |
-| `--success-default-border` | `#71b92d` |
-| `--success-light` | `#eef9e7` |
-| `--success-light-hover` | `#d9f1ca` |
-| `--success-light-active` | `#bde7a1` |
-| `--success-light-border` | `#bde7a1` |
-| `--success-light-foreground` | `#488007` |
-| `--warning-foreground` | `#ffffff` |
-| `--warning-default-border` | `#e7a70b` |
-| `--warning-light` | `#fef5e6` |
-| `--warning-light-hover` | `#fee9c6` |
-| `--warning-light-active` | `#fed99c` |
-| `--warning-light-border` | `#fed99c` |
-| `--warning-light-foreground` | `#9d7109` |
-| `--error-foreground` | `#ffffff` |
-| `--error-default-foreground` | `#ffffff` |
-| `--error-default-border` | `#ed5032` |
-| `--error-light` | `#ffefec` |
-| `--error-light-hover` | `#fedad2` |
-| `--error-light-active` | `#febeaf` |
-| `--error-light-border` | `#febeaf` |
-| `--error-light-foreground` | `#b12403` |
-| `--destructive-foreground` | `#ffffff` |
+| `--muted-50` | `rgb(246.000001 243.000001 239.000001 / 50%)` |
+| `--brand-font-sans` | `"Kantumruy Pro Variable", "Kantumruy Pro", sans-serif` |
+| `--brand-font-heading` | `"Kantumruy Pro Variable", "Kantumruy Pro", sans-serif` |
+| `--brand-font-mono` | `"JetBrains Mono Variable", "JetBrains Mono", monospace` |
+| `--destructive-10` | `rgb(214.000002 29 66.000004 / 10%)` |
 | `--destructive-default-foreground` | `#d61d42` |
-| `--error/20` | `oklch(0.6437 0.1983 32.89 / 20%)` |
-| `--destructive-light` | `#ffeded` |
-| `--destructive-light-hover` | `#fed2d2` |
-| `--destructive-light-active` | `#ffacae` |
-| `--destructive-light-border` | `#ffacae` |
-| `--destructive-light-foreground` | `#9d042b` |
-| `--destructive/10` | `oklch(0.5647 0.2128 18.44 / 10%)` |
-| `--destructive/20` | `oklch(0.5647 0.2128 18.44 / 20%)` |
-| `--destructive/30` | `oklch(0.5647 0.2128 18.44 / 30%)` |
+| `--table-row-alternate` | `rgb(252 251.399997 250.200006 / 100%)` |
+| `--primary-hover` | `#e6782e` |
+| `--secondary-hover` | `#c5f1e8` |
+| `--primary-active` | `#94471a` |
+| `--secondary-active` | `#9de6d8` |
+| `--background-hover` | `#f6f3ef` |
+| `--background-active` | `#e3dfd8` |
+| `--foreground-60` | `rgb(42.000001 41.000001 38.000002 / 60%)` |
+| `--success-foreground` | `#ffffff` |
+| `--warning-foreground` | `#191816` |
+| `--error-foreground` | `#ffffff` |
+| `--destructive-foreground` | `#ffffff` |
 | `--info-foreground` | `#ffffff` |
+| `--success-light-border` | `rgb(189.086548 231.035674 161.330846 / 100%)` |
+| `--warning-light-border` | `rgb(253.568586 217.388904 155.648251 / 100%)` |
+| `--error-light-foreground` | `rgb(137.777916 25.480872 1.843133 / 100%)` |
+| `--destructive-light-border` | `rgb(254.669479 172.365226 173.517841 / 100%)` |
+| `--info-light-foreground` | `rgb(1.937831 68.666594 123.480029 / 100%)` |
+| `--success` | `#508420` |
+| `--warning` | `rgb(251.25214 200.823617 110.342446 / 100%)` |
+| `--error` | `#df3414` |
+| `--destructive` | `#d61d42` |
+| `--info` | `#2179ca` |
+| `--success-light` | `rgb(237.939675 248.761768 231.379692 / 100%)` |
+| `--warning-light` | `rgb(253.663779 244.623304 229.633002 / 100%)` |
+| `--error-light-border` | `rgb(253.997918 189.582452 175.211167 / 100%)` |
+| `--error-light` | `rgb(254.872053 239.380893 235.850776 / 100%)` |
+| `--destructive-light` | `rgb(254.94656 236.776619 236.531608 / 100%)` |
+| `--info-light` | `rgb(233.423268 243.406549 254.518733 / 100%)` |
+| `--success-light-foreground` | `rgb(52.971358 97.034382 1.385923 / 100%)` |
+| `--warning-light-foreground` | `rgb(118.679267 83.713832 0.101929 / 100%)` |
+| `--destructive-light-foreground` | `rgb(156.980703 3.966517 42.674366 / 100%)` |
+| `--info-light-border` | `rgb(161.317623 204.953904 252.370374 / 100%)` |
+| `--muted-40` | `rgb(246.000001 243.000001 239.000001 / 40%)` |
+| `--success-hover` | `rgb(52.971358 97.034382 1.385923 / 100%)` |
+| `--success-active` | `rgb(36.357714 67.427633 4.662859 / 100%)` |
+| `--success-light-hover` | `rgb(216.760949 241.139073 201.51372 / 100%)` |
+| `--success-light-active` | `rgb(189.086548 231.035674 161.330846 / 100%)` |
+| `--warning-light-hover` | `rgb(253.607983 232.951957 198.471269 / 100%)` |
+| `--warning-light-active` | `rgb(253.568586 217.388904 155.648251 / 100%)` |
+| `--error-light-hover` | `rgb(254.315581 218.093204 209.877512 / 100%)` |
+| `--error-light-active` | `rgb(253.997918 189.582452 175.211167 / 100%)` |
+| `--destructive-light-hover` | `rgb(254.135592 209.761968 209.552098 / 100%)` |
+| `--destructive-light-active` | `rgb(254.669479 172.365226 173.517841 / 100%)` |
+| `--info-light-hover` | `rgb(201.6976 226.770828 254.417187 / 100%)` |
+| `--info-light-active` | `rgb(161.317623 204.953904 252.370374 / 100%)` |
+| `--primary-20` | `rgb(255 146.000006 72.000003 / 20%)` |
+| `--primary-10` | `rgb(255 146.000006 72.000003 / 10%)` |
+| `--primary-default-foreground` | `#94471a` |
+| `--primary-15` | `rgb(255 146.000006 72.000003 / 15%)` |
+| `--secondary-40` | `rgb(94.000002 204.000003 183.000004 / 40%)` |
+| `--destructive-30` | `rgb(214.000002 29 66.000004 / 30%)` |
+| `--secondary-default-border` | `#5eccb7` |
+| `--secondary-10` | `rgb(94.000002 204.000003 183.000004 / 10%)` |
+| `--primary-default-border` | `#ff9248` |
+| `--success-default-border` | `#71b92d` |
+| `--warning-default-border` | `#e7a70b` |
+| `--error-default-border` | `#ed5032` |
 | `--appointment-scheduled-light` | `#ececef` |
 | `--appointment-scheduled-light-border` | `#ccced6` |
 | `--appointment-scheduled-default` | `#6a6f86` |
@@ -670,38 +676,64 @@ Las siguientes tablas contienen todos los valores exportados desde Figma para ca
 | `--appointment-rescheduled-light-border` | `#ddd3f0` |
 | `--appointment-rescheduled-default` | `#9b7fd4` |
 | `--appointment-rescheduled-foreground` | `#7a65a6` |
-| `--ring/15` | `oklch(0.7638 0.1576 52.1 / 15%)` |
-| `--ring/50` | `oklch(0.7638 0.1576 52.1 / 50%)` |
-| `--input/50` | `oklch(0.8413 0.014 78.25 / 50%)` |
-| `--info-light` | `#e9f3ff` |
-| `--info-light-hover` | `#cae3fe` |
-| `--info-light-active` | `#a1cdfc` |
-| `--info-light-border` | `#a1cdfc` |
-| `--info-light-foreground` | `#00599d` |
-| `--chart-1` | `#ff9248` |
-| `--chart-2` | `#5eccb7` |
-| `--sidebar-primary` | `#ff9248` |
-| `--chart-3` | `#ddcaa4` |
-| `--chart-4` | `#71b92d` |
-| `--chart-5` | `#e7a70b` |
-| `--sidebar-foreground` | `#333333` |
-| `--sidebar-accent` | `#fff8f3` |
-| `--sidebar-border` | `#d0cac1` |
-| `--sidebar-ring` | `#7bc6bb` |
+| `--warning-hover` | `rgb(195.21948 141.00104 13.81813 / 100%)` |
+| `--warning-active` | `rgb(156.819485 112.597032 9.291644 / 100%)` |
+| `--error-hover` | `rgb(177.189569 35.697868 3.143013 / 100%)` |
+| `--error-active` | `rgb(137.777916 25.480872 1.843133 / 100%)` |
+| `--destructive-hover` | `rgb(187.058886 16.542703 54.609921 / 100%)` |
+| `--destructive-active` | `rgb(156.980703 3.966517 42.674366 / 100%)` |
+| `--info-hover` | `rgb(0.323439 88.548701 157.471348 / 100%)` |
+| `--info-active` | `rgb(1.937831 68.666594 123.480029 / 100%)` |
+| `--destructive-20` | `rgb(214.000002 29 66.000004 / 20%)` |
+| `--muted-20` | `rgb(246.000001 243.000001 239.000001 / 20%)` |
+| `--primary-light-border` | `#ffc89a` |
+| `--background-10` | `rgb(251 250 248 / 10%)` |
+| `--card-1` | `rgb(255 255 255 / 1%)` |
+| `--error-default-foreground` | `#ed5032` |
+| `--error-20` | `rgb(237.000001 80.000003 50.000001 / 20%)` |
+| `--ring-50` | `rgb(255 146.000006 72.000003 / 50%)` |
+| `--background` | `#fbfaf8` |
+| `--foreground` | `#2a2926` |
+| `--primary` | `#ff9248` |
+| `--secondary` | `#e3f8f4` |
+| `--accent` | `rgb(241.296476 227.22992 197.088995 / 100%)` |
+| `--muted` | `#f6f3ef` |
+| `--primary-5` | `rgb(255 146.000006 72.000003 / 5%)` |
+| `--input-50` | `rgb(181.000004 176.000005 167.000005 / 50%)` |
+| `--table-header-background` | `rgb(252.504978 242.676288 236.064263 / 100%)` |
+| `--muted-30` | `rgb(246.000001 243.000001 239.000001 / 30%)` |
+| `--button-brand-gradient-1` | `#ffad6c` |
+| `--button-brand-gradient-2` | `#bf5f21` |
+| `--background-brand-gradient-light-1` | `#fff4ec` |
+| `--background-brand-gradient-light-2` | `rgb(255 255 255 / 0%)` |
+| `--primary-foreground` | `#ffffff` |
+| `--card` | `#ffffff` |
+| `--popover` | `#fbfaf8` |
+| `--border` | `#d0cac1` |
+| `--input` | `#d0cac1` |
+| `--ring` | `#ff9248` |
+| `--sidebar` | `#ffffff` |
+| `--popover-foreground` | `#2a2926` |
+| `--secondary-foreground` | `#1c4f45` |
+| `--secondary-light-border` | `#9de6d8` |
+| `--sheet-drawer` | `#ffffff` |
+| `--accent-50` | `rgb(241.296476 227.22992 197.088995 / 50%)` |
+| `--chart-5` | `rgb(251.25214 200.823617 110.342446 / 100%)` |
 | `--sidebar-primary-foreground` | `#ffffff` |
-| `--sidebar-accent-foreground` | `#333333` |
-| `--table-row-alternate` | `#fcfbfa` |
-| `--warning-hover` | `#c38d0e` |
-| `--warning-active` | `#9d7109` |
-| `--error-hover` | `#d53412` |
-| `--error-active` | `#b12403` |
-| `--destructive-hover` | `#bb1137` |
-| `--destructive-active` | `#9d042b` |
-| `--info-hover` | `#0b6cbc` |
-| `--info-active` | `#00599d` |
-| `--brand-font-sans` | `Kantumruy Pro Variable` |
-| `--brand-font-mono` | `JetBrains Mono Variable` |
-| `--font-weight-medium` | `500` |
+| `--sidebar-accent-foreground` | `#2a2926` |
+| `--sidebar-border` | `#d0cac1` |
+| `--sidebar-ring` | `#bf5f21` |
+| `--muted-foreground` | `#67635c` |
+| `--accent-foreground` | `#3d3a36` |
+| `--chart-1` | `#ff9248` |
+| `--card-foreground` | `#3d3a36` |
+| `--sidebar-foreground` | `#2a2926` |
+| `--chart-2` | `#5eccb7` |
+| `--chart-3` | `rgb(190.227551 171.725766 134.629588 / 100%)` |
+| `--chart-4` | `#508420` |
+| `--sidebar-primary` | `#ff9248` |
+| `--sidebar-accent` | `#fff8f3` |
+| `--ring-15` | `rgb(255 146.000006 72.000003 / 15%)` |
 
 ## Foundations: Extra Colors
 
@@ -835,68 +867,46 @@ Cada estilo conserva el nombre de Figma y su traducción vigente a Tailwind CSS.
 
 | Estilo Figma | Estado | Familia | Peso | Tamaño | Line height | Tracking | Case | Decoración | Tailwind CSS | Variables |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `Legacy/display/one/extrabold` | Legacy | Inter | Extra Bold (800) | 30px | Auto | 0% | TITLE | NONE | `font-sans text-3xl leading-normal font-extrabold tracking-normal capitalize no-underline` | `typography/heading`<br>`text/display-1`<br>`typography/style/extrabold` |
-| `heading/lg/semibold` | Activo | Inter | Semi Bold (600) | 24px | Auto | -2.5% | ORIGINAL | NONE | `font-sans text-2xl leading-normal font-semibold tracking-[-0.025em] normal-case no-underline` | `typography/heading`<br>`text/heading-lg`<br>`typography/style/semibold` |
-| `Legacy/heading/one/bold` | Legacy | Inter | Bold (700) | 24px | Auto | -2.5% | ORIGINAL | NONE | `font-sans text-2xl leading-normal font-bold tracking-[-0.025em] normal-case no-underline` | `typography/heading`<br>`text/heading-lg`<br>`typography/style/bold` |
-| `heading/md/semibold` | Activo | Inter | Semi Bold (600) | 20px | Auto | 0% | ORIGINAL | NONE | `font-sans text-xl leading-normal font-semibold tracking-normal normal-case no-underline` | `typography/heading`<br>`text/heading-md`<br>`typography/style/semibold` |
-| `Legacy/heading/two/bold` | Legacy | Inter | Bold (700) | 20px | Auto | 0% | ORIGINAL | NONE | `font-sans text-xl leading-normal font-bold tracking-normal normal-case no-underline` | `typography/heading`<br>`text/heading-md`<br>`typography/style/bold` |
-| `heading/sm/semibold` | Activo | Inter | Semi Bold (600) | 18px | Auto | 0% | ORIGINAL | NONE | `font-sans text-lg leading-normal font-semibold tracking-normal normal-case no-underline` | `typography/heading`<br>`text/heading-sm`<br>`typography/style/semibold` |
-| `Legacy/heading/three/bold` | Legacy | Inter | Bold (700) | 18px | Auto | 0% | ORIGINAL | NONE | `font-sans text-lg leading-normal font-bold tracking-normal normal-case no-underline` | `typography/heading`<br>`text/heading-sm`<br>`typography/style/bold` |
-| `Legacy/body/base/regular` | Legacy | Inter | Regular (400) | 16px | 24px | 0% | ORIGINAL | NONE | `font-sans text-base leading-6 font-normal tracking-normal normal-case no-underline` | `typography/sans`<br>`text/body-lg`<br>`typography/style/normal` |
+| `display/extrabold` | Activo | Inter | Extra Bold (800) | 30px | Auto | 0% | TITLE | NONE | `font-sans text-3xl leading-normal font-extrabold tracking-normal capitalize no-underline` | `typography/heading`<br>`text/display-1`<br>`typography/style/extrabold` |
+| `heading/lg` | Activo | Inter | Bold (700) | 24px | Auto | -2.5% | ORIGINAL | NONE | `font-sans text-2xl leading-normal font-bold tracking-[-0.025em] normal-case no-underline` | `typography/heading`<br>`text/heading-lg`<br>`typography/style/bold` |
+| `heading/md` | Activo | Inter | Semi Bold (600) | 20px | Auto | 0% | ORIGINAL | NONE | `font-sans text-xl leading-normal font-semibold tracking-normal normal-case no-underline` | `typography/heading`<br>`text/heading-md`<br>`typography/style/semibold` |
+| `heading/sm` | Activo | Inter | Semi Bold (600) | 18px | Auto | 0% | ORIGINAL | NONE | `font-sans text-lg leading-normal font-semibold tracking-normal normal-case no-underline` | `typography/heading`<br>`text/heading-sm`<br>`typography/style/semibold` |
+| `body/lg/sans/regular` | Activo | Inter | Regular (400) | 16px | 24px | 0% | ORIGINAL | NONE | `font-sans text-base leading-6 font-normal tracking-normal normal-case no-underline` | `typography/sans`<br>`text/body-lg`<br>`typography/style/normal` |
 | `body/lg/sans/medium` | Activo | Inter | Medium (500) | 16px | 24px | 0% | ORIGINAL | NONE | `font-sans text-base leading-6 font-medium tracking-normal normal-case no-underline` | `typography/sans`<br>`text/body-lg`<br>`typography/style/medium` |
 | `body/lg/sans/semibold` | Activo | Inter | Semi Bold (600) | 16px | 24px | 0% | ORIGINAL | NONE | `font-sans text-base leading-6 font-semibold tracking-normal normal-case no-underline` | `typography/sans`<br>`text/body-lg`<br>`typography/style/semibold` |
 | `body/md/sans/regular` | Activo | Inter | Regular (400) | 14px | 20px | 0% | ORIGINAL | NONE | `font-sans text-sm leading-5 font-normal tracking-normal normal-case no-underline` | `typography/sans`<br>`text/body-md`<br>`typography/style/normal` |
-| `Legacy/body/two/regular uppercase` | Legacy | Inter | Regular (400) | 14px | 20px | 0% | UPPER | NONE | `font-sans text-sm leading-5 font-normal tracking-normal uppercase no-underline` | `typography/sans`<br>`text/body-md`<br>`typography/style/normal` |
+| `body/md/sans/medium` | Activo | Inter | Medium (500) | 14px | 20px | 0% | ORIGINAL | NONE | `font-sans text-sm leading-5 font-medium tracking-normal normal-case no-underline` | `typography/sans`<br>`text/body-md`<br>`typography/style/medium` |
+| `body/md/sans/medium underline` | Activo | Inter | Medium (500) | 14px | 20px | 0% | ORIGINAL | UNDERLINE | `font-sans text-sm leading-5 font-medium tracking-normal normal-case underline` | `typography/sans`<br>`text/body-md`<br>`typography/style/medium` |
+| `body/md/sans/semibold` | Activo | Inter | Semi Bold (600) | 14px | 20px | 0% | ORIGINAL | NONE | `font-sans text-sm leading-5 font-semibold tracking-normal normal-case no-underline` | `typography/sans`<br>`text/body-md`<br>`typography/style/semibold` |
 | `body/md/mono/regular` | Activo | JetBrains Mono | Regular (400) | 14px | 20px | 0% | ORIGINAL | NONE | `font-mono text-sm leading-5 font-normal tracking-normal normal-case no-underline` | `typography/mono`<br>`text/body-md`<br>`typography/style/normal` |
+| `body/md/mono/medium` | Activo | JetBrains Mono | Medium (500) | 14px | 20px | 0% | ORIGINAL | NONE | `font-mono text-sm leading-5 font-medium tracking-normal normal-case no-underline` | `typography/mono`<br>`text/body-md`<br>`typography/style/medium` |
+| `body/md/mono/medium underline` | Activo | JetBrains Mono | Medium (500) | 14px | 20px | 0% | ORIGINAL | UNDERLINE | `font-mono text-sm leading-5 font-medium tracking-normal normal-case underline` | `typography/mono`<br>`text/body-md`<br>`typography/style/medium` |
 | `body/sm/sans/regular` | Activo | Inter | Regular (400) | 12px | 16px | 0% | ORIGINAL | NONE | `font-sans text-xs leading-4 font-normal tracking-normal normal-case no-underline` | `typography/sans`<br>`text/body-sm`<br>`typography/style/normal` |
 | `body/sm/sans/regular uppercase` | Activo | Inter | Regular (400) | 12px | 16px | 2.5% | UPPER | NONE | `font-sans text-xs leading-4 font-normal tracking-[0.025em] uppercase no-underline` | `typography/sans`<br>`text/body-sm`<br>`typography/style/normal` |
 | `body/sm/sans/medium` | Activo | Inter | Medium (500) | 12px | 16px | 0% | ORIGINAL | NONE | `font-sans text-xs leading-4 font-medium tracking-normal normal-case no-underline` | `typography/sans`<br>`text/body-sm`<br>`typography/style/medium` |
 | `body/sm/sans/semibold` | Activo | Inter | Semi Bold (600) | 12px | 16px | 0% | ORIGINAL | NONE | `font-sans text-xs leading-4 font-semibold tracking-normal normal-case no-underline` | `typography/sans`<br>`text/body-sm`<br>`typography/style/semibold` |
 | `body/sm/sans/semibold uppercase` | Activo | Inter | Semi Bold (600) | 12px | 16px | 0% | UPPER | NONE | `font-sans text-xs leading-4 font-semibold tracking-normal uppercase no-underline` | `typography/sans`<br>`text/body-sm`<br>`typography/style/semibold` |
-| `Legacy/body/three/medium uppercase` | Legacy | Inter | Medium (500) | 12px | 16px | 2.5% | UPPER | NONE | `font-sans text-xs leading-4 font-medium tracking-[0.025em] uppercase no-underline` | `typography/sans`<br>`text/body-sm`<br>`typography/style/medium` |
-| `Legacy/caption/one/regular` | Legacy | Inter | Regular (400) | 11px | Auto | 0% | ORIGINAL | NONE | `font-sans text-[11px] leading-normal font-normal tracking-normal normal-case no-underline` | `typography/sans`<br>`text/caption-md`<br>`typography/style/normal` |
-| `Legacy/caption/one/medium` | Legacy | Inter | Medium (500) | 11px | Auto | 0% | ORIGINAL | NONE | `font-sans text-[11px] leading-normal font-medium tracking-normal normal-case no-underline` | `typography/sans`<br>`text/caption-md`<br>`typography/style/medium` |
-| `caption/md/semibold` | Activo | Inter | Semi Bold (600) | 11px | Auto | 0% | ORIGINAL | NONE | `font-sans text-[11px] leading-normal font-semibold tracking-normal normal-case no-underline` | `typography/sans`<br>`text/caption-md`<br>`typography/style/semibold` |
-| `caption/md/bold uppercase` | Activo | Inter | Bold (700) | 11px | Auto | 10% | UPPER | NONE | `font-sans text-[11px] leading-normal font-bold tracking-[0.1em] uppercase no-underline` | `typography/sans`<br>`text/caption-md`<br>`typography/style/bold` |
+| `body/sm/mono/regular` | Activo | JetBrains Mono | Regular (400) | 12px | 16px | 5% | ORIGINAL | NONE | `font-mono text-xs leading-4 font-normal tracking-[0.05em] normal-case no-underline` | `typography/mono`<br>`text/body-sm`<br>`typography/style/normal` |
 | `caption/sm/regular` | Activo | Inter | Regular (400) | 10px | Auto | 0% | ORIGINAL | NONE | `font-sans text-[10px] leading-normal font-normal tracking-normal normal-case no-underline` | `typography/sans`<br>`text/caption-sm`<br>`typography/style/normal` |
 | `caption/sm/medium` | Activo | Inter | Medium (500) | 10px | Auto | 0% | ORIGINAL | NONE | `font-sans text-[10px] leading-normal font-medium tracking-normal normal-case no-underline` | `typography/sans`<br>`text/caption-sm`<br>`typography/style/medium` |
-| `Legacy/caption/two/medium uppercase` | Legacy | Inter | Medium (500) | 10px | Auto | 5% | UPPER | NONE | `font-sans text-[10px] leading-normal font-medium tracking-[0.05em] uppercase no-underline` | `typography/sans`<br>`text/caption-sm`<br>`typography/style/medium` |
 | `caption/sm/semibold` | Activo | Inter | Semi Bold (600) | 10px | Auto | 0% | ORIGINAL | NONE | `font-sans text-[10px] leading-normal font-semibold tracking-normal normal-case no-underline` | `typography/sans`<br>`text/caption-sm`<br>`typography/style/semibold` |
-| `Legacy/caption/three/regular` | Legacy | Inter | Regular (400) | 9px | Auto | 0% | ORIGINAL | NONE | `font-sans text-[9px] leading-normal font-normal tracking-normal normal-case no-underline` | `typography/sans`<br>`text/caption-xs`<br>`typography/style/normal` |
-| `caption/xs/semibold` | Activo | Inter | Semi Bold (600) | 9px | Auto | 0% | ORIGINAL | NONE | `font-sans text-[9px] leading-normal font-semibold tracking-normal normal-case no-underline` | `typography/sans`<br>`text/caption-xs`<br>`typography/style/semibold` |
-| `Legacy/caption/four/regular` | Legacy | Inter | Regular (400) | 8px | Auto | 0% | ORIGINAL | NONE | `font-sans text-[8px] leading-normal font-normal tracking-normal normal-case no-underline` | `typography/sans`<br>`text/caption-4`<br>`typography/style/normal` |
+| `caption/sm/bold uppercase` | Activo | Inter | Bold (700) | 10px | Auto | 10% | UPPER | NONE | `font-sans text-[10px] leading-normal font-bold tracking-[0.1em] uppercase no-underline` | `typography/sans`<br>`text/caption-sm`<br>`typography/style/bold` |
+| `components/avatar/11px/semibold` | Activo | Inter | Semi Bold (600) | 11px | Auto | 0% | ORIGINAL | NONE | `font-sans text-[11px] leading-normal font-semibold tracking-normal normal-case no-underline` | `typography/sans`<br>`text/caption-md`<br>`typography/style/semibold` |
+| `components/avatar/9px/semibold` | Activo | Inter | Semi Bold (600) | 9px | Auto | 0% | ORIGINAL | NONE | `font-sans text-[9px] leading-normal font-semibold tracking-normal normal-case no-underline` | `typography/sans`<br>`text/caption-xs`<br>`typography/style/semibold` |
 | `components/avatar/micro/semibold` | Activo | Inter | Semi Bold (600) | 8px | Auto | 0% | ORIGINAL | NONE | `font-sans text-[8px] leading-normal font-semibold tracking-normal normal-case no-underline` | `typography/sans`<br>`text/caption-4`<br>`typography/style/semibold` |
 | `components/avatar/tiny/semibold` | Activo | Inter | Semi Bold (600) | 6px | Auto | 0% | ORIGINAL | NONE | `font-sans text-[6px] leading-normal font-semibold tracking-normal normal-case no-underline` | `typography/sans`<br>`text/caption-5`<br>`typography/style/semibold` |
-| `Legacy/mono/one/regular` | Legacy | JetBrains Mono | Regular (400) | 14px | Auto | 0% | ORIGINAL | NONE | `font-mono text-sm leading-normal font-normal tracking-normal normal-case no-underline` | `typography/mono`<br>`text/body-md`<br>`typography/style/normal` |
-| `Legacy/mono/two/regular` | Legacy | JetBrains Mono | Regular (400) | 12px | Auto | 0% | ORIGINAL | NONE | `font-mono text-xs leading-normal font-normal tracking-normal normal-case no-underline` | `typography/mono`<br>`text/body-sm`<br>`typography/style/normal` |
-| `Legacy/mono/two/medium` | Legacy | JetBrains Mono | Medium (500) | 12px | Auto | 0% | ORIGINAL | NONE | `font-mono text-xs leading-normal font-medium tracking-normal normal-case no-underline` | `typography/mono`<br>`text/body-sm`<br>`typography/style/medium` |
-| `body/xs/mono/regular` | Activo | JetBrains Mono | Regular (400) | 11px | Auto | 5% | ORIGINAL | NONE | `font-mono text-[11px] leading-normal font-normal tracking-[0.05em] normal-case no-underline` | `typography/mono`<br>`text/caption-md`<br>`typography/style/normal` |
-| `body/md/sans/medium` | Activo | Inter | Medium (500) | 14px | 20px | 0% | ORIGINAL | NONE | `font-sans text-sm leading-5 font-medium tracking-normal normal-case no-underline` | `typography/sans`<br>`text/body-md`<br>`typography/style/medium` |
-| `Legacy/body/two/medium uppercase` | Legacy | Inter | Medium (500) | 14px | 20px | 0% | UPPER | NONE | `font-sans text-sm leading-5 font-medium tracking-normal uppercase no-underline` | `typography/sans`<br>`text/body-md`<br>`typography/style/medium` |
-| `body/md/mono/medium` | Activo | JetBrains Mono | Medium (500) | 14px | 20px | 0% | ORIGINAL | NONE | `font-mono text-sm leading-5 font-medium tracking-normal normal-case no-underline` | `typography/mono`<br>`text/body-md`<br>`typography/style/medium` |
-| `body/md/sans/medium underline` | Activo | Inter | Medium (500) | 14px | 20px | 0% | ORIGINAL | UNDERLINE | `font-sans text-sm leading-5 font-medium tracking-normal normal-case underline` | `typography/sans`<br>`text/body-md`<br>`typography/style/medium` |
-| `body/md/mono/medium underline` | Activo | JetBrains Mono | Medium (500) | 14px | 20px | 0% | ORIGINAL | UNDERLINE | `font-mono text-sm leading-5 font-medium tracking-normal normal-case underline` | `typography/mono`<br>`text/body-md`<br>`typography/style/medium` |
-| `Legacy/body/two/medium italic` | Legacy | Inter | Medium Italic (500) | 14px | 20px | 0% | ORIGINAL | NONE | `font-sans text-sm leading-5 font-medium tracking-normal normal-case no-underline italic` | `typography/sans`<br>`text/body-md` |
-| `body/md/sans/semibold` | Activo | Inter | Semi Bold (600) | 14px | 20px | 0% | ORIGINAL | NONE | `font-sans text-sm leading-5 font-semibold tracking-normal normal-case no-underline` | `typography/sans`<br>`text/body-md`<br>`typography/style/semibold` |
-| `Legacy/body/two/semibold uppercase` | Legacy | Inter | Semi Bold (600) | 14px | 20px | 2.5% | UPPER | NONE | `font-sans text-sm leading-5 font-semibold tracking-[0.025em] uppercase no-underline` | `typography/sans`<br>`text/body-md`<br>`typography/style/semibold` |
-| `Legacy/body/three/bold uppercase` | Legacy | Inter | Bold (700) | 12px | 16px | 0% | UPPER | NONE | `font-sans text-xs leading-4 font-bold tracking-normal uppercase no-underline` | `typography/sans`<br>`text/body-sm`<br>`typography/style/bold` |
 | `components/button/base` | Activo | Inter | Medium (500) | 14px | 20px | 0% | ORIGINAL | NONE | `font-sans text-sm leading-5 font-medium tracking-normal normal-case no-underline` | `typography/sans`<br>`typography/size/tailwind/sm`<br>`typography/style/medium` |
 | `components/button/base underline` | Activo | Inter | Medium (500) | 14px | 20px | 0% | ORIGINAL | UNDERLINE | `font-sans text-sm leading-5 font-medium tracking-normal normal-case underline` | `typography/sans`<br>`typography/size/tailwind/sm`<br>`typography/style/medium` |
-| `Legacy/components/button/default` | Legacy | Inter | Medium (500) | 14px | 20px | 0% | ORIGINAL | NONE | `font-sans text-sm leading-5 font-medium tracking-normal normal-case no-underline` | `typography/sans`<br>`typography/size/tailwind/sm`<br>`typography/style/medium` |
-| `Legacy/components/button/default underline` | Legacy | Inter | Medium (500) | 14px | 20px | 0% | ORIGINAL | UNDERLINE | `font-sans text-sm leading-5 font-medium tracking-normal normal-case underline` | `typography/sans`<br>`typography/size/tailwind/sm`<br>`typography/style/medium` |
 | `components/button/sm` | Activo | Inter | Medium (500) | 12.8px | 20px | 0% | ORIGINAL | NONE | `font-sans text-[0.8rem] leading-5 font-medium tracking-normal normal-case no-underline` | `typography/sans`<br>`typography/size/rem/0,8`<br>`typography/style/medium` |
 | `components/button/sm underline` | Activo | Inter | Medium (500) | 12.8px | 20px | 0% | ORIGINAL | UNDERLINE | `font-sans text-[0.8rem] leading-5 font-medium tracking-normal normal-case underline` | `typography/sans`<br>`typography/size/rem/0,8`<br>`typography/style/medium` |
 | `components/button/xs` | Activo | Inter | Medium (500) | 12px | 20px | 0% | ORIGINAL | NONE | `font-sans text-xs leading-5 font-medium tracking-normal normal-case no-underline` | `typography/sans`<br>`typography/size/tailwind/xs`<br>`typography/style/medium` |
 | `components/button/xs underline` | Activo | Inter | Medium (500) | 12px | 20px | 0% | ORIGINAL | UNDERLINE | `font-sans text-xs leading-5 font-medium tracking-normal normal-case underline` | `typography/sans`<br>`typography/size/tailwind/xs`<br>`typography/style/medium` |
 | `components/badge/xl/medium` | Activo | Inter | Medium (500) | 14px | 20px | 0% | ORIGINAL | NONE | `font-sans text-sm leading-5 font-medium tracking-normal normal-case no-underline` | `typography/sans`<br>`typography/style/medium` |
 | `components/badge/lg/medium` | Activo | Inter | Medium (500) | 12px | 16px | 0% | ORIGINAL | NONE | `font-sans text-xs leading-4 font-medium tracking-normal normal-case no-underline` | `typography/sans`<br>`typography/style/medium` |
-| `Legacy/components/badge/md/medium` | Legacy | Inter | Medium (500) | 10px | 15px | 0% | ORIGINAL | NONE | `font-sans text-[10px] leading-[15px] font-medium tracking-normal normal-case no-underline` | `typography/sans`<br>`typography/style/medium` |
 | `components/badge/compact/medium` | Activo | Inter | Medium (500) | 10px | 15px | 0% | ORIGINAL | NONE | `font-sans text-[10px] leading-[15px] font-medium tracking-normal normal-case no-underline` | `typography/sans`<br>`typography/style/medium` |
 | `components/toast/medium` | Activo | Inter | Medium (500) | 13px | 19.5px | 0% | ORIGINAL | NONE | `font-sans text-[13px] leading-[19.5px] font-medium tracking-normal normal-case no-underline` | `typography/sans`<br>`typography/style/medium` |
-| `Legacy/components/calendar/regular line-through` | Legacy | Inter | Regular (400) | 14px | 14px | 0% | ORIGINAL | STRIKETHROUGH | `font-sans text-sm leading-[14px] font-normal tracking-normal normal-case line-through` | `typography/sans`<br>`text/body-md`<br>`typography/style/normal` |
 | `components/calendar/regular` | Activo | Inter | Regular (400) | 14px | 14px | 0% | ORIGINAL | NONE | `font-sans text-sm leading-[14px] font-normal tracking-normal normal-case no-underline` | `typography/sans`<br>`text/body-md`<br>`typography/style/normal` |
 | `components/calendar/bold` | Activo | Inter | Bold (700) | 14px | 14px | 0% | ORIGINAL | NONE | `font-sans text-sm leading-[14px] font-bold tracking-normal normal-case no-underline` | `typography/sans`<br>`text/body-md`<br>`typography/style/bold` |
-| `Legacy/body/base/mono-regular` | Legacy | JetBrains Mono | Regular (400) | 16px | 24px | 0% | ORIGINAL | NONE | `font-mono text-base leading-6 font-normal tracking-normal normal-case no-underline` | `typography/mono`<br>`typography/size/tailwind/base` |
 
 ## Inventario de componentes v1
 
@@ -965,7 +975,7 @@ Agrupa contenido expandible en uno o varios paneles y conserva interacción por 
 | Categoría | Disclosure |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 1771:909](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1771-909) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-accordion--docs) |
 | Registry | [accordion.json](https://ds-grm-documentation.vercel.app/r/accordion.json) |
@@ -976,10 +986,7 @@ Agrupa contenido expandible en uno o varios paneles y conserva interacción por 
 
 ### Cambios declarados en la versión del componente
 
-- Modos Multiple y Unique sincronizados con el nodo 1771:909.
-- Entre 2 y 10 ítems configurables.
-- Estados colapsado, expandido y hover.
-- Implementación accesible sobre Accordion de Radix incluido por shadcn/ui.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -1065,7 +1072,7 @@ Comunica información contextual, advertencias, errores o confirmaciones dentro 
 | Categoría | Feedback |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | React/HTML semántico |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 1178:530](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1178-530) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-alert--docs) |
 | Registry | [alert.json](https://ds-grm-documentation.vercel.app/r/alert.json) |
@@ -1076,9 +1083,7 @@ Comunica información contextual, advertencias, errores o confirmaciones dentro 
 
 ### Cambios declarados en la versión del componente
 
-- Variantes `default` y `destructive` sincronizadas con el nodo 1178:530.
-- Icono y acción opcionales mediante composición.
-- Implementación sobre la API compuesta de Alert de shadcn/ui.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -1162,7 +1167,7 @@ Solicita confirmación explícita antes de ejecutar una acción relevante o irre
 | Categoría | Overlay |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 1187:612](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1187-612) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-alert-dialog--docs) |
 | Registry | [alert-dialog.json](https://ds-grm-documentation.vercel.app/r/alert-dialog.json) |
@@ -1173,9 +1178,7 @@ Solicita confirmación explícita antes de ejecutar una acción relevante o irre
 
 ### Cambios declarados en la versión del componente
 
-- Tamaños `basic` y `sm` sincronizados con el nodo 1187:612.
-- Estados `default` y `destructive` aplicados a media y acción principal.
-- Media opcional y composición accesible sobre Alert Dialog de Radix incluido por shadcn/ui.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -1263,7 +1266,7 @@ Representa archivos adjuntos y sus estados de carga, procesamiento, error y fina
 | Categoría | Data display |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 2827:14904](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=2827-14904) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-attachment--docs) |
 | Registry | [attachment.json](https://ds-grm-documentation.vercel.app/r/attachment.json) |
@@ -1274,10 +1277,7 @@ Representa archivos adjuntos y sus estados de carga, procesamiento, error y fina
 
 ### Cambios declarados en la versión del componente
 
-- Componente compuesto basado en el patrón Attachment de shadcn/ui.
-- Estados `idle`, `uploading`, `processing`, `error` y `done`.
-- Tamaños `default`, `sm` y `xs`; orientaciones horizontal y vertical.
-- Media, acciones, trigger y grupos desplazables componibles.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -1373,7 +1373,7 @@ Representa una identidad mediante imagen, iniciales o icono, con tamaños y comp
 | Categoría | Data display |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 246:2681](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=246-2681) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-avatar--docs) |
 | Registry | [avatar.json](https://ds-grm-documentation.vercel.app/r/avatar.json) |
@@ -1384,11 +1384,7 @@ Representa una identidad mediante imagen, iniciales o icono, con tamaños y comp
 
 ### Cambios declarados en la versión del componente
 
-- Conserva sin modificaciones la API oficial `Avatar`, `AvatarImage`, `AvatarFallback`, `AvatarBadge`, `AvatarGroup` y `AvatarGroupCount`.
-- Traduce por composición los contenidos image, text e icon; las formas full y semiSquared; la escala, bordes y estados de Figma.
-- Los status badges, badges de servicio, textos, iconos y radios responden a la matriz de tamaños definida en Figma.
-- Usa la imagen original del nodo y tokens semánticos sensibles a la marca.
-- Playground y Docs consumen `avatarExamplePresets` y la misma instancia `AvatarExample`.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -1602,7 +1598,7 @@ Etiqueta compacta para clasificación, estado o metadatos breves.
 | Categoría | Data display |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 186:141](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=186-141) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-badge--docs) |
 | Registry | [badge.json](https://ds-grm-documentation.vercel.app/r/badge.json) |
@@ -1613,9 +1609,7 @@ Etiqueta compacta para clasificación, estado o metadatos breves.
 
 ### Cambios declarados en la versión del componente
 
-- Nueve estilos y dos tratamientos visuales sincronizados con el nodo 186:141.
-- Cuatro tamaños con tipografía, espaciado e iconografía propios.
-- Contenido opcional a izquierda y derecha mediante composición.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -1732,7 +1726,7 @@ Representa la jerarquía de ubicación; en Storybook GRM su muestra no navega.
 | Categoría | Navigation |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 1760:597](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1760-597) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-breadcrumb--docs) |
 | Registry | [breadcrumb.json](https://ds-grm-documentation.vercel.app/r/breadcrumb.json) |
@@ -1743,10 +1737,7 @@ Representa la jerarquía de ubicación; en Storybook GRM su muestra no navega.
 
 ### Cambios declarados en la versión del componente
 
-- Rutas de 2, 3 y 4 niveles mediante composición.
-- Links, ubicación actual, separadores y patrones de reducción.
-- Elipsis estática o interactiva con Dropdown Menu.
-- Navegación semántica con `aria-label` y `aria-current`.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -1818,7 +1809,7 @@ Acción primaria o secundaria con texto, icono, spinner y estados interactivos.
 | Categoría | Action |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.1.0` — Alineación con Figma |
+| Versión documentada | `v1.2.0` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 1:24](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1-24) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-button--docs) |
 | Registry | [button.json](https://ds-grm-documentation.vercel.app/r/button.json) |
@@ -1829,9 +1820,8 @@ Acción primaria o secundaria con texto, icono, spinner y estados interactivos.
 
 ### Cambios declarados en la versión del componente
 
-- Tamaños, espaciado, radio, sombra y variantes sincronizados con el nodo `1:24`.
-- Button e Icon Button conservan propiedades independientes en Storybook.
-- Icon Button admite forma semicuadrada o circular.
+- Radio: rounded-md → rounded-sm.
+- Nueva variante brand-gradient: dirección de 135°, dos tokens por marca y texto blanco; superposición del 8 % en hover y 16 % en active.
 
 ### Contrato técnico y composición
 
@@ -1900,7 +1890,7 @@ export type ButtonIconExampleProps = Omit<SharedButtonProps, "children"> & {
 | Propiedad | Nombre visible | Categoría | Visible | Control | Opciones | Descripción |
 | --- | --- | --- | --- | --- | --- | --- |
 | `buttonMode` | buttonMode | General | No | automático | — | — |
-| `variant` | Estilo | Estilo | Sí | inline-radio | `default`, `secondary`, `brand-neutral`, `outline`, `ghost`, `link`, `success`, `warning`, `destructive` | — |
+| `variant` | Estilo | Estilo | Sí | inline-radio | `default`, `secondary`, `brand-neutral`, `outline`, `ghost`, `link`, `success`, `warning`, `destructive`, `brand-gradient` | — |
 | `children` | children | Contenido | Sí | text | — | — |
 | `state` | Estado | Estado | Sí | inline-radio | `normal`, `loading`, `disabled` | — |
 | `asChild` | asChild | General | No | desactivado | — | — |
@@ -1961,6 +1951,7 @@ export type ButtonIconExampleProps = Omit<SharedButtonProps, "children"> & {
 
 | Propiedad | Nombre visible | Categoría | Visible | Control | Opciones | Descripción |
 | --- | --- | --- | --- | --- | --- | --- |
+| `variant` | variant | General | Sí | select | `default`, `secondary`, `brand-neutral`, `outline`, `ghost`, `link`, `success`, `warning`, `destructive` | — |
 | `size` | Tamaño | Tamaño | Sí | inline-radio | `icon`, `icon-xs`, `icon-sm` | — |
 | `roundness` | Redondez | Forma | Sí | inline-radio | `semiSquared`, `full` | — |
 | `buttonMode` | buttonMode | General | No | automático | — | — |
@@ -1992,6 +1983,7 @@ Escala cuadrada con icono interno constante.
 
 | value | label | surface | text | border |
 | --- | --- | --- | --- | --- |
+| `brand-gradient` | `Brand gradient` | `--button-brand-gradient-1 → --button-brand-gradient-2 · 135°` | `white` | `—` |
 | `default` | `Primary` | `--primary` | `--primary-foreground` | `—` |
 | `secondary` | `Secondary` | `--secondary` | `--secondary-foreground` | `--border` |
 | `brand-neutral` | `Brand neutral` | `--background` | `--foreground` | `--border` |
@@ -2039,7 +2031,7 @@ Agrupa acciones relacionadas y coordina bordes, orientación y espaciado entre b
 | Categoría | Action |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 3355:1262](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=3355-1262) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-button-group--docs) |
 | Registry | [button-group.json](https://ds-grm-documentation.vercel.app/r/button-group.json) |
@@ -2050,10 +2042,7 @@ Agrupa acciones relacionadas y coordina bordes, orientación y espaciado entre b
 
 ### Cambios declarados en la versión del componente
 
-- Conserva `ButtonGroup`, `ButtonGroupSeparator`, `ButtonGroupText`, `role=group` y navegación Tab oficiales.
-- Compone Button, Icon Button, Dropdown y Popover reales con bordes y radios dependientes de su posición.
-- Adapta orientación horizontal/vertical y composiciones de 1 a 10 elementos del set de Figma.
-- Mantiene 6 px de radio exterior y alturas consistentes entre botones de texto e icono en toda la escala.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -2151,7 +2140,7 @@ Selección de fecha, rango y disponibilidad basada en el Calendar oficial de sha
 | Categoría | Form |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | React/HTML semántico |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 1521:3069](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1521-3069) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-calendar--docs) |
 | Registry | [calendar.json](https://ds-grm-documentation.vercel.app/r/calendar.json) |
@@ -2162,11 +2151,7 @@ Selección de fecha, rango y disponibilidad basada en el Calendar oficial de sha
 
 ### Cambios declarados en la versión del componente
 
-- Mantiene la API de `react-day-picker` y el primitive vigente de shadcn/ui `radix-nova`.
-- Traduce single, range, encabezados, hora y presets mediante propiedades y composición oficial; el rango de dos meses replica la ventana de 30 días del ejemplo oficial.
-- Añade disponibilidad desde Figma mediante `modifiers`, `modifiersClassNames` y una leyenda externa, sin alterar el primitive.
-- Presenta siempre dos meses cuando `mode="range"`.
-- Docs y Playground renderizan exclusivamente `CalendarExample`.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -2256,7 +2241,7 @@ Contenedor estructurado con header, contenido, media, acciones y footer opcional
 | Categoría | Data display |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | React/HTML semántico |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 1798:3431](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1798-3431) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-card--docs) |
 | Registry | [card.json](https://ds-grm-documentation.vercel.app/r/card.json) |
@@ -2267,9 +2252,7 @@ Contenedor estructurado con header, contenido, media, acciones y footer opcional
 
 ### Cambios declarados en la versión del componente
 
-- Tamaños, estilos y espaciados sincronizados con el nodo `1798:3431`.
-- Header, body y footer conservan la composición pública de Card de shadcn/ui.
-- Footer admite distribución en columna, fila o wrap.
+- Nombra la acción de icono de la composición.
 
 ### Contrato técnico y composición
 
@@ -2369,7 +2352,7 @@ Secuencia navegable de contenidos basada en Embla y la composición oficial de s
 | Categoría | Layout |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | React/HTML semántico |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 2782:1341](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=2782-1341) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-carousel--docs) |
 | Registry | [carousel.json](https://ds-grm-documentation.vercel.app/r/carousel.json) |
@@ -2380,9 +2363,7 @@ Secuencia navegable de contenidos basada en Embla y la composición oficial de s
 
 ### Cambios declarados en la versión del componente
 
-- Escalas `full`, `large`, `medium` y `small` sincronizadas con el nodo `2782:1341`.
-- Orientación horizontal y vertical sobre Embla Carousel.
-- Navegación, estado disabled, teclado y posición derivados de la API real de shadcn/ui.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -2477,7 +2458,7 @@ Control de selección binaria o indeterminada, individual o contenido en una opc
 | Categoría | Form |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 1:41](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1-41) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-checkbox--docs) |
 | Registry | [checkbox.json](https://ds-grm-documentation.vercel.app/r/checkbox.json) |
@@ -2488,9 +2469,7 @@ Control de selección binaria o indeterminada, individual o contenido en una opc
 
 ### Cambios declarados en la versión del componente
 
-- Conserva Root, Indicator, estado controlado/no controlado, indeterminate, teclado, disabled y ARIA del primitive oficial.
-- Label, Description, Choice Card y Group son composiciones oficiales con Field.
-- Adapta geometría, estados y tokens del nodo de Figma sin ampliar la API pública.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -2574,7 +2553,7 @@ Muestra u oculta una región de contenido mediante un trigger accesible.
 | Categoría | Disclosure |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 1771:929](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1771-929) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-collapsible--docs) |
 | Registry | [collapsible.json](https://ds-grm-documentation.vercel.app/r/collapsible.json) |
@@ -2585,10 +2564,7 @@ Muestra u oculta una región de contenido mediante un trigger accesible.
 
 ### Cambios declarados en la versión del componente
 
-- Conserva sin modificaciones `Collapsible`, `CollapsibleTrigger` y `CollapsibleContent` del registro oficial de shadcn/ui sobre Radix.
-- Añade los patrones FixedTrigger y ExpandableTrigger mediante composición pública.
-- Mantiene estado, teclado, atributos `data-state` y semántica del primitive.
-- Playground y Docs consumen `collapsibleExamplePresets` y la misma instancia `CollapsibleExample`.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -2736,7 +2712,7 @@ Selección con búsqueda, grupos, limpieza, opción múltiple y popup según Bas
 | Categoría | Form |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Base UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 1:39](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1-39) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-combobox--docs) |
 | Registry | [combobox.json](https://ds-grm-documentation.vercel.app/r/combobox.json) |
@@ -2747,10 +2723,7 @@ Selección con búsqueda, grupos, limpieza, opción múltiple y popup según Bas
 
 ### Cambios declarados en la versión del componente
 
-- Conserva el primitive, la composición pública, el filtrado, el teclado y la accesibilidad oficiales de Combobox sobre Base UI.
-- Incluye Simple, Clear Button, Groups, Multiple con Chips y Popup mediante la API pública de shadcn/ui.
-- Los iconos se componen como hijos de `ComboboxItem`; no se añaden propiedades privadas al primitive.
-- Playground y Docs consumen la misma matriz `comboboxExamplePresets`; Docs no recrea ni estiliza internamente el componente.
+- Nombra el botón de apertura de opciones.
 
 ### Contrato técnico y composición
 
@@ -2906,7 +2879,7 @@ Menú contextual activado sobre un área de trigger mediante interacción secund
 | Categoría | Menu |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 1675:339](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1675-339) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-context-menu--docs) |
 | Registry | [context-menu.json](https://ds-grm-documentation.vercel.app/r/context-menu.json) |
@@ -2917,10 +2890,7 @@ Menú contextual activado sobre un área de trigger mediante interacción secund
 
 ### Cambios declarados en la versión del componente
 
-- Apertura mediante clic derecho y navegación por teclado.
-- Posicionamiento nativo desde el punto del clic derecho y manejo de colisiones por Radix UI.
-- Labels, grupos, separadores, iconos, shortcuts, estados y submenús.
-- Variante destructive conectada con tokens semánticos.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -3013,7 +2983,7 @@ Composición avanzada de Table con TanStack: sorting, filtros, visibilidad, sele
 | Categoría | Data display |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | React/HTML semántico |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 2366:19504](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=2366-19504) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-data-table--docs) |
 | Registry | [data-table.json](https://ds-grm-documentation.vercel.app/r/data-table.json) |
@@ -3024,14 +2994,7 @@ Composición avanzada de Table con TanStack: sorting, filtros, visibilidad, sele
 
 ### Cambios declarados en la versión del componente
 
-- Composición oficial sobre el primitive `Table` existente y TanStack Table v9.
-- Sorting, filtering, visibilidad, selección, paginación y acciones por fila.
-- Patrones de selección, activación, identificador y detalle expandible.
-- Acciones por fila mediante Dropdown o grupos directos de uno, dos y tres Icon Buttons.
-- Estados loading, empty y error, además de soporte para estado remoto controlado.
-- Toolbar configurable de Figma mediante slots de composición.
-- Tokens y tipografía responden a la marca activa.
-- Playground y Docs consumen la misma instancia `DataTableExample`.
+- Hereda los roles de Table y nombra la columna de acciones.
 
 ### Contrato técnico y composición
 
@@ -3225,7 +3188,7 @@ Composición de Button, Popover y Calendar para elegir fecha, rango o fecha y ho
 | Categoría | Form |
 | Tipo | Composición / block |
 | Base técnica detectada | Composición de componentes GRM |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 1:35](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1-35) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-date-picker--docs) |
 | Registry | [date-picker.json](https://ds-grm-documentation.vercel.app/r/date-picker.json) |
@@ -3236,10 +3199,7 @@ Composición de Button, Popover y Calendar para elegir fecha, rango o fecha y ho
 
 ### Cambios declarados en la versión del componente
 
-- Sigue el patrón oficial de composición `Popover + Calendar`; no crea un primitive Date Picker inexistente en shadcn/ui.
-- Incluye Single, Range de dos meses y Date and time, más la configuración de disponibilidad ya soportada por Calendar.
-- Conserva selección, navegación por teclado, foco, portales y atributos accesibles de los primitives oficiales.
-- Playground y Docs consumen exclusivamente `datePickerExamplePresets` y la misma instancia `DatePickerExample`.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -3390,7 +3350,7 @@ Panel flotante deslizable con posiciones, tamaños, nesting, non-modal y snap po
 | Categoría | Overlay |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Base UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 1290:302](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1290-302) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-drawer--docs) |
 | Registry | [drawer.json](https://ds-grm-documentation.vercel.app/r/drawer.json) |
@@ -3401,11 +3361,7 @@ Panel flotante deslizable con posiciones, tamaños, nesting, non-modal y snap po
 
 ### Cambios declarados en la versión del componente
 
-- Migra el primitive de Vaul a Base UI y conserva la composición, swipe, foco, cierre y accesibilidad oficiales de shadcn/ui.
-- Sustituye `direction` por `swipeDirection` y `asChild` por `render`, según la API vigente.
-- Adapta anchos laterales de 384/480 px, bottom de hasta 680 px y radio de 24 px.
-- Añade inset flotante de 16 px y documenta Nested, Non-modal y Snap Points con composiciones reales.
-- Mantiene acciones fijas mientras el cuerpo puede desplazarse y permite una o dos acciones según Figma.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -3492,7 +3448,7 @@ Menú de acciones y opciones con grupos, checks, radios, submenús y shortcuts.
 | Categoría | Menu |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 1521:4708](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1521-4708) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-dropdown-menu--docs) |
 | Registry | [dropdown-menu.json](https://ds-grm-documentation.vercel.app/r/dropdown-menu.json) |
@@ -3503,10 +3459,7 @@ Menú de acciones y opciones con grupos, checks, radios, submenús y shortcuts.
 
 ### Cambios declarados en la versión del componente
 
-- Trigger Button o Icon Button.
-- Alineación `start` y `end` con offset vertical de 4 px.
-- Labels, grupos, separadores, estados, iconos y submenús.
-- Navegación por teclado, foco y semántica conservados desde Radix UI.
+- Retira el disparador del orden de tabulación mientras el menú modal está abierto.
 
 ### Contrato técnico y composición
 
@@ -3602,7 +3555,7 @@ Estado vacío con media, título, descripción y acciones opcionales.
 | Categoría | Feedback |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | React/HTML semántico |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 2173:21188](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=2173-21188) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-empty--docs) |
 | Registry | [empty.json](https://ds-grm-documentation.vercel.app/r/empty.json) |
@@ -3613,9 +3566,7 @@ Estado vacío con media, título, descripción y acciones opcionales.
 
 ### Cambios declarados en la versión del componente
 
-- API oficial: `Empty`, `EmptyHeader`, `EmptyMedia`, `EmptyTitle`, `EmptyDescription` y `EmptyContent`.
-- Contenedor, medios y acciones se construyen por composición, sin ampliar artificialmente la API del primitive.
-- Tipografía, color y espaciado responden a los tokens de la marca activa.
+- Los enlaces de EmptyDescription en hover cambian de primary a primary/default-foreground.
 
 ### Contrato técnico y composición
 
@@ -3696,7 +3647,7 @@ Estructura de formulario que asocia label, descripción, control, errores y agru
 | Categoría | Form |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | React/HTML semántico |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 553:2675](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=553-2675) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-field--docs) |
 | Registry | [field.json](https://ds-grm-documentation.vercel.app/r/field.json) |
@@ -3707,9 +3658,7 @@ Estructura de formulario que asocia label, descripción, control, errores y agru
 
 ### Cambios declarados en la versión del componente
 
-- Conserva todos los subcomponentes, orientaciones, estados y semántica de Field oficial.
-- Compone controles públicos reales; Field no duplica Input, Checkbox, Select ni otros primitives.
-- Traduce las matrices de Figma a estados `data-invalid`, `data-disabled` y atributos accesibles.
+- Los enlaces de FieldDescription en hover cambian de primary a primary/default-foreground.
 
 ### Contrato técnico y composición
 
@@ -3815,7 +3764,7 @@ Contenido contextual enriquecido que aparece al mantener hover o foco sobre un t
 | Categoría | Overlay |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 1650:2013](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1650-2013) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-hover-card--docs) |
 | Registry | [hover-card.json](https://ds-grm-documentation.vercel.app/r/hover-card.json) |
@@ -3826,9 +3775,7 @@ Contenido contextual enriquecido que aparece al mantener hover o foco sobre un t
 
 ### Cambios declarados en la versión del componente
 
-- Conserva Root, Trigger, Content, Portal, delays, colisiones y navegación accesible de Radix/shadcn.
-- Adapta la superficie de Figma de 276 × 104 px con tokens semánticos y tipografía por marca.
-- Resuelve Button y texto mediante `asChild`, sin ampliar artificialmente la API pública.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -3912,7 +3859,7 @@ Entrada de texto basada en shadcn/ui, con estados y composición lateral mediant
 | Categoría | Form |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | React/HTML semántico |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.1.0` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 1:34](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1-34) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-input--docs) |
 | Registry | [input.json](https://ds-grm-documentation.vercel.app/r/input.json) |
@@ -3923,10 +3870,8 @@ Entrada de texto basada en shadcn/ui, con estados y composición lateral mediant
 
 ### Cambios declarados en la versión del componente
 
-- Mantiene `Input` como elemento HTML nativo y conserva su API oficial.
-- Conserva geometría, tipografía y estados del registry oficial `radix-nova`; Figma funciona como referencia de uso.
-- El contenido lateral se compone con `InputGroup`; no añade propiedades privadas a Input.
-- Los controles de estado y contenido pertenecen a `InputExample` y se traducen a props nativas o composición pública.
+- Normal: altura de 32 → 36 px; padding horizontal px-2.5 → px-3; fondo transparente → card; texto de 14 px y línea de 20 px.
+- Input Group adopta altura de 36 px y fondo card.
 
 ### Contrato técnico y composición
 
@@ -3937,7 +3882,7 @@ Entrada de texto basada en shadcn/ui, con estados y composición lateral mediant
 | Dependencias externas | `react`, `lucide-react` |
 | Dependencias Registry | `@grm/grm-base` |
 | Composición interna del ejemplo | `./input`, `./input-group`, `./spinner` |
-| Secciones visibles en Docs | Versión → Estados → Tipos nativos → Contenido adicional → Especificaciones → Código |
+| Secciones visibles en Docs | Versión → Estados → Tamaños → Tipos nativos → Contenido adicional → Especificaciones → Código |
 
 ### Propiedades públicas de la composición de Playground
 
@@ -3959,6 +3904,7 @@ export type InputExampleProps = {
   rightContent?: InputContent
   placeholder?: string
   filled?: boolean
+  visualSize?: "normal" | "large"
 }
 ```
 
@@ -3972,11 +3918,13 @@ export type InputExampleProps = {
 | `rightContent` | `none` |
 | `placeholder` | `Placeholder text` |
 | `filled` | `false` |
+| `visualSize` | `normal` |
 
 ### Controles globales
 
 | Propiedad | Nombre visible | Categoría | Visible | Control | Opciones | Descripción |
 | --- | --- | --- | --- | --- | --- | --- |
+| `visualSize` | Tamaño Figma | Configuración de muestra | Sí | inline-radio | `normal`, `large` | Composición con className; no reemplaza size nativo de input. |
 | `type` | Tipo nativo | Props nativas | Sí | select | `text`, `email`, `password`, `tel`, `url`, `search`, `number`, `date`, `time`, `file` | — |
 | `placeholder` | Placeholder | Contenido | Sí | text | — | — |
 | `filled` | Con valor | Configuración de muestra | Sí | boolean | — | Configura defaultValue en la muestra. |
@@ -4053,7 +4001,7 @@ Entrada accesible para códigos segmentados con agrupación, separadores y estad
 | Categoría | Form |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | React/HTML semántico |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 561:4282](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=561-4282) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-input-otp--docs) |
 | Registry | [input-otp.json](https://ds-grm-documentation.vercel.app/r/input-otp.json) |
@@ -4064,11 +4012,7 @@ Entrada accesible para códigos segmentados con agrupación, separadores y estad
 
 ### Cambios declarados en la versión del componente
 
-- Conserva la composición oficial de shadcn/ui sobre `input-otp` y `OTPInputContext`.
-- Mantiene entrada real, caret, foco, teclado, paste, patrón, disabled y semántica ARIA.
-- Adapta los slots a la escala de 36 px y tokens de las cuatro marcas definidos en Figma.
-- Cantidad, separadores, estado y progreso pertenecen exclusivamente a `InputOTPExample`; Error propaga `aria-invalid` a la entrada y sus slots para mantener una señal visual inequívoca.
-- Playground y Docs renderizan la misma composición compartida.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -4219,7 +4163,7 @@ Unidad de contenido reutilizable con media, cuerpo, acciones, header y footer.
 | Categoría | Data display |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Base UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 2190:1413](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=2190-1413) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-item--docs) |
 | Registry | [item.json](https://ds-grm-documentation.vercel.app/r/item.json) |
@@ -4230,11 +4174,7 @@ Unidad de contenido reutilizable con media, cuerpo, acciones, header y footer.
 
 ### Cambios declarados en la versión del componente
 
-- Conserva sin modificaciones el primitive Base UI y la API pública oficial de Item de shadcn/ui.
-- Conserva las variantes, tamaños y composiciones oficiales relevantes: Icon, Avatar, Image, Group, Header, Link y Dropdown.
-- Traduce por composición las apariencias, contenidos laterales, layouts y agrupaciones de Figma.
-- Reutiliza Button y Avatar públicos; no agrega propiedades privadas al primitive.
-- Playground y Docs consumen `itemExamplePresets` y la misma instancia `ItemExample`.
+- Los enlaces de ItemDescription en hover cambian de primary a primary/default-foreground.
 
 ### Contrato técnico y composición
 
@@ -4403,7 +4343,7 @@ Representación compacta de teclas o atajos de teclado.
 | Categoría | Data display |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | React/HTML semántico |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 2793:2325](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=2793-2325) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-kbd--docs) |
 | Registry | [kbd.json](https://ds-grm-documentation.vercel.app/r/kbd.json) |
@@ -4414,11 +4354,7 @@ Representación compacta de teclas o atajos de teclado.
 
 ### Cambios declarados en la versión del componente
 
-- Conserva sin extensiones la API oficial `Kbd` y `KbdGroup` de shadcn/ui.
-- Texto, icono y grupos se expresan mediante `children`; no se añaden props privadas de contenido o estilo.
-- El aspecto oscuro se obtiene únicamente por contexto real de `TooltipContent`.
-- Incluye las composiciones oficiales con Button, Tooltip e Input Group.
-- Playground y Docs consumen la misma matriz `kbdExamplePresets` y la instancia `KbdExample`.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -4555,7 +4491,7 @@ Etiqueta accesible asociada a controles de formulario.
 | Categoría | Form |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | React/HTML semántico |
-| Versión documentada | `v1.0.1` — Alineación estricta con shadcn/ui |
+| Versión documentada | `v1.0.2` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 1:38](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1-38) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-label--docs) |
 | Registry | [label.json](https://ds-grm-documentation.vercel.app/r/label.json) |
@@ -4566,9 +4502,7 @@ Etiqueta accesible asociada a controles de formulario.
 
 ### Cambios declarados en la versión del componente
 
-- Conserva el primitive oficial como un elemento HTML `label` sin variantes propias.
-- Compone Label con Field, Input, Checkbox y Textarea siguiendo los ejemplos oficiales.
-- Disabled, invalid y required pertenecen al control y a Field; no amplían la API de Label.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -4659,7 +4593,7 @@ Barra persistente de menús con items, checks, radios, submenús y shortcuts.
 | Categoría | Navigation |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 2938:11449](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=2938-11449) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-menubar--docs) |
 | Registry | [menubar.json](https://ds-grm-documentation.vercel.app/r/menubar.json) |
@@ -4670,11 +4604,7 @@ Barra persistente de menús con items, checks, radios, submenús y shortcuts.
 
 ### Cambios declarados en la versión del componente
 
-- Conserva el primitive Radix, los subcomponentes y la API pública oficial de Menubar.
-- Implementa de 1 a 10 opciones, estado abierto/cerrado, opción activa y disabled.
-- Incluye items, grupos, labels, separadores, shortcuts, checkbox, radio y submenús.
-- Mantiene navegación por teclado, foco, Escape y cambio lateral entre menús.
-- Playground y Docs renderizan exclusivamente `MenubarExample`.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -4817,7 +4747,7 @@ Selector nativo del navegador adaptado a tokens y geometría GRM.
 | Categoría | Form |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | React/HTML semántico |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 553:7952](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=553-7952) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-native-select--docs) |
 | Registry | [native-select.json](https://ds-grm-documentation.vercel.app/r/native-select.json) |
@@ -4828,10 +4758,7 @@ Selector nativo del navegador adaptado a tokens y geometría GRM.
 
 ### Cambios declarados en la versión del componente
 
-- Conserva el elemento HTML `select` y la API oficial de shadcn/ui.
-- Implementa opciones simples y agrupadas mediante `NativeSelectOption` y `NativeSelectOptGroup`.
-- Los estados invalid y disabled usan `aria-invalid` y `disabled` nativos.
-- La geometría, superficie, tamaños y estados visuales pertenecen al componente oficial de shadcn/ui.
+- Tamaño default: 32 → 36 px. Radio: rounded-lg → rounded-md.
 
 ### Contrato técnico y composición
 
@@ -4909,7 +4836,7 @@ Navegación principal con links, dropdowns y viewport compuesto.
 | Categoría | Navigation |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 2938:12924](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=2938-12924) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-navigation-menu--docs) |
 | Registry | [navigation-menu.json](https://ds-grm-documentation.vercel.app/r/navigation-menu.json) |
@@ -4920,11 +4847,7 @@ Navegación principal con links, dropdowns y viewport compuesto.
 
 ### Cambios declarados en la versión del componente
 
-- Restaura el primitive Radix y la API pública vigente de shadcn/ui.
-- Incluye dropdown, link directo y Viewport habilitado/deshabilitado; `Indicator` permanece disponible como API opcional, pero no se renderiza en la composición de Figma.
-- Implementa layouts `list` y `featured` del nodo de Figma.
-- Soporta de 1 a 10 ítems, estados open/closed, active y disabled.
-- Playground y Docs renderizan exclusivamente `NavigationMenuExample`.
+- Comprueba entrada al contenido y cierre por Escape sin reapertura del puntero simulado.
 
 ### Contrato técnico y composición
 
@@ -5085,7 +5008,7 @@ Navegación entre páginas con controles laterales, elipsis y selector de filas.
 | Categoría | Navigation |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | React/HTML semántico |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 1763:1260](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1763-1260) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-pagination--docs) |
 | Registry | [pagination.json](https://ds-grm-documentation.vercel.app/r/pagination.json) |
@@ -5096,11 +5019,7 @@ Navegación entre páginas con controles laterales, elipsis y selector de filas.
 
 ### Cambios declarados en la versión del componente
 
-- Conserva la composición oficial `Pagination`, `PaginationContent`, `PaginationItem`, `PaginationLink`, `PaginationPrevious`, `PaginationNext` y `PaginationEllipsis`.
-- Mantiene links semánticos, `aria-current`, región de navegación y estilos heredados de Button.
-- Cantidad, página activa, elipsis y botones laterales pertenecen al ejemplo; no amplían el primitive.
-- La composición de filas por página reutiliza el Select público del sistema.
-- Playground y Docs consumen `paginationExamplePresets` y la misma instancia `PaginationExample`.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -5260,7 +5179,7 @@ Contenedor contextual no modal con trigger, anchor y content oficiales de shadcn
 | Categoría | Overlay |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Base UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 726:6350](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=726-6350) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-popover--docs) |
 | Registry | [popover.json](https://ds-grm-documentation.vercel.app/r/popover.json) |
@@ -5271,9 +5190,7 @@ Contenedor contextual no modal con trigger, anchor y content oficiales de shadcn
 
 ### Cambios declarados en la versión del componente
 
-- Conserva Root, Trigger, Portal, Positioner, Popup, Title y Description de Base UI/shadcn.
-- Mantiene estado controlado y no controlado, foco, teclado, dismiss, colisiones, lados y alineación.
-- Interpreta la superficie vacía de Figma como un slot y conserva el contenedor heredado de shadcn/ui: ancho, altura, padding, radio y sombra oficiales.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -5362,7 +5279,7 @@ Indicador de avance determinado con label y porcentaje opcionales por composici�
 | Categoría | Feedback |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 2206:16412](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=2206-16412) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-progress--docs) |
 | Registry | [progress.json](https://ds-grm-documentation.vercel.app/r/progress.json) |
@@ -5373,11 +5290,7 @@ Indicador de avance determinado con label y porcentaje opcionales por composici�
 
 ### Cambios declarados en la versión del componente
 
-- Conserva el wrapper oficial `Progress` de shadcn/ui sobre Radix y reenvía `value` al `Root` para mantener `aria-valuenow`.
-- Mantiene `value`, semántica `progressbar`, estados ARIA y personalización mediante `className`.
-- El label y el porcentaje son composición externa y proporcionan el nombre accesible mediante `aria-labelledby`.
-- Incluye valores de 0 a 100 y responde a los tokens y tipografía de la marca activa.
-- Playground y Docs consumen `progressExamplePresets` y la misma instancia `ProgressExample`.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -5527,7 +5440,7 @@ Selección excluyente entre opciones relacionadas.
 | Categoría | Form |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 1:41](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1-41) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-radio-group--docs) |
 | Registry | [radio-group.json](https://ds-grm-documentation.vercel.app/r/radio-group.json) |
@@ -5538,9 +5451,7 @@ Selección excluyente entre opciones relacionadas.
 
 ### Cambios declarados en la versión del componente
 
-- Conserva Root, Item, Indicator, selección exclusiva, teclado, orientación, disabled y ARIA del primitive oficial.
-- Description, Choice Cards y Fieldset se resuelven mediante composición con Field.
-- Adapta geometría, estados y tokens del nodo de Figma sin duplicar Radio Group.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -5624,7 +5535,7 @@ Distribución de paneles redimensionables horizontal o verticalmente.
 | Categoría | Layout |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | React/HTML semántico |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 2882:453](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=2882-453) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-resizable--docs) |
 | Registry | [resizable.json](https://ds-grm-documentation.vercel.app/r/resizable.json) |
@@ -5635,11 +5546,7 @@ Distribución de paneles redimensionables horizontal o verticalmente.
 
 ### Cambios declarados en la versión del componente
 
-- Conserva la API oficial `ResizablePanelGroup`, `ResizablePanel` y `ResizableHandle` sobre `react-resizable-panels` v4.
-- Usa `orientation`, `Group`, `Panel`, `Separator` y valores porcentuales de `defaultSize`.
-- Incluye orientación horizontal/vertical, distribuciones 25/75, 50/50 y 75/25, grip visible y paneles anidados.
-- Mantiene arrastre, touch, teclado, foco y ARIA del primitive oficial.
-- Playground y Docs consumen la misma matriz `resizableExamplePresets` y la instancia `ResizableExample`.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -5796,7 +5703,7 @@ Región con scroll estilizado vertical u horizontal sin sustituir el comportamie
 | Categoría | Layout |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 1800:1860](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1800-1860) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-scroll-area--docs) |
 | Registry | [scroll-area.json](https://ds-grm-documentation.vercel.app/r/scroll-area.json) |
@@ -5807,11 +5714,7 @@ Región con scroll estilizado vertical u horizontal sin sustituir el comportamie
 
 ### Cambios declarados en la versión del componente
 
-- Conserva sin modificaciones `ScrollArea` y `ScrollBar` del registro oficial de shadcn/ui sobre Radix.
-- Mantiene Viewport, Scrollbar, Thumb, Corner, foco, mouse, touch y teclado del primitive.
-- Incluye las composiciones oficiales vertical y horizontal con contenido de referencia de Figma.
-- Las dimensiones y el contenido viven en el ejemplo; no amplían ni fijan el primitive.
-- Playground y Docs consumen `scrollAreaExamplePresets` y la misma instancia `ScrollAreaExample`.
+- Permite enfocar la región desplazable por teclado.
 
 ### Contrato técnico y composición
 
@@ -5954,7 +5857,7 @@ Selector compuesto accesible con grupos, scrolling e iconos opcionales.
 | Categoría | Form |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 614:4917](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=614-4917) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-select--docs) |
 | Registry | [select.json](https://ds-grm-documentation.vercel.app/r/select.json) |
@@ -5965,12 +5868,8 @@ Selector compuesto accesible con grupos, scrolling e iconos opcionales.
 
 ### Cambios declarados en la versión del componente
 
-- Conserva la composición y API pública oficial de Select basada en Radix UI.
-- Incluye Simple, Groups y Scrollable mediante subcomponentes públicos.
-- Admite iconos mediante composición como hijos de `SelectItem`; no añade props a la primitiva.
-- Mantiene tamaños, posicionamiento, foco, teclado, selección, disabled e invalid de shadcn/ui.
-- No añade variantes visuales ni propiedades privadas desde Figma.
-- Playground y Docs consumen la misma matriz canónica `selectExamplePresets`; Docs no redefine configuraciones del componente.
+- SelectTrigger default: 32 → 36 px. Radio: rounded-lg → rounded-md.
+- La composición recibe un nombre accesible.
 
 ### Contrato técnico y composición
 
@@ -6125,7 +6024,7 @@ Divisor semántico o decorativo horizontal o vertical.
 | Categoría | Layout |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 589:983](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=589-983) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-separator--docs) |
 | Registry | [separator.json](https://ds-grm-documentation.vercel.app/r/separator.json) |
@@ -6136,11 +6035,7 @@ Divisor semántico o decorativo horizontal o vertical.
 
 ### Cambios declarados en la versión del componente
 
-- Conserva el primitive Radix y la API pública oficial de Separator.
-- Implementa las orientaciones horizontal y vertical.
-- Mantiene el modo decorativo predeterminado y el modo semántico.
-- La longitud pertenece al contenedor; no se añade una propiedad privada al primitive.
-- Playground y Docs renderizan exclusivamente `SeparatorExample`.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -6274,7 +6169,7 @@ Panel superpuesto desde un borde con anchuras y disposiciones de footer document
 | Categoría | Overlay |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 1295:386](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1295-386) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-sheet--docs) |
 | Registry | [sheet.json](https://ds-grm-documentation.vercel.app/r/sheet.json) |
@@ -6285,9 +6180,7 @@ Panel superpuesto desde un borde con anchuras y disposiciones de footer document
 
 ### Cambios declarados en la versión del componente
 
-- Conserva Dialog de Radix, portal, overlay, foco, teclado, dismiss y composición oficial de shadcn/ui.
-- Adapta las cuatro posiciones, anchos laterales de 384/480 px y altura vertical de hasta 512 px.
-- Integra cierre opcional, footer en fila/columna y contenido desplazable según Figma.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -6368,7 +6261,7 @@ Navegación lateral responsive con estados expanded/collapsed, subnavegación y 
 | Categoría | Navigation |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.4.0` — Actualización del estado colapsado desde Figma |
+| Versión documentada | `v1.4.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 3114:1373](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=3114-1373) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-sidebar--docs) |
 | Registry | [sidebar.json](https://ds-grm-documentation.vercel.app/r/sidebar.json) |
@@ -6379,18 +6272,7 @@ Navegación lateral responsive con estados expanded/collapsed, subnavegación y 
 
 ### Cambios declarados en la versión del componente
 
-- Trigger circular de 32 px superpuesto al borde derecho, con chevron izquierdo en `expanded` y derecho en `collapsed`.
-- Logos vigentes de Figma: muestra completa de 191 × 26 px y símbolo colapsado de 15 × 26 px.
-- Sidebar colapsado actualizado a 64 px, con canal de navegación de 48 px.
-- Separadores de sección de 24 px preservados en estado colapsado.
-- Tooltips individuales disponibles para cada subopción icon-only.
-- Subnavegación expandida de 240 px con ítems de 40 px, iconos de 14 px y sangría de 36 px.
-- Subnavegación colapsada de 48 × 90 px con borde, ítems icon-only de 40 × 32 px y tooltips individuales.
-- Contenedor colapsable abierto de 134 px: trigger de 40 px, panel de 90 px y padding inferior de 4 px.
-- Estado abierto colapsado con `--sidebar-accent` y chevron a la derecha, centrado verticalmente.
-- Estados expandido y colapsado sincronizados con el nodo `3114:1373`.
-- Regiones de header, navegación primaria, contenido desplazable, grupos, menú y submenú.
-- API, responsive Sheet, shortcut, tooltips y composición oficial de shadcn/ui preservados; `SidebarRail` continúa disponible en la API pública.
+- Corrige alias de foco de Piel Sana y conserva nombres accesibles al colapsar.
 
 ### Contrato técnico y composición
 
@@ -6477,7 +6359,7 @@ Selección numérica simple, de rango o múltiple, horizontal o vertical.
 | Categoría | Form |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 2772:1030](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=2772-1030) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-slider--docs) |
 | Registry | [slider.json](https://ds-grm-documentation.vercel.app/r/slider.json) |
@@ -6488,12 +6370,7 @@ Selección numérica simple, de rango o múltiple, horizontal o vertical.
 
 ### Cambios declarados en la versión del componente
 
-- Conserva literalmente el wrapper oficial `radix-nova` de shadcn/ui sobre Radix.
-- Single, Range y Multiple se expresan mediante uno, dos o tres valores; Range integra la receta Controlled oficial.
-- Mantiene orientación, disabled, teclado, gestos, foco y atributos ARIA oficiales.
-- Incluye la receta Controlled oficial mediante `Label`, estado React y valor visible.
-- La geometría de 240 × 20 px y los presets Low, Medium y High pertenecen a `SliderExample`.
-- Playground y Docs renderizan exclusivamente la misma composición compartida.
+- Propaga los nombres accesibles a los controles deslizantes.
 
 ### Contrato técnico y composición
 
@@ -6639,7 +6516,7 @@ Indicador animado de actividad o carga indeterminada.
 | Categoría | Feedback |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | React/HTML semántico |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 2206:19380](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=2206-19380) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-spinner--docs) |
 | Registry | [spinner.json](https://ds-grm-documentation.vercel.app/r/spinner.json) |
@@ -6650,9 +6527,7 @@ Indicador animado de actividad o carga indeterminada.
 
 ### Cambios declarados en la versión del componente
 
-- Conserva el SVG accesible y la personalización mediante `className` de shadcn/ui.
-- Añade la escala pública de Figma: 12, 16, 24 y 32 px.
-- Sincroniza la rotación lineal de 800 ms y conserva el color contextual con `currentColor`.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -6732,7 +6607,7 @@ Control binario inmediato para activar o desactivar una configuración.
 | Categoría | Form |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 1:41](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1-41) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-switch--docs) |
 | Registry | [switch.json](https://ds-grm-documentation.vercel.app/r/switch.json) |
@@ -6743,9 +6618,7 @@ Control binario inmediato para activar o desactivar una configuración.
 
 ### Cambios declarados en la versión del componente
 
-- Conserva Root, Thumb, estado controlado/no controlado, teclado, disabled y ARIA del primitive oficial.
-- Description y Choice Card son composiciones oficiales con Field.
-- Mantiene la propiedad oficial `size` y aplica las escalas del nodo de Figma.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -6829,7 +6702,7 @@ Primitivas semánticas de tabla para headers, filas, celdas, captions y contenid
 | Categoría | Data display |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | React/HTML semántico |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 2064:259](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=2064-259) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-table--docs) |
 | Registry | [table.json](https://ds-grm-documentation.vercel.app/r/table.json) |
@@ -6840,13 +6713,8 @@ Primitivas semánticas de tabla para headers, filas, celdas, captions y contenid
 
 ### Cambios declarados en la versión del componente
 
-- Bordes `normal` y `rounded`.
-- Columnas iniciales `none`, `checkbox`, `switch` y `chevron`.
-- Filas alternas y contenido expandible.
-- Tabla semántica, responsive y componible basada en shadcn/ui.
-- Tipografía, fondos y bordes conectados con los tokens de marca.
-- Las celdas preservan la tipografía y geometría propias de componentes anidados.
-- CellContent incluye Text, Avatar, Status Label, Status Badge, Progress, Counter y Bulk Options.
+- TableHeader: bg-muted/40 → table/header/background.
+- Filas alternas: bg-muted/5 → table/row-alternate. Se conservan striped y stripedRows; no son variantes nuevas.
 
 ### Contrato técnico y composición
 
@@ -6971,10 +6839,10 @@ _No define valores propios; hereda los valores globales._
 | Valor 1 | Valor 2 | Valor 3 | Valor 4 | Valor 5 | Valor 6 |
 | --- | --- | --- | --- | --- | --- |
 | `Contenedor` | `100%` | `—` | `—` | `--card / --border` | `overflow-x-auto` |
-| `Header` | `100%` | `36px` | `10px` | `--muted / 40%` | `sticky top-0` |
+| `Header` | `100%` | `36px` | `10px` | `--table-header-background` | `sticky top-0` |
 | `Header text` | `—` | `16px` | `—` | `--muted-foreground` | `12px · 600 · uppercase` |
 | `Body cell` | `Flexible` | `49px mín.` | `8px 10px` | `--foreground` | `14px / 20px` |
-| `Striped rows` | `100%` | `Según fila` | `—` | `--muted / 5%` | `stripedRows: odd \| even` |
+| `Striped rows` | `100%` | `Según fila` | `—` | `--table-row-alternate` | `stripedRows: odd \| even` |
 | `Text` | `Flexible` | `20–32px` | `—` | `--foreground` | `Sans/Mono · regular/medium/link` |
 | `Numeric value` | `140px` | `20px` | `8px 10px` | `--brand-font-mono` | `14/20px · alineación derecha` |
 | `Avatar` | `Flexible` | `28–42px` | `—` | `--foreground` | `Supporting/Compact/Metadata/Custom` |
@@ -7009,7 +6877,7 @@ Cambio entre paneles relacionados mediante triggers contenidos o underline.
 | Categoría | Navigation |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 1:33](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1-33) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-tabs--docs) |
 | Registry | [tabs.json](https://ds-grm-documentation.vercel.app/r/tabs.json) |
@@ -7020,9 +6888,8 @@ Cambio entre paneles relacionados mediante triggers contenidos o underline.
 
 ### Cambios declarados en la versión del componente
 
-- Conserva Root, List, Trigger y Content sobre el primitive accesible de Radix utilizado por shadcn/ui.
-- Mapea Contained a `variant="default"` y Underline a `variant="line"`, sin crear aliases públicos.
-- Integra orientación vertical, disabled e iconos oficiales además de las composiciones de 2 a 9 tabs de Figma.
+- Texto inactivo: foreground al 60 % → muted/foreground opaco.
+- Variante line activa: primary → primary/default-foreground.
 
 ### Contrato técnico y composición
 
@@ -7109,7 +6976,7 @@ Notificación temporal basada en Toast de Base UI con estados y comportamientos 
 | Categoría | Feedback |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Base UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y Toast de Base UI |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 1:45](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1-45) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-toast--docs) |
 | Registry | [toast.json](https://ds-grm-documentation.vercel.app/r/toast.json) |
@@ -7120,9 +6987,9 @@ Notificación temporal basada en Toast de Base UI con estados y comportamientos 
 
 ### Cambios declarados en la versión del componente
 
-- Conserva manager, Provider, Portal, Viewport, Root, Content, Title, Description, Action y Close del Toast oficial de shadcn/ui.
-- Incluye tipos, promesas, stacking y swipe dismissal de Base UI.
-- Mapea los seis estados de Figma mediante `type`, composición pública y tokens semánticos por marca.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
+- Corrige Description y Close: heredan el color semántico al 100 %, eliminando la atenuación al 72 % que reducía el contraste.
+- Los seis estados muestran descripción, acción y cierre para revisar cada marca.
 
 ### Contrato técnico y composición
 
@@ -7251,7 +7118,7 @@ Control presionable independiente con icono, texto, estilos y tamaños.
 | Categoría | Action |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 3267:2627](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=3267-2627) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-toggle--docs) |
 | Registry | [toggle.json](https://ds-grm-documentation.vercel.app/r/toggle.json) |
@@ -7262,9 +7129,7 @@ Control presionable independiente con icono, texto, estilos y tamaños.
 
 ### Cambios declarados en la versión del componente
 
-- Conserva el primitive Radix, `aria-pressed`, estado controlado/no controlado y navegación por teclado.
-- Adapta variantes, tamaños, pressed, hover, focus y disabled desde Figma.
-- Mantiene icono, texto o ambos como composición de `children`.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -7355,7 +7220,7 @@ Agrupación single o multiple construida sobre Toggle.
 | Categoría | Action |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 3331:60517](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=3331-60517) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-toggle-group--docs) |
 | Registry | [toggle-group.json](https://ds-grm-documentation.vercel.app/r/toggle-group.json) |
@@ -7366,9 +7231,7 @@ Agrupación single o multiple construida sobre Toggle.
 
 ### Cambios declarados en la versión del componente
 
-- Conserva selección única y múltiple, navegación por teclado, orientación y estado disabled del primitive oficial.
-- Adapta la escala visual de Toggle y el gap predeterminado de 8 px del set de Figma.
-- Permite composiciones de 1 a 10 ítems con icono, texto o ambos, sin crear una API paralela.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 
@@ -7474,7 +7337,7 @@ Ayuda contextual breve activada por hover o foco y vinculada accesiblemente al t
 | Categoría | Overlay |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación inicial desde Figma y shadcn/ui |
+| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
 | Figma | [nodo 1:30](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1-30) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-tooltip--docs) |
 | Registry | [tooltip.json](https://ds-grm-documentation.vercel.app/r/tooltip.json) |
@@ -7485,9 +7348,7 @@ Ayuda contextual breve activada por hover o foco y vinculada accesiblemente al t
 
 ### Cambios declarados en la versión del componente
 
-- Conserva Provider, Root, Trigger, Content, Portal y Arrow de Radix/shadcn.
-- Mantiene apertura por hover y foco, demora configurable, colisiones, lados y alineación.
-- Adapta geometría, flecha, color y tipografía mediante tokens del Design System.
+- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
 
 ### Contrato técnico y composición
 

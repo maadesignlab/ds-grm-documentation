@@ -1,0 +1,222 @@
+{
+  "id": "2173:21188",
+  "name": "Empty",
+  "total": 29,
+  "sets": [
+    {
+      "id": "2173:21211",
+      "name": "_components/Empty/EmptyContent",
+      "type": "COMPONENT_SET",
+      "count": 3,
+      "props": {
+        "Primary Action#2362:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Secondary Action#2362:4": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Orientation": {
+          "type": "VARIANT",
+          "defaultValue": "Vertical",
+          "variantOptions": [
+            "Vertical",
+            "Horizontal",
+            "Horizontal Wrap"
+          ]
+        }
+      }
+    },
+    {
+      "id": "2173:21262",
+      "name": "_components/Empty/EmptyMedia",
+      "type": "COMPONENT_SET",
+      "count": 21,
+      "props": {
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Icon",
+          "variantOptions": [
+            "Icon",
+            "Avatar",
+            "Spinner"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "58",
+          "variantOptions": [
+            "58",
+            "26",
+            "30",
+            "32",
+            "34",
+            "42",
+            "48"
+          ]
+        }
+      }
+    },
+    {
+      "id": "2173:21437",
+      "name": "Empty",
+      "type": "COMPONENT_SET",
+      "count": 2,
+      "props": {
+        "Auxiliary Action#2177:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Title#2363:0": {
+          "type": "TEXT",
+          "defaultValue": "No hay pacientes registrados"
+        },
+        "Description#2363:3": {
+          "type": "TEXT",
+          "defaultValue": "Registra un paciente para comenzar a gestionar su información clínica."
+        },
+        "Container": {
+          "type": "VARIANT",
+          "defaultValue": "None",
+          "variantOptions": [
+            "None",
+            "Outlined"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "2173:21212",
+      "2173:21211",
+      "Orientation=Vertical"
+    ],
+    [
+      "2173:21215",
+      "2173:21211",
+      "Orientation=Horizontal"
+    ],
+    [
+      "2173:21218",
+      "2173:21211",
+      "Orientation=Horizontal Wrap"
+    ],
+    [
+      "2173:21261",
+      "2173:21262",
+      "Type=Icon, Size=58"
+    ],
+    [
+      "2283:45744",
+      "2173:21262",
+      "Type=Spinner, Size=58"
+    ],
+    [
+      "2176:21543",
+      "2173:21262",
+      "Type=Avatar, Size=58"
+    ],
+    [
+      "2173:21491",
+      "2173:21262",
+      "Type=Icon, Size=42"
+    ],
+    [
+      "2283:45746",
+      "2173:21262",
+      "Type=Spinner, Size=42"
+    ],
+    [
+      "2176:21627",
+      "2173:21262",
+      "Type=Icon, Size=48"
+    ],
+    [
+      "2283:45748",
+      "2173:21262",
+      "Type=Spinner, Size=48"
+    ],
+    [
+      "2176:21545",
+      "2173:21262",
+      "Type=Avatar, Size=42"
+    ],
+    [
+      "2176:21629",
+      "2173:21262",
+      "Type=Avatar, Size=48"
+    ],
+    [
+      "2173:21263",
+      "2173:21262",
+      "Type=Icon, Size=34"
+    ],
+    [
+      "2283:45750",
+      "2173:21262",
+      "Type=Spinner, Size=34"
+    ],
+    [
+      "2176:21547",
+      "2173:21262",
+      "Type=Avatar, Size=34"
+    ],
+    [
+      "2173:21287",
+      "2173:21262",
+      "Type=Icon, Size=32"
+    ],
+    [
+      "2283:45752",
+      "2173:21262",
+      "Type=Spinner, Size=32"
+    ],
+    [
+      "2176:21549",
+      "2173:21262",
+      "Type=Avatar, Size=32"
+    ],
+    [
+      "2173:21271",
+      "2173:21262",
+      "Type=Icon, Size=30"
+    ],
+    [
+      "2283:45754",
+      "2173:21262",
+      "Type=Spinner, Size=30"
+    ],
+    [
+      "2176:21551",
+      "2173:21262",
+      "Type=Avatar, Size=30"
+    ],
+    [
+      "2173:21279",
+      "2173:21262",
+      "Type=Icon, Size=26"
+    ],
+    [
+      "2283:45756",
+      "2173:21262",
+      "Type=Spinner, Size=26"
+    ],
+    [
+      "2176:21553",
+      "2173:21262",
+      "Type=Avatar, Size=26"
+    ],
+    [
+      "2173:21436",
+      "2173:21437",
+      "Container=None"
+    ],
+    [
+      "2173:21438",
+      "2173:21437",
+      "Container=Outlined"
+    ]
+  ]
+}

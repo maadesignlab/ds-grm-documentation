@@ -35,8 +35,8 @@ export const Playground: Story = {
     expect(table).toBeVisible()
     expect(getComputedStyle(head).fontSize).toBe("12px")
     expect(getComputedStyle(head).lineHeight).toBe("16px")
-    expect(getComputedStyle(head).fontFamily).toBe(
-      getComputedStyle(document.documentElement).getPropertyValue("--brand-font-sans").trim()
+    expect(getComputedStyle(head).fontFamily.replaceAll('"', "")).toBe(
+      getComputedStyle(document.documentElement).getPropertyValue("--brand-font-sans").trim().replaceAll('"', "")
     )
     const tokenProbe = document.createElement("span")
     tokenProbe.style.color = "var(--muted-foreground)"
@@ -50,8 +50,8 @@ export const Playground: Story = {
     const numericContent = numericCell.querySelector<HTMLElement>('[data-slot="table-cell-content-text"]')
     expect(numericContent).toHaveAttribute("data-font", "mono")
     expect(numericValue).not.toBeNull()
-    expect(getComputedStyle(numericValue!).fontFamily).toBe(
-      getComputedStyle(document.documentElement).getPropertyValue("--brand-font-mono").trim()
+    expect(getComputedStyle(numericValue!).fontFamily.replaceAll('"', "")).toBe(
+      getComputedStyle(document.documentElement).getPropertyValue("--brand-font-mono").trim().replaceAll('"', "")
     )
     expect(getComputedStyle(numericCell).textAlign).toBe("right")
     expect(headerRow).not.toBeNull()
@@ -61,7 +61,11 @@ export const Playground: Story = {
     if (args.striped) {
       expect(getComputedStyle(bodyRows[0]).backgroundColor).not.toBe(getComputedStyle(bodyRows[1]).backgroundColor)
       const stripedIndex = args.stripedRows === "even" ? 1 : 0
-      expect(getComputedStyle(bodyRows[stripedIndex]).backgroundColor).toContain("0.05")
+      const stripeProbe = document.createElement("span")
+      stripeProbe.style.backgroundColor = "var(--table-row-alternate)"
+      canvasElement.append(stripeProbe)
+      expect(getComputedStyle(bodyRows[stripedIndex]).backgroundColor).toBe(getComputedStyle(stripeProbe).backgroundColor)
+      stripeProbe.remove()
     }
   },
 }

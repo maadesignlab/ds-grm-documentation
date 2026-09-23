@@ -1,3 +1,5 @@
+import { ReleaseCandidate } from './ReleaseCandidate';
+
 import { Blocks, BookOpen, Check, CheckCircle2, ChevronDown, Cloud, Palette } from 'lucide-react';
 
 const releaseHighlights = [
@@ -68,16 +70,17 @@ export function ReleasesHistory() {
           <p className="m-0 text-sm leading-5 text-muted-foreground">Las versiones se muestran de la más reciente a la más antigua.</p>
         </header>
 
+        <ReleaseCandidate />
+
         <div className="relative ml-1 border-l border-border pl-6">
           <span className="absolute -left-1.5 top-7 size-3 rounded-full border-2 border-background bg-primary" aria-hidden="true" />
 
-          <details open className="group/release overflow-hidden rounded-xl border border-border bg-card">
+          <details className="group/release overflow-hidden rounded-xl border border-border bg-card">
             <summary className="flex cursor-pointer list-none items-start justify-between gap-4 px-5 py-5 md:px-6">
               <div className="grid gap-1">
                 <div className="flex flex-wrap items-center gap-2">
                   <h3 className="m-0 text-lg leading-7 font-semibold text-card-foreground">Versión 1.0.0</h3>
                   <span className="rounded-full bg-muted px-2.5 py-1 text-xs leading-4 font-medium text-muted-foreground">Estable</span>
-                  <span className="rounded-full bg-primary px-2.5 py-1 text-xs leading-4 font-medium text-primary-foreground">Actual</span>
                 </div>
                 <p className="m-0 text-sm leading-5 text-muted-foreground">Primera versión pública de la documentación del Design System GRM.</p>
               </div>

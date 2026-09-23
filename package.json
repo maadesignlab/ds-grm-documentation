@@ -1,6 +1,6 @@
 {
   "name": "@reina-madre/design-system",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -19,7 +19,9 @@
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "npm run lint && npm run typecheck && npm run test && npm run build-storybook",
-    "chromatic": "npx chromatic --project-token=chpt_56aed8600e63eda"
+    "chromatic": "npx chromatic --project-token=chpt_56aed8600e63eda",
+    "figma:sync": "node scripts/sync-figma-foundations.mjs",
+    "release:verify": "node scripts/verify-release.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",

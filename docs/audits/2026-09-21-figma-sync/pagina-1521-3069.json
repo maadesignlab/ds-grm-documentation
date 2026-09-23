@@ -1,0 +1,304 @@
+{
+  "id": "1521:3069",
+  "name": "Calendar",
+  "total": 42,
+  "sets": [
+    {
+      "id": "1551:11969",
+      "name": "Calendar/Date&Time",
+      "type": "COMPONENT",
+      "count": 2,
+      "props": {
+        "Month#2335:0": {
+          "type": "TEXT",
+          "defaultValue": "Enero 2026"
+        },
+        "Time Selector#2335:1": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        }
+      }
+    },
+    {
+      "id": "1524:6559",
+      "name": "_componentes/Calendar/Gridcell",
+      "type": "COMPONENT_SET",
+      "count": 24,
+      "props": {
+        "Day#1524:0": {
+          "type": "TEXT",
+          "defaultValue": "1"
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "28px",
+          "variantOptions": [
+            "38px",
+            "28px"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "range-start",
+            "range-middle",
+            "range-end",
+            "default",
+            "disabled",
+            "hover",
+            "schedule-low",
+            "schedule-medium",
+            "schedule-high",
+            "focus",
+            "selected",
+            "range-selected"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1551:11970",
+      "name": "Calendar/Range",
+      "type": "COMPONENT_SET",
+      "count": 3,
+      "props": {
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "empty",
+          "variantOptions": [
+            "empty",
+            "range-selected",
+            "start-selected"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1691:5297",
+      "name": "Calendar/Single",
+      "type": "COMPONENT_SET",
+      "count": 4,
+      "props": {
+        "Header": {
+          "type": "VARIANT",
+          "defaultValue": "month-label",
+          "variantOptions": [
+            "month-label",
+            "month-year-selectors",
+            "Header3",
+            "Header4"
+          ]
+        }
+      }
+    },
+    {
+      "id": "2337:46401",
+      "name": "_components/Calendar/Legend",
+      "type": "COMPONENT",
+      "count": 2,
+      "props": {}
+    },
+    {
+      "id": "1696:5801",
+      "name": "Calendar/Presets",
+      "type": "COMPONENT_SET",
+      "count": 5,
+      "props": {
+        "Preset": {
+          "type": "VARIANT",
+          "defaultValue": "today",
+          "variantOptions": [
+            "today",
+            "in-1-week",
+            "in-2-weeks",
+            "in-3-days",
+            "tomorrow"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "1524:6558",
+      "1524:6559",
+      "Size=28px, Status=default"
+    ],
+    [
+      "1524:6635",
+      "1524:6559",
+      "Size=38px, Status=default"
+    ],
+    [
+      "1524:6578",
+      "1524:6559",
+      "Size=28px, Status=range-start"
+    ],
+    [
+      "1524:6587",
+      "1524:6559",
+      "Size=28px, Status=range-middle"
+    ],
+    [
+      "1524:6593",
+      "1524:6559",
+      "Size=28px, Status=range-end"
+    ],
+    [
+      "1696:4563",
+      "1524:6559",
+      "Size=38px, Status=range-start"
+    ],
+    [
+      "1696:4566",
+      "1524:6559",
+      "Size=38px, Status=range-middle"
+    ],
+    [
+      "1696:4569",
+      "1524:6559",
+      "Size=38px, Status=range-end"
+    ],
+    [
+      "1524:6581",
+      "1524:6559",
+      "Size=28px, Status=disabled"
+    ],
+    [
+      "1696:4575",
+      "1524:6559",
+      "Size=38px, Status=disabled"
+    ],
+    [
+      "1524:6560",
+      "1524:6559",
+      "Size=28px, Status=hover"
+    ],
+    [
+      "1696:17627",
+      "1524:6559",
+      "Size=28px, Status=schedule-low"
+    ],
+    [
+      "1696:17639",
+      "1524:6559",
+      "Size=28px, Status=schedule-medium"
+    ],
+    [
+      "1696:17645",
+      "1524:6559",
+      "Size=28px, Status=schedule-high"
+    ],
+    [
+      "1524:6638",
+      "1524:6559",
+      "Size=38px, Status=hover"
+    ],
+    [
+      "1696:17633",
+      "1524:6559",
+      "Size=38px, Status=schedule-low"
+    ],
+    [
+      "1696:17651",
+      "1524:6559",
+      "Size=38px, Status=schedule-medium"
+    ],
+    [
+      "1696:17657",
+      "1524:6559",
+      "Size=38px, Status=schedule-high"
+    ],
+    [
+      "1524:6564",
+      "1524:6559",
+      "Size=28px, Status=focus"
+    ],
+    [
+      "1524:6641",
+      "1524:6559",
+      "Size=38px, Status=focus"
+    ],
+    [
+      "1524:6567",
+      "1524:6559",
+      "Size=28px, Status=selected"
+    ],
+    [
+      "1696:17612",
+      "1524:6559",
+      "Size=28px, Status=range-selected"
+    ],
+    [
+      "1524:6644",
+      "1524:6559",
+      "Size=38px, Status=selected"
+    ],
+    [
+      "1696:17615",
+      "1524:6559",
+      "Size=38px, Status=range-selected"
+    ],
+    [
+      "1543:9736",
+      "1551:11970",
+      "State=empty"
+    ],
+    [
+      "1551:12519",
+      "1551:11970",
+      "State=start-selected"
+    ],
+    [
+      "1551:12798",
+      "1551:11970",
+      "State=range-selected"
+    ],
+    [
+      "1524:6862",
+      "1691:5297",
+      "Header=month-label"
+    ],
+    [
+      "1696:18043",
+      "1691:5297",
+      "Header=month-year-selectors"
+    ],
+    [
+      "2409:16908",
+      "1691:5297",
+      "Header=Header3"
+    ],
+    [
+      "2409:17898",
+      "1691:5297",
+      "Header=Header4"
+    ],
+    [
+      "1696:5742",
+      "1696:5801",
+      "Preset=today"
+    ],
+    [
+      "1696:5802",
+      "1696:5801",
+      "Preset=tomorrow"
+    ],
+    [
+      "1696:6128",
+      "1696:5801",
+      "Preset=in-3-days"
+    ],
+    [
+      "1696:6454",
+      "1696:5801",
+      "Preset=in-1-week"
+    ],
+    [
+      "1696:6780",
+      "1696:5801",
+      "Preset=in-2-weeks"
+    ]
+  ]
+}

@@ -1,0 +1,739 @@
+{
+  "id": "246:2681",
+  "name": "Avatar",
+  "total": 295,
+  "nodes": 1858,
+  "refs": {
+    "VariableID:50:300": {
+      "count": 658,
+      "example": "247:3787"
+    },
+    "VariableID:50:537": {
+      "count": 1192,
+      "example": "247:3786"
+    },
+    "VariableID:248:511": {
+      "count": 112,
+      "example": "247:3786"
+    },
+    "VariableID:249:143": {
+      "count": 112,
+      "example": "247:3786"
+    },
+    "VariableID:332:2317": {
+      "count": 506,
+      "example": "332:1098"
+    },
+    "VariableID:44:184": {
+      "count": 86,
+      "example": "247:3785"
+    },
+    "VariableID:100:18": {
+      "count": 8,
+      "example": "247:3785"
+    },
+    "VariableID:132:812": {
+      "count": 24,
+      "example": "247:3785"
+    },
+    "VariableID:50:640": {
+      "count": 120,
+      "example": "247:3785"
+    },
+    "VariableID:b55df340b5b0f426dff60692e62f4c5b6a11bf1d/9684:1197": {
+      "count": 1156,
+      "example": "332:1942"
+    },
+    "VariableID:203:217": {
+      "count": 16,
+      "example": "I332:1942;333:2267"
+    },
+    "VariableID:50:536": {
+      "count": 360,
+      "example": "321:882"
+    },
+    "VariableID:44:188": {
+      "count": 130,
+      "example": "268:805"
+    },
+    "VariableID:71:2": {
+      "count": 130,
+      "example": "268:806"
+    },
+    "VariableID:44:186": {
+      "count": 126,
+      "example": "268:821"
+    },
+    "VariableID:51:26": {
+      "count": 126,
+      "example": "268:822"
+    },
+    "VariableID:248:129": {
+      "count": 112,
+      "example": "268:837"
+    },
+    "VariableID:248:131": {
+      "count": 112,
+      "example": "268:838"
+    },
+    "VariableID:99:17": {
+      "count": 16,
+      "example": "268:594"
+    },
+    "VariableID:132:811": {
+      "count": 104,
+      "example": "268:594"
+    },
+    "VariableID:50:535": {
+      "count": 288,
+      "example": "321:890"
+    },
+    "VariableID:66:23": {
+      "count": 16,
+      "example": "321:704"
+    },
+    "VariableID:66:18": {
+      "count": 8,
+      "example": "321:736"
+    },
+    "VariableID:66:17": {
+      "count": 8,
+      "example": "321:752"
+    },
+    "VariableID:50:638": {
+      "count": 8,
+      "example": "321:752"
+    },
+    "VariableID:44:187": {
+      "count": 30,
+      "example": "I367:11058;367:6669;366:9174"
+    },
+    "VariableID:100:22": {
+      "count": 20,
+      "example": "I367:11058;367:7822;366:9174;366:6182"
+    },
+    "VariableID:100:20": {
+      "count": 16,
+      "example": "268:592"
+    },
+    "VariableID:50:534": {
+      "count": 216,
+      "example": "321:938"
+    },
+    "VariableID:100:19": {
+      "count": 8,
+      "example": "321:672"
+    },
+    "VariableID:100:21": {
+      "count": 12,
+      "example": "268:590"
+    },
+    "VariableID:321:767": {
+      "count": 8,
+      "example": "321:624"
+    },
+    "VariableID:50:533": {
+      "count": 144,
+      "example": "321:968"
+    },
+    "VariableID:321:768": {
+      "count": 8,
+      "example": "321:640"
+    },
+    "VariableID:203:218": {
+      "count": 12,
+      "example": "333:2062"
+    },
+    "VariableID:203:219": {
+      "count": 12,
+      "example": "333:2245"
+    },
+    "VariableID:332:2318": {
+      "count": 2,
+      "example": "332:993"
+    },
+    "VariableID:332:2323": {
+      "count": 2,
+      "example": "332:994"
+    },
+    "VariableID:294:496": {
+      "count": 2,
+      "example": "366:6128"
+    }
+  },
+  "texts": {
+    "S:868d3b9e94d774dbe00e80acc8a77bb286b11632,": {
+      "count": 8,
+      "example": "247:3785"
+    },
+    "S:a652e3f14d671105454c3f2ba846e458c20c9a27,": {
+      "count": 16,
+      "example": "268:594"
+    },
+    "S:23c0d86881bf571a2aa04f8d8f6bccb6347aaa8e,": {
+      "count": 16,
+      "example": "321:704"
+    },
+    "S:ee344b01427585606db29cc7c4aac2c81abb3789,": {
+      "count": 8,
+      "example": "321:736"
+    },
+    "S:b9544cd0a7bd467902c99120a5a8a74f09b69642,": {
+      "count": 8,
+      "example": "321:752"
+    },
+    "S:1656a708140615ccfd4f520ca085318fb49e7241,": {
+      "count": 20,
+      "example": "I367:11058;367:7822;366:9174;366:6182"
+    },
+    "S:f0fb58b47bebd4d218c52143f7bea309a80172a7,": {
+      "count": 16,
+      "example": "268:592"
+    },
+    "S:bc9ebc4cef6fed716c04a241ef590f1d34aab748,": {
+      "count": 8,
+      "example": "321:672"
+    },
+    "S:8a78309358cdee88bcf6a530e913f308e6649f83,": {
+      "count": 12,
+      "example": "268:590"
+    },
+    "S:a870bd9916bbe5c8d9347175baa2c3df5f60e352,": {
+      "count": 8,
+      "example": "321:624"
+    },
+    "S:3ed8ad18fdd83cf61a02240c7acb74e95cc04733,": {
+      "count": 8,
+      "example": "321:640"
+    }
+  },
+  "styles": {
+    "S:ca424677e851ff22dd8eb95ac32cabc8c9be6839,": {
+      "count": 56,
+      "example": "247:3786"
+    }
+  },
+  "sets": [
+    {
+      "id": "247:3787",
+      "name": "Avatar",
+      "count": 252,
+      "props": {
+        "Avatar Text#321:0": {
+          "type": "TEXT",
+          "defaultValue": "FJ"
+        },
+        "Border#332:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Status Badge#332:253": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Badge Icons#366:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Text",
+          "variantOptions": [
+            "icon",
+            "Text",
+            "image"
+          ]
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "primary",
+          "variantOptions": [
+            "image",
+            "primary",
+            "secondary",
+            "muted",
+            "gradient"
+          ]
+        },
+        "Roundness": {
+          "type": "VARIANT",
+          "defaultValue": "full",
+          "variantOptions": [
+            "semiSquared",
+            "full"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "120px",
+          "variantOptions": [
+            "120px",
+            "96px",
+            "80px",
+            "72px",
+            "64px",
+            "56px",
+            "48px",
+            "40px",
+            "36px",
+            "32px",
+            "28px",
+            "24px",
+            "20px",
+            "16px"
+          ]
+        }
+      },
+      "default": {
+        "id": "321:757",
+        "name": "Type=Text, Style=primary, Roundness=full, Size=120px",
+        "w": 120,
+        "h": 120,
+        "layout": "HORIZONTAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 9999,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 0.10000000149011612,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0.48235294222831726,
+              "b": 0.4274509847164154
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:248:129"
+              }
+            }
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:537"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:537"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:537"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:537"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:248:129"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "268:1092",
+      "name": "Avatar Group",
+      "count": 4,
+      "props": {
+        "Quantity": {
+          "type": "VARIANT",
+          "defaultValue": "1",
+          "variantOptions": [
+            "1",
+            "2",
+            "3",
+            "4+"
+          ]
+        }
+      },
+      "default": {
+        "id": "268:1091",
+        "name": "Quantity=1",
+        "w": 24,
+        "h": 24,
+        "layout": "HORIZONTAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "328:6525",
+      "name": "_components/Avatar/Status/Badge",
+      "count": 18,
+      "props": {
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "28px",
+          "variantOptions": [
+            "28px",
+            "20px",
+            "16px",
+            "12px",
+            "10px",
+            "6px"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "online",
+          "variantOptions": [
+            "online",
+            "away",
+            "busy"
+          ]
+        }
+      },
+      "default": {
+        "id": "333:972",
+        "name": "Size=28px, Status=online",
+        "w": 28,
+        "h": 28,
+        "layout": "HORIZONTAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 9999,
+        "fills": [],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:50:300"
+              }
+            }
+          }
+        ],
+        "effects": [],
+        "bound": {
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:b55df340b5b0f426dff60692e62f4c5b6a11bf1d/9684:1197"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:b55df340b5b0f426dff60692e62f4c5b6a11bf1d/9684:1197"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:b55df340b5b0f426dff60692e62f4c5b6a11bf1d/9684:1197"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:b55df340b5b0f426dff60692e62f4c5b6a11bf1d/9684:1197"
+          },
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:50:300"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "363:1231",
+      "name": "_components/Avatar/Icon Badge Size",
+      "count": 3,
+      "props": {
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "28px",
+          "variantOptions": [
+            "28px",
+            "20px",
+            "16px"
+          ]
+        }
+      },
+      "default": {
+        "id": "363:1236",
+        "name": "Size=28px",
+        "w": 28,
+        "h": 28,
+        "layout": "HORIZONTAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 9999,
+        "fills": [],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:50:300"
+              }
+            }
+          }
+        ],
+        "effects": [],
+        "bound": {
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:b55df340b5b0f426dff60692e62f4c5b6a11bf1d/9684:1197"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:b55df340b5b0f426dff60692e62f4c5b6a11bf1d/9684:1197"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:b55df340b5b0f426dff60692e62f4c5b6a11bf1d/9684:1197"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:b55df340b5b0f426dff60692e62f4c5b6a11bf1d/9684:1197"
+          },
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:50:300"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "332:992",
+      "name": "_components/Avatar/Border",
+      "count": 5,
+      "props": {
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "success",
+          "variantOptions": [
+            "success",
+            "warning",
+            "error",
+            "white",
+            "brand"
+          ]
+        }
+      },
+      "default": {
+        "id": "332:988",
+        "name": "Status=success",
+        "w": 120,
+        "h": 120,
+        "layout": "HORIZONTAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 9999,
+        "fills": [],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0.6352941393852234,
+              "b": 0.2549019753932953
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:332:2317"
+              }
+            }
+          }
+        ],
+        "effects": [],
+        "bound": {
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:537"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:537"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:537"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:537"
+          },
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:332:2317"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "363:1279",
+      "name": "_components/Avatar/Icon Badge Group",
+      "count": 4,
+      "props": {
+        "Quantity": {
+          "type": "VARIANT",
+          "defaultValue": "1",
+          "variantOptions": [
+            "1",
+            "2",
+            "3",
+            "4+"
+          ]
+        }
+      },
+      "default": {
+        "id": "363:1280",
+        "name": "Quantity=1",
+        "w": 28,
+        "h": 20,
+        "layout": "HORIZONTAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "366:6163",
+      "name": "_components/Avatar/Icon Badge Type",
+      "count": 2,
+      "props": {
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "icon",
+          "variantOptions": [
+            "icon",
+            "text"
+          ]
+        }
+      },
+      "default": {
+        "id": "366:6162",
+        "name": "Type=icon",
+        "w": 28,
+        "h": 28,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 9999,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9061009287834167,
+              "g": 0.8863330483436584,
+              "b": 0.9298392534255981
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:44:187"
+              }
+            }
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:537"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:537"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:537"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:537"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:44:187"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "errors": []
+}

@@ -26,8 +26,8 @@ const meta = {
     buttonMode: { table: { disable: true } },
     variant: {
       table: { category: "Estilo" },
-      control: "inline-radio",
-      options: ["default", "secondary", "brand-neutral", "outline", "ghost", "link", "success", "warning", "destructive"],
+      control: { type: "inline-radio", labels: { "brand-gradient": "brand-gradient · Nueva" } },
+      options: ["default", "secondary", "brand-neutral", "outline", "ghost", "link", "success", "warning", "destructive", "brand-gradient"],
       name: "Estilo",
     },
     children: {
@@ -98,6 +98,7 @@ export const Icono: StoryIcon = {
     variant: "default",
   },
   argTypes: {
+    variant: { control: "select", options: ["default", "secondary", "brand-neutral", "outline", "ghost", "link", "success", "warning", "destructive"] },
     size: {
       table: { category: "Tamaño" },
       control: "inline-radio",

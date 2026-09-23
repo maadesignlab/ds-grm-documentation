@@ -1,0 +1,292 @@
+{
+  "id": "1:39",
+  "name": "Combobox",
+  "total": 33,
+  "sets": [
+    {
+      "id": "1313:2735",
+      "name": "_components/Combobox/Listbox/Simple",
+      "type": "COMPONENT",
+      "count": 1,
+      "props": {}
+    },
+    {
+      "id": "1339:4304",
+      "name": "_components/Combobox/Listbox/Groups",
+      "type": "COMPONENT",
+      "count": 5,
+      "props": {}
+    },
+    {
+      "id": "1313:2747",
+      "name": "Combobox/Simple",
+      "type": "COMPONENT_SET",
+      "count": 4,
+      "props": {
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "opened",
+            "selected",
+            "opened+inputFilled"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1339:831",
+      "name": "Combobox/Clear Button",
+      "type": "COMPONENT_SET",
+      "count": 4,
+      "props": {
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "opened",
+            "selected",
+            "opened+inputFilled"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1339:3900",
+      "name": "Combobox/With Groups",
+      "type": "COMPONENT_SET",
+      "count": 4,
+      "props": {
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "opened",
+            "selected",
+            "opened+inputFilled"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1341:903",
+      "name": "Combobox/Popup",
+      "type": "COMPONENT_SET",
+      "count": 3,
+      "props": {
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "opened",
+            "selected"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1313:10998",
+      "name": "_components/Combobox/Dropdown Options/Simple",
+      "type": "COMPONENT",
+      "count": 21,
+      "props": {
+        "Dropdown List Label#1313:3": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        }
+      }
+    },
+    {
+      "id": "1313:10999",
+      "name": "_components/Combobox/Dropdown Options/With Groups",
+      "type": "COMPONENT",
+      "count": 1,
+      "props": {}
+    },
+    {
+      "id": "1313:4921",
+      "name": "_components/Combobox/Dropdown Options/Item",
+      "type": "COMPONENT_SET",
+      "count": 4,
+      "props": {
+        "Item Text#593:0": {
+          "type": "TEXT",
+          "defaultValue": "Item"
+        },
+        "Check#593:3": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Left Icon#629:6": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "click",
+            "active",
+            "default",
+            "hover"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1313:4954",
+      "name": "_components/Combobox/Dropdown Options/Label",
+      "type": "COMPONENT_SET",
+      "count": 1,
+      "props": {
+        "Label Text#593:0": {
+          "type": "TEXT",
+          "defaultValue": "Section Text"
+        },
+        "Icon Left#593:3": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Propiedad 1": {
+          "type": "VARIANT",
+          "defaultValue": "item",
+          "variantOptions": [
+            "item"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1341:4047",
+      "name": "_components/Combobox/Listbox/Popup",
+      "type": "COMPONENT_SET",
+      "count": 2,
+      "props": {
+        "Propiedad 1": {
+          "type": "VARIANT",
+          "defaultValue": "Popup",
+          "variantOptions": [
+            "Popup",
+            "Variante 2"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "1313:2734",
+      "1313:2747",
+      "Status=default"
+    ],
+    [
+      "1313:2748",
+      "1313:2747",
+      "Status=opened"
+    ],
+    [
+      "1327:591",
+      "1313:2747",
+      "Status=opened+inputFilled"
+    ],
+    [
+      "1313:4438",
+      "1313:2747",
+      "Status=selected"
+    ],
+    [
+      "1339:832",
+      "1339:831",
+      "Status=default"
+    ],
+    [
+      "1339:834",
+      "1339:831",
+      "Status=opened"
+    ],
+    [
+      "1339:837",
+      "1339:831",
+      "Status=opened+inputFilled"
+    ],
+    [
+      "1339:840",
+      "1339:831",
+      "Status=selected"
+    ],
+    [
+      "1339:3901",
+      "1339:3900",
+      "Status=default"
+    ],
+    [
+      "1339:3903",
+      "1339:3900",
+      "Status=opened"
+    ],
+    [
+      "1339:3906",
+      "1339:3900",
+      "Status=opened+inputFilled"
+    ],
+    [
+      "1339:3909",
+      "1339:3900",
+      "Status=selected"
+    ],
+    [
+      "1341:904",
+      "1341:903",
+      "Status=default"
+    ],
+    [
+      "1341:4006",
+      "1341:903",
+      "Status=selected"
+    ],
+    [
+      "1341:906",
+      "1341:903",
+      "Status=opened"
+    ],
+    [
+      "1313:4922",
+      "1313:4921",
+      "Status=default"
+    ],
+    [
+      "1313:4930",
+      "1313:4921",
+      "Status=hover"
+    ],
+    [
+      "1313:4938",
+      "1313:4921",
+      "Status=click"
+    ],
+    [
+      "1313:4946",
+      "1313:4921",
+      "Status=active"
+    ],
+    [
+      "1313:4955",
+      "1313:4954",
+      "Propiedad 1=item"
+    ],
+    [
+      "1341:2162",
+      "1341:4047",
+      "Propiedad 1=Popup"
+    ],
+    [
+      "1341:4048",
+      "1341:4047",
+      "Propiedad 1=Variante 2"
+    ]
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "id": "2882:453",
+  "name": "Resizable",
+  "total": 23,
+  "nodes": 150,
+  "refs": {
+    "VariableID:51:21": {
+      "count": 104,
+      "example": "2886:2"
+    },
+    "VariableID:50:532": {
+      "count": 56,
+      "example": "2886:4"
+    },
+    "VariableID:44:184": {
+      "count": 20,
+      "example": "I2886:5;212:2009;212:1242"
+    },
+    "VariableID:51:23": {
+      "count": 8,
+      "example": "2886:12"
+    },
+    "VariableID:429:250": {
+      "count": 48,
+      "example": "2886:46416"
+    }
+  },
+  "texts": {},
+  "styles": {},
+  "sets": [
+    {
+      "id": "2885:4",
+      "name": "_components/ResizablePanel",
+      "count": 1,
+      "props": {
+        "Content#2885:0": {
+          "type": "SLOT",
+          "description": null,
+          "preferredValues": []
+        }
+      },
+      "default": {
+        "id": "2885:4",
+        "name": "_components/ResizablePanel",
+        "w": 240,
+        "h": 160,
+        "layout": "HORIZONTAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "2886:46407",
+      "name": "_components/ResizableHandle",
+      "count": 8,
+      "props": {
+        "Orientation": {
+          "type": "VARIANT",
+          "defaultValue": "Horizontal",
+          "variantOptions": [
+            "Horizontal",
+            "Vertical"
+          ]
+        },
+        "With Handle": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Focus"
+          ]
+        }
+      },
+      "default": {
+        "id": "2886:2",
+        "name": "Orientation=Horizontal, With Handle=False, State=Default",
+        "w": 1,
+        "h": 160,
+        "layout": "NONE",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8549019694328308,
+              "g": 0.8313725590705872,
+              "b": 0.843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:21"
+              }
+            }
+          }
+        ],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:21"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2886:46488",
+      "name": "Resizable",
+      "count": 12,
+      "props": {
+        "Orientation": {
+          "type": "VARIANT",
+          "defaultValue": "Horizontal",
+          "variantOptions": [
+            "Horizontal",
+            "Vertical"
+          ]
+        },
+        "Distribution": {
+          "type": "VARIANT",
+          "defaultValue": "25/75",
+          "variantOptions": [
+            "25/75",
+            "50/50",
+            "75/25"
+          ]
+        },
+        "With Handle": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      "default": {
+        "id": "2886:46416",
+        "name": "Orientation=Horizontal, Distribution=25/75, With Handle=False",
+        "w": 450,
+        "h": 200,
+        "layout": "NONE",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 10,
+        "fills": [],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8549019694328308,
+              "g": 0.8313725590705872,
+              "b": 0.843137264251709
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:51:21"
+              }
+            }
+          }
+        ],
+        "effects": [],
+        "bound": {
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:429:250"
+          },
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:51:21"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "errors": []
+}

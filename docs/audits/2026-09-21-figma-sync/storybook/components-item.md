@@ -1,0 +1,70 @@
+# Item
+
+ID: components-item
+
+## Stories
+
+### Playground
+
+Story ID: components-item--playground
+
+```
+import { ItemExample } from "@reina-madre/design-system";
+
+const Playground = () => <ItemExample />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as ItemStories from "./item.stories"
+import primitiveSource from "./item.tsx?raw"
+import exampleSource from "./item-example.tsx?raw"
+import { ItemAppearances, ItemCompositions, ItemGroups, ItemLayouts, ItemSpecifications } from "./item-docs"
+
+<Meta of={ItemStories} />
+<Title of={ItemStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva sin modificaciones el primitive Base UI y la API pública oficial de Item de shadcn/ui.
+  - Conserva las variantes, tamaños y composiciones oficiales relevantes: Icon, Avatar, Image, Group, Header, Link y Dropdown.
+  - Traduce por composición las apariencias, contenidos laterales, layouts y agrupaciones de Figma.
+  - Reutiliza Button y Avatar públicos; no agrega propiedades privadas al primitive.
+  - Playground y Docs consumen `itemExamplePresets` y la misma instancia `ItemExample`.
+</details>
+
+## Variantes de estilo
+
+<div className="mb-12"><ItemAppearances /></div>
+
+## Contenido y composición
+
+<div className="mb-12"><ItemCompositions /></div>
+
+## Escala y forma
+
+<div className="mb-12"><ItemLayouts /></div>
+
+## Item Group
+
+<div className="mb-12"><ItemGroups /></div>
+
+## Especificaciones
+
+<div className="mb-12"><ItemSpecifications /></div>
+
+## Código
+
+### Primitive oficial
+
+<Source language="tsx" code={primitiveSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

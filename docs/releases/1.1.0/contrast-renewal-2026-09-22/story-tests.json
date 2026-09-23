@@ -1,0 +1,8 @@
+{
+  "status": "inconclusive",
+  "tool": "grm_storybook_local/run-story-tests",
+  "requestedCoverage": "51 stories \u00d7 4 brand modes",
+  "completedBrandRuns": 0,
+  "error": "Timed out awaiting tools/call after 300s on first brand run. Remaining batch cancelled; no pass inferred.",
+  "previousRun": "51 default-mode stories passed during token migration; not reused as this audit result."
+}

@@ -1,0 +1,271 @@
+{
+  "id": "1763:1260",
+  "name": "Pagination",
+  "total": 20,
+  "nodes": 180,
+  "refs": {
+    "VariableID:50:514": {
+      "count": 182,
+      "example": "1938:7195"
+    },
+    "VariableID:186:174": {
+      "count": 121,
+      "example": "1938:7195"
+    },
+    "VariableID:50:534": {
+      "count": 248,
+      "example": "1938:7195"
+    },
+    "VariableID:51:21": {
+      "count": 32,
+      "example": "1938:7195"
+    },
+    "VariableID:44:184": {
+      "count": 132,
+      "example": "I1938:7195;1938:7184"
+    },
+    "VariableID:50:612": {
+      "count": 60,
+      "example": "I1938:7195;1938:7184"
+    },
+    "VariableID:132:811": {
+      "count": 62,
+      "example": "I1938:7195;1938:7184"
+    },
+    "VariableID:50:639": {
+      "count": 61,
+      "example": "I1938:7195;1938:7184"
+    },
+    "VariableID:168:368": {
+      "count": 2,
+      "example": "1938:7181"
+    },
+    "VariableID:50:526": {
+      "count": 9,
+      "example": "1938:6975"
+    },
+    "VariableID:99:17": {
+      "count": 2,
+      "example": "1938:9892"
+    },
+    "VariableID:8936e73a399ea9de5d65e8b67b6c4805ca21db80/1358:14": {
+      "count": 8,
+      "example": "1938:9894"
+    },
+    "VariableID:6c0b2eff1ec5b7639605954af4b5f50e48f0b42e/1600:0": {
+      "count": 8,
+      "example": "1938:9894"
+    },
+    "VariableID:32de368de64cf2a0c09cecf2c2f67b977ebbdf03/1088:654": {
+      "count": 2,
+      "example": "I1938:9894;629:44515"
+    },
+    "VariableID:d807cd2c55aa956d7951c7137f79e14b22a8aa1f/1088:536": {
+      "count": 2,
+      "example": "I1938:9894;629:44515"
+    },
+    "VariableID:71:2": {
+      "count": 4,
+      "example": "I1938:9894;629:44515;629:44472"
+    },
+    "VariableID:50:641": {
+      "count": 1,
+      "example": "I1938:9894;629:44515;629:44472"
+    }
+  },
+  "texts": {
+    "S:592db2195316334a05d7f58ef0fced7f0ff0cfb0,": {
+      "count": 60,
+      "example": "I1938:7195;1938:7184"
+    },
+    "S:b9200b5971cf3f84adc1475861c0b20e11d4e15e,": {
+      "count": 1,
+      "example": "1938:9892"
+    },
+    "S:1d452614e679106aeb9f64166fd66fd5df9751c7,": {
+      "count": 1,
+      "example": "I1938:9894;629:44515;629:44472"
+    }
+  },
+  "styles": {
+    "S:b8adb059f130b7f80c3daff5ccaceb3c9104f4ef,": {
+      "count": 1,
+      "example": "I1938:9894;629:44515"
+    }
+  },
+  "sets": [
+    {
+      "id": "1938:6623",
+      "name": "_components/Pagination/Navigation",
+      "count": 12,
+      "props": {
+        "Item Amount": {
+          "type": "VARIANT",
+          "defaultValue": "3",
+          "variantOptions": [
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        "Active Item": {
+          "type": "VARIANT",
+          "defaultValue": "1",
+          "variantOptions": [
+            "5",
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      },
+      "default": {
+        "id": "1938:6622",
+        "name": "Item Amount=3, Active Item=1",
+        "w": 95,
+        "h": 32,
+        "layout": "HORIZONTAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    },
+    {
+      "id": "1938:7180",
+      "name": "_components/Pagination/NavigationBase",
+      "count": 3,
+      "props": {
+        "Item text#1938:4": {
+          "type": "TEXT",
+          "defaultValue": "22"
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "onHover",
+            "active"
+          ]
+        }
+      },
+      "default": {
+        "id": "1938:7179",
+        "name": "Status=default",
+        "w": 32,
+        "h": 32,
+        "layout": "HORIZONTAL",
+        "gap": 12,
+        "padding": [
+          6,
+          12,
+          6,
+          12
+        ],
+        "radius": 6,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:514"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:514"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:186:174"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:514"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:186:174"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:50:534"
+          }
+        }
+      }
+    },
+    {
+      "id": "1938:7400",
+      "name": "Pagination",
+      "count": 2,
+      "props": {
+        "Left ellipsis#1938:8": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Right ellipsis#1938:9": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Left navigation button#1938:10": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Right navigation button#1938:11": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "icons-only"
+          ]
+        }
+      },
+      "default": {
+        "id": "1938:7021",
+        "name": "Style=default",
+        "w": 381,
+        "h": 32,
+        "layout": "HORIZONTAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "radius": 0,
+        "fills": [],
+        "strokes": [],
+        "effects": [],
+        "bound": {}
+      }
+    }
+  ],
+  "errors": []
+}

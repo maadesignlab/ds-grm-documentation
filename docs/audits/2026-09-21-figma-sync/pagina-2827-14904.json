@@ -1,0 +1,371 @@
+{
+  "id": "2827:14904",
+  "name": "Attachment",
+  "total": 54,
+  "sets": [
+    {
+      "id": "2861:46400",
+      "name": "AttachmentGroup",
+      "type": "COMPONENT_SET",
+      "count": 10,
+      "props": {
+        "Items": {
+          "type": "VARIANT",
+          "defaultValue": "1",
+          "variantOptions": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+          ]
+        }
+      }
+    },
+    {
+      "id": "2848:45653",
+      "name": "Attachment",
+      "type": "COMPONENT_SET",
+      "count": 20,
+      "props": {
+        "Title#2848:61": {
+          "type": "TEXT",
+          "defaultValue": "documento-paciente.pdf"
+        },
+        "Show action#2848:63": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Show trigger#2848:64": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "idle",
+          "variantOptions": [
+            "idle",
+            "uploading",
+            "processing",
+            "error",
+            "done"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "sm",
+            "xs"
+          ]
+        },
+        "Orientation": {
+          "type": "VARIANT",
+          "defaultValue": "horizontal",
+          "variantOptions": [
+            "horizontal",
+            "vertical"
+          ]
+        }
+      }
+    },
+    {
+      "id": "2845:45509",
+      "name": "_components/Attachment/Media",
+      "type": "COMPONENT_SET",
+      "count": 21,
+      "props": {
+        "Variant": {
+          "type": "VARIANT",
+          "defaultValue": "icon",
+          "variantOptions": [
+            "icon",
+            "image",
+            "success",
+            "spinner"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "sm",
+            "xs"
+          ]
+        },
+        "Orientation": {
+          "type": "VARIANT",
+          "defaultValue": "horizontal",
+          "variantOptions": [
+            "horizontal",
+            "vertical"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "2861:283",
+      "2861:46400",
+      "Items=1"
+    ],
+    [
+      "2861:300",
+      "2861:46400",
+      "Items=2"
+    ],
+    [
+      "2861:332",
+      "2861:46400",
+      "Items=3"
+    ],
+    [
+      "2861:45651",
+      "2861:46400",
+      "Items=4"
+    ],
+    [
+      "2861:45671",
+      "2861:46400",
+      "Items=5"
+    ],
+    [
+      "2861:45692",
+      "2861:46400",
+      "Items=6"
+    ],
+    [
+      "2861:45714",
+      "2861:46400",
+      "Items=7"
+    ],
+    [
+      "2861:45737",
+      "2861:46400",
+      "Items=8"
+    ],
+    [
+      "2861:45761",
+      "2861:46400",
+      "Items=9"
+    ],
+    [
+      "2861:45786",
+      "2861:46400",
+      "Items=10"
+    ],
+    [
+      "2846:40",
+      "2848:45653",
+      "State=idle, Size=default, Orientation=horizontal"
+    ],
+    [
+      "2846:60",
+      "2848:45653",
+      "State=idle, Size=default, Orientation=vertical"
+    ],
+    [
+      "2846:76",
+      "2848:45653",
+      "State=idle, Size=sm, Orientation=horizontal"
+    ],
+    [
+      "2846:108",
+      "2848:45653",
+      "State=idle, Size=xs, Orientation=horizontal"
+    ],
+    [
+      "2846:45415",
+      "2848:45653",
+      "State=uploading, Size=default, Orientation=horizontal"
+    ],
+    [
+      "2846:45431",
+      "2848:45653",
+      "State=uploading, Size=default, Orientation=vertical"
+    ],
+    [
+      "2846:45447",
+      "2848:45653",
+      "State=uploading, Size=sm, Orientation=horizontal"
+    ],
+    [
+      "2846:45479",
+      "2848:45653",
+      "State=uploading, Size=xs, Orientation=horizontal"
+    ],
+    [
+      "2847:136",
+      "2848:45653",
+      "State=processing, Size=default, Orientation=horizontal"
+    ],
+    [
+      "2847:154",
+      "2848:45653",
+      "State=processing, Size=default, Orientation=vertical"
+    ],
+    [
+      "2847:170",
+      "2848:45653",
+      "State=processing, Size=sm, Orientation=horizontal"
+    ],
+    [
+      "2847:202",
+      "2848:45653",
+      "State=processing, Size=xs, Orientation=horizontal"
+    ],
+    [
+      "2848:184",
+      "2848:45653",
+      "State=error, Size=default, Orientation=horizontal"
+    ],
+    [
+      "2848:202",
+      "2848:45653",
+      "State=error, Size=default, Orientation=vertical"
+    ],
+    [
+      "2848:218",
+      "2848:45653",
+      "State=error, Size=sm, Orientation=horizontal"
+    ],
+    [
+      "2848:250",
+      "2848:45653",
+      "State=error, Size=xs, Orientation=horizontal"
+    ],
+    [
+      "2848:45557",
+      "2848:45653",
+      "State=done, Size=default, Orientation=horizontal"
+    ],
+    [
+      "2848:45573",
+      "2848:45653",
+      "State=done, Size=default, Orientation=vertical"
+    ],
+    [
+      "2848:45589",
+      "2848:45653",
+      "State=done, Size=sm, Orientation=horizontal"
+    ],
+    [
+      "2848:45621",
+      "2848:45653",
+      "State=done, Size=xs, Orientation=horizontal"
+    ],
+    [
+      "2845:29",
+      "2845:45509",
+      "Variant=icon, Size=default, Orientation=horizontal"
+    ],
+    [
+      "2845:46",
+      "2845:45509",
+      "Variant=image, Size=default, Orientation=horizontal"
+    ],
+    [
+      "2845:63",
+      "2845:45509",
+      "Variant=icon, Size=sm, Orientation=horizontal"
+    ],
+    [
+      "2845:80",
+      "2845:45509",
+      "Variant=image, Size=sm, Orientation=horizontal"
+    ],
+    [
+      "2845:97",
+      "2845:45509",
+      "Variant=icon, Size=xs, Orientation=horizontal"
+    ],
+    [
+      "2845:115",
+      "2845:45509",
+      "Variant=image, Size=xs, Orientation=horizontal"
+    ],
+    [
+      "2845:45407",
+      "2845:45509",
+      "Variant=icon, Size=default, Orientation=vertical"
+    ],
+    [
+      "2845:45424",
+      "2845:45509",
+      "Variant=image, Size=default, Orientation=vertical"
+    ],
+    [
+      "2845:45441",
+      "2845:45509",
+      "Variant=icon, Size=sm, Orientation=vertical"
+    ],
+    [
+      "2845:45458",
+      "2845:45509",
+      "Variant=image, Size=sm, Orientation=vertical"
+    ],
+    [
+      "2845:45475",
+      "2845:45509",
+      "Variant=icon, Size=xs, Orientation=vertical"
+    ],
+    [
+      "2845:45492",
+      "2845:45509",
+      "Variant=image, Size=xs, Orientation=vertical"
+    ],
+    [
+      "2876:46252",
+      "2845:45509",
+      "Variant=success, Size=default, Orientation=horizontal"
+    ],
+    [
+      "2876:46262",
+      "2845:45509",
+      "Variant=success, Size=sm, Orientation=horizontal"
+    ],
+    [
+      "2876:46272",
+      "2845:45509",
+      "Variant=success, Size=xs, Orientation=horizontal"
+    ],
+    [
+      "2928:1117",
+      "2845:45509",
+      "Variant=spinner, Size=default, Orientation=horizontal"
+    ],
+    [
+      "2928:1126",
+      "2845:45509",
+      "Variant=spinner, Size=sm, Orientation=horizontal"
+    ],
+    [
+      "2928:1134",
+      "2845:45509",
+      "Variant=spinner, Size=xs, Orientation=horizontal"
+    ],
+    [
+      "2928:46364",
+      "2845:45509",
+      "Variant=spinner, Size=default, Orientation=vertical"
+    ],
+    [
+      "2928:46367",
+      "2845:45509",
+      "Variant=spinner, Size=sm, Orientation=vertical"
+    ],
+    [
+      "2928:46370",
+      "2845:45509",
+      "Variant=spinner, Size=xs, Orientation=vertical"
+    ]
+  ]
+}

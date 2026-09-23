@@ -1,0 +1,20 @@
+{
+  "scope": "Toast: six statuses across four brands",
+  "change": "Description and Close inherit existing semantic foreground at full opacity; removed hardcoded 72% alpha",
+  "paletteChanges": false,
+  "figmaChanges": false,
+  "minimumTextContrastByBrand": {
+    "grm-global": 5.427818659660361,
+    "reina-madre": 5.905935633904569,
+    "maria-linda": 6.557833457056827,
+    "piel-sana": 6.361229862073154
+  },
+  "checks": {
+    "renderedTextContrast": "passed",
+    "typecheck": "passed",
+    "lint": "passed with one pre-existing scanner warning",
+    "buildStorybook": "passed",
+    "storyTests": "inconclusive: connector did not return; wait cancelled"
+  },
+  "excluded": "Primary trigger buttons in Reina Madre and Piel Sana retain previously accepted exceptions."
+}

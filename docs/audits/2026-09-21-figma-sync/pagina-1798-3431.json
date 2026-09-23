@@ -1,0 +1,170 @@
+{
+  "id": "1798:3431",
+  "name": "Card",
+  "total": 15,
+  "sets": [
+    {
+      "id": "1800:455",
+      "name": "_components/Card/CardFooter",
+      "type": "COMPONENT_SET",
+      "count": 3,
+      "props": {
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "column",
+          "variantOptions": [
+            "column",
+            "row",
+            "wrap"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1800:1122",
+      "name": "Card",
+      "type": "COMPONENT_SET",
+      "count": 8,
+      "props": {
+        "Card Body#1800:1": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "sm",
+          "variantOptions": [
+            "sm",
+            "default"
+          ]
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "body",
+          "variantOptions": [
+            "body",
+            "image"
+          ]
+        },
+        "Spacing": {
+          "type": "VARIANT",
+          "defaultValue": "12px",
+          "variantOptions": [
+            "32px",
+            "16px",
+            "12px",
+            "20px",
+            "24px"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1800:1366",
+      "name": "_components/Card/CardHeader",
+      "type": "COMPONENT",
+      "count": 2,
+      "props": {
+        "Right Content#1800:5": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "313:2266",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "4ec56d5bceddd69a5410cdf1dcec7cb804d7ce75"
+            }
+          ]
+        },
+        "Action Button#1925:36": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        }
+      }
+    },
+    {
+      "id": "1800:1594",
+      "name": "Card/default/body/32px",
+      "type": "COMPONENT",
+      "count": 3,
+      "props": {
+        "Card Body#1800:0": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "1800:454",
+      "1800:455",
+      "Style=column"
+    ],
+    [
+      "1800:456",
+      "1800:455",
+      "Style=row"
+    ],
+    [
+      "1800:461",
+      "1800:455",
+      "Style=wrap"
+    ],
+    [
+      "1800:30",
+      "1800:1122",
+      "Size=sm, Style=body, Spacing=12px"
+    ],
+    [
+      "1800:1123",
+      "1800:1122",
+      "Size=default, Style=body, Spacing=16px"
+    ],
+    [
+      "1800:1514",
+      "1800:1122",
+      "Size=default, Style=body, Spacing=20px"
+    ],
+    [
+      "1800:1554",
+      "1800:1122",
+      "Size=default, Style=body, Spacing=24px"
+    ],
+    [
+      "1800:1345",
+      "1800:1122",
+      "Size=default, Style=image, Spacing=16px"
+    ],
+    [
+      "1800:1635",
+      "1800:1122",
+      "Size=default, Style=image, Spacing=20px"
+    ],
+    [
+      "1800:1675",
+      "1800:1122",
+      "Size=default, Style=image, Spacing=24px"
+    ],
+    [
+      "1800:1715",
+      "1800:1122",
+      "Size=default, Style=image, Spacing=32px"
+    ]
+  ]
+}

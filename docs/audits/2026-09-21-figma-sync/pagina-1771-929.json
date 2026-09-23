@@ -1,0 +1,127 @@
+{
+  "id": "1771:929",
+  "name": "Collapsible",
+  "total": 10,
+  "sets": [
+    {
+      "id": "1778:16205",
+      "name": "_components/Collapsible/FixedTrigger",
+      "type": "COMPONENT",
+      "count": 2,
+      "props": {
+        "Main Text#1994:18": {
+          "type": "TEXT",
+          "defaultValue": "Cita prenatal"
+        }
+      }
+    },
+    {
+      "id": "1778:16243",
+      "name": "Collapsible/FixedTrigger",
+      "type": "COMPONENT_SET",
+      "count": 2,
+      "props": {
+        "Expanded Content#1994:12": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "collapsed",
+          "variantOptions": [
+            "collapsed",
+            "expanded"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1778:16320",
+      "name": "_components/Collapsible/ExpandableTrigger",
+      "type": "COMPONENT_SET",
+      "count": 2,
+      "props": {
+        "Main Text#1994:19": {
+          "type": "TEXT",
+          "defaultValue": "Detalles de la consulta"
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "collapsed",
+          "variantOptions": [
+            "collapsed",
+            "expanded"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1778:16379",
+      "name": "Collapsible/ExpandableTrigger",
+      "type": "COMPONENT_SET",
+      "count": 2,
+      "props": {
+        "Expanded Content#1994:15": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": true,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "collapsed",
+          "variantOptions": [
+            "collapsed",
+            "expanded"
+          ]
+        }
+      }
+    }
+  ],
+  "variantNames": [
+    [
+      "1778:16242",
+      "1778:16243",
+      "Status=collapsed"
+    ],
+    [
+      "1778:16244",
+      "1778:16243",
+      "Status=expanded"
+    ],
+    [
+      "1778:16319",
+      "1778:16320",
+      "Status=collapsed"
+    ],
+    [
+      "1778:16321",
+      "1778:16320",
+      "Status=expanded"
+    ],
+    [
+      "1778:16378",
+      "1778:16379",
+      "Status=collapsed"
+    ],
+    [
+      "1778:16380",
+      "1778:16379",
+      "Status=expanded"
+    ]
+  ]
+}

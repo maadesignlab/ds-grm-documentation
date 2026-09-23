@@ -1,0 +1,65 @@
+# NativeSelect
+
+ID: components-native-select
+
+## Stories
+
+### Playground
+
+Story ID: components-native-select--playground
+
+```
+import { NativeSelectExample } from "@reina-madre/design-system";
+
+const Playground = () => <NativeSelectExample type="simple" state="default" size="default" filled={false} />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as NativeSelectStories from "./native-select.stories"
+import primitiveSource from "./native-select.tsx?raw"
+import exampleSource from "./native-select-example.tsx?raw"
+import { NativeSelectComposition, NativeSelectSizes, NativeSelectSpecifications, NativeSelectStates } from "./native-select-docs"
+
+<Meta of={NativeSelectStories} />
+<Title of={NativeSelectStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva el elemento HTML `select` y la API oficial de shadcn/ui.
+  - Implementa opciones simples y agrupadas mediante `NativeSelectOption` y `NativeSelectOptGroup`.
+  - Los estados invalid y disabled usan `aria-invalid` y `disabled` nativos.
+  - La geometría, superficie, tamaños y estados visuales pertenecen al componente oficial de shadcn/ui.
+</details>
+
+## Composición
+
+<div className="mb-12"><NativeSelectComposition /></div>
+
+## Estados
+
+<div className="mb-12"><NativeSelectStates /></div>
+
+## Tamaños oficiales
+
+<div className="mb-12"><NativeSelectSizes /></div>
+
+## Especificaciones
+
+<div className="mb-12"><NativeSelectSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={primitiveSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

@@ -1,0 +1,77 @@
+# ButtonGroup
+
+ID: components-button-group
+
+## Stories
+
+### Playground
+
+Story ID: components-button-group--playground
+
+```
+import { ButtonGroupExample } from "@reina-madre/design-system";
+
+const Playground = () => <ButtonGroupExample
+    key={JSON.stringify(args)}
+    composition="buttons"
+    orientation="horizontal"
+    items={4}
+    lastSlot="button"
+    content="text"
+    size="default"
+    disabled={false} />;
+```
+
+## Docs
+
+### Docs
+
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as ButtonGroupStories from "./button-group.stories"
+import buttonGroupSource from "./button-group.tsx?raw"
+import exampleSource from "./button-group-example.tsx?raw"
+import { ButtonGroupContent, ButtonGroupOfficialComposition, ButtonGroupOrientation, ButtonGroupSlots, ButtonGroupSpecifications } from "./button-group-docs"
+
+<Meta of={ButtonGroupStories} />
+<Title of={ButtonGroupStories} />
+
+## Versión
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+  <summary><strong>v1.0.0</strong> · Implementación inicial desde Figma y shadcn/ui</summary>
+
+  - Conserva `ButtonGroup`, `ButtonGroupSeparator`, `ButtonGroupText`, `role=group` y navegación Tab oficiales.
+  - Compone Button, Icon Button, Dropdown y Popover reales con bordes y radios dependientes de su posición.
+  - Adapta orientación horizontal/vertical y composiciones de 1 a 10 elementos del set de Figma.
+  - Mantiene 6 px de radio exterior y alturas consistentes entre botones de texto e icono en toda la escala.
+</details>
+
+## Último slot
+
+<div className="mb-12"><ButtonGroupSlots /></div>
+
+## Contenido
+
+<div className="mb-12"><ButtonGroupContent /></div>
+
+## Orientación
+
+<div className="mb-12"><ButtonGroupOrientation /></div>
+
+## Composición oficial
+
+<div className="mb-12"><ButtonGroupOfficialComposition /></div>
+
+## Especificaciones
+
+<div className="mb-12"><ButtonGroupSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={buttonGroupSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />
