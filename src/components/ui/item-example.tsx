@@ -1,7 +1,7 @@
 "use client"
 
 import { Fragment } from "react"
-import { Bell, ChevronRight, ExternalLink, ImageIcon, Plus } from "lucide-react"
+import { AArrowDown, CircleCheck, TriangleAlert, CircleX, Info, ChevronRight, ExternalLink, ImageIcon, Plus } from "lucide-react"
 import Image from "next/image"
 
 import { Avatar, AvatarFallback, AvatarGroup, AvatarGroupCount, AvatarImage } from "./avatar"
@@ -9,10 +9,15 @@ import { Button } from "./button"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "./dropdown-menu"
 import { Item, ItemActions, ItemContent, ItemDescription, ItemGroup, ItemHeader, ItemMedia, ItemSeparator, ItemTitle } from "./item"
 
+import { cn } from "@/lib/utils"
+import { itemAppearanceClasses, itemBaseVariant, type ItemAppearance, type ItemStatus } from "./item-appearance"
+
 export type ItemExampleProps = {
   composition?: "single" | "list" | "grid"
   pattern?: "basic" | "group" | "header" | "link" | "dropdown"
-  appearance?: "default" | "outline" | "muted"
+  appearance?: ItemAppearance
+  status?: ItemStatus
+  showTrailing?: boolean
   size?: "default" | "sm" | "xs"
   layout?: "default" | "compact" | "stacked"
   leading?: "none" | "icon" | "avatar" | "avatarGroup" | "image"
@@ -25,6 +30,8 @@ export const itemPlaygroundArgs = {
   composition: "single",
   pattern: "basic",
   appearance: "default",
+  status: "neutral",
+  showTrailing: true,
   size: "default",
   layout: "default",
   leading: "icon",
@@ -38,6 +45,7 @@ export const itemExamplePresets = {
   default: { ...itemPlaygroundArgs },
   outline: { ...itemPlaygroundArgs, appearance: "outline" },
   muted: { ...itemPlaygroundArgs, appearance: "muted" },
+  light: { ...itemPlaygroundArgs, appearance: "light" },
   sizeDefault: { ...itemPlaygroundArgs, appearance: "outline", size: "default", leading: "image", description: false, trailing: "icon" },
   sizeSm: { ...itemPlaygroundArgs, appearance: "outline", size: "sm", leading: "image", description: false, trailing: "icon" },
   sizeXs: { ...itemPlaygroundArgs, appearance: "outline", size: "xs", leading: "image", description: false, trailing: "icon" },
@@ -59,8 +67,9 @@ export const itemExamplePresets = {
   grid: { ...itemPlaygroundArgs, composition: "grid", appearance: "outline", layout: "stacked", leading: "none", trailing: "none", itemCount: 2 },
 } as const satisfies Record<string, ItemExampleProps>
 
-function Leading({ type }: { type: NonNullable<ItemExampleProps["leading"]> }) {
-  if (type === "icon") return <ItemMedia variant="icon"><Bell aria-hidden /></ItemMedia>
+function Leading({ type, status }: { type: NonNullable<ItemExampleProps["leading"]>; status: ItemStatus }) {
+  const Icon = { neutral: AArrowDown, success: CircleCheck, warning: TriangleAlert, error: CircleX, info: Info }[status]
+  if (type === "icon") return <ItemMedia variant="icon"><Icon aria-hidden /></ItemMedia>
   if (type === "avatar") return <ItemMedia><Avatar size="lg"><AvatarImage src="/avatar/profile.png" alt="Perfil de Fernanda Jiménez" /><AvatarFallback>FJ</AvatarFallback></Avatar></ItemMedia>
   if (type === "avatarGroup") return <ItemMedia><AvatarGroup><Avatar size="sm"><AvatarFallback>FJ</AvatarFallback></Avatar><Avatar size="sm"><AvatarFallback>AM</AvatarFallback></Avatar><AvatarGroupCount>+3</AvatarGroupCount></AvatarGroup></ItemMedia>
   if (type === "image") return <ItemMedia variant="image"><Image src="/scroll-area/coacalco.jpeg" alt="Clínica Reina Madre Coacalco" width={40} height={40} /></ItemMedia>
@@ -68,7 +77,7 @@ function Leading({ type }: { type: NonNullable<ItemExampleProps["leading"]> }) {
 }
 
 function Trailing({ type }: { type: NonNullable<ItemExampleProps["trailing"]> }) {
-  if (type === "button") return <ItemActions><Button variant="outline" size="sm">Acción</Button></ItemActions>
+  if (type === "button") return <ItemActions><Button size="sm">Button</Button></ItemActions>
   if (type === "icon") return <ItemActions><ChevronRight aria-hidden className="size-4 text-muted-foreground" /></ItemActions>
   if (type === "iconButton") return <ItemActions><Button variant="outline" size="icon-sm" className="rounded-full" aria-label="Agregar"><Plus aria-hidden /></Button></ItemActions>
   if (type === "time") return <ItemActions><time className="text-sm leading-5 text-muted-foreground">8:00</time></ItemActions>
@@ -77,10 +86,10 @@ function Trailing({ type }: { type: NonNullable<ItemExampleProps["trailing"]> })
 
 type SingleItemProps = Required<Omit<ItemExampleProps, "composition" | "itemCount" | "pattern">> & { index?: number }
 
-function SingleItem({ appearance, size, layout, leading, trailing, description, index = 0 }: SingleItemProps) {
+function SingleItem({ appearance, status, showTrailing, size, layout, leading, trailing, description, index = 0 }: SingleItemProps) {
   if (layout === "stacked") {
     return (
-      <Item variant={appearance} size={size} className="w-[182px]">
+      <Item variant={itemBaseVariant(appearance)} size={size} className={cn("w-[182px]", itemAppearanceClasses(appearance, status))}>
         <ItemHeader>
           <div
             role="img"
@@ -99,22 +108,22 @@ function SingleItem({ appearance, size, layout, leading, trailing, description, 
   }
 
   return (
-    <Item variant={appearance} size={size} className={layout === "compact" && description ? "py-1.5" : undefined}>
-      <Leading type={leading} />
+    <Item variant={itemBaseVariant(appearance)} size={size} className={cn(itemAppearanceClasses(appearance, status), layout === "compact" && description && "px-2.5 py-2 [&_[data-slot=item-description]]:text-xs [&_[data-slot=item-description]]:leading-4")}>
+      <Leading type={leading} status={status} />
       <ItemContent>
         <ItemTitle>Título del ítem{index ? ` ${index + 1}` : ""}</ItemTitle>
         {description ? <ItemDescription>Descripción breve que aporta contexto adicional.</ItemDescription> : null}
       </ItemContent>
-      <Trailing type={trailing} />
+      {showTrailing && <Trailing type={trailing} />}
     </Item>
   )
 }
 
-function HeaderGroup({ appearance, size }: Pick<SingleItemProps, "appearance" | "size">) {
+function HeaderGroup({ appearance, size, status, showTrailing }: Pick<SingleItemProps, "appearance" | "size" | "status" | "showTrailing">) {
   return (
     <ItemGroup className="grid w-auto grid-cols-3 gap-4">
       {Array.from({ length: 3 }, (_, index) => (
-        <SingleItem key={index} appearance={appearance} size={size} layout="stacked" leading="none" trailing="none" description index={index} />
+        <SingleItem key={index} appearance={appearance} status={status} showTrailing={showTrailing} size={size} layout="stacked" leading="none" trailing="none" description index={index} />
       ))}
     </ItemGroup>
   )
@@ -145,8 +154,8 @@ function OfficialItemGroup() {
   )
 }
 
-function LinkItem({ appearance, size }: Pick<SingleItemProps, "appearance" | "size">) {
-  return <div className="w-[511px] max-w-full"><Item render={<a href="#item-documentation" onClick={event => event.preventDefault()} />} variant={appearance} size={size}><ItemMedia variant="icon"><ExternalLink aria-hidden /></ItemMedia><ItemContent><ItemTitle>Visitar documentación</ItemTitle><ItemDescription>Conoce cómo implementar el componente.</ItemDescription></ItemContent><ItemActions><ChevronRight aria-hidden className="size-4" /></ItemActions></Item></div>
+function LinkItem({ appearance, size, status }: Pick<SingleItemProps, "appearance" | "size" | "status">) {
+  return <div className="w-[511px] max-w-full"><Item render={<a href="#item-documentation" onClick={event => event.preventDefault()} />} variant={itemBaseVariant(appearance)} className={itemAppearanceClasses(appearance, status)} size={size}><ItemMedia variant="icon"><ExternalLink aria-hidden /></ItemMedia><ItemContent><ItemTitle>Visitar documentación</ItemTitle><ItemDescription>Conoce cómo implementar el componente.</ItemDescription></ItemContent><ItemActions><ChevronRight aria-hidden className="size-4" /></ItemActions></Item></div>
 }
 
 function DropdownItem() {
@@ -180,17 +189,17 @@ function DropdownItem() {
 }
 
 export function ItemExample({
-  composition = "single", pattern = "basic", appearance = "default", size = "default", layout = "default", leading = "icon",
+  composition = "single", pattern = "basic", appearance = "default", status = "neutral", showTrailing = true, size = "default", layout = "default", leading = "icon",
   trailing = "button", description = true, itemCount = 2,
 }: ItemExampleProps) {
   const resolvedLayout = composition === "grid" ? "stacked" : composition === "list" ? "default" : layout
   const resolvedLeading = resolvedLayout === "stacked" ? "none" : leading
   const resolvedTrailing = resolvedLayout === "stacked" ? "none" : trailing
-  const item = (index: number) => <SingleItem key={index} appearance={appearance} size={size} layout={resolvedLayout} leading={resolvedLeading} trailing={resolvedTrailing} description={description} index={index} />
+  const item = (index: number) => <SingleItem key={index} appearance={appearance} status={status} showTrailing={showTrailing} size={size} layout={resolvedLayout} leading={resolvedLeading} trailing={resolvedTrailing} description={description} index={index} />
 
-  if (composition === "single" && pattern === "header") return <HeaderGroup appearance={appearance} size={size} />
+  if (composition === "single" && pattern === "header") return <HeaderGroup appearance={appearance} status={status} showTrailing={showTrailing} size={size} />
   if (composition === "single" && pattern === "group") return <OfficialItemGroup />
-  if (composition === "single" && pattern === "link") return <LinkItem appearance={appearance} size={size} />
+  if (composition === "single" && pattern === "link") return <LinkItem appearance={appearance} status={status} size={size} />
   if (composition === "single" && pattern === "dropdown") return <DropdownItem />
   if (composition === "single") return <div className={resolvedLayout === "stacked" ? undefined : "w-[511px] max-w-full"}>{item(0)}</div>
   return <ItemGroup className={composition === "grid" ? "w-auto flex-row items-start" : "w-[511px] max-w-full"}>{Array.from({ length: itemCount }, (_, index) => item(index))}</ItemGroup>

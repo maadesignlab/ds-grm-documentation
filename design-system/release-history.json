@@ -2,6 +2,48 @@
   "schemaVersion": 1,
   "releases": [
     {
+      "version": "1.2.0",
+      "previousVersion": "1.1.1",
+      "status": "published",
+      "preparedAt": "2026-10-02",
+      "publishedAt": "2026-10-02",
+      "baselineCommit": "964aa03cfc57b5f989e45e5fbe12246b4e4dcba0",
+      "componentVersions": {
+        "combobox": {
+          "to": "1.1.0",
+          "from": "1.0.1"
+        },
+        "item": {
+          "to": "1.1.0",
+          "from": "1.0.1"
+        },
+        "popover": {
+          "to": "1.1.0",
+          "from": "1.0.1"
+        },
+        "sheet": {
+          "to": "1.1.0",
+          "from": "1.0.2"
+        },
+        "tabs": {
+          "to": "1.1.0",
+          "from": "1.0.1"
+        },
+        "stepper": {
+          "to": "1.0.0",
+          "from": null
+        }
+      },
+      "toolingVersions": {
+        "storybook-inspector": {
+          "from": null,
+          "to": "1.0.0"
+        }
+      },
+      "change": "Stepper, composiciones Sheet/Item/Tabs, portales e inspector de Storybook. Foundations sin cambios.",
+      "evidence": "docs/releases/1.2.0"
+    },
+    {
       "version": "1.1.1",
       "previousVersion": "1.1.0",
       "status": "published",

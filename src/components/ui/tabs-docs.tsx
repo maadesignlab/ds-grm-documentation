@@ -1,8 +1,9 @@
 "use client"
 
+import { DocsCard } from "./selectable-docs-shared"
 import type { ReactNode } from "react"
 
-import { TabsExample } from "./tabs-example"
+import { TabsExample, TabsOverflowExample } from "./tabs-example"
 
 function Code({ children }: { children: string }) {
   return <code className="inline-flex min-h-6 items-center rounded bg-muted px-1.5 py-1 text-foreground text-(length:--docs-code-font-size) leading-none">{children}</code>
@@ -22,7 +23,7 @@ export function TabsOfficialBehaviors() {
 
 const styles = [
   ["Contained / default", "--muted", "--background", "--foreground", "shadow-sm", "10px / 8px"],
-  ["Underline / line", "transparent", "transparent", "--primary-default-foreground", "2px indicator", "0px / 8px"],
+  ["Underline / line", "transparent", "transparent", "--primary", "2px indicator", "0px / 8px"],
 ] as const
 
 const geometry = [
@@ -36,7 +37,7 @@ const typography = [
   ["Trigger default", "--muted-foreground", "14px", "20px", "500"],
   ["Trigger hover", "--foreground", "14px", "20px", "500"],
   ["Trigger active · contained", "--foreground", "14px", "20px", "500"],
-  ["Trigger active · underline", "--primary-default-foreground", "14px", "20px", "500"],
+  ["Trigger active · underline", "--primary", "14px", "20px", "500"],
 ] as const
 
 function Table({ columns, rows }: { columns: readonly string[]; rows: readonly (readonly string[])[] }) {
@@ -45,4 +46,8 @@ function Table({ columns, rows }: { columns: readonly string[]; rows: readonly (
 
 export function TabsSpecifications() {
   return <div className="not-prose grid gap-6"><section><h3 className="mb-3 text-base leading-6 font-semibold text-foreground">Estilos</h3><Table columns={["Variante", "Fondo list", "Fondo activo", "Texto activo", "Indicador/sombra", "Radio list/trigger"]} rows={styles} /></section><section><h3 className="mb-3 text-base leading-6 font-semibold text-foreground">Tamaños y espaciado</h3><Table columns={["Elemento", "Ancho", "Alto", "Padding", "Gap", "Radio"]} rows={geometry} /></section><section><h3 className="mb-3 text-base leading-6 font-semibold text-foreground">Tipografía y color</h3><Table columns={["Estado", "Color/token", "Tamaño", "Line height", "Peso"]} rows={typography} /></section></div>
+}
+
+export function TabsOverflowVariants() {
+  return <div className="not-prose grid gap-3">{([2, 3, 4] as const).map(visibleTabs => <DocsCard key={visibleTabs} title={`${visibleTabs} pestañas visibles`} value={`visibleTabs=${visibleTabs}`}><TabsOverflowExample visibleTabs={visibleTabs} showContent={false} /></DocsCard>)}</div>
 }

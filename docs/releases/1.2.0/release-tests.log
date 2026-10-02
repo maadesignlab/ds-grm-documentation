@@ -1,0 +1,9 @@
+
+ RUN  v4.1.11 /Users/miguelarias/DEV/REINA MADRE/ds-grm-documentation
+
+
+ Test Files  1 passed (1)
+      Tests  1 passed (1)
+   Start at  15:40:25
+   Duration  3.84s (transform 0ms, setup 811ms, import 156ms, tests 1.95s, environment 0ms)
+

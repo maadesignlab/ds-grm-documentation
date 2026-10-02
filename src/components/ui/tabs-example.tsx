@@ -3,6 +3,8 @@
 import * as React from "react"
 import { ArrowDownIcon } from "lucide-react"
 
+import { TabsOverflow } from "./tabs-overflow"
+
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./tabs"
 
 type TabAmount = 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
@@ -37,4 +39,16 @@ export function TabsExample({ variant = "default", orientation = "horizontal", t
       {showContent && labels.slice(0, tabAmount).map((label, index) => <TabsContent key={label} value={`tab-${index + 1}`} className={orientation === "horizontal" ? "pt-2" : "px-4 py-1"}>Contenido de {label.toLowerCase()}.</TabsContent>)}
     </Tabs>
   )
+}
+
+const overflowLabels = ["Resumen", "Pacientes", "Agenda", "Consultas", "Estudios", "Resultados", "Pagos", "Historial"]
+export type TabsOverflowExampleProps = { visibleTabs?: 2 | 3 | 4; activeTab?: number; showContent?: boolean; disabledTab?: boolean }
+
+export function TabsOverflowExample({ visibleTabs = 2, activeTab = 1, showContent = true, disabledTab = false }: TabsOverflowExampleProps) {
+  return <div className="w-full min-w-0" style={{ width: `calc(var(--spacing) * ${visibleTabs * 28 + 20})`, maxWidth: "100%" }}>
+    <TabsOverflow visibleTabs={visibleTabs} defaultValue={String(Math.min(8, Math.max(1, activeTab)))} label="Secciones de información" items={overflowLabels.map((label, index) => ({
+      value: String(index + 1), label, disabled: disabledTab && index === 7,
+      content: showContent ? `Contenido de ${label.toLowerCase()}.` : undefined,
+    }))} />
+  </div>
 }

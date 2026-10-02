@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.1.1",
+  "version": "1.2.0",
   "status": "published",
-  "baselineCommit": "b94d2ec",
+  "baselineCommit": "964aa03cfc57b5f989e45e5fbe12246b4e4dcba0",
   "figmaFileKey": "X33xAJBT7ty8FWYDFVvo3m",
   "versionPolicy": "Components preserve independent documented SemVer histories. Variables/styles receive their first recorded object version at 1.1.0; previousVersion=null does not assert a historical change. Future object changes increment independently.",
   "components": [
@@ -550,29 +550,25 @@
     {
       "id": "combobox",
       "name": "Combobox",
-      "previousVersion": "1.0.0",
-      "version": "1.0.1",
-      "release": "1.1.0",
+      "previousVersion": "1.0.1",
+      "version": "1.1.0",
+      "release": "1.2.0",
       "figmaNode": "1:39",
       "page": "1:39",
-      "change": "Nombra el botón de apertura de opciones.",
-      "affectedSemanticRoles": [
-        "border",
-        "foreground",
-        "muted/foreground",
-        "accent/50%",
-        "input",
-        "primary/default-border",
-        "primary/15%",
-        "accent",
-        "accent/foreground"
-      ],
+      "change": "Añade container opcional a ComboboxContent para controlar el destino del portal.",
+      "affectedSemanticRoles": [],
       "newVariants": [],
       "newCompositions": [],
       "updates": [
-        "Nombra el botón de apertura de opciones."
+        "Añade container opcional a ComboboxContent para controlar el destino del portal.",
+        "Permite opciones dentro del modal Sheet sin recortes; conserva el comportamiento predeterminado."
       ],
       "history": [
+        {
+          "version": "1.1.0",
+          "source": "src/components/ui/combobox.mdx",
+          "release": "1.2.0"
+        },
         {
           "version": "1.0.1",
           "source": "src/components/ui/combobox.mdx",
@@ -952,28 +948,47 @@
     {
       "id": "item",
       "name": "Item",
-      "previousVersion": "1.0.0",
-      "version": "1.0.1",
-      "release": "1.1.0",
+      "previousVersion": "1.0.1",
+      "version": "1.1.0",
+      "release": "1.2.0",
       "figmaNode": "2190:1413",
       "page": "2190:1413",
-      "change": "Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.",
+      "change": "Light y estados se implementan por composición; API del primitivo conservada.",
       "affectedSemanticRoles": [
-        "foreground",
+        "card",
         "card/foreground",
-        "muted/foreground",
-        "primary",
-        "border",
         "muted",
-        "accent",
-        "popover"
+        "border",
+        "success-light",
+        "success-light-border",
+        "success-light-foreground",
+        "warning-light",
+        "warning-light-border",
+        "warning-light-foreground",
+        "error-light",
+        "error-light-border",
+        "error-light-foreground",
+        "info-light",
+        "info-light-border",
+        "info-light-foreground"
       ],
       "newVariants": [],
-      "newCompositions": [],
+      "newCompositions": [
+        "Light",
+        "Estados neutral, success, warning, error e info",
+        "Visibilidad de acciones"
+      ],
       "updates": [
-        "Los enlaces de ItemDescription en hover cambian de primary a primary/default-foreground."
+        "Light y estados se implementan por composición; API del primitivo conservada.",
+        "Compact: padding 8 × 10 px y descripción 12/16 px.",
+        "Muted opaco, tipografía 14/20 px e iconos de estado de Figma."
       ],
       "history": [
+        {
+          "version": "1.1.0",
+          "source": "src/components/ui/item.mdx",
+          "release": "1.2.0"
+        },
         {
           "version": "1.0.1",
           "source": "src/components/ui/item.mdx",
@@ -1195,23 +1210,25 @@
     {
       "id": "popover",
       "name": "Popover",
-      "previousVersion": "1.0.0",
-      "version": "1.0.1",
-      "release": "1.1.0",
+      "previousVersion": "1.0.1",
+      "version": "1.1.0",
+      "release": "1.2.0",
       "figmaNode": "726:6350",
       "page": "726:6350",
-      "change": "Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.",
-      "affectedSemanticRoles": [
-        "border",
-        "foreground",
-        "popover"
-      ],
+      "change": "Añade container opcional a PopoverContent para controlar el destino del portal.",
+      "affectedSemanticRoles": [],
       "newVariants": [],
       "newCompositions": [],
       "updates": [
-        "Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas."
+        "Añade container opcional a PopoverContent para controlar el destino del portal.",
+        "Permite el calendario de Sheet sin recortes; conserva el comportamiento predeterminado."
       ],
       "history": [
+        {
+          "version": "1.1.0",
+          "source": "src/components/ui/popover.mdx",
+          "release": "1.2.0"
+        },
         {
           "version": "1.0.1",
           "source": "src/components/ui/popover.mdx",
@@ -1425,21 +1442,37 @@
     {
       "id": "sheet",
       "name": "Sheet",
-      "previousVersion": "1.0.1",
-      "version": "1.0.2",
-      "release": "1.1.1",
+      "previousVersion": "1.0.2",
+      "version": "1.1.0",
+      "release": "1.2.0",
       "figmaNode": "1295:386",
       "page": "1295:386",
-      "change": "Corrige el fondo de popover a sheet-drawer según Figma.",
+      "change": "Redimensionamiento continuo entre 360 y 720 px; conserva selección y valores.",
       "affectedSemanticRoles": [
-        "sheet-drawer"
+        "sheet-drawer",
+        "muted",
+        "border",
+        "info-light",
+        "info-light-foreground"
       ],
       "newVariants": [],
-      "newCompositions": [],
+      "newCompositions": [
+        "Encabezados, bandas de estado y acciones",
+        "Cuerpos con Tabs, TabsOverflow y Stepper",
+        "Formulario, detalles y secciones free/contained"
+      ],
       "updates": [
-        "Fondo del panel: popover → sheet-drawer (#ffffff en las cuatro marcas)."
+        "Redimensionamiento continuo entre 360 y 720 px; conserva selección y valores.",
+        "Padding de 16 px y carril de scrollbar de 10 px solo con desbordamiento.",
+        "Calendario y Combobox fuera del área desplazable para evitar recortes.",
+        "Etiqueta y descripción, Item Light/info y encabezados conciliados con Figma."
       ],
       "history": [
+        {
+          "version": "1.1.0",
+          "source": "src/components/ui/sheet.mdx",
+          "release": "1.2.0"
+        },
         {
           "version": "1.0.2",
           "source": "src/components/ui/sheet.mdx",
@@ -1643,26 +1676,32 @@
     {
       "id": "tabs",
       "name": "Tabs",
-      "previousVersion": "1.0.0",
-      "version": "1.0.1",
-      "release": "1.1.0",
+      "previousVersion": "1.0.1",
+      "version": "1.1.0",
+      "release": "1.2.0",
       "figmaNode": "1:33",
       "page": "1:33",
-      "change": "Usa muted-foreground sin atenuación y primary/default-foreground para texto activo.",
+      "change": "Navegación por controles y teclado; selección conservada.",
       "affectedSemanticRoles": [
-        "foreground/60%",
         "primary",
-        "foreground",
-        "primary/default-foreground",
-        "muted"
+        "muted-foreground",
+        "background"
       ],
       "newVariants": [],
-      "newCompositions": [],
+      "newCompositions": [
+        "TabsOverflow con 2, 3 o 4 opciones visibles"
+      ],
       "updates": [
-        "Texto inactivo: foreground al 60 % → muted/foreground opaco.",
-        "Variante line activa: primary → primary/default-foreground."
+        "Navegación por controles y teclado; selección conservada.",
+        "Integración adaptable al ancho de Sheet.",
+        "Texto activo Underline: primary/default-foreground → primary; conserva excepciones de marca."
       ],
       "history": [
+        {
+          "version": "1.1.0",
+          "source": "src/components/ui/tabs.mdx",
+          "release": "1.2.0"
+        },
         {
           "version": "1.0.1",
           "source": "src/components/ui/tabs.mdx",
@@ -1817,6 +1856,46 @@
           "source": "src/components/ui/tooltip.mdx",
           "release": null
         }
+      ]
+    },
+    {
+      "id": "stepper",
+      "name": "Stepper",
+      "version": "1.0.0",
+      "figmaNode": "7088:1337",
+      "page": "7081:51355",
+      "history": [
+        {
+          "version": "1.0.0",
+          "source": "src/components/ui/stepper.mdx",
+          "release": "1.2.0"
+        }
+      ],
+      "previousVersion": null,
+      "release": "1.2.0",
+      "change": "Nuevo componente no legacy basado en francozeta/stepper; licencia MIT conservada.",
+      "newVariants": [
+        "default/sm",
+        "horizontal/vertical",
+        "icon/number"
+      ],
+      "newCompositions": [
+        "Secuencias de 2 a 6 pasos",
+        "Selección, retroceso y finalización"
+      ],
+      "updates": [
+        "Nuevo componente no legacy basado en francozeta/stepper; licencia MIT conservada.",
+        "Tamaños default/sm, orientación horizontal/vertical e indicadores numéricos o de icono.",
+        "Estados pendiente, activo, completado, deshabilitado y error."
+      ],
+      "affectedSemanticRoles": [
+        "primary",
+        "primary-foreground",
+        "background",
+        "foreground",
+        "muted-foreground",
+        "border",
+        "destructive"
       ]
     }
   ],
@@ -10653,12 +10732,28 @@
   "variablesSyncedAt": "2026-09-23T19:52:49.693Z",
   "reconciledAt": "2026-09-23T18:05:58.432Z",
   "approval": {
-    "technical": "validated-with-exceptions",
+    "technical": "passed-with-accepted-contrast-exceptions",
     "user": "approved",
     "remote": "release",
     "published": true,
-    "approvedOn": "2026-09-23"
+    "approvedOn": "2026-10-02"
   },
-  "localClosedOn": "2026-09-23",
-  "publishedAt": "2026-09-23"
+  "previousVersion": "1.1.1",
+  "preparedAt": "2026-10-02",
+  "tooling": [
+    {
+      "id": "storybook-inspector",
+      "name": "Inspector de Storybook",
+      "version": "1.0.0",
+      "previousVersion": null,
+      "release": "1.2.0",
+      "updates": [
+        "Activación global o por componente en Canvas y Docs.",
+        "Tarjeta junto al cursor con tokens, espaciado, geometría, tipografía y jerarquía data-slot.",
+        "Alt+I fija la tarjeta; Escape limpia la selección.",
+        "Referencias CSS coincidentes no equivalen a la regla ganadora; no infiere tokens por igualdad de color."
+      ]
+    }
+  ],
+  "publishedAt": "2026-10-02"
 }

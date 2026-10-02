@@ -1,0 +1,37 @@
+{
+  "version": "1.2.0",
+  "baseline": "v1.1.1",
+  "preparedAt": "2026-10-02",
+  "status": "published",
+  "published": true,
+  "scope": [
+    "sheet",
+    "item",
+    "tabs",
+    "popover",
+    "combobox",
+    "stepper"
+  ],
+  "tooling": [
+    "storybook-inspector"
+  ],
+  "foundations": "unchanged",
+  "exceptions": [
+    "Reina Madre primary/brand-gradient",
+    "Piel Sana primary/brand-gradient",
+    "Tabs Underline María Linda: 4.27:1; accepted by user for 1.2.0"
+  ],
+  "validation": {
+    "fullSuite": {
+      "passed": 97,
+      "failed": 2,
+      "total": 99
+    },
+    "lint": "passed-with-existing-warning",
+    "typecheck": "passed",
+    "tabsUnderline": "accepted-exception"
+  },
+  "pending": [],
+  "releaseReady": true,
+  "technicalReady": true
+}

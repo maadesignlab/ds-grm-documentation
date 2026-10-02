@@ -9,3 +9,17 @@ import { IntroductionOverview } from './IntroductionOverview';
 </DocumentationHeader>
 
 <IntroductionOverview />
+
+## Inspector de componentes
+
+En la barra superior, **Inspector global** activa o desactiva la inspección por hover en Canvas y Docs. **Componente** alterna entre **Heredar**, **Activo** e **Inactivo** para la sección actual; esa preferencia tiene prioridad sobre el ajuste global y se comparte entre sus stories.
+
+Al pasar el cursor sobre una muestra, se resalta el elemento y aparece una tarjeta junto al cursor, ajustada a los bordes de la ventana. Muestra:
+
+- Valores actuales: colores, fondo o gradiente, dimensiones, padding, margin, gap, bordes y tipografía.
+- Variables CSS referenciadas por reglas coincidentes, con su valor resuelto para la marca activa.
+- Jerarquía y componentes anidados identificados por `data-slot`, además de estados y variantes presentes en el DOM.
+
+**Alt + I** fija o reanuda la inspección. **Esc** limpia la selección. La tarjeta sigue el cursor sin bloquear clics. Una vez fijada, permite desplegar secciones, desplazarse y seleccionar el texto. También funciona sobre elementos en portales, como Sheet, Dialog y menús.
+
+Los valores calculados representan el resultado del navegador. La sección de reglas puede incluir declaraciones heredadas o sobrescritas: no infiere tokens por coincidencia de color ni pretende reconstruir el árbol privado de React. Las hojas externas no accesibles y los pseudo-elementos no forman parte de la lectura de referencias.

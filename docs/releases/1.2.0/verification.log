@@ -1,0 +1,5 @@
+
+> @reina-madre/design-system@1.2.0 release:verify
+> node scripts/verify-release.mjs
+
+Local 1.2.0 preparation verified: six component histories, Inspector 1.0.0, unchanged foundations, preserved published history and registry parity. Publication remains pending; this does not certify WCAG compliance.

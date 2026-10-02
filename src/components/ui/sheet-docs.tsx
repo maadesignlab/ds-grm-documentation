@@ -2,6 +2,7 @@
 
 import type { ReactNode } from "react"
 
+import { SheetBodySection, SheetContainedRow } from "./sheet-content-sections"
 import { SheetExample } from "./sheet-example"
 
 function Code({ children }: { children: string }) {
@@ -17,7 +18,7 @@ export function SheetPositions() {
 }
 
 export function SheetWidths() {
-  return <div className="not-prose grid gap-3 md:grid-cols-2"><Card title="Side · 384 px" value="sideWidth=384"><SheetExample sideWidth={384} /></Card><Card title="Side · 480 px" value="sideWidth=480"><SheetExample sideWidth={480} /></Card></div>
+  return <div className="not-prose grid gap-3 md:grid-cols-2"><Card title="Side · 360 px" value="sideWidth=360"><SheetExample sideWidth={360} /></Card><Card title="Side · 720 px" value="sideWidth=720"><SheetExample sideWidth={720} /></Card></div>
 }
 
 export function SheetCloseButtons() {
@@ -25,22 +26,30 @@ export function SheetCloseButtons() {
 }
 
 export function SheetFooterAlignments() {
-  return <div className="not-prose grid gap-3 md:grid-cols-2"><Card title="Acciones en columna" value="footerAlignment=column"><SheetExample footerAlignment="column" /></Card><Card title="Acciones en fila" value="footerAlignment=row"><SheetExample footerAlignment="row" /></Card></div>
+  return <div className="not-prose grid gap-3 md:grid-cols-3">{(["single-single", "single-group", "group-single"] as const).map(value => <Card key={value} title={value.replaceAll("-", " + ")} value={value}><SheetExample footerComposition={value} /></Card>)}</div>
+}
+
+export function SheetHeaders() {
+  return <div className="not-prose grid gap-3 md:grid-cols-2">{(["title-description", "progress", "badge", "breadcrumb"] as const).map(value => <Card key={value} title={{ "title-description": "Título + descripción", progress: "Con progreso", badge: "Con badge", breadcrumb: "Breadcrumb" }[value]} value={value}><SheetExample headerType={value} /></Card>)}</div>
+}
+
+export function SheetStatuses() {
+  return <div className="not-prose grid gap-3 md:grid-cols-2">{(["success", "warning", "error", "destructive", "info"] as const).map(value => <Card key={value} title={value} value={value}><SheetExample status={value} /></Card>)}<Card title="Sin banda" value="showStatusBand=false"><SheetExample showStatusBand={false} /></Card></div>
 }
 
 const geometry = [
-  ["Side · small", "384px", "100dvh", "16px", "16px", "16px", "—"],
-  ["Side · large", "480px", "100dvh", "16px", "16px", "16px", "—"],
+  ["Side · small", "360px", "100dvh", "16px", "16px", "16px", "—"],
+  ["Side · large", "720px", "100dvh", "16px", "16px", "16px", "—"],
   ["Top / Bottom", "100%", "512px máx.", "16px", "16px", "16px", "—"],
 ] as const
 
 const anatomy = [
   ["Title", "--popover-foreground", "16px / 24px", "500", "—"],
   ["Description", "--muted-foreground", "14px / 20px", "400", "—"],
-  ["Close", "--foreground", "28 × 28px", "—", "top/right 12px"],
+  ["Close", "--foreground", "32 × 32px", "—", "Integrado en header"],
   ["Body", "Por contenido", "14px / 20px", "400", "padding-x 16px"],
-  ["Footer · column", "--border", "106px", "—", "16px · gap 10px"],
-  ["Footer · row", "--border", "64px", "—", "16px · gap 10px"],
+  ["Status band", "--{status}-light / --{status}-light-foreground", "36px", "400", "10px 16px"],
+  ["Footer · single/group", "--border", "64px", "—", "16px · gap 10px"],
 ] as const
 
 function Table({ columns, rows }: { columns: readonly string[]; rows: readonly (readonly string[])[] }) {
@@ -49,4 +58,16 @@ function Table({ columns, rows }: { columns: readonly string[]; rows: readonly (
 
 export function SheetSpecifications() {
   return <div className="not-prose grid gap-6"><section><h3 className="mb-3 text-base leading-6 font-semibold text-foreground">Geometría</h3><Table columns={["Variante", "Ancho", "Alto", "Header padding", "Body padding", "Footer padding", "Radio"]} rows={geometry} /></section><section><h3 className="mb-3 text-base leading-6 font-semibold text-foreground">Anatomía</h3><Table columns={["Región", "Color/token", "Tamaño", "Peso", "Espaciado"]} rows={anatomy} /></section></div>
+}
+
+export function SheetBodies() {
+  return <div className="not-prose grid gap-3 md:grid-cols-2">{(["blank", "tabs-normal", "tabs-overflow", "stepper"] as const).map(value => <Card key={value} title={{ blank: "Vacío", "tabs-normal": "Tabs normales", "tabs-overflow": "Tabs con desplazamiento", stepper: "Stepper" }[value]} value={value}><SheetExample bodyType={value} /></Card>)}</div>
+}
+
+export function SheetContentExamples() {
+  return <div className="not-prose grid gap-3 md:grid-cols-2"><Card title="Formulario de edición" value="edit-form"><SheetExample contentType="edit-form" /></Card><Card title="Vista de detalle" value="details-view"><SheetExample contentType="details-view" /></Card></div>
+}
+
+export function SheetRowFonts() {
+  return <div className="not-prose grid gap-3 md:grid-cols-2">{(["sans", "mono"] as const).map(font => <Card key={font} title={font === "sans" ? "Sans / Sans" : "Sans / Mono"} value={font}><div className="w-full"><SheetBodySection title="Datos del cupón" variant="contained"><SheetContainedRow label="Código" valueFont={font}>BUENFIN2026</SheetContainedRow></SheetBodySection></div></Card>)}</div>
 }

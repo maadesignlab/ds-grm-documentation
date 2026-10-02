@@ -1,0 +1,95 @@
+
+> @reina-madre/design-system@1.2.0 test
+> vitest run
+
+
+ RUN  v4.1.11 /Users/miguelarias/DEV/REINA MADRE/ds-grm-documentation
+
+ ❯ |storybook (chromium)| src/components/ui/stepper.stories.tsx (12 tests | 2 failed) 2034ms
+   × Reina Geometry 519ms
+   × Piel Geometry 42ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |storybook (chromium)| src/components/ui/stepper.stories.tsx > Reina Geometry
+Error: 
+[34mClick to debug the error directly in Storybook: http://localhost:6006/?path=/story/components-stepper--reina-geometry&addonPanel=storybook/interactions/panel[39m
+
+[2mexpect([22m[31mreceived[39m[2m).toHaveNoViolations([22m[32mexpected[39m[2m)[22m
+
+Expected the HTML found at $('.border-transparent') to have no violations:
+
+[90m<button data-slot="stepper-next" data-variant="default" data-size="sm" class="group/button inline-...">[39m
+
+Received:
+
+[31m"Elements must meet minimum color contrast ratio thresholds (color-contrast)"[39m
+
+[33mFix any of the following:[39m
+[33m  Element has insufficient color contrast of 2.54 (foreground color: #ffffff, background color: #ed80a8, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1[39m
+
+You can find more information on this issue here: 
+[34mhttps://dequeuniversity.com/rules/axe/4.13/color-contrast?application=axeAPI[39m
+ ❯ Proxy.expectWrapper node_modules/storybook/dist/test/index.js:13691:16
+ ❯ Proxy.<anonymous> node_modules/storybook/dist/test/index.js:13211:17
+ ❯ Proxy.methodWrapper node_modules/storybook/dist/test/index.js:7705:24
+ ❯ Instrumenter.invoke node_modules/storybook/dist/instrumenter/index.js:322:22
+    320|           willRestore || restore();
+    321|         }
+    322|       }), result = fn.apply(object, finalArgs);
+       |                      ^
+    323|       return result && ["object", "function", "symbol"].includes(typeo…
+    324|         callRefsByResult: new Map([
+ ❯ Instrumenter.intercept node_modules/storybook/dist/instrumenter/index.js:243:139
+ ❯ Instrumenter.track node_modules/storybook/dist/instrumenter/index.js:238:378
+ ❯ Proxy.toHaveNoViolations node_modules/storybook/dist/instrumenter/index.js:224:263
+ ❯ afterEach node_modules/@storybook/addon-a11y/dist/_browser-chunks/chunk-P5J2FJ2Z.js:165:25
+ ❯ Object.applyAfterEach node_modules/storybook/dist/_browser-chunks/chunk-TFWN5SWW.js:779:6
+ ❯ runStory node_modules/storybook/dist/_browser-chunks/chunk-TFWN5SWW.js:1244:100
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  |storybook (chromium)| src/components/ui/stepper.stories.tsx > Piel Geometry
+Error: 
+[34mClick to debug the error directly in Storybook: http://localhost:6006/?path=/story/components-stepper--piel-geometry&addonPanel=storybook/interactions/panel[39m
+
+[2mexpect([22m[31mreceived[39m[2m).toHaveNoViolations([22m[32mexpected[39m[2m)[22m
+
+Expected the HTML found at $('.border-transparent') to have no violations:
+
+[90m<button data-slot="stepper-next" data-variant="default" data-size="sm" class="group/button inline-...">[39m
+
+Received:
+
+[31m"Elements must meet minimum color contrast ratio thresholds (color-contrast)"[39m
+
+[33mFix any of the following:[39m
+[33m  Element has insufficient color contrast of 2.22 (foreground color: #ffffff, background color: #ff9248, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1[39m
+
+You can find more information on this issue here: 
+[34mhttps://dequeuniversity.com/rules/axe/4.13/color-contrast?application=axeAPI[39m
+ ❯ Proxy.expectWrapper node_modules/storybook/dist/test/index.js:13691:16
+ ❯ Proxy.<anonymous> node_modules/storybook/dist/test/index.js:13211:17
+ ❯ Proxy.methodWrapper node_modules/storybook/dist/test/index.js:7705:24
+ ❯ Instrumenter.invoke node_modules/storybook/dist/instrumenter/index.js:322:22
+    320|           willRestore || restore();
+    321|         }
+    322|       }), result = fn.apply(object, finalArgs);
+       |                      ^
+    323|       return result && ["object", "function", "symbol"].includes(typeo…
+    324|         callRefsByResult: new Map([
+ ❯ Instrumenter.intercept node_modules/storybook/dist/instrumenter/index.js:243:139
+ ❯ Instrumenter.track node_modules/storybook/dist/instrumenter/index.js:238:378
+ ❯ Proxy.toHaveNoViolations node_modules/storybook/dist/instrumenter/index.js:224:263
+ ❯ afterEach node_modules/@storybook/addon-a11y/dist/_browser-chunks/chunk-P5J2FJ2Z.js:165:25
+ ❯ Object.applyAfterEach node_modules/storybook/dist/_browser-chunks/chunk-TFWN5SWW.js:779:6
+ ❯ runStory node_modules/storybook/dist/_browser-chunks/chunk-TFWN5SWW.js:1244:100
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+
+ Test Files  1 failed | 54 passed (55)
+      Tests  2 failed | 97 passed (99)
+   Start at  16:17:10
+   Duration  12.79s (transform 0ms, setup 32.16s, import 23.34s, tests 27.98s, environment 0ms)
+

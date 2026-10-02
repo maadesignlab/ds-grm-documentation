@@ -1,0 +1,18 @@
+[data-grm-inspector] { position: fixed; inset: 0; width: 100vw; height: 100dvh; max-width: none; max-height: none; margin: 0; padding: 0; border: 0; background: transparent; overflow: visible; pointer-events: none; z-index: 2147483647; color: var(--foreground); font: 12px/1.5 var(--font-sans, sans-serif); }
+[data-grm-inspector]::backdrop { background: transparent; pointer-events: none; }
+.grm-inspector-outline { position: fixed; outline: 2px solid var(--ring); background: color-mix(in srgb, var(--ring) 8%, transparent); pointer-events: none; }
+.grm-inspector-panel { position: fixed; left: 0; top: 0; width: min(380px, calc(100vw - 32px)); max-height: min(60dvh, 480px); overflow: auto; pointer-events: none; padding: 16px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--background); color: var(--foreground); box-shadow: 0 4px 24px color-mix(in srgb, var(--foreground) 15%, transparent); }
+.grm-inspector-panel header { display: grid; gap: 4px; }
+.grm-inspector-panel header strong { font-size: 14px; }
+.grm-inspector-panel p { margin: 8px 0; }
+.grm-inspector-panel details { border-top: 1px solid var(--border); padding-top: 8px; margin-top: 8px; }
+.grm-inspector-panel summary { font-weight: 600; cursor: pointer; }
+.grm-inspector-panel dl { margin: 8px 0; }
+.grm-inspector-panel dl > div { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); gap: 8px; padding: 4px 0; }
+.grm-inspector-panel dt, .grm-inspector-panel dd { margin: 0; overflow-wrap: anywhere; }
+.grm-inspector-panel dd, .grm-inspector-panel small { font-family: monospace; }
+.grm-inspector-panel small { display: block; margin-top: 4px; }
+
+.grm-inspector-panel[data-frozen="true"] { pointer-events: auto; }
+
+[data-grm-inspector], [data-grm-inspector] * { box-sizing: border-box; }

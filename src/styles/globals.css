@@ -82,7 +82,7 @@
   @apply font-sans;
 }
 
-.sbdocs-wrapper.sbdocs-wrapper :where(h1, h2, h3, h4, h5, h6, p, ul, ol, li, blockquote, details, summary, button, table, thead, tbody, tr, th, td, dt, dd, strong, em, small, label, div, span) {
+.sbdocs-wrapper.sbdocs-wrapper :where(h1, h2, h3, h4, h5, h6, p, ul, ol, li, blockquote, details, summary, button, table, thead, tbody, tr, th, td, dt, dd, strong, em, small, label, div, span):not(:where(.font-mono, .font-mono *)) {
   @apply font-sans;
 }
 

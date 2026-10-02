@@ -1,0 +1,66 @@
+import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
+import * as StepperStories from "./stepper.stories"
+import { StepperCounts, StepperComposition, StepperOrientations, StepperSizes, StepperSpecifications, StepperStates } from "./stepper-docs"
+import primitiveSource from "./stepper.tsx?raw"
+import exampleSource from "./stepper-example.tsx?raw"
+
+<Meta of={StepperStories} />
+<Title of={StepperStories} />
+
+## Versión
+
+<details open className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+<summary><strong>v1.0.0</strong> · Implementación inicial para DS v1.2.0 · 2 de octubre de 2026</summary>
+
+**Variantes nuevas:** `default/sm`, `horizontal/vertical`, `icon/number`.
+
+**Actualizaciones:**
+
+- Nueva composición: Secuencias de 2 a 6 pasos.
+- Nueva composición: Selección, retroceso y finalización.
+- Nuevo componente no legacy basado en francozeta/stepper; licencia MIT conservada.
+- Estados pendiente, activo, completado, deshabilitado y error.
+
+**Tokens consumidos en esta actualización:** `primary`, `primary-foreground`, `background`, `foreground`, `muted-foreground`, `border`, `destructive`.
+
+Los valores de los tokens se conservan. Consulta los valores por marca en Foundations → Tokens.
+
+**Origen:** [francozeta/stepper](https://github.com/francozeta/stepper), biblioteca externa compatible con el registro de shadcn/ui. Licencia MIT; revisión `69132963354bf056fa5629f4f2c7034dfa7da900`. [Documentación original](https://francozeta-stepper.vercel.app/docs/stepper) · [Figma](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m?node-id=7088-1337).
+
+</details>
+
+## Orientación
+
+<div className="mb-12"><StepperOrientations /></div>
+
+## Cantidad de pasos
+
+<div className="mb-12"><StepperCounts /></div>
+
+## Tamaños
+
+<div className="mb-12"><StepperSizes /></div>
+
+## Composición
+
+Cada muestra utiliza los tokens de la marca activa.
+
+<div className="mb-12"><StepperComposition /></div>
+
+## Estados
+
+<div className="mb-12"><StepperStates /></div>
+
+## Especificaciones
+
+<div className="mb-12"><StepperSpecifications /></div>
+
+## Código
+
+### Primitive
+
+<Source language="tsx" code={primitiveSource} />
+
+### Composición de referencia
+
+<Source language="tsx" code={exampleSource} />

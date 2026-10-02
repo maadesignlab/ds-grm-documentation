@@ -859,6 +859,24 @@
       ]
     },
     {
+      "name": "stepper",
+      "type": "registry:ui",
+      "title": "Stepper",
+      "description": "Stepper GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "dependencies": [
+        "@radix-ui/react-slot@^1.3.3"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/stepper.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
       "name": "switch",
       "type": "registry:ui",
       "title": "Switch",
@@ -1145,6 +1163,22 @@
       ]
     },
     {
+      "name": "item-appearance",
+      "type": "registry:lib",
+      "title": "Item Appearance",
+      "description": "Item Appearance requerido como soporte por los componentes públicos GRM.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/item-appearance.ts",
+          "type": "registry:lib",
+          "target": "src/components/ui/item-appearance.ts"
+        }
+      ]
+    },
+    {
       "name": "marker",
       "type": "registry:ui",
       "title": "Marker",
@@ -1219,6 +1253,59 @@
       ]
     },
     {
+      "name": "sheet-body",
+      "type": "registry:ui",
+      "title": "Sheet Body",
+      "description": "Sheet Body requerido como soporte por los componentes públicos GRM.",
+      "registryDependencies": [
+        "@grm/grm-base",
+        "@grm/scroll-area",
+        "@grm/tabs",
+        "@grm/tabs-overflow"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/sheet-body.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "sheet-compositions",
+      "type": "registry:ui",
+      "title": "Sheet Compositions",
+      "description": "Sheet Compositions requerido como soporte por los componentes públicos GRM.",
+      "registryDependencies": [
+        "@grm/button",
+        "@grm/grm-base",
+        "@grm/sheet"
+      ],
+      "dependencies": [
+        "lucide-react@^1.38.0"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/sheet-compositions.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "sheet-content-sections",
+      "type": "registry:ui",
+      "title": "Sheet Content Sections",
+      "description": "Sheet Content Sections requerido como soporte por los componentes públicos GRM.",
+      "registryDependencies": [
+        "@grm/grm-base"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/sheet-content-sections.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
       "name": "skeleton",
       "type": "registry:ui",
       "title": "Skeleton",
@@ -1251,6 +1338,26 @@
       "files": [
         {
           "path": "src/components/ui/table-cell-content.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "tabs-overflow",
+      "type": "registry:ui",
+      "title": "Tabs Overflow",
+      "description": "Tabs Overflow requerido como soporte por los componentes públicos GRM.",
+      "registryDependencies": [
+        "@grm/button",
+        "@grm/grm-base",
+        "@grm/tabs"
+      ],
+      "dependencies": [
+        "lucide-react@^1.38.0"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/tabs-overflow.tsx",
           "type": "registry:ui"
         }
       ]

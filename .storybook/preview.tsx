@@ -1,3 +1,4 @@
+import { bindInspector } from './inspector/activation'
 import type { Preview } from '@storybook/nextjs-vite'
 import { addons } from 'storybook/preview-api'
 import { GLOBALS_UPDATED } from 'storybook/internal/core-events'
@@ -26,6 +27,7 @@ const applyBrandTheme = (brand: BrandTheme) => {
 }
 
 const channel = addons.getChannel()
+bindInspector(channel)
 channel.on(GLOBALS_UPDATED, ({ globals }: GlobalsUpdatedPayload) => {
   if (isBrandTheme(globals?.brandTheme)) {
     applyBrandTheme(globals.brandTheme)
@@ -35,8 +37,16 @@ channel.on(GLOBALS_UPDATED, ({ globals }: GlobalsUpdatedPayload) => {
 const preview: Preview = {
   initialGlobals: {
     brandTheme: 'grm-global',
+    dsInspector: 'off',
+    dsInspectorOverrides: {},
   },
   globalTypes: {
+    dsInspector: {
+      name: 'Inspector',
+      description: 'Inspeccionar tokens, geometría y componentes al pasar el cursor',
+      toolbar: { icon: 'search', title: 'Inspector', items: [{ value: 'off', title: 'Inspector global: desactivado' }, { value: 'on', title: 'Inspector global: activado' }], dynamicTitle: true },
+    },
+    dsInspectorOverrides: { description: 'Preferencias del inspector por componente' },
     brandTheme: {
       name: 'Marca',
       description: 'Marca activa para los tokens globales',
@@ -72,7 +82,7 @@ const preview: Preview = {
       storySort: {
         method: 'alphabetical',
         locales: 'es',
-        order: ['Design System', ['Introducción', 'Releases'], 'Foundations', ['Tokens', 'Tipografía', 'Iconos'], 'Components'],
+        order: ['Design System', ['Introducción', 'Releases'], 'Foundations', ['Tokens', 'Tipografía', 'Iconos'], 'Components', 'Componentes no legacy'],
       },
     },
     controls: {

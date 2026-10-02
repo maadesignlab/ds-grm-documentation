@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.2.0 — 2026-10-02
+
+Global: 1.1.1 → 1.2.0.
+
+- **Sheet v1.1.0**: Redimensionamiento continuo entre 360 y 720 px; conserva selección y valores. Padding de 16 px y carril de scrollbar de 10 px solo con desbordamiento. Calendario y Combobox fuera del área desplazable para evitar recortes. Etiqueta y descripción, Item Light/info y encabezados conciliados con Figma.
+- **Item v1.1.0**: Light y estados se implementan por composición; API del primitivo conservada. Compact: padding 8 × 10 px y descripción 12/16 px. Muted opaco, tipografía 14/20 px e iconos de estado de Figma.
+- **Tabs v1.1.0**: Navegación por controles y teclado; selección conservada. Integración adaptable al ancho de Sheet. Texto activo Underline: primary/default-foreground → primary; conserva excepciones de marca.
+- **Popover v1.1.0**: Añade container opcional a PopoverContent para controlar el destino del portal. Permite el calendario de Sheet sin recortes; conserva el comportamiento predeterminado.
+- **Combobox v1.1.0**: Añade container opcional a ComboboxContent para controlar el destino del portal. Permite opciones dentro del modal Sheet sin recortes; conserva el comportamiento predeterminado.
+- **Stepper v1.0.0**: Nuevo componente no legacy basado en francozeta/stepper; licencia MIT conservada. Tamaños default/sm, orientación horizontal/vertical e indicadores numéricos o de icono. Estados pendiente, activo, completado, deshabilitado y error.
+- **Inspector v1.0.0**: activación global/local, tarjeta de hover, tokens y geometría, fijación y limpieza.
+- Variables, estilos y Drawer sin cambios. Excepciones de marca conservadas; no se declara conformidad WCAG completa.
+- Trayectoria: design-system/release-manifest.json y design-system/release-history.json.
+
 ## 1.1.1 — 2026-09-23
 
 - Sheet y Drawer v1.0.2: fondo `popover` → `sheet-drawer`, conciliado con las siete variantes de Figma.

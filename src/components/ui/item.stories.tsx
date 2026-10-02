@@ -9,7 +9,9 @@ const meta = {
   argTypes: {
     composition: { name: "Composición", control: "inline-radio", options: ["single", "list", "grid"], table: { category: "Composición" } },
     pattern: { name: "Patrón", control: "select", options: ["basic", "group", "header", "link", "dropdown"], if: { arg: "composition", eq: "single" }, table: { category: "Composición" } },
-    appearance: { name: "Apariencia", control: "inline-radio", options: ["default", "outline", "muted"], if: { arg: "pattern", neq: "dropdown" }, table: { category: "Item" } },
+    appearance: { name: "Apariencia", control: "inline-radio", options: ["default", "outline", "muted", "light"], if: { arg: "pattern", neq: "dropdown" }, table: { category: "Item" } },
+    status: { name: "Estado", control: "select", options: ["neutral", "success", "warning", "error", "info"], table: { category: "Item" } },
+    showTrailing: { name: "Mostrar contenido final", control: "boolean", table: { category: "Contenido" } },
     size: { name: "Tamaño oficial", control: "inline-radio", options: ["default", "sm", "xs"], if: { arg: "pattern", neq: "dropdown" }, table: { category: "Item" } },
     layout: { name: "Layout", control: "inline-radio", options: ["default", "compact", "stacked"], if: { arg: "composition", eq: "single" }, table: { category: "Item" } },
     leading: { name: "Contenido inicial", control: "select", options: ["none", "icon", "avatar", "avatarGroup", "image"], if: { arg: "layout", neq: "stacked" }, table: { category: "Contenido" } },
@@ -55,7 +57,7 @@ export const Playground: Story = {
     }
 
     if (items[0]) {
-      await expect(items[0]).toHaveAttribute("data-variant", args.appearance)
+      await expect(items[0]).toHaveAttribute("data-variant", args.appearance === "light" ? "outline" : args.appearance)
 
       if (args.leading === "image" && args.layout !== "stacked" && args.pattern === "basic") {
         const media = items[0].querySelector<HTMLElement>('[data-slot="item-media"][data-variant="image"]')
@@ -67,7 +69,7 @@ export const Playground: Story = {
 
       if (args.composition === "single" && args.pattern === "basic") {
         const style = getComputedStyle(items[0])
-        const expected = args.size === "xs"
+        const expected = args.layout === "compact" && args.description ? { gap: "10px", paddingBlock: "8px", paddingInline: "10px" } : args.size === "xs"
           ? { gap: "8px", paddingBlock: "8px", paddingInline: "10px" }
           : { gap: "10px", paddingBlock: "10px", paddingInline: "12px" }
 
@@ -79,5 +81,30 @@ export const Playground: Story = {
         await expect(Math.round(items[0].getBoundingClientRect().width)).toBe(args.layout === "stacked" ? 182 : 511)
       }
     }
+  },
+}
+
+const statusPlay: NonNullable<Story["play"]> = async context => {
+  await Playground.play!(context)
+  const item = context.canvasElement.querySelector<HTMLElement>('[data-slot="item"]')!
+  const title = item.querySelector<HTMLElement>('[data-slot="item-title"]')!
+  const description = item.querySelector<HTMLElement>('[data-slot="item-description"]')!
+  await expect(getComputedStyle(title).color).toBe(getComputedStyle(description).color)
+  await expect(getComputedStyle(item).backgroundColor).not.toBe("rgba(0, 0, 0, 0)")
+  await expect(item.querySelector('[data-slot="item-media"] svg')).toBeTruthy()
+  await expect(item.querySelector('[data-slot="item-actions"]')).toBeNull()
+}
+
+export const SuccessRegression: Story = { tags: ["!dev", "!autodocs"], args: { appearance: "light", status: "success", showTrailing: false }, play: statusPlay }
+export const WarningRegression: Story = { tags: ["!dev", "!autodocs"], globals: { brandTheme: "reina-madre" }, args: { appearance: "light", status: "warning", showTrailing: false }, play: statusPlay }
+export const ErrorRegression: Story = { tags: ["!dev", "!autodocs"], globals: { brandTheme: "maria-linda" }, args: { appearance: "light", status: "error", showTrailing: false }, play: statusPlay }
+export const InfoRegression: Story = { tags: ["!dev", "!autodocs"], globals: { brandTheme: "piel-sana" }, args: { appearance: "light", status: "info", showTrailing: false }, play: statusPlay }
+export const CompactRegression: Story = {
+  tags: ["!dev", "!autodocs"], args: { layout: "compact" },
+  play: async context => {
+    await Playground.play!(context)
+    const description = context.canvasElement.querySelector<HTMLElement>('[data-slot="item-description"]')!
+    await expect(getComputedStyle(description).fontSize).toBe("12px")
+    await expect(getComputedStyle(description).lineHeight).toBe("16px")
   },
 }

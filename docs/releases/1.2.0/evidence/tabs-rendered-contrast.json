@@ -1,0 +1,34 @@
+[
+  {
+    "brand": "GRM Global",
+    "background": "rgb(250, 248, 251)",
+    "fontSize": "14px",
+    "foreground": "rgb(0, 123, 109)",
+    "ratio": 4.904963639446448,
+    "threshold": 4.5
+  },
+  {
+    "brand": "Reina Madre",
+    "background": "rgb(248, 248, 252)",
+    "fontSize": "14px",
+    "foreground": "rgb(237, 128, 168)",
+    "ratio": 2.4017321556528044,
+    "threshold": 4.5
+  },
+  {
+    "brand": "María Linda",
+    "background": "rgb(248, 249, 249)",
+    "fontSize": "14px",
+    "foreground": "rgb(69, 129, 120)",
+    "ratio": 4.268427973208682,
+    "threshold": 4.5
+  },
+  {
+    "brand": "Piel Sana",
+    "background": "rgb(251, 250, 248)",
+    "fontSize": "14px",
+    "foreground": "rgb(255, 146, 72)",
+    "ratio": 2.128716818600102,
+    "threshold": 4.5
+  }
+]

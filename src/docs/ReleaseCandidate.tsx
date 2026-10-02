@@ -5,20 +5,20 @@ import { ChevronDown, Check, CheckCircle2 } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import manifest from '../../docs/releases/1.1.0/published-manifest.json';
 
-type ComponentChange = typeof manifest.components[number];
+type ComponentChange = Omit<typeof manifest.components[number], "previousVersion"> & { previousVersion: string | null };
 const summaryClass = 'flex cursor-pointer list-none items-center justify-between gap-4 px-5 py-4 text-sm font-medium text-card-foreground md:px-6';
 
-export function ComponentDetail({ component, release = manifest.version }: { component: ComponentChange; release?: string }) {
+export function ComponentDetail({ component, release = manifest.version, tokenValuesChanged = true }: { component: ComponentChange; release?: string; tokenValuesChanged?: boolean }) {
   return <section aria-label={`Cambios de ${component.name}`} className="mt-5 grid gap-5 rounded-lg border border-border bg-card p-5">
-    <header><h5 className="m-0 text-base font-semibold">{component.name} · v{component.previousVersion} → v{component.version}</h5><p className="mb-0 mt-2 text-sm">{component.change}</p></header>
+    <header><h5 className="m-0 text-base font-semibold">{component.name} · {component.previousVersion ? `v${component.previousVersion} → ` : "Nuevo · "}v{component.version}</h5><p className="mb-0 mt-2 text-sm">{component.change}</p></header>
     <div className="grid gap-4 sm:grid-cols-2"><div><strong className="text-sm">Variantes nuevas</strong><p className="mb-0 mt-1 text-sm">{component.newVariants.join(', ') || 'Ninguna.'}</p></div><div><strong className="text-sm">Composiciones nuevas</strong><p className="mb-0 mt-1 text-sm">{component.newCompositions.join(', ') || 'Ninguna.'}</p></div></div>
     <ul className="m-0 list-disc pl-5 text-sm">{component.updates.map(update => <li key={update}>{update}</li>)}</ul>
     <p className="m-0 text-xs text-muted-foreground">Trayectoria documentada: {[...component.history].reverse().map(item => `v${item.version}`).join(' → ')}. Versión global de esta actualización: v{release}.</p>
     <a className="text-sm underline underline-offset-4" target="_top" href={`/?path=/docs/components-${component.id}--docs`}>Ver documentación e historial de {component.name}</a>
     <div className="grid gap-3">
-      <h6 className="m-0 text-sm font-semibold">Tokens afectados</h6>
+      <h6 className="m-0 text-sm font-semibold">{tokenValuesChanged ? "Tokens afectados" : "Tokens consumidos · valores sin cambios"}</h6>
       <ul className="m-0 flex list-none flex-wrap gap-2 p-0">{component.affectedSemanticRoles.map(role => <li key={role} className="rounded border border-border bg-muted px-2 py-1"><code className="break-words text-xs">{role}</code></li>)}</ul>
-      <a className="text-sm underline underline-offset-4" target="_top" href="/?path=/docs/foundations-tokens--docs">Consultar valores anteriores y actuales por marca en Tokens</a>
+      <a className="text-sm underline underline-offset-4" target="_top" href="/?path=/docs/foundations-tokens--docs">{tokenValuesChanged ? "Consultar valores anteriores y actuales por marca en Tokens" : "Consultar tokens por marca"}</a>
     </div>
   </section>;
 }

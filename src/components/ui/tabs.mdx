@@ -1,8 +1,9 @@
 import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
 import * as TabsStories from "./tabs.stories"
 import tabsSource from "./tabs.tsx?raw"
+import overflowSource from "./tabs-overflow.tsx?raw"
 import exampleSource from "./tabs-example.tsx?raw"
-import { TabsOfficialBehaviors, TabsSpecifications, TabsStyles } from "./tabs-docs"
+import { TabsOfficialBehaviors, TabsSpecifications, TabsStyles, TabsOverflowVariants } from "./tabs-docs"
 
 <Meta of={TabsStories} />
 <Title of={TabsStories} />
@@ -10,6 +11,25 @@ import { TabsOfficialBehaviors, TabsSpecifications, TabsStyles } from "./tabs-do
 ## Versión
 
 <details open className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+<summary><strong>v1.1.0</strong> · Actualización para DS v1.2.0 · 2 de octubre de 2026</summary>
+
+**Variantes nuevas:** Ninguna.
+
+**Actualizaciones:**
+
+- Nueva composición: TabsOverflow con 2, 3 o 4 opciones visibles.
+- Navegación por controles y teclado; selección conservada.
+- Integración adaptable al ancho de Sheet.
+- Texto activo Underline: primary/default-foreground → primary; conserva excepciones de marca.
+
+**Tokens consumidos en esta actualización:** `primary`, `muted-foreground`, `background`.
+
+Los valores de los tokens se conservan. Consulta los valores por marca en Foundations → Tokens.
+
+</details>
+
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
 <summary><strong>v1.0.1</strong> · Sincronización Figma para DS v1.1.0</summary>
 
   **Variantes nuevas:** Ninguna.
@@ -35,6 +55,14 @@ import { TabsOfficialBehaviors, TabsSpecifications, TabsStyles } from "./tabs-do
 
 <div className="mb-12"><TabsStyles /></div>
 
+## Overflow
+
+<div className="mb-12"><TabsOverflowVariants /></div>
+
+Usa Tabs cuando las opciones caben en el contenedor y Tabs/Overflow cuando requieren desplazamiento horizontal. `visibleTabs` corresponde a las variantes 2/3/4 de Figma: el contenedor es flexible y las pestañas tienen igual ancho. La elección de composición y cantidad visible corresponde al contenedor que lo integra.
+
+`TabsOverflow` recibe `items` (value, label, content y disabled), `visibleTabs`, `value` o `defaultValue`, `onValueChange` y un `label` accesible. Los chevrons no cambian el panel activo. Flechas, Home y End navegan entre pestañas mediante Radix; el viewport revela la pestaña enfocada.
+
 ## Comportamientos oficiales
 
 <div className="mb-12"><TabsOfficialBehaviors /></div>
@@ -48,6 +76,10 @@ import { TabsOfficialBehaviors, TabsSpecifications, TabsStyles } from "./tabs-do
 ### Primitive
 
 <Source language="tsx" code={tabsSource} />
+
+### Composición Overflow
+
+<Source language="tsx" code={overflowSource} />
 
 ### Composición de referencia
 

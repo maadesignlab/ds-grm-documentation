@@ -13,9 +13,22 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 export const LocalReview: Story = {
-  name: 'Revisión local',
+  name: 'Historial de versiones',
   play: async ({ canvasElement }) => {
     const page = within(canvasElement);
+    const minor = within(page.getByText('Versión 1.2.0').closest('details')!);
+    await userEvent.click(minor.getByText('Componentes incluidos', { exact: true }));
+    for (const name of ['Sheet', 'Item', 'Tabs', 'Popover', 'Combobox', 'Stepper']) {
+      await userEvent.click(minor.getByRole('button', { name: `Ver cambios de ${name}` }));
+      await expect(minor.getByRole('region', { name: `Cambios de ${name}` })).toHaveTextContent('v1.2.0');
+    }
+    await userEvent.click(minor.getByText('Inspector de Storybook · Nuevo'));
+    await expect(minor.getByText(/Alt\+I fija/)).toBeVisible();
+    await expect(page.getAllByText('Última publicada')).toHaveLength(1);
+    await expect(minor.getByText('Última publicada')).toBeVisible();
+    await expect(page.queryByText(/Preparación local|publicación pendiente|La aprobación de esta versión/)).toBeNull();
+    await expect(page.getByText('Versión 1.1.1').closest('details')).not.toHaveAttribute('open');
+    await userEvent.click(page.getByText('Versión 1.1.1'));
     const patch = within(page.getByText('Versión 1.1.1').closest('details')!);
     await userEvent.click(patch.getByText('Componentes incluidos', { exact: true }));
     for (const name of ['Sheet', 'Drawer']) {

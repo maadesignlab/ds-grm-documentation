@@ -7,10 +7,18 @@ import { playwright } from '@vitest/browser-playwright';
 // More info at: https://storybook.js.org/docs/next/writing-tests/integrations/vitest-addon
 const config = {
   optimizeDeps: {
-    include: ['aria-query', 'lz-string', 'pretty-format', 'storybook/test'],
+    include: ['@radix-ui/react-slot', 'aria-query', 'lz-string', 'pretty-format', 'storybook/test'],
   },
   test: {
     projects: [
+      {
+        extends: true,
+        test: {
+          name: 'inspector',
+          include: ['.storybook/inspector/*.test.ts'],
+          browser: { enabled: true, headless: true, provider: playwright({}), instances: [{ browser: 'chromium' }] },
+        },
+      },
       {
         extends: true,
         plugins: [

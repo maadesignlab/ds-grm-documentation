@@ -1,8 +1,11 @@
 import { Meta, Title, Source } from "@storybook/addon-docs/blocks"
 import * as SheetStories from "./sheet.stories"
 import sheetSource from "./sheet.tsx?raw"
+import sectionsSource from "./sheet-content-sections.tsx?raw"
+import bodySource from "./sheet-body.tsx?raw"
+import compositionsSource from "./sheet-compositions.tsx?raw"
 import exampleSource from "./sheet-example.tsx?raw"
-import { SheetCloseButtons, SheetFooterAlignments, SheetPositions, SheetSpecifications, SheetWidths } from "./sheet-docs"
+import { SheetRowFonts, SheetContentExamples, SheetBodies, SheetHeaders, SheetStatuses, SheetCloseButtons, SheetFooterAlignments, SheetPositions, SheetSpecifications, SheetWidths } from "./sheet-docs"
 
 <Meta of={SheetStories} />
 <Title of={SheetStories} />
@@ -10,6 +13,27 @@ import { SheetCloseButtons, SheetFooterAlignments, SheetPositions, SheetSpecific
 ## Versión
 
 <details open className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+<summary><strong>v1.1.0</strong> · Actualización para DS v1.2.0 · 2 de octubre de 2026</summary>
+
+**Variantes nuevas:** Ninguna.
+
+**Actualizaciones:**
+
+- Nueva composición: Encabezados, bandas de estado y acciones.
+- Nueva composición: Cuerpos con Tabs, TabsOverflow y Stepper.
+- Nueva composición: Formulario, detalles y secciones free/contained.
+- Redimensionamiento continuo entre 360 y 720 px; conserva selección y valores.
+- Padding de 16 px y carril de scrollbar de 10 px solo con desbordamiento.
+- Calendario y Combobox fuera del área desplazable para evitar recortes.
+- Etiqueta y descripción, Item Light/info y encabezados conciliados con Figma.
+
+**Tokens consumidos en esta actualización:** `sheet-drawer`, `muted`, `border`, `info-light`, `info-light-foreground`.
+
+Los valores de los tokens se conservan. Consulta los valores por marca en Foundations → Tokens.
+
+</details>
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
 <summary><strong>v1.0.2</strong> · Fondo conciliado con Figma · DS v1.1.1</summary>
 
   - Sustituye el fondo `popover` por `sheet-drawer`, blanco en las cuatro marcas.
@@ -46,6 +70,46 @@ import { SheetCloseButtons, SheetFooterAlignments, SheetPositions, SheetSpecific
 
 <div className="mb-12"><SheetWidths /></div>
 
+El tirador ocupa una franja independiente de 16 px con fondo muted y borde interior; queda fuera del encabezado, cuerpo y acciones. Solo el indicador cambia de estado al pasar el cursor. El tirador del borde interior permite redimensionar continuamente entre 360 y 720 px: el ancho cambia durante el arrastre y se conserva al soltar, sin saltos entre tamaños. Las flechas izquierda/derecha ajustan 10 px según el lado; con Shift, 50 px. Home y End llevan al mínimo y máximo. El borde exterior permanece fijo y el ancho se limita al viewport en pantallas pequeñas.
+
+## Encabezado
+
+<div className="mb-12"><SheetHeaders /></div>
+
+## Banda de estado
+
+El icono, el tiempo y la banda son opcionales. El tiempo de las muestras es ilustrativo.
+
+<div className="mb-12"><SheetStatuses /></div>
+
+## Contenido
+
+<div className="mb-12"><SheetBodies /></div>
+
+### Scroll y espaciado
+
+- Contenido: 16 px a cada lado; el cuerpo sin navegación añade 10 px arriba y abajo.
+- Con scrollbar: un carril de 10 px se suma a la derecha, fuera del contenido. Sin desbordamiento, ese carril desaparece.
+- Encabezado, navegación y acciones permanecen fijos. Los desplegables se abren fuera del área desplazable para evitar recortes.
+
+### Navegación adaptable
+
+Sheet usa Tabs cuando caben todas las etiquetas y Overflow cuando necesitan desplazamiento. Conserva las opciones, la selección y los valores del formulario al redimensionar. Overflow calcula de 2 a 4 pestañas visibles; `visibleTabs` permite fijar la cantidad.
+
+## Secciones y ejemplos de Figma
+
+<div className="mb-12"><SheetContentExamples /></div>
+
+Los ejemplos usan datos demo de la sección «Propuesta completa» de JUNO: agendamiento de cita y detalle del cupón BUENFIN2026. No registran citas, aplican cupones ni envían notificaciones.
+
+El formulario reúne Item Light/info con los mismos estilos compartidos de Item, Field, Input/InputGroup, Switch, Combobox, DatePicker (Popover + Calendar), Avatar y Button. La vista de detalle contiene tres secciones con filas de datos. Se reutilizan los componentes y tokens del DS.
+
+SheetBodySection admite contenido libre o contenido agrupado con borde. SheetContainedRow permite valores sans o mono. Los encabezados usan el estilo caption/sm/bold uppercase de Figma; las secciones tienen 20 px de espacio vertical y 16 px entre título y contenido. Las filas usan texto de 14/20 px y padding de 10 × 12 px.
+
+<div className="mb-12"><SheetRowFonts /></div>
+
+Fecha y hora se apilan cuando el contenido dispone de menos de 353 px. El botón “Cambiar” muestra la acción definida en Figma; el ejemplo no incluye un flujo de carga de archivos.
+
 ## Botón de cierre
 
 <div className="mb-12"><SheetCloseButtons /></div>
@@ -63,6 +127,18 @@ import { SheetCloseButtons, SheetFooterAlignments, SheetPositions, SheetSpecific
 ### Primitive
 
 <Source language="tsx" code={sheetSource} />
+
+### Composiciones de encabezado, estado y acciones
+
+<Source language="tsx" code={compositionsSource} />
+
+### Composiciones de contenido
+
+<Source language="tsx" code={bodySource} />
+
+### Secciones libres y contenidas
+
+<Source language="tsx" code={sectionsSource} />
 
 ### Composición de referencia
 

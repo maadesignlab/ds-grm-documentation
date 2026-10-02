@@ -1,13 +1,53 @@
 "use client"
 
+import { Badge } from "./badge"
 import { ItemExample, itemExamplePresets, type ItemExampleProps } from "./item-example"
 import { DocsSection, SelectableCard as Card, SelectableTable as Table } from "./selectable-docs-shared"
 
 type Preset = keyof typeof itemExamplePresets
 function Example({ preset }: { preset: Preset }) { return <ItemExample {...itemExamplePresets[preset] as ItemExampleProps} /> }
 
+const appearanceGuide = [
+  { appearance: "default", title: "Default", description: "Sin fondo ni borde visibles. Para integrar una fila dentro de una lista.", },
+  { appearance: "outline", title: "Outline", description: "Un borde delimita el contenido sin añadir un fondo. Para separar elementos independientes.", },
+  { appearance: "muted", title: "Muted", description: "Un fondo suave destaca el bloque sin dibujar un borde. Para agrupar contenido relacionado.", },
+  { appearance: "light", title: "Light", description: "Combina fondo suave y borde. Para destacar un mensaje o estado dentro de la página.", },
+] as const
+
 export function ItemAppearances() {
-  return <div className="not-prose grid gap-3"><Card title="Default" value="variant=default"><Example preset="default" /></Card><Card title="Outline" value="variant=outline"><Example preset="outline" /></Card><Card title="Muted" value="variant=muted"><Example preset="muted" /></Card></div>
+  return <div className="not-prose grid gap-4">
+    <p className="m-0 text-sm text-muted-foreground">Compara cada apariencia sin estado y con un estado informativo. El selector de marca actualiza los colores de ambas muestras.</p>
+    {appearanceGuide.map(({appearance,title,description}) => <article key={appearance} className="overflow-hidden rounded-lg border border-border bg-card">
+      <header className="grid gap-1 border-b border-border p-4">
+        <div className="flex items-center gap-2"><h3 className="m-0 text-sm font-semibold text-card-foreground">{title}</h3>{appearance === "light" && <Badge variant="info" appearance="outline" size="lg">Nuevo</Badge>}</div>
+        <p className="m-0 text-sm leading-5 text-muted-foreground">{description}</p>
+      </header>
+      <div className="sb-unstyled grid gap-4 bg-background p-4 md:grid-cols-2">
+        {(["neutral", "info"] as const).map(status => <div key={status} className="grid min-w-0 grid-cols-1 gap-2"><span className="text-xs font-medium text-muted-foreground">{status === "neutral" ? "Sin estado" : "Informativo"}</span><ItemExample appearance={appearance} status={status} showTrailing={false} /></div>)}
+      </div>
+    </article>)}
+  </div>
+}
+
+export function ItemColorDetails() {
+  return <details className="not-prose mb-12 rounded-lg border border-border bg-card">
+    <summary className="cursor-pointer px-4 py-3 text-sm font-medium">Ver tokens de color · implementación</summary>
+    <div className="grid gap-4 border-t border-border p-4">
+      <p className="m-0 text-sm text-muted-foreground">Ejemplo concreto para el estado informativo. Success, warning y error usan las mismas posiciones con sus propios tokens.</p>
+      <Table columns={["Apariencia", "Fondo", "Borde", "Texto e icono"]} rows={[
+        ["Default", "Transparente", "Transparente", "--info-light-foreground"],
+        ["Outline", "Transparente", "--info-light-border", "--info-light-foreground"],
+        ["Muted", "--info-light", "Transparente", "--info-light-foreground"],
+        ["Light", "--info-light", "--info-light-border", "--info-light-foreground"],
+      ]} />
+      <p className="m-0 text-sm text-muted-foreground">Sin estado, el título y el icono usan card/foreground y la descripción muted/foreground.</p>
+      <Table columns={["Sin estado", "Fondo", "Borde"]} rows={[
+        ["Default", "Transparente", "Transparente"], ["Outline", "Transparente", "--border"],
+        ["Muted", "--muted", "Transparente"], ["Light", "--card", "--border"],
+      ]} />
+      <p className="m-0 text-sm text-muted-foreground">Un botón dentro del Item conserva su propia apariencia; no adopta automáticamente el color del estado.</p>
+    </div>
+  </details>
 }
 
 export function ItemCompositions() {
@@ -15,7 +55,7 @@ export function ItemCompositions() {
 }
 
 export function ItemLayouts() {
-  return <div className="not-prose grid gap-6"><section><h3 className="mb-3 text-base font-semibold leading-6 text-foreground">Tamaños oficiales</h3><div className="grid gap-3"><Card title="Default · media 40px" value="size=default"><Example preset="sizeDefault" /></Card><Card title="Small · media 32px" value="size=sm"><Example preset="sizeSm" /></Card><Card title="Extra small · media 24px" value="size=xs"><Example preset="sizeXs" /></Card></div></section><section><h3 className="mb-3 text-base font-semibold leading-6 text-foreground">Layouts del Design System</h3><div className="grid gap-3"><Card title="Compact" value="layout=compact · py-1.5"><Example preset="compact" /></Card><Card title="Stacked · 182px de ancho" value="layout=stacked"><Example preset="stacked" /></Card></div></section></div>
+  return <div className="not-prose grid gap-6"><section><h3 className="mb-3 text-base font-semibold leading-6 text-foreground">Tamaños oficiales</h3><div className="grid gap-3"><Card title="Default · media 40px" value="size=default"><Example preset="sizeDefault" /></Card><Card title="Small · media 32px" value="size=sm"><Example preset="sizeSm" /></Card><Card title="Extra small · media 24px" value="size=xs"><Example preset="sizeXs" /></Card></div></section><section><h3 className="mb-3 text-base font-semibold leading-6 text-foreground">Layouts del Design System</h3><div className="grid gap-3"><Card title="Compact" value="layout=compact · px-2.5 py-2"><Example preset="compact" /></Card><Card title="Stacked · 182px de ancho" value="layout=stacked"><Example preset="stacked" /></Card></div></section></div>
 }
 
 export function ItemGroups() {
@@ -42,18 +82,16 @@ const geometry = [
   ["Item en Dropdown", "gap-2 px-1.5 py-1", "8px / 6px / 4px", "Figma / composición"], ["Avatar en Dropdown", "size-7", "28 × 28px", "Figma / composición"],
 ] as const
 const typography = [
-  ["Title", "text-sm / leading-snug / font-medium", "14px / 20px / 500", "shadcn/ui / token de marca"],
-  ["Description", "text-sm / leading-normal / font-normal", "14px / 20px / 400", "shadcn/ui / token de marca"],
+  ["Title", "text-sm / leading-5 / font-medium", "14px / 20px / 500", "shadcn/ui / token de marca"],
+  ["Description", "text-sm / leading-5 / font-normal", "14px / 20px / 400", "shadcn/ui / token de marca"],
   ["Time", "text-sm / leading-5", "14px / 20px", "Figma / token de marca"],
-  ["Dropdown title", "text-sm / leading-snug / font-medium", "14px / 20px / 500", "shadcn/ui / Figma"],
+  ["Dropdown title", "text-sm / leading-5 / font-medium", "14px / 20px / 500", "shadcn/ui / Figma"],
   ["Dropdown description", "text-xs / leading-4", "12px / 16px / 400", "Figma"],
 ] as const
-const colors = [
-  ["Default", "border-transparent", "transparent", "shadcn/ui"], ["Outline", "border-border", "--border", "shadcn/ui / marca"],
-  ["Muted", "bg-muted/50", "--muted", "shadcn/ui / marca"], ["Title", "text-foreground", "--foreground", "Herencia / marca"],
-  ["Description", "text-muted-foreground", "--muted-foreground", "shadcn/ui / marca"],
-] as const
-
 export function ItemSpecifications() {
-  return <div className="not-prose grid gap-6"><DocsSection title="API y anatomía"><Table columns={["Parte","Primitive","API","Función"]} rows={anatomy} /></DocsSection><DocsSection title="Tamaño y espaciado"><Table columns={["Propiedad","Tailwind","Valor","Origen"]} rows={geometry} /></DocsSection><DocsSection title="Tipografía"><Table columns={["Elemento","Tailwind","Valor","Origen"]} rows={typography} /></DocsSection><DocsSection title="Color"><Table columns={["Variante","Tailwind","Variable","Origen"]} rows={colors} /></DocsSection></div>
+  return <div className="not-prose grid gap-6"><DocsSection title="API y anatomía"><Table columns={["Parte","Primitive","API","Función"]} rows={anatomy} /></DocsSection><DocsSection title="Tamaño y espaciado"><Table columns={["Propiedad","Tailwind","Valor","Origen"]} rows={geometry} /></DocsSection><DocsSection title="Tipografía"><Table columns={["Elemento","Tailwind","Valor","Origen"]} rows={typography} /></DocsSection><ItemColorDetails /></div>
+}
+
+export function ItemStatuses() {
+  return <div className="not-prose grid gap-3">{(["neutral", "success", "warning", "error", "info"] as const).map(status => <Card key={status} title={status + " · Nuevo"} value={"appearance=light · status=" + status}><ItemExample appearance="light" status={status} /></Card>)}</div>
 }

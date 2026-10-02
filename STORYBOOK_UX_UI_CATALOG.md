@@ -1,7 +1,7 @@
 ---
 title: "Catálogo UX/UI del Storybook GRM"
 designSystem: "Design System GRM"
-version: "1.1.1"
+version: "1.2.0"
 catalogSchemaVersion: 1
 status: "current"
 canonicalRendering: "Playground"
@@ -10,15 +10,15 @@ generatedFrom: "Storybook source"
 
 # Catálogo UX/UI del Storybook GRM
 
-> Snapshot exhaustivo de **Design System GRM v1.1.1**. Este archivo está orientado a diseñadores UX/UI y agentes de IA que necesiten construir wireframes fieles al Storybook sin recorrer todo el repositorio.
+> Snapshot exhaustivo de **Design System GRM v1.2.0**. Este archivo está orientado a diseñadores UX/UI y agentes de IA que necesiten construir wireframes fieles al Storybook sin recorrer todo el repositorio.
 > **Archivo generado:** no editar manualmente. Actualizar las fuentes canónicas y ejecutar `npm run catalog:generate`.
 
 ## Estado y alcance de esta versión
 
 | Campo | Valor |
 | --- | --- |
-| Versión del Design System | `1.1.1` |
-| Componentes documentados | 50 |
+| Versión del Design System | `1.2.0` |
+| Componentes documentados | 51 |
 | Marcas | GRM Global, Reina Madre, María Linda, Piel Sana |
 | Base técnica | shadcn/ui; Radix UI o Base UI según el componente oficial vigente |
 | Fuente visual canónica | Playground de Storybook |
@@ -955,6 +955,7 @@ Cada estilo conserva el nombre de Figma y su traducción vigente a Tailwind CSS.
 | [Sidebar](#componente-sidebar) | Navigation | component | `3114:1373` | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-sidebar--docs) | [abrir](https://ds-grm-documentation.vercel.app/?path=/story/components-sidebar--playground) |
 | [Slider](#componente-slider) | Form | component | `2772:1030` | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-slider--docs) | [abrir](https://ds-grm-documentation.vercel.app/?path=/story/components-slider--playground) |
 | [Spinner](#componente-spinner) | Feedback | component | `2206:19380` | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-spinner--docs) | [abrir](https://ds-grm-documentation.vercel.app/?path=/story/components-spinner--playground) |
+| [Stepper](#componente-stepper) | Other | component | `7081:51355` | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-stepper--docs) | [abrir](https://ds-grm-documentation.vercel.app/?path=/story/components-stepper--playground) |
 | [Switch](#componente-switch) | Form | component | `1:41` | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-switch--docs) | [abrir](https://ds-grm-documentation.vercel.app/?path=/story/components-switch--playground) |
 | [Table](#componente-table) | Data display | component | `2064:259` | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-table--docs) | [abrir](https://ds-grm-documentation.vercel.app/?path=/story/components-table--playground) |
 | [Tabs](#componente-tabs) | Navigation | component | `1:33` | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-tabs--docs) | [abrir](https://ds-grm-documentation.vercel.app/?path=/story/components-tabs--playground) |
@@ -2712,7 +2713,7 @@ Selección con búsqueda, grupos, limpieza, opción múltiple y popup según Bas
 | Categoría | Form |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Base UI |
-| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
+| Versión documentada | `v1.1.0` — Actualización para DS v1.2.0 · 2 de octubre de 2026 |
 | Figma | [nodo 1:39](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1-39) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-combobox--docs) |
 | Registry | [combobox.json](https://ds-grm-documentation.vercel.app/r/combobox.json) |
@@ -2723,7 +2724,8 @@ Selección con búsqueda, grupos, limpieza, opción múltiple y popup según Bas
 
 ### Cambios declarados en la versión del componente
 
-- Nombra el botón de apertura de opciones.
+- Añade container opcional a ComboboxContent para controlar el destino del portal.
+- Permite opciones dentro del modal Sheet sin recortes; conserva el comportamiento predeterminado.
 
 ### Contrato técnico y composición
 
@@ -4165,7 +4167,7 @@ Unidad de contenido reutilizable con media, cuerpo, acciones, header y footer.
 | Categoría | Data display |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Base UI |
-| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
+| Versión documentada | `v1.1.0` — Actualización para DS v1.2.0 · 2 de octubre de 2026 |
 | Figma | [nodo 2190:1413](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=2190-1413) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-item--docs) |
 | Registry | [item.json](https://ds-grm-documentation.vercel.app/r/item.json) |
@@ -4176,7 +4178,11 @@ Unidad de contenido reutilizable con media, cuerpo, acciones, header y footer.
 
 ### Cambios declarados en la versión del componente
 
-- Los enlaces de ItemDescription en hover cambian de primary a primary/default-foreground.
+- Nueva composición: Light.
+- Nueva composición: Estados neutral, success, warning, error e info.
+- Nueva composición: Visibilidad de acciones.
+- Compact: padding 8 × 10 px y descripción 12/16 px.
+- Muted opaco, tipografía 14/20 px e iconos de estado de Figma.
 
 ### Contrato técnico y composición
 
@@ -4186,8 +4192,8 @@ Unidad de contenido reutilizable con media, cuerpo, acciones, header y footer.
 | Data slots | `item-group`, `item-separator`, `item-media`, `item-content`, `item-title`, `item-description`, `item-actions`, `item-header`, `item-footer` |
 | Dependencias externas | `react`, `@base-ui/react/merge-props`, `@base-ui/react/use-render`, `class-variance-authority`, `lucide-react`, `next/image` |
 | Dependencias Registry | `@grm/grm-base`, `@grm/separator` |
-| Composición interna del ejemplo | `./avatar`, `./button`, `./dropdown-menu`, `./item` |
-| Secciones visibles en Docs | Versión → Variantes de estilo → Contenido y composición → Escala y forma → Item Group → Especificaciones → Código |
+| Composición interna del ejemplo | `./avatar`, `./button`, `./dropdown-menu`, `./item`, `./item-appearance` |
+| Secciones visibles en Docs | Versión → Variantes de estilo → Estados · Nuevos → Contenido y composición → Escala y forma → Item Group → Especificaciones → Código |
 
 ### Propiedades públicas de la composición de Playground
 
@@ -4197,7 +4203,9 @@ Estas declaraciones corresponden al archivo compartido entre Docs y Playground. 
 export type ItemExampleProps = {
   composition?: "single" | "list" | "grid"
   pattern?: "basic" | "group" | "header" | "link" | "dropdown"
-  appearance?: "default" | "outline" | "muted"
+  appearance?: ItemAppearance
+  status?: ItemStatus
+  showTrailing?: boolean
   size?: "default" | "sm" | "xs"
   layout?: "default" | "compact" | "stacked"
   leading?: "none" | "icon" | "avatar" | "avatarGroup" | "image"
@@ -4259,7 +4267,9 @@ export type ItemExampleProps = {
 | --- | --- | --- | --- | --- | --- | --- |
 | `composition` | Composición | Composición | Sí | inline-radio | `single`, `list`, `grid` | — |
 | `pattern` | Patrón | Composición | Sí | select | `basic`, `group`, `header`, `link`, `dropdown` | — |
-| `appearance` | Apariencia | Item | Sí | inline-radio | `default`, `outline`, `muted` | — |
+| `appearance` | Apariencia | Item | Sí | inline-radio | `default`, `outline`, `muted`, `light` | — |
+| `status` | Estado | Item | Sí | select | `neutral`, `success`, `warning`, `error`, `info` | — |
+| `showTrailing` | Mostrar contenido final | Contenido | Sí | boolean | — | — |
 | `size` | Tamaño oficial | Item | Sí | inline-radio | `default`, `sm`, `xs` | — |
 | `layout` | Layout | Item | Sí | inline-radio | `default`, `compact`, `stacked` | — |
 | `leading` | Contenido inicial | Contenido | Sí | select | `none`, `icon`, `avatar`, `avatarGroup`, `image` | — |
@@ -4281,6 +4291,89 @@ export type ItemExampleProps = {
 **Args de esta story**
 
 _No define valores propios; hereda los valores globales._
+#### SuccessRegression
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-item--success-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-item--success-regression&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `appearance` | `light` |
+| `status` | `success` |
+| `showTrailing` | `false` |
+
+#### WarningRegression
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-item--warning-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-item--warning-regression&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `appearance` | `light` |
+| `status` | `warning` |
+| `showTrailing` | `false` |
+
+#### ErrorRegression
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-item--error-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-item--error-regression&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `appearance` | `light` |
+| `status` | `error` |
+| `showTrailing` | `false` |
+
+#### InfoRegression
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-item--info-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-item--info-regression&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `appearance` | `light` |
+| `status` | `info` |
+| `showTrailing` | `false` |
+
+#### CompactRegression
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-item--compact-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-item--compact-regression&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `layout` | `compact` |
+
 ### Presets exportados por la composición
 
 #### `itemPlaygroundArgs`
@@ -4290,6 +4383,8 @@ _No define valores propios; hereda los valores globales._
 | `composition` | `single` |
 | `pattern` | `basic` |
 | `appearance` | `default` |
+| `status` | `neutral` |
+| `showTrailing` | `true` |
 | `size` | `default` |
 | `layout` | `default` |
 | `leading` | `icon` |
@@ -4301,29 +4396,41 @@ _No define valores propios; hereda los valores globales._
 
 | Preset | Configuración |
 | --- | --- |
-| `playground` | `{"composition":"single","pattern":"basic","appearance":"default","size":"default","layout":"default","leading":"icon","trailing":"button","description":true,"itemCount":2}` |
-| `default` | `{"composition":"single","pattern":"basic","appearance":"default","size":"default","layout":"default","leading":"icon","trailing":"button","description":true,"itemCount":2}` |
-| `outline` | `{"composition":"single","pattern":"basic","appearance":"outline","size":"default","layout":"default","leading":"icon","trailing":"button","description":true,"itemCount":2}` |
-| `muted` | `{"composition":"single","pattern":"basic","appearance":"muted","size":"default","layout":"default","leading":"icon","trailing":"button","description":true,"itemCount":2}` |
-| `sizeDefault` | `{"composition":"single","pattern":"basic","appearance":"outline","size":"default","layout":"default","leading":"image","trailing":"icon","description":false,"itemCount":2}` |
-| `sizeSm` | `{"composition":"single","pattern":"basic","appearance":"outline","size":"sm","layout":"default","leading":"image","trailing":"icon","description":false,"itemCount":2}` |
-| `sizeXs` | `{"composition":"single","pattern":"basic","appearance":"outline","size":"xs","layout":"default","leading":"image","trailing":"icon","description":false,"itemCount":2}` |
-| `icon` | `{"composition":"single","pattern":"basic","appearance":"outline","size":"default","layout":"default","leading":"icon","trailing":"button","description":true,"itemCount":2}` |
-| `avatar` | `{"composition":"single","pattern":"basic","appearance":"outline","size":"default","layout":"default","leading":"avatar","trailing":"none","description":true,"itemCount":2}` |
-| `image` | `{"composition":"single","pattern":"basic","appearance":"outline","size":"default","layout":"default","leading":"image","trailing":"time","description":true,"itemCount":2}` |
-| `group` | `{"composition":"single","pattern":"group","appearance":"default","size":"default","layout":"default","leading":"none","trailing":"none","description":true,"itemCount":3}` |
-| `header` | `{"composition":"single","pattern":"header","appearance":"outline","size":"default","layout":"default","leading":"none","trailing":"none","description":true,"itemCount":2}` |
-| `link` | `{"composition":"single","pattern":"link","appearance":"outline","size":"default","layout":"default","leading":"icon","trailing":"icon","description":true,"itemCount":2}` |
-| `dropdown` | `{"composition":"single","pattern":"dropdown","appearance":"default","size":"sm","layout":"default","leading":"none","trailing":"none","description":false,"itemCount":2}` |
-| `iconIcon` | `{"composition":"single","pattern":"basic","appearance":"default","size":"default","layout":"default","leading":"icon","trailing":"icon","description":true,"itemCount":2}` |
-| `avatarAction` | `{"composition":"single","pattern":"basic","appearance":"outline","size":"default","layout":"default","leading":"avatar","trailing":"iconButton","description":true,"itemCount":2}` |
-| `avatarGroup` | `{"composition":"single","pattern":"basic","appearance":"outline","size":"default","layout":"default","leading":"avatarGroup","trailing":"button","description":true,"itemCount":2}` |
-| `time` | `{"composition":"single","pattern":"basic","appearance":"outline","size":"default","layout":"default","leading":"none","trailing":"time","description":true,"itemCount":2}` |
-| `withoutDescription` | `{"composition":"single","pattern":"basic","appearance":"outline","size":"default","layout":"default","leading":"icon","trailing":"icon","description":false,"itemCount":2}` |
-| `compact` | `{"composition":"single","pattern":"basic","appearance":"outline","size":"default","layout":"compact","leading":"icon","trailing":"icon","description":true,"itemCount":2}` |
-| `stacked` | `{"composition":"single","pattern":"basic","appearance":"outline","size":"default","layout":"stacked","leading":"none","trailing":"none","description":true,"itemCount":2}` |
-| `list` | `{"composition":"list","pattern":"basic","appearance":"outline","size":"default","layout":"default","leading":"icon","trailing":"button","description":true,"itemCount":2}` |
-| `grid` | `{"composition":"grid","pattern":"basic","appearance":"outline","size":"default","layout":"stacked","leading":"none","trailing":"none","description":true,"itemCount":2}` |
+| `playground` | `{"composition":"single","pattern":"basic","appearance":"default","status":"neutral","showTrailing":true,"size":"default","layout":"default","leading":"icon","trailing":"button","description":true,"itemCount":2}` |
+| `default` | `{"composition":"single","pattern":"basic","appearance":"default","status":"neutral","showTrailing":true,"size":"default","layout":"default","leading":"icon","trailing":"button","description":true,"itemCount":2}` |
+| `outline` | `{"composition":"single","pattern":"basic","appearance":"outline","status":"neutral","showTrailing":true,"size":"default","layout":"default","leading":"icon","trailing":"button","description":true,"itemCount":2}` |
+| `muted` | `{"composition":"single","pattern":"basic","appearance":"muted","status":"neutral","showTrailing":true,"size":"default","layout":"default","leading":"icon","trailing":"button","description":true,"itemCount":2}` |
+| `light` | `{"composition":"single","pattern":"basic","appearance":"light","status":"neutral","showTrailing":true,"size":"default","layout":"default","leading":"icon","trailing":"button","description":true,"itemCount":2}` |
+| `sizeDefault` | `{"composition":"single","pattern":"basic","appearance":"outline","status":"neutral","showTrailing":true,"size":"default","layout":"default","leading":"image","trailing":"icon","description":false,"itemCount":2}` |
+| `sizeSm` | `{"composition":"single","pattern":"basic","appearance":"outline","status":"neutral","showTrailing":true,"size":"sm","layout":"default","leading":"image","trailing":"icon","description":false,"itemCount":2}` |
+| `sizeXs` | `{"composition":"single","pattern":"basic","appearance":"outline","status":"neutral","showTrailing":true,"size":"xs","layout":"default","leading":"image","trailing":"icon","description":false,"itemCount":2}` |
+| `icon` | `{"composition":"single","pattern":"basic","appearance":"outline","status":"neutral","showTrailing":true,"size":"default","layout":"default","leading":"icon","trailing":"button","description":true,"itemCount":2}` |
+| `avatar` | `{"composition":"single","pattern":"basic","appearance":"outline","status":"neutral","showTrailing":true,"size":"default","layout":"default","leading":"avatar","trailing":"none","description":true,"itemCount":2}` |
+| `image` | `{"composition":"single","pattern":"basic","appearance":"outline","status":"neutral","showTrailing":true,"size":"default","layout":"default","leading":"image","trailing":"time","description":true,"itemCount":2}` |
+| `group` | `{"composition":"single","pattern":"group","appearance":"default","status":"neutral","showTrailing":true,"size":"default","layout":"default","leading":"none","trailing":"none","description":true,"itemCount":3}` |
+| `header` | `{"composition":"single","pattern":"header","appearance":"outline","status":"neutral","showTrailing":true,"size":"default","layout":"default","leading":"none","trailing":"none","description":true,"itemCount":2}` |
+| `link` | `{"composition":"single","pattern":"link","appearance":"outline","status":"neutral","showTrailing":true,"size":"default","layout":"default","leading":"icon","trailing":"icon","description":true,"itemCount":2}` |
+| `dropdown` | `{"composition":"single","pattern":"dropdown","appearance":"default","status":"neutral","showTrailing":true,"size":"sm","layout":"default","leading":"none","trailing":"none","description":false,"itemCount":2}` |
+| `iconIcon` | `{"composition":"single","pattern":"basic","appearance":"default","status":"neutral","showTrailing":true,"size":"default","layout":"default","leading":"icon","trailing":"icon","description":true,"itemCount":2}` |
+| `avatarAction` | `{"composition":"single","pattern":"basic","appearance":"outline","status":"neutral","showTrailing":true,"size":"default","layout":"default","leading":"avatar","trailing":"iconButton","description":true,"itemCount":2}` |
+| `avatarGroup` | `{"composition":"single","pattern":"basic","appearance":"outline","status":"neutral","showTrailing":true,"size":"default","layout":"default","leading":"avatarGroup","trailing":"button","description":true,"itemCount":2}` |
+| `time` | `{"composition":"single","pattern":"basic","appearance":"outline","status":"neutral","showTrailing":true,"size":"default","layout":"default","leading":"none","trailing":"time","description":true,"itemCount":2}` |
+| `withoutDescription` | `{"composition":"single","pattern":"basic","appearance":"outline","status":"neutral","showTrailing":true,"size":"default","layout":"default","leading":"icon","trailing":"icon","description":false,"itemCount":2}` |
+| `compact` | `{"composition":"single","pattern":"basic","appearance":"outline","status":"neutral","showTrailing":true,"size":"default","layout":"compact","leading":"icon","trailing":"icon","description":true,"itemCount":2}` |
+| `stacked` | `{"composition":"single","pattern":"basic","appearance":"outline","status":"neutral","showTrailing":true,"size":"default","layout":"stacked","leading":"none","trailing":"none","description":true,"itemCount":2}` |
+| `list` | `{"composition":"list","pattern":"basic","appearance":"outline","status":"neutral","showTrailing":true,"size":"default","layout":"default","leading":"icon","trailing":"button","description":true,"itemCount":2}` |
+| `grid` | `{"composition":"grid","pattern":"basic","appearance":"outline","status":"neutral","showTrailing":true,"size":"default","layout":"stacked","leading":"none","trailing":"none","description":true,"itemCount":2}` |
+
+### Especificaciones consolidadas desde Docs
+
+#### Datos documentales: `appearanceGuide`
+
+| appearance | title | description |
+| --- | --- | --- |
+| `default` | `Default` | `Sin fondo ni borde visibles. Para integrar una fila dentro de una lista.` |
+| `outline` | `Outline` | `Un borde delimita el contenido sin añadir un fondo. Para separar elementos independientes.` |
+| `muted` | `Muted` | `Un fondo suave destaca el bloque sin dibujar un borde. Para agrupar contenido relacionado.` |
+| `light` | `Light` | `Combina fondo suave y borde. Para destacar un mensaje o estado dentro de la página.` |
 
 ### Reglas de uso para wireframes
 
@@ -5181,7 +5288,7 @@ Contenedor contextual no modal con trigger, anchor y content oficiales de shadcn
 | Categoría | Overlay |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Base UI |
-| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
+| Versión documentada | `v1.1.0` — Actualización para DS v1.2.0 · 2 de octubre de 2026 |
 | Figma | [nodo 726:6350](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=726-6350) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-popover--docs) |
 | Registry | [popover.json](https://ds-grm-documentation.vercel.app/r/popover.json) |
@@ -5192,7 +5299,8 @@ Contenedor contextual no modal con trigger, anchor y content oficiales de shadcn
 
 ### Cambios declarados en la versión del componente
 
-- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
+- Añade container opcional a PopoverContent para controlar el destino del portal.
+- Permite el calendario de Sheet sin recortes; conserva el comportamiento predeterminado.
 
 ### Contrato técnico y composición
 
@@ -6171,7 +6279,7 @@ Panel superpuesto desde un borde con anchuras y disposiciones de footer document
 | Categoría | Overlay |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.2` — Fondo conciliado con Figma · DS v1.1.1 |
+| Versión documentada | `v1.1.0` — Actualización para DS v1.2.0 · 2 de octubre de 2026 |
 | Figma | [nodo 1295:386](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1295-386) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-sheet--docs) |
 | Registry | [sheet.json](https://ds-grm-documentation.vercel.app/r/sheet.json) |
@@ -6182,8 +6290,13 @@ Panel superpuesto desde un borde con anchuras y disposiciones de footer document
 
 ### Cambios declarados en la versión del componente
 
-- Sustituye el fondo `popover` por `sheet-drawer`, blanco en las cuatro marcas.
-- Conserva texto, overlay, variantes y comportamiento existentes.
+- Nueva composición: Encabezados, bandas de estado y acciones.
+- Nueva composición: Cuerpos con Tabs, TabsOverflow y Stepper.
+- Nueva composición: Formulario, detalles y secciones free/contained.
+- Redimensionamiento continuo entre 360 y 720 px; conserva selección y valores.
+- Padding de 16 px y carril de scrollbar de 10 px solo con desbordamiento.
+- Calendario y Combobox fuera del área desplazable para evitar recortes.
+- Etiqueta y descripción, Item Light/info y encabezados conciliados con Figma.
 
 ### Contrato técnico y composición
 
@@ -6193,8 +6306,8 @@ Panel superpuesto desde un borde con anchuras y disposiciones de footer document
 | Data slots | `sheet`, `sheet-trigger`, `sheet-close`, `sheet-portal`, `sheet-overlay`, `sheet-content`, `sheet-header`, `sheet-footer`, `sheet-title`, `sheet-description` |
 | Dependencias externas | `react`, `radix-ui`, `lucide-react` |
 | Dependencias Registry | `@grm/button`, `@grm/grm-base` |
-| Composición interna del ejemplo | `./button`, `./sheet` |
-| Secciones visibles en Docs | Versión → Posición → Ancho lateral → Botón de cierre → Disposición de acciones → Especificaciones → Código |
+| Composición interna del ejemplo | `./button`, `./badge`, `./button-group`, `./breadcrumb`, `./progress`, `./sheet`, `./stepper-example`, `./sheet-body`, `./sheet-compositions`, `./sheet-content-example` |
+| Secciones visibles en Docs | Versión → Posición → Ancho lateral → Encabezado → Banda de estado → Contenido → Secciones y ejemplos de Figma → Botón de cierre → Disposición de acciones → Especificaciones → Código |
 
 ### Propiedades públicas de la composición de Playground
 
@@ -6203,9 +6316,20 @@ Estas declaraciones corresponden al archivo compartido entre Docs y Playground. 
 ```ts
 export type SheetExampleProps = {
   side?: "top" | "right" | "bottom" | "left"
-  sideWidth?: 384 | 480
+  sideWidth?: 360 | 720 | 384 | 480
+  resizable?: boolean
+  contentType?: SheetContentType
+  bodyType?: SheetBodyType
+  visibleTabs?: 2 | 3 | 4
   showCloseButton?: boolean
+  /** Compatibility for existing consumers; Figma now uses footerComposition. */
   footerAlignment?: "column" | "row"
+  footerComposition?: "single-single" | "single-group" | "group-single"
+  headerType?: "title-description" | "progress" | "badge" | "breadcrumb"
+  showStatusBand?: boolean
+  status?: SheetStatus
+  showStatusIcon?: boolean
+  showTiming?: boolean
   scrollable?: boolean
 }
 ```
@@ -6215,9 +6339,16 @@ export type SheetExampleProps = {
 | Propiedad | Valor |
 | --- | --- |
 | `side` | `right` |
-| `sideWidth` | `480` |
+| `sideWidth` | `360` |
+| `resizable` | `true` |
+| `contentType` | `edit-form` |
 | `showCloseButton` | `true` |
-| `footerAlignment` | `column` |
+| `footerComposition` | `single-single` |
+| `headerType` | `title-description` |
+| `showStatusBand` | `true` |
+| `status` | `success` |
+| `showStatusIcon` | `true` |
+| `showTiming` | `true` |
 | `scrollable` | `false` |
 
 ### Controles globales
@@ -6225,9 +6356,19 @@ export type SheetExampleProps = {
 | Propiedad | Nombre visible | Categoría | Visible | Control | Opciones | Descripción |
 | --- | --- | --- | --- | --- | --- | --- |
 | `side` | Posición | Disposición | Sí | inline-radio | `top`, `right`, `bottom`, `left` | — |
-| `sideWidth` | Ancho lateral · left/right | Disposición | Sí | inline-radio | `384`, `480` | — |
+| `sideWidth` | Ancho lateral · left/right | Disposición | Sí | inline-radio | `360`, `720` | — |
+| `resizable` | Redimensionar panel | General | Sí | boolean | — | — |
+| `contentType` | Contenido de Figma | Contenido | Sí | select | `none`, `edit-form`, `details-view` | — |
+| `bodyType` | Contenido | General | Sí | select | `blank`, `tabs-normal`, `tabs-overflow`, `stepper` | — |
+| `visibleTabs` | Pestañas visibles · automático por defecto | General | Sí | select | `auto`, `2`, `3`, `4` | — |
 | `showCloseButton` | Botón de cierre | Composición | Sí | boolean | — | — |
-| `footerAlignment` | Acciones | Composición | Sí | inline-radio | `column`, `row` | — |
+| `footerAlignment` | footerAlignment | General | No | automático | — | — |
+| `footerComposition` | Acciones | Composición | Sí | select | `single-single`, `single-group`, `group-single` | — |
+| `headerType` | Encabezado | Composición | Sí | select | `title-description`, `progress`, `badge`, `breadcrumb` | — |
+| `showStatusBand` | Banda de estado | General | Sí | boolean | — | — |
+| `status` | Estado | General | Sí | select | `success`, `warning`, `error`, `destructive`, `info` | — |
+| `showStatusIcon` | Icono de estado | General | Sí | boolean | — | — |
+| `showTiming` | Tiempo | General | Sí | boolean | — | — |
 | `scrollable` | Contenido desplazable | Contenido | Sí | boolean | — | — |
 
 ### Stories y Playground
@@ -6244,6 +6385,235 @@ export type SheetExampleProps = {
 **Args de esta story**
 
 _No define valores propios; hereda los valores globales._
+#### ProgressRegression
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--progress-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--progress-regression&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `headerType` | `progress` |
+| `status` | `warning` |
+| `footerComposition` | `single-group` |
+| `side` | `left` |
+| `scrollable` | `true` |
+
+#### BadgeRegression
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--badge-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--badge-regression&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `headerType` | `badge` |
+| `status` | `error` |
+| `footerComposition` | `group-single` |
+| `side` | `top` |
+
+#### BreadcrumbRegression
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--breadcrumb-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--breadcrumb-regression&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `headerType` | `breadcrumb` |
+| `status` | `destructive` |
+| `side` | `bottom` |
+| `showTiming` | `false` |
+
+#### InfoRegression
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--info-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--info-regression&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `status` | `info` |
+| `showCloseButton` | `false` |
+| `showStatusIcon` | `false` |
+| `sideWidth` | `384` |
+
+#### LegacyRegression
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--legacy-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--legacy-regression&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `showStatusBand` | `false` |
+| `footerAlignment` | `column` |
+
+#### ResizeRegression
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--resize-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--resize-regression&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `bodyType` | `blank` |
+
+#### TabsRegression
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--tabs-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--tabs-regression&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `bodyType` | `tabs-overflow` |
+| `visibleTabs` | `2` |
+
+#### StepperBodyRegression
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--stepper-body-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--stepper-body-regression&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `bodyType` | `stepper` |
+
+#### LeftDragRegression
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--left-drag-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--left-drag-regression&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `side` | `left` |
+| `bodyType` | `blank` |
+
+#### ResponsiveTabsRegression
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--responsive-tabs-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--responsive-tabs-regression&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `bodyType` | `tabs-normal` |
+
+#### ContentFormRegression
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--content-form-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--content-form-regression&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `contentType` | `edit-form` |
+
+#### ContentDetailsRegression
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--content-details-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--content-details-regression&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `contentType` | `details-view` |
+| `bodyType` | `blank` |
+
+#### SpacingRegression
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--spacing-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--spacing-regression&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `bodyType` | `blank` |
+| `contentType` | `edit-form` |
+
+#### NoScrollbarSpacingRegression
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--no-scrollbar-spacing-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--no-scrollbar-spacing-regression&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `bodyType` | `blank` |
+| `contentType` | `none` |
+
 ### Reglas de uso para wireframes
 
 - Construir la instancia mediante **sheet-example.tsx** o los exports públicos listados; no copiar el HTML de las cards editoriales.
@@ -6598,6 +6968,297 @@ _No define valores propios; hereda los valores globales._
 - Conservar interacción, foco, teclado, disabled y atributos accesibles del primitive.
 - Si una necesidad no figura en los tipos, controles, presets o especificaciones anteriores, tratarla como gap.
 
+## Componente: Stepper
+
+Stepper GRM basado en shadcn/ui, tokens de marca y la referencia canónica de Storybook.
+
+### Identidad y fuentes de verdad
+
+| Campo | Valor |
+| --- | --- |
+| Slug | `stepper` |
+| Categoría | Other |
+| Tipo | Primitive o wrapper público |
+| Base técnica detectada | Radix UI |
+| Versión documentada | `v1.0.0` — Implementación inicial para DS v1.2.0 · 2 de octubre de 2026 |
+| Figma | [nodo 7081:51355](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=7081-51355) |
+| Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-stepper--docs) |
+| Registry | [stepper.json](https://ds-grm-documentation.vercel.app/r/stepper.json) |
+| Implementación | `src/components/ui/stepper.tsx` |
+| Composición canónica | `src/components/ui/stepper-example.tsx` |
+| Stories | `src/components/ui/stepper.stories.tsx` |
+| Documentación | `src/components/ui/stepper.mdx` |
+
+### Cambios declarados en la versión del componente
+
+- Nueva composición: Secuencias de 2 a 6 pasos.
+- Nueva composición: Selección, retroceso y finalización.
+- Nuevo componente no legacy basado en francozeta/stepper; licencia MIT conservada.
+- Estados pendiente, activo, completado, deshabilitado y error.
+
+### Contrato técnico y composición
+
+| Aspecto | Detalle |
+| --- | --- |
+| Exports públicos | `Stepper`, `StepperContent`, `StepperDescription`, `StepperIndicator`, `StepperItem`, `StepperLabel`, `StepperList`, `StepperNext`, `StepperPrevious`, `StepperSeparator`, `StepperTrigger`, `useStepper`, `useStepperItem`, `StepperApi`, `StepperButtonProps`, `StepperContentProps`, `StepperDescriptionProps`, `StepperIndicatorProps`, `StepperItemApi`, `StepperItemProps`, `StepperLabelProps`, `StepperListProps`, `StepperNavigationGuard`, `StepperNextProps`, `StepperOrientation`, `StepperPreviousProps`, `StepperProps`, `StepperSeparatorProps`, `StepperStep`, `StepperStepInput`, `StepperStepPosition`, `StepperStepState`, `StepperStepsValue`, `StepperTriggerProps`, `StepperValue` |
+| Data slots | `stepper`, `stepper-list`, `stepper-item`, `stepper-trigger`, `stepper-indicator`, `stepper-label`, `stepper-description`, `stepper-separator`, `stepper-content`, `stepper-previous`, `stepper-next` |
+| Dependencias externas | `react`, `@radix-ui/react-slot`, `lucide-react` |
+| Dependencias Registry | `@grm/grm-base` |
+| Composición interna del ejemplo | `./button`, `./stepper` |
+| Secciones visibles en Docs | Versión → Orientación → Cantidad de pasos → Tamaños → Composición → Estados → Especificaciones → Código |
+
+### Propiedades públicas de la composición de Playground
+
+Estas declaraciones corresponden al archivo compartido entre Docs y Playground. No todas amplían el primitive; varias son controles editoriales de la composición.
+
+```ts
+export type StepperExampleProps = {
+  stepCount?: 2 | 3 | 4 | 5 | 6
+  size?: "default" | "sm"
+  orientation?: "horizontal" | "vertical"
+  labels?: boolean
+  showDescription?: boolean
+  showControls?: boolean
+  indicator?: "icon" | "number"
+  activeStep?: "1" | "2" | "3" | "4" | "5" | "6" | "complete"
+  errorStep?: "none" | "1" | "2" | "3" | "4" | "5" | "6"
+  disabledStep?: "none" | "2" | "3" | "4" | "5" | "6"
+}
+```
+
+### Valores predeterminados globales de Storybook
+
+| Propiedad | Valor |
+| --- | --- |
+| `stepCount` | `3` |
+| `size` | `default` |
+| `orientation` | `horizontal` |
+| `labels` | `true` |
+| `showDescription` | `true` |
+| `showControls` | `true` |
+| `activeStep` | `1` |
+| `errorStep` | `none` |
+| `disabledStep` | `none` |
+
+### Controles globales
+
+| Propiedad | Nombre visible | Categoría | Visible | Control | Opciones | Descripción |
+| --- | --- | --- | --- | --- | --- | --- |
+| `stepCount` | Cantidad de pasos | General | Sí | inline-radio | `2`, `3`, `4`, `5`, `6` | — |
+| `size` | size | General | Sí | inline-radio | `default`, `sm` | — |
+| `orientation` | orientation | General | Sí | inline-radio | `horizontal`, `vertical` | — |
+| `indicator` | indicator | General | Sí | inline-radio | `icon`, `number` | — |
+| `activeStep` | activeStep | General | Sí | select | `1`, `2`, `3`, `4`, `5`, `6`, `complete` | — |
+| `errorStep` | errorStep | General | Sí | select | `none`, `1`, `2`, `3`, `4`, `5`, `6` | — |
+| `disabledStep` | disabledStep | General | Sí | select | `none`, `2`, `3`, `4`, `5`, `6` | — |
+
+### Stories y Playground
+
+#### Playground
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-stepper--playground) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-stepper--playground&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | No |
+
+**Args de esta story**
+
+_No define valores propios; hereda los valores globales._
+#### NavigationRegression
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-stepper--navigation-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-stepper--navigation-regression&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+_No define valores propios; hereda los valores globales._
+#### KeyboardRegression
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-stepper--keyboard-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-stepper--keyboard-regression&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `orientation` | `vertical` |
+| `size` | `sm` |
+| `disabledStep` | `2` |
+| `labels` | `false` |
+| `indicator` | `number` |
+
+#### GlobalGeometry
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-stepper--global-geometry) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-stepper--global-geometry&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+_No define valores propios; hereda los valores globales._
+#### ReinaGeometry
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-stepper--reina-geometry) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-stepper--reina-geometry&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `size` | `sm` |
+
+#### MariaGeometry
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-stepper--maria-geometry) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-stepper--maria-geometry&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `orientation` | `vertical` |
+
+#### PielGeometry
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-stepper--piel-geometry) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-stepper--piel-geometry&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `orientation` | `vertical` |
+| `size` | `sm` |
+
+#### TwoSteps
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-stepper--two-steps) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-stepper--two-steps&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `stepCount` | `2` |
+
+#### FourSteps
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-stepper--four-steps) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-stepper--four-steps&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `stepCount` | `4` |
+| `orientation` | `vertical` |
+
+#### FiveSteps
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-stepper--five-steps) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-stepper--five-steps&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `stepCount` | `5` |
+| `size` | `sm` |
+
+#### SixSteps
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-stepper--six-steps) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-stepper--six-steps&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `stepCount` | `6` |
+| `size` | `sm` |
+| `orientation` | `vertical` |
+
+#### ClampedStep
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-stepper--clamped-step) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-stepper--clamped-step&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `stepCount` | `2` |
+| `activeStep` | `6` |
+
+### Especificaciones consolidadas desde Docs
+
+#### Datos documentales: `behavior`
+
+| Valor 1 | Valor 2 | Valor 3 | Valor 4 |
+| --- | --- | --- | --- |
+| `Cantidad` | `stepCount=2…6` | `Secuencia y conectores ajustados al total` | `Composición GRM` |
+| `Paso activo` | `activeStep=1…6 / complete` | `Valores superiores al total se ajustan al último paso` | `Composición GRM` |
+| `Teclado` | `Flechas / Home / End` | `Mueven el foco según orientación` | `Biblioteca original` |
+| `Activación` | `Enter / Espacio` | `Seleccionan el paso enfocado` | `Biblioteca original` |
+| `Deshabilitado` | `disabled` | `Se omite en navegación` | `Biblioteca original` |
+| `Validación` | `onBeforeNext / onBeforePrevious` | `Síncrona o asíncrona; a cargo del consumidor` | `Biblioteca original` |
+| `Pendiente` | `inactive` | `Equivale a pending de Figma` | `Correspondencia GRM` |
+| `Etiquetas ocultas` | `labels=false` | `Conservan el nombre accesible` | `Composición GRM` |
+| `Finalización` | `activeStep=complete` | `Conserva el valor del último paso` | `Composición GRM` |
+
+### Reglas de uso para wireframes
+
+- Construir la instancia mediante **stepper-example.tsx** o los exports públicos listados; no copiar el HTML de las cards editoriales.
+- Mantener exactamente las combinaciones expuestas por las stories y sus controles.
+- Aplicar tokens de la marca activa; no convertir valores de una marca en estilos fijos.
+- Conservar interacción, foco, teclado, disabled y atributos accesibles del primitive.
+- Si una necesidad no figura en los tipos, controles, presets o especificaciones anteriores, tratarla como gap.
+
 ## Componente: Switch
 
 Control binario inmediato para activar o desactivar una configuración.
@@ -6880,7 +7541,7 @@ Cambio entre paneles relacionados mediante triggers contenidos o underline.
 | Categoría | Navigation |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
+| Versión documentada | `v1.1.0` — Actualización para DS v1.2.0 · 2 de octubre de 2026 |
 | Figma | [nodo 1:33](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1-33) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-tabs--docs) |
 | Registry | [tabs.json](https://ds-grm-documentation.vercel.app/r/tabs.json) |
@@ -6891,8 +7552,10 @@ Cambio entre paneles relacionados mediante triggers contenidos o underline.
 
 ### Cambios declarados en la versión del componente
 
-- Texto inactivo: foreground al 60 % → muted/foreground opaco.
-- Variante line activa: primary → primary/default-foreground.
+- Nueva composición: TabsOverflow con 2, 3 o 4 opciones visibles.
+- Navegación por controles y teclado; selección conservada.
+- Integración adaptable al ancho de Sheet.
+- Texto activo Underline: primary/default-foreground → primary; conserva excepciones de marca.
 
 ### Contrato técnico y composición
 
@@ -6902,8 +7565,8 @@ Cambio entre paneles relacionados mediante triggers contenidos o underline.
 | Data slots | `tabs`, `tabs-list`, `tabs-trigger`, `tabs-content` |
 | Dependencias externas | `react`, `class-variance-authority`, `radix-ui`, `lucide-react` |
 | Dependencias Registry | `@grm/grm-base` |
-| Composición interna del ejemplo | `./tabs` |
-| Secciones visibles en Docs | Versión → Variantes de estilo → Comportamientos oficiales → Especificaciones → Código |
+| Composición interna del ejemplo | `./tabs-overflow`, `./tabs` |
+| Secciones visibles en Docs | Versión → Variantes de estilo → Overflow → Comportamientos oficiales → Especificaciones → Código |
 
 ### Propiedades públicas de la composición de Playground
 
@@ -6921,10 +7584,16 @@ export type TabsExampleProps = {
 }
 ```
 
+```ts
+export type TabsOverflowExampleProps = { visibleTabs?: 2 | 3 | 4; activeTab?: number; showContent?: boolean; disabledTab?: boolean }
+```
+
 ### Valores predeterminados globales de Storybook
 
 | Propiedad | Valor |
 | --- | --- |
+| `composition` | `tabs` |
+| `visibleTabs` | `2` |
 | `variant` | `default` |
 | `orientation` | `horizontal` |
 | `tabAmount` | `4` |
@@ -6939,6 +7608,8 @@ export type TabsExampleProps = {
 | --- | --- | --- | --- | --- | --- | --- |
 | `variant` | Estilo | Apariencia | Sí | inline-radio | `default`, `line` | — |
 | `orientation` | Orientación | Disposición | Sí | inline-radio | `horizontal`, `vertical` | — |
+| `composition` | Composición | Disposición | Sí | inline-radio | `tabs`, `overflow` | — |
+| `visibleTabs` | Pestañas visibles · Overflow | Disposición | Sí | inline-radio | `2`, `3`, `4` | — |
 | `tabAmount` | Cantidad | Contenido | Sí | range | — | — |
 | `activeTab` | Tab activa | Estado | Sí | range | — | — |
 | `iconPosition` | Iconos | Contenido | Sí | inline-radio | `none`, `left`, `right`, `both` | — |
@@ -6959,6 +7630,88 @@ export type TabsExampleProps = {
 **Args de esta story**
 
 _No define valores propios; hereda los valores globales._
+#### OverflowTwo
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-tabs--overflow-two) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-tabs--overflow-two&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `composition` | `overflow` |
+| `visibleTabs` | `2` |
+
+#### OverflowThree
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-tabs--overflow-three) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-tabs--overflow-three&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `composition` | `overflow` |
+| `visibleTabs` | `3` |
+
+#### OverflowFour
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-tabs--overflow-four) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-tabs--overflow-four&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `composition` | `overflow` |
+| `visibleTabs` | `4` |
+
+#### OverflowSelected
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-tabs--overflow-selected) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-tabs--overflow-selected&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `composition` | `overflow` |
+| `activeTab` | `8` |
+| `visibleTabs` | `2` |
+
+#### OverflowDisabled
+
+[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-tabs--overflow-disabled) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-tabs--overflow-disabled&viewMode=story)
+
+| Propiedad | Valor |
+| --- | --- |
+| Render compartido explícito | No; usa el componente definido en meta |
+| Prueba de interacción | Sí |
+
+**Args de esta story**
+
+| Propiedad | Valor |
+| --- | --- |
+| `composition` | `overflow` |
+| `visibleTabs` | `3` |
+| `disabledTab` | `true` |
+
 ### Reglas de uso para wireframes
 
 - Construir la instancia mediante **tabs-example.tsx** o los exports públicos listados; no copiar el HTML de las cards editoriales.
@@ -7452,12 +8205,17 @@ Estas piezas pueden ser dependencias legítimas, pero no deben presentarse como 
 | `dialog` | registry:ui | Dialog requerido como soporte por los componentes públicos GRM. | `src/components/ui/dialog.tsx` | `@grm/button`, `@grm/grm-base` |
 | `direction` | registry:ui | Direction requerido como soporte por los componentes públicos GRM. | `src/components/ui/direction.tsx` | `@grm/grm-base` |
 | `input-group` | registry:ui | Input Group requerido como soporte por los componentes públicos GRM. | `src/components/ui/input-group.tsx` | `@grm/button`, `@grm/grm-base`, `@grm/input`, `@grm/textarea` |
+| `item-appearance` | registry:lib | Item Appearance requerido como soporte por los componentes públicos GRM. | `src/components/ui/item-appearance.ts` | `@grm/grm-base` |
 | `marker` | registry:ui | Marker requerido como soporte por los componentes públicos GRM. | `src/components/ui/marker.tsx` | `@grm/grm-base` |
 | `message` | registry:ui | Message requerido como soporte por los componentes públicos GRM. | `src/components/ui/message.tsx` | `@grm/grm-base` |
 | `message-scroller` | registry:ui | Message Scroller requerido como soporte por los componentes públicos GRM. | `src/components/ui/message-scroller.tsx` | `@grm/button`, `@grm/grm-base` |
 | `questionnaire` | registry:ui | Questionnaire requerido como soporte por los componentes públicos GRM. | `src/components/ui/questionnaire.tsx` | `@grm/button`, `@grm/grm-base` |
+| `sheet-body` | registry:ui | Sheet Body requerido como soporte por los componentes públicos GRM. | `src/components/ui/sheet-body.tsx` | `@grm/grm-base`, `@grm/scroll-area`, `@grm/tabs`, `@grm/tabs-overflow` |
+| `sheet-compositions` | registry:ui | Sheet Compositions requerido como soporte por los componentes públicos GRM. | `src/components/ui/sheet-compositions.tsx` | `@grm/button`, `@grm/grm-base`, `@grm/sheet` |
+| `sheet-content-sections` | registry:ui | Sheet Content Sections requerido como soporte por los componentes públicos GRM. | `src/components/ui/sheet-content-sections.tsx` | `@grm/grm-base` |
 | `skeleton` | registry:ui | Skeleton requerido como soporte por los componentes públicos GRM. | `src/components/ui/skeleton.tsx` | `@grm/grm-base` |
 | `table-cell-content` | registry:ui | Table Cell Content requerido como soporte por los componentes públicos GRM. | `src/components/ui/table-cell-content.tsx` | `@grm/avatar`, `@grm/button`, `@grm/button-group`, `@grm/grm-base`, `@grm/progress` |
+| `tabs-overflow` | registry:ui | Tabs Overflow requerido como soporte por los componentes públicos GRM. | `src/components/ui/tabs-overflow.tsx` | `@grm/button`, `@grm/grm-base`, `@grm/tabs` |
 | `textarea` | registry:ui | Textarea requerido como soporte por los componentes públicos GRM. | `src/components/ui/textarea.tsx` | `@grm/grm-base` |
 | `use-mobile` | registry:hook | Hook responsive requerido por Sidebar. | `src/hooks/use-mobile.ts` | — |
 
