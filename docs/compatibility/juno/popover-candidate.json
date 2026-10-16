@@ -1,0 +1,41 @@
+{
+  "baseline": "Local compatibility candidate",
+  "scope": "Synthetic TypeScript consumer; not Juno runtime or its 309 reported errors",
+  "results": [
+    {
+      "id": "missing-anchor",
+      "expected": "PopoverAnchor",
+      "source": "import { PopoverAnchor } from \"@/components/ui/popover\"; export const View = () => <PopoverAnchor />;",
+      "reproduced": true,
+      "diagnostics": []
+    },
+    {
+      "id": "legacy-as-child",
+      "expected": "asChild",
+      "source": "import { PopoverTrigger } from \"@/components/ui/popover\"; export const View = () => <PopoverTrigger asChild><button>Abrir</button></PopoverTrigger>;",
+      "reproduced": true,
+      "diagnostics": []
+    },
+    {
+      "id": "legacy-open-focus",
+      "expected": "onOpenAutoFocus",
+      "source": "import { PopoverContent } from \"@/components/ui/popover\"; export const View = () => <PopoverContent onOpenAutoFocus={(event: Event) => event.preventDefault()} />;",
+      "reproduced": true,
+      "diagnostics": []
+    },
+    {
+      "id": "positioner-anchor-not-exposed",
+      "expected": "anchor",
+      "source": "import { PopoverContent } from \"@/components/ui/popover\"; export const View = () => <PopoverContent anchor={null} />;",
+      "reproduced": true,
+      "diagnostics": []
+    },
+    {
+      "id": "current-api",
+      "expected": null,
+      "source": "import { Popover, PopoverTrigger, PopoverContent } from \"@/components/ui/popover\"; export const View = () => <Popover><PopoverTrigger render={<button>Abrir</button>} /><PopoverContent initialFocus={false} finalFocus={true} container={null}>Contenido</PopoverContent></Popover>;",
+      "reproduced": true,
+      "diagnostics": []
+    }
+  ]
+}

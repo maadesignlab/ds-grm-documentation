@@ -1,0 +1,10 @@
+
+ RUN  v4.1.11 /private/var/folders/88/59bxk_h57m15k5nbylgmsbww0000gn/T/grm-consumer-1cdkd5tw
+
+7:16:54 PM [vite] (client) Re-optimizing dependencies because lockfile has changed
+
+ Test Files  1 passed (1)
+      Tests  5 passed (5)
+   Start at  19:16:54
+   Duration  636ms (transform 0ms, setup 0ms, import 92ms, tests 66ms, environment 0ms)
+

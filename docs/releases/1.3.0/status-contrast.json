@@ -1,0 +1,728 @@
+{
+  "date": "2026-10-15",
+  "threshold": 4.5,
+  "method": "sRGB relative luminance; alpha composited over brand background. No rounding for pass/fail. Token-pair audit; disabled, icons-only, gradient and component geometry outside scope.",
+  "tokensSha256": "c00a6924b8be55bc8e769cb3d0b163dbbdd15c52441caac3b87e2c4871a64226",
+  "rows": [
+    {
+      "brand": "grm-global",
+      "foreground": "--success-foreground",
+      "background": "--success",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "#008937",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 4.532278351584331,
+      "passes": true
+    },
+    {
+      "brand": "grm-global",
+      "foreground": "--success-foreground",
+      "background": "--success-hover",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "#026827",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 6.9721029892412885,
+      "passes": true
+    },
+    {
+      "brand": "grm-global",
+      "foreground": "--success-foreground",
+      "background": "--success-active",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "#014e1c",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 9.962926643004607,
+      "passes": true
+    },
+    {
+      "brand": "grm-global",
+      "foreground": "--success-light-foreground",
+      "background": "--success-light",
+      "foregroundValue": "#026827",
+      "backgroundValue": "#f3fbf4",
+      "usage": "Light semantic / Button",
+      "ratio": 6.612256192317112,
+      "passes": true
+    },
+    {
+      "brand": "grm-global",
+      "foreground": "--success-light-foreground",
+      "background": "--success-light-hover",
+      "foregroundValue": "#026827",
+      "backgroundValue": "#e2f4e3",
+      "usage": "Light semantic / Button",
+      "ratio": 6.070123316688804,
+      "passes": true
+    },
+    {
+      "brand": "grm-global",
+      "foreground": "--success-light-foreground",
+      "background": "--success-light-active",
+      "foregroundValue": "#026827",
+      "backgroundValue": "#bee7c3",
+      "usage": "Light semantic / Button",
+      "ratio": 5.115472334988621,
+      "passes": true
+    },
+    {
+      "brand": "grm-global",
+      "foreground": "--error-foreground",
+      "background": "--error",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "#df351d",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 4.502015016452543,
+      "passes": true
+    },
+    {
+      "brand": "grm-global",
+      "foreground": "--error-foreground",
+      "background": "--error-hover",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "#aa392f",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 6.295893130774818,
+      "passes": true
+    },
+    {
+      "brand": "grm-global",
+      "foreground": "--error-foreground",
+      "background": "--error-active",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "#8b302a",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 8.22237077185843,
+      "passes": true
+    },
+    {
+      "brand": "grm-global",
+      "foreground": "--error-light-foreground",
+      "background": "--error-light",
+      "foregroundValue": "#aa392f",
+      "backgroundValue": "#fff5f3",
+      "usage": "Light semantic",
+      "ratio": 5.878318337126234,
+      "passes": true
+    },
+    {
+      "brand": "grm-global",
+      "foreground": "--error-light-foreground",
+      "background": "--error-light-hover",
+      "foregroundValue": "#aa392f",
+      "backgroundValue": "#ffe6e2",
+      "usage": "Light semantic",
+      "ratio": 5.297221510475146,
+      "passes": true
+    },
+    {
+      "brand": "grm-global",
+      "foreground": "--error-light-foreground",
+      "background": "--error-light-active",
+      "foregroundValue": "#aa392f",
+      "backgroundValue": "#ffcfc8",
+      "usage": "Light semantic",
+      "ratio": 4.500411019885359,
+      "passes": true
+    },
+    {
+      "brand": "grm-global",
+      "foreground": "--destructive-foreground",
+      "background": "--destructive",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "rgb(227.261321 21.745866 70.058247 / 100%)",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 4.691583266574943,
+      "passes": true
+    },
+    {
+      "brand": "grm-global",
+      "foreground": "--destructive-foreground",
+      "background": "--destructive-hover",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "rgb(187.335344 16.963213 56.393876 / 100%)",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 6.443182988341226,
+      "passes": true
+    },
+    {
+      "brand": "grm-global",
+      "foreground": "--destructive-foreground",
+      "background": "--destructive-active",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "rgb(149.133546 0.816463 40.81831 / 100%)",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 9.068388134940678,
+      "passes": true
+    },
+    {
+      "brand": "grm-global",
+      "foreground": "--destructive-light-foreground",
+      "background": "--destructive-light",
+      "foregroundValue": "rgb(149.133546 0.816463 40.81831 / 100%)",
+      "backgroundValue": "rgb(254.988965 243.687034 243.607239 / 100%)",
+      "usage": "Light semantic / Button",
+      "ratio": 8.40155104029673,
+      "passes": true
+    },
+    {
+      "brand": "grm-global",
+      "foreground": "--destructive-light-foreground",
+      "background": "--destructive-light-hover",
+      "foregroundValue": "rgb(149.133546 0.816463 40.81831 / 100%)",
+      "backgroundValue": "rgb(254.975423 227.638459 227.574698 / 100%)",
+      "usage": "Light semantic / Button",
+      "ratio": 7.5242804081631505,
+      "passes": true
+    },
+    {
+      "brand": "grm-global",
+      "foreground": "--destructive-light-foreground",
+      "background": "--destructive-light-active",
+      "foregroundValue": "rgb(149.133546 0.816463 40.81831 / 100%)",
+      "backgroundValue": "rgb(254.797319 194.543739 195.193033 / 100%)",
+      "usage": "Light semantic / Button",
+      "ratio": 5.958924661450494,
+      "passes": true
+    },
+    {
+      "brand": "reina-madre",
+      "foreground": "--success-foreground",
+      "background": "--success",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "#4d8251",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 4.538161049444759,
+      "passes": true
+    },
+    {
+      "brand": "reina-madre",
+      "foreground": "--success-foreground",
+      "background": "--success-hover",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "#44694a",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 6.240154516541511,
+      "passes": true
+    },
+    {
+      "brand": "reina-madre",
+      "foreground": "--success-foreground",
+      "background": "--success-active",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "#324d37",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 9.323637051974366,
+      "passes": true
+    },
+    {
+      "brand": "reina-madre",
+      "foreground": "--success-light-foreground",
+      "background": "--success-light",
+      "foregroundValue": "#44694a",
+      "backgroundValue": "#f5faf5",
+      "usage": "Light semantic / Button",
+      "ratio": 5.905935633904569,
+      "passes": true
+    },
+    {
+      "brand": "reina-madre",
+      "foreground": "--success-light-foreground",
+      "background": "--success-light-hover",
+      "foregroundValue": "#44694a",
+      "backgroundValue": "#eaf5eb",
+      "usage": "Light semantic / Button",
+      "ratio": 5.574264610523508,
+      "passes": true
+    },
+    {
+      "brand": "reina-madre",
+      "foreground": "--success-light-foreground",
+      "background": "--success-light-active",
+      "foregroundValue": "#44694a",
+      "backgroundValue": "#d5ead7",
+      "usage": "Light semantic / Button",
+      "ratio": 4.926635732017606,
+      "passes": true
+    },
+    {
+      "brand": "reina-madre",
+      "foreground": "--error-foreground",
+      "background": "--error",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "#eb1616",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 4.507615204555645,
+      "passes": true
+    },
+    {
+      "brand": "reina-madre",
+      "foreground": "--error-foreground",
+      "background": "--error-hover",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "#b91c1c",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 6.4700447145121895,
+      "passes": true
+    },
+    {
+      "brand": "reina-madre",
+      "foreground": "--error-foreground",
+      "background": "--error-active",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "#991b1b",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 8.310050481211189,
+      "passes": true
+    },
+    {
+      "brand": "reina-madre",
+      "foreground": "--error-light-foreground",
+      "background": "--error-light",
+      "foregroundValue": "#991b1b",
+      "backgroundValue": "#fef2f2",
+      "usage": "Light semantic",
+      "ratio": 7.596644272500255,
+      "passes": true
+    },
+    {
+      "brand": "reina-madre",
+      "foreground": "--error-light-foreground",
+      "background": "--error-light-hover",
+      "foregroundValue": "#991b1b",
+      "backgroundValue": "#fee2e2",
+      "usage": "Light semantic",
+      "ratio": 6.802728419777387,
+      "passes": true
+    },
+    {
+      "brand": "reina-madre",
+      "foreground": "--error-light-foreground",
+      "background": "--error-light-active",
+      "foregroundValue": "#991b1b",
+      "backgroundValue": "#fecaca",
+      "usage": "Light semantic",
+      "ratio": 5.743919406649229,
+      "passes": true
+    },
+    {
+      "brand": "reina-madre",
+      "foreground": "--destructive-foreground",
+      "background": "--destructive",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "#e61e42",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 4.536638877988099,
+      "passes": true
+    },
+    {
+      "brand": "reina-madre",
+      "foreground": "--destructive-foreground",
+      "background": "--destructive-hover",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "#bf1636",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 6.206947987863626,
+      "passes": true
+    },
+    {
+      "brand": "reina-madre",
+      "foreground": "--destructive-foreground",
+      "background": "--destructive-active",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "#94112a",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 8.850329884079098,
+      "passes": true
+    },
+    {
+      "brand": "reina-madre",
+      "foreground": "--destructive-light-foreground",
+      "background": "--destructive-light",
+      "foregroundValue": "#94112a",
+      "backgroundValue": "rgb(254.952107 243.741767 243.331632 / 100%)",
+      "usage": "Light semantic / Button",
+      "ratio": 8.200303217787358,
+      "passes": true
+    },
+    {
+      "brand": "reina-madre",
+      "foreground": "--destructive-light-foreground",
+      "background": "--destructive-light-hover",
+      "foregroundValue": "#94112a",
+      "backgroundValue": "rgb(254.892071 227.773488 226.8942 / 100%)",
+      "usage": "Light semantic / Button",
+      "ratio": 7.345099490127521,
+      "passes": true
+    },
+    {
+      "brand": "reina-madre",
+      "foreground": "--destructive-light-foreground",
+      "background": "--destructive-light-active",
+      "foregroundValue": "#94112a",
+      "backgroundValue": "rgb(254.639506 194.855323 193.625693 / 100%)",
+      "usage": "Light semantic / Button",
+      "ratio": 5.818910162035049,
+      "passes": true
+    },
+    {
+      "brand": "maria-linda",
+      "foreground": "--success-foreground",
+      "background": "--success",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "#278658",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 4.528573361753021,
+      "passes": true
+    },
+    {
+      "brand": "maria-linda",
+      "foreground": "--success-foreground",
+      "background": "--success-hover",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "#127649",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 5.655345711795865,
+      "passes": true
+    },
+    {
+      "brand": "maria-linda",
+      "foreground": "--success-foreground",
+      "background": "--success-active",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "rgb(10.391192 92.155361 55.508603 / 100%)",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 8.058920181859127,
+      "passes": true
+    },
+    {
+      "brand": "maria-linda",
+      "foreground": "--success-light-foreground",
+      "background": "--success-light",
+      "foregroundValue": "rgb(10.391192 92.155361 55.508603 / 100%)",
+      "backgroundValue": "rgb(233.643352 247.917165 238.508353 / 100%)",
+      "usage": "Light semantic / Button",
+      "ratio": 7.346585965643564,
+      "passes": true
+    },
+    {
+      "brand": "maria-linda",
+      "foreground": "--success-light-foreground",
+      "background": "--success-light-hover",
+      "foregroundValue": "rgb(10.391192 92.155361 55.508603 / 100%)",
+      "backgroundValue": "rgb(205.510604 238.310809 217.178517 / 100%)",
+      "usage": "Light semantic / Button",
+      "ratio": 6.477924206143007,
+      "passes": true
+    },
+    {
+      "brand": "maria-linda",
+      "foreground": "--success-light-foreground",
+      "background": "--success-light-active",
+      "foregroundValue": "rgb(10.391192 92.155361 55.508603 / 100%)",
+      "backgroundValue": "rgb(167.481211 225.888501 189.742317 / 100%)",
+      "usage": "Light semantic / Button",
+      "ratio": 5.472892390431795,
+      "passes": true
+    },
+    {
+      "brand": "maria-linda",
+      "foreground": "--error-foreground",
+      "background": "--error",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "#db3748",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 4.514124310133592,
+      "passes": true
+    },
+    {
+      "brand": "maria-linda",
+      "foreground": "--error-foreground",
+      "background": "--error-hover",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "rgb(169.998637 19.146282 48.252471 / 100%)",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 7.377689517971438,
+      "passes": true
+    },
+    {
+      "brand": "maria-linda",
+      "foreground": "--error-foreground",
+      "background": "--error-active",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "rgb(135.540673 2.406524 33.850567 / 100%)",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 10.13245978434069,
+      "passes": true
+    },
+    {
+      "brand": "maria-linda",
+      "foreground": "--error-light-foreground",
+      "background": "--error-light",
+      "foregroundValue": "rgb(135.540673 2.406524 33.850567 / 100%)",
+      "backgroundValue": "rgb(254.391288 238.33984 237.944661 / 100%)",
+      "usage": "Light semantic",
+      "ratio": 9.03831612589761,
+      "passes": true
+    },
+    {
+      "brand": "maria-linda",
+      "foreground": "--error-light-foreground",
+      "background": "--error-light-hover",
+      "foregroundValue": "rgb(135.540673 2.406524 33.850567 / 100%)",
+      "backgroundValue": "rgb(253.873436 214.520635 213.833951 / 100%)",
+      "usage": "Light semantic",
+      "ratio": 7.6476537775680455,
+      "passes": true
+    },
+    {
+      "brand": "maria-linda",
+      "foreground": "--error-light-foreground",
+      "background": "--error-light-active",
+      "foregroundValue": "rgb(135.540673 2.406524 33.850567 / 100%)",
+      "backgroundValue": "rgb(254.956059 181.702678 181.514056 / 100%)",
+      "usage": "Light semantic",
+      "ratio": 6.0739991830759,
+      "passes": true
+    },
+    {
+      "brand": "maria-linda",
+      "foreground": "--destructive-foreground",
+      "background": "--destructive",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "#ca1f50",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 5.492862338177745,
+      "passes": true
+    },
+    {
+      "brand": "maria-linda",
+      "foreground": "--destructive-foreground",
+      "background": "--destructive-hover",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "rgb(180.245866 1.783871 66.07391 / 100%)",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 6.92348192816105,
+      "passes": true
+    },
+    {
+      "brand": "maria-linda",
+      "foreground": "--destructive-foreground",
+      "background": "--destructive-active",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "rgb(148.68745 9.805084 54.572561 / 100%)",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 8.864645315072336,
+      "passes": true
+    },
+    {
+      "brand": "maria-linda",
+      "foreground": "--destructive-light-foreground",
+      "background": "--destructive-light",
+      "foregroundValue": "rgb(148.68745 9.805084 54.572561 / 100%)",
+      "backgroundValue": "rgb(254.394161 236.279013 237.675392 / 100%)",
+      "usage": "Light semantic / Button",
+      "ratio": 7.805190157105126,
+      "passes": true
+    },
+    {
+      "brand": "maria-linda",
+      "foreground": "--destructive-light-foreground",
+      "background": "--destructive-light-hover",
+      "foregroundValue": "rgb(148.68745 9.805084 54.572561 / 100%)",
+      "backgroundValue": "rgb(254.00953 207.547553 211.701475 / 100%)",
+      "usage": "Light semantic / Button",
+      "ratio": 6.391196105326796,
+      "passes": true
+    },
+    {
+      "brand": "maria-linda",
+      "foreground": "--destructive-light-foreground",
+      "background": "--destructive-light-active",
+      "foregroundValue": "rgb(148.68745 9.805084 54.572561 / 100%)",
+      "backgroundValue": "rgb(254.097883 168.041256 177.807735 / 100%)",
+      "usage": "Light semantic / Button",
+      "ratio": 4.838951304163587,
+      "passes": true
+    },
+    {
+      "brand": "piel-sana",
+      "foreground": "--success-foreground",
+      "background": "--success",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "#508420",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 4.504062754471362,
+      "passes": true
+    },
+    {
+      "brand": "piel-sana",
+      "foreground": "--success-foreground",
+      "background": "--success-hover",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "rgb(52.971358 97.034382 1.385923 / 100%)",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 7.33502019483217,
+      "passes": true
+    },
+    {
+      "brand": "piel-sana",
+      "foreground": "--success-foreground",
+      "background": "--success-active",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "rgb(36.357714 67.427633 4.662859 / 100%)",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 11.102768012220773,
+      "passes": true
+    },
+    {
+      "brand": "piel-sana",
+      "foreground": "--success-light-foreground",
+      "background": "--success-light",
+      "foregroundValue": "rgb(52.971358 97.034382 1.385923 / 100%)",
+      "backgroundValue": "rgb(237.939675 248.761768 231.379692 / 100%)",
+      "usage": "Light semantic / Button",
+      "ratio": 6.745555993535945,
+      "passes": true
+    },
+    {
+      "brand": "piel-sana",
+      "foreground": "--success-light-foreground",
+      "background": "--success-light-hover",
+      "foregroundValue": "rgb(52.971358 97.034382 1.385923 / 100%)",
+      "backgroundValue": "rgb(216.760949 241.139073 201.51372 / 100%)",
+      "usage": "Light semantic / Button",
+      "ratio": 6.074048842179305,
+      "passes": true
+    },
+    {
+      "brand": "piel-sana",
+      "foreground": "--success-light-foreground",
+      "background": "--success-light-active",
+      "foregroundValue": "rgb(52.971358 97.034382 1.385923 / 100%)",
+      "backgroundValue": "rgb(189.086548 231.035674 161.330846 / 100%)",
+      "usage": "Light semantic / Button",
+      "ratio": 5.280277564498047,
+      "passes": true
+    },
+    {
+      "brand": "piel-sana",
+      "foreground": "--error-foreground",
+      "background": "--error",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "#df3414",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 4.526942069531877,
+      "passes": true
+    },
+    {
+      "brand": "piel-sana",
+      "foreground": "--error-foreground",
+      "background": "--error-hover",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "rgb(177.189569 35.697868 3.143013 / 100%)",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 6.722229630748074,
+      "passes": true
+    },
+    {
+      "brand": "piel-sana",
+      "foreground": "--error-foreground",
+      "background": "--error-active",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "rgb(137.777916 25.480872 1.843133 / 100%)",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 9.455721217329708,
+      "passes": true
+    },
+    {
+      "brand": "piel-sana",
+      "foreground": "--error-light-foreground",
+      "background": "--error-light",
+      "foregroundValue": "rgb(137.777916 25.480872 1.843133 / 100%)",
+      "backgroundValue": "rgb(254.872053 239.380893 235.850776 / 100%)",
+      "usage": "Light semantic",
+      "ratio": 8.486687241156938,
+      "passes": true
+    },
+    {
+      "brand": "piel-sana",
+      "foreground": "--error-light-foreground",
+      "background": "--error-light-hover",
+      "foregroundValue": "rgb(137.777916 25.480872 1.843133 / 100%)",
+      "backgroundValue": "rgb(254.315581 218.093204 209.877512 / 100%)",
+      "usage": "Light semantic",
+      "ratio": 7.291587995016124,
+      "passes": true
+    },
+    {
+      "brand": "piel-sana",
+      "foreground": "--error-light-foreground",
+      "background": "--error-light-active",
+      "foregroundValue": "rgb(137.777916 25.480872 1.843133 / 100%)",
+      "backgroundValue": "rgb(253.997918 189.582452 175.211167 / 100%)",
+      "usage": "Light semantic",
+      "ratio": 5.927402133289224,
+      "passes": true
+    },
+    {
+      "brand": "piel-sana",
+      "foreground": "--destructive-foreground",
+      "background": "--destructive",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "#d61d42",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 5.104963206808084,
+      "passes": true
+    },
+    {
+      "brand": "piel-sana",
+      "foreground": "--destructive-foreground",
+      "background": "--destructive-hover",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "rgb(187.058886 16.542703 54.609921 / 100%)",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 6.469024463358297,
+      "passes": true
+    },
+    {
+      "brand": "piel-sana",
+      "foreground": "--destructive-foreground",
+      "background": "--destructive-active",
+      "foregroundValue": "#ffffff",
+      "backgroundValue": "rgb(156.980703 3.966517 42.674366 / 100%)",
+      "usage": "Solid semantic / Badge uses normal",
+      "ratio": 8.451179712305427,
+      "passes": true
+    },
+    {
+      "brand": "piel-sana",
+      "foreground": "--destructive-light-foreground",
+      "background": "--destructive-light",
+      "foregroundValue": "rgb(156.980703 3.966517 42.674366 / 100%)",
+      "backgroundValue": "rgb(254.94656 236.776619 236.531608 / 100%)",
+      "usage": "Light semantic / Button",
+      "ratio": 7.46730486594033,
+      "passes": true
+    },
+    {
+      "brand": "piel-sana",
+      "foreground": "--destructive-light-foreground",
+      "background": "--destructive-light-hover",
+      "foregroundValue": "rgb(156.980703 3.966517 42.674366 / 100%)",
+      "backgroundValue": "rgb(254.135592 209.761968 209.552098 / 100%)",
+      "usage": "Light semantic / Button",
+      "ratio": 6.173627300669724,
+      "passes": true
+    },
+    {
+      "brand": "piel-sana",
+      "foreground": "--destructive-light-foreground",
+      "background": "--destructive-light-active",
+      "foregroundValue": "rgb(156.980703 3.966517 42.674366 / 100%)",
+      "backgroundValue": "rgb(254.669479 172.365226 173.517841 / 100%)",
+      "usage": "Light semantic / Button",
+      "ratio": 4.739007102140283,
+      "passes": true
+    }
+  ]
+}

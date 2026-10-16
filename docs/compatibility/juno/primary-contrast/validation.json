@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-14",
+  "scope": "9 variables from live Figma; inherited semantic values regenerated",
+  "liveRowsVerified": 9,
+  "semanticValuesVerified": 632,
+  "protected500": "unchanged",
+  "unrelatedSnapshotVariables": "unchanged",
+  "registryAndStaticBuildParity": true,
+  "contrastWithWhite": {
+    "reina-madre": {
+      "--primary": 4.507394029375205,
+      "--primary-hover": 6.02216288925917,
+      "--primary-active": 8.009386689638294
+    },
+    "piel-sana": {
+      "--primary": 4.505980135039958,
+      "--primary-hover": 6.014064234858931,
+      "--primary-active": 8.045519686980375
+    }
+  },
+  "build": "passed",
+  "typecheck": "passed",
+  "functionalStories": {
+    "passed": 96,
+    "failed": 0,
+    "accessibilityEnabled": false,
+    "note": "Full functional rerun passed; focused token and Sheet runs included accessibility. Solid primary contrast verified separately."
+  },
+  "limitations": [
+    "Not a full-file fresh Figma audit",
+    "Gradient contrast and other brand exceptions remain separately reviewable",
+    "No release published"
+  ],
+  "lint": "passed",
+  "renderedCheck": {
+    "brand": "reina-madre",
+    "background": "rgb(224, 38, 107)",
+    "color": "rgb(255, 255, 255)",
+    "hover": "#be1b58",
+    "active": "#9c1648"
+  }
+}

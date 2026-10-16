@@ -1,0 +1,25 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { DocumentationHeader } from '../docs/DocumentationHeader';
+
+import * as ShadowStories from "./ShadowGallery.stories";
+import { ShadowGallery } from "./ShadowGallery";
+
+<Meta of={ShadowStories} name="Docs" />
+
+<DocumentationHeader title="Sombras">
+  Compara las sombras de elevación y la sombra específica de Toast con los valores usados por los componentes.
+</DocumentationHeader>
+
+## Escala disponible
+
+La implementación actual utiliza la escala de sombras de Tailwind y el token específico de Toast. No existe una colección adicional de sombras de marca en el CSS exportado.
+
+<ShadowGallery />
+
+## Cómo elegir y aplicar
+
+Conserva la sombra del componente al componer pantallas. Una sombra interior que simula un borde no representa elevación. Los valores exactos de las utilidades dependen de la versión instalada de Tailwind; el inspector permite consultar el `box-shadow` calculado.
+
+Para actualizar esta escala, concilia primero la superficie en Figma y documenta su impacto. No añadas sombras distintas por marca ni sustituyas los bordes semánticos por grises locales.
+
+Los contornos y separaciones interiores están documentados en [Bordes](?path=/docs/foundations-bordes--docs).

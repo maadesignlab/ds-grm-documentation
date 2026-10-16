@@ -1,0 +1,490 @@
+{
+  "schemaVersion": 1,
+  "version": "1.3.0",
+  "status": "published",
+  "changeType": "patch",
+  "baselineRelease": "1.2.0",
+  "preparedAt": "2026-10-14",
+  "baselinePath": "docs/compatibility/juno/primary-contrast/release-baseline.json",
+  "evidenceDirectory": "docs/compatibility/juno/primary-contrast",
+  "entities": [
+    {
+      "id": "VariableID:44:42",
+      "name": "Reina Madre/primary/600",
+      "kind": "variable",
+      "collectionId": "VariableCollectionId:16:8",
+      "previousVersion": "1.1.0",
+      "version": "1.1.1",
+      "versionBasis": "patch-color-or-alias",
+      "previousSha256": "2ab10797639a03e653666a36d8c8006d6d1aaec10020960581551f747546dd94",
+      "sha256": "cd351eaf8c37b63f1e70dff13134f58b6adf594ee85e8a5a5ae248eef291b3b6"
+    },
+    {
+      "id": "VariableID:44:43",
+      "name": "Reina Madre/primary/700",
+      "kind": "variable",
+      "collectionId": "VariableCollectionId:16:8",
+      "previousVersion": "1.1.0",
+      "version": "1.1.1",
+      "versionBasis": "patch-color-or-alias",
+      "previousSha256": "c1cd17e2d1f56cdfdce36ba6b82e8c04dfe5cc3bde9074686a3d9338c029b508",
+      "sha256": "a6d7cd7995f8b3ba4d5da552c7dfbbda4c043611c6f28b20ada7869e7c94ead9"
+    },
+    {
+      "id": "VariableID:44:44",
+      "name": "Reina Madre/primary/800",
+      "kind": "variable",
+      "collectionId": "VariableCollectionId:16:8",
+      "previousVersion": "1.1.0",
+      "version": "1.1.1",
+      "versionBasis": "patch-color-or-alias",
+      "previousSha256": "15df14c95cce47fd3a5aca22f99fd3a59bdd7a96d1ea340dcb6808121d2cec56",
+      "sha256": "ba05da76c291c0d555397eacf8f6a86660fe397635eb85373490d98d48169b30"
+    },
+    {
+      "id": "VariableID:44:185",
+      "name": "primary",
+      "kind": "variable",
+      "collectionId": "VariableCollectionId:44:169",
+      "previousVersion": "1.1.0",
+      "version": "1.1.1",
+      "versionBasis": "patch-color-or-alias",
+      "previousSha256": "ecd780b29d4a3ee1377602821fdf2d9333c43e2d97d91cc84eb3d363cf97e40b",
+      "sha256": "c9c3ab3c432f1deeeaa1b0cf51c5662afd176b92917f61b9b87b312b2420a06d"
+    },
+    {
+      "id": "VariableID:132:773",
+      "name": "Piel Sana/primary/600",
+      "kind": "variable",
+      "collectionId": "VariableCollectionId:16:8",
+      "previousVersion": "1.1.0",
+      "version": "1.1.1",
+      "versionBasis": "patch-color-or-alias",
+      "previousSha256": "3e5c136782b86d4e780c3b09b4ca3299b1cff21367cd01a233a14a8f5d18aefc",
+      "sha256": "5fc6fedcd39df9df3d4cda2751ddcab300727553b1e7b1b97be820c0e40d96eb"
+    },
+    {
+      "id": "VariableID:132:774",
+      "name": "Piel Sana/primary/700",
+      "kind": "variable",
+      "collectionId": "VariableCollectionId:16:8",
+      "previousVersion": "1.1.0",
+      "version": "1.1.1",
+      "versionBasis": "patch-color-or-alias",
+      "previousSha256": "4c587d0282cfbbe6cd1ecd5516a9411a36adf40b6940bf6b9bb0ffa144b8d2f1",
+      "sha256": "b8dfb59f6017badf74418507824dc7e1459931f99e89d79db0683d5fca0c50c8"
+    },
+    {
+      "id": "VariableID:132:775",
+      "name": "Piel Sana/primary/800",
+      "kind": "variable",
+      "collectionId": "VariableCollectionId:16:8",
+      "previousVersion": "1.1.0",
+      "version": "1.1.1",
+      "versionBasis": "patch-color-or-alias",
+      "previousSha256": "45847fdc969d630ffdee7e015ead4abc2be8262732bbe9f330b5fc0cc62c6ad0",
+      "sha256": "408c6779fc458463f25c549b44166b3818bb354b48cedd04a1d392ff602bc5a9"
+    },
+    {
+      "id": "VariableID:164:184",
+      "name": "primary-hover",
+      "kind": "variable",
+      "collectionId": "VariableCollectionId:44:169",
+      "previousVersion": "1.1.0",
+      "version": "1.1.1",
+      "versionBasis": "patch-color-or-alias",
+      "previousSha256": "9650bf2fdce5edb43db0b6c82b23e31fb99514d8ac9e9f20b470b7e23dc90ae5",
+      "sha256": "38c19fa186db8eac9aeece8c38724245385d46d1ab153ae38351b4b9ba9cba59"
+    },
+    {
+      "id": "VariableID:164:365",
+      "name": "primary-active",
+      "kind": "variable",
+      "collectionId": "VariableCollectionId:44:169",
+      "previousVersion": "1.1.0",
+      "version": "1.1.1",
+      "versionBasis": "patch-color-or-alias",
+      "previousSha256": "4b97a8bf603db837143e5d6ba4b48e34714e603f2661374c7303f9b3eeb76443",
+      "sha256": "7deee835e50dfe4804b5ba4198e5792cd99a74ce470c8efdbb6070629c81fdd6"
+    },
+    {
+      "id": "VariableID:2457:29811",
+      "name": "primary/20%",
+      "kind": "variable",
+      "collectionId": "VariableCollectionId:44:169",
+      "version": "1.1.1",
+      "previousVersion": "1.1.0",
+      "versionBasis": "patch-inherited-value",
+      "sha256": "b781418fb01435199e061dbf63263156424c7c8ca3e85a4549c5df35bc096efa",
+      "previousSha256": "b781418fb01435199e061dbf63263156424c7c8ca3e85a4549c5df35bc096efa"
+    },
+    {
+      "id": "VariableID:248:129",
+      "name": "primary/10%",
+      "kind": "variable",
+      "collectionId": "VariableCollectionId:44:169",
+      "version": "1.1.1",
+      "previousVersion": "1.1.0",
+      "versionBasis": "patch-inherited-value",
+      "sha256": "3aea0bf54267f468071f8a74aaeccf7e22fe721938aeb8bc2870eab15c4b104f",
+      "previousSha256": "3aea0bf54267f468071f8a74aaeccf7e22fe721938aeb8bc2870eab15c4b104f"
+    },
+    {
+      "id": "VariableID:248:131",
+      "name": "primary/default-foreground",
+      "kind": "variable",
+      "collectionId": "VariableCollectionId:44:169",
+      "version": "1.1.1",
+      "previousVersion": "1.1.0",
+      "versionBasis": "patch-inherited-value",
+      "sha256": "64a2f67e8bd3efd5b67f01a2693914bc41695897b77b0709231640eda4b6de85",
+      "previousSha256": "64a2f67e8bd3efd5b67f01a2693914bc41695897b77b0709231640eda4b6de85"
+    },
+    {
+      "id": "VariableID:248:511",
+      "name": "primary/15%",
+      "kind": "variable",
+      "collectionId": "VariableCollectionId:44:169",
+      "version": "1.1.1",
+      "previousVersion": "1.1.0",
+      "versionBasis": "patch-inherited-value",
+      "sha256": "23d908eb1127f2e89c583a217c9cbb2dde7f9267db6d39770e39518bb2389e4b",
+      "previousSha256": "23d908eb1127f2e89c583a217c9cbb2dde7f9267db6d39770e39518bb2389e4b"
+    },
+    {
+      "id": "VariableID:294:496",
+      "name": "primary/default-border",
+      "kind": "variable",
+      "collectionId": "VariableCollectionId:44:169",
+      "version": "1.1.1",
+      "previousVersion": "1.1.0",
+      "versionBasis": "patch-inherited-value",
+      "sha256": "e755181be8b892836fde705c41f2eee3130831ab5a94ee285b108301a16d33c5",
+      "previousSha256": "e755181be8b892836fde705c41f2eee3130831ab5a94ee285b108301a16d33c5"
+    },
+    {
+      "id": "VariableID:452:1261",
+      "name": "primary/5%",
+      "kind": "variable",
+      "collectionId": "VariableCollectionId:44:169",
+      "version": "1.1.1",
+      "previousVersion": "1.1.0",
+      "versionBasis": "patch-inherited-value",
+      "sha256": "e7f361ffa606c0b93745ac92eeb92c5914040a86fc9b8277c345bc6715fa8f0f",
+      "previousSha256": "e7f361ffa606c0b93745ac92eeb92c5914040a86fc9b8277c345bc6715fa8f0f"
+    },
+    {
+      "id": "VariableID:5082:64990",
+      "name": "button/brand-gradient-1",
+      "kind": "variable",
+      "collectionId": "VariableCollectionId:44:169",
+      "version": "1.1.1",
+      "previousVersion": "1.1.0",
+      "versionBasis": "patch-inherited-value",
+      "sha256": "4ecf7682126b1e90a9c5768d6e0d3dcd0f8dce5d2917d7ab0445ada4f069714a",
+      "previousSha256": "4ecf7682126b1e90a9c5768d6e0d3dcd0f8dce5d2917d7ab0445ada4f069714a"
+    },
+    {
+      "id": "VariableID:5082:64991",
+      "name": "button/brand-gradient-2",
+      "kind": "variable",
+      "collectionId": "VariableCollectionId:44:169",
+      "version": "1.1.1",
+      "previousVersion": "1.1.0",
+      "versionBasis": "patch-inherited-value",
+      "sha256": "c381099c22c792d75fd4c9935e80334d5849a598b7315a209dcb8ecb37ba2d0d",
+      "previousSha256": "c381099c22c792d75fd4c9935e80334d5849a598b7315a209dcb8ecb37ba2d0d"
+    },
+    {
+      "id": "VariableID:71:15",
+      "name": "sidebar/ring",
+      "kind": "variable",
+      "collectionId": "VariableCollectionId:44:169",
+      "version": "1.1.1",
+      "previousVersion": "1.1.0",
+      "versionBasis": "patch-inherited-value",
+      "sha256": "da22b9b2bbde04fc538a1cd01ac1416b7da4df99b21b4e3791297d48c7d8f0a6",
+      "previousSha256": "da22b9b2bbde04fc538a1cd01ac1416b7da4df99b21b4e3791297d48c7d8f0a6"
+    }
+  ],
+  "scope": "Primary contrast in Reina Madre and Piel Sana. Official 500 unchanged.",
+  "limitations": [
+    "Shared primitive changes also affect gradient stops; gradient compliance is not certified.",
+    "Other existing release exceptions are not closed by this update."
+  ],
+  "affectedComponents": [
+    {
+      "id": "alert",
+      "version": "1.0.1",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary"
+      ]
+    },
+    {
+      "id": "alert-dialog",
+      "version": "1.0.1",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary"
+      ]
+    },
+    {
+      "id": "attachment",
+      "version": "1.0.1",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary/15%"
+      ]
+    },
+    {
+      "id": "avatar",
+      "version": "1.0.1",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary/10%",
+        "primary/15%",
+        "primary/default-border",
+        "primary/default-foreground"
+      ]
+    },
+    {
+      "id": "badge",
+      "version": "1.0.1",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary",
+        "primary/5%",
+        "primary/default-foreground"
+      ]
+    },
+    {
+      "id": "button",
+      "version": "1.2.0",
+      "impact": "inherited-token-values",
+      "roles": [
+        "button/brand-gradient-1",
+        "button/brand-gradient-2",
+        "primary",
+        "primary-active",
+        "primary-hover"
+      ]
+    },
+    {
+      "id": "button-group",
+      "version": "1.0.1",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary",
+        "primary-active",
+        "primary-hover"
+      ]
+    },
+    {
+      "id": "calendar",
+      "version": "1.0.1",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary",
+        "primary/15%"
+      ]
+    },
+    {
+      "id": "card",
+      "version": "1.0.1",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary"
+      ]
+    },
+    {
+      "id": "checkbox",
+      "version": "1.0.1",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary",
+        "primary/default-border"
+      ]
+    },
+    {
+      "id": "collapsible",
+      "version": "1.0.1",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary"
+      ]
+    },
+    {
+      "id": "date-picker",
+      "version": "1.0.1",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary"
+      ]
+    },
+    {
+      "id": "dropdown-menu",
+      "version": "1.0.1",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary"
+      ]
+    },
+    {
+      "id": "empty",
+      "version": "1.0.1",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary"
+      ]
+    },
+    {
+      "id": "field",
+      "version": "1.0.1",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary",
+        "primary/default-border"
+      ]
+    },
+    {
+      "id": "hover-card",
+      "version": "1.0.1",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary"
+      ]
+    },
+    {
+      "id": "input",
+      "version": "1.1.0",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary",
+        "primary/15%",
+        "primary/default-border"
+      ]
+    },
+    {
+      "id": "input-otp",
+      "version": "1.0.1",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary/15%",
+        "primary/default-border"
+      ]
+    },
+    {
+      "id": "native-select",
+      "version": "1.0.1",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary/15%",
+        "primary/default-border"
+      ]
+    },
+    {
+      "id": "progress",
+      "version": "1.0.1",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary",
+        "primary/20%"
+      ]
+    },
+    {
+      "id": "radio-group",
+      "version": "1.0.1",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary",
+        "primary/default-border"
+      ]
+    },
+    {
+      "id": "sidebar",
+      "version": "1.4.1",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary",
+        "sidebar/ring"
+      ]
+    },
+    {
+      "id": "slider",
+      "version": "1.0.1",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary"
+      ]
+    },
+    {
+      "id": "switch",
+      "version": "1.0.1",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary",
+        "primary/default-border"
+      ]
+    },
+    {
+      "id": "table",
+      "version": "1.0.1",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary",
+        "primary/10%",
+        "primary/5%",
+        "primary/default-foreground"
+      ]
+    },
+    {
+      "id": "tabs",
+      "version": "1.1.0",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary"
+      ]
+    },
+    {
+      "id": "toggle",
+      "version": "1.0.1",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary/15%"
+      ]
+    },
+    {
+      "id": "toggle-group",
+      "version": "1.0.1",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary/15%"
+      ]
+    },
+    {
+      "id": "tooltip",
+      "version": "1.0.1",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary"
+      ]
+    },
+    {
+      "id": "stepper",
+      "version": "1.0.0",
+      "impact": "inherited-token-values",
+      "roles": [
+        "primary"
+      ]
+    }
+  ],
+  "resolvedChanges": {
+    "grm-global": 0,
+    "reina-madre": 10,
+    "maria-linda": 0,
+    "piel-sana": 11
+  },
+  "closedAt": "2026-10-15",
+  "publishedAt": "2026-10-15"
+}

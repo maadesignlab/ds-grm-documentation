@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "version": "1.3.0",
+  "previousVersion": "1.2.0",
+  "status": "published",
+  "preparedAt": "2026-10-14",
+  "publishedAt": "2026-10-15",
+  "baselineCommit": "ef44e4cd1c35e135470a2ef114f457d14f1dcfec",
+  "change": "Compatibilidad para JUNO, guías de integración y actualización de primarios desde Figma.",
+  "highlights": [
+    "Compatibilidad de Badge, Popover, Drawer, Alert y Calendar.",
+    "SheetResizableContent disponible desde el registro.",
+    "Primary sólido AA en Reina Madre y Piel Sana; primary/500 preservado.",
+    "Guías de integración, iconos, espaciado, sombras, modo de color y patrones.",
+    "Storybook actualizado de 10.5.10 a 10.6.2."
+  ],
+  "components": [
+    {
+      "id": "badge",
+      "name": "Badge",
+      "previousVersion": "1.0.1",
+      "version": "1.1.0",
+      "release": "1.3.0",
+      "figmaNode": "186:141",
+      "page": "1:32",
+      "change": "Aliases para consumidores existentes.",
+      "affectedSemanticRoles": [
+        "primary",
+        "primary/5%",
+        "primary/light-border",
+        "primary/default-foreground",
+        "background",
+        "foreground",
+        "border",
+        "success",
+        "success/foreground",
+        "success/light",
+        "success/light-border",
+        "success/light-foreground",
+        "warning/foreground",
+        "warning/light-foreground",
+        "destructive",
+        "destructive/light",
+        "destructive/light-border",
+        "destructive/light-foreground"
+      ],
+      "newVariants": [],
+      "newCompositions": [],
+      "updates": [
+        "default equivale a primary/solid; outline a transparent/outline.",
+        "Una apariencia explícita prevalece sobre la inferida por el alias."
+      ],
+      "history": [
+        {
+          "version": "1.1.0",
+          "source": "src/components/ui/badge.mdx",
+          "release": "1.3.0"
+        },
+        {
+          "version": "1.0.1",
+          "source": "src/components/ui/badge.mdx",
+          "release": "1.1.0"
+        },
+        {
+          "version": "1.0.0",
+          "source": "src/components/ui/badge.mdx",
+          "release": null
+        }
+      ]
+    },
+    {
+      "id": "popover",
+      "name": "Popover",
+      "previousVersion": "1.1.0",
+      "version": "1.2.0",
+      "release": "1.3.0",
+      "figmaNode": "726:6350",
+      "page": "726:6350",
+      "change": "Anclaje, composición y control de foco compatibles.",
+      "affectedSemanticRoles": [],
+      "newVariants": [],
+      "newCompositions": [
+        "PopoverAnchor"
+      ],
+      "updates": [
+        "Añade PopoverAnchor, anchor y collisionPadding.",
+        "Trigger admite asChild; conserva render de Base UI.",
+        "Añade onOpenAutoFocus y onCloseAutoFocus cancelables; conserva initialFocus, finalFocus y container."
+      ],
+      "history": [
+        {
+          "version": "1.2.0",
+          "source": "src/components/ui/popover.mdx",
+          "release": "1.3.0"
+        },
+        {
+          "version": "1.1.0",
+          "source": "src/components/ui/popover.mdx",
+          "release": "1.2.0"
+        },
+        {
+          "version": "1.0.1",
+          "source": "src/components/ui/popover.mdx",
+          "release": "1.1.0"
+        },
+        {
+          "version": "1.0.0",
+          "source": "src/components/ui/popover.mdx",
+          "release": null
+        }
+      ]
+    },
+    {
+      "id": "sheet",
+      "name": "Sheet",
+      "previousVersion": "1.1.0",
+      "version": "1.2.0",
+      "release": "1.3.0",
+      "figmaNode": "1295:386",
+      "page": "1295:386",
+      "change": "Redimensionamiento disponible como composición instalable.",
+      "affectedSemanticRoles": [
+        "sheet-drawer",
+        "muted",
+        "border",
+        "info-light",
+        "info-light-foreground"
+      ],
+      "newVariants": [],
+      "newCompositions": [
+        "SheetResizableContent"
+      ],
+      "updates": [
+        "Expone defaultWidth, resizable, resizeKey y onWidthChange.",
+        "Reutiliza la composición en Storybook y conserva padding, carril condicional y foco.",
+        "Migración: importar SheetResizableContent; las opciones de tamaño no se agregan al primitive SheetContent."
+      ],
+      "history": [
+        {
+          "version": "1.2.0",
+          "source": "src/components/ui/sheet.mdx",
+          "release": "1.3.0"
+        },
+        {
+          "version": "1.1.0",
+          "source": "src/components/ui/sheet.mdx",
+          "release": "1.2.0"
+        },
+        {
+          "version": "1.0.2",
+          "source": "src/components/ui/sheet.mdx",
+          "release": "1.1.1"
+        },
+        {
+          "version": "1.0.1",
+          "source": "src/components/ui/sheet.mdx",
+          "release": "1.1.0"
+        },
+        {
+          "version": "1.0.0",
+          "source": "src/components/ui/sheet.mdx",
+          "release": null
+        }
+      ]
+    },
+    {
+      "id": "drawer",
+      "name": "Drawer",
+      "previousVersion": "1.0.2",
+      "version": "1.1.0",
+      "release": "1.3.0",
+      "figmaNode": "1290:302",
+      "page": "1290:302",
+      "change": "Composición asChild en apertura y cierre.",
+      "affectedSemanticRoles": [
+        "sheet-drawer"
+      ],
+      "newVariants": [],
+      "newCompositions": [],
+      "updates": [
+        "DrawerTrigger y DrawerClose admiten asChild; render sigue disponible.",
+        "Conserva Base UI y swipeDirection; no añade compatibilidad completa con Vaul."
+      ],
+      "history": [
+        {
+          "version": "1.1.0",
+          "source": "src/components/ui/drawer.mdx",
+          "release": "1.3.0"
+        },
+        {
+          "version": "1.0.2",
+          "source": "src/components/ui/drawer.mdx",
+          "release": "1.1.1"
+        },
+        {
+          "version": "1.0.1",
+          "source": "src/components/ui/drawer.mdx",
+          "release": "1.1.0"
+        },
+        {
+          "version": "1.0.0",
+          "source": "src/components/ui/drawer.mdx",
+          "release": null
+        }
+      ]
+    },
+    {
+      "id": "alert",
+      "name": "Alert",
+      "previousVersion": "1.0.1",
+      "version": "1.1.0",
+      "release": "1.3.0",
+      "figmaNode": "1178:530",
+      "page": "1178:530",
+      "change": "Estados semánticos adicionales conciliados con Figma.",
+      "affectedSemanticRoles": [
+        "success/light",
+        "success/light-border",
+        "success/light-foreground",
+        "warning/light",
+        "warning/light-border",
+        "warning/light-foreground",
+        "info/light",
+        "info/light-border",
+        "info/light-foreground"
+      ],
+      "newVariants": [
+        "success",
+        "warning",
+        "info"
+      ],
+      "newCompositions": [],
+      "updates": [
+        "Añade success, warning e info con sus tokens light, light-border y light-foreground.",
+        "Conserva default y destructive; no crea colores primitivos."
+      ],
+      "history": [
+        {
+          "version": "1.1.0",
+          "source": "src/components/ui/alert.mdx",
+          "release": "1.3.0"
+        },
+        {
+          "version": "1.0.1",
+          "source": "src/components/ui/alert.mdx",
+          "release": "1.1.0"
+        },
+        {
+          "version": "1.0.0",
+          "source": "src/components/ui/alert.mdx",
+          "release": null
+        }
+      ]
+    },
+    {
+      "id": "calendar",
+      "name": "Calendar",
+      "previousVersion": "1.0.1",
+      "version": "1.1.0",
+      "release": "1.3.0",
+      "figmaNode": "1521:3069",
+      "page": "1521:3069",
+      "change": "Idioma español y compatibilidad de foco.",
+      "affectedSemanticRoles": [
+        "popover",
+        "border",
+        "foreground",
+        "muted/foreground",
+        "primary",
+        "input",
+        "muted",
+        "background",
+        "success/light-border",
+        "success/light",
+        "success/light-foreground",
+        "warning/light-foreground",
+        "primary/15%"
+      ],
+      "newVariants": [],
+      "newCompositions": [],
+      "updates": [
+        "Español por defecto, meses completos y abreviaturas L M X J V S D.",
+        "initialFocus funciona como alias de autoFocus; autoFocus explícito tiene prioridad.",
+        "defaultCalendarEndMonth permanece pendiente de evidencia de su contrato anterior."
+      ],
+      "history": [
+        {
+          "version": "1.1.0",
+          "source": "src/components/ui/calendar.mdx",
+          "release": "1.3.0"
+        },
+        {
+          "version": "1.0.1",
+          "source": "src/components/ui/calendar.mdx",
+          "release": "1.1.0"
+        },
+        {
+          "version": "1.0.0",
+          "source": "src/components/ui/calendar.mdx",
+          "release": null
+        }
+      ]
+    },
+    {
+      "id": "card",
+      "name": "Card",
+      "previousVersion": "1.0.1",
+      "version": "1.0.2",
+      "release": "1.3.0",
+      "figmaNode": "1798:3431",
+      "page": "1798:3431",
+      "change": "Contenido de demostración localizado.",
+      "affectedSemanticRoles": [
+        "border",
+        "primary",
+        "foreground",
+        "muted/foreground",
+        "muted/50%"
+      ],
+      "newVariants": [],
+      "newCompositions": [],
+      "updates": [
+        "Textos predeterminados de la demostración en español.",
+        "Sin cambios en la API ni en la geometría del primitive."
+      ],
+      "history": [
+        {
+          "version": "1.0.2",
+          "source": "src/components/ui/card.mdx",
+          "release": "1.3.0"
+        },
+        {
+          "version": "1.0.1",
+          "source": "src/components/ui/card.mdx",
+          "release": "1.1.0"
+        },
+        {
+          "version": "1.0.0",
+          "source": "src/components/ui/card.mdx",
+          "release": null
+        }
+      ]
+    },
+    {
+      "id": "stepper",
+      "name": "Stepper",
+      "version": "1.0.1",
+      "figmaNode": "7088:1337",
+      "page": "7081:51355",
+      "history": [
+        {
+          "version": "1.0.1",
+          "source": "src/components/ui/stepper.mdx",
+          "release": "1.3.0"
+        },
+        {
+          "version": "1.0.0",
+          "source": "src/components/ui/stepper.mdx",
+          "release": "1.2.0"
+        }
+      ],
+      "previousVersion": "1.0.0",
+      "release": "1.3.0",
+      "change": "Atribución distribuida y contraste documentado.",
+      "newVariants": [],
+      "newCompositions": [],
+      "updates": [
+        "Distribuye la licencia MIT como archivo independiente del registro para conservarla tras la transformación del CLI.",
+        "Documenta el contraste corregido de Continuar en Reina Madre y Piel Sana."
+      ],
+      "affectedSemanticRoles": [
+        "primary",
+        "primary-foreground",
+        "background",
+        "foreground",
+        "muted-foreground",
+        "border",
+        "destructive"
+      ]
+    }
+  ],
+  "tokensManifest": "design-system/pending-token-update.json",
+  "variableChanges": 18,
+  "resolvedValueChanges": 21,
+  "stylesChanged": false,
+  "toolingChanged": true,
+  "validation": [
+    "97 historias aprobadas con comprobaciones automáticas de accesibilidad activadas el 15 de octubre de 2026. No certifica todas las combinaciones ni elimina las excepciones conocidas.",
+    "Instalación limpia de 70 entradas verificada; no reproduce el comando original de 43 componentes de JUNO.",
+    "Primary sólido de Reina Madre y Piel Sana cumple 4,5:1 en normal, hover y active.",
+    "Revisión de gradientes: GRM Global y María Linda cumplen en toda la rampa.",
+    "Regresiones separadas del código documental público; se conservan en tests/storybook para desarrollo.",
+    "72 combinaciones success/error/destructive verificadas: mínimo 4,500411:1, sin redondear para decidir cumplimiento."
+  ],
+  "limitations": [
+    "Brand-gradient: Reina Madre pendiente en normal (4,357:1); Piel Sana pendiente en normal (1,835:1), hover (2,152:1) y active (2,549:1).",
+    "Se conserva la excepción histórica de Tabs Underline de María Linda (4,27:1), sin una nueva certificación de ese escenario.",
+    "defaultCalendarEndMonth, headingLevel y 8 errores «Varios»: faltan diagnósticos suficientes en Slack y el artifact.",
+    "La validación de JUNO, su instalación original y las diferencias visuales de Dialog/AlertDialog y Table siguen pendientes.",
+    "Modo oscuro completo no implementado; el inspector conserva v1.0.0, sin cambios en esta entrega."
+  ],
+  "evidence": "docs/compatibility/juno",
+  "publicationGate": "Publicación autorizada por el usuario el 15 de octubre de 2026.",
+  "updatedAt": "2026-10-15",
+  "tooling": [
+    {
+      "id": "storybook",
+      "name": "Storybook",
+      "previousVersion": "10.5.10",
+      "version": "10.6.2",
+      "updates": [
+        "Actualiza Storybook, su integración Next.js/Vite y los addons oficiales a 10.6.2.",
+        "Alinea eslint-plugin-storybook a 10.6.2 y fija @chromatic-com/storybook en 5.5.1.",
+        "El inspector del DS conserva su versión 1.0.0; no se añade una nueva versión de esa funcionalidad."
+      ],
+      "evidence": [
+        "package.json",
+        "package-lock.json"
+      ]
+    }
+  ],
+  "breakingChangesFromBaselineReport": {
+    "release": "1.2.0",
+    "scope": "Incompatibilidades frente al consumo de JUNO reportado por DEV",
+    "components": [
+      "popover",
+      "drawer",
+      "badge",
+      "sheet",
+      "alert",
+      "calendar"
+    ],
+    "migrationGuide": "docs/compatibility/juno/MIGRACION.md",
+    "fullyRestoresPreviousConsumer": false
+  },
+  "pendingDesignDecisions": [
+    "Propuestas de gradiente RM primary/600 → secondary/600 y PS primary/600 → primary/700: preparadas, no aplicadas.",
+    "Tabs Underline de María Linda: excepción histórica conservada."
+  ],
+  "pendingDevValidation": [
+    "defaultCalendarEndMonth: definición anterior y usos.",
+    "headingLevel: componente y diagnóstico exactos.",
+    "8 errores Varios: desglose y fragmentos.",
+    "Integración JUNO: 309 errores, 40 pruebas, Alta de Personal, Dialog/AlertDialog y Table.",
+    "Instalación original de 43 componentes, lockfile y conciliación de estilos propios."
+  ],
+  "closedAt": "2026-10-15",
+  "approval": {
+    "user": "approved-with-documented-limitations",
+    "approvedOn": "2026-10-15",
+    "technical": "passed-with-known-exceptions",
+    "published": true,
+    "remote": "release"
+  },
+  "openItems": [
+    {
+      "id": "DS-130-01",
+      "category": "design",
+      "title": "Gradientes de Reina Madre y Piel Sana",
+      "owner": "Diseño DS",
+      "status": "open",
+      "scope": "Reina Madre: normal 4,357:1. Piel Sana: normal 1,835:1, hover 2,152:1 y active 2,549:1. Las propuestas no están aplicadas.",
+      "closureCriteria": "Aprobar una propuesta, conciliar Figma y código y verificar al menos 4,5:1 en todos los estados con texto normal."
+    },
+    {
+      "id": "DS-130-02",
+      "category": "design",
+      "title": "Tabs Underline de María Linda",
+      "owner": "Diseño DS",
+      "status": "open",
+      "scope": "Excepción histórica de 4,27:1; no se certificó nuevamente este escenario.",
+      "closureCriteria": "Reproducir el escenario, aprobar la corrección y adjuntar medición de contraste e interacción."
+    },
+    {
+      "id": "DS-130-03",
+      "category": "dev",
+      "title": "defaultCalendarEndMonth",
+      "owner": "DEV JUNO; DS tras recibir evidencia",
+      "status": "open",
+      "scope": "Falta la definición anterior y los usos; la compatibilidad de ese export no se declara resuelta.",
+      "closureCriteria": "DEV aporta contrato y usos; DS determina la solución y DEV valida compilación y comportamiento."
+    },
+    {
+      "id": "DS-130-04",
+      "category": "dev",
+      "title": "headingLevel",
+      "owner": "DEV JUNO; DS tras recibir evidencia",
+      "status": "open",
+      "scope": "No se identifica el componente ni el diagnóstico exacto.",
+      "closureCriteria": "Obtener componente, código consumidor y error reproducible; verificar la solución en DS y JUNO."
+    },
+    {
+      "id": "DS-130-05",
+      "category": "dev",
+      "title": "8 errores Varios",
+      "owner": "DEV JUNO; DS tras recibir evidencia",
+      "status": "open",
+      "scope": "El reporte solo indica cantidad y categoría.",
+      "closureCriteria": "Desglosar errores y archivos; asignar cada causa y verificar su resolución o migración."
+    },
+    {
+      "id": "DS-130-06",
+      "category": "dev",
+      "title": "Integración en JUNO",
+      "owner": "DEV JUNO",
+      "status": "open",
+      "scope": "Los 309 errores y 40 pruebas del reporte no se consideran resueltos por las pruebas del DS. Incluye Alta de Personal, Dialog/AlertDialog y Table.",
+      "closureCriteria": "Ejecutar typecheck y pruebas de JUNO con esta entrega; validar flujos, capturas y diferencias restantes."
+    },
+    {
+      "id": "DS-130-07",
+      "category": "dev",
+      "title": "Instalación y estilos del consumidor",
+      "owner": "DEV JUNO",
+      "status": "open",
+      "scope": "Falta reproducir la instalación original de 43 componentes, lockfile y estilos propios.",
+      "closureCriteria": "Instalar en una copia controlada de JUNO; comparar dependencias, CSS y componentes; confirmar ausencia de sobrescrituras no deseadas."
+    }
+  ]
+}

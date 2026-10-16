@@ -1,0 +1,12 @@
+import json,tempfile,subprocess
+from pathlib import Path
+repo=Path('/Users/miguelarias/DEV/REINA MADRE/ds-grm-documentation'); root=Path(tempfile.mkdtemp(prefix='grm-bulk-',dir='/private/tmp'));Path('/tmp/grm-bulk-path').write_text(str(root))
+(root/'src/styles').mkdir(parents=True);(root/'src/styles/globals.css').write_text('@import "./grm.css";\n')
+c=json.loads((repo/'components.json').read_text());c['registries']={'@grm':'http://127.0.0.1:8767/{name}.json'};(root/'components.json').write_text(json.dumps(c))
+(root/'package.json').write_text(json.dumps({'name':'grm-bulk-audit','version':'0.0.0','private':True,'type':'module','dependencies':{'react':'19.2.8','react-dom':'19.2.8','tailwindcss':'^4'},'devDependencies':{'typescript':'^5','@types/react':'^19','@types/react-dom':'^19','@types/node':'^20'}}))
+(root/'tsconfig.json').write_text(json.dumps({'compilerOptions':{'target':'ES2020','lib':['DOM','ES2020'],'module':'ESNext','moduleResolution':'Bundler','jsx':'react-jsx','strict':True,'skipLibCheck':True,'noEmit':True,'esModuleInterop':True,'baseUrl':'.','paths':{'@/*':['src/*']}},'include':['src']}))
+items=json.loads((repo/'src/components/registry.json').read_text())['items']; names=[i['name'] for i in items if i['type'] in ['registry:ui','registry:block']]
+(root/'requested.json').write_text(json.dumps(names,indent=2));print(root,len(names),flush=True)
+with (root/'install.log').open('w') as log:
+ run=subprocess.run(['node',str(repo/'node_modules/shadcn/dist/index.js'),'add',*['@grm/'+n for n in names],'--yes'],cwd=root,stdout=log,stderr=subprocess.STDOUT)
+print('CLI exit',run.returncode,flush=True)

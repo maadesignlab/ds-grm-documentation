@@ -1,0 +1,16 @@
+
+ RUN  v4.1.11 /Users/miguelarias/DEV/REINA MADRE/ds-grm-documentation
+
+7:15:37 PM [vite] (client) dependency optimized: class-variance-authority
+7:15:37 PM [vite] (client) optimized dependencies changed. reloading
+
+[vitest] Vite unexpectedly reloaded a test. This may cause tests to fail, lead to flaky behaviour or duplicated test runs.
+For a stable experience, please add mentioned dependencies to your config's `optimizeDeps.include` field manually.
+
+
+
+ Test Files  1 passed (1)
+      Tests  4 passed (4)
+   Start at  19:15:36
+   Duration  1.07s (transform 0ms, setup 0ms, import 263ms, tests 82ms, environment 0ms)
+

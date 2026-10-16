@@ -9,6 +9,20 @@ import { AlertCompositionOverview, AlertSpecifications, AlertVariantOverview } f
 ## Versión
 
 <details open className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+<summary><strong>v1.1.0</strong> · Actualización para DS v1.3.0 · 14 de octubre de 2026</summary>
+
+**Variantes nuevas:** `success`, `warning`, `info`
+
+**Actualizaciones:**
+
+- Añade success, warning e info con sus tokens light, light-border y light-foreground.
+- Conserva default y destructive; no crea colores primitivos.
+
+**Tokens consumidos en esta actualización:** `success/light`, `success/light-border`, `success/light-foreground`, `warning/light`, `warning/light-border`, `warning/light-foreground`, `info/light`, `info/light-border`, `info/light-foreground`. Consulta los cambios de valores por marca en Foundations → Tokens.
+
+</details>
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
 <summary><strong>v1.0.1</strong> · Sincronización Figma para DS v1.1.0</summary>
 
   **Variantes nuevas:** Ninguna.
@@ -29,6 +43,13 @@ import { AlertCompositionOverview, AlertSpecifications, AlertVariantOverview } f
   - Implementación sobre la API compuesta de Alert de shadcn/ui.
 
 </details>
+
+## Estados semánticos
+
+`variant="success"`, `"warning"` e `"info"` distinguen los avisos con los tokens existentes de cada estado: `--{estado}-light` para fondo, `--{estado}-light-border` para borde y `--{estado}-light-foreground` para título, icono y descripción. Las acciones anidadas conservan los tokens de Button.
+
+Son extensiones de compatibilidad para consumidores, conciliadas en el set Alert de Figma. `default` y `destructive` conservan su apariencia. Las cinco variantes comparten las propiedades de título, descripción, icono y acción.
+
 
 ## Variantes de estado
 

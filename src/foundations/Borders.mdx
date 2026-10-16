@@ -1,0 +1,20 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { DocumentationHeader } from '../docs/DocumentationHeader';
+import * as BorderStories from './BorderGallery.stories';
+import { BorderGallery } from './BorderGallery';
+
+<Meta of={BorderStories} name="Docs" />
+
+<DocumentationHeader title="Bordes">
+  Consulta los roles de contorno y las separaciones interiores del DS. Las muestras usan los tokens de la marca activa y distinguen el borde de la elevación.
+</DocumentationHeader>
+
+<BorderGallery />
+
+## Cómo elegir y aplicar
+
+Conserva el rol y la geometría definidos por el componente. Usa `border` para los contornos neutros y `input` donde el control lo indique; los estados semánticos consumen su propio token de borde.
+
+Los contornos interiores de Badge y las separaciones de Sheet usan `box-shadow: inset`: dibujan la línea dentro de la superficie sin aumentar sus dimensiones. No representan una sombra de elevación.
+
+Consulta [Sombras](?path=/docs/foundations-sombras--docs) para las superficies flotantes. Esta página documenta los valores existentes; no añade variables ni modifica componentes.

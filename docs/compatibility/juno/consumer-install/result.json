@@ -1,0 +1,48 @@
+{
+  "status": "passed-with-explicit-css-setup",
+  "cliVersion": "4.19.1",
+  "registry": "Local candidate served on loopback; no remote publication",
+  "resolvedVersions": {
+    "@base-ui/react": "1.9.0",
+    "radix-ui": "1.8.1",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "shadcn": "4.21.4",
+    "tailwindcss": "4.3.3"
+  },
+  "sourceParity": true,
+  "sha256": "4266b788dad364718555bb4cba3b059863fff6ce1afa737cb5a63ad0505b6703",
+  "typecheck": "passed",
+  "browserTests": {
+    "passed": 4,
+    "failed": 0,
+    "scope": [
+      "asChild handler/ref and independent anchor",
+      "keyboard Escape and focus return",
+      "cancelable focus",
+      "modern render/ref focus/container and outside dismissal",
+      "real Tailwind CSS geometry and background across four brands"
+    ]
+  },
+  "findings": [
+    {
+      "finding": "CLI copies grm.css but does not import it into configured CSS entry",
+      "resolution": "Added grm-base.docs installation guidance; consumer imports ./grm.css explicitly; no silent stylesheet overwrite"
+    },
+    {
+      "finding": "Compatible dependency ranges resolve newer Base UI and Radix versions",
+      "resolution": "Resolved versions and lockfile saved; installed candidate passes tested cases"
+    }
+  ],
+  "commands": [
+    "npm install",
+    "node <DS>/node_modules/shadcn/dist/index.js add @grm/popover --yes",
+    "npx tsc --noEmit",
+    "npx vitest run --config vitest.compatibility.config.ts"
+  ],
+  "limits": [
+    "No Juno runtime available",
+    "Only individual Popover installation covered; bulk installation remains pending",
+    "Source files in consumer come exclusively from CLI; test files and CSS activation configured separately"
+  ]
+}

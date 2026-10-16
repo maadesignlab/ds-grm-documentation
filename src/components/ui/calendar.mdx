@@ -10,6 +10,21 @@ import { CalendarCompositions, CalendarHeaders, CalendarModes, CalendarSpecifica
 ## Versión
 
 <details open className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+<summary><strong>v1.1.0</strong> · Actualización para DS v1.3.0 · 14 de octubre de 2026</summary>
+
+**Variantes nuevas:** Ninguna.
+
+**Actualizaciones:**
+
+- Español por defecto, meses completos y abreviaturas L M X J V S D.
+- initialFocus funciona como alias de autoFocus; autoFocus explícito tiene prioridad.
+- defaultCalendarEndMonth permanece pendiente de evidencia de su contrato anterior.
+
+**Tokens consumidos en esta actualización:** `popover`, `border`, `foreground`, `muted/foreground`, `primary`, `input`, `muted`, `background`, `success/light-border`, `success/light`, `success/light-foreground`, `warning/light-foreground`, `primary/15%`. Consulta los cambios de valores por marca en Foundations → Tokens.
+
+</details>
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
 <summary><strong>v1.0.1</strong> · Sincronización Figma para DS v1.1.0</summary>
 
   **Variantes nuevas:** Ninguna.
@@ -31,6 +46,19 @@ import { CalendarCompositions, CalendarHeaders, CalendarModes, CalendarSpecifica
   - Presenta siempre dos meses cuando `mode="range"`.
   - Docs y Playground renderizan exclusivamente `CalendarExample`.
 </details>
+
+## Idioma, foco y selector
+
+El componente instalado usa español por defecto: semana desde el lunes, encabezados `L M X J V S D` y nombres completos de mes. `locale` y `formatters` permiten sobrescribir esta configuración.
+
+`initialFocus` se admite como alias de `autoFocus`; si se especifican ambos, prevalece `autoFocus`. El selector de mes/año ya forma parte de la API: usa `captionLayout="dropdown"` con `startMonth` y `endMonth` para delimitar el intervalo. El encabezado predeterminado sigue siendo `label`.
+
+```tsx
+<Calendar mode="single" captionLayout="dropdown"
+  startMonth={new Date(2020, 0)} endMonth={new Date(2030, 11)}
+  initialFocus />
+```
+
 
 ## Selección
 

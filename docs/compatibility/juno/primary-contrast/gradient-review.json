@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-14",
+  "tokensSha256": "c00a6924b8be55bc8e769cb3d0b163dbbdd15c52441caac3b87e2c4871a64226",
+  "threshold": 4.5,
+  "method": "10001 samples along opaque sRGB ramp with white text; computed browser gradients 135deg, endpoints 0/100%, neutral overlay oklch(0.145 0 none) with observed opacities 0/0.08/0.16. Whole-ramp conservative assessment, not a glyph-position audit or full WCAG certification.",
+  "rows": [
+    {
+      "brand": "grm-global",
+      "stops": [
+        "#228664",
+        "#004f47"
+      ],
+      "states": {
+        "normal": {
+          "minimumRatio": 4.50443189856004,
+          "passesWholeRamp": true
+        },
+        "hover": {
+          "minimumRatio": 5.1140934814196894,
+          "passesWholeRamp": true
+        },
+        "active": {
+          "minimumRatio": 5.828005711080939,
+          "passesWholeRamp": true
+        }
+      }
+    },
+    {
+      "brand": "reina-madre",
+      "stops": [
+        "#e0266b",
+        "#a25cbf"
+      ],
+      "states": {
+        "normal": {
+          "minimumRatio": 4.357341419691326,
+          "passesWholeRamp": false
+        },
+        "hover": {
+          "minimumRatio": 4.954792025580795,
+          "passesWholeRamp": true
+        },
+        "active": {
+          "minimumRatio": 5.656533323292551,
+          "passesWholeRamp": true
+        }
+      }
+    },
+    {
+      "brand": "maria-linda",
+      "stops": [
+        "#4f7f77",
+        "#458178"
+      ],
+      "states": {
+        "normal": {
+          "minimumRatio": 4.502227566362509,
+          "passesWholeRamp": true
+        },
+        "hover": {
+          "minimumRatio": 5.10681895043274,
+          "passesWholeRamp": true
+        },
+        "active": {
+          "minimumRatio": 5.8141516698282905,
+          "passesWholeRamp": true
+        }
+      }
+    },
+    {
+      "brand": "piel-sana",
+      "stops": [
+        "#ffad6c",
+        "#a84400"
+      ],
+      "states": {
+        "normal": {
+          "minimumRatio": 1.8347068897204604,
+          "passesWholeRamp": false
+        },
+        "hover": {
+          "minimumRatio": 2.1523817580741023,
+          "passesWholeRamp": false
+        },
+        "active": {
+          "minimumRatio": 2.548992430615203,
+          "passesWholeRamp": false
+        }
+      }
+    }
+  ]
+}

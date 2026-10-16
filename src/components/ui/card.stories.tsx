@@ -3,7 +3,7 @@ import { CardExample, type CardExampleProps } from "./card-example"
 
 const meta = {
   title: "Components/Card",
-  args: { size: "default", variant: "body", spacing: 16, footer: "column", showAction: true, title: "Login to your account", description: "Enter your email below to login to your account" },
+  args: { size: "default", variant: "body", spacing: 16, footer: "column", showAction: true, title: "Acceso al portal", description: "Consulta y gestiona la información de tu cuenta." },
   argTypes: {
     size: { name: "Tamaño", control: "inline-radio", options: ["default", "sm"], table: { category: "Card" } },
     variant: { name: "Estilo", control: "inline-radio", options: ["body", "image"], table: { category: "Card" } },

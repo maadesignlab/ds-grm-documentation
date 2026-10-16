@@ -1,0 +1,102 @@
+{
+  "@base-ui/react": {
+    "declared": "^1.9.0",
+    "resolved": "1.9.0"
+  },
+  "@fontsource-variable/inter": {
+    "declared": "^5.3.0",
+    "resolved": "5.3.0"
+  },
+  "@fontsource-variable/jetbrains-mono": {
+    "declared": "^5.3.0",
+    "resolved": "5.3.0"
+  },
+  "@fontsource-variable/kantumruy-pro": {
+    "declared": "^5.3.0",
+    "resolved": "5.3.0"
+  },
+  "@fontsource-variable/plus-jakarta-sans": {
+    "declared": "^5.3.0",
+    "resolved": "5.3.0"
+  },
+  "@radix-ui/react-slot": {
+    "declared": "^1.5.0",
+    "resolved": "1.5.0"
+  },
+  "@shadcn/react": {
+    "declared": "^0.3.1",
+    "resolved": "0.3.1"
+  },
+  "@tanstack/react-table": {
+    "declared": "^9.3.1",
+    "resolved": "9.3.1"
+  },
+  "class-variance-authority": {
+    "declared": "^0.7.1",
+    "resolved": "0.7.1"
+  },
+  "clsx": {
+    "declared": "^2.1.1",
+    "resolved": "2.1.1"
+  },
+  "cmdk": {
+    "declared": "^1.1.1",
+    "resolved": "1.1.1"
+  },
+  "date-fns": {
+    "declared": "^4.4.0",
+    "resolved": "4.4.0"
+  },
+  "embla-carousel-react": {
+    "declared": "^8.6.0",
+    "resolved": "8.6.0"
+  },
+  "input-otp": {
+    "declared": "^1.5.0",
+    "resolved": "1.5.0"
+  },
+  "lucide-react": {
+    "declared": "^1.57.0",
+    "resolved": "1.57.0"
+  },
+  "radix-ui": {
+    "declared": "^1.8.1",
+    "resolved": "1.8.1"
+  },
+  "react": {
+    "declared": "19.2.8",
+    "resolved": "19.2.8"
+  },
+  "react-day-picker": {
+    "declared": "^10.0.2",
+    "resolved": "10.0.2"
+  },
+  "react-dom": {
+    "declared": "19.2.8",
+    "resolved": "19.2.8"
+  },
+  "react-resizable-panels": {
+    "declared": "^4.14.5",
+    "resolved": "4.14.5"
+  },
+  "recharts": {
+    "declared": "^3.10.1",
+    "resolved": "3.10.1"
+  },
+  "shadcn": {
+    "declared": "^4.21.5",
+    "resolved": "4.21.5"
+  },
+  "tailwind-merge": {
+    "declared": "^3.7.0",
+    "resolved": "3.7.0"
+  },
+  "tailwindcss": {
+    "declared": "^4",
+    "resolved": "4.3.3"
+  },
+  "tw-animate-css": {
+    "declared": "^1.4.0",
+    "resolved": "1.4.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-14",
+  "scope": "v1.3.0 documentation preparation",
+  "build": "passed",
+  "typecheck": "passed",
+  "lint": {
+    "errors": 0,
+    "warnings": 1,
+    "note": "Existing archived dom-contrast-scanner.js warning"
+  },
+  "releaseStory": {
+    "status": "passed",
+    "a11y": true,
+    "componentDetailButtonsChecked": 8,
+    "historicalVersionsChecked": [
+      "1.2.0",
+      "1.1.1",
+      "1.1.0"
+    ]
+  },
+  "visualReview": "Releases Docs and Sheet detail verified at 1440px",
+  "traceability": "8 component MDX versions match candidate; published manifest and package remain 1.2.0",
+  "published": false
+}

@@ -1,0 +1,41 @@
+import "../../src/styles/grm.css"
+import React from 'react'
+import { createRoot, type Root } from 'react-dom/client'
+import { flushSync } from 'react-dom'
+import { beforeEach, afterEach, expect, test, vi } from 'vitest'
+import { page, userEvent } from 'vitest/browser'
+import { Drawer, DrawerTrigger, DrawerClose, DrawerContent, DrawerTitle, DrawerDescription } from '../../src/components/ui/drawer'
+import { Calendar } from '../../src/components/ui/calendar'
+import { enUS } from 'react-day-picker/locale'
+import { Alert, AlertTitle, AlertDescription } from '../../src/components/ui/alert'
+let host: HTMLDivElement, root: Root
+beforeEach(() => { host = document.createElement('div'); document.body.append(host); root = createRoot(host) })
+afterEach(() => { flushSync(() => root.unmount()); host.remove() })
+for (const legacy of [true,false]) test(`Drawer ${legacy ? 'asChild' : 'render'} keeps child ref, events and close`, async () => {
+ const ref=React.createRef<HTMLButtonElement>(); const clicked=vi.fn()
+ const child=<button ref={ref} onClick={clicked}>Abrir panel</button>
+ flushSync(() => root.render(<Drawer><DrawerTrigger {...(legacy ? {asChild:true, children:child} : {render:child})} /><DrawerContent><DrawerTitle>Ficha</DrawerTitle><DrawerDescription>Detalle</DrawerDescription><DrawerClose asChild><button>Cerrar panel</button></DrawerClose></DrawerContent></Drawer>))
+ expect(ref.current?.tagName).toBe('BUTTON'); expect(host.querySelectorAll('button')).toHaveLength(1)
+ await userEvent.click(page.getByRole('button',{name:'Abrir panel'})); expect(clicked).toHaveBeenCalledOnce()
+ await expect.poll(()=>document.querySelector('[data-slot="drawer-popup"]')).not.toBeNull()
+ await userEvent.click(page.getByRole('button',{name:'Cerrar panel'}))
+ await expect.poll(()=>document.querySelector('[data-slot="drawer-popup"]')).toBeNull()
+ await expect.poll(()=>document.activeElement===ref.current).toBe(true)
+})
+test('Calendar defaults to Spanish, supports dropdowns and focus alias', async () => {
+ flushSync(() => root.render(<Calendar mode="single" selected={new Date(2026,9,13)} defaultMonth={new Date(2026,9,1)} initialFocus captionLayout="dropdown" startMonth={new Date(2020,0)} endMonth={new Date(2030,11)} />))
+ expect(Array.from(host.querySelectorAll('th[scope="col"]')).map(n=>n.textContent).join(' ')).toBe('L M X J V S D')
+ expect(host.querySelectorAll('select')).toHaveLength(2)
+ expect(host.querySelector('select')?.textContent).toContain('octubre')
+ await expect.poll(()=>host.contains(document.activeElement)).toBe(true)
+ flushSync(()=>root.render(<Calendar locale={enUS} formatters={{formatWeekdayName:()=> 'custom'}} autoFocus={false} initialFocus />))
+ expect(host.textContent).toContain('custom')
+})
+test('Alert status variants preserve content and use separate semantic palettes', () => {
+ flushSync(()=>root.render(<>{(['default','destructive','success','warning','info'] as const).map(variant=><Alert key={variant} variant={variant}><AlertTitle>{variant}</AlertTitle><AlertDescription>Detalle</AlertDescription></Alert>)}</>))
+ const alerts=host.querySelectorAll('[role="alert"]'); expect(alerts).toHaveLength(5)
+ for(const [i,status] of ['success','warning','info'].entries()) {
+  expect(alerts[i+2].className).toContain(`bg-[var(--${status}-light)]`)
+  expect(alerts[i+2].textContent).toBe(status+'Detalle')
+ }
+})

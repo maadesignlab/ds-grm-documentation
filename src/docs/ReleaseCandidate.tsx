@@ -9,7 +9,7 @@ type ComponentChange = Omit<typeof manifest.components[number], "previousVersion
 const summaryClass = 'flex cursor-pointer list-none items-center justify-between gap-4 px-5 py-4 text-sm font-medium text-card-foreground md:px-6';
 
 export function ComponentDetail({ component, release = manifest.version, tokenValuesChanged = true }: { component: ComponentChange; release?: string; tokenValuesChanged?: boolean }) {
-  return <section aria-label={`Cambios de ${component.name}`} className="mt-5 grid gap-5 rounded-lg border border-border bg-card p-5">
+  return <section aria-label={`Cambios de ${component.name} · v${release}`} className="mt-5 grid gap-5 rounded-lg border border-border bg-card p-5">
     <header><h5 className="m-0 text-base font-semibold">{component.name} · {component.previousVersion ? `v${component.previousVersion} → ` : "Nuevo · "}v{component.version}</h5><p className="mb-0 mt-2 text-sm">{component.change}</p></header>
     <div className="grid gap-4 sm:grid-cols-2"><div><strong className="text-sm">Variantes nuevas</strong><p className="mb-0 mt-1 text-sm">{component.newVariants.join(', ') || 'Ninguna.'}</p></div><div><strong className="text-sm">Composiciones nuevas</strong><p className="mb-0 mt-1 text-sm">{component.newCompositions.join(', ') || 'Ninguna.'}</p></div></div>
     <ul className="m-0 list-disc pl-5 text-sm">{component.updates.map(update => <li key={update}>{update}</li>)}</ul>

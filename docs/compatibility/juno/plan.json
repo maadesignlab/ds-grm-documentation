@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-13",
+  "baseline": "v1.2.0",
+  "baselineCommit": "ef44e4cd1c35e135470a2ef114f457d14f1dcfec",
+  "source": "https://reinamadreworkspace.slack.com/archives/C0BBSG9KB0V/p1791598417750799",
+  "status": "six-components-compatibility-validated-locally",
+  "scope": "DS only; no Juno installation or remote publication",
+  "findings": [
+    {
+      "finding": "PopoverAnchor is not exported",
+      "cause": "Base UI wrapper has no compatibility anchor and does not expose Positioner.anchor",
+      "proposal": "Expose native anchor positioning and evaluate a scoped PopoverAnchor compatibility bridge with ref composition. Preserve trigger anchoring when no explicit anchor is supplied."
+    },
+    {
+      "finding": "asChild is rejected",
+      "cause": "Trigger uses Base UI render API",
+      "proposal": "Evaluate opt-in asChild compatibility forwarding to render, preserving child handlers and refs; reject ambiguous simultaneous asChild/render usage."
+    },
+    {
+      "finding": "onOpenAutoFocus is rejected",
+      "cause": "Popup uses initialFocus",
+      "proposal": "Evaluate an event-compatible bridge with preventDefault behavior; explicitly define precedence with initialFocus and verify focus return."
+    }
+  ],
+  "acceptance": [
+    "Existing render/initialFocus/container usages keep compiling and behaving identically",
+    "Separate anchor positions popup without becoming an extra trigger",
+    "Opening with keyboard, Escape, outside dismissal and focus restoration pass",
+    "Nested Sheet portal/container still works",
+    "Registry-installed consumer compiles and matches Storybook",
+    "No palette, token or accepted contrast exception changes"
+  ],
+  "next": "Review documentation gaps and release metadata locally; await DEV evidence for unresolved Juno API cases and product validation",
+  "limits": [
+    "Synthetic compiler fixtures do not reproduce the complete Alta de Personal screen",
+    "No claim to resolve all 309 errors or 40 failed Juno tests"
+  ],
+  "bulkAudit": "bulk-install/result.json",
+  "pendingInformation": [
+    "defaultCalendarEndMonth original definition and usage",
+    "headingLevel affected component and exact usage",
+    "8 Varios type errors in 4 files"
+  ],
+  "migrationGuide": "MIGRACION.md"
+}

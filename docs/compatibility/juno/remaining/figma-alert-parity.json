@@ -1,0 +1,254 @@
+[
+  {
+    "brand": "grm-global",
+    "token": "success-light-border",
+    "code": "#bee7c3",
+    "maxChannelDelta": 3.874301910400391e-06,
+    "match": true
+  },
+  {
+    "brand": "grm-global",
+    "token": "warning-light-border",
+    "code": "#ffe8a8",
+    "maxChannelDelta": 5.185604095458984e-06,
+    "match": true
+  },
+  {
+    "brand": "grm-global",
+    "token": "info-light-foreground",
+    "code": "#3f4daa",
+    "maxChannelDelta": 5.066394805908203e-06,
+    "match": true
+  },
+  {
+    "brand": "grm-global",
+    "token": "success-light",
+    "code": "#f3fbf4",
+    "maxChannelDelta": 7.152557373046875e-07,
+    "match": true
+  },
+  {
+    "brand": "grm-global",
+    "token": "warning-light",
+    "code": "#fffbef",
+    "maxChannelDelta": 9.5367431640625e-07,
+    "match": true
+  },
+  {
+    "brand": "grm-global",
+    "token": "info-light",
+    "code": "#f5f6ff",
+    "maxChannelDelta": 5.960464477539062e-07,
+    "match": true
+  },
+  {
+    "brand": "grm-global",
+    "token": "success-light-foreground",
+    "code": "#026827",
+    "maxChannelDelta": 1.475214958190918e-06,
+    "match": true
+  },
+  {
+    "brand": "grm-global",
+    "token": "warning-light-foreground",
+    "code": "#925b20",
+    "maxChannelDelta": 6.496906280517578e-06,
+    "match": true
+  },
+  {
+    "brand": "grm-global",
+    "token": "info-light-border",
+    "code": "#d4d9ff",
+    "maxChannelDelta": 2.562999725341797e-06,
+    "match": true
+  },
+  {
+    "brand": "reina-madre",
+    "token": "success-light-border",
+    "code": "#bce0bf",
+    "maxChannelDelta": 3.993511199951172e-06,
+    "match": true
+  },
+  {
+    "brand": "reina-madre",
+    "token": "warning-light-border",
+    "code": "#ffd39f",
+    "maxChannelDelta": 5.7220458984375e-06,
+    "match": true
+  },
+  {
+    "brand": "reina-madre",
+    "token": "info-light-foreground",
+    "code": "#075985",
+    "maxChannelDelta": 7.271766662597656e-06,
+    "match": true
+  },
+  {
+    "brand": "reina-madre",
+    "token": "success-light",
+    "code": "#f5faf5",
+    "maxChannelDelta": 5.960464477539062e-07,
+    "match": true
+  },
+  {
+    "brand": "reina-madre",
+    "token": "warning-light",
+    "code": "#fff9f2",
+    "maxChannelDelta": 7.748603820800781e-07,
+    "match": true
+  },
+  {
+    "brand": "reina-madre",
+    "token": "info-light",
+    "code": "#f0f9ff",
+    "maxChannelDelta": 8.940696716308594e-07,
+    "match": true
+  },
+  {
+    "brand": "reina-madre",
+    "token": "success-light-foreground",
+    "code": "#44694a",
+    "maxChannelDelta": 3.546476364135742e-06,
+    "match": true
+  },
+  {
+    "brand": "reina-madre",
+    "token": "warning-light-foreground",
+    "code": "#65492b",
+    "maxChannelDelta": 3.248453140258789e-06,
+    "match": true
+  },
+  {
+    "brand": "reina-madre",
+    "token": "info-light-border",
+    "code": "#bae6fd",
+    "maxChannelDelta": 4.112720489501953e-06,
+    "match": true
+  },
+  {
+    "brand": "maria-linda",
+    "token": "success-light-border",
+    "code": "rgb(167.481211 225.888501 189.742317 / 100%)",
+    "maxChannelDelta": 4.88353720129453e-07,
+    "match": true
+  },
+  {
+    "brand": "maria-linda",
+    "token": "warning-light-border",
+    "code": "rgb(251.879379 214.785162 157.416008 / 100%)",
+    "maxChannelDelta": 4.812316944935446e-07,
+    "match": true
+  },
+  {
+    "brand": "maria-linda",
+    "token": "info-light-foreground",
+    "code": "rgb(5.664435 66.276659 130.239212 / 100%)",
+    "maxChannelDelta": 3.7361919869027815e-07,
+    "match": true
+  },
+  {
+    "brand": "maria-linda",
+    "token": "success-light",
+    "code": "rgb(233.643352 247.917165 238.508353 / 100%)",
+    "maxChannelDelta": 3.893356392836722e-07,
+    "match": true
+  },
+  {
+    "brand": "maria-linda",
+    "token": "warning-light",
+    "code": "rgb(253.47005 244.129604 230.120881 / 100%)",
+    "maxChannelDelta": 3.962097139265097e-07,
+    "match": true
+  },
+  {
+    "brand": "maria-linda",
+    "token": "info-light",
+    "code": "rgb(234.186237 243.085907 254.721931 / 100%)",
+    "maxChannelDelta": 4.944152749430941e-07,
+    "match": true
+  },
+  {
+    "brand": "maria-linda",
+    "token": "success-light-foreground",
+    "code": "rgb(10.391192 92.155361 55.508603 / 100%)",
+    "maxChannelDelta": 4.2050933757309394e-07,
+    "match": true
+  },
+  {
+    "brand": "maria-linda",
+    "token": "warning-light-foreground",
+    "code": "rgb(116.664319 81.120798 8.25024 / 100%)",
+    "maxChannelDelta": 2.8977585486700264e-07,
+    "match": true
+  },
+  {
+    "brand": "maria-linda",
+    "token": "info-light-border",
+    "code": "rgb(165.25944 203.598608 253.168346 / 100%)",
+    "maxChannelDelta": 2.8581999345078657e-07,
+    "match": true
+  },
+  {
+    "brand": "piel-sana",
+    "token": "success-light-border",
+    "code": "rgb(189.086548 231.035674 161.330846 / 100%)",
+    "maxChannelDelta": 2.500572122698941e-07,
+    "match": true
+  },
+  {
+    "brand": "piel-sana",
+    "token": "warning-light-border",
+    "code": "rgb(253.568586 217.388904 155.648251 / 100%)",
+    "maxChannelDelta": 4.0909193899096863e-07,
+    "match": true
+  },
+  {
+    "brand": "piel-sana",
+    "token": "info-light-foreground",
+    "code": "rgb(1.937831 68.666594 123.480029 / 100%)",
+    "maxChannelDelta": 4.899063128505077e-07,
+    "match": true
+  },
+  {
+    "brand": "piel-sana",
+    "token": "success-light",
+    "code": "rgb(237.939675 248.761768 231.379692 / 100%)",
+    "maxChannelDelta": 4.5032501816422155e-07,
+    "match": true
+  },
+  {
+    "brand": "piel-sana",
+    "token": "warning-light",
+    "code": "rgb(253.663779 244.623304 229.633002 / 100%)",
+    "maxChannelDelta": 9.88998465345503e-08,
+    "match": true
+  },
+  {
+    "brand": "piel-sana",
+    "token": "info-light",
+    "code": "rgb(233.423268 243.406549 254.518733 / 100%)",
+    "maxChannelDelta": 4.999389773274743e-07,
+    "match": true
+  },
+  {
+    "brand": "piel-sana",
+    "token": "success-light-foreground",
+    "code": "rgb(52.971358 97.034382 1.385923 / 100%)",
+    "maxChannelDelta": 3.8189482687300824e-07,
+    "match": true
+  },
+  {
+    "brand": "piel-sana",
+    "token": "warning-light-foreground",
+    "code": "rgb(118.679267 83.713832 0.101929 / 100%)",
+    "maxChannelDelta": 3.485851323148381e-07,
+    "match": true
+  },
+  {
+    "brand": "piel-sana",
+    "token": "info-light-border",
+    "code": "rgb(161.317623 204.953904 252.370374 / 100%)",
+    "maxChannelDelta": 1.4610671428272326e-07,
+    "match": true
+  }
+]

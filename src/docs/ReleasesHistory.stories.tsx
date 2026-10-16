@@ -16,16 +16,30 @@ export const LocalReview: Story = {
   name: 'Historial de versiones',
   play: async ({ canvasElement }) => {
     const page = within(canvasElement);
+    const upcoming = within(page.getByText('Versión 1.3.0').closest('details')!);
+    await userEvent.click(upcoming.getByText('Componentes incluidos', { exact: true }));
+    for (const name of ['Badge', 'Popover', 'Sheet', 'Drawer', 'Alert', 'Calendar', 'Card', 'Stepper']) {
+      await userEvent.click(upcoming.getByRole('button', { name: `Ver cambios de ${name}` }));
+      await expect(upcoming.getByRole('region', { name: new RegExp(`^Cambios de ${name} ·`) })).toHaveTextContent('v1.3.0');
+    }
+    await expect(upcoming.getByText('Última publicada')).toBeVisible();
+    await expect(upcoming.getByText('cerrada-con novedades')).toBeVisible();
+    await userEvent.click(upcoming.getByText('Validación de cierre', { exact: true }));
+    for (const title of ['DS-130-01 · Gradientes de Reina Madre y Piel Sana', 'DS-130-07 · Instalación y estilos del consumidor']) {
+      await expect(upcoming.getByText(title, { exact: true })).toBeVisible();
+    }
+    await expect(upcoming.getAllByText('Criterio de cierre:')).toHaveLength(7);
+    await userEvent.click(page.getByText('Versión 1.2.0'));
     const minor = within(page.getByText('Versión 1.2.0').closest('details')!);
     await userEvent.click(minor.getByText('Componentes incluidos', { exact: true }));
     for (const name of ['Sheet', 'Item', 'Tabs', 'Popover', 'Combobox', 'Stepper']) {
       await userEvent.click(minor.getByRole('button', { name: `Ver cambios de ${name}` }));
-      await expect(minor.getByRole('region', { name: `Cambios de ${name}` })).toHaveTextContent('v1.2.0');
+      await expect(minor.getByRole('region', { name: new RegExp(`^Cambios de ${name} ·`) })).toHaveTextContent('v1.2.0');
     }
     await userEvent.click(minor.getByText('Inspector de Storybook · Nuevo'));
     await expect(minor.getByText(/Alt\+I fija/)).toBeVisible();
     await expect(page.getAllByText('Última publicada')).toHaveLength(1);
-    await expect(minor.getByText('Última publicada')).toBeVisible();
+    await expect(minor.queryByText('Última publicada')).toBeNull();
     await expect(page.queryByText(/Preparación local|publicación pendiente|La aprobación de esta versión/)).toBeNull();
     await expect(page.getByText('Versión 1.1.1').closest('details')).not.toHaveAttribute('open');
     await userEvent.click(page.getByText('Versión 1.1.1'));
@@ -33,7 +47,7 @@ export const LocalReview: Story = {
     await userEvent.click(patch.getByText('Componentes incluidos', { exact: true }));
     for (const name of ['Sheet', 'Drawer']) {
       await userEvent.click(patch.getByRole('button', { name: `Ver cambios de ${name}` }));
-      const detail = patch.getByRole('region', { name: `Cambios de ${name}` });
+      const detail = patch.getByRole('region', { name: new RegExp(`^Cambios de ${name} ·`) });
       await expect(detail).toHaveTextContent('v1.0.1 → v1.0.2');
       await expect(detail).toHaveTextContent('v1.1.1');
     }
@@ -45,12 +59,12 @@ export const LocalReview: Story = {
       const button = canvas.getByRole('button', { name: `Ver cambios de ${component.name}` });
       await userEvent.click(button);
       await expect(button).toHaveAttribute('aria-pressed', 'true');
-      const detail = canvas.getByRole('region', { name: `Cambios de ${component.name}` });
+      const detail = canvas.getByRole('region', { name: new RegExp(`^Cambios de ${component.name} ·`) });
       await expect(detail).toHaveTextContent(`v${component.previousVersion} → v${component.version}`);
       for (const update of component.updates) await expect(detail).toHaveTextContent(update);
     }
     await userEvent.click(canvas.getByRole('button', { name: 'Ver cambios de Toast' }));
-    await expect(canvas.getByRole('region', { name: 'Cambios de Toast' })).toHaveTextContent('72 % →');
+    await expect(canvas.getByRole('region', { name: 'Cambios de Toast · v1.1.0' })).toHaveTextContent('72 % →');
     await userEvent.click(canvas.getAllByText('Validación de cierre', { exact: true })[0]);
     await expect(canvas.getByText('Excepciones de marca pendientes · 28 casos')).toBeVisible();
     await expect(canvas.getAllByText('23 sep 2026', { exact: true }).find(element => !element.className.includes('sm:hidden'))!).toBeVisible();

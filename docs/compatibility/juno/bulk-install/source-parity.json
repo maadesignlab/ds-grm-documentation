@@ -1,0 +1,492 @@
+[
+  {
+    "component": "accordion",
+    "file": "src/components/ui/accordion.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "alert",
+    "file": "src/components/ui/alert.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "alert-dialog",
+    "file": "src/components/ui/alert-dialog.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "attachment",
+    "file": "src/components/ui/attachment.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "avatar",
+    "file": "src/components/ui/avatar.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "badge",
+    "file": "src/components/ui/badge.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "breadcrumb",
+    "file": "src/components/ui/breadcrumb.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "button",
+    "file": "src/components/ui/button.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "button-group",
+    "file": "src/components/ui/button-group.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "calendar",
+    "file": "src/components/ui/calendar.tsx",
+    "present": true,
+    "exact": false,
+    "normalizedMatch": true
+  },
+  {
+    "component": "card",
+    "file": "src/components/ui/card.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "carousel",
+    "file": "src/components/ui/carousel.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "checkbox",
+    "file": "src/components/ui/checkbox.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "collapsible",
+    "file": "src/components/ui/collapsible.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "combobox",
+    "file": "src/components/ui/combobox.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "context-menu",
+    "file": "src/components/ui/context-menu.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "data-table",
+    "file": "src/components/ui/data-table.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "date-picker",
+    "file": "src/components/ui/date-picker-example.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "drawer",
+    "file": "src/components/ui/drawer.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "dropdown-menu",
+    "file": "src/components/ui/dropdown-menu.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "empty",
+    "file": "src/components/ui/empty.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "field",
+    "file": "src/components/ui/field.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "hover-card",
+    "file": "src/components/ui/hover-card.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "input",
+    "file": "src/components/ui/input.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "input-otp",
+    "file": "src/components/ui/input-otp.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "item",
+    "file": "src/components/ui/item.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "kbd",
+    "file": "src/components/ui/kbd.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "label",
+    "file": "src/components/ui/label.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "menubar",
+    "file": "src/components/ui/menubar.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "native-select",
+    "file": "src/components/ui/native-select.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "navigation-menu",
+    "file": "src/components/ui/navigation-menu.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "pagination",
+    "file": "src/components/ui/pagination.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "popover",
+    "file": "src/components/ui/popover.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "progress",
+    "file": "src/components/ui/progress.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "radio-group",
+    "file": "src/components/ui/radio-group.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "resizable",
+    "file": "src/components/ui/resizable.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "scroll-area",
+    "file": "src/components/ui/scroll-area.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "select",
+    "file": "src/components/ui/select.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "separator",
+    "file": "src/components/ui/separator.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "sheet",
+    "file": "src/components/ui/sheet.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "sidebar",
+    "file": "src/components/ui/sidebar.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "slider",
+    "file": "src/components/ui/slider.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "spinner",
+    "file": "src/components/ui/spinner.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "stepper",
+    "file": "src/components/ui/stepper.tsx",
+    "present": true,
+    "exact": false,
+    "normalizedMatch": false
+  },
+  {
+    "component": "switch",
+    "file": "src/components/ui/switch.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "table",
+    "file": "src/components/ui/table.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "tabs",
+    "file": "src/components/ui/tabs.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "toast",
+    "file": "src/components/ui/toast.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "toggle",
+    "file": "src/components/ui/toggle.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "toggle-group",
+    "file": "src/components/ui/toggle-group.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "tooltip",
+    "file": "src/components/ui/tooltip.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "aspect-ratio",
+    "file": "src/components/ui/aspect-ratio.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "bubble",
+    "file": "src/components/ui/bubble.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "chart",
+    "file": "src/components/ui/chart.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "command",
+    "file": "src/components/ui/command.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "dialog",
+    "file": "src/components/ui/dialog.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "direction",
+    "file": "src/components/ui/direction.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "input-group",
+    "file": "src/components/ui/input-group.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "marker",
+    "file": "src/components/ui/marker.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "message",
+    "file": "src/components/ui/message.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "message-scroller",
+    "file": "src/components/ui/message-scroller.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "questionnaire",
+    "file": "src/components/ui/questionnaire.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "sheet-body",
+    "file": "src/components/ui/sheet-body.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "sheet-compositions",
+    "file": "src/components/ui/sheet-compositions.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "sheet-content-sections",
+    "file": "src/components/ui/sheet-content-sections.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "sheet-resizable",
+    "file": "src/components/ui/sheet-resizable.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "skeleton",
+    "file": "src/components/ui/skeleton.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "table-cell-content",
+    "file": "src/components/ui/table-cell-content.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "tabs-overflow",
+    "file": "src/components/ui/tabs-overflow.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  },
+  {
+    "component": "textarea",
+    "file": "src/components/ui/textarea.tsx",
+    "present": true,
+    "exact": true,
+    "normalizedMatch": true
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "baseline": "Local compatibility candidate",
+  "scope": "Synthetic TypeScript consumer; not Juno runtime or its 309 reported errors",
+  "results": [
+    {
+      "id": "default-alias",
+      "expected": "\"default\"",
+      "source": "import { Badge } from \"@/components/ui/badge\"; export const View = () => <Badge variant=\"default\">Estado</Badge>;",
+      "reproduced": true,
+      "diagnostics": []
+    },
+    {
+      "id": "outline-alias",
+      "expected": "\"outline\"",
+      "source": "import { Badge } from \"@/components/ui/badge\"; export const View = () => <Badge variant=\"outline\">Estado</Badge>;",
+      "reproduced": true,
+      "diagnostics": []
+    },
+    {
+      "id": "helper-alias",
+      "expected": "\"default\"",
+      "source": "import { badgeVariants } from \"@/components/ui/badge\"; export const classes = badgeVariants({ variant: \"default\" });",
+      "reproduced": true,
+      "diagnostics": []
+    },
+    {
+      "id": "current-api",
+      "expected": null,
+      "source": "import { Badge, badgeVariants } from \"@/components/ui/badge\"; export const View = () => <Badge variant=\"success\" appearance=\"outline\" size=\"lg\">Estado</Badge>; export const classes = badgeVariants({variant:\"primary\"});",
+      "reproduced": true,
+      "diagnostics": []
+    }
+  ]
+}

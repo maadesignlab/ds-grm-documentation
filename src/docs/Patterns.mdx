@@ -1,0 +1,37 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { DocumentationHeader } from './DocumentationHeader';
+import { DocsTable } from '../components/ui/selectable-docs-shared';
+
+<Meta title="Design System/Patrones de composición" />
+
+<DocumentationHeader title="Patrones de composición">
+  Combina los componentes públicos del DS para resolver tareas frecuentes. Los flujos muestran el orden de interacción; la aplicación aporta datos, permisos, validación y persistencia.
+</DocumentationHeader>
+
+## Consultar y editar un registro
+
+<ol className="sb-unstyled not-prose my-6 grid list-none gap-3 p-0 md:grid-cols-3">
+  <li className="rounded-lg border border-border bg-card p-4 text-card-foreground"><span className="text-xs leading-4 text-muted-foreground">Paso 1</span><strong className="mt-2 block text-sm leading-5">Localizar</strong><p className="mb-0 mt-2 text-sm leading-5 text-muted-foreground">Usa Data Table para buscar, filtrar y seleccionar un registro.</p></li>
+  <li className="rounded-lg border border-border bg-card p-4 text-card-foreground"><span className="text-xs leading-4 text-muted-foreground">Paso 2</span><strong className="mt-2 block text-sm leading-5">Editar</strong><p className="mb-0 mt-2 text-sm leading-5 text-muted-foreground">Abre Sheet con los campos del registro y conserva sus valores al redimensionar.</p></li>
+  <li className="rounded-lg border border-border bg-card p-4 text-card-foreground"><span className="text-xs leading-4 text-muted-foreground">Paso 3</span><strong className="mt-2 block text-sm leading-5">Confirmar</strong><p className="mb-0 mt-2 text-sm leading-5 text-muted-foreground">Valida y guarda en la aplicación; comunica el resultado con un aviso de estado.</p></li>
+</ol>
+
+Referencias: [Data Table](?path=/docs/components-data-table--docs), [Sheet](?path=/docs/components-sheet--docs) y [Alert](?path=/docs/components-alert--docs).
+
+## Completar una tarea por pasos
+
+<ol className="sb-unstyled not-prose my-6 grid list-none gap-3 p-0 md:grid-cols-3">
+  <li className="rounded-lg border border-border bg-card p-4 text-card-foreground"><span className="text-xs leading-4 text-muted-foreground">Paso 1</span><strong className="mt-2 block text-sm leading-5">Elegir datos</strong><p className="mb-0 mt-2 text-sm leading-5 text-muted-foreground">Recoge la información inicial; usa Date Picker cuando se necesite una fecha.</p></li>
+  <li className="rounded-lg border border-border bg-card p-4 text-card-foreground"><span className="text-xs leading-4 text-muted-foreground">Paso 2</span><strong className="mt-2 block text-sm leading-5">Validar y avanzar</strong><p className="mb-0 mt-2 text-sm leading-5 text-muted-foreground">Usa Stepper para mostrar el avance. La aplicación decide cuándo se puede continuar.</p></li>
+  <li className="rounded-lg border border-border bg-card p-4 text-card-foreground"><span className="text-xs leading-4 text-muted-foreground">Paso 3</span><strong className="mt-2 block text-sm leading-5">Revisar y finalizar</strong><p className="mb-0 mt-2 text-sm leading-5 text-muted-foreground">Presenta un resumen y confirma el resultado después de guardar.</p></li>
+</ol>
+
+Referencias: [Date Picker](?path=/docs/components-date-picker--docs) y [Stepper](?path=/docs/components-stepper--docs).
+
+## Qué debes conservar
+
+<DocsTable columns={["Composición", "Responsabilidad del DS", "Responsabilidad del producto"]} rows={[["Sheet", "Cuerpo, foco, scrollbar y redimensionamiento", "Campos, guardado y manejo de cambios sin guardar"], ["Data Table", "Composición de tabla y controles", "Datos, filtros y paginación conectados al servicio"], ["Date Picker", "Selección y presentación de fecha", "Límites y disponibilidad del caso de uso"], ["Alert", "Presentación del estado", "Título claro, contexto y siguiente acción; no depender solo del color"], ["Stepper", "Navegación y presentación del progreso", "Reglas de validación y persistencia entre pasos"]]} />
+
+## Alcance de estas referencias
+
+Reutiliza los componentes y ejemplos públicos; evita copiar su estructura a HTML paralelo. Estos flujos son guías de composición, no pantallas completas de JUNO. Las plantillas de Personal, Agenda y Pacientes todavía no forman parte del DS.

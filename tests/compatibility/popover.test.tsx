@@ -1,0 +1,67 @@
+import React, { createRef } from 'react'
+import { createRoot, type Root } from 'react-dom/client'
+import { flushSync } from 'react-dom'
+import { afterEach, beforeEach, expect, test, vi } from 'vitest'
+import { userEvent, page } from 'vitest/browser'
+import { Popover, PopoverAnchor, PopoverTrigger, PopoverContent, PopoverTitle } from '../../src/components/ui/popover'
+
+let host: HTMLDivElement
+let root: Root
+beforeEach(() => { host = document.createElement('div'); document.body.append(host); root = createRoot(host) })
+afterEach(async () => { flushSync(() => root.unmount()); host.remove() })
+const popup = () => document.querySelector<HTMLElement>('[data-slot="popover-content"]')
+
+test('asChild preserves child handler/ref; anchor positions without creating a trigger; keyboard and focus return work', async () => {
+  const childClick = vi.fn(), opened = vi.fn(), closed = vi.fn()
+  const triggerRef = createRef<HTMLButtonElement>(), anchorRef = createRef<HTMLDivElement>()
+  flushSync(() => root.render(<Popover>
+    <PopoverAnchor asChild ref={anchorRef}><div style={{ marginLeft: 150, width: 180, height: 25 }}>Referencia</div></PopoverAnchor>
+    <PopoverTrigger asChild><button ref={triggerRef} onClick={childClick}>Abrir</button></PopoverTrigger>
+    <PopoverContent align="start" side="bottom" onOpenAutoFocus={opened} onCloseAutoFocus={closed}><PopoverTitle>Datos</PopoverTitle><input aria-label="Nombre" /></PopoverContent>
+  </Popover>))
+  expect(host.querySelectorAll('button')).toHaveLength(1)
+  expect(anchorRef.current?.dataset.slot).toBe('popover-anchor')
+  triggerRef.current!.focus()
+  await userEvent.keyboard('{Enter}')
+  await expect.poll(() => popup() !== null).toBe(true)
+  await expect.poll(() => document.activeElement?.getAttribute('aria-label')).toBe('Nombre')
+  await expect.poll(() => Math.abs(popup()!.getBoundingClientRect().left - anchorRef.current!.getBoundingClientRect().left)).toBeLessThan(2)
+  expect(childClick).toHaveBeenCalledTimes(1)
+  expect(opened).toHaveBeenCalled()
+  await userEvent.keyboard('{Escape}')
+  await expect.poll(() => popup()).toBeNull()
+  await expect.poll(() => document.activeElement).toBe(triggerRef.current)
+  expect(closed).toHaveBeenCalled()
+})
+
+test('preventDefault cancels automatic focus and keeps trigger focused', async () => {
+  flushSync(() => root.render(<Popover><PopoverTrigger>Conservar foco</PopoverTrigger><PopoverContent onOpenAutoFocus={event => event.preventDefault()}><input aria-label="Campo" /></PopoverContent></Popover>))
+  await userEvent.click(page.getByRole('button', { name: 'Conservar foco' }))
+  await expect.poll(() => popup() !== null).toBe(true)
+  await expect.poll(() => document.activeElement?.textContent).toBe('Conservar foco')
+  await userEvent.keyboard('{Escape}')
+  await expect.poll(() => popup()).toBeNull()
+})
+
+test('modern API, explicit anchor and container remain supported; outside click dismisses', async () => {
+  const anchor = document.createElement('div'), portal = document.createElement('div')
+  anchor.style.cssText = 'margin-left:250px;width:100px;height:20px'
+  host.append(anchor, portal)
+  const target = createRef<HTMLInputElement>()
+  const focusEvent = vi.fn()
+  flushSync(() => root.render(<Popover><PopoverTrigger render={<button />}>Moderno</PopoverTrigger><PopoverContent anchor={anchor} container={portal} align="start" initialFocus={target} onOpenAutoFocus={focusEvent}><input ref={target} aria-label="Destino" /></PopoverContent></Popover>))
+  // React owns host children; external portal and anchor live outside its root.
+  document.body.append(anchor, portal)
+  try {
+    await userEvent.click(page.getByRole('button', { name: 'Moderno' }))
+    await expect.poll(() => portal.querySelector('[data-slot="popover-content"]') !== null).toBe(true)
+    await expect.poll(() => document.activeElement).toBe(target.current)
+    expect(focusEvent).toHaveBeenCalled()
+    await userEvent.click(page.getByRole('button', { name: 'Moderno' }))
+    await expect.poll(() => popup()).toBeNull()
+    await userEvent.click(page.getByRole('button', { name: 'Moderno' }))
+    await expect.poll(() => popup() !== null).toBe(true)
+    await userEvent.click(page.elementLocator(anchor))
+    await expect.poll(() => popup()).toBeNull()
+  } finally { anchor.remove(); portal.remove() }
+})

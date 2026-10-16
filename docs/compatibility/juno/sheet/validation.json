@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-13",
+  "baseline": "v1.2.0",
+  "status": "validated-locally",
+  "component": "SheetResizableContent",
+  "registry": "@grm/sheet-resizable",
+  "dependencies": [
+    "@grm/button",
+    "@grm/grm-base",
+    "@grm/sheet"
+  ],
+  "checks": {
+    "existingSheetStories": 15,
+    "compatibilityBrowserTests": 2,
+    "installedConsumerBrowserTests": 2,
+    "installedSourceParity": [
+      "sheet",
+      "sheet-resizable",
+      "button"
+    ],
+    "consumerRenderedWidths": [
+      480,
+      720
+    ],
+    "typecheck": "passed",
+    "targetedLint": "passed",
+    "storybookBuild": "passed"
+  },
+  "preserved": [
+    "Sheet primitive API",
+    "Shared Docs/Playground composition",
+    "Body spacing and scrollbar logic",
+    "Brand tokens and contrast exceptions"
+  ],
+  "limits": [
+    "Not tested in Juno; consumer is an independent fixture",
+    "Consumers must use SheetResizableContent to opt into resize props",
+    "No remote publication"
+  ]
+}

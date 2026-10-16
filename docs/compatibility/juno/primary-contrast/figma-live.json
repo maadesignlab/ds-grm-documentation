@@ -1,0 +1,162 @@
+{
+  "capturedAt": "2026-10-14T17:10:34.637Z",
+  "fileKey": "X33xAJBT7ty8FWYDFVvo3m",
+  "variables": [
+    [
+      "VariableID:44:42",
+      "Reina Madre/primary/600",
+      "VariableCollectionId:16:8",
+      "COLOR",
+      {
+        "16:0": {
+          "r": 0.8784313797950745,
+          "g": 0.14901961386203766,
+          "b": 0.41960784792900085,
+          "a": 1
+        }
+      }
+    ],
+    [
+      "VariableID:44:43",
+      "Reina Madre/primary/700",
+      "VariableCollectionId:16:8",
+      "COLOR",
+      {
+        "16:0": {
+          "r": 0.7450980544090271,
+          "g": 0.10588235408067703,
+          "b": 0.3450980484485626,
+          "a": 1
+        }
+      }
+    ],
+    [
+      "VariableID:44:44",
+      "Reina Madre/primary/800",
+      "VariableCollectionId:16:8",
+      "COLOR",
+      {
+        "16:0": {
+          "r": 0.6117647290229797,
+          "g": 0.08627451211214066,
+          "b": 0.2823529541492462,
+          "a": 1
+        }
+      }
+    ],
+    [
+      "VariableID:44:185",
+      "primary",
+      "VariableCollectionId:44:169",
+      "COLOR",
+      {
+        "44:8": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:44:42"
+        },
+        "132:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:132:821"
+        },
+        "132:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:132:773"
+        },
+        "1154:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:1154:4018"
+        }
+      }
+    ],
+    [
+      "VariableID:132:773",
+      "Piel Sana/primary/600",
+      "VariableCollectionId:16:8",
+      "COLOR",
+      {
+        "16:0": {
+          "r": 0.7882353067398071,
+          "g": 0.3176470696926117,
+          "b": 0,
+          "a": 1
+        }
+      }
+    ],
+    [
+      "VariableID:132:774",
+      "Piel Sana/primary/700",
+      "VariableCollectionId:16:8",
+      "COLOR",
+      {
+        "16:0": {
+          "r": 0.658823549747467,
+          "g": 0.2666666805744171,
+          "b": 0,
+          "a": 1
+        }
+      }
+    ],
+    [
+      "VariableID:132:775",
+      "Piel Sana/primary/800",
+      "VariableCollectionId:16:8",
+      "COLOR",
+      {
+        "16:0": {
+          "r": 0.5372549295425415,
+          "g": 0.21568627655506134,
+          "b": 0,
+          "a": 1
+        }
+      }
+    ],
+    [
+      "VariableID:164:184",
+      "primary-hover",
+      "VariableCollectionId:44:169",
+      "COLOR",
+      {
+        "44:8": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:44:43"
+        },
+        "132:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:132:822"
+        },
+        "132:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:132:774"
+        },
+        "1154:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:1154:4024"
+        }
+      }
+    ],
+    [
+      "VariableID:164:365",
+      "primary-active",
+      "VariableCollectionId:44:169",
+      "COLOR",
+      {
+        "44:8": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:44:44"
+        },
+        "132:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:132:823"
+        },
+        "132:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:132:775"
+        },
+        "1154:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:1658:1799"
+        }
+      }
+    ]
+  ]
+}

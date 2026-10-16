@@ -22,7 +22,7 @@ import { ButtonSizeOverview, ButtonSpecifications, ButtonVariantOverview } from 
 
   **Tokens consumidos en esta actualización:** `primary`, `muted`, `border`, `background`, `foreground`, `success/light`, `success/light-border`, `success/light-foreground`, `warning/light-foreground`, `destructive/light`, `destructive/light-border`, `destructive/light-foreground`, `primary-hover`, `background-hover`, `success/light-hover`, `destructive/light-hover`, `primary-active`, `background-active`, `success/light-active`, `destructive/light-active`, `button/brand-gradient-1`, `button/brand-gradient-2`. Consulta sus valores anteriores y actuales en Foundations → Tokens.
 
-  **Estado de contraste:** Reina Madre y Piel Sana conservan excepciones de contraste en primary y brand-gradient por decisión de marca. Estas excepciones no equivalen a cumplimiento WCAG.
+  **Estado de contraste en esa entrega:** Reina Madre y Piel Sana conservaban excepciones en primary y brand-gradient. El estado actual se detalla a continuación; el historial de esta entrega se conserva.
 
 </details>
 
@@ -34,6 +34,25 @@ import { ButtonSizeOverview, ButtonSpecifications, ButtonVariantOverview } from 
   - Icon Button admite forma semicuadrada o circular.
 
 </details>
+
+## Contraste actual
+
+Revisión del 14 de octubre de 2026 · actualización de tokens para DS v1.3.0. La API y la versión particular de Button no cambian por este ajuste heredado.
+
+Primary sólido de Reina Madre y Piel Sana cumple 4,5:1 con texto blanco en normal, hover y active. Los colores oficiales primary/500 se conservan; los roles interactivos usan 600, 700 y 800. Consulta el antes y después en Foundations → Tokens.
+
+Para `brand-gradient`, estos son los mínimos de la rampa completa con texto blanco:
+
+| Marca | Normal | Hover | Active | Resultado de la rampa |
+| --- | --- | --- | --- | --- |
+| GRM Global | 4,504:1 | 5,114:1 | 5,828:1 | Cumple en los tres estados |
+| Reina Madre | 4,357:1 | 4,955:1 | 5,657:1 | Pendiente en normal |
+| María Linda | 4,502:1 | 5,107:1 | 5,814:1 | Cumple en los tres estados |
+| Piel Sana | 1,835:1 | 2,152:1 | 2,549:1 | Pendiente en los tres estados |
+
+Reina Madre conserva una parada violeta por debajo del mínimo; Piel Sana conserva una parada naranja clara por debajo del mínimo. Oscurecer el segundo extremo no corrige el primero. Para garantizar contraste en cualquier ancho, ambas paradas deben cumplir con el texto blanco.
+
+La evaluación cubre toda la rampa, no la posición de cada letra en un tamaño concreto. Los resultados se comparan sin redondear; la tabla muestra tres decimales. No representa una certificación del componente completo ni incluye disabled.
 
 ## Variantes de estilo
 

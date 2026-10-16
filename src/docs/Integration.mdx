@@ -1,0 +1,49 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { DocumentationHeader } from './DocumentationHeader';
+import { DocsTable } from '../components/ui/selectable-docs-shared';
+
+<Meta title="Design System/Integración" />
+
+<DocumentationHeader title="Integración">
+  Instala y actualiza el DS con una referencia común entre diseño, código y producto. Identifica la versión que consumes antes de comparar o sustituir archivos.
+</DocumentationHeader>
+
+## Del diseño al producto
+
+<ol className="sb-unstyled not-prose my-6 grid list-none gap-3 p-0 md:grid-cols-3">
+  <li className="rounded-lg border border-border bg-card p-4 text-card-foreground"><span className="text-xs leading-4 text-muted-foreground">Paso 1</span><strong className="mt-2 block text-sm leading-5">Figma define</strong><p className="mb-0 mt-2 text-sm leading-5 text-muted-foreground">Variables, estilos y composiciones aprobadas.</p></li>
+  <li className="rounded-lg border border-border bg-card p-4 text-card-foreground"><span className="text-xs leading-4 text-muted-foreground">Paso 2</span><strong className="mt-2 block text-sm leading-5">El registro distribuye</strong><p className="mb-0 mt-2 text-sm leading-5 text-muted-foreground">Código y tokens de una versión identificable del DS.</p></li>
+  <li className="rounded-lg border border-border bg-card p-4 text-card-foreground"><span className="text-xs leading-4 text-muted-foreground">Paso 3</span><strong className="mt-2 block text-sm leading-5">El producto integra</strong><p className="mb-0 mt-2 text-sm leading-5 text-muted-foreground">La aplicación usa esa versión y la contrasta con su Storybook.</p></li>
+</ol>
+
+## Instalar o actualizar
+
+1. **Identifica la entrega.** Consulta Releases y registra la revisión del DS que vas a instalar.
+2. **Usa el namespace GRM.** Configura `@grm` en `components.json`. Inclúyelo en cada nombre del comando: `@grm/button`, `@grm/alert`, etc. Un nombre sin namespace puede resolver un componente genérico de shadcn.
+3. **Revisa el diff.** Prueba primero en un consumidor limpio y compara los archivos antes de sustituir componentes personalizados.
+4. **Conecta estilos y fuentes.** Importa `grm.css` desde la entrada CSS de la aplicación y carga las fuentes instaladas. El CLI copia los archivos, pero no completa esa conexión por ti.
+5. **Aplica la marca.** Coloca `data-theme` en un ancestro que incluya los portales, preferentemente `html`.
+
+Puedes instalar varios componentes en un comando; todos deben llevar su namespace.
+
+## Dónde consultar cada decisión
+
+<DocsTable columns={["Fuente", "Qué debes tomar de ella"]} rows={[["Figma", "Decisiones visuales y variables aprobadas"], ["Registro de la versión instalada", "Componentes y valores que ejecuta la aplicación"], ["Storybook de esa versión", "API, composición y comportamiento esperado"], ["globals.css del producto", "Importación de estilos y excepciones propias, identificadas y justificadas"], [".interface-design/system.md", "Referencias a la versión y reglas de uso; evita duplicar valores"]]} />
+
+Si un radio o color difiere, compara el token y la versión de origen. Documenta las excepciones del producto con su motivo y alcance antes de introducir un valor distinto.
+
+## Revisar dependencias
+
+El registro declara rangos compatibles. Al instalar, pueden cambiar paquetes compartidos como Base UI, Radix UI, Lucide o React DayPicker. Revisa `package.json` y el lockfile y conserva las versiones resueltas en tu control de cambios.
+
+Stepper incluye su licencia como archivo independiente; mantenlo en el consumidor aunque el CLI transforme el código.
+
+## Validar antes de entregar
+
+<ol className="sb-unstyled not-prose my-6 grid list-none gap-3 p-0 md:grid-cols-3">
+  <li className="rounded-lg border border-border bg-card p-4 text-card-foreground"><span className="text-xs leading-4 text-muted-foreground">Paso 1</span><strong className="mt-2 block text-sm leading-5">Compilar</strong><p className="mb-0 mt-2 text-sm leading-5 text-muted-foreground">Comprueba tipos, dependencias y compilación del producto.</p></li>
+  <li className="rounded-lg border border-border bg-card p-4 text-card-foreground"><span className="text-xs leading-4 text-muted-foreground">Paso 2</span><strong className="mt-2 block text-sm leading-5">Recorrer las acciones</strong><p className="mb-0 mt-2 text-sm leading-5 text-muted-foreground">Prueba teclado, foco, portales, formularios y estados por marca.</p></li>
+  <li className="rounded-lg border border-border bg-card p-4 text-card-foreground"><span className="text-xs leading-4 text-muted-foreground">Paso 3</span><strong className="mt-2 block text-sm leading-5">Comparar y registrar</strong><p className="mb-0 mt-2 text-sm leading-5 text-muted-foreground">Contrasta antes/después con los mismos datos y tamaño de ventana; registra diferencias.</p></li>
+</ol>
+
+Una instalación limpia valida el registro; no sustituye las pruebas de JUNO. Consulta las migraciones de cada componente: los puentes de compatibilidad cubren las propiedades documentadas, no toda la API de Radix o Vaul.

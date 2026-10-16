@@ -4,7 +4,9 @@ import { comparableColor } from '../src/foundations/color-comparison.js';
 
 const root = process.cwd();
 const read = name => JSON.parse(fs.readFileSync(path.join(root, name), 'utf8'));
-const baseline = read('design-system/release-baseline-tokens.json');
+const pendingPath = 'design-system/pending-token-update.json';
+const pending = fs.existsSync(path.join(root, pendingPath)) ? read(pendingPath) : null;
+const baseline = read(pending?.baselinePath ?? 'design-system/release-baseline-tokens.json');
 const manifest = read('design-system/release-manifest.json');
 const source = fs.readFileSync(path.join(root, 'src/foundations/semantic-brand-token-values.ts'), 'utf8');
 const current = JSON.parse(source.slice(source.indexOf('{'), source.lastIndexOf('}') + 1));
@@ -29,5 +31,5 @@ for (const [brand, values] of Object.entries(current)) {
     return [key, { status: !old ? 'new' : sameValue(old.value, value) ? 'unchanged' : 'updated', previousName: old?.key ?? null, previousValue: old?.value ?? null, currentValue: value, reasons }];
   }));
 }
-fs.writeFileSync(path.join(root, 'src/foundations/token-changes.json'), JSON.stringify({ release: manifest.version, baselineRelease: baseline.release, baselineCommit: baseline.commit, tokens }, null, 2) + '\n');
+fs.writeFileSync(path.join(root, 'src/foundations/token-changes.json'), JSON.stringify({ release: pending?.version ?? manifest.version, status: pending?.status ?? manifest.status, baselineRelease: baseline.release, baselineCommit: baseline.commit, tokens }, null, 2) + '\n');
 console.log('Updated release token labels against the preserved published baseline.');

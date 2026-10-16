@@ -1,0 +1,10 @@
+
+> @reina-madre/design-system@1.2.0 lint
+> eslint
+
+
+/Users/miguelarias/DEV/REINA MADRE/ds-grm-documentation/docs/releases/1.1.0/review-2026-09-23/dom-contrast-scanner.js
+  1:1  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+✖ 1 problem (0 errors, 1 warning)
+

@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-14",
+  "status": "bulk-install-and-types-passed",
+  "cliVersion": "4.19.1",
+  "registry": "local candidate via @grm namespace",
+  "requestedCount": 70,
+  "missingFiles": 0,
+  "genericReplacementsDetected": 0,
+  "transformations": [
+    "CLI removes cn-* marker classes",
+    "CLI removes Stepper leading license comment; fixed by distributing separate registry:file, verified installed at src/licenses/stepper-MIT.txt"
+  ],
+  "typecheck": "passed",
+  "limits": [
+    "Original list of 43 components and exact DEV command unavailable",
+    "Clean consumer, not existing Juno installation",
+    "No runtime or visual test for all 70 components in this audit",
+    "Dependency upgrades within declared ranges observed; existing Juno lockfile unavailable",
+    "No publication"
+  ],
+  "pendingInformation": [
+    "defaultCalendarEndMonth original definition and usage",
+    "headingLevel affected component and exact usage",
+    "8 Varios type errors in 4 files"
+  ]
+}

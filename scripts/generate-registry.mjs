@@ -145,7 +145,7 @@ async function componentItem(name) {
       path: sourcePath,
       type: hasPrimitive ? "registry:ui" : hasLibrary ? "registry:lib" : "registry:block",
       ...(hasLibrary ? { target: sourcePath } : {}),
-    }],
+    }, ...(name === "stepper" ? [{ path: "licenses/stepper-MIT.txt", type: "registry:file", target: "licenses/stepper-MIT.txt" }] : [])],
   }
 }
 
@@ -180,6 +180,7 @@ const registry = {
       type: "registry:style",
       title: "GRM Base",
       description: "Tokens, tipografías, marcas y utilidades compartidas del Design System GRM.",
+      docs: 'Carga src/styles/grm.css desde la entrada CSS de tu aplicación (si está en src/styles/globals.css, añade @import "./grm.css";). Importa también las fuentes instaladas @fontsource-variable/inter, @fontsource-variable/jetbrains-mono, @fontsource-variable/kantumruy-pro y @fontsource-variable/plus-jakarta-sans. Aplica data-theme="grm-global", "reina-madre", "maria-linda" o "piel-sana" en un ancestro que incluya los portales, preferentemente html. El CLI copia los archivos, pero no conecta automáticamente esta hoja a tu entrada CSS.',
       dependencies: [
         `@fontsource-variable/inter@${packageVersions["@fontsource-variable/inter"]}`,
         `@fontsource-variable/jetbrains-mono@${packageVersions["@fontsource-variable/jetbrains-mono"]}`,
@@ -202,8 +203,13 @@ const registry = {
 }
 
 const figmaBase = "https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1"
+const pendingRelease = await readFile(path.join(root, "design-system/pending-release.json"), "utf8").then(JSON.parse).catch(error => { if (error.code === "ENOENT") return null; throw error })
+const pendingTokenPath = path.join(root, "design-system/pending-token-update.json")
+const pendingTokens = await readFile(pendingTokenPath, "utf8").then(JSON.parse).catch(error => { if (error.code === "ENOENT") return null; throw error })
 const manifest = {
   schemaVersion: 1,
+  ...(pendingRelease && pendingRelease.status !== "published" ? { pendingRelease: { version: pendingRelease.version, status: pendingRelease.status, manifest: "/r/pending-release.json" } } : {}),
+  ...(pendingTokens && pendingTokens.status !== "published" ? { pendingUpdate: { version: pendingTokens.version, status: pendingTokens.status, manifest: "/r/pending-token-update.json" } } : {}),
   designSystem: { name: "Design System GRM", version: packageJson.version },
   sources: {
     contract: "DESIGN_SYSTEM_WORKFLOW.md",
@@ -247,3 +253,6 @@ console.log(`Registry source generated with ${documented.length} documented comp
 await writeFile(path.join(publicDirectory, "release-manifest.json"), `${JSON.stringify(releaseManifest, null, 2)}\n`)
 await writeFile(path.join(publicDirectory, "figma-snapshot.json"), await readFile(path.join(root, "design-system/figma-snapshot.json")))
 await writeFile(path.join(publicDirectory, "release-history.json"), await readFile(path.join(root, "design-system/release-history.json")))
+
+if (pendingRelease) await writeFile(path.join(publicDirectory, "pending-release.json"), `${JSON.stringify(pendingRelease, null, 2)}\n`)
+if (pendingTokens) await writeFile(path.join(publicDirectory, "pending-token-update.json"), `${JSON.stringify(pendingTokens, null, 2)}\n`)

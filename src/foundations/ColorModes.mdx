@@ -1,0 +1,32 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { DocumentationHeader } from '../docs/DocumentationHeader';
+
+<Meta title="Foundations/Modo de color" />
+
+<DocumentationHeader title="Modo de color">
+  Elige la identidad visual de la aplicación con los cuatro temas de marca del DS. Todos están definidos para superficies claras.
+</DocumentationHeader>
+
+## Aplicar una marca
+
+<ol className="sb-unstyled not-prose my-6 grid list-none gap-3 p-0 md:grid-cols-3">
+  <li className="rounded-lg border border-border bg-card p-4 text-card-foreground"><span className="text-xs leading-4 text-muted-foreground">Paso 1</span><strong className="mt-2 block text-sm leading-5">Elegir</strong><p className="mb-0 mt-2 text-sm leading-5 text-muted-foreground">Selecciona GRM Global, Reina Madre, María Linda o Piel Sana.</p></li>
+  <li className="rounded-lg border border-border bg-card p-4 text-card-foreground"><span className="text-xs leading-4 text-muted-foreground">Paso 2</span><strong className="mt-2 block text-sm leading-5">Propagar</strong><p className="mb-0 mt-2 text-sm leading-5 text-muted-foreground">Aplica data-theme en un ancestro común que también incluya los portales.</p></li>
+  <li className="rounded-lg border border-border bg-card p-4 text-card-foreground"><span className="text-xs leading-4 text-muted-foreground">Paso 3</span><strong className="mt-2 block text-sm leading-5">Comprobar</strong><p className="mb-0 mt-2 text-sm leading-5 text-muted-foreground">Revisa superficies, texto y estados interactivos con los tokens de esa marca.</p></li>
+</ol>
+
+Cambiar la marca modifica sus roles semánticos; no activa un modo oscuro.
+
+## Estado del modo oscuro
+
+**El DS todavía no ofrece un tema oscuro completo.** Algunas utilidades heredadas responden a `.dark`, pero no hay una paleta semántica oscura conciliada para las cuatro marcas. Esa clase por sí sola no garantiza coherencia ni contraste.
+
+Para incorporarlo se requiere definir asignaciones por marca, conciliarlas en Figma y probar componentes, estados y portales.
+
+## Contraste y excepciones
+
+La actualización de tokens para v1.3.0 corrige primary sólido con texto blanco en Reina Madre y Piel Sana: normal, hover y active cumplen el mínimo de 4,5:1, conservando primary/500.
+
+En `brand-gradient` quedan pendientes la rampa normal de Reina Madre y los tres estados de Piel Sana. La excepción histórica de Tabs Underline de María Linda sigue documentada. Consulta [Button](?path=/docs/components-button--docs) para los resultados por estado y [Releases](?path=/docs/design-system-releases--docs) para el alcance de la entrega.
+
+Mide los colores renderizados, incluidas opacidades y gradientes. Compara el valor sin redondear con el umbral; una etiqueta de 4,5:1 no basta para demostrar cumplimiento.

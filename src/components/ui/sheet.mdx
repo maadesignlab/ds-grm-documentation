@@ -13,6 +13,21 @@ import { SheetRowFonts, SheetContentExamples, SheetBodies, SheetHeaders, SheetSt
 ## Versión
 
 <details open className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+<summary><strong>v1.2.0</strong> · Actualización para DS v1.3.0 · 14 de octubre de 2026</summary>
+
+**Variantes nuevas:** Ninguna.
+
+**Actualizaciones:**
+
+- Expone defaultWidth, resizable, resizeKey y onWidthChange.
+- Reutiliza la composición en Storybook y conserva padding, carril condicional y foco.
+- Migración: importar SheetResizableContent; las opciones de tamaño no se agregan al primitive SheetContent.
+
+**Tokens consumidos en esta actualización:** `sheet-drawer`, `muted`, `border`, `info-light`, `info-light-foreground`. Consulta los cambios de valores por marca en Foundations → Tokens.
+
+</details>
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
 <summary><strong>v1.1.0</strong> · Actualización para DS v1.2.0 · 2 de octubre de 2026</summary>
 
 **Variantes nuevas:** Ninguna.
@@ -61,6 +76,35 @@ Los valores de los tokens se conservan. Consulta los valores por marca en Founda
   - Adapta las cuatro posiciones, anchos laterales de 384/480 px y altura vertical de hasta 512 px.
   - Integra cierre opcional, footer en fila/columna y contenido desplazable según Figma.
 </details>
+
+## Panel redimensionable instalable
+
+```bash
+npx shadcn add @grm/sheet-resizable
+```
+
+`SheetResizableContent` sustituye a `SheetContent` en la composición del consumidor. Instala automáticamente el Sheet base y Button; no incluye datos de demostración. Es la misma composición que utiliza el Playground.
+
+- `resizable`: `true` por defecto; solo crea un manejador en paneles laterales.
+- `defaultWidth`: ancho inicial en píxeles; 360 por defecto, limitado a 360–720 y al viewport disponible. No es una propiedad controlada.
+- `resizeKey`: persistencia opcional en localStorage bajo `grm:sheet:<clave>`. El ancho guardado tiene prioridad sobre el inicial al montar. Usa claves diferentes por contexto.
+- `onWidthChange`: recibe el ancho al arrastrar o usar el teclado.
+- Conserva `ref`, `onOpenAutoFocus`, `onCloseAutoFocus` y las demás props de `SheetContent`.
+
+El manejador admite flechas, Shift + flecha, Home y End. El cuerpo y su scrollbar siguen a cargo de `SheetBody`; esta composición no los reemplaza. Las correcciones de espaciado y los portales dentro del panel se conservan.
+
+```tsx
+<Sheet>
+  <SheetTrigger asChild><Button>Abrir</Button></SheetTrigger>
+  <SheetResizableContent defaultWidth={480} resizeKey="edicion-personal">
+    <SheetTitle>Editar personal</SheetTitle>
+    <SheetDescription>Datos del registro</SheetDescription>
+    {/* Contenido de la aplicación */}
+  </SheetResizableContent>
+</Sheet>
+```
+
+`SheetContent` conserva su API base. Las props de redimensionamiento se pasan a `SheetResizableContent`; no se aceptan silenciosamente en el primitive.
 
 ## Posición
 

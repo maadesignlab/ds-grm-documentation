@@ -4,7 +4,7 @@ import { Slot } from "radix-ui"
 
 import { cn } from "@/lib/utils"
 
-const badgeVariants = cva(
+const badgeStyles = cva(
   "group/badge inline-flex w-fit shrink-0 items-center justify-center overflow-hidden rounded-full font-sans font-medium tracking-normal whitespace-nowrap transition-colors outline-none focus-visible:ring-3 focus-visible:ring-ring/50 [&_svg]:pointer-events-none [&_svg]:shrink-0",
   {
     variants: {
@@ -58,10 +58,27 @@ const badgeVariants = cva(
   }
 )
 
+type BadgeStyleProps = NonNullable<Parameters<typeof badgeStyles>[0]>
+type WithCompatibilityVariant<T> = T extends unknown ? Omit<T, "variant"> & {
+  variant?: VariantProps<typeof badgeStyles>["variant"] | "default" | "outline"
+} : never
+type BadgeCompatibilityProps = WithCompatibilityVariant<BadgeStyleProps>
+
+function resolveBadgeAppearance(variant: BadgeCompatibilityProps["variant"], appearance: BadgeCompatibilityProps["appearance"]) {
+  return {
+    variant: variant === "default" ? "primary" : variant === "outline" ? "transparent" : variant,
+    appearance: appearance === undefined ? variant === "outline" ? "outline" : "solid" : appearance,
+  } as const
+}
+
+function badgeVariants(props: BadgeCompatibilityProps = {}) {
+  return badgeStyles({ ...props, ...resolveBadgeAppearance(props.variant, props.appearance) })
+}
+
 function Badge({
   className,
   variant = "primary",
-  appearance = "solid",
+  appearance,
   size = "lg",
   asChild = false,
   ...props
@@ -69,12 +86,13 @@ function Badge({
   VariantProps<typeof badgeVariants> & { asChild?: boolean }) {
   const Comp = asChild ? Slot.Root : "span"
   const resolvedSize = size ?? "lg"
+  const resolved = resolveBadgeAppearance(variant, appearance)
 
   return (
     <Comp
       data-slot="badge"
-      data-variant={variant}
-      data-appearance={appearance}
+      data-variant={resolved.variant}
+      data-appearance={resolved.appearance}
       data-size={resolvedSize}
       className={cn(badgeVariants({ variant, appearance, size: resolvedSize }), className)}
       {...props}

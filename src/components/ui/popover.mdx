@@ -10,6 +10,21 @@ import { PopoverAlignments, PopoverContents, PopoverSides, PopoverSpecifications
 ## Versión
 
 <details open className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+<summary><strong>v1.2.0</strong> · Actualización para DS v1.3.0 · 14 de octubre de 2026</summary>
+
+**Variantes nuevas:** Ninguna.
+
+**Actualizaciones:**
+
+- Añade PopoverAnchor, anchor y collisionPadding.
+- Trigger admite asChild; conserva render de Base UI.
+- Añade onOpenAutoFocus y onCloseAutoFocus cancelables; conserva initialFocus, finalFocus y container.
+
+**Tokens consumidos en esta actualización:** Sin nuevos roles.. Consulta los cambios de valores por marca en Foundations → Tokens.
+
+</details>
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
 <summary><strong>v1.1.0</strong> · Actualización para DS v1.2.0 · 2 de octubre de 2026</summary>
 
 **Variantes nuevas:** Ninguna.
@@ -46,6 +61,26 @@ Los valores de los tokens se conservan. Consulta los valores por marca en Founda
   - Mantiene estado controlado y no controlado, foco, teclado, dismiss, colisiones, lados y alineación.
   - Interpreta la superficie vacía de Figma como un slot y conserva el contenedor heredado de shadcn/ui: ancho, altura, padding, radio y sombra oficiales.
 </details>
+
+## Compatibilidad de composición
+
+`render` sigue siendo la API de Base UI. Para consumidores que usan composición Radix, `PopoverTrigger asChild` acepta un único elemento React y conserva sus eventos y referencias. No debe combinarse con `render`.
+
+`PopoverAnchor` permite una referencia visual independiente dentro del mismo `Popover`; admite `asChild` y `ref`. Usa un solo Anchor por Root. El propio Anchor no abre el popup. `PopoverContent anchor` tiene prioridad sobre ese Anchor; sin ninguno, se usa el trigger. `collisionPadding` se transmite al posicionador de Base UI.
+
+`onOpenAutoFocus` y `onCloseAutoFocus` reciben un evento cancelable de compatibilidad. `preventDefault()` impide el movimiento automático de foco. Si no se cancela, se respeta `initialFocus` o `finalFocus`, respectivamente, y después el comportamiento predeterminado de Base UI. Estos eventos no son eventos DOM despachados sobre el elemento.
+
+```tsx
+<Popover>
+  <PopoverAnchor asChild><div ref={anchorRef}>Referencia</div></PopoverAnchor>
+  <PopoverTrigger asChild><Button>Abrir</Button></PopoverTrigger>
+  <PopoverContent onOpenAutoFocus={(event) => event.preventDefault()}>
+    Contenido
+  </PopoverContent>
+</Popover>
+```
+
+El portal conserva `container` para composiciones dentro de Sheet. Esta compatibilidad cubre las propiedades descritas; no convierte toda la API de Radix en Base UI.
 
 ## Alineación del trigger
 

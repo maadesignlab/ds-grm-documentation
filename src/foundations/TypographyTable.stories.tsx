@@ -3,7 +3,7 @@ import { expect, within, userEvent } from 'storybook/test';
 import { TypographyTable } from './TypographyTable';
 
 const meta = {
-  title: 'Foundations/Typography',
+  title: 'Foundations/Tipografía',
   component: TypographyTable,
   // Internal regression coverage; the public documentation lives in MDX.
   tags: ['!dev', '!autodocs'],

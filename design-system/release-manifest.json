@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.2.0",
+  "version": "1.3.0",
   "status": "published",
-  "baselineCommit": "964aa03cfc57b5f989e45e5fbe12246b4e4dcba0",
+  "baselineCommit": "ef44e4cd1c35e135470a2ef114f457d14f1dcfec",
   "figmaFileKey": "X33xAJBT7ty8FWYDFVvo3m",
   "versionPolicy": "Components preserve independent documented SemVer histories. Variables/styles receive their first recorded object version at 1.1.0; previousVersion=null does not assert a historical change. Future object changes increment independently.",
   "components": [
@@ -40,26 +40,39 @@
     {
       "id": "alert",
       "name": "Alert",
-      "previousVersion": "1.0.0",
-      "version": "1.0.1",
-      "release": "1.1.0",
+      "previousVersion": "1.0.1",
+      "version": "1.1.0",
+      "release": "1.3.0",
       "figmaNode": "1178:530",
       "page": "1178:530",
-      "change": "Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.",
+      "change": "Estados semánticos adicionales conciliados con Figma.",
       "affectedSemanticRoles": [
-        "border",
-        "foreground",
-        "card/foreground",
-        "muted/foreground",
-        "primary",
-        "destructive"
+        "success/light",
+        "success/light-border",
+        "success/light-foreground",
+        "warning/light",
+        "warning/light-border",
+        "warning/light-foreground",
+        "info/light",
+        "info/light-border",
+        "info/light-foreground"
       ],
-      "newVariants": [],
+      "newVariants": [
+        "success",
+        "warning",
+        "info"
+      ],
       "newCompositions": [],
       "updates": [
-        "Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas."
+        "Añade success, warning e info con sus tokens light, light-border y light-foreground.",
+        "Conserva default y destructive; no crea colores primitivos."
       ],
       "history": [
+        {
+          "version": "1.1.0",
+          "source": "src/components/ui/alert.mdx",
+          "release": "1.3.0"
+        },
         {
           "version": "1.0.1",
           "source": "src/components/ui/alert.mdx",
@@ -191,12 +204,12 @@
     {
       "id": "badge",
       "name": "Badge",
-      "previousVersion": "1.0.0",
-      "version": "1.0.1",
-      "release": "1.1.0",
+      "previousVersion": "1.0.1",
+      "version": "1.1.0",
+      "release": "1.3.0",
       "figmaNode": "186:141",
       "page": "1:32",
-      "change": "Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.",
+      "change": "Aliases para consumidores existentes.",
       "affectedSemanticRoles": [
         "primary",
         "primary/5%",
@@ -220,9 +233,15 @@
       "newVariants": [],
       "newCompositions": [],
       "updates": [
-        "Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas."
+        "default equivale a primary/solid; outline a transparent/outline.",
+        "Una apariencia explícita prevalece sobre la inferida por el alias."
       ],
       "history": [
+        {
+          "version": "1.1.0",
+          "source": "src/components/ui/badge.mdx",
+          "release": "1.3.0"
+        },
         {
           "version": "1.0.1",
           "source": "src/components/ui/badge.mdx",
@@ -372,12 +391,12 @@
     {
       "id": "calendar",
       "name": "Calendar",
-      "previousVersion": "1.0.0",
-      "version": "1.0.1",
-      "release": "1.1.0",
+      "previousVersion": "1.0.1",
+      "version": "1.1.0",
+      "release": "1.3.0",
       "figmaNode": "1521:3069",
       "page": "1521:3069",
-      "change": "Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.",
+      "change": "Idioma español y compatibilidad de foco.",
       "affectedSemanticRoles": [
         "popover",
         "border",
@@ -396,9 +415,16 @@
       "newVariants": [],
       "newCompositions": [],
       "updates": [
-        "Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas."
+        "Español por defecto, meses completos y abreviaturas L M X J V S D.",
+        "initialFocus funciona como alias de autoFocus; autoFocus explícito tiene prioridad.",
+        "defaultCalendarEndMonth permanece pendiente de evidencia de su contrato anterior."
       ],
       "history": [
+        {
+          "version": "1.1.0",
+          "source": "src/components/ui/calendar.mdx",
+          "release": "1.3.0"
+        },
         {
           "version": "1.0.1",
           "source": "src/components/ui/calendar.mdx",
@@ -414,12 +440,12 @@
     {
       "id": "card",
       "name": "Card",
-      "previousVersion": "1.0.0",
-      "version": "1.0.1",
-      "release": "1.1.0",
+      "previousVersion": "1.0.1",
+      "version": "1.0.2",
+      "release": "1.3.0",
       "figmaNode": "1798:3431",
       "page": "1798:3431",
-      "change": "Nombra la acción de icono de la composición.",
+      "change": "Contenido de demostración localizado.",
       "affectedSemanticRoles": [
         "border",
         "primary",
@@ -430,9 +456,15 @@
       "newVariants": [],
       "newCompositions": [],
       "updates": [
-        "Nombra la acción de icono de la composición."
+        "Textos predeterminados de la demostración en español.",
+        "Sin cambios en la API ni en la geometría del primitive."
       ],
       "history": [
+        {
+          "version": "1.0.2",
+          "source": "src/components/ui/card.mdx",
+          "release": "1.3.0"
+        },
         {
           "version": "1.0.1",
           "source": "src/components/ui/card.mdx",
@@ -697,22 +729,27 @@
     {
       "id": "drawer",
       "name": "Drawer",
-      "previousVersion": "1.0.1",
-      "version": "1.0.2",
-      "release": "1.1.1",
+      "previousVersion": "1.0.2",
+      "version": "1.1.0",
+      "release": "1.3.0",
       "figmaNode": "1290:302",
       "page": "1290:302",
-      "change": "Corrige el fondo de popover a sheet-drawer según Figma.",
+      "change": "Composición asChild en apertura y cierre.",
       "affectedSemanticRoles": [
         "sheet-drawer"
       ],
       "newVariants": [],
       "newCompositions": [],
       "updates": [
-        "Fondo del panel: popover → sheet-drawer (#ffffff en las cuatro marcas).",
-        "La extensión de fondo durante el arrastre usa también sheet-drawer."
+        "DrawerTrigger y DrawerClose admiten asChild; render sigue disponible.",
+        "Conserva Base UI y swipeDirection; no añade compatibilidad completa con Vaul."
       ],
       "history": [
+        {
+          "version": "1.1.0",
+          "source": "src/components/ui/drawer.mdx",
+          "release": "1.3.0"
+        },
         {
           "version": "1.0.2",
           "source": "src/components/ui/drawer.mdx",
@@ -1210,20 +1247,28 @@
     {
       "id": "popover",
       "name": "Popover",
-      "previousVersion": "1.0.1",
-      "version": "1.1.0",
-      "release": "1.2.0",
+      "previousVersion": "1.1.0",
+      "version": "1.2.0",
+      "release": "1.3.0",
       "figmaNode": "726:6350",
       "page": "726:6350",
-      "change": "Añade container opcional a PopoverContent para controlar el destino del portal.",
+      "change": "Anclaje, composición y control de foco compatibles.",
       "affectedSemanticRoles": [],
       "newVariants": [],
-      "newCompositions": [],
+      "newCompositions": [
+        "PopoverAnchor"
+      ],
       "updates": [
-        "Añade container opcional a PopoverContent para controlar el destino del portal.",
-        "Permite el calendario de Sheet sin recortes; conserva el comportamiento predeterminado."
+        "Añade PopoverAnchor, anchor y collisionPadding.",
+        "Trigger admite asChild; conserva render de Base UI.",
+        "Añade onOpenAutoFocus y onCloseAutoFocus cancelables; conserva initialFocus, finalFocus y container."
       ],
       "history": [
+        {
+          "version": "1.2.0",
+          "source": "src/components/ui/popover.mdx",
+          "release": "1.3.0"
+        },
         {
           "version": "1.1.0",
           "source": "src/components/ui/popover.mdx",
@@ -1442,12 +1487,12 @@
     {
       "id": "sheet",
       "name": "Sheet",
-      "previousVersion": "1.0.2",
-      "version": "1.1.0",
-      "release": "1.2.0",
+      "previousVersion": "1.1.0",
+      "version": "1.2.0",
+      "release": "1.3.0",
       "figmaNode": "1295:386",
       "page": "1295:386",
-      "change": "Redimensionamiento continuo entre 360 y 720 px; conserva selección y valores.",
+      "change": "Redimensionamiento disponible como composición instalable.",
       "affectedSemanticRoles": [
         "sheet-drawer",
         "muted",
@@ -1457,17 +1502,19 @@
       ],
       "newVariants": [],
       "newCompositions": [
-        "Encabezados, bandas de estado y acciones",
-        "Cuerpos con Tabs, TabsOverflow y Stepper",
-        "Formulario, detalles y secciones free/contained"
+        "SheetResizableContent"
       ],
       "updates": [
-        "Redimensionamiento continuo entre 360 y 720 px; conserva selección y valores.",
-        "Padding de 16 px y carril de scrollbar de 10 px solo con desbordamiento.",
-        "Calendario y Combobox fuera del área desplazable para evitar recortes.",
-        "Etiqueta y descripción, Item Light/info y encabezados conciliados con Figma."
+        "Expone defaultWidth, resizable, resizeKey y onWidthChange.",
+        "Reutiliza la composición en Storybook y conserva padding, carril condicional y foco.",
+        "Migración: importar SheetResizableContent; las opciones de tamaño no se agregan al primitive SheetContent."
       ],
       "history": [
+        {
+          "version": "1.2.0",
+          "source": "src/components/ui/sheet.mdx",
+          "release": "1.3.0"
+        },
         {
           "version": "1.1.0",
           "source": "src/components/ui/sheet.mdx",
@@ -1861,32 +1908,29 @@
     {
       "id": "stepper",
       "name": "Stepper",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "figmaNode": "7088:1337",
       "page": "7081:51355",
       "history": [
+        {
+          "version": "1.0.1",
+          "source": "src/components/ui/stepper.mdx",
+          "release": "1.3.0"
+        },
         {
           "version": "1.0.0",
           "source": "src/components/ui/stepper.mdx",
           "release": "1.2.0"
         }
       ],
-      "previousVersion": null,
-      "release": "1.2.0",
-      "change": "Nuevo componente no legacy basado en francozeta/stepper; licencia MIT conservada.",
-      "newVariants": [
-        "default/sm",
-        "horizontal/vertical",
-        "icon/number"
-      ],
-      "newCompositions": [
-        "Secuencias de 2 a 6 pasos",
-        "Selección, retroceso y finalización"
-      ],
+      "previousVersion": "1.0.0",
+      "release": "1.3.0",
+      "change": "Atribución distribuida y contraste documentado.",
+      "newVariants": [],
+      "newCompositions": [],
       "updates": [
-        "Nuevo componente no legacy basado en francozeta/stepper; licencia MIT conservada.",
-        "Tamaños default/sm, orientación horizontal/vertical e indicadores numéricos o de icono.",
-        "Estados pendiente, activo, completado, deshabilitado y error."
+        "Distribuye la licencia MIT como archivo independiente del registro para conservarla tras la transformación del CLI.",
+        "Documenta el contraste corregido de Continuar en Reina Madre y Piel Sana."
       ],
       "affectedSemanticRoles": [
         "primary",
@@ -2485,30 +2529,33 @@
       "name": "Piel Sana/primary/600",
       "kind": "variable",
       "collectionId": "VariableCollectionId:16:8",
-      "version": "1.1.0",
-      "previousVersion": null,
-      "versionBasis": "first-recorded",
-      "sha256": "3e5c136782b86d4e780c3b09b4ca3299b1cff21367cd01a233a14a8f5d18aefc"
+      "previousVersion": "1.1.0",
+      "version": "1.1.1",
+      "versionBasis": "patch-color-or-alias",
+      "previousSha256": "3e5c136782b86d4e780c3b09b4ca3299b1cff21367cd01a233a14a8f5d18aefc",
+      "sha256": "5fc6fedcd39df9df3d4cda2751ddcab300727553b1e7b1b97be820c0e40d96eb"
     },
     {
       "id": "VariableID:132:774",
       "name": "Piel Sana/primary/700",
       "kind": "variable",
       "collectionId": "VariableCollectionId:16:8",
-      "version": "1.1.0",
-      "previousVersion": null,
-      "versionBasis": "first-recorded",
-      "sha256": "4c587d0282cfbbe6cd1ecd5516a9411a36adf40b6940bf6b9bb0ffa144b8d2f1"
+      "previousVersion": "1.1.0",
+      "version": "1.1.1",
+      "versionBasis": "patch-color-or-alias",
+      "previousSha256": "4c587d0282cfbbe6cd1ecd5516a9411a36adf40b6940bf6b9bb0ffa144b8d2f1",
+      "sha256": "b8dfb59f6017badf74418507824dc7e1459931f99e89d79db0683d5fca0c50c8"
     },
     {
       "id": "VariableID:132:775",
       "name": "Piel Sana/primary/800",
       "kind": "variable",
       "collectionId": "VariableCollectionId:16:8",
-      "version": "1.1.0",
-      "previousVersion": null,
-      "versionBasis": "first-recorded",
-      "sha256": "45847fdc969d630ffdee7e015ead4abc2be8262732bbe9f330b5fc0cc62c6ad0"
+      "previousVersion": "1.1.0",
+      "version": "1.1.1",
+      "versionBasis": "patch-color-or-alias",
+      "previousSha256": "45847fdc969d630ffdee7e015ead4abc2be8262732bbe9f330b5fc0cc62c6ad0",
+      "sha256": "408c6779fc458463f25c549b44166b3818bb354b48cedd04a1d392ff602bc5a9"
     },
     {
       "id": "VariableID:132:776",
@@ -3445,10 +3492,11 @@
       "name": "primary-hover",
       "kind": "variable",
       "collectionId": "VariableCollectionId:44:169",
-      "version": "1.1.0",
-      "previousVersion": null,
-      "versionBasis": "first-recorded",
-      "sha256": "9650bf2fdce5edb43db0b6c82b23e31fb99514d8ac9e9f20b470b7e23dc90ae5"
+      "previousVersion": "1.1.0",
+      "version": "1.1.1",
+      "versionBasis": "patch-color-or-alias",
+      "previousSha256": "9650bf2fdce5edb43db0b6c82b23e31fb99514d8ac9e9f20b470b7e23dc90ae5",
+      "sha256": "38c19fa186db8eac9aeece8c38724245385d46d1ab153ae38351b4b9ba9cba59"
     },
     {
       "id": "VariableID:164:185",
@@ -3485,10 +3533,11 @@
       "name": "primary-active",
       "kind": "variable",
       "collectionId": "VariableCollectionId:44:169",
-      "version": "1.1.0",
-      "previousVersion": null,
-      "versionBasis": "first-recorded",
-      "sha256": "4b97a8bf603db837143e5d6ba4b48e34714e603f2661374c7303f9b3eeb76443"
+      "previousVersion": "1.1.0",
+      "version": "1.1.1",
+      "versionBasis": "patch-color-or-alias",
+      "previousSha256": "4b97a8bf603db837143e5d6ba4b48e34714e603f2661374c7303f9b3eeb76443",
+      "sha256": "7deee835e50dfe4804b5ba4198e5792cd99a74ce470c8efdbb6070629c81fdd6"
     },
     {
       "id": "VariableID:1658:1799",
@@ -4005,40 +4054,44 @@
       "name": "primary/20%",
       "kind": "variable",
       "collectionId": "VariableCollectionId:44:169",
-      "version": "1.1.0",
-      "previousVersion": null,
-      "versionBasis": "first-recorded",
-      "sha256": "b781418fb01435199e061dbf63263156424c7c8ca3e85a4549c5df35bc096efa"
+      "version": "1.1.1",
+      "previousVersion": "1.1.0",
+      "versionBasis": "patch-inherited-value",
+      "sha256": "b781418fb01435199e061dbf63263156424c7c8ca3e85a4549c5df35bc096efa",
+      "previousSha256": "b781418fb01435199e061dbf63263156424c7c8ca3e85a4549c5df35bc096efa"
     },
     {
       "id": "VariableID:248:129",
       "name": "primary/10%",
       "kind": "variable",
       "collectionId": "VariableCollectionId:44:169",
-      "version": "1.1.0",
-      "previousVersion": null,
-      "versionBasis": "first-recorded",
-      "sha256": "3aea0bf54267f468071f8a74aaeccf7e22fe721938aeb8bc2870eab15c4b104f"
+      "version": "1.1.1",
+      "previousVersion": "1.1.0",
+      "versionBasis": "patch-inherited-value",
+      "sha256": "3aea0bf54267f468071f8a74aaeccf7e22fe721938aeb8bc2870eab15c4b104f",
+      "previousSha256": "3aea0bf54267f468071f8a74aaeccf7e22fe721938aeb8bc2870eab15c4b104f"
     },
     {
       "id": "VariableID:248:131",
       "name": "primary/default-foreground",
       "kind": "variable",
       "collectionId": "VariableCollectionId:44:169",
-      "version": "1.1.0",
-      "previousVersion": null,
-      "versionBasis": "first-recorded",
-      "sha256": "64a2f67e8bd3efd5b67f01a2693914bc41695897b77b0709231640eda4b6de85"
+      "version": "1.1.1",
+      "previousVersion": "1.1.0",
+      "versionBasis": "patch-inherited-value",
+      "sha256": "64a2f67e8bd3efd5b67f01a2693914bc41695897b77b0709231640eda4b6de85",
+      "previousSha256": "64a2f67e8bd3efd5b67f01a2693914bc41695897b77b0709231640eda4b6de85"
     },
     {
       "id": "VariableID:248:511",
       "name": "primary/15%",
       "kind": "variable",
       "collectionId": "VariableCollectionId:44:169",
-      "version": "1.1.0",
-      "previousVersion": null,
-      "versionBasis": "first-recorded",
-      "sha256": "23d908eb1127f2e89c583a217c9cbb2dde7f9267db6d39770e39518bb2389e4b"
+      "version": "1.1.1",
+      "previousVersion": "1.1.0",
+      "versionBasis": "patch-inherited-value",
+      "sha256": "23d908eb1127f2e89c583a217c9cbb2dde7f9267db6d39770e39518bb2389e4b",
+      "previousSha256": "23d908eb1127f2e89c583a217c9cbb2dde7f9267db6d39770e39518bb2389e4b"
     },
     {
       "id": "VariableID:249:143",
@@ -4095,10 +4148,11 @@
       "name": "primary/default-border",
       "kind": "variable",
       "collectionId": "VariableCollectionId:44:169",
-      "version": "1.1.0",
-      "previousVersion": null,
-      "versionBasis": "first-recorded",
-      "sha256": "e755181be8b892836fde705c41f2eee3130831ab5a94ee285b108301a16d33c5"
+      "version": "1.1.1",
+      "previousVersion": "1.1.0",
+      "versionBasis": "patch-inherited-value",
+      "sha256": "e755181be8b892836fde705c41f2eee3130831ab5a94ee285b108301a16d33c5",
+      "previousSha256": "e755181be8b892836fde705c41f2eee3130831ab5a94ee285b108301a16d33c5"
     },
     {
       "id": "VariableID:313:2794",
@@ -8015,10 +8069,11 @@
       "name": "primary",
       "kind": "variable",
       "collectionId": "VariableCollectionId:44:169",
-      "version": "1.1.0",
-      "previousVersion": null,
-      "versionBasis": "first-recorded",
-      "sha256": "ecd780b29d4a3ee1377602821fdf2d9333c43e2d97d91cc84eb3d363cf97e40b"
+      "previousVersion": "1.1.0",
+      "version": "1.1.1",
+      "versionBasis": "patch-color-or-alias",
+      "previousSha256": "ecd780b29d4a3ee1377602821fdf2d9333c43e2d97d91cc84eb3d363cf97e40b",
+      "sha256": "c9c3ab3c432f1deeeaa1b0cf51c5662afd176b92917f61b9b87b312b2420a06d"
     },
     {
       "id": "VariableID:44:186",
@@ -8115,30 +8170,33 @@
       "name": "Reina Madre/primary/600",
       "kind": "variable",
       "collectionId": "VariableCollectionId:16:8",
-      "version": "1.1.0",
-      "previousVersion": null,
-      "versionBasis": "first-recorded",
-      "sha256": "2ab10797639a03e653666a36d8c8006d6d1aaec10020960581551f747546dd94"
+      "previousVersion": "1.1.0",
+      "version": "1.1.1",
+      "versionBasis": "patch-color-or-alias",
+      "previousSha256": "2ab10797639a03e653666a36d8c8006d6d1aaec10020960581551f747546dd94",
+      "sha256": "cd351eaf8c37b63f1e70dff13134f58b6adf594ee85e8a5a5ae248eef291b3b6"
     },
     {
       "id": "VariableID:44:43",
       "name": "Reina Madre/primary/700",
       "kind": "variable",
       "collectionId": "VariableCollectionId:16:8",
-      "version": "1.1.0",
-      "previousVersion": null,
-      "versionBasis": "first-recorded",
-      "sha256": "c1cd17e2d1f56cdfdce36ba6b82e8c04dfe5cc3bde9074686a3d9338c029b508"
+      "previousVersion": "1.1.0",
+      "version": "1.1.1",
+      "versionBasis": "patch-color-or-alias",
+      "previousSha256": "c1cd17e2d1f56cdfdce36ba6b82e8c04dfe5cc3bde9074686a3d9338c029b508",
+      "sha256": "a6d7cd7995f8b3ba4d5da552c7dfbbda4c043611c6f28b20ada7869e7c94ead9"
     },
     {
       "id": "VariableID:44:44",
       "name": "Reina Madre/primary/800",
       "kind": "variable",
       "collectionId": "VariableCollectionId:16:8",
-      "version": "1.1.0",
-      "previousVersion": null,
-      "versionBasis": "first-recorded",
-      "sha256": "15df14c95cce47fd3a5aca22f99fd3a59bdd7a96d1ea340dcb6808121d2cec56"
+      "previousVersion": "1.1.0",
+      "version": "1.1.1",
+      "versionBasis": "patch-color-or-alias",
+      "previousSha256": "15df14c95cce47fd3a5aca22f99fd3a59bdd7a96d1ea340dcb6808121d2cec56",
+      "sha256": "ba05da76c291c0d555397eacf8f6a86660fe397635eb85373490d98d48169b30"
     },
     {
       "id": "VariableID:44:45",
@@ -8385,10 +8443,11 @@
       "name": "primary/5%",
       "kind": "variable",
       "collectionId": "VariableCollectionId:44:169",
-      "version": "1.1.0",
-      "previousVersion": null,
-      "versionBasis": "first-recorded",
-      "sha256": "e7f361ffa606c0b93745ac92eeb92c5914040a86fc9b8277c345bc6715fa8f0f"
+      "version": "1.1.1",
+      "previousVersion": "1.1.0",
+      "versionBasis": "patch-inherited-value",
+      "sha256": "e7f361ffa606c0b93745ac92eeb92c5914040a86fc9b8277c345bc6715fa8f0f",
+      "previousSha256": "e7f361ffa606c0b93745ac92eeb92c5914040a86fc9b8277c345bc6715fa8f0f"
     },
     {
       "id": "VariableID:479:83",
@@ -8425,20 +8484,22 @@
       "name": "button/brand-gradient-1",
       "kind": "variable",
       "collectionId": "VariableCollectionId:44:169",
-      "version": "1.1.0",
-      "previousVersion": null,
-      "versionBasis": "first-recorded",
-      "sha256": "4ecf7682126b1e90a9c5768d6e0d3dcd0f8dce5d2917d7ab0445ada4f069714a"
+      "version": "1.1.1",
+      "previousVersion": "1.1.0",
+      "versionBasis": "patch-inherited-value",
+      "sha256": "4ecf7682126b1e90a9c5768d6e0d3dcd0f8dce5d2917d7ab0445ada4f069714a",
+      "previousSha256": "4ecf7682126b1e90a9c5768d6e0d3dcd0f8dce5d2917d7ab0445ada4f069714a"
     },
     {
       "id": "VariableID:5082:64991",
       "name": "button/brand-gradient-2",
       "kind": "variable",
       "collectionId": "VariableCollectionId:44:169",
-      "version": "1.1.0",
-      "previousVersion": null,
-      "versionBasis": "first-recorded",
-      "sha256": "c381099c22c792d75fd4c9935e80334d5849a598b7315a209dcb8ecb37ba2d0d"
+      "version": "1.1.1",
+      "previousVersion": "1.1.0",
+      "versionBasis": "patch-inherited-value",
+      "sha256": "c381099c22c792d75fd4c9935e80334d5849a598b7315a209dcb8ecb37ba2d0d",
+      "previousSha256": "c381099c22c792d75fd4c9935e80334d5849a598b7315a209dcb8ecb37ba2d0d"
     },
     {
       "id": "VariableID:5088:23706",
@@ -9445,10 +9506,11 @@
       "name": "sidebar/ring",
       "kind": "variable",
       "collectionId": "VariableCollectionId:44:169",
-      "version": "1.1.0",
-      "previousVersion": null,
-      "versionBasis": "first-recorded",
-      "sha256": "da22b9b2bbde04fc538a1cd01ac1416b7da4df99b21b4e3791297d48c7d8f0a6"
+      "version": "1.1.1",
+      "previousVersion": "1.1.0",
+      "versionBasis": "patch-inherited-value",
+      "sha256": "da22b9b2bbde04fc538a1cd01ac1416b7da4df99b21b4e3791297d48c7d8f0a6",
+      "previousSha256": "da22b9b2bbde04fc538a1cd01ac1416b7da4df99b21b4e3791297d48c7d8f0a6"
     },
     {
       "id": "VariableID:71:2",
@@ -10059,13 +10121,38 @@
       "sha256": "9503e3f578cb67e5a07ab861b1e4918e4242ff63f2407d42fcf629678e94bb3c"
     }
   ],
-  "evidenceDirectory": "docs/releases/1.1.1",
+  "evidenceDirectory": "docs/releases/1.3.0",
   "checks": {
-    "figmaVariableCount": 769,
-    "figmaVariableHash": "b0ca9a2f",
-    "renderedBackgrounds": 28,
-    "componentTestsAcrossBrands": 8,
-    "inheritedEvidence": "docs/releases/1.1.0/validation.json"
+    "date": "2026-10-15",
+    "status": "ds-checks-passed-design-exceptions-retained",
+    "published": false,
+    "storybookTests": {
+      "passed": 97,
+      "failed": 0,
+      "a11yEnabled": true,
+      "scope": "All 97 discovered CSF stories explicitly requested; default args and configured globals, not every variant/brand combination."
+    },
+    "statusContrast": {
+      "pairs": 72,
+      "failed": 0,
+      "minimum": 4.500411019885359,
+      "evidence": "status-contrast.json"
+    },
+    "publicBuild": {
+      "internalRegressionEntries": 0,
+      "localInternalStories": 35,
+      "regressionLocation": "tests/storybook"
+    },
+    "typecheck": "passed",
+    "lint": {
+      "errors": 0,
+      "warnings": 1,
+      "note": "pre-existing archived scanner"
+    },
+    "registryValidation": "70-entry clean-consumer installation evidence retained from October 14; runtime implementation unchanged by documentation/test separation",
+    "designPending": "gradient-proposals.json; historical Tabs exception",
+    "devPending": "design-system/pending-release.json#pendingDevValidation",
+    "testRepair": "Wait for Calendar visibility after opening animation; original visibility assertion preserved."
   },
   "removedEntities": [
     {
@@ -10732,14 +10819,14 @@
   "variablesSyncedAt": "2026-09-23T19:52:49.693Z",
   "reconciledAt": "2026-09-23T18:05:58.432Z",
   "approval": {
-    "technical": "passed-with-accepted-contrast-exceptions",
-    "user": "approved",
-    "remote": "release",
+    "user": "approved-with-documented-limitations",
+    "approvedOn": "2026-10-15",
+    "technical": "passed-with-known-exceptions",
     "published": true,
-    "approvedOn": "2026-10-02"
+    "remote": "release"
   },
-  "previousVersion": "1.1.1",
-  "preparedAt": "2026-10-02",
+  "previousVersion": "1.2.0",
+  "preparedAt": "2026-10-14",
   "tooling": [
     {
       "id": "storybook-inspector",
@@ -10753,7 +10840,88 @@
         "Alt+I fija la tarjeta; Escape limpia la selección.",
         "Referencias CSS coincidentes no equivalen a la regla ganadora; no infiere tokens por igualdad de color."
       ]
+    },
+    {
+      "id": "storybook",
+      "name": "Storybook",
+      "previousVersion": "10.5.10",
+      "version": "10.6.2",
+      "updates": [
+        "Actualiza Storybook, su integración Next.js/Vite y los addons oficiales a 10.6.2.",
+        "Alinea eslint-plugin-storybook a 10.6.2 y fija @chromatic-com/storybook en 5.5.1.",
+        "El inspector del DS conserva su versión 1.0.0; no se añade una nueva versión de esa funcionalidad."
+      ],
+      "evidence": [
+        "package.json",
+        "package-lock.json"
+      ]
     }
   ],
-  "publishedAt": "2026-10-02"
+  "publishedAt": "2026-10-15",
+  "closedAt": "2026-10-15",
+  "openItems": [
+    {
+      "id": "DS-130-01",
+      "category": "design",
+      "title": "Gradientes de Reina Madre y Piel Sana",
+      "owner": "Diseño DS",
+      "status": "open",
+      "scope": "Reina Madre: normal 4,357:1. Piel Sana: normal 1,835:1, hover 2,152:1 y active 2,549:1. Las propuestas no están aplicadas.",
+      "closureCriteria": "Aprobar una propuesta, conciliar Figma y código y verificar al menos 4,5:1 en todos los estados con texto normal."
+    },
+    {
+      "id": "DS-130-02",
+      "category": "design",
+      "title": "Tabs Underline de María Linda",
+      "owner": "Diseño DS",
+      "status": "open",
+      "scope": "Excepción histórica de 4,27:1; no se certificó nuevamente este escenario.",
+      "closureCriteria": "Reproducir el escenario, aprobar la corrección y adjuntar medición de contraste e interacción."
+    },
+    {
+      "id": "DS-130-03",
+      "category": "dev",
+      "title": "defaultCalendarEndMonth",
+      "owner": "DEV JUNO; DS tras recibir evidencia",
+      "status": "open",
+      "scope": "Falta la definición anterior y los usos; la compatibilidad de ese export no se declara resuelta.",
+      "closureCriteria": "DEV aporta contrato y usos; DS determina la solución y DEV valida compilación y comportamiento."
+    },
+    {
+      "id": "DS-130-04",
+      "category": "dev",
+      "title": "headingLevel",
+      "owner": "DEV JUNO; DS tras recibir evidencia",
+      "status": "open",
+      "scope": "No se identifica el componente ni el diagnóstico exacto.",
+      "closureCriteria": "Obtener componente, código consumidor y error reproducible; verificar la solución en DS y JUNO."
+    },
+    {
+      "id": "DS-130-05",
+      "category": "dev",
+      "title": "8 errores Varios",
+      "owner": "DEV JUNO; DS tras recibir evidencia",
+      "status": "open",
+      "scope": "El reporte solo indica cantidad y categoría.",
+      "closureCriteria": "Desglosar errores y archivos; asignar cada causa y verificar su resolución o migración."
+    },
+    {
+      "id": "DS-130-06",
+      "category": "dev",
+      "title": "Integración en JUNO",
+      "owner": "DEV JUNO",
+      "status": "open",
+      "scope": "Los 309 errores y 40 pruebas del reporte no se consideran resueltos por las pruebas del DS. Incluye Alta de Personal, Dialog/AlertDialog y Table.",
+      "closureCriteria": "Ejecutar typecheck y pruebas de JUNO con esta entrega; validar flujos, capturas y diferencias restantes."
+    },
+    {
+      "id": "DS-130-07",
+      "category": "dev",
+      "title": "Instalación y estilos del consumidor",
+      "owner": "DEV JUNO",
+      "status": "open",
+      "scope": "Falta reproducir la instalación original de 43 componentes, lockfile y estilos propios.",
+      "closureCriteria": "Instalar en una copia controlada de JUNO; comparar dependencias, CSS y componentes; confirmar ausencia de sobrescrituras no deseadas."
+    }
+  ]
 }

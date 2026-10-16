@@ -23,6 +23,9 @@ export function AlertVariantOverview() {
   return (
     <div className="not-prose grid grid-cols-1 gap-3 lg:grid-cols-2">
       <Card title="Default" value='variant="default"'><AlertExample /></Card>
+      <Card title="Success" value='variant="success"'><AlertExample variant="success" showAction={false} /></Card>
+      <Card title="Warning" value='variant="warning"'><AlertExample variant="warning" showAction={false} /></Card>
+      <Card title="Info" value='variant="info"'><AlertExample variant="info" showAction={false} /></Card>
       <Card title="Destructive" value='variant="destructive"'><AlertExample variant="destructive" showAction={false} /></Card>
     </div>
   )

@@ -8,6 +8,7 @@
       "type": "registry:style",
       "title": "GRM Base",
       "description": "Tokens, tipografías, marcas y utilidades compartidas del Design System GRM.",
+      "docs": "Carga src/styles/grm.css desde la entrada CSS de tu aplicación (si está en src/styles/globals.css, añade @import \"./grm.css\";). Importa también las fuentes instaladas @fontsource-variable/inter, @fontsource-variable/jetbrains-mono, @fontsource-variable/kantumruy-pro y @fontsource-variable/plus-jakarta-sans. Aplica data-theme=\"grm-global\", \"reina-madre\", \"maria-linda\" o \"piel-sana\" en un ancestro que incluya los portales, preferentemente html. El CLI copia los archivos, pero no conecta automáticamente esta hoja a tu entrada CSS.",
       "dependencies": [
         "@fontsource-variable/inter@^5.3.0",
         "@fontsource-variable/jetbrains-mono@^5.3.0",
@@ -656,7 +657,8 @@
         "@grm/grm-base"
       ],
       "dependencies": [
-        "@base-ui/react@^1.7.0"
+        "@base-ui/react@^1.7.0",
+        "radix-ui@^1.6.7"
       ],
       "files": [
         {
@@ -873,6 +875,11 @@
         {
           "path": "src/components/ui/stepper.tsx",
           "type": "registry:ui"
+        },
+        {
+          "path": "licenses/stepper-MIT.txt",
+          "type": "registry:file",
+          "target": "licenses/stepper-MIT.txt"
         }
       ]
     },
@@ -1301,6 +1308,23 @@
       "files": [
         {
           "path": "src/components/ui/sheet-content-sections.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "sheet-resizable",
+      "type": "registry:ui",
+      "title": "Sheet Resizable",
+      "description": "Sheet Resizable requerido como soporte por los componentes públicos GRM.",
+      "registryDependencies": [
+        "@grm/button",
+        "@grm/grm-base",
+        "@grm/sheet"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/sheet-resizable.tsx",
           "type": "registry:ui"
         }
       ]

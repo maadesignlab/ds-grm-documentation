@@ -1,0 +1,17 @@
+{
+  "version": "1.3.0",
+  "status": "candidate",
+  "preparedAt": "2026-10-14",
+  "baselineRelease": "1.2.0",
+  "manifest": "design-system/pending-release.json",
+  "changesets": [
+    "popover-juno-compatibility.md",
+    "stepper-registry-attribution.md",
+    "badge-juno-compatibility.md",
+    "sheet-installable-resize.md",
+    "primary-brand-contrast.md",
+    "remaining-juno-compatibility.md",
+    "integration-foundations-guides.md"
+  ],
+  "publicationAuthorized": false
+}

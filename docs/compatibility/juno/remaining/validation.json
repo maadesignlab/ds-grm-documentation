@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-13",
+  "baseline": "v1.2.0",
+  "status": "implemented-and-validated-locally",
+  "source": "https://reinamadreworkspace.slack.com/archives/C0BBSG9KB0V/p1791598417750799",
+  "changes": {
+    "Drawer": "asChild compatibility for Trigger and Close using Base UI render; preserves native render",
+    "Alert": "success/warning/info using existing light background, border and foreground semantic tokens",
+    "Calendar": "Spanish default, full month dropdown names, one-letter Spanish weekdays, initialFocus alias; explicit autoFocus wins"
+  },
+  "evidence": {
+    "compatibilityTestsTotal": 13,
+    "existingStoryTests": 4,
+    "independentConsumerTests": 5,
+    "brandsChecked": [
+      "grm-global",
+      "reina-madre",
+      "maria-linda",
+      "piel-sana"
+    ],
+    "typecheck": "passed",
+    "lint": "passed",
+    "storybookBuild": "passed",
+    "installedSourceParity": {
+      "drawer": "exact",
+      "alert": "exact",
+      "calendar": "equal after CLI removal of cn-* marker classes (no matching CSS rules in DS)"
+    }
+  },
+  "figma": {
+    "alertSet": "1226:475",
+    "variants": [
+      "default",
+      "destructive",
+      "success",
+      "warning",
+      "info"
+    ],
+    "writes": true,
+    "pending": null,
+    "reviewNode": "7212:266",
+    "tokenPairsChecked": 36,
+    "visualReview": "passed"
+  },
+  "limits": [
+    "No Juno source/runtime validation",
+    "Drawer remains Base UI; no blanket Vaul compatibility",
+    "Calendar captionLayout already existed and remains opt-in",
+    "Brand contrast exceptions unchanged",
+    "Not published"
+  ],
+  "testEnvironmentNotes": [
+    "Browser tests must load DS CSS for Drawer overlay hit-testing",
+    "Preoptimized Drawer and DayPicker to prevent React reload during tests",
+    "Initial Alert semantic utility names were corrected to direct CSS variable classes after computed-style check failed"
+  ]
+}

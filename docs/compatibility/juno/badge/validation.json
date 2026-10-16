@@ -1,0 +1,34 @@
+{
+  "status": "local-validated",
+  "baseline": "v1.2.0",
+  "mapping": {
+    "default": "primary/solid",
+    "outline": "transparent/outline"
+  },
+  "appearancePrecedence": "Explicit appearance wins, including null",
+  "checks": {
+    "baselineCompilerFailures": 3,
+    "candidateCompilerCasesPassed": 4,
+    "existingStyleCombinationsUnchanged": 264,
+    "localBrowserTestsPassed": 4,
+    "installedBrowserTestsPassed": 5,
+    "existingStoryTestsPassed": 1,
+    "brands": [
+      "grm-global",
+      "reina-madre",
+      "maria-linda",
+      "piel-sana"
+    ],
+    "typecheck": "passed",
+    "targetedLint": "passed",
+    "storybookBuild": "passed",
+    "cliInstallation": "passed",
+    "installedSourceParity": true
+  },
+  "sourceSha256": "02c5b69c5c688639d10c5f86418efe9f3f131c49e49c945d8d2e3c265952986f",
+  "limitations": [
+    "No Juno code available; 189 reported errors are not individually reproduced or claimed resolved",
+    "outline maps to neutral transparent styling; custom Juno appearance still requires comparison"
+  ],
+  "published": false
+}

@@ -1,0 +1,24 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { DocumentationHeader } from '../docs/DocumentationHeader';
+
+import * as IconStories from "./IconGallery.stories";
+import { IconGallery } from "./IconGallery";
+
+<Meta of={IconStories} name="Docs" />
+
+<DocumentationHeader title="Iconos">
+  Busca los iconos disponibles en la versión instalada de Lucide y elige el que describa mejor la acción. Conserva el tamaño y el color definidos por el componente.
+</DocumentationHeader>
+
+<IconGallery />
+
+## Cómo elegir y aplicar
+
+El proyecto utiliza `lucide-react`. Importa los iconos por nombre y conserva el tamaño que define el componente: 16 px es frecuente, pero no es una regla universal. El icono y el contenedor interactivo tienen tamaños diferentes.
+
+- Iconos decorativos junto a texto: `aria-hidden`.
+- Botones que solo contienen un icono: nombre accesible en el botón, por ejemplo mediante `aria-label`.
+- Estado o acción: acompaña el color con texto, nombre accesible o una forma reconocible.
+- Color: hereda el rol semántico del componente; evita valores de marca escritos directamente en el SVG.
+
+Button, Alert y Sidebar ya contienen ejemplos de estas composiciones. No reproduzcas botones con SVG y elementos HTML paralelos. La versión de `lucide-react` instalada debe quedar registrada en el lockfile del consumidor.

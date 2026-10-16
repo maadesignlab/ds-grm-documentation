@@ -9,6 +9,20 @@ import { BadgeSizeOverview, BadgeSpecifications, BadgeVariantOverview } from "./
 ## Versión
 
 <details open className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+<summary><strong>v1.1.0</strong> · Actualización para DS v1.3.0 · 14 de octubre de 2026</summary>
+
+**Variantes nuevas:** Ninguna.
+
+**Actualizaciones:**
+
+- default equivale a primary/solid; outline a transparent/outline.
+- Una apariencia explícita prevalece sobre la inferida por el alias.
+
+**Tokens consumidos en esta actualización:** `primary`, `primary/5%`, `primary/light-border`, `primary/default-foreground`, `background`, `foreground`, `border`, `success`, `success/foreground`, `success/light`, `success/light-border`, `success/light-foreground`, `warning/foreground`, `warning/light-foreground`, `destructive`, `destructive/light`, `destructive/light-border`, `destructive/light-foreground`. Consulta los cambios de valores por marca en Foundations → Tokens.
+
+</details>
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
 <summary><strong>v1.0.1</strong> · Sincronización Figma para DS v1.1.0</summary>
 
   **Variantes nuevas:** Ninguna.
@@ -29,6 +43,19 @@ import { BadgeSizeOverview, BadgeSpecifications, BadgeVariantOverview } from "./
   - Contenido opcional a izquierda y derecha mediante composición.
 
 </details>
+
+## Compatibilidad de variantes
+
+Los nombres `default` y `outline` se aceptan como alias de consumo; no añaden estilos ni tokens nuevos.
+
+| Alias | Variante resuelta | Apariencia predeterminada |
+| --- | --- | --- |
+| `default` | `primary` | `solid` |
+| `outline` | `transparent` | `outline` |
+
+Una `appearance` explícita tiene prioridad. Por ejemplo, `variant="default" appearance="outline"` usa el contorno de marca; `variant="outline"` usa fondo transparente, texto `foreground` y borde `border`.
+
+Los alias funcionan tanto en `Badge` como en `badgeVariants`. Los atributos `data-variant` y `data-appearance` reflejan los valores resueltos. `solid` sigue siendo un valor de `appearance`, no de `variant`. Las variantes semánticas existentes conservan sus estilos y tamaños.
 
 ## Variantes de estilo
 

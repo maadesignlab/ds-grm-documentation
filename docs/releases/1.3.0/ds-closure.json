@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-15",
+  "status": "closed-local-with-documented-limitations",
+  "published": false,
+  "storybookTests": {
+    "passed": 97,
+    "failed": 0,
+    "a11yEnabled": true,
+    "scope": "All 97 discovered CSF stories explicitly requested; default args and configured globals, not every variant/brand combination."
+  },
+  "statusContrast": {
+    "pairs": 72,
+    "failed": 0,
+    "minimum": 4.500411019885359,
+    "evidence": "status-contrast.json"
+  },
+  "publicBuild": {
+    "internalRegressionEntries": 0,
+    "localInternalStories": 35,
+    "regressionLocation": "tests/storybook"
+  },
+  "typecheck": "passed",
+  "lint": {
+    "errors": 0,
+    "warnings": 1,
+    "note": "pre-existing archived scanner"
+  },
+  "registryValidation": "70-entry clean-consumer installation evidence retained from October 14; runtime implementation unchanged by documentation/test separation",
+  "designPending": "gradient-proposals.json; historical Tabs exception",
+  "devPending": "design-system/pending-release.json#pendingDevValidation",
+  "testRepair": "Wait for Calendar visibility after opening animation; original visibility assertion preserved.",
+  "userApproval": {
+    "user": "approved-with-documented-limitations",
+    "approvedOn": "2026-10-15",
+    "technical": "passed-with-known-exceptions",
+    "published": false
+  },
+  "closedAt": "2026-10-15",
+  "openItems": [
+    "DS-130-01",
+    "DS-130-02",
+    "DS-130-03",
+    "DS-130-04",
+    "DS-130-05",
+    "DS-130-06",
+    "DS-130-07"
+  ]
+}

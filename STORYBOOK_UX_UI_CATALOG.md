@@ -1,7 +1,7 @@
 ---
 title: "Catálogo UX/UI del Storybook GRM"
 designSystem: "Design System GRM"
-version: "1.2.0"
+version: "1.3.0"
 catalogSchemaVersion: 1
 status: "current"
 canonicalRendering: "Playground"
@@ -10,14 +10,14 @@ generatedFrom: "Storybook source"
 
 # Catálogo UX/UI del Storybook GRM
 
-> Snapshot exhaustivo de **Design System GRM v1.2.0**. Este archivo está orientado a diseñadores UX/UI y agentes de IA que necesiten construir wireframes fieles al Storybook sin recorrer todo el repositorio.
+> Snapshot exhaustivo de **Design System GRM v1.3.0**. Este archivo está orientado a diseñadores UX/UI y agentes de IA que necesiten construir wireframes fieles al Storybook sin recorrer todo el repositorio.
 > **Archivo generado:** no editar manualmente. Actualizar las fuentes canónicas y ejecutar `npm run catalog:generate`.
 
 ## Estado y alcance de esta versión
 
 | Campo | Valor |
 | --- | --- |
-| Versión del Design System | `1.2.0` |
+| Versión del Design System | `1.3.0` |
 | Componentes documentados | 51 |
 | Marcas | GRM Global, Reina Madre, María Linda, Piel Sana |
 | Base técnica | shadcn/ui; Radix UI o Base UI según el componente oficial vigente |
@@ -257,9 +257,9 @@ Las siguientes tablas contienen todos los valores exportados desde Figma para ca
 | `--destructive-10` | `rgb(230.000001 30 66.000004 / 10%)` |
 | `--destructive-default-foreground` | `#e61e42` |
 | `--table-row-alternate` | `rgb(248.942031 248.942031 255 / 100%)` |
-| `--primary-hover` | `#d8618e` |
+| `--primary-hover` | `#be1b58` |
 | `--secondary-hover` | `#e3d1ee` |
-| `--primary-active` | `#b84772` |
+| `--primary-active` | `#9c1648` |
 | `--secondary-active` | `#d0b0e2` |
 | `--background-hover` | `#f2f3fa` |
 | `--background-active` | `#e4e6f7` |
@@ -302,15 +302,15 @@ Las siguientes tablas contienen todos los valores exportados desde Figma para ca
 | `--destructive-light-active` | `rgb(254.639506 194.855323 193.625693 / 100%)` |
 | `--info-light-hover` | `#e0f2fe` |
 | `--info-light-active` | `#bae6fd` |
-| `--primary-20` | `rgb(237.000001 128.000008 168.000005 / 20%)` |
-| `--primary-10` | `rgb(237.000001 128.000008 168.000005 / 10%)` |
-| `--primary-default-foreground` | `#95375d` |
-| `--primary-15` | `rgb(237.000001 128.000008 168.000005 / 15%)` |
+| `--primary-20` | `rgb(224.000002 38.000002 107.000001 / 20%)` |
+| `--primary-10` | `rgb(224.000002 38.000002 107.000001 / 10%)` |
+| `--primary-default-foreground` | `#9c1648` |
+| `--primary-15` | `rgb(224.000002 38.000002 107.000001 / 15%)` |
 | `--secondary-40` | `rgb(162.000006 92.000002 191.000004 / 40%)` |
 | `--destructive-30` | `rgb(230.000001 30 66.000004 / 30%)` |
 | `--secondary-default-border` | `#a25cbf` |
 | `--secondary-10` | `rgb(162.000006 92.000002 191.000004 / 10%)` |
-| `--primary-default-border` | `#ed80a8` |
+| `--primary-default-border` | `#e0266b` |
 | `--success-default-border` | `#75ae7a` |
 | `--warning-default-border` | `#fac186` |
 | `--error-default-border` | `#ef4444` |
@@ -368,15 +368,15 @@ Las siguientes tablas contienen todos los valores exportados desde Figma para ca
 | `--ring-50` | `rgb(237.000001 128.000008 168.000005 / 50%)` |
 | `--background` | `#f8f8fc` |
 | `--foreground` | `#28282f` |
-| `--primary` | `#ed80a8` |
+| `--primary` | `#e0266b` |
 | `--secondary` | `#f1e8f7` |
 | `--accent` | `rgb(227.229342 227.225968 239.10144 / 100%)` |
 | `--muted` | `#f2f3fa` |
-| `--primary-5` | `rgb(237.000001 128.000008 168.000005 / 5%)` |
+| `--primary-5` | `rgb(224.000002 38.000002 107.000001 / 5%)` |
 | `--input-50` | `rgb(184.000004 186.000004 210.000003 / 50%)` |
 | `--table-header-background` | `rgb(237.055448 238.527838 251.288587 / 100%)` |
 | `--muted-30` | `rgb(242.000001 243.000001 250 / 30%)` |
-| `--button-brand-gradient-1` | `#d8618e` |
+| `--button-brand-gradient-1` | `#e0266b` |
 | `--button-brand-gradient-2` | `#a25cbf` |
 | `--background-brand-gradient-light-1` | `#fdf2f6` |
 | `--background-brand-gradient-light-2` | `rgb(255 255 255 / 0%)` |
@@ -583,9 +583,9 @@ Las siguientes tablas contienen todos los valores exportados desde Figma para ca
 | `--destructive-10` | `rgb(214.000002 29 66.000004 / 10%)` |
 | `--destructive-default-foreground` | `#d61d42` |
 | `--table-row-alternate` | `rgb(252 251.399997 250.200006 / 100%)` |
-| `--primary-hover` | `#e6782e` |
+| `--primary-hover` | `#a84400` |
 | `--secondary-hover` | `#c5f1e8` |
-| `--primary-active` | `#94471a` |
+| `--primary-active` | `#893700` |
 | `--secondary-active` | `#9de6d8` |
 | `--background-hover` | `#f6f3ef` |
 | `--background-active` | `#e3dfd8` |
@@ -628,15 +628,15 @@ Las siguientes tablas contienen todos los valores exportados desde Figma para ca
 | `--destructive-light-active` | `rgb(254.669479 172.365226 173.517841 / 100%)` |
 | `--info-light-hover` | `rgb(201.6976 226.770828 254.417187 / 100%)` |
 | `--info-light-active` | `rgb(161.317623 204.953904 252.370374 / 100%)` |
-| `--primary-20` | `rgb(255 146.000006 72.000003 / 20%)` |
-| `--primary-10` | `rgb(255 146.000006 72.000003 / 10%)` |
-| `--primary-default-foreground` | `#94471a` |
-| `--primary-15` | `rgb(255 146.000006 72.000003 / 15%)` |
+| `--primary-20` | `rgb(201.000003 81.000003 0 / 20%)` |
+| `--primary-10` | `rgb(201.000003 81.000003 0 / 10%)` |
+| `--primary-default-foreground` | `#893700` |
+| `--primary-15` | `rgb(201.000003 81.000003 0 / 15%)` |
 | `--secondary-40` | `rgb(94.000002 204.000003 183.000004 / 40%)` |
 | `--destructive-30` | `rgb(214.000002 29 66.000004 / 30%)` |
 | `--secondary-default-border` | `#5eccb7` |
 | `--secondary-10` | `rgb(94.000002 204.000003 183.000004 / 10%)` |
-| `--primary-default-border` | `#ff9248` |
+| `--primary-default-border` | `#c95100` |
 | `--success-default-border` | `#71b92d` |
 | `--warning-default-border` | `#e7a70b` |
 | `--error-default-border` | `#ed5032` |
@@ -694,16 +694,16 @@ Las siguientes tablas contienen todos los valores exportados desde Figma para ca
 | `--ring-50` | `rgb(255 146.000006 72.000003 / 50%)` |
 | `--background` | `#fbfaf8` |
 | `--foreground` | `#2a2926` |
-| `--primary` | `#ff9248` |
+| `--primary` | `#c95100` |
 | `--secondary` | `#e3f8f4` |
 | `--accent` | `rgb(241.296476 227.22992 197.088995 / 100%)` |
 | `--muted` | `#f6f3ef` |
-| `--primary-5` | `rgb(255 146.000006 72.000003 / 5%)` |
+| `--primary-5` | `rgb(201.000003 81.000003 0 / 5%)` |
 | `--input-50` | `rgb(181.000004 176.000005 167.000005 / 50%)` |
 | `--table-header-background` | `rgb(252.504978 242.676288 236.064263 / 100%)` |
 | `--muted-30` | `rgb(246.000001 243.000001 239.000001 / 30%)` |
 | `--button-brand-gradient-1` | `#ffad6c` |
-| `--button-brand-gradient-2` | `#bf5f21` |
+| `--button-brand-gradient-2` | `#a84400` |
 | `--background-brand-gradient-light-1` | `#fff4ec` |
 | `--background-brand-gradient-light-2` | `rgb(255 255 255 / 0%)` |
 | `--primary-foreground` | `#ffffff` |
@@ -722,7 +722,7 @@ Las siguientes tablas contienen todos los valores exportados desde Figma para ca
 | `--sidebar-primary-foreground` | `#ffffff` |
 | `--sidebar-accent-foreground` | `#2a2926` |
 | `--sidebar-border` | `#d0cac1` |
-| `--sidebar-ring` | `#bf5f21` |
+| `--sidebar-ring` | `#a84400` |
 | `--muted-foreground` | `#67635c` |
 | `--accent-foreground` | `#3d3a36` |
 | `--chart-1` | `#ff9248` |
@@ -1073,7 +1073,7 @@ Comunica información contextual, advertencias, errores o confirmaciones dentro 
 | Categoría | Feedback |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | React/HTML semántico |
-| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
+| Versión documentada | `v1.1.0` — Actualización para DS v1.3.0 · 14 de octubre de 2026 |
 | Figma | [nodo 1178:530](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1178-530) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-alert--docs) |
 | Registry | [alert.json](https://ds-grm-documentation.vercel.app/r/alert.json) |
@@ -1084,7 +1084,8 @@ Comunica información contextual, advertencias, errores o confirmaciones dentro 
 
 ### Cambios declarados en la versión del componente
 
-- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
+- Añade success, warning e info con sus tokens light, light-border y light-foreground.
+- Conserva default y destructive; no crea colores primitivos.
 
 ### Contrato técnico y composición
 
@@ -1095,7 +1096,7 @@ Comunica información contextual, advertencias, errores o confirmaciones dentro 
 | Dependencias externas | `react`, `class-variance-authority`, `lucide-react` |
 | Dependencias Registry | `@grm/grm-base` |
 | Composición interna del ejemplo | `./alert`, `./button` |
-| Secciones visibles en Docs | Versión → Variantes de estado → Composición → Especificaciones → Código |
+| Secciones visibles en Docs | Versión → Estados semánticos → Variantes de estado → Composición → Especificaciones → Código |
 
 ### Propiedades públicas de la composición de Playground
 
@@ -1103,7 +1104,7 @@ Estas declaraciones corresponden al archivo compartido entre Docs y Playground. 
 
 ```ts
 export type AlertExampleProps = {
-  variant?: "default" | "destructive"
+  variant?: "default" | "destructive" | "success" | "warning" | "info"
   title?: string
   description?: string
   showIcon?: boolean
@@ -1127,7 +1128,7 @@ export type AlertExampleProps = {
 
 | Propiedad | Nombre visible | Categoría | Visible | Control | Opciones | Descripción |
 | --- | --- | --- | --- | --- | --- | --- |
-| `variant` | Estado | Alert | Sí | inline-radio | `default`, `destructive` | — |
+| `variant` | Estado | Alert | Sí | inline-radio | `default`, `destructive`, `success`, `warning`, `info` | — |
 | `title` | Título | Contenido | Sí | text | — | — |
 | `description` | Descripción | Contenido | Sí | text | — | — |
 | `showIcon` | Mostrar icono | Composición | Sí | boolean | — | — |
@@ -1599,7 +1600,7 @@ Etiqueta compacta para clasificación, estado o metadatos breves.
 | Categoría | Data display |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
+| Versión documentada | `v1.1.0` — Actualización para DS v1.3.0 · 14 de octubre de 2026 |
 | Figma | [nodo 186:141](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=186-141) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-badge--docs) |
 | Registry | [badge.json](https://ds-grm-documentation.vercel.app/r/badge.json) |
@@ -1610,7 +1611,8 @@ Etiqueta compacta para clasificación, estado o metadatos breves.
 
 ### Cambios declarados en la versión del componente
 
-- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
+- default equivale a primary/solid; outline a transparent/outline.
+- Una apariencia explícita prevalece sobre la inferida por el alias.
 
 ### Contrato técnico y composición
 
@@ -1621,7 +1623,7 @@ Etiqueta compacta para clasificación, estado o metadatos breves.
 | Dependencias externas | `react`, `class-variance-authority`, `radix-ui`, `lucide-react` |
 | Dependencias Registry | `@grm/grm-base` |
 | Composición interna del ejemplo | `./badge` |
-| Secciones visibles en Docs | Versión → Variantes de estilo → Escala y forma → Especificaciones → Código |
+| Secciones visibles en Docs | Versión → Compatibilidad de variantes → Variantes de estilo → Escala y forma → Especificaciones → Código |
 
 ### Propiedades públicas de la composición de Playground
 
@@ -1833,7 +1835,7 @@ Acción primaria o secundaria con texto, icono, spinner y estados interactivos.
 | Dependencias externas | `react`, `class-variance-authority`, `radix-ui`, `lucide-react` |
 | Dependencias Registry | `@grm/grm-base` |
 | Composición interna del ejemplo | `./button` |
-| Secciones visibles en Docs | Versión → Variantes de estilo → Escala y forma → Especificaciones → Código |
+| Secciones visibles en Docs | Versión → Contraste actual → Variantes de estilo → Escala y forma → Especificaciones → Código |
 
 ### Propiedades públicas de la composición de Playground
 
@@ -2141,7 +2143,7 @@ Selección de fecha, rango y disponibilidad basada en el Calendar oficial de sha
 | Categoría | Form |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | React/HTML semántico |
-| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
+| Versión documentada | `v1.1.0` — Actualización para DS v1.3.0 · 14 de octubre de 2026 |
 | Figma | [nodo 1521:3069](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1521-3069) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-calendar--docs) |
 | Registry | [calendar.json](https://ds-grm-documentation.vercel.app/r/calendar.json) |
@@ -2152,7 +2154,9 @@ Selección de fecha, rango y disponibilidad basada en el Calendar oficial de sha
 
 ### Cambios declarados en la versión del componente
 
-- Sincroniza colores y tipografía heredados de los tokens vigentes de las cuatro marcas.
+- Español por defecto, meses completos y abreviaturas L M X J V S D.
+- initialFocus funciona como alias de autoFocus; autoFocus explícito tiene prioridad.
+- defaultCalendarEndMonth permanece pendiente de evidencia de su contrato anterior.
 
 ### Contrato técnico y composición
 
@@ -2160,10 +2164,10 @@ Selección de fecha, rango y disponibilidad basada en el Calendar oficial de sha
 | --- | --- |
 | Exports públicos | `Calendar`, `CalendarDayButton` |
 | Data slots | `calendar` |
-| Dependencias externas | `react`, `react-day-picker`, `lucide-react`, `date-fns`, `react-day-picker/locale` |
+| Dependencias externas | `react`, `react-day-picker`, `react-day-picker/locale`, `lucide-react`, `date-fns` |
 | Dependencias Registry | `@grm/button`, `@grm/grm-base` |
 | Composición interna del ejemplo | `./button`, `./calendar`, `./card`, `./field`, `./input-group`, `./separator` |
-| Secciones visibles en Docs | Versión → Selección → Encabezado → Composiciones oficiales → Especificaciones → Código |
+| Secciones visibles en Docs | Versión → Idioma, foco y selector → Selección → Encabezado → Composiciones oficiales → Especificaciones → Código |
 
 ### Propiedades públicas de la composición de Playground
 
@@ -2242,7 +2246,7 @@ Contenedor estructurado con header, contenido, media, acciones y footer opcional
 | Categoría | Data display |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | React/HTML semántico |
-| Versión documentada | `v1.0.1` — Sincronización Figma para DS v1.1.0 |
+| Versión documentada | `v1.0.2` — Actualización para DS v1.3.0 · 14 de octubre de 2026 |
 | Figma | [nodo 1798:3431](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1798-3431) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-card--docs) |
 | Registry | [card.json](https://ds-grm-documentation.vercel.app/r/card.json) |
@@ -2253,7 +2257,8 @@ Contenedor estructurado con header, contenido, media, acciones y footer opcional
 
 ### Cambios declarados en la versión del componente
 
-- Nombra la acción de icono de la composición.
+- Textos predeterminados de la demostración en español.
+- Sin cambios en la API ni en la geometría del primitive.
 
 ### Contrato técnico y composición
 
@@ -2291,8 +2296,8 @@ export type CardExampleProps = {
 | `spacing` | `16` |
 | `footer` | `column` |
 | `showAction` | `true` |
-| `title` | `Login to your account` |
-| `description` | `Enter your email below to login to your account` |
+| `title` | `Acceso al portal` |
+| `description` | `Consulta y gestiona la información de tu cuenta.` |
 
 ### Controles globales
 
@@ -3352,7 +3357,7 @@ Panel flotante deslizable con posiciones, tamaños, nesting, non-modal y snap po
 | Categoría | Overlay |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Base UI |
-| Versión documentada | `v1.0.2` — Fondo conciliado con Figma · DS v1.1.1 |
+| Versión documentada | `v1.1.0` — Actualización para DS v1.3.0 · 14 de octubre de 2026 |
 | Figma | [nodo 1290:302](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1290-302) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-drawer--docs) |
 | Registry | [drawer.json](https://ds-grm-documentation.vercel.app/r/drawer.json) |
@@ -3363,9 +3368,8 @@ Panel flotante deslizable con posiciones, tamaños, nesting, non-modal y snap po
 
 ### Cambios declarados en la versión del componente
 
-- Sustituye el fondo `popover` por `sheet-drawer`, blanco en las cuatro marcas.
-- Conserva texto, overlay, variantes y comportamiento existentes.
-- Drawer aplica el mismo token a la extensión del fondo durante el arrastre.
+- DrawerTrigger y DrawerClose admiten asChild; render sigue disponible.
+- Conserva Base UI y swipeDirection; no añade compatibilidad completa con Vaul.
 
 ### Contrato técnico y composición
 
@@ -3376,7 +3380,7 @@ Panel flotante deslizable con posiciones, tamaños, nesting, non-modal y snap po
 | Dependencias externas | `react`, `@base-ui/react/drawer` |
 | Dependencias Registry | `@grm/grm-base` |
 | Composición interna del ejemplo | `./button`, `./drawer` |
-| Secciones visibles en Docs | Versión → Posición → Ancho lateral → Acciones → Comportamientos oficiales → Especificaciones → Código |
+| Secciones visibles en Docs | Versión → Compatibilidad de composición → Posición → Ancho lateral → Acciones → Comportamientos oficiales → Especificaciones → Código |
 
 ### Propiedades públicas de la composición de Playground
 
@@ -4291,89 +4295,6 @@ export type ItemExampleProps = {
 **Args de esta story**
 
 _No define valores propios; hereda los valores globales._
-#### SuccessRegression
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-item--success-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-item--success-regression&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `appearance` | `light` |
-| `status` | `success` |
-| `showTrailing` | `false` |
-
-#### WarningRegression
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-item--warning-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-item--warning-regression&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `appearance` | `light` |
-| `status` | `warning` |
-| `showTrailing` | `false` |
-
-#### ErrorRegression
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-item--error-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-item--error-regression&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `appearance` | `light` |
-| `status` | `error` |
-| `showTrailing` | `false` |
-
-#### InfoRegression
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-item--info-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-item--info-regression&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `appearance` | `light` |
-| `status` | `info` |
-| `showTrailing` | `false` |
-
-#### CompactRegression
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-item--compact-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-item--compact-regression&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `layout` | `compact` |
-
 ### Presets exportados por la composición
 
 #### `itemPlaygroundArgs`
@@ -5288,7 +5209,7 @@ Contenedor contextual no modal con trigger, anchor y content oficiales de shadcn
 | Categoría | Overlay |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Base UI |
-| Versión documentada | `v1.1.0` — Actualización para DS v1.2.0 · 2 de octubre de 2026 |
+| Versión documentada | `v1.2.0` — Actualización para DS v1.3.0 · 14 de octubre de 2026 |
 | Figma | [nodo 726:6350](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=726-6350) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-popover--docs) |
 | Registry | [popover.json](https://ds-grm-documentation.vercel.app/r/popover.json) |
@@ -5299,19 +5220,20 @@ Contenedor contextual no modal con trigger, anchor y content oficiales de shadcn
 
 ### Cambios declarados en la versión del componente
 
-- Añade container opcional a PopoverContent para controlar el destino del portal.
-- Permite el calendario de Sheet sin recortes; conserva el comportamiento predeterminado.
+- Añade PopoverAnchor, anchor y collisionPadding.
+- Trigger admite asChild; conserva render de Base UI.
+- Añade onOpenAutoFocus y onCloseAutoFocus cancelables; conserva initialFocus, finalFocus y container.
 
 ### Contrato técnico y composición
 
 | Aspecto | Detalle |
 | --- | --- |
-| Exports públicos | `Popover`, `PopoverContent`, `PopoverDescription`, `PopoverHeader`, `PopoverTitle`, `PopoverTrigger` |
-| Data slots | `popover`, `popover-trigger`, `popover-content`, `popover-header`, `popover-title`, `popover-description` |
-| Dependencias externas | `react`, `@base-ui/react/popover` |
+| Exports públicos | `Popover`, `PopoverAnchor`, `PopoverContent`, `PopoverDescription`, `PopoverHeader`, `PopoverTitle`, `PopoverTrigger` |
+| Data slots | `popover`, `popover-anchor`, `popover-trigger`, `popover-content`, `popover-header`, `popover-title`, `popover-description` |
+| Dependencias externas | `react`, `@base-ui/react/popover`, `radix-ui` |
 | Dependencias Registry | `@grm/grm-base` |
 | Composición interna del ejemplo | `./button`, `./input`, `./label`, `./popover` |
-| Secciones visibles en Docs | Versión → Alineación del trigger → Posición → Contenido → Especificaciones → Código |
+| Secciones visibles en Docs | Versión → Compatibilidad de composición → Alineación del trigger → Posición → Contenido → Especificaciones → Código |
 
 ### Propiedades públicas de la composición de Playground
 
@@ -6279,7 +6201,7 @@ Panel superpuesto desde un borde con anchuras y disposiciones de footer document
 | Categoría | Overlay |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.1.0` — Actualización para DS v1.2.0 · 2 de octubre de 2026 |
+| Versión documentada | `v1.2.0` — Actualización para DS v1.3.0 · 14 de octubre de 2026 |
 | Figma | [nodo 1295:386](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=1295-386) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-sheet--docs) |
 | Registry | [sheet.json](https://ds-grm-documentation.vercel.app/r/sheet.json) |
@@ -6290,13 +6212,9 @@ Panel superpuesto desde un borde con anchuras y disposiciones de footer document
 
 ### Cambios declarados en la versión del componente
 
-- Nueva composición: Encabezados, bandas de estado y acciones.
-- Nueva composición: Cuerpos con Tabs, TabsOverflow y Stepper.
-- Nueva composición: Formulario, detalles y secciones free/contained.
-- Redimensionamiento continuo entre 360 y 720 px; conserva selección y valores.
-- Padding de 16 px y carril de scrollbar de 10 px solo con desbordamiento.
-- Calendario y Combobox fuera del área desplazable para evitar recortes.
-- Etiqueta y descripción, Item Light/info y encabezados conciliados con Figma.
+- Expone defaultWidth, resizable, resizeKey y onWidthChange.
+- Reutiliza la composición en Storybook y conserva padding, carril condicional y foco.
+- Migración: importar SheetResizableContent; las opciones de tamaño no se agregan al primitive SheetContent.
 
 ### Contrato técnico y composición
 
@@ -6306,8 +6224,8 @@ Panel superpuesto desde un borde con anchuras y disposiciones de footer document
 | Data slots | `sheet`, `sheet-trigger`, `sheet-close`, `sheet-portal`, `sheet-overlay`, `sheet-content`, `sheet-header`, `sheet-footer`, `sheet-title`, `sheet-description` |
 | Dependencias externas | `react`, `radix-ui`, `lucide-react` |
 | Dependencias Registry | `@grm/button`, `@grm/grm-base` |
-| Composición interna del ejemplo | `./button`, `./badge`, `./button-group`, `./breadcrumb`, `./progress`, `./sheet`, `./stepper-example`, `./sheet-body`, `./sheet-compositions`, `./sheet-content-example` |
-| Secciones visibles en Docs | Versión → Posición → Ancho lateral → Encabezado → Banda de estado → Contenido → Secciones y ejemplos de Figma → Botón de cierre → Disposición de acciones → Especificaciones → Código |
+| Composición interna del ejemplo | `./button`, `./badge`, `./button-group`, `./breadcrumb`, `./progress`, `./sheet`, `./stepper-example`, `./sheet-body`, `./sheet-compositions`, `./sheet-resizable`, `./sheet-content-example` |
+| Secciones visibles en Docs | Versión → Panel redimensionable instalable → Posición → Ancho lateral → Encabezado → Banda de estado → Contenido → Secciones y ejemplos de Figma → Botón de cierre → Disposición de acciones → Especificaciones → Código |
 
 ### Propiedades públicas de la composición de Playground
 
@@ -6385,235 +6303,6 @@ export type SheetExampleProps = {
 **Args de esta story**
 
 _No define valores propios; hereda los valores globales._
-#### ProgressRegression
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--progress-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--progress-regression&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `headerType` | `progress` |
-| `status` | `warning` |
-| `footerComposition` | `single-group` |
-| `side` | `left` |
-| `scrollable` | `true` |
-
-#### BadgeRegression
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--badge-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--badge-regression&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `headerType` | `badge` |
-| `status` | `error` |
-| `footerComposition` | `group-single` |
-| `side` | `top` |
-
-#### BreadcrumbRegression
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--breadcrumb-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--breadcrumb-regression&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `headerType` | `breadcrumb` |
-| `status` | `destructive` |
-| `side` | `bottom` |
-| `showTiming` | `false` |
-
-#### InfoRegression
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--info-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--info-regression&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `status` | `info` |
-| `showCloseButton` | `false` |
-| `showStatusIcon` | `false` |
-| `sideWidth` | `384` |
-
-#### LegacyRegression
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--legacy-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--legacy-regression&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `showStatusBand` | `false` |
-| `footerAlignment` | `column` |
-
-#### ResizeRegression
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--resize-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--resize-regression&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `bodyType` | `blank` |
-
-#### TabsRegression
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--tabs-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--tabs-regression&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `bodyType` | `tabs-overflow` |
-| `visibleTabs` | `2` |
-
-#### StepperBodyRegression
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--stepper-body-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--stepper-body-regression&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `bodyType` | `stepper` |
-
-#### LeftDragRegression
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--left-drag-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--left-drag-regression&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `side` | `left` |
-| `bodyType` | `blank` |
-
-#### ResponsiveTabsRegression
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--responsive-tabs-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--responsive-tabs-regression&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `bodyType` | `tabs-normal` |
-
-#### ContentFormRegression
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--content-form-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--content-form-regression&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `contentType` | `edit-form` |
-
-#### ContentDetailsRegression
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--content-details-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--content-details-regression&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `contentType` | `details-view` |
-| `bodyType` | `blank` |
-
-#### SpacingRegression
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--spacing-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--spacing-regression&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `bodyType` | `blank` |
-| `contentType` | `edit-form` |
-
-#### NoScrollbarSpacingRegression
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-sheet--no-scrollbar-spacing-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-sheet--no-scrollbar-spacing-regression&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `bodyType` | `blank` |
-| `contentType` | `none` |
-
 ### Reglas de uso para wireframes
 
 - Construir la instancia mediante **sheet-example.tsx** o los exports públicos listados; no copiar el HTML de las cards editoriales.
@@ -6980,7 +6669,7 @@ Stepper GRM basado en shadcn/ui, tokens de marca y la referencia canónica de St
 | Categoría | Other |
 | Tipo | Primitive o wrapper público |
 | Base técnica detectada | Radix UI |
-| Versión documentada | `v1.0.0` — Implementación inicial para DS v1.2.0 · 2 de octubre de 2026 |
+| Versión documentada | `v1.0.1` — Actualización para DS v1.3.0 · 14 de octubre de 2026 |
 | Figma | [nodo 7081:51355](https://www.figma.com/design/X33xAJBT7ty8FWYDFVvo3m/Design-System-GRM-v1?node-id=7081-51355) |
 | Docs | [abrir](https://ds-grm-documentation.vercel.app/?path=/docs/components-stepper--docs) |
 | Registry | [stepper.json](https://ds-grm-documentation.vercel.app/r/stepper.json) |
@@ -6991,10 +6680,8 @@ Stepper GRM basado en shadcn/ui, tokens de marca y la referencia canónica de St
 
 ### Cambios declarados en la versión del componente
 
-- Nueva composición: Secuencias de 2 a 6 pasos.
-- Nueva composición: Selección, retroceso y finalización.
-- Nuevo componente no legacy basado en francozeta/stepper; licencia MIT conservada.
-- Estados pendiente, activo, completado, deshabilitado y error.
+- Distribuye la licencia MIT como archivo independiente del registro para conservarla tras la transformación del CLI.
+- Documenta el contraste corregido de Continuar en Reina Madre y Piel Sana.
 
 ### Contrato técnico y composición
 
@@ -7066,175 +6753,6 @@ export type StepperExampleProps = {
 **Args de esta story**
 
 _No define valores propios; hereda los valores globales._
-#### NavigationRegression
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-stepper--navigation-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-stepper--navigation-regression&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-_No define valores propios; hereda los valores globales._
-#### KeyboardRegression
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-stepper--keyboard-regression) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-stepper--keyboard-regression&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `orientation` | `vertical` |
-| `size` | `sm` |
-| `disabledStep` | `2` |
-| `labels` | `false` |
-| `indicator` | `number` |
-
-#### GlobalGeometry
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-stepper--global-geometry) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-stepper--global-geometry&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-_No define valores propios; hereda los valores globales._
-#### ReinaGeometry
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-stepper--reina-geometry) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-stepper--reina-geometry&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `size` | `sm` |
-
-#### MariaGeometry
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-stepper--maria-geometry) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-stepper--maria-geometry&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `orientation` | `vertical` |
-
-#### PielGeometry
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-stepper--piel-geometry) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-stepper--piel-geometry&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `orientation` | `vertical` |
-| `size` | `sm` |
-
-#### TwoSteps
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-stepper--two-steps) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-stepper--two-steps&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `stepCount` | `2` |
-
-#### FourSteps
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-stepper--four-steps) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-stepper--four-steps&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `stepCount` | `4` |
-| `orientation` | `vertical` |
-
-#### FiveSteps
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-stepper--five-steps) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-stepper--five-steps&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `stepCount` | `5` |
-| `size` | `sm` |
-
-#### SixSteps
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-stepper--six-steps) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-stepper--six-steps&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `stepCount` | `6` |
-| `size` | `sm` |
-| `orientation` | `vertical` |
-
-#### ClampedStep
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-stepper--clamped-step) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-stepper--clamped-step&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `stepCount` | `2` |
-| `activeStep` | `6` |
-
 ### Especificaciones consolidadas desde Docs
 
 #### Datos documentales: `behavior`
@@ -7630,88 +7148,6 @@ export type TabsOverflowExampleProps = { visibleTabs?: 2 | 3 | 4; activeTab?: nu
 **Args de esta story**
 
 _No define valores propios; hereda los valores globales._
-#### OverflowTwo
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-tabs--overflow-two) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-tabs--overflow-two&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `composition` | `overflow` |
-| `visibleTabs` | `2` |
-
-#### OverflowThree
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-tabs--overflow-three) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-tabs--overflow-three&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `composition` | `overflow` |
-| `visibleTabs` | `3` |
-
-#### OverflowFour
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-tabs--overflow-four) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-tabs--overflow-four&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `composition` | `overflow` |
-| `visibleTabs` | `4` |
-
-#### OverflowSelected
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-tabs--overflow-selected) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-tabs--overflow-selected&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `composition` | `overflow` |
-| `activeTab` | `8` |
-| `visibleTabs` | `2` |
-
-#### OverflowDisabled
-
-[Abrir story](https://ds-grm-documentation.vercel.app/?path=/story/components-tabs--overflow-disabled) · [Abrir canvas aislado](https://ds-grm-documentation.vercel.app/iframe.html?id=components-tabs--overflow-disabled&viewMode=story)
-
-| Propiedad | Valor |
-| --- | --- |
-| Render compartido explícito | No; usa el componente definido en meta |
-| Prueba de interacción | Sí |
-
-**Args de esta story**
-
-| Propiedad | Valor |
-| --- | --- |
-| `composition` | `overflow` |
-| `visibleTabs` | `3` |
-| `disabledTab` | `true` |
-
 ### Reglas de uso para wireframes
 
 - Construir la instancia mediante **tabs-example.tsx** o los exports públicos listados; no copiar el HTML de las cards editoriales.
@@ -8213,6 +7649,7 @@ Estas piezas pueden ser dependencias legítimas, pero no deben presentarse como 
 | `sheet-body` | registry:ui | Sheet Body requerido como soporte por los componentes públicos GRM. | `src/components/ui/sheet-body.tsx` | `@grm/grm-base`, `@grm/scroll-area`, `@grm/tabs`, `@grm/tabs-overflow` |
 | `sheet-compositions` | registry:ui | Sheet Compositions requerido como soporte por los componentes públicos GRM. | `src/components/ui/sheet-compositions.tsx` | `@grm/button`, `@grm/grm-base`, `@grm/sheet` |
 | `sheet-content-sections` | registry:ui | Sheet Content Sections requerido como soporte por los componentes públicos GRM. | `src/components/ui/sheet-content-sections.tsx` | `@grm/grm-base` |
+| `sheet-resizable` | registry:ui | Sheet Resizable requerido como soporte por los componentes públicos GRM. | `src/components/ui/sheet-resizable.tsx` | `@grm/button`, `@grm/grm-base`, `@grm/sheet` |
 | `skeleton` | registry:ui | Skeleton requerido como soporte por los componentes públicos GRM. | `src/components/ui/skeleton.tsx` | `@grm/grm-base` |
 | `table-cell-content` | registry:ui | Table Cell Content requerido como soporte por los componentes públicos GRM. | `src/components/ui/table-cell-content.tsx` | `@grm/avatar`, `@grm/button`, `@grm/button-group`, `@grm/grm-base`, `@grm/progress` |
 | `tabs-overflow` | registry:ui | Tabs Overflow requerido como soporte por los componentes públicos GRM. | `src/components/ui/tabs-overflow.tsx` | `@grm/button`, `@grm/grm-base`, `@grm/tabs` |

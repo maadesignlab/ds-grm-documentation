@@ -1,3 +1,4 @@
+import { UpcomingRelease } from './UpcomingRelease';
 import { MinorRelease } from './MinorRelease';
 import { PatchRelease } from './PatchRelease';
 import { formatReleaseDate } from './release-date';
@@ -73,6 +74,7 @@ export function ReleasesHistory() {
           <p className="m-0 text-sm leading-5 text-muted-foreground">Las versiones se muestran de la más reciente a la más antigua.</p>
         </header>
 
+        <UpcomingRelease />
         <MinorRelease />
         <PatchRelease />
         <ReleaseCandidate />

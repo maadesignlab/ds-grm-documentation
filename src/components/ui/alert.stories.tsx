@@ -13,7 +13,7 @@ const meta = {
     actionLabel: "Ver detalle",
   },
   argTypes: {
-    variant: { name: "Estado", table: { category: "Alert" }, control: "inline-radio", options: ["default", "destructive"] },
+    variant: { name: "Estado", table: { category: "Alert" }, control: "inline-radio", options: ["default", "destructive", "success", "warning", "info"] },
     title: { name: "Título", table: { category: "Contenido" }, control: "text" },
     description: { name: "Descripción", table: { category: "Contenido" }, control: "text" },
     showIcon: { name: "Mostrar icono", table: { category: "Composición" }, control: "boolean" },

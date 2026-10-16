@@ -8,6 +8,8 @@ import {
   type Locale,
 } from "react-day-picker"
 
+import { es } from "react-day-picker/locale"
+
 import { cn } from "@/lib/utils"
 import { Button, buttonVariants } from "@/components/ui/button"
 import { ChevronLeftIcon, ChevronRightIcon, ChevronDownIcon } from "lucide-react"
@@ -18,17 +20,22 @@ function Calendar({
   showOutsideDays = true,
   captionLayout = "label",
   buttonVariant = "ghost",
-  locale,
+  locale = es,
+  initialFocus,
+  autoFocus,
   formatters,
   components,
   ...props
 }: React.ComponentProps<typeof DayPicker> & {
+  /** Compatibility alias; explicit autoFocus takes precedence. */
+  initialFocus?: boolean
   buttonVariant?: React.ComponentProps<typeof Button>["variant"]
 }) {
   const defaultClassNames = getDefaultClassNames()
 
   return (
     <DayPicker
+      autoFocus={autoFocus ?? initialFocus}
       showOutsideDays={showOutsideDays}
       className={cn(
         "group/calendar bg-background p-2 [--cell-radius:var(--radius-md)] [--cell-size:--spacing(7)] in-data-[slot=card-content]:bg-transparent in-data-[slot=popover-content]:bg-transparent",
@@ -40,7 +47,8 @@ function Calendar({
       locale={locale}
       formatters={{
         formatMonthDropdown: (date) =>
-          date.toLocaleString(locale?.code, { month: "short" }),
+          date.toLocaleString(locale?.code, { month: "long" }),
+        ...(locale?.code?.startsWith("es") ? { formatWeekdayName: (date: Date) => ["D", "L", "M", "X", "J", "V", "S"][date.getDay()] } : {}),
         ...formatters,
       }}
       classNames={{

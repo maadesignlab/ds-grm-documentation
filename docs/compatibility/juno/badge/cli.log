@@ -1,0 +1,15 @@
+- Checking registry.
+✔ Checking registry.
+- Installing dependencies.
+- Installing dependencies.
+✔ Installing dependencies.
+- Updating files.
+✔ Created 1 file:
+  - src/components/ui/badge.tsx
+ℹ Skipped 4 files: (files might be identical, use --overwrite to overwrite)
+  - src/styles/grm.css
+  - src/styles/tokens.css
+  - src/lib/utils.ts
+  - src/lib/brand-theme.ts
+Carga src/styles/grm.css desde la entrada CSS de tu aplicación (si está en src/styles/globals.css, añade @import "./grm.css";). Importa también las fuentes instaladas @fontsource-variable/inter, @fontsource-variable/jetbrains-mono, @fontsource-variable/kantumruy-pro y @fontsource-variable/plus-jakarta-sans. Aplica data-theme="grm-global", "reina-madre", "maria-linda" o "piel-sana" en un ancestro que incluya los portales, preferentemente html. El CLI copia los archivos, pero no conecta automáticamente esta hoja a tu entrada CSS.
+

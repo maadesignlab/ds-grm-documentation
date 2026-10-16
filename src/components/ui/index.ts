@@ -82,3 +82,5 @@ export {
   SidebarTrigger,
   useSidebar,
 } from "./sidebar"
+
+export { SheetResizableContent, type SheetResizableContentProps } from "./sheet-resizable"

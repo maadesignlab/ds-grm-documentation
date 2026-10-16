@@ -1,0 +1,10 @@
+
+ RUN  v4.1.11 /Users/miguelarias/DEV/REINA MADRE/ds-grm-documentation
+
+7:02:56 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+
+ Test Files  1 passed (1)
+      Tests  3 passed (3)
+   Start at  19:02:56
+   Duration  899ms (transform 0ms, setup 0ms, import 96ms, tests 325ms, environment 0ms)
+

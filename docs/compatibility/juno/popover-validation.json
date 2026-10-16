@@ -1,0 +1,32 @@
+{
+  "status": "local-only",
+  "component": "Popover",
+  "changes": [
+    "PopoverAnchor",
+    "Trigger.asChild",
+    "Content.anchor",
+    "Content.collisionPadding",
+    "Content.onOpenAutoFocus",
+    "Content.onCloseAutoFocus"
+  ],
+  "checks": {
+    "consumerTypeCases": 5,
+    "browserCompatibilityTests": 3,
+    "existingPopoverDatePickerSheetTests": 17,
+    "storybookBuild": "passed",
+    "registrySourceParity": "passed",
+    "registryDependencies": [
+      "@base-ui/react@^1.7.0",
+      "radix-ui@^1.6.7"
+    ],
+    "typecheck": "passed",
+    "targetedLint": "passed",
+    "cleanConsumerInstall": "passed; see consumer-install/result.json"
+  },
+  "limitations": [
+    "Not a full Radix API adapter",
+    "No Juno source or runtime available",
+    "Single PopoverAnchor per Root"
+  ],
+  "sourceSha256": "4266b788dad364718555bb4cba3b059863fff6ce1afa737cb5a63ad0505b6703"
+}

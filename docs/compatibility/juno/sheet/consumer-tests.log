@@ -1,0 +1,9 @@
+
+ RUN  v4.1.11 /private/var/folders/88/59bxk_h57m15k5nbylgmsbww0000gn/T/grm-consumer-1cdkd5tw
+
+
+ Test Files  1 passed (1)
+      Tests  2 passed (2)
+   Start at  19:20:20
+   Duration  1.02s (transform 0ms, setup 0ms, import 110ms, tests 489ms, environment 0ms)
+

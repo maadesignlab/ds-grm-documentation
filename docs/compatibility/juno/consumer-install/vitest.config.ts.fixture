@@ -1,0 +1,13 @@
+import { defineConfig } from 'vitest/config'
+import { playwright } from '@vitest/browser-playwright'
+import path from 'node:path'
+import tailwindcss from '@tailwindcss/vite'
+export default defineConfig({
+  plugins: [tailwindcss()],
+  optimizeDeps: { include: ["react", "react-dom", "react-dom/client"] },
+  resolve: { alias: { '@': path.resolve(import.meta.dirname, 'src') } },
+  test: {
+    include: ['tests/compatibility/*.test.tsx'],
+    browser: { viewport: { width: 1280, height: 800 }, enabled: true, headless: true, provider: playwright({}), instances: [{ browser: 'chromium' }] },
+  },
+})

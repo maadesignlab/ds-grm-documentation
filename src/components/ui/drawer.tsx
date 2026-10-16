@@ -40,16 +40,24 @@ function Drawer({
   )
 }
 
-function DrawerTrigger(props: DrawerPrimitive.Trigger.Props) {
-  return <DrawerPrimitive.Trigger data-slot="drawer-trigger" {...props} />
+function DrawerTrigger({ asChild = false, children, render, ...props }: DrawerPrimitive.Trigger.Props & { asChild?: boolean }) {
+  if (asChild && render) throw new Error("Use either asChild or render on DrawerTrigger, not both")
+  if (asChild && (!React.isValidElement(children) || children.type === React.Fragment)) {
+    throw new Error("DrawerTrigger asChild requires one non-Fragment React element")
+  }
+  return <DrawerPrimitive.Trigger data-slot="drawer-trigger" {...props} render={asChild ? children as React.ReactElement : render}>{asChild ? undefined : children}</DrawerPrimitive.Trigger>
 }
 
 function DrawerPortal(props: DrawerPrimitive.Portal.Props) {
   return <DrawerPrimitive.Portal data-slot="drawer-portal" {...props} />
 }
 
-function DrawerClose(props: DrawerPrimitive.Close.Props) {
-  return <DrawerPrimitive.Close data-slot="drawer-close" {...props} />
+function DrawerClose({ asChild = false, children, render, ...props }: DrawerPrimitive.Close.Props & { asChild?: boolean }) {
+  if (asChild && render) throw new Error("Use either asChild or render on DrawerClose, not both")
+  if (asChild && (!React.isValidElement(children) || children.type === React.Fragment)) {
+    throw new Error("DrawerClose asChild requires one non-Fragment React element")
+  }
+  return <DrawerPrimitive.Close data-slot="drawer-close" {...props} render={asChild ? children as React.ReactElement : render}>{asChild ? undefined : children}</DrawerPrimitive.Close>
 }
 
 function DrawerOverlay({ className, ...props }: DrawerPrimitive.Backdrop.Props) {

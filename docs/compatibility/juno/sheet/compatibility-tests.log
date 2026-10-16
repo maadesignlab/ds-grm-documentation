@@ -1,0 +1,10 @@
+
+ RUN  v4.1.11 /Users/miguelarias/DEV/REINA MADRE/ds-grm-documentation
+
+7:18:28 PM [vite] (client) dependency optimized: lucide-react
+
+ Test Files  1 passed (1)
+      Tests  2 passed (2)
+   Start at  19:18:27
+   Duration  1.05s (transform 0ms, setup 0ms, import 349ms, tests 236ms, environment 0ms)
+

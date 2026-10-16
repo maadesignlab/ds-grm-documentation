@@ -13,8 +13,8 @@ const meta = {
     const canvas = within(canvasElement);
     const brand = globals.brandTheme as keyof typeof tokenChanges.tokens;
     const newCount = Object.values(tokenChanges.tokens[brand]).filter(token => token.status === 'new').length;
-    await expect(await canvas.findByRole('heading', { name: 'Cambios en v1.1.0' })).toBeVisible();
-    await expect(canvas.getAllByText('Nuevo · v1.1.0')).toHaveLength(newCount);
+    await expect(await canvas.findByRole('heading', { name: `Cambios en v${tokenChanges.release}` })).toBeVisible();
+    await expect(canvas.queryAllByText(`Nuevo · v${tokenChanges.release}`)).toHaveLength(newCount);
     await expect(canvas.getByText('--table-header-background')).toBeVisible();
     await userEvent.click(canvas.getAllByText('Ver CSS', { exact: true })[0]);
     const cssPreview = canvas.getByLabelText('Código CSS para exportar');
@@ -23,19 +23,24 @@ const meta = {
     for (const section of ['--primary:', '--brand-font', '--slateGray-50:', '--background-brand-gradient-light-1:', '.brand-background::before']) {
       await expect(cssPreview).toHaveTextContent(section);
     }
-    const detail = canvas.getAllByText('Ver cambio')[0];
-    await userEvent.click(detail);
-    await expect(detail.closest('details')).toHaveAttribute('open');
-    await expect(within(detail.closest('details')!).getByRole('img', { name: /Color anterior:/ })).toBeVisible();
-    await expect(within(detail.closest('details')!).getByText(/Antes \(1.0.0\)/)).toBeVisible();
+    const details = canvas.queryAllByText('Ver cambio');
+    if (details.length) {
+      const detail = details[0];
+      await userEvent.click(detail);
+      await expect(detail.closest('details')).toHaveAttribute('open');
+      await expect(within(detail.closest('details')!).getByRole('img', { name: /Color anterior:/ })).toBeVisible();
+      await expect(within(detail.closest('details')!).getByText(`Antes (${tokenChanges.baselineRelease})`)).toBeVisible();
+    } else {
+      await expect(Object.values(tokenChanges.tokens[brand]).filter(token => token.status === 'updated')).toHaveLength(0);
+    }
     const updatedFilter = canvas.getByRole('button', { name: /Solo actualizados/ });
     await userEvent.click(updatedFilter);
     await expect(updatedFilter).toHaveAttribute('aria-pressed', 'true');
     await expect(cssPreview.textContent).toBe(completeCss);
-    await expect(canvas.queryByText('Nuevo · v1.1.0')).not.toBeInTheDocument();
+    await expect(canvas.queryByText(`Nuevo · v${tokenChanges.release}`)).not.toBeInTheDocument();
     await expect(canvas.queryByRole('heading', { name: 'Extra Colors' })).not.toBeInTheDocument();
     await userEvent.click(canvas.getByRole('button', { name: /Todos \(/ }));
-    await expect(canvas.getAllByText('Nuevo · v1.1.0')).toHaveLength(newCount);
+    await expect(canvas.queryAllByText(`Nuevo · v${tokenChanges.release}`)).toHaveLength(newCount);
   },
 } satisfies Meta<typeof BrandTokensTable>;
 export default meta;

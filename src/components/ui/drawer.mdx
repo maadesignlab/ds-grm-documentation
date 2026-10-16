@@ -10,6 +10,20 @@ import { DrawerActions, DrawerBehaviors, DrawerPositions, DrawerSpecifications, 
 ## Versión
 
 <details open className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
+<summary><strong>v1.1.0</strong> · Actualización para DS v1.3.0 · 14 de octubre de 2026</summary>
+
+**Variantes nuevas:** Ninguna.
+
+**Actualizaciones:**
+
+- DrawerTrigger y DrawerClose admiten asChild; render sigue disponible.
+- Conserva Base UI y swipeDirection; no añade compatibilidad completa con Vaul.
+
+**Tokens consumidos en esta actualización:** `sheet-drawer`. Consulta los cambios de valores por marca en Foundations → Tokens.
+
+</details>
+
+<details className="rounded-lg border border-border bg-card px-4 py-3 mb-12">
 <summary><strong>v1.0.2</strong> · Fondo conciliado con Figma · DS v1.1.1</summary>
 
   - Sustituye el fondo `popover` por `sheet-drawer`, blanco en las cuatro marcas.
@@ -40,6 +54,13 @@ import { DrawerActions, DrawerBehaviors, DrawerPositions, DrawerSpecifications, 
   - Añade inset flotante de 16 px y documenta Nested, Non-modal y Snap Points con composiciones reales.
   - Mantiene acciones fijas mientras el cuerpo puede desplazarse y permite una o dos acciones según Figma.
 </details>
+
+## Compatibilidad de composición
+
+`DrawerTrigger` y `DrawerClose` admiten `asChild` como puente hacia `render`. El hijo debe ser un único elemento React que propague props y ref. No combines `asChild` y `render`. La API nativa `render` sigue disponible.
+
+El motor continúa siendo Base UI: para la posición usa `swipeDirection` (`up`, `right`, `down`, `left`). No se promete compatibilidad completa con Vaul ni con su propiedad `direction`.
+
 
 ## Posición
 

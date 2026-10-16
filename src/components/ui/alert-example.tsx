@@ -4,7 +4,7 @@ import { Alert, AlertAction, AlertDescription, AlertTitle } from "./alert"
 import { Button } from "./button"
 
 export type AlertExampleProps = {
-  variant?: "default" | "destructive"
+  variant?: "default" | "destructive" | "success" | "warning" | "info"
   title?: string
   description?: string
   showIcon?: boolean

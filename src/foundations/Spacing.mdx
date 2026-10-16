@@ -1,0 +1,25 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { DocumentationHeader } from '../docs/DocumentationHeader';
+
+import * as SpacingStories from "./SpacingGallery.stories";
+import { SpacingGallery } from "./SpacingGallery";
+
+<Meta of={SpacingStories} name="Docs" />
+
+<DocumentationHeader title="Espaciado">
+  Compara las medidas de separación y consulta sus usos habituales. Elige según la relación entre los elementos y la geometría del componente.
+</DocumentationHeader>
+
+## Cómo leer las medidas
+
+La escala de utilidades de Tailwind parte de `--spacing`, con base de 0.25rem. Con una raíz de 16 px, una unidad corresponde a 4 px. Los valores en píxeles cambian si la aplicación modifica el tamaño raíz.
+
+<SpacingGallery />
+
+## Cómo elegir y aplicar
+
+Usa la geometría documentada del componente. Esta escala sirve para componer separaciones; no autoriza a uniformar todos los paddings. Card, Sheet y Table tienen decisiones específicas conciliadas con Figma.
+
+Los tokens exportados `--spacing-0`, `--spacing-0-5`, `--spacing-1`, `--spacing-1-5`, `--spacing-2` y `--spacing-2-5` son variables concretas del DS. No debe suponerse que existe una variable `--spacing-N` para cada utilidad Tailwind: `p-4` se calcula a partir de la escala base.
+
+En Sheet, conserva el cuerpo público y su gestión de scrollbar: el carril solo debe reservar espacio cuando existe desplazamiento. No compenses el carril superponiéndolo sobre el contenido.

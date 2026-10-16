@@ -1,0 +1,52 @@
+{
+  "baseline": "DS 1.2.0",
+  "scope": "Synthetic TypeScript consumer; not Juno runtime or its 309 reported errors",
+  "results": [
+    {
+      "id": "default-alias",
+      "expected": "\"default\"",
+      "source": "import { Badge } from \"@/components/ui/badge\"; export const View = () => <Badge variant=\"default\">Estado</Badge>;",
+      "reproduced": true,
+      "diagnostics": [
+        {
+          "code": 2322,
+          "file": "__juno_consumer_audit__.tsx",
+          "message": "Type '\"default\"' is not assignable to type '\"primary\" | \"secondary\" | \"brand-neutral\" | \"transparent\" | \"success\" | \"warning\" | \"error\" | \"destructive\" | \"info\" | null | undefined'."
+        }
+      ]
+    },
+    {
+      "id": "outline-alias",
+      "expected": "\"outline\"",
+      "source": "import { Badge } from \"@/components/ui/badge\"; export const View = () => <Badge variant=\"outline\">Estado</Badge>;",
+      "reproduced": true,
+      "diagnostics": [
+        {
+          "code": 2322,
+          "file": "__juno_consumer_audit__.tsx",
+          "message": "Type '\"outline\"' is not assignable to type '\"primary\" | \"secondary\" | \"brand-neutral\" | \"transparent\" | \"success\" | \"warning\" | \"error\" | \"destructive\" | \"info\" | null | undefined'."
+        }
+      ]
+    },
+    {
+      "id": "helper-alias",
+      "expected": "\"default\"",
+      "source": "import { badgeVariants } from \"@/components/ui/badge\"; export const classes = badgeVariants({ variant: \"default\" });",
+      "reproduced": true,
+      "diagnostics": [
+        {
+          "code": 2322,
+          "file": "__juno_consumer_audit__.tsx",
+          "message": "Type '\"default\"' is not assignable to type '\"primary\" | \"secondary\" | \"brand-neutral\" | \"transparent\" | \"success\" | \"warning\" | \"error\" | \"destructive\" | \"info\" | null | undefined'."
+        }
+      ]
+    },
+    {
+      "id": "current-api",
+      "expected": null,
+      "source": "import { Badge, badgeVariants } from \"@/components/ui/badge\"; export const View = () => <Badge variant=\"success\" appearance=\"outline\" size=\"lg\">Estado</Badge>; export const classes = badgeVariants({variant:\"primary\"});",
+      "reproduced": true,
+      "diagnostics": []
+    }
+  ]
+}

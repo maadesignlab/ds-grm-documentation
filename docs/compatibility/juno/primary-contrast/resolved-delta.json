@@ -1,0 +1,113 @@
+{
+  "grm-global": [],
+  "reina-madre": [
+    {
+      "token": "--primary-hover",
+      "before": "#d8618e",
+      "after": "#be1b58"
+    },
+    {
+      "token": "--primary-active",
+      "before": "#b84772",
+      "after": "#9c1648"
+    },
+    {
+      "token": "--primary-20",
+      "before": "rgb(237.000001 128.000008 168.000005 / 20%)",
+      "after": "rgb(224.000002 38.000002 107.000001 / 20%)"
+    },
+    {
+      "token": "--primary-10",
+      "before": "rgb(237.000001 128.000008 168.000005 / 10%)",
+      "after": "rgb(224.000002 38.000002 107.000001 / 10%)"
+    },
+    {
+      "token": "--primary-default-foreground",
+      "before": "#95375d",
+      "after": "#9c1648"
+    },
+    {
+      "token": "--primary-15",
+      "before": "rgb(237.000001 128.000008 168.000005 / 15%)",
+      "after": "rgb(224.000002 38.000002 107.000001 / 15%)"
+    },
+    {
+      "token": "--primary-default-border",
+      "before": "#ed80a8",
+      "after": "#e0266b"
+    },
+    {
+      "token": "--primary",
+      "before": "#ed80a8",
+      "after": "#e0266b"
+    },
+    {
+      "token": "--primary-5",
+      "before": "rgb(237.000001 128.000008 168.000005 / 5%)",
+      "after": "rgb(224.000002 38.000002 107.000001 / 5%)"
+    },
+    {
+      "token": "--button-brand-gradient-1",
+      "before": "#d8618e",
+      "after": "#e0266b"
+    }
+  ],
+  "maria-linda": [],
+  "piel-sana": [
+    {
+      "token": "--primary-hover",
+      "before": "#e6782e",
+      "after": "#a84400"
+    },
+    {
+      "token": "--primary-active",
+      "before": "#94471a",
+      "after": "#893700"
+    },
+    {
+      "token": "--primary-20",
+      "before": "rgb(255 146.000006 72.000003 / 20%)",
+      "after": "rgb(201.000003 81.000003 0 / 20%)"
+    },
+    {
+      "token": "--primary-10",
+      "before": "rgb(255 146.000006 72.000003 / 10%)",
+      "after": "rgb(201.000003 81.000003 0 / 10%)"
+    },
+    {
+      "token": "--primary-default-foreground",
+      "before": "#94471a",
+      "after": "#893700"
+    },
+    {
+      "token": "--primary-15",
+      "before": "rgb(255 146.000006 72.000003 / 15%)",
+      "after": "rgb(201.000003 81.000003 0 / 15%)"
+    },
+    {
+      "token": "--primary-default-border",
+      "before": "#ff9248",
+      "after": "#c95100"
+    },
+    {
+      "token": "--primary",
+      "before": "#ff9248",
+      "after": "#c95100"
+    },
+    {
+      "token": "--primary-5",
+      "before": "rgb(255 146.000006 72.000003 / 5%)",
+      "after": "rgb(201.000003 81.000003 0 / 5%)"
+    },
+    {
+      "token": "--button-brand-gradient-2",
+      "before": "#bf5f21",
+      "after": "#a84400"
+    },
+    {
+      "token": "--sidebar-ring",
+      "before": "#bf5f21",
+      "after": "#a84400"
+    }
+  ]
+}

@@ -87,8 +87,8 @@ const behavior = [
   ["Finalización", "activeStep=complete", "Conserva el valor del último paso", "Composición GRM"],
 ] as const
 const contrast = [
-  ["Reina Madre", "--primary-foreground / --primary", "2,54:1", "No cumple AA · excepción de marca"],
-  ["Piel Sana", "--primary-foreground / --primary", "2,22:1", "No cumple AA · excepción de marca"],
+  ["Reina Madre", "--primary-foreground / --primary", "4,507:1", "Cumple AA · primary sólido"],
+  ["Piel Sana", "--primary-foreground / --primary", "4,506:1", "Cumple AA · primary sólido"],
 ] as const
 
 export function StepperSpecifications() {
@@ -97,6 +97,6 @@ export function StepperSpecifications() {
     <DocsSection title="Tamaño y espaciado"><DocsTable columns={["Propiedad", "Default", "Small", "Referencia"]} rows={geometry} /></DocsSection>
     <DocsSection title="Color"><DocsTable columns={["Estado o parte", "Fondo", "Contenido", "Borde"]} rows={colors} /></DocsSection>
     <DocsSection title="Comportamiento y accesibilidad"><DocsTable columns={["Capacidad", "API", "Comportamiento", "Origen"]} rows={behavior} /></DocsSection>
-    <DocsSection title="Excepciones de contraste · botón Continuar"><DocsTable columns={["Marca", "Tokens", "Contraste", "Estado"]} rows={contrast} /></DocsSection>
+    <DocsSection title="Contraste actual · botón Continuar"><DocsTable columns={["Marca", "Tokens", "Contraste", "Estado"]} rows={contrast} /></DocsSection>
   </div>
 }

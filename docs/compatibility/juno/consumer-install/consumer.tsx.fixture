@@ -1,0 +1,5 @@
+import { createRef } from "react";
+import { Popover, PopoverAnchor, PopoverTrigger, PopoverContent } from "./components/ui/popover";
+const anchorRef = createRef<HTMLDivElement>();
+export function Consumer() { return <Popover><PopoverAnchor ref={anchorRef}>Referencia</PopoverAnchor><PopoverTrigger asChild><button>Abrir</button></PopoverTrigger><PopoverContent collisionPadding={12} onOpenAutoFocus={e => e.preventDefault()} onCloseAutoFocus={e => e.preventDefault()}><input aria-label="Nombre" /></PopoverContent></Popover>; }
+export function ModernConsumer() { return <Popover><PopoverTrigger render={<button />}>Actual</PopoverTrigger><PopoverContent anchor={anchorRef} initialFocus={false} container={null}>Contenido</PopoverContent></Popover>; }

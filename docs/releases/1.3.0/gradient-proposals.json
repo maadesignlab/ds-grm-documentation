@@ -1,0 +1,38 @@
+[
+  {
+    "brand": "Reina Madre",
+    "tokens": [
+      "Reina Madre/primary/600",
+      "Reina Madre/secondary/600"
+    ],
+    "colors": [
+      "#e0266b",
+      "#8c48a7"
+    ],
+    "minimumRatio": 4.507394029375205,
+    "passes": true,
+    "applied": false,
+    "requires": "Design approval; not DEV diagnostics",
+    "stops": 2,
+    "angle": 135,
+    "foreground": "#ffffff"
+  },
+  {
+    "brand": "Piel Sana",
+    "tokens": [
+      "Piel Sana/primary/600",
+      "Piel Sana/primary/700"
+    ],
+    "colors": [
+      "#c95100",
+      "#a84400"
+    ],
+    "minimumRatio": 4.505980135039958,
+    "passes": true,
+    "applied": false,
+    "requires": "Design approval; not DEV diagnostics",
+    "stops": 2,
+    "angle": 135,
+    "foreground": "#ffffff"
+  }
+]

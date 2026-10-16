@@ -46,7 +46,7 @@ const SEMANTIC_GROUPS: readonly SemanticGroup[] = [
   { title: 'Chart', prefixes: ['--chart'] },
   { title: 'Sidebar', prefixes: ['--sidebar'] },
   { title: 'Sheet / Drawer', prefixes: ['--sheet-drawer'] },
-  { title: 'Typography', prefixes: ['--brand-font', '--font-weight'] },
+  { title: 'Tipografía', prefixes: ['--brand-font', '--font-weight'] },
   { title: 'Table', prefixes: ['--table'] },
   { title: 'Button', prefixes: ['--button'] },
 ] as const;
