@@ -23,7 +23,7 @@ export const LocalReview: Story = {
       await expect(upcoming.getByRole('region', { name: new RegExp(`^Cambios de ${name} ·`) })).toHaveTextContent('v1.3.0');
     }
     await expect(upcoming.getByText('Última publicada')).toBeVisible();
-    await expect(upcoming.getByText('cerrada-con novedades')).toBeVisible();
+    await expect(upcoming.getByText('Cerrada-Pendiente validaciones')).toBeVisible();
     await userEvent.click(upcoming.getByText('Validación de cierre', { exact: true }));
     for (const title of ['DS-130-01 · Gradientes de Reina Madre y Piel Sana', 'DS-130-07 · Instalación y estilos del consumidor']) {
       await expect(upcoming.getByText(title, { exact: true })).toBeVisible();
